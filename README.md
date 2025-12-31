@@ -60,7 +60,7 @@ Run analysis scripts from the `Proposed` directory after model evaluation.
 ### Outputs
 
 - **`attention_reports/`**  
-  Contains all generated artifacts:
+  Contains all generated outputs:
   - JSON summaries  
   - CSV files  
   - Visualization plots  
