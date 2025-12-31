@@ -6,26 +6,6 @@ This project focuses on text classification using the **20 Newsgroups dataset**.
 ---
 
 
-### Baseline Models
-
-The **`Base/`** directory contains baseline implementations used for comparison
-with the proposed attention-based model.
-
----
-
-### Outputs
-
-- **`attention_reports/`**  
-  Contains all generated artifacts:
-  - JSON summaries  
-  - CSV files  
-  - Visualization plots  
-
-- **Evaluation files**
-  - `test_metrics.csv`
-  - `confusion_matrix_test.csv`
-
-
 ---
 
 ## How to Run
