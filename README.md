@@ -99,3 +99,6 @@ directory.
 1. Train the proposed model:
    ```bash
    python train.py
+2. Test the proposed model:
+   ```bash
+   python test.py
