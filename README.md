@@ -4,8 +4,8 @@ This project focuses on text classification using the **20 Newsgroups dataset**.
 It explores a BiLSTM-based architecture with multiple attention mechanisms and
 provides both quantitative evaluation and detailed analysis of model behavior.
 
-The repository is structured to clearly separate **baseline models**, the
-**proposed attention-based model**, and **analysis utilities**.
+The repository is structured to clearly separate **baseline models** and the
+**proposed attention-based model**.
 
 ---
 
@@ -13,7 +13,7 @@ The repository is structured to clearly separate **baseline models**, the
 
 ### Main Training & Evaluation (Proposed Model)
 
-- **`train.py`**  
+**`train.py`**  
   Trains the classification model and automatically saves the best checkpoint
   based on validation loss.
 
