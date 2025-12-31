@@ -90,7 +90,7 @@ directory.
 - **Evaluation files**
   - `test_metrics.csv`
   - `confusion_matrix_test.csv`
-  - Additional `.png` plots generated during evaluation
+
 
 ---
 
