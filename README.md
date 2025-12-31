@@ -13,7 +13,7 @@ The repository is structured to clearly separate **baseline models** and the
 
 ### Main Training & Evaluation (Proposed Model)
 
-**`train.py`**  
+**train.py**  
   Trains the classification model and automatically saves the best checkpoint
   based on validation loss.
 
