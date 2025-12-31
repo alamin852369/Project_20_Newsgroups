@@ -1,0 +1,3800 @@
+{
+  "true_label_id": 17,
+  "pred_label_id": 17,
+  "true_label_name": "talk.politics.mideast",
+  "pred_label_name": "talk.politics.mideast",
+  "pred_confidence": 0.8309516310691833,
+  "num_sents": 20,
+  "sentence_summaries": [
+    {
+      "sentence_id": 0,
+      "sentence_text": "they were attacking the iraqis to drive them out of kuwait a country whose citizens have close blood and business ties to saudi citizens",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "they",
+          "token_pos": 0,
+          "word_score_logit": -0.013939136639237404,
+          "word_attn_weight": 0.04351138323545456
+        },
+        {
+          "rank": 1,
+          "token": "business",
+          "token_pos": 19,
+          "word_score_logit": -0.036198973655700684,
+          "word_attn_weight": 0.04255352541804314
+        },
+        {
+          "rank": 2,
+          "token": "were",
+          "token_pos": 1,
+          "word_score_logit": -0.03787834942340851,
+          "word_attn_weight": 0.042482126504182816
+        },
+        {
+          "rank": 3,
+          "token": "whose",
+          "token_pos": 13,
+          "word_score_logit": -0.039079517126083374,
+          "word_attn_weight": 0.042431123554706573
+        },
+        {
+          "rank": 4,
+          "token": "drive",
+          "token_pos": 6,
+          "word_score_logit": -0.03930088132619858,
+          "word_attn_weight": 0.04242173209786415
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "sentence_text": "and me thinks if the us had not helped out the iraqis would have <UNK> saudi arabia too or at least the eastern <UNK>",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "the",
+          "token_pos": 21,
+          "word_score_logit": 0.04392826557159424,
+          "word_attn_weight": 0.04412142187356949
+        },
+        {
+          "rank": 1,
+          "token": "least",
+          "token_pos": 20,
+          "word_score_logit": 0.04016401618719101,
+          "word_attn_weight": 0.04395565018057823
+        },
+        {
+          "rank": 2,
+          "token": "at",
+          "token_pos": 19,
+          "word_score_logit": 0.03747444599866867,
+          "word_attn_weight": 0.04383758455514908
+        },
+        {
+          "rank": 3,
+          "token": "eastern",
+          "token_pos": 22,
+          "word_score_logit": 0.01026055309921503,
+          "word_attn_weight": 0.042660679668188095
+        },
+        {
+          "rank": 4,
+          "token": "or",
+          "token_pos": 18,
+          "word_score_logit": 0.00908374972641468,
+          "word_attn_weight": 0.04261050745844841
+        }
+      ]
+    },
+    {
+      "sentence_id": 2,
+      "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "his",
+          "token_pos": 49,
+          "word_score_logit": -0.0012472467496991158,
+          "word_attn_weight": 0.021145613864064217
+        },
+        {
+          "rank": 1,
+          "token": "of",
+          "token_pos": 27,
+          "word_score_logit": -0.0017022565007209778,
+          "word_attn_weight": 0.021135995164513588
+        },
+        {
+          "rank": 2,
+          "token": "he",
+          "token_pos": 37,
+          "word_score_logit": -0.009607300162315369,
+          "word_attn_weight": 0.02096957340836525
+        },
+        {
+          "rank": 3,
+          "token": "that",
+          "token_pos": 28,
+          "word_score_logit": -0.010236065834760666,
+          "word_attn_weight": 0.020956391468644142
+        },
+        {
+          "rank": 4,
+          "token": "was",
+          "token_pos": 38,
+          "word_score_logit": -0.010423906147480011,
+          "word_attn_weight": 0.020952455699443817
+        }
+      ]
+    },
+    {
+      "sentence_id": 3,
+      "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "have",
+          "token_pos": 3,
+          "word_score_logit": -0.027675218880176544,
+          "word_attn_weight": 0.04907000809907913
+        },
+        {
+          "rank": 1,
+          "token": "so",
+          "token_pos": 0,
+          "word_score_logit": -0.029597535729408264,
+          "word_attn_weight": 0.04897576570510864
+        },
+        {
+          "rank": 2,
+          "token": "back",
+          "token_pos": 10,
+          "word_score_logit": -0.03193638473749161,
+          "word_attn_weight": 0.04886135458946228
+        },
+        {
+          "rank": 3,
+          "token": "and",
+          "token_pos": 8,
+          "word_score_logit": -0.03313789144158363,
+          "word_attn_weight": 0.048802684992551804
+        },
+        {
+          "rank": 4,
+          "token": "the",
+          "token_pos": 11,
+          "word_score_logit": -0.03320729732513428,
+          "word_attn_weight": 0.0487992949783802
+        }
+      ]
+    },
+    {
+      "sentence_id": 4,
+      "sentence_text": "i think that it is a very good idea to not have governments have an official religion de facto or de <UNK> because with human nature like it is the ambitious and not the <UNK> will always be the ones who rise to power",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "power",
+          "token_pos": 43,
+          "word_score_logit": 0.028739720582962036,
+          "word_attn_weight": 0.023693643510341644
+        },
+        {
+          "rank": 1,
+          "token": "always",
+          "token_pos": 36,
+          "word_score_logit": 0.026476088911294937,
+          "word_attn_weight": 0.023640070110559464
+        },
+        {
+          "rank": 2,
+          "token": "the",
+          "token_pos": 38,
+          "word_score_logit": 0.02417943626642227,
+          "word_attn_weight": 0.023585839197039604
+        },
+        {
+          "rank": 3,
+          "token": "be",
+          "token_pos": 37,
+          "word_score_logit": 0.01988283358514309,
+          "word_attn_weight": 0.023484718054533005
+        },
+        {
+          "rank": 4,
+          "token": "not",
+          "token_pos": 32,
+          "word_score_logit": 0.01819252222776413,
+          "word_attn_weight": 0.02344505488872528
+        }
+      ]
+    },
+    {
+      "sentence_id": 5,
+      "sentence_text": "there are just too many people in this world or any country for the citizens to really know if a leader is really devout or if he is just a slick operator",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "operator",
+          "token_pos": 31,
+          "word_score_logit": 0.04258900135755539,
+          "word_attn_weight": 0.03275543823838234
+        },
+        {
+          "rank": 1,
+          "token": "he",
+          "token_pos": 26,
+          "word_score_logit": 0.021858375519514084,
+          "word_attn_weight": 0.03208338841795921
+        },
+        {
+          "rank": 2,
+          "token": "know",
+          "token_pos": 17,
+          "word_score_logit": 0.01851930469274521,
+          "word_attn_weight": 0.03197643533349037
+        },
+        {
+          "rank": 3,
+          "token": "if",
+          "token_pos": 25,
+          "word_score_logit": 0.01755482703447342,
+          "word_attn_weight": 0.0319456122815609
+        },
+        {
+          "rank": 4,
+          "token": "the",
+          "token_pos": 13,
+          "word_score_logit": 0.01686709187924862,
+          "word_attn_weight": 0.031923651695251465
+        }
+      ]
+    },
+    {
+      "sentence_id": 6,
+      "sentence_text": "you make it sound like these guys are angels <UNK>",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "these",
+          "token_pos": 5,
+          "word_score_logit": 0.07224157452583313,
+          "word_attn_weight": 0.10288117080926895
+        },
+        {
+          "rank": 1,
+          "token": "angels",
+          "token_pos": 8,
+          "word_score_logit": 0.06946578621864319,
+          "word_attn_weight": 0.1025959923863411
+        },
+        {
+          "rank": 2,
+          "token": "like",
+          "token_pos": 4,
+          "word_score_logit": 0.06364040821790695,
+          "word_attn_weight": 0.10200006514787674
+        },
+        {
+          "rank": 3,
+          "token": "guys",
+          "token_pos": 6,
+          "word_score_logit": 0.06350476294755936,
+          "word_attn_weight": 0.10198622941970825
+        },
+        {
+          "rank": 4,
+          "token": "sound",
+          "token_pos": 3,
+          "word_score_logit": 0.05172538384795189,
+          "word_attn_weight": 0.10079194605350494
+        }
+      ]
+    },
+    {
+      "sentence_id": 7,
+      "sentence_text": "in your clarinet posting you edited out some stuff was it the following <UNK> new york times reported that this group definitely is more conservative than even <UNK> <UNK> and his followers who think that the house of <UNK> does not rule the country <UNK> enough",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "clarinet",
+          "token_pos": 2,
+          "word_score_logit": 0.05013339966535568,
+          "word_attn_weight": 0.02294088527560234
+        },
+        {
+          "rank": 1,
+          "token": "his",
+          "token_pos": 30,
+          "word_score_logit": 0.04815533757209778,
+          "word_attn_weight": 0.022895552217960358
+        },
+        {
+          "rank": 2,
+          "token": "in",
+          "token_pos": 0,
+          "word_score_logit": 0.03309664875268936,
+          "word_attn_weight": 0.02255335822701454
+        },
+        {
+          "rank": 3,
+          "token": "does",
+          "token_pos": 39,
+          "word_score_logit": 0.030002109706401825,
+          "word_attn_weight": 0.022483672946691513
+        },
+        {
+          "rank": 4,
+          "token": "followers",
+          "token_pos": 31,
+          "word_score_logit": 0.029974546283483505,
+          "word_attn_weight": 0.02248305268585682
+        }
+      ]
+    },
+    {
+      "sentence_id": 8,
+      "sentence_text": "the nyt reported that besides complaining that the government was not conservative enough they have asserted that the approx",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "they",
+          "token_pos": 13,
+          "word_score_logit": 0.028860146179795265,
+          "word_attn_weight": 0.05413646623492241
+        },
+        {
+          "rank": 1,
+          "token": "that",
+          "token_pos": 16,
+          "word_score_logit": 0.028652120381593704,
+          "word_attn_weight": 0.05412520468235016
+        },
+        {
+          "rank": 2,
+          "token": "have",
+          "token_pos": 14,
+          "word_score_logit": 0.025881445035338402,
+          "word_attn_weight": 0.05397544801235199
+        },
+        {
+          "rank": 3,
+          "token": "the",
+          "token_pos": 17,
+          "word_score_logit": 0.024654433131217957,
+          "word_attn_weight": 0.05390926077961922
+        },
+        {
+          "rank": 4,
+          "token": "asserted",
+          "token_pos": 15,
+          "word_score_logit": 0.01877794787287712,
+          "word_attn_weight": 0.05359339341521263
+        }
+      ]
+    },
+    {
+      "sentence_id": 9,
+      "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "in",
+          "token_pos": 3,
+          "word_score_logit": -0.001453496515750885,
+          "word_attn_weight": 0.05111652612686157
+        },
+        {
+          "rank": 1,
+          "token": "the",
+          "token_pos": 17,
+          "word_score_logit": -0.00572940893471241,
+          "word_attn_weight": 0.05089842528104782
+        },
+        {
+          "rank": 2,
+          "token": "a",
+          "token_pos": 8,
+          "word_score_logit": -0.007512668147683144,
+          "word_attn_weight": 0.050807736814022064
+        },
+        {
+          "rank": 3,
+          "token": "are",
+          "token_pos": 6,
+          "word_score_logit": -0.00961223617196083,
+          "word_attn_weight": 0.05070117861032486
+        },
+        {
+          "rank": 4,
+          "token": "<UNK>",
+          "token_pos": 2,
+          "word_score_logit": -0.009639885276556015,
+          "word_attn_weight": 0.05069977045059204
+        }
+      ]
+    },
+    {
+      "sentence_id": 10,
+      "sentence_text": "diplomatic guy <UNK> bin <UNK> isn't he <UNK>",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "bin",
+          "token_pos": 3,
+          "word_score_logit": 0.014272795058786869,
+          "word_attn_weight": 0.12829725444316864
+        },
+        {
+          "rank": 1,
+          "token": "he",
+          "token_pos": 6,
+          "word_score_logit": 0.00982783455401659,
+          "word_attn_weight": 0.12772823870182037
+        },
+        {
+          "rank": 2,
+          "token": "<UNK>",
+          "token_pos": 4,
+          "word_score_logit": -0.00868808850646019,
+          "word_attn_weight": 0.12538498640060425
+        },
+        {
+          "rank": 3,
+          "token": "guy",
+          "token_pos": 1,
+          "word_score_logit": -0.009271524846553802,
+          "word_attn_weight": 0.12531186640262604
+        },
+        {
+          "rank": 4,
+          "token": "isn't",
+          "token_pos": 5,
+          "word_score_logit": -0.01161915436387062,
+          "word_attn_weight": 0.12501801550388336
+        }
+      ]
+    },
+    {
+      "sentence_id": 11,
+      "sentence_text": "called for severe punishment of the 40 or so women who drove in public a while back to protest the ban on women driving",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "drove",
+          "token_pos": 11,
+          "word_score_logit": 0.03022543527185917,
+          "word_attn_weight": 0.04303871840238571
+        },
+        {
+          "rank": 1,
+          "token": "severe",
+          "token_pos": 2,
+          "word_score_logit": 0.02957814745604992,
+          "word_attn_weight": 0.04301087185740471
+        },
+        {
+          "rank": 2,
+          "token": "of",
+          "token_pos": 4,
+          "word_score_logit": 0.015565360896289349,
+          "word_attn_weight": 0.042412370443344116
+        },
+        {
+          "rank": 3,
+          "token": "for",
+          "token_pos": 1,
+          "word_score_logit": 0.013944451697170734,
+          "word_attn_weight": 0.04234367981553078
+        },
+        {
+          "rank": 4,
+          "token": "called",
+          "token_pos": 0,
+          "word_score_logit": 0.013526388444006443,
+          "word_attn_weight": 0.042325980961322784
+        }
+      ]
+    },
+    {
+      "sentence_id": 12,
+      "sentence_text": "the guy from the group who said this <UNK> al <UNK> said that these women should be fired from their jobs <UNK> and <UNK> as prostitutes",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "al",
+          "token_pos": 9,
+          "word_score_logit": 0.03644706308841705,
+          "word_attn_weight": 0.04059671610593796
+        },
+        {
+          "rank": 1,
+          "token": "the",
+          "token_pos": 0,
+          "word_score_logit": 0.0160692036151886,
+          "word_attn_weight": 0.03977781534194946
+        },
+        {
+          "rank": 2,
+          "token": "who",
+          "token_pos": 5,
+          "word_score_logit": 0.010341998189687729,
+          "word_attn_weight": 0.039550650864839554
+        },
+        {
+          "rank": 3,
+          "token": "group",
+          "token_pos": 4,
+          "word_score_logit": 0.007610565051436424,
+          "word_attn_weight": 0.0394427664577961
+        },
+        {
+          "rank": 4,
+          "token": "be",
+          "token_pos": 16,
+          "word_score_logit": 0.006002015899866819,
+          "word_attn_weight": 0.03937937319278717
+        }
+      ]
+    },
+    {
+      "sentence_id": 13,
+      "sentence_text": "is this what you want to see happen <UNK>",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "is",
+          "token_pos": 0,
+          "word_score_logit": 0.01248436514288187,
+          "word_attn_weight": 0.1124475747346878
+        },
+        {
+          "rank": 1,
+          "token": "see",
+          "token_pos": 6,
+          "word_score_logit": 0.01017699297517538,
+          "word_attn_weight": 0.1121884137392044
+        },
+        {
+          "rank": 2,
+          "token": "what",
+          "token_pos": 2,
+          "word_score_logit": 0.009603448212146759,
+          "word_attn_weight": 0.11212408542633057
+        },
+        {
+          "rank": 3,
+          "token": "this",
+          "token_pos": 1,
+          "word_score_logit": 0.0033736443147063255,
+          "word_attn_weight": 0.11142775416374207
+        },
+        {
+          "rank": 4,
+          "token": "happen",
+          "token_pos": 7,
+          "word_score_logit": 0.0028324159793555737,
+          "word_attn_weight": 0.11136745661497116
+        }
+      ]
+    },
+    {
+      "sentence_id": 14,
+      "sentence_text": "i've heard many muslims say that the ban on women driving has no basis in the qur'an the <UNK> etc",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "no",
+          "token_pos": 12,
+          "word_score_logit": 0.04947688803076744,
+          "word_attn_weight": 0.05231780186295509
+        },
+        {
+          "rank": 1,
+          "token": "in",
+          "token_pos": 14,
+          "word_score_logit": 0.030165424570441246,
+          "word_attn_weight": 0.051317159086465836
+        },
+        {
+          "rank": 2,
+          "token": "basis",
+          "token_pos": 13,
+          "word_score_logit": 0.02823529951274395,
+          "word_attn_weight": 0.05121821165084839
+        },
+        {
+          "rank": 3,
+          "token": "has",
+          "token_pos": 11,
+          "word_score_logit": 0.026559898629784584,
+          "word_attn_weight": 0.05113247036933899
+        },
+        {
+          "rank": 4,
+          "token": "the",
+          "token_pos": 15,
+          "word_score_logit": 0.023982128128409386,
+          "word_attn_weight": 0.05100082978606224
+        }
+      ]
+    },
+    {
+      "sentence_id": 15,
+      "sentence_text": "yet these folks not only like the ban they want these women falsely called prostitutes",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "yet",
+          "token_pos": 0,
+          "word_score_logit": 0.01740797609090805,
+          "word_attn_weight": 0.06879668682813644
+        },
+        {
+          "rank": 1,
+          "token": "not",
+          "token_pos": 3,
+          "word_score_logit": 0.010352399200201035,
+          "word_attn_weight": 0.06831299513578415
+        },
+        {
+          "rank": 2,
+          "token": "only",
+          "token_pos": 4,
+          "word_score_logit": 0.010263326577842236,
+          "word_attn_weight": 0.06830691546201706
+        },
+        {
+          "rank": 3,
+          "token": "these",
+          "token_pos": 1,
+          "word_score_logit": 0.009502839297056198,
+          "word_attn_weight": 0.0682549849152565
+        },
+        {
+          "rank": 4,
+          "token": "like",
+          "token_pos": 5,
+          "word_score_logit": 0.008036188781261444,
+          "word_attn_weight": 0.0681549459695816
+        }
+      ]
+    },
+    {
+      "sentence_id": 16,
+      "sentence_text": "if i were you i'd choose my heroes wisely <UNK> not just <UNK> rally behind anyone who hates anyone you hate",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "anyone",
+          "token_pos": 15,
+          "word_score_logit": 0.04672038555145264,
+          "word_attn_weight": 0.049360621720552444
+        },
+        {
+          "rank": 1,
+          "token": "anyone",
+          "token_pos": 18,
+          "word_score_logit": 0.032829802483320236,
+          "word_attn_weight": 0.048679716885089874
+        },
+        {
+          "rank": 2,
+          "token": "behind",
+          "token_pos": 14,
+          "word_score_logit": 0.026536433026194572,
+          "word_attn_weight": 0.04837431386113167
+        },
+        {
+          "rank": 3,
+          "token": "who",
+          "token_pos": 16,
+          "word_score_logit": 0.02542165108025074,
+          "word_attn_weight": 0.04832042008638382
+        },
+        {
+          "rank": 4,
+          "token": "not",
+          "token_pos": 10,
+          "word_score_logit": 0.02512076310813427,
+          "word_attn_weight": 0.04830588772892952
+        }
+      ]
+    },
+    {
+      "sentence_id": 17,
+      "sentence_text": "say that women should not be allowed to work",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "allowed",
+          "token_pos": 6,
+          "word_score_logit": 0.03681556135416031,
+          "word_attn_weight": 0.11406698077917099
+        },
+        {
+          "rank": 1,
+          "token": "not",
+          "token_pos": 4,
+          "word_score_logit": 0.016927529126405716,
+          "word_attn_weight": 0.11182081699371338
+        },
+        {
+          "rank": 2,
+          "token": "say",
+          "token_pos": 0,
+          "word_score_logit": 0.015541591681540012,
+          "word_attn_weight": 0.11166595667600632
+        },
+        {
+          "rank": 3,
+          "token": "to",
+          "token_pos": 7,
+          "word_score_logit": 0.014959791675209999,
+          "word_attn_weight": 0.11160100251436234
+        },
+        {
+          "rank": 4,
+          "token": "work",
+          "token_pos": 8,
+          "word_score_logit": 0.014134685508906841,
+          "word_attn_weight": 0.11150895804166794
+        }
+      ]
+    },
+    {
+      "sentence_id": 18,
+      "sentence_text": "say that tv and radio are too immoral in the kingdom",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "say",
+          "token_pos": 0,
+          "word_score_logit": 0.01638556271791458,
+          "word_attn_weight": 0.09404560923576355
+        },
+        {
+          "rank": 1,
+          "token": "that",
+          "token_pos": 1,
+          "word_score_logit": 0.00641992362216115,
+          "word_attn_weight": 0.09311304241418839
+        },
+        {
+          "rank": 2,
+          "token": "radio",
+          "token_pos": 4,
+          "word_score_logit": -0.003083357587456703,
+          "word_attn_weight": 0.0922323539853096
+        },
+        {
+          "rank": 3,
+          "token": "tv",
+          "token_pos": 2,
+          "word_score_logit": -0.006014754064381123,
+          "word_attn_weight": 0.09196238219738007
+        },
+        {
+          "rank": 4,
+          "token": "and",
+          "token_pos": 3,
+          "word_score_logit": -0.010538378730416298,
+          "word_attn_weight": 0.09154731035232544
+        }
+      ]
+    },
+    {
+      "sentence_id": 19,
+      "sentence_text": "now the house of <UNK> is neither my least nor my most favorite government on earth i think they restrict religious and political <UNK> a lot among other things",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "earth",
+          "token_pos": 15,
+          "word_score_logit": 0.04776168242096901,
+          "word_attn_weight": 0.0358092300593853
+        },
+        {
+          "rank": 1,
+          "token": "neither",
+          "token_pos": 6,
+          "word_score_logit": 0.04249413684010506,
+          "word_attn_weight": 0.035621099174022675
+        },
+        {
+          "rank": 2,
+          "token": "i",
+          "token_pos": 16,
+          "word_score_logit": 0.03177783638238907,
+          "word_attn_weight": 0.03524141013622284
+        },
+        {
+          "rank": 3,
+          "token": "other",
+          "token_pos": 27,
+          "word_score_logit": 0.02761111781001091,
+          "word_attn_weight": 0.03509487956762314
+        },
+        {
+          "rank": 4,
+          "token": "the",
+          "token_pos": 1,
+          "word_score_logit": 0.024756569415330887,
+          "word_attn_weight": 0.03499484062194824
+        }
+      ]
+    }
+  ],
+  "query_summaries": [
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "they",
+      "token_pos": 0,
+      "word_score_logit": -0.013939136639237404,
+      "word_attn_weight": 0.04351138323545456,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.32212212681770325,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.10476057976484299,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.08922909945249557,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "business",
+      "token_pos": 19,
+      "word_score_logit": -0.036198973655700684,
+      "word_attn_weight": 0.04255352541804314,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.33666980266571045,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.10504497587680817,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.09464490413665771,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "were",
+      "token_pos": 1,
+      "word_score_logit": -0.03787834942340851,
+      "word_attn_weight": 0.042482126504182816,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.36896345019340515,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.10662879049777985,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.08779813349246979,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "whose",
+      "token_pos": 13,
+      "word_score_logit": -0.039079517126083374,
+      "word_attn_weight": 0.042431123554706573,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.4767630398273468,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.11052067577838898,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.09367281198501587,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "drive",
+      "token_pos": 6,
+      "word_score_logit": -0.03930088132619858,
+      "word_attn_weight": 0.04242173209786415,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.24790532886981964,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.09326009452342987,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.08466028422117233,
+          "sentence_text": "they were attacking the iraqis to drive them out of kuwait a country whose citizens have close blood and business ties to saudi citizens"
+        }
+      ]
+    },
+    {
+      "query_id": 5,
+      "from_sentence_id": 1,
+      "token": "the",
+      "token_pos": 21,
+      "word_score_logit": 0.04392826557159424,
+      "word_attn_weight": 0.04412142187356949,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.2726566791534424,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.09475988894701004,
+          "sentence_text": "they were attacking the iraqis to drive them out of kuwait a country whose citizens have close blood and business ties to saudi citizens"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.09354594349861145,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 6,
+      "from_sentence_id": 1,
+      "token": "least",
+      "token_pos": 20,
+      "word_score_logit": 0.04016401618719101,
+      "word_attn_weight": 0.04395565018057823,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.2833440899848938,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.09674341231584549,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 9,
+          "attn_weight": 0.09642698615789413,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        }
+      ]
+    },
+    {
+      "query_id": 7,
+      "from_sentence_id": 1,
+      "token": "at",
+      "token_pos": 19,
+      "word_score_logit": 0.03747444599866867,
+      "word_attn_weight": 0.04383758455514908,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.27010852098464966,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.09608127176761627,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.09530806541442871,
+          "sentence_text": "they were attacking the iraqis to drive them out of kuwait a country whose citizens have close blood and business ties to saudi citizens"
+        }
+      ]
+    },
+    {
+      "query_id": 8,
+      "from_sentence_id": 1,
+      "token": "eastern",
+      "token_pos": 22,
+      "word_score_logit": 0.01026055309921503,
+      "word_attn_weight": 0.042660679668188095,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.280217707157135,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.09316635876893997,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.09145496785640717,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 9,
+      "from_sentence_id": 1,
+      "token": "or",
+      "token_pos": 18,
+      "word_score_logit": 0.00908374972641468,
+      "word_attn_weight": 0.04261050745844841,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.23589888215065002,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.0952061340212822,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.09398171305656433,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 10,
+      "from_sentence_id": 2,
+      "token": "his",
+      "token_pos": 49,
+      "word_score_logit": -0.0012472467496991158,
+      "word_attn_weight": 0.021145613864064217,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.33385252952575684,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.09208192676305771,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.09147495031356812,
+          "sentence_text": "they were attacking the iraqis to drive them out of kuwait a country whose citizens have close blood and business ties to saudi citizens"
+        }
+      ]
+    },
+    {
+      "query_id": 11,
+      "from_sentence_id": 2,
+      "token": "of",
+      "token_pos": 27,
+      "word_score_logit": -0.0017022565007209778,
+      "word_attn_weight": 0.021135995164513588,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.5991309285163879,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.10792432725429535,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.08103500306606293,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 12,
+      "from_sentence_id": 2,
+      "token": "he",
+      "token_pos": 37,
+      "word_score_logit": -0.009607300162315369,
+      "word_attn_weight": 0.02096957340836525,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.4308575391769409,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.1114712655544281,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.0865512490272522,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 13,
+      "from_sentence_id": 2,
+      "token": "that",
+      "token_pos": 28,
+      "word_score_logit": -0.010236065834760666,
+      "word_attn_weight": 0.020956391468644142,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.5673577785491943,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.11026600003242493,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.08477114886045456,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 14,
+      "from_sentence_id": 2,
+      "token": "was",
+      "token_pos": 38,
+      "word_score_logit": -0.010423906147480011,
+      "word_attn_weight": 0.020952455699443817,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.410844087600708,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.11282376945018768,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.08799631893634796,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 15,
+      "from_sentence_id": 3,
+      "token": "have",
+      "token_pos": 3,
+      "word_score_logit": -0.027675218880176544,
+      "word_attn_weight": 0.04907000809907913,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.37389522790908813,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.11575430631637573,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.09909485280513763,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 16,
+      "from_sentence_id": 3,
+      "token": "so",
+      "token_pos": 0,
+      "word_score_logit": -0.029597535729408264,
+      "word_attn_weight": 0.04897576570510864,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.28358256816864014,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.10599298775196075,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.09381745755672455,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 17,
+      "from_sentence_id": 3,
+      "token": "back",
+      "token_pos": 10,
+      "word_score_logit": -0.03193638473749161,
+      "word_attn_weight": 0.04886135458946228,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.3846992254257202,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.1101795881986618,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.09492282569408417,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 18,
+      "from_sentence_id": 3,
+      "token": "and",
+      "token_pos": 8,
+      "word_score_logit": -0.03313789144158363,
+      "word_attn_weight": 0.048802684992551804,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.32927989959716797,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.10395381599664688,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.09412583708763123,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 19,
+      "from_sentence_id": 3,
+      "token": "the",
+      "token_pos": 11,
+      "word_score_logit": -0.03320729732513428,
+      "word_attn_weight": 0.0487992949783802,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.48091575503349304,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.11541639268398285,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.09532168507575989,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 20,
+      "from_sentence_id": 4,
+      "token": "power",
+      "token_pos": 43,
+      "word_score_logit": 0.028739720582962036,
+      "word_attn_weight": 0.023693643510341644,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 11,
+          "attn_weight": 0.0971694067120552,
+          "sentence_text": "called for severe punishment of the 40 or so women who drove in public a while back to protest the ban on women driving"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.0867321714758873,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.0784071534872055,
+          "sentence_text": "i've heard many muslims say that the ban on women driving has no basis in the qur'an the <UNK> etc"
+        }
+      ]
+    },
+    {
+      "query_id": 21,
+      "from_sentence_id": 4,
+      "token": "always",
+      "token_pos": 36,
+      "word_score_logit": 0.026476088911294937,
+      "word_attn_weight": 0.023640070110559464,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.21189570426940918,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.09468777477741241,
+          "sentence_text": "they were attacking the iraqis to drive them out of kuwait a country whose citizens have close blood and business ties to saudi citizens"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.09066401422023773,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 22,
+      "from_sentence_id": 4,
+      "token": "the",
+      "token_pos": 38,
+      "word_score_logit": 0.02417943626642227,
+      "word_attn_weight": 0.023585839197039604,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.19374948740005493,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.09233557432889938,
+          "sentence_text": "they were attacking the iraqis to drive them out of kuwait a country whose citizens have close blood and business ties to saudi citizens"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.08791536092758179,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 23,
+      "from_sentence_id": 4,
+      "token": "be",
+      "token_pos": 37,
+      "word_score_logit": 0.01988283358514309,
+      "word_attn_weight": 0.023484718054533005,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.18277345597743988,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.09030494093894958,
+          "sentence_text": "they were attacking the iraqis to drive them out of kuwait a country whose citizens have close blood and business ties to saudi citizens"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.0894513800740242,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 24,
+      "from_sentence_id": 4,
+      "token": "not",
+      "token_pos": 32,
+      "word_score_logit": 0.01819252222776413,
+      "word_attn_weight": 0.02344505488872528,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.18664392828941345,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.09117951989173889,
+          "sentence_text": "they were attacking the iraqis to drive them out of kuwait a country whose citizens have close blood and business ties to saudi citizens"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.08904707431793213,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 25,
+      "from_sentence_id": 5,
+      "token": "operator",
+      "token_pos": 31,
+      "word_score_logit": 0.04258900135755539,
+      "word_attn_weight": 0.03275543823838234,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 11,
+          "attn_weight": 0.10518249869346619,
+          "sentence_text": "called for severe punishment of the 40 or so women who drove in public a while back to protest the ban on women driving"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 14,
+          "attn_weight": 0.08736831694841385,
+          "sentence_text": "i've heard many muslims say that the ban on women driving has no basis in the qur'an the <UNK> etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 8,
+          "attn_weight": 0.058071523904800415,
+          "sentence_text": "the nyt reported that besides complaining that the government was not conservative enough they have asserted that the approx"
+        }
+      ]
+    },
+    {
+      "query_id": 26,
+      "from_sentence_id": 5,
+      "token": "he",
+      "token_pos": 26,
+      "word_score_logit": 0.021858375519514084,
+      "word_attn_weight": 0.03208338841795921,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.09954270720481873,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.08581775426864624,
+          "sentence_text": "called for severe punishment of the 40 or so women who drove in public a while back to protest the ban on women driving"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.07361358404159546,
+          "sentence_text": "they were attacking the iraqis to drive them out of kuwait a country whose citizens have close blood and business ties to saudi citizens"
+        }
+      ]
+    },
+    {
+      "query_id": 27,
+      "from_sentence_id": 5,
+      "token": "know",
+      "token_pos": 17,
+      "word_score_logit": 0.01851930469274521,
+      "word_attn_weight": 0.03197643533349037,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.2832263708114624,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.10674309730529785,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.09862551093101501,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 28,
+      "from_sentence_id": 5,
+      "token": "if",
+      "token_pos": 25,
+      "word_score_logit": 0.01755482703447342,
+      "word_attn_weight": 0.0319456122815609,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.11102399230003357,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.07688608765602112,
+          "sentence_text": "they were attacking the iraqis to drive them out of kuwait a country whose citizens have close blood and business ties to saudi citizens"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 11,
+          "attn_weight": 0.07587282359600067,
+          "sentence_text": "called for severe punishment of the 40 or so women who drove in public a while back to protest the ban on women driving"
+        }
+      ]
+    },
+    {
+      "query_id": 29,
+      "from_sentence_id": 5,
+      "token": "the",
+      "token_pos": 13,
+      "word_score_logit": 0.01686709187924862,
+      "word_attn_weight": 0.031923651695251465,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.41189467906951904,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.10773244500160217,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.09909022599458694,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 30,
+      "from_sentence_id": 6,
+      "token": "these",
+      "token_pos": 5,
+      "word_score_logit": 0.07224157452583313,
+      "word_attn_weight": 0.10288117080926895,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 11,
+          "attn_weight": 0.19050370156764984,
+          "sentence_text": "called for severe punishment of the 40 or so women who drove in public a while back to protest the ban on women driving"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 14,
+          "attn_weight": 0.097368985414505,
+          "sentence_text": "i've heard many muslims say that the ban on women driving has no basis in the qur'an the <UNK> etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.07051851600408554,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        }
+      ]
+    },
+    {
+      "query_id": 31,
+      "from_sentence_id": 6,
+      "token": "angels",
+      "token_pos": 8,
+      "word_score_logit": 0.06946578621864319,
+      "word_attn_weight": 0.1025959923863411,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 11,
+          "attn_weight": 0.09293524920940399,
+          "sentence_text": "called for severe punishment of the 40 or so women who drove in public a while back to protest the ban on women driving"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 6,
+          "attn_weight": 0.06500919163227081,
+          "sentence_text": "you make it sound like these guys are angels <UNK>"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.05872049182653427,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        }
+      ]
+    },
+    {
+      "query_id": 32,
+      "from_sentence_id": 6,
+      "token": "like",
+      "token_pos": 4,
+      "word_score_logit": 0.06364040821790695,
+      "word_attn_weight": 0.10200006514787674,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 11,
+          "attn_weight": 0.19389641284942627,
+          "sentence_text": "called for severe punishment of the 40 or so women who drove in public a while back to protest the ban on women driving"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 14,
+          "attn_weight": 0.10400685667991638,
+          "sentence_text": "i've heard many muslims say that the ban on women driving has no basis in the qur'an the <UNK> etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.06404546648263931,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        }
+      ]
+    },
+    {
+      "query_id": 33,
+      "from_sentence_id": 6,
+      "token": "guys",
+      "token_pos": 6,
+      "word_score_logit": 0.06350476294755936,
+      "word_attn_weight": 0.10198622941970825,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 11,
+          "attn_weight": 0.19456686079502106,
+          "sentence_text": "called for severe punishment of the 40 or so women who drove in public a while back to protest the ban on women driving"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 14,
+          "attn_weight": 0.09018430858850479,
+          "sentence_text": "i've heard many muslims say that the ban on women driving has no basis in the qur'an the <UNK> etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.058727651834487915,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        }
+      ]
+    },
+    {
+      "query_id": 34,
+      "from_sentence_id": 6,
+      "token": "sound",
+      "token_pos": 3,
+      "word_score_logit": 0.05172538384795189,
+      "word_attn_weight": 0.10079194605350494,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 11,
+          "attn_weight": 0.20107915997505188,
+          "sentence_text": "called for severe punishment of the 40 or so women who drove in public a while back to protest the ban on women driving"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 14,
+          "attn_weight": 0.1109028235077858,
+          "sentence_text": "i've heard many muslims say that the ban on women driving has no basis in the qur'an the <UNK> etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 6,
+          "attn_weight": 0.052627336233854294,
+          "sentence_text": "you make it sound like these guys are angels <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 35,
+      "from_sentence_id": 7,
+      "token": "clarinet",
+      "token_pos": 2,
+      "word_score_logit": 0.05013339966535568,
+      "word_attn_weight": 0.02294088527560234,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 11,
+          "attn_weight": 0.14994999766349792,
+          "sentence_text": "called for severe punishment of the 40 or so women who drove in public a while back to protest the ban on women driving"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 14,
+          "attn_weight": 0.09795572608709335,
+          "sentence_text": "i've heard many muslims say that the ban on women driving has no basis in the qur'an the <UNK> etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 6,
+          "attn_weight": 0.06341613084077835,
+          "sentence_text": "you make it sound like these guys are angels <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 36,
+      "from_sentence_id": 7,
+      "token": "his",
+      "token_pos": 30,
+      "word_score_logit": 0.04815533757209778,
+      "word_attn_weight": 0.022895552217960358,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.37174469232559204,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.10214881598949432,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.09251730144023895,
+          "sentence_text": "they were attacking the iraqis to drive them out of kuwait a country whose citizens have close blood and business ties to saudi citizens"
+        }
+      ]
+    },
+    {
+      "query_id": 37,
+      "from_sentence_id": 7,
+      "token": "in",
+      "token_pos": 0,
+      "word_score_logit": 0.03309664875268936,
+      "word_attn_weight": 0.02255335822701454,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 11,
+          "attn_weight": 0.09237802028656006,
+          "sentence_text": "called for severe punishment of the 40 or so women who drove in public a while back to protest the ban on women driving"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.08570639789104462,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.07193421572446823,
+          "sentence_text": "i've heard many muslims say that the ban on women driving has no basis in the qur'an the <UNK> etc"
+        }
+      ]
+    },
+    {
+      "query_id": 38,
+      "from_sentence_id": 7,
+      "token": "does",
+      "token_pos": 39,
+      "word_score_logit": 0.030002109706401825,
+      "word_attn_weight": 0.022483672946691513,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.26403599977493286,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.09968376904726028,
+          "sentence_text": "they were attacking the iraqis to drive them out of kuwait a country whose citizens have close blood and business ties to saudi citizens"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.09643636643886566,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 39,
+      "from_sentence_id": 7,
+      "token": "followers",
+      "token_pos": 31,
+      "word_score_logit": 0.029974546283483505,
+      "word_attn_weight": 0.02248305268585682,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.37248262763023376,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.11425450444221497,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.09544496983289719,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 40,
+      "from_sentence_id": 8,
+      "token": "they",
+      "token_pos": 13,
+      "word_score_logit": 0.028860146179795265,
+      "word_attn_weight": 0.05413646623492241,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.27140969038009644,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.10605938732624054,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 9,
+          "attn_weight": 0.10182797163724899,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        }
+      ]
+    },
+    {
+      "query_id": 41,
+      "from_sentence_id": 8,
+      "token": "that",
+      "token_pos": 16,
+      "word_score_logit": 0.028652120381593704,
+      "word_attn_weight": 0.05412520468235016,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.231702983379364,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.10200770944356918,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 9,
+          "attn_weight": 0.0971769392490387,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        }
+      ]
+    },
+    {
+      "query_id": 42,
+      "from_sentence_id": 8,
+      "token": "have",
+      "token_pos": 14,
+      "word_score_logit": 0.025881445035338402,
+      "word_attn_weight": 0.05397544801235199,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.28962546586990356,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.10813713073730469,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 9,
+          "attn_weight": 0.10606437921524048,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        }
+      ]
+    },
+    {
+      "query_id": 43,
+      "from_sentence_id": 8,
+      "token": "the",
+      "token_pos": 17,
+      "word_score_logit": 0.024654433131217957,
+      "word_attn_weight": 0.05390926077961922,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.18945421278476715,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.09366952627897263,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.09141716361045837,
+          "sentence_text": "they were attacking the iraqis to drive them out of kuwait a country whose citizens have close blood and business ties to saudi citizens"
+        }
+      ]
+    },
+    {
+      "query_id": 44,
+      "from_sentence_id": 8,
+      "token": "asserted",
+      "token_pos": 15,
+      "word_score_logit": 0.01877794787287712,
+      "word_attn_weight": 0.05359339341521263,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.40215861797332764,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.11562591791152954,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.1132102906703949,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 45,
+      "from_sentence_id": 9,
+      "token": "in",
+      "token_pos": 3,
+      "word_score_logit": -0.001453496515750885,
+      "word_attn_weight": 0.05111652612686157,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.33687102794647217,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.11662930250167847,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.09140713512897491,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 46,
+      "from_sentence_id": 9,
+      "token": "the",
+      "token_pos": 17,
+      "word_score_logit": -0.00572940893471241,
+      "word_attn_weight": 0.05089842528104782,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.3491853177547455,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.10889828205108643,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.09789460897445679,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 47,
+      "from_sentence_id": 9,
+      "token": "a",
+      "token_pos": 8,
+      "word_score_logit": -0.007512668147683144,
+      "word_attn_weight": 0.050807736814022064,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.36526644229888916,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.12259112298488617,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.09379122406244278,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 48,
+      "from_sentence_id": 9,
+      "token": "are",
+      "token_pos": 6,
+      "word_score_logit": -0.00961223617196083,
+      "word_attn_weight": 0.05070117861032486,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.3310376703739166,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.11426419019699097,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.09285403788089752,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 49,
+      "from_sentence_id": 9,
+      "token": "<UNK>",
+      "token_pos": 2,
+      "word_score_logit": -0.009639885276556015,
+      "word_attn_weight": 0.05069977045059204,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.25359082221984863,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.10529479384422302,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.0871477797627449,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 50,
+      "from_sentence_id": 10,
+      "token": "bin",
+      "token_pos": 3,
+      "word_score_logit": 0.014272795058786869,
+      "word_attn_weight": 0.12829725444316864,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.17392784357070923,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.08668458461761475,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.08213314414024353,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 51,
+      "from_sentence_id": 10,
+      "token": "he",
+      "token_pos": 6,
+      "word_score_logit": 0.00982783455401659,
+      "word_attn_weight": 0.12772823870182037,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.10394793748855591,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.07322860509157181,
+          "sentence_text": "they were attacking the iraqis to drive them out of kuwait a country whose citizens have close blood and business ties to saudi citizens"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.06760206818580627,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 52,
+      "from_sentence_id": 10,
+      "token": "<UNK>",
+      "token_pos": 4,
+      "word_score_logit": -0.00868808850646019,
+      "word_attn_weight": 0.12538498640060425,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.09649305790662766,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.07016980648040771,
+          "sentence_text": "they were attacking the iraqis to drive them out of kuwait a country whose citizens have close blood and business ties to saudi citizens"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.06677453219890594,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 53,
+      "from_sentence_id": 10,
+      "token": "guy",
+      "token_pos": 1,
+      "word_score_logit": -0.009271524846553802,
+      "word_attn_weight": 0.12531186640262604,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.09373046457767487,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.07208019495010376,
+          "sentence_text": "they were attacking the iraqis to drive them out of kuwait a country whose citizens have close blood and business ties to saudi citizens"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 11,
+          "attn_weight": 0.07182231545448303,
+          "sentence_text": "called for severe punishment of the 40 or so women who drove in public a while back to protest the ban on women driving"
+        }
+      ]
+    },
+    {
+      "query_id": 54,
+      "from_sentence_id": 10,
+      "token": "isn't",
+      "token_pos": 5,
+      "word_score_logit": -0.01161915436387062,
+      "word_attn_weight": 0.12501801550388336,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.12060951441526413,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.07798343151807785,
+          "sentence_text": "they were attacking the iraqis to drive them out of kuwait a country whose citizens have close blood and business ties to saudi citizens"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.07321034371852875,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 55,
+      "from_sentence_id": 11,
+      "token": "drove",
+      "token_pos": 11,
+      "word_score_logit": 0.03022543527185917,
+      "word_attn_weight": 0.04303871840238571,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 11,
+          "attn_weight": 0.22393812239170074,
+          "sentence_text": "called for severe punishment of the 40 or so women who drove in public a while back to protest the ban on women driving"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.15754005312919617,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.08193451166152954,
+          "sentence_text": "they were attacking the iraqis to drive them out of kuwait a country whose citizens have close blood and business ties to saudi citizens"
+        }
+      ]
+    },
+    {
+      "query_id": 56,
+      "from_sentence_id": 11,
+      "token": "severe",
+      "token_pos": 2,
+      "word_score_logit": 0.02957814745604992,
+      "word_attn_weight": 0.04301087185740471,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.2652970552444458,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.09611143916845322,
+          "sentence_text": "they were attacking the iraqis to drive them out of kuwait a country whose citizens have close blood and business ties to saudi citizens"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 9,
+          "attn_weight": 0.08912067115306854,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        }
+      ]
+    },
+    {
+      "query_id": 57,
+      "from_sentence_id": 11,
+      "token": "of",
+      "token_pos": 4,
+      "word_score_logit": 0.015565360896289349,
+      "word_attn_weight": 0.042412370443344116,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.23219388723373413,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.13969221711158752,
+          "sentence_text": "called for severe punishment of the 40 or so women who drove in public a while back to protest the ban on women driving"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.0932859480381012,
+          "sentence_text": "they were attacking the iraqis to drive them out of kuwait a country whose citizens have close blood and business ties to saudi citizens"
+        }
+      ]
+    },
+    {
+      "query_id": 58,
+      "from_sentence_id": 11,
+      "token": "for",
+      "token_pos": 1,
+      "word_score_logit": 0.013944451697170734,
+      "word_attn_weight": 0.04234367981553078,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.1915379762649536,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.11672050505876541,
+          "sentence_text": "called for severe punishment of the 40 or so women who drove in public a while back to protest the ban on women driving"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.0904015600681305,
+          "sentence_text": "they were attacking the iraqis to drive them out of kuwait a country whose citizens have close blood and business ties to saudi citizens"
+        }
+      ]
+    },
+    {
+      "query_id": 59,
+      "from_sentence_id": 11,
+      "token": "called",
+      "token_pos": 0,
+      "word_score_logit": 0.013526388444006443,
+      "word_attn_weight": 0.042325980961322784,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.17539727687835693,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.09130948781967163,
+          "sentence_text": "called for severe punishment of the 40 or so women who drove in public a while back to protest the ban on women driving"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.08936983346939087,
+          "sentence_text": "they were attacking the iraqis to drive them out of kuwait a country whose citizens have close blood and business ties to saudi citizens"
+        }
+      ]
+    },
+    {
+      "query_id": 60,
+      "from_sentence_id": 12,
+      "token": "al",
+      "token_pos": 9,
+      "word_score_logit": 0.03644706308841705,
+      "word_attn_weight": 0.04059671610593796,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.30978924036026,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.09539176523685455,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.09460389614105225,
+          "sentence_text": "they were attacking the iraqis to drive them out of kuwait a country whose citizens have close blood and business ties to saudi citizens"
+        }
+      ]
+    },
+    {
+      "query_id": 61,
+      "from_sentence_id": 12,
+      "token": "the",
+      "token_pos": 0,
+      "word_score_logit": 0.0160692036151886,
+      "word_attn_weight": 0.03977781534194946,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.29284191131591797,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.09904638677835464,
+          "sentence_text": "they were attacking the iraqis to drive them out of kuwait a country whose citizens have close blood and business ties to saudi citizens"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.09101685881614685,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 62,
+      "from_sentence_id": 12,
+      "token": "who",
+      "token_pos": 5,
+      "word_score_logit": 0.010341998189687729,
+      "word_attn_weight": 0.039550650864839554,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.33359411358833313,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.10073062032461166,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.0946912094950676,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 63,
+      "from_sentence_id": 12,
+      "token": "group",
+      "token_pos": 4,
+      "word_score_logit": 0.007610565051436424,
+      "word_attn_weight": 0.0394427664577961,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.32881659269332886,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.10472699254751205,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.09645188599824905,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 64,
+      "from_sentence_id": 12,
+      "token": "be",
+      "token_pos": 16,
+      "word_score_logit": 0.006002015899866819,
+      "word_attn_weight": 0.03937937319278717,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.24003420770168304,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.09703217446804047,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.09442083537578583,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 65,
+      "from_sentence_id": 13,
+      "token": "is",
+      "token_pos": 0,
+      "word_score_logit": 0.01248436514288187,
+      "word_attn_weight": 0.1124475747346878,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.12584330141544342,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.08087053894996643,
+          "sentence_text": "they were attacking the iraqis to drive them out of kuwait a country whose citizens have close blood and business ties to saudi citizens"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.07684112340211868,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 66,
+      "from_sentence_id": 13,
+      "token": "see",
+      "token_pos": 6,
+      "word_score_logit": 0.01017699297517538,
+      "word_attn_weight": 0.1121884137392044,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.1290474832057953,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.0871918797492981,
+          "sentence_text": "called for severe punishment of the 40 or so women who drove in public a while back to protest the ban on women driving"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.08283980935811996,
+          "sentence_text": "they were attacking the iraqis to drive them out of kuwait a country whose citizens have close blood and business ties to saudi citizens"
+        }
+      ]
+    },
+    {
+      "query_id": 67,
+      "from_sentence_id": 13,
+      "token": "what",
+      "token_pos": 2,
+      "word_score_logit": 0.009603448212146759,
+      "word_attn_weight": 0.11212408542633057,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.14818182587623596,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.08687689155340195,
+          "sentence_text": "they were attacking the iraqis to drive them out of kuwait a country whose citizens have close blood and business ties to saudi citizens"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 11,
+          "attn_weight": 0.08027026057243347,
+          "sentence_text": "called for severe punishment of the 40 or so women who drove in public a while back to protest the ban on women driving"
+        }
+      ]
+    },
+    {
+      "query_id": 68,
+      "from_sentence_id": 13,
+      "token": "this",
+      "token_pos": 1,
+      "word_score_logit": 0.0033736443147063255,
+      "word_attn_weight": 0.11142775416374207,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.14479172229766846,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.08586068451404572,
+          "sentence_text": "they were attacking the iraqis to drive them out of kuwait a country whose citizens have close blood and business ties to saudi citizens"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.0805472880601883,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 69,
+      "from_sentence_id": 13,
+      "token": "happen",
+      "token_pos": 7,
+      "word_score_logit": 0.0028324159793555737,
+      "word_attn_weight": 0.11136745661497116,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.11050485074520111,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.08476652204990387,
+          "sentence_text": "called for severe punishment of the 40 or so women who drove in public a while back to protest the ban on women driving"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.07813415676355362,
+          "sentence_text": "they were attacking the iraqis to drive them out of kuwait a country whose citizens have close blood and business ties to saudi citizens"
+        }
+      ]
+    },
+    {
+      "query_id": 70,
+      "from_sentence_id": 14,
+      "token": "no",
+      "token_pos": 12,
+      "word_score_logit": 0.04947688803076744,
+      "word_attn_weight": 0.05231780186295509,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.19727428257465363,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.09302541613578796,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.09190256893634796,
+          "sentence_text": "they were attacking the iraqis to drive them out of kuwait a country whose citizens have close blood and business ties to saudi citizens"
+        }
+      ]
+    },
+    {
+      "query_id": 71,
+      "from_sentence_id": 14,
+      "token": "in",
+      "token_pos": 14,
+      "word_score_logit": 0.030165424570441246,
+      "word_attn_weight": 0.051317159086465836,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.1843024641275406,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.09107192605733871,
+          "sentence_text": "they were attacking the iraqis to drive them out of kuwait a country whose citizens have close blood and business ties to saudi citizens"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.0871218889951706,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 72,
+      "from_sentence_id": 14,
+      "token": "basis",
+      "token_pos": 13,
+      "word_score_logit": 0.02823529951274395,
+      "word_attn_weight": 0.05121821165084839,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.2137613296508789,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.10470779985189438,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.09648877382278442,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 73,
+      "from_sentence_id": 14,
+      "token": "has",
+      "token_pos": 11,
+      "word_score_logit": 0.026559898629784584,
+      "word_attn_weight": 0.05113247036933899,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.16537100076675415,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.08705740422010422,
+          "sentence_text": "they were attacking the iraqis to drive them out of kuwait a country whose citizens have close blood and business ties to saudi citizens"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 9,
+          "attn_weight": 0.08396367728710175,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        }
+      ]
+    },
+    {
+      "query_id": 74,
+      "from_sentence_id": 14,
+      "token": "the",
+      "token_pos": 15,
+      "word_score_logit": 0.023982128128409386,
+      "word_attn_weight": 0.05100082978606224,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.16243039071559906,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.08767129480838776,
+          "sentence_text": "they were attacking the iraqis to drive them out of kuwait a country whose citizens have close blood and business ties to saudi citizens"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.08385726809501648,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 75,
+      "from_sentence_id": 15,
+      "token": "yet",
+      "token_pos": 0,
+      "word_score_logit": 0.01740797609090805,
+      "word_attn_weight": 0.06879668682813644,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.14569301903247833,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.08992849290370941,
+          "sentence_text": "called for severe punishment of the 40 or so women who drove in public a while back to protest the ban on women driving"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.08614630252122879,
+          "sentence_text": "they were attacking the iraqis to drive them out of kuwait a country whose citizens have close blood and business ties to saudi citizens"
+        }
+      ]
+    },
+    {
+      "query_id": 76,
+      "from_sentence_id": 15,
+      "token": "not",
+      "token_pos": 3,
+      "word_score_logit": 0.010352399200201035,
+      "word_attn_weight": 0.06831299513578415,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.21887540817260742,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.09506995975971222,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.09444728493690491,
+          "sentence_text": "they were attacking the iraqis to drive them out of kuwait a country whose citizens have close blood and business ties to saudi citizens"
+        }
+      ]
+    },
+    {
+      "query_id": 77,
+      "from_sentence_id": 15,
+      "token": "only",
+      "token_pos": 4,
+      "word_score_logit": 0.010263326577842236,
+      "word_attn_weight": 0.06830691546201706,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.23471374809741974,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.09667859971523285,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.09603307396173477,
+          "sentence_text": "they were attacking the iraqis to drive them out of kuwait a country whose citizens have close blood and business ties to saudi citizens"
+        }
+      ]
+    },
+    {
+      "query_id": 78,
+      "from_sentence_id": 15,
+      "token": "these",
+      "token_pos": 1,
+      "word_score_logit": 0.009502839297056198,
+      "word_attn_weight": 0.0682549849152565,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.1803322434425354,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.09183823317289352,
+          "sentence_text": "they were attacking the iraqis to drive them out of kuwait a country whose citizens have close blood and business ties to saudi citizens"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.08550683408975601,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 79,
+      "from_sentence_id": 15,
+      "token": "like",
+      "token_pos": 5,
+      "word_score_logit": 0.008036188781261444,
+      "word_attn_weight": 0.0681549459695816,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.2368239164352417,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.09712965041399002,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.09628649055957794,
+          "sentence_text": "they were attacking the iraqis to drive them out of kuwait a country whose citizens have close blood and business ties to saudi citizens"
+        }
+      ]
+    },
+    {
+      "query_id": 80,
+      "from_sentence_id": 16,
+      "token": "anyone",
+      "token_pos": 15,
+      "word_score_logit": 0.04672038555145264,
+      "word_attn_weight": 0.049360621720552444,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.17411714792251587,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.09207501262426376,
+          "sentence_text": "they were attacking the iraqis to drive them out of kuwait a country whose citizens have close blood and business ties to saudi citizens"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.0837375596165657,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 81,
+      "from_sentence_id": 16,
+      "token": "anyone",
+      "token_pos": 18,
+      "word_score_logit": 0.032829802483320236,
+      "word_attn_weight": 0.048679716885089874,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.15241459012031555,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.08799542486667633,
+          "sentence_text": "they were attacking the iraqis to drive them out of kuwait a country whose citizens have close blood and business ties to saudi citizens"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.08158818632364273,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 82,
+      "from_sentence_id": 16,
+      "token": "behind",
+      "token_pos": 14,
+      "word_score_logit": 0.026536433026194572,
+      "word_attn_weight": 0.04837431386113167,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.13547705113887787,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.08406604826450348,
+          "sentence_text": "they were attacking the iraqis to drive them out of kuwait a country whose citizens have close blood and business ties to saudi citizens"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 11,
+          "attn_weight": 0.08172918856143951,
+          "sentence_text": "called for severe punishment of the 40 or so women who drove in public a while back to protest the ban on women driving"
+        }
+      ]
+    },
+    {
+      "query_id": 83,
+      "from_sentence_id": 16,
+      "token": "who",
+      "token_pos": 16,
+      "word_score_logit": 0.02542165108025074,
+      "word_attn_weight": 0.04832042008638382,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.21839332580566406,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.09507232904434204,
+          "sentence_text": "they were attacking the iraqis to drive them out of kuwait a country whose citizens have close blood and business ties to saudi citizens"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 9,
+          "attn_weight": 0.09381331503391266,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        }
+      ]
+    },
+    {
+      "query_id": 84,
+      "from_sentence_id": 16,
+      "token": "not",
+      "token_pos": 10,
+      "word_score_logit": 0.02512076310813427,
+      "word_attn_weight": 0.04830588772892952,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.15776923298835754,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.08883120119571686,
+          "sentence_text": "they were attacking the iraqis to drive them out of kuwait a country whose citizens have close blood and business ties to saudi citizens"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.08061611652374268,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 85,
+      "from_sentence_id": 17,
+      "token": "allowed",
+      "token_pos": 6,
+      "word_score_logit": 0.03681556135416031,
+      "word_attn_weight": 0.11406698077917099,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.1376635730266571,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.0835430920124054,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.08263328671455383,
+          "sentence_text": "they were attacking the iraqis to drive them out of kuwait a country whose citizens have close blood and business ties to saudi citizens"
+        }
+      ]
+    },
+    {
+      "query_id": 86,
+      "from_sentence_id": 17,
+      "token": "not",
+      "token_pos": 4,
+      "word_score_logit": 0.016927529126405716,
+      "word_attn_weight": 0.11182081699371338,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.16085746884346008,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.08897526562213898,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.08736085146665573,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 87,
+      "from_sentence_id": 17,
+      "token": "say",
+      "token_pos": 0,
+      "word_score_logit": 0.015541591681540012,
+      "word_attn_weight": 0.11166595667600632,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.24390363693237305,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.10655781626701355,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.09929008036851883,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 88,
+      "from_sentence_id": 17,
+      "token": "to",
+      "token_pos": 7,
+      "word_score_logit": 0.014959791675209999,
+      "word_attn_weight": 0.11160100251436234,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.13451522588729858,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.08220722526311874,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.08099417388439178,
+          "sentence_text": "they were attacking the iraqis to drive them out of kuwait a country whose citizens have close blood and business ties to saudi citizens"
+        }
+      ]
+    },
+    {
+      "query_id": 89,
+      "from_sentence_id": 17,
+      "token": "work",
+      "token_pos": 8,
+      "word_score_logit": 0.014134685508906841,
+      "word_attn_weight": 0.11150895804166794,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.11614198237657547,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.07681916654109955,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.07649426907300949,
+          "sentence_text": "they were attacking the iraqis to drive them out of kuwait a country whose citizens have close blood and business ties to saudi citizens"
+        }
+      ]
+    },
+    {
+      "query_id": 90,
+      "from_sentence_id": 18,
+      "token": "say",
+      "token_pos": 0,
+      "word_score_logit": 0.01638556271791458,
+      "word_attn_weight": 0.09404560923576355,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.21602052450180054,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.09577047824859619,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.09533070027828217,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 91,
+      "from_sentence_id": 18,
+      "token": "that",
+      "token_pos": 1,
+      "word_score_logit": 0.00641992362216115,
+      "word_attn_weight": 0.09311304241418839,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.1749345362186432,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.08930507302284241,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 9,
+          "attn_weight": 0.08864537626504898,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        }
+      ]
+    },
+    {
+      "query_id": 92,
+      "from_sentence_id": 18,
+      "token": "radio",
+      "token_pos": 4,
+      "word_score_logit": -0.003083357587456703,
+      "word_attn_weight": 0.0922323539853096,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.21333283185958862,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.10232815146446228,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 9,
+          "attn_weight": 0.09862510859966278,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        }
+      ]
+    },
+    {
+      "query_id": 93,
+      "from_sentence_id": 18,
+      "token": "tv",
+      "token_pos": 2,
+      "word_score_logit": -0.006014754064381123,
+      "word_attn_weight": 0.09196238219738007,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.11455537378787994,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.07688231021165848,
+          "sentence_text": "they were attacking the iraqis to drive them out of kuwait a country whose citizens have close blood and business ties to saudi citizens"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.07636387646198273,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 94,
+      "from_sentence_id": 18,
+      "token": "and",
+      "token_pos": 3,
+      "word_score_logit": -0.010538378730416298,
+      "word_attn_weight": 0.09154731035232544,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.205745130777359,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.09730072319507599,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.09550787508487701,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 95,
+      "from_sentence_id": 19,
+      "token": "earth",
+      "token_pos": 15,
+      "word_score_logit": 0.04776168242096901,
+      "word_attn_weight": 0.0358092300593853,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.46700233221054077,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.1073511391878128,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.10150657594203949,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 96,
+      "from_sentence_id": 19,
+      "token": "neither",
+      "token_pos": 6,
+      "word_score_logit": 0.04249413684010506,
+      "word_attn_weight": 0.035621099174022675,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.23499779403209686,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.10381448268890381,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.0935138463973999,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 97,
+      "from_sentence_id": 19,
+      "token": "i",
+      "token_pos": 16,
+      "word_score_logit": 0.03177783638238907,
+      "word_attn_weight": 0.03524141013622284,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.3721276819705963,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.11434434354305267,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.10408139228820801,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    },
+    {
+      "query_id": 98,
+      "from_sentence_id": 19,
+      "token": "other",
+      "token_pos": 27,
+      "word_score_logit": 0.02761111781001091,
+      "word_attn_weight": 0.03509487956762314,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.23158451914787292,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.09715278446674347,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.09552687406539917,
+          "sentence_text": "they were attacking the iraqis to drive them out of kuwait a country whose citizens have close blood and business ties to saudi citizens"
+        }
+      ]
+    },
+    {
+      "query_id": 99,
+      "from_sentence_id": 19,
+      "token": "the",
+      "token_pos": 1,
+      "word_score_logit": 0.024756569415330887,
+      "word_attn_weight": 0.03499484062194824,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.255117803812027,
+          "sentence_text": "and no muslim country was doing much of anything to help <UNK> kuwait and protect saudi arabia indeed in some masses of citizens were demonstrating in favor of that butcher saddam who killed lotsa muslims just because he was killing raping and <UNK> relatively rich muslims and also <UNK> his"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.10766203701496124,
+          "sentence_text": "500 000 <UNK> in the kingdom are <UNK> a charge that under saudi and islamic law brings the death penalty"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.09675948321819305,
+          "sentence_text": "so how would have you defended saudi arabia and rolled back the iraqi invasion were you in charge of saudi arabia"
+        }
+      ]
+    }
+  ],
+  "sentence_importance_from_cross_attn": {
+    "definition": "mean cross-attn over queries",
+    "values": [
+      {
+        "sentence_id": 0,
+        "importance": 0.083783820271492
+      },
+      {
+        "sentence_id": 1,
+        "importance": 0.043551962822675705
+      },
+      {
+        "sentence_id": 2,
+        "importance": 0.23374618589878082
+      },
+      {
+        "sentence_id": 3,
+        "importance": 0.08490703999996185
+      },
+      {
+        "sentence_id": 4,
+        "importance": 0.032988108694553375
+      },
+      {
+        "sentence_id": 5,
+        "importance": 0.0255581121891737
+      },
+      {
+        "sentence_id": 6,
+        "importance": 0.015658779069781303
+      },
+      {
+        "sentence_id": 7,
+        "importance": 0.026795458048582077
+      },
+      {
+        "sentence_id": 8,
+        "importance": 0.04130072519183159
+      },
+      {
+        "sentence_id": 9,
+        "importance": 0.08843249827623367
+      },
+      {
+        "sentence_id": 10,
+        "importance": 0.02167859859764576
+      },
+      {
+        "sentence_id": 11,
+        "importance": 0.05248090252280235
+      },
+      {
+        "sentence_id": 12,
+        "importance": 0.0402098223567009
+      },
+      {
+        "sentence_id": 13,
+        "importance": 0.01398643758147955
+      },
+      {
+        "sentence_id": 14,
+        "importance": 0.04260313883423805
+      },
+      {
+        "sentence_id": 15,
+        "importance": 0.03617909178137779
+      },
+      {
+        "sentence_id": 16,
+        "importance": 0.018437232822179794
+      },
+      {
+        "sentence_id": 17,
+        "importance": 0.02610545977950096
+      },
+      {
+        "sentence_id": 18,
+        "importance": 0.03651931881904602
+      },
+      {
+        "sentence_id": 19,
+        "importance": 0.03507738560438156
+      }
+    ],
+    "ranked": [
+      {
+        "sentence_id": 2,
+        "importance": 0.23374618589878082
+      },
+      {
+        "sentence_id": 9,
+        "importance": 0.08843249827623367
+      },
+      {
+        "sentence_id": 3,
+        "importance": 0.08490703999996185
+      },
+      {
+        "sentence_id": 0,
+        "importance": 0.083783820271492
+      },
+      {
+        "sentence_id": 11,
+        "importance": 0.05248090252280235
+      },
+      {
+        "sentence_id": 1,
+        "importance": 0.043551962822675705
+      },
+      {
+        "sentence_id": 14,
+        "importance": 0.04260313883423805
+      },
+      {
+        "sentence_id": 8,
+        "importance": 0.04130072519183159
+      },
+      {
+        "sentence_id": 12,
+        "importance": 0.0402098223567009
+      },
+      {
+        "sentence_id": 18,
+        "importance": 0.03651931881904602
+      },
+      {
+        "sentence_id": 15,
+        "importance": 0.03617909178137779
+      },
+      {
+        "sentence_id": 19,
+        "importance": 0.03507738560438156
+      },
+      {
+        "sentence_id": 4,
+        "importance": 0.032988108694553375
+      },
+      {
+        "sentence_id": 7,
+        "importance": 0.026795458048582077
+      },
+      {
+        "sentence_id": 17,
+        "importance": 0.02610545977950096
+      },
+      {
+        "sentence_id": 5,
+        "importance": 0.0255581121891737
+      },
+      {
+        "sentence_id": 10,
+        "importance": 0.02167859859764576
+      },
+      {
+        "sentence_id": 16,
+        "importance": 0.018437232822179794
+      },
+      {
+        "sentence_id": 6,
+        "importance": 0.015658779069781303
+      },
+      {
+        "sentence_id": 13,
+        "importance": 0.01398643758147955
+      }
+    ]
+  },
+  "example_id": "test-4"
+}

@@ -1,0 +1,423 @@
+{
+  "true_label_id": 4,
+  "pred_label_id": 12,
+  "true_label_name": "comp.sys.mac.hardware",
+  "pred_label_name": "sci.electronics",
+  "pred_confidence": 0.9256759881973267,
+  "num_sents": 6,
+  "top_sentences": [
+    {
+      "sentence_id": 4,
+      "importance": 0.32187071442604065,
+      "sentence_text": "it's a mix of silicone and zinc oxide and conducts heat very well",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "heat",
+          "token_pos": 10,
+          "word_score_logit": 0.06536956131458282,
+          "word_attn_weight": 0.07987471669912338
+        },
+        {
+          "rank": 1,
+          "token": "and",
+          "token_pos": 8,
+          "word_score_logit": 0.056466612964868546,
+          "word_attn_weight": 0.07916674762964249
+        },
+        {
+          "rank": 2,
+          "token": "very",
+          "token_pos": 11,
+          "word_score_logit": 0.05111591890454292,
+          "word_attn_weight": 0.07874428480863571
+        },
+        {
+          "rank": 3,
+          "token": "conducts",
+          "token_pos": 9,
+          "word_score_logit": 0.049566954374313354,
+          "word_attn_weight": 0.07862240821123123
+        },
+        {
+          "rank": 4,
+          "token": "well",
+          "token_pos": 12,
+          "word_score_logit": 0.046348974108695984,
+          "word_attn_weight": 0.07836981117725372
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "importance": 0.18049617111682892,
+      "sentence_text": "go to radio shack and buy a tube of heat sink compound",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "compound",
+          "token_pos": 11,
+          "word_score_logit": 0.13812029361724854,
+          "word_attn_weight": 0.09157591313123703
+        },
+        {
+          "rank": 1,
+          "token": "sink",
+          "token_pos": 10,
+          "word_score_logit": 0.08819082379341125,
+          "word_attn_weight": 0.08711584657430649
+        },
+        {
+          "rank": 2,
+          "token": "tube",
+          "token_pos": 7,
+          "word_score_logit": 0.07849426567554474,
+          "word_attn_weight": 0.08627520501613617
+        },
+        {
+          "rank": 3,
+          "token": "of",
+          "token_pos": 8,
+          "word_score_logit": 0.07814469188451767,
+          "word_attn_weight": 0.08624505251646042
+        },
+        {
+          "rank": 4,
+          "token": "heat",
+          "token_pos": 9,
+          "word_score_logit": 0.06867030262947083,
+          "word_attn_weight": 0.0854317918419838
+        }
+      ]
+    },
+    {
+      "sentence_id": 0,
+      "importance": 0.13979896903038025,
+      "sentence_text": "re methods for attaching heat sink to processor",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "processor",
+          "token_pos": 7,
+          "word_score_logit": 0.06788493692874908,
+          "word_attn_weight": 0.13017745316028595
+        },
+        {
+          "rank": 1,
+          "token": "sink",
+          "token_pos": 5,
+          "word_score_logit": 0.041784148663282394,
+          "word_attn_weight": 0.12682367861270905
+        },
+        {
+          "rank": 2,
+          "token": "to",
+          "token_pos": 6,
+          "word_score_logit": 0.02853023260831833,
+          "word_attn_weight": 0.12515385448932648
+        },
+        {
+          "rank": 3,
+          "token": "heat",
+          "token_pos": 4,
+          "word_score_logit": 0.025487899780273438,
+          "word_attn_weight": 0.12477367371320724
+        },
+        {
+          "rank": 4,
+          "token": "attaching",
+          "token_pos": 3,
+          "word_score_logit": 0.01875586435198784,
+          "word_attn_weight": 0.12393651902675629
+        }
+      ]
+    },
+    {
+      "sentence_id": 3,
+      "importance": 0.13579414784908295,
+      "sentence_text": "at radio shack it's catalog number 276 <UNK>",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "number",
+          "token_pos": 5,
+          "word_score_logit": 0.05094379186630249,
+          "word_attn_weight": 0.12860476970672607
+        },
+        {
+          "rank": 1,
+          "token": "276",
+          "token_pos": 6,
+          "word_score_logit": 0.04547690227627754,
+          "word_attn_weight": 0.12790361046791077
+        },
+        {
+          "rank": 2,
+          "token": "<UNK>",
+          "token_pos": 7,
+          "word_score_logit": 0.038374654948711395,
+          "word_attn_weight": 0.1269984394311905
+        },
+        {
+          "rank": 3,
+          "token": "catalog",
+          "token_pos": 4,
+          "word_score_logit": 0.033652715384960175,
+          "word_attn_weight": 0.1264001727104187
+        },
+        {
+          "rank": 4,
+          "token": "radio",
+          "token_pos": 1,
+          "word_score_logit": 0.02768706902861595,
+          "word_attn_weight": 0.1256483644247055
+        }
+      ]
+    },
+    {
+      "sentence_id": 2,
+      "importance": 0.12847888469696045,
+      "sentence_text": "it comes in a little blue and white tube with a black screw on cap",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "cap",
+          "token_pos": 14,
+          "word_score_logit": 0.08877543359994888,
+          "word_attn_weight": 0.06980599462985992
+        },
+        {
+          "rank": 1,
+          "token": "screw",
+          "token_pos": 12,
+          "word_score_logit": 0.07283841073513031,
+          "word_attn_weight": 0.0687023177742958
+        },
+        {
+          "rank": 2,
+          "token": "with",
+          "token_pos": 9,
+          "word_score_logit": 0.06851516664028168,
+          "word_attn_weight": 0.06840594112873077
+        },
+        {
+          "rank": 3,
+          "token": "tube",
+          "token_pos": 8,
+          "word_score_logit": 0.06808337569236755,
+          "word_attn_weight": 0.06837640702724457
+        },
+        {
+          "rank": 4,
+          "token": "on",
+          "token_pos": 13,
+          "word_score_logit": 0.06457767635583878,
+          "word_attn_weight": 0.06813712418079376
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 20,
+      "from_sentence_id": 4,
+      "token": "heat",
+      "token_pos": 10,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.4367382824420929,
+          "sentence_text": "it's a mix of silicone and zinc oxide and conducts heat very well"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.16725489497184753,
+          "sentence_text": "go to radio shack and buy a tube of heat sink compound"
+        }
+      ]
+    },
+    {
+      "query_id": 21,
+      "from_sentence_id": 4,
+      "token": "and",
+      "token_pos": 8,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.4150286018848419,
+          "sentence_text": "it's a mix of silicone and zinc oxide and conducts heat very well"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.16740645468235016,
+          "sentence_text": "go to radio shack and buy a tube of heat sink compound"
+        }
+      ]
+    },
+    {
+      "query_id": 22,
+      "from_sentence_id": 4,
+      "token": "very",
+      "token_pos": 11,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.3606012463569641,
+          "sentence_text": "it's a mix of silicone and zinc oxide and conducts heat very well"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.1683294177055359,
+          "sentence_text": "go to radio shack and buy a tube of heat sink compound"
+        }
+      ]
+    },
+    {
+      "query_id": 23,
+      "from_sentence_id": 4,
+      "token": "conducts",
+      "token_pos": 9,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.48036015033721924,
+          "sentence_text": "it's a mix of silicone and zinc oxide and conducts heat very well"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.15888896584510803,
+          "sentence_text": "go to radio shack and buy a tube of heat sink compound"
+        }
+      ]
+    },
+    {
+      "query_id": 24,
+      "from_sentence_id": 4,
+      "token": "well",
+      "token_pos": 12,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.33042240142822266,
+          "sentence_text": "it's a mix of silicone and zinc oxide and conducts heat very well"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.17066600918769836,
+          "sentence_text": "go to radio shack and buy a tube of heat sink compound"
+        }
+      ]
+    },
+    {
+      "query_id": 5,
+      "from_sentence_id": 1,
+      "token": "compound",
+      "token_pos": 11,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.3155674338340759,
+          "sentence_text": "it's a mix of silicone and zinc oxide and conducts heat very well"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.187351256608963,
+          "sentence_text": "go to radio shack and buy a tube of heat sink compound"
+        }
+      ]
+    },
+    {
+      "query_id": 6,
+      "from_sentence_id": 1,
+      "token": "sink",
+      "token_pos": 10,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.302712619304657,
+          "sentence_text": "it's a mix of silicone and zinc oxide and conducts heat very well"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.18692031502723694,
+          "sentence_text": "go to radio shack and buy a tube of heat sink compound"
+        }
+      ]
+    },
+    {
+      "query_id": 7,
+      "from_sentence_id": 1,
+      "token": "tube",
+      "token_pos": 7,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.3313419818878174,
+          "sentence_text": "it's a mix of silicone and zinc oxide and conducts heat very well"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.2013346552848816,
+          "sentence_text": "go to radio shack and buy a tube of heat sink compound"
+        }
+      ]
+    },
+    {
+      "query_id": 8,
+      "from_sentence_id": 1,
+      "token": "of",
+      "token_pos": 8,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.3168399930000305,
+          "sentence_text": "it's a mix of silicone and zinc oxide and conducts heat very well"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.19537140429019928,
+          "sentence_text": "go to radio shack and buy a tube of heat sink compound"
+        }
+      ]
+    },
+    {
+      "query_id": 9,
+      "from_sentence_id": 1,
+      "token": "heat",
+      "token_pos": 9,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.3431379795074463,
+          "sentence_text": "it's a mix of silicone and zinc oxide and conducts heat very well"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.1957283914089203,
+          "sentence_text": "go to radio shack and buy a tube of heat sink compound"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_7025"
+}

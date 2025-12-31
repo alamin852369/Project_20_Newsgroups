@@ -1,0 +1,1154 @@
+{
+  "true_label_id": 5,
+  "pred_label_id": 5,
+  "true_label_name": "comp.windows.x",
+  "pred_label_name": "comp.windows.x",
+  "pred_confidence": 0.645324170589447,
+  "num_sents": 6,
+  "sentence_summaries": [
+    {
+      "sentence_id": 0,
+      "sentence_text": "i'm not familiar at all with the format of these x face <UNK> but after seeing them in some <UNK> headers i've got to see them and maybe make one of my own",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "x",
+          "token_pos": 10,
+          "word_score_logit": 0.09047678112983704,
+          "word_attn_weight": 0.03256332874298096
+        },
+        {
+          "rank": 1,
+          "token": "with",
+          "token_pos": 5,
+          "word_score_logit": 0.06040586158633232,
+          "word_attn_weight": 0.03159869462251663
+        },
+        {
+          "rank": 2,
+          "token": "familiar",
+          "token_pos": 2,
+          "word_score_logit": 0.056279443204402924,
+          "word_attn_weight": 0.031468573957681656
+        },
+        {
+          "rank": 3,
+          "token": "the",
+          "token_pos": 6,
+          "word_score_logit": 0.05583265796303749,
+          "word_attn_weight": 0.03145451843738556
+        },
+        {
+          "rank": 4,
+          "token": "all",
+          "token_pos": 4,
+          "word_score_logit": 0.04974602907896042,
+          "word_attn_weight": 0.031263645738363266
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "sentence_text": "i've got dpg view on my linux box which displays uncompressed x faces and i've managed to compile un <UNK> too",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "x",
+          "token_pos": 11,
+          "word_score_logit": 0.09717528522014618,
+          "word_attn_weight": 0.051089998334646225
+        },
+        {
+          "rank": 1,
+          "token": "linux",
+          "token_pos": 6,
+          "word_score_logit": 0.07862556725740433,
+          "word_attn_weight": 0.050151024013757706
+        },
+        {
+          "rank": 2,
+          "token": "box",
+          "token_pos": 7,
+          "word_score_logit": 0.07080552726984024,
+          "word_attn_weight": 0.049760375171899796
+        },
+        {
+          "rank": 3,
+          "token": "faces",
+          "token_pos": 12,
+          "word_score_logit": 0.05773616582155228,
+          "word_attn_weight": 0.04911427199840546
+        },
+        {
+          "rank": 4,
+          "token": "managed",
+          "token_pos": 15,
+          "word_score_logit": 0.05226532369852066,
+          "word_attn_weight": 0.048846304416656494
+        }
+      ]
+    },
+    {
+      "sentence_id": 2,
+      "sentence_text": "but now that i'm looking for them i can't seem to find any x face 's in <UNK> news headers",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "x",
+          "token_pos": 13,
+          "word_score_logit": 0.1318354308605194,
+          "word_attn_weight": 0.05535480007529259
+        },
+        {
+          "rank": 1,
+          "token": "face",
+          "token_pos": 14,
+          "word_score_logit": 0.06105371192097664,
+          "word_attn_weight": 0.05157214403152466
+        },
+        {
+          "rank": 2,
+          "token": "in",
+          "token_pos": 16,
+          "word_score_logit": 0.060345981270074844,
+          "word_attn_weight": 0.051535654813051224
+        },
+        {
+          "rank": 3,
+          "token": "any",
+          "token_pos": 12,
+          "word_score_logit": 0.059170398861169815,
+          "word_attn_weight": 0.05147510766983032
+        },
+        {
+          "rank": 4,
+          "token": "'s",
+          "token_pos": 15,
+          "word_score_logit": 0.054945141077041626,
+          "word_attn_weight": 0.05125807225704193
+        }
+      ]
+    },
+    {
+      "sentence_id": 3,
+      "sentence_text": "could you would you please send me your x face header",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "x",
+          "token_pos": 8,
+          "word_score_logit": 0.08338218927383423,
+          "word_attn_weight": 0.09676902741193771
+        },
+        {
+          "rank": 1,
+          "token": "header",
+          "token_pos": 10,
+          "word_score_logit": 0.04545490816235542,
+          "word_attn_weight": 0.09316757321357727
+        },
+        {
+          "rank": 2,
+          "token": "face",
+          "token_pos": 9,
+          "word_score_logit": 0.031959109008312225,
+          "word_attn_weight": 0.09191863983869553
+        },
+        {
+          "rank": 3,
+          "token": "could",
+          "token_pos": 0,
+          "word_score_logit": 0.023803086951375008,
+          "word_attn_weight": 0.0911720022559166
+        },
+        {
+          "rank": 4,
+          "token": "send",
+          "token_pos": 5,
+          "word_score_logit": 0.01926497556269169,
+          "word_attn_weight": 0.09075918793678284
+        }
+      ]
+    },
+    {
+      "sentence_id": 4,
+      "sentence_text": "i know i'll probably get a little swamped but i can handle it",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "handle",
+          "token_pos": 11,
+          "word_score_logit": 0.028823593631386757,
+          "word_attn_weight": 0.07881947606801987
+        },
+        {
+          "rank": 1,
+          "token": "can",
+          "token_pos": 10,
+          "word_score_logit": 0.024838795885443687,
+          "word_attn_weight": 0.07850602269172668
+        },
+        {
+          "rank": 2,
+          "token": "but",
+          "token_pos": 8,
+          "word_score_logit": 0.022972606122493744,
+          "word_attn_weight": 0.07835964858531952
+        },
+        {
+          "rank": 3,
+          "token": "i",
+          "token_pos": 9,
+          "word_score_logit": 0.021720586344599724,
+          "word_attn_weight": 0.0782616063952446
+        },
+        {
+          "rank": 4,
+          "token": "it",
+          "token_pos": 12,
+          "word_score_logit": 0.014072379097342491,
+          "word_attn_weight": 0.07766532897949219
+        }
+      ]
+    },
+    {
+      "sentence_id": 5,
+      "sentence_text": "i hope",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "i",
+          "token_pos": 0,
+          "word_score_logit": -0.000411035493016243,
+          "word_attn_weight": 0.5009928941726685
+        },
+        {
+          "rank": 1,
+          "token": "hope",
+          "token_pos": 1,
+          "word_score_logit": -0.004382632672786713,
+          "word_attn_weight": 0.49900710582733154
+        },
+        {
+          "rank": 2,
+          "token": "<PAD>",
+          "token_pos": 4,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 3,
+          "token": "<PAD>",
+          "token_pos": 3,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 4,
+          "token": "<PAD>",
+          "token_pos": 2,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    }
+  ],
+  "query_summaries": [
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "x",
+      "token_pos": 10,
+      "word_score_logit": 0.09047678112983704,
+      "word_attn_weight": 0.03256332874298096,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.6554492712020874,
+          "sentence_text": "i've got dpg view on my linux box which displays uncompressed x faces and i've managed to compile un <UNK> too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.12436439096927643,
+          "sentence_text": "i'm not familiar at all with the format of these x face <UNK> but after seeing them in some <UNK> headers i've got to see them and maybe make one of my own"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.09853684902191162,
+          "sentence_text": "but now that i'm looking for them i can't seem to find any x face 's in <UNK> news headers"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "with",
+      "token_pos": 5,
+      "word_score_logit": 0.06040586158633232,
+      "word_attn_weight": 0.03159869462251663,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.43156611919403076,
+          "sentence_text": "i've got dpg view on my linux box which displays uncompressed x faces and i've managed to compile un <UNK> too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.1614069640636444,
+          "sentence_text": "could you would you please send me your x face header"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.1506463587284088,
+          "sentence_text": "i'm not familiar at all with the format of these x face <UNK> but after seeing them in some <UNK> headers i've got to see them and maybe make one of my own"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "familiar",
+      "token_pos": 2,
+      "word_score_logit": 0.056279443204402924,
+      "word_attn_weight": 0.031468573957681656,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.5154494047164917,
+          "sentence_text": "i've got dpg view on my linux box which displays uncompressed x faces and i've managed to compile un <UNK> too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.1474691927433014,
+          "sentence_text": "i'm not familiar at all with the format of these x face <UNK> but after seeing them in some <UNK> headers i've got to see them and maybe make one of my own"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.1288449764251709,
+          "sentence_text": "but now that i'm looking for them i can't seem to find any x face 's in <UNK> news headers"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "the",
+      "token_pos": 6,
+      "word_score_logit": 0.05583265796303749,
+      "word_attn_weight": 0.03145451843738556,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.476269394159317,
+          "sentence_text": "i've got dpg view on my linux box which displays uncompressed x faces and i've managed to compile un <UNK> too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.1490008533000946,
+          "sentence_text": "i'm not familiar at all with the format of these x face <UNK> but after seeing them in some <UNK> headers i've got to see them and maybe make one of my own"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.13822712004184723,
+          "sentence_text": "could you would you please send me your x face header"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "all",
+      "token_pos": 4,
+      "word_score_logit": 0.04974602907896042,
+      "word_attn_weight": 0.031263645738363266,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.4347461760044098,
+          "sentence_text": "i've got dpg view on my linux box which displays uncompressed x faces and i've managed to compile un <UNK> too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.15423965454101562,
+          "sentence_text": "i'm not familiar at all with the format of these x face <UNK> but after seeing them in some <UNK> headers i've got to see them and maybe make one of my own"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.15071874856948853,
+          "sentence_text": "could you would you please send me your x face header"
+        }
+      ]
+    },
+    {
+      "query_id": 5,
+      "from_sentence_id": 1,
+      "token": "x",
+      "token_pos": 11,
+      "word_score_logit": 0.09717528522014618,
+      "word_attn_weight": 0.051089998334646225,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.700197696685791,
+          "sentence_text": "i've got dpg view on my linux box which displays uncompressed x faces and i've managed to compile un <UNK> too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.1137971580028534,
+          "sentence_text": "i'm not familiar at all with the format of these x face <UNK> but after seeing them in some <UNK> headers i've got to see them and maybe make one of my own"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.08768228441476822,
+          "sentence_text": "but now that i'm looking for them i can't seem to find any x face 's in <UNK> news headers"
+        }
+      ]
+    },
+    {
+      "query_id": 6,
+      "from_sentence_id": 1,
+      "token": "linux",
+      "token_pos": 6,
+      "word_score_logit": 0.07862556725740433,
+      "word_attn_weight": 0.050151024013757706,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.48931723833084106,
+          "sentence_text": "i've got dpg view on my linux box which displays uncompressed x faces and i've managed to compile un <UNK> too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.18145936727523804,
+          "sentence_text": "could you would you please send me your x face header"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.12504056096076965,
+          "sentence_text": "i'm not familiar at all with the format of these x face <UNK> but after seeing them in some <UNK> headers i've got to see them and maybe make one of my own"
+        }
+      ]
+    },
+    {
+      "query_id": 7,
+      "from_sentence_id": 1,
+      "token": "box",
+      "token_pos": 7,
+      "word_score_logit": 0.07080552726984024,
+      "word_attn_weight": 0.049760375171899796,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.41583114862442017,
+          "sentence_text": "i've got dpg view on my linux box which displays uncompressed x faces and i've managed to compile un <UNK> too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.16842229664325714,
+          "sentence_text": "could you would you please send me your x face header"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.14926102757453918,
+          "sentence_text": "i'm not familiar at all with the format of these x face <UNK> but after seeing them in some <UNK> headers i've got to see them and maybe make one of my own"
+        }
+      ]
+    },
+    {
+      "query_id": 8,
+      "from_sentence_id": 1,
+      "token": "faces",
+      "token_pos": 12,
+      "word_score_logit": 0.05773616582155228,
+      "word_attn_weight": 0.04911427199840546,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.6541512608528137,
+          "sentence_text": "i've got dpg view on my linux box which displays uncompressed x faces and i've managed to compile un <UNK> too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.14687764644622803,
+          "sentence_text": "i'm not familiar at all with the format of these x face <UNK> but after seeing them in some <UNK> headers i've got to see them and maybe make one of my own"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.12214447557926178,
+          "sentence_text": "but now that i'm looking for them i can't seem to find any x face 's in <UNK> news headers"
+        }
+      ]
+    },
+    {
+      "query_id": 9,
+      "from_sentence_id": 1,
+      "token": "managed",
+      "token_pos": 15,
+      "word_score_logit": 0.05226532369852066,
+      "word_attn_weight": 0.048846304416656494,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.5488911867141724,
+          "sentence_text": "i've got dpg view on my linux box which displays uncompressed x faces and i've managed to compile un <UNK> too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.17000870406627655,
+          "sentence_text": "i'm not familiar at all with the format of these x face <UNK> but after seeing them in some <UNK> headers i've got to see them and maybe make one of my own"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.14645060896873474,
+          "sentence_text": "but now that i'm looking for them i can't seem to find any x face 's in <UNK> news headers"
+        }
+      ]
+    },
+    {
+      "query_id": 10,
+      "from_sentence_id": 2,
+      "token": "x",
+      "token_pos": 13,
+      "word_score_logit": 0.1318354308605194,
+      "word_attn_weight": 0.05535480007529259,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.6188749074935913,
+          "sentence_text": "i've got dpg view on my linux box which displays uncompressed x faces and i've managed to compile un <UNK> too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.13884490728378296,
+          "sentence_text": "i'm not familiar at all with the format of these x face <UNK> but after seeing them in some <UNK> headers i've got to see them and maybe make one of my own"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.11295149475336075,
+          "sentence_text": "but now that i'm looking for them i can't seem to find any x face 's in <UNK> news headers"
+        }
+      ]
+    },
+    {
+      "query_id": 11,
+      "from_sentence_id": 2,
+      "token": "face",
+      "token_pos": 14,
+      "word_score_logit": 0.06105371192097664,
+      "word_attn_weight": 0.05157214403152466,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.5245805978775024,
+          "sentence_text": "i've got dpg view on my linux box which displays uncompressed x faces and i've managed to compile un <UNK> too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.18348252773284912,
+          "sentence_text": "i'm not familiar at all with the format of these x face <UNK> but after seeing them in some <UNK> headers i've got to see them and maybe make one of my own"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.16296681761741638,
+          "sentence_text": "but now that i'm looking for them i can't seem to find any x face 's in <UNK> news headers"
+        }
+      ]
+    },
+    {
+      "query_id": 12,
+      "from_sentence_id": 2,
+      "token": "in",
+      "token_pos": 16,
+      "word_score_logit": 0.060345981270074844,
+      "word_attn_weight": 0.051535654813051224,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.4393199682235718,
+          "sentence_text": "i've got dpg view on my linux box which displays uncompressed x faces and i've managed to compile un <UNK> too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.19666263461112976,
+          "sentence_text": "i'm not familiar at all with the format of these x face <UNK> but after seeing them in some <UNK> headers i've got to see them and maybe make one of my own"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.17826803028583527,
+          "sentence_text": "but now that i'm looking for them i can't seem to find any x face 's in <UNK> news headers"
+        }
+      ]
+    },
+    {
+      "query_id": 13,
+      "from_sentence_id": 2,
+      "token": "any",
+      "token_pos": 12,
+      "word_score_logit": 0.059170398861169815,
+      "word_attn_weight": 0.05147510766983032,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.4311113655567169,
+          "sentence_text": "i've got dpg view on my linux box which displays uncompressed x faces and i've managed to compile un <UNK> too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.16716240346431732,
+          "sentence_text": "i'm not familiar at all with the format of these x face <UNK> but after seeing them in some <UNK> headers i've got to see them and maybe make one of my own"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.14909827709197998,
+          "sentence_text": "but now that i'm looking for them i can't seem to find any x face 's in <UNK> news headers"
+        }
+      ]
+    },
+    {
+      "query_id": 14,
+      "from_sentence_id": 2,
+      "token": "'s",
+      "token_pos": 15,
+      "word_score_logit": 0.054945141077041626,
+      "word_attn_weight": 0.05125807225704193,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.5147618651390076,
+          "sentence_text": "i've got dpg view on my linux box which displays uncompressed x faces and i've managed to compile un <UNK> too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.1869802176952362,
+          "sentence_text": "i'm not familiar at all with the format of these x face <UNK> but after seeing them in some <UNK> headers i've got to see them and maybe make one of my own"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.16678780317306519,
+          "sentence_text": "but now that i'm looking for them i can't seem to find any x face 's in <UNK> news headers"
+        }
+      ]
+    },
+    {
+      "query_id": 15,
+      "from_sentence_id": 3,
+      "token": "x",
+      "token_pos": 8,
+      "word_score_logit": 0.08338218927383423,
+      "word_attn_weight": 0.09676902741193771,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.5119995474815369,
+          "sentence_text": "i've got dpg view on my linux box which displays uncompressed x faces and i've managed to compile un <UNK> too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.1565765142440796,
+          "sentence_text": "i'm not familiar at all with the format of these x face <UNK> but after seeing them in some <UNK> headers i've got to see them and maybe make one of my own"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.13172070682048798,
+          "sentence_text": "but now that i'm looking for them i can't seem to find any x face 's in <UNK> news headers"
+        }
+      ]
+    },
+    {
+      "query_id": 16,
+      "from_sentence_id": 3,
+      "token": "header",
+      "token_pos": 10,
+      "word_score_logit": 0.04545490816235542,
+      "word_attn_weight": 0.09316757321357727,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.3321433365345001,
+          "sentence_text": "i've got dpg view on my linux box which displays uncompressed x faces and i've managed to compile un <UNK> too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.19991526007652283,
+          "sentence_text": "i'm not familiar at all with the format of these x face <UNK> but after seeing them in some <UNK> headers i've got to see them and maybe make one of my own"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.18443556129932404,
+          "sentence_text": "but now that i'm looking for them i can't seem to find any x face 's in <UNK> news headers"
+        }
+      ]
+    },
+    {
+      "query_id": 17,
+      "from_sentence_id": 3,
+      "token": "face",
+      "token_pos": 9,
+      "word_score_logit": 0.031959109008312225,
+      "word_attn_weight": 0.09191863983869553,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.3866797685623169,
+          "sentence_text": "i've got dpg view on my linux box which displays uncompressed x faces and i've managed to compile un <UNK> too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.2021418958902359,
+          "sentence_text": "i'm not familiar at all with the format of these x face <UNK> but after seeing them in some <UNK> headers i've got to see them and maybe make one of my own"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.1865415871143341,
+          "sentence_text": "but now that i'm looking for them i can't seem to find any x face 's in <UNK> news headers"
+        }
+      ]
+    },
+    {
+      "query_id": 18,
+      "from_sentence_id": 3,
+      "token": "could",
+      "token_pos": 0,
+      "word_score_logit": 0.023803086951375008,
+      "word_attn_weight": 0.0911720022559166,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.4041445255279541,
+          "sentence_text": "i've got dpg view on my linux box which displays uncompressed x faces and i've managed to compile un <UNK> too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.19284294545650482,
+          "sentence_text": "i'm not familiar at all with the format of these x face <UNK> but after seeing them in some <UNK> headers i've got to see them and maybe make one of my own"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.17473728954792023,
+          "sentence_text": "but now that i'm looking for them i can't seem to find any x face 's in <UNK> news headers"
+        }
+      ]
+    },
+    {
+      "query_id": 19,
+      "from_sentence_id": 3,
+      "token": "send",
+      "token_pos": 5,
+      "word_score_logit": 0.01926497556269169,
+      "word_attn_weight": 0.09075918793678284,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.3335443437099457,
+          "sentence_text": "i've got dpg view on my linux box which displays uncompressed x faces and i've managed to compile un <UNK> too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.18761026859283447,
+          "sentence_text": "i'm not familiar at all with the format of these x face <UNK> but after seeing them in some <UNK> headers i've got to see them and maybe make one of my own"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.17491751909255981,
+          "sentence_text": "but now that i'm looking for them i can't seem to find any x face 's in <UNK> news headers"
+        }
+      ]
+    },
+    {
+      "query_id": 20,
+      "from_sentence_id": 4,
+      "token": "handle",
+      "token_pos": 11,
+      "word_score_logit": 0.028823593631386757,
+      "word_attn_weight": 0.07881947606801987,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.26186057925224304,
+          "sentence_text": "i've got dpg view on my linux box which displays uncompressed x faces and i've managed to compile un <UNK> too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.19692635536193848,
+          "sentence_text": "i'm not familiar at all with the format of these x face <UNK> but after seeing them in some <UNK> headers i've got to see them and maybe make one of my own"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.18392683565616608,
+          "sentence_text": "but now that i'm looking for them i can't seem to find any x face 's in <UNK> news headers"
+        }
+      ]
+    },
+    {
+      "query_id": 21,
+      "from_sentence_id": 4,
+      "token": "can",
+      "token_pos": 10,
+      "word_score_logit": 0.024838795885443687,
+      "word_attn_weight": 0.07850602269172668,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.2778438627719879,
+          "sentence_text": "i've got dpg view on my linux box which displays uncompressed x faces and i've managed to compile un <UNK> too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.1980476826429367,
+          "sentence_text": "i'm not familiar at all with the format of these x face <UNK> but after seeing them in some <UNK> headers i've got to see them and maybe make one of my own"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.183193176984787,
+          "sentence_text": "but now that i'm looking for them i can't seem to find any x face 's in <UNK> news headers"
+        }
+      ]
+    },
+    {
+      "query_id": 22,
+      "from_sentence_id": 4,
+      "token": "but",
+      "token_pos": 8,
+      "word_score_logit": 0.022972606122493744,
+      "word_attn_weight": 0.07835964858531952,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.30702030658721924,
+          "sentence_text": "i've got dpg view on my linux box which displays uncompressed x faces and i've managed to compile un <UNK> too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.20017109811306,
+          "sentence_text": "i'm not familiar at all with the format of these x face <UNK> but after seeing them in some <UNK> headers i've got to see them and maybe make one of my own"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.1830398440361023,
+          "sentence_text": "but now that i'm looking for them i can't seem to find any x face 's in <UNK> news headers"
+        }
+      ]
+    },
+    {
+      "query_id": 23,
+      "from_sentence_id": 4,
+      "token": "i",
+      "token_pos": 9,
+      "word_score_logit": 0.021720586344599724,
+      "word_attn_weight": 0.0782616063952446,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.2985365688800812,
+          "sentence_text": "i've got dpg view on my linux box which displays uncompressed x faces and i've managed to compile un <UNK> too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.2015039324760437,
+          "sentence_text": "i'm not familiar at all with the format of these x face <UNK> but after seeing them in some <UNK> headers i've got to see them and maybe make one of my own"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.18573983013629913,
+          "sentence_text": "but now that i'm looking for them i can't seem to find any x face 's in <UNK> news headers"
+        }
+      ]
+    },
+    {
+      "query_id": 24,
+      "from_sentence_id": 4,
+      "token": "it",
+      "token_pos": 12,
+      "word_score_logit": 0.014072379097342491,
+      "word_attn_weight": 0.07766532897949219,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.2981692850589752,
+          "sentence_text": "i've got dpg view on my linux box which displays uncompressed x faces and i've managed to compile un <UNK> too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.19835710525512695,
+          "sentence_text": "i'm not familiar at all with the format of these x face <UNK> but after seeing them in some <UNK> headers i've got to see them and maybe make one of my own"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.18322962522506714,
+          "sentence_text": "but now that i'm looking for them i can't seem to find any x face 's in <UNK> news headers"
+        }
+      ]
+    },
+    {
+      "query_id": 25,
+      "from_sentence_id": 5,
+      "token": "i",
+      "token_pos": 0,
+      "word_score_logit": -0.000411035493016243,
+      "word_attn_weight": 0.5009928941726685,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.29633307456970215,
+          "sentence_text": "i've got dpg view on my linux box which displays uncompressed x faces and i've managed to compile un <UNK> too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.1972801685333252,
+          "sentence_text": "i'm not familiar at all with the format of these x face <UNK> but after seeing them in some <UNK> headers i've got to see them and maybe make one of my own"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.1851012110710144,
+          "sentence_text": "but now that i'm looking for them i can't seem to find any x face 's in <UNK> news headers"
+        }
+      ]
+    },
+    {
+      "query_id": 26,
+      "from_sentence_id": 5,
+      "token": "hope",
+      "token_pos": 1,
+      "word_score_logit": -0.004382632672786713,
+      "word_attn_weight": 0.49900710582733154,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.2918725907802582,
+          "sentence_text": "i've got dpg view on my linux box which displays uncompressed x faces and i've managed to compile un <UNK> too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.19405701756477356,
+          "sentence_text": "i'm not familiar at all with the format of these x face <UNK> but after seeing them in some <UNK> headers i've got to see them and maybe make one of my own"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.1815582662820816,
+          "sentence_text": "but now that i'm looking for them i can't seem to find any x face 's in <UNK> news headers"
+        }
+      ]
+    },
+    {
+      "query_id": 27,
+      "from_sentence_id": 5,
+      "token": "<PAD>",
+      "token_pos": 4,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.22532619535923004,
+          "sentence_text": "i've got dpg view on my linux box which displays uncompressed x faces and i've managed to compile un <UNK> too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.18658602237701416,
+          "sentence_text": "i'm not familiar at all with the format of these x face <UNK> but after seeing them in some <UNK> headers i've got to see them and maybe make one of my own"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.18131256103515625,
+          "sentence_text": "but now that i'm looking for them i can't seem to find any x face 's in <UNK> news headers"
+        }
+      ]
+    },
+    {
+      "query_id": 28,
+      "from_sentence_id": 5,
+      "token": "<PAD>",
+      "token_pos": 3,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.22532619535923004,
+          "sentence_text": "i've got dpg view on my linux box which displays uncompressed x faces and i've managed to compile un <UNK> too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.18658602237701416,
+          "sentence_text": "i'm not familiar at all with the format of these x face <UNK> but after seeing them in some <UNK> headers i've got to see them and maybe make one of my own"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.18131256103515625,
+          "sentence_text": "but now that i'm looking for them i can't seem to find any x face 's in <UNK> news headers"
+        }
+      ]
+    },
+    {
+      "query_id": 29,
+      "from_sentence_id": 5,
+      "token": "<PAD>",
+      "token_pos": 2,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.22532619535923004,
+          "sentence_text": "i've got dpg view on my linux box which displays uncompressed x faces and i've managed to compile un <UNK> too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.18658602237701416,
+          "sentence_text": "i'm not familiar at all with the format of these x face <UNK> but after seeing them in some <UNK> headers i've got to see them and maybe make one of my own"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.18131256103515625,
+          "sentence_text": "but now that i'm looking for them i can't seem to find any x face 's in <UNK> news headers"
+        }
+      ]
+    }
+  ],
+  "sentence_importance_from_cross_attn": {
+    "definition": "mean cross-attn over queries",
+    "values": [
+      {
+        "sentence_id": 0,
+        "importance": 0.17296753823757172
+      },
+      {
+        "sentence_id": 1,
+        "importance": 0.4175547957420349
+      },
+      {
+        "sentence_id": 2,
+        "importance": 0.1552451103925705
+      },
+      {
+        "sentence_id": 3,
+        "importance": 0.09879771620035172
+      },
+      {
+        "sentence_id": 4,
+        "importance": 0.07741264253854752
+      },
+      {
+        "sentence_id": 5,
+        "importance": 0.07802214473485947
+      }
+    ],
+    "ranked": [
+      {
+        "sentence_id": 1,
+        "importance": 0.4175547957420349
+      },
+      {
+        "sentence_id": 0,
+        "importance": 0.17296753823757172
+      },
+      {
+        "sentence_id": 2,
+        "importance": 0.1552451103925705
+      },
+      {
+        "sentence_id": 3,
+        "importance": 0.09879771620035172
+      },
+      {
+        "sentence_id": 5,
+        "importance": 0.07802214473485947
+      },
+      {
+        "sentence_id": 4,
+        "importance": 0.07741264253854752
+      }
+    ]
+  },
+  "example_id": "test-2"
+}

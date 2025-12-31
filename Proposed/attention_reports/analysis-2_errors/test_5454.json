@@ -1,0 +1,297 @@
+{
+  "true_label_id": 4,
+  "pred_label_id": 17,
+  "true_label_name": "comp.sys.mac.hardware",
+  "pred_label_name": "talk.politics.mideast",
+  "pred_confidence": 0.1551574170589447,
+  "num_sents": 2,
+  "top_sentences": [
+    {
+      "sentence_id": 0,
+      "importance": 0.6438218355178833,
+      "sentence_text": "that's what the pseudo disclaimer is supposed to say sorry for the confusion",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "confusion",
+          "token_pos": 12,
+          "word_score_logit": 0.027618035674095154,
+          "word_attn_weight": 0.07856570929288864
+        },
+        {
+          "rank": 1,
+          "token": "the",
+          "token_pos": 11,
+          "word_score_logit": 0.02075926773250103,
+          "word_attn_weight": 0.07802869379520416
+        },
+        {
+          "rank": 2,
+          "token": "what",
+          "token_pos": 1,
+          "word_score_logit": 0.012157274410128593,
+          "word_attn_weight": 0.0773603618144989
+        },
+        {
+          "rank": 3,
+          "token": "say",
+          "token_pos": 8,
+          "word_score_logit": 0.008592142723500729,
+          "word_attn_weight": 0.07708505541086197
+        },
+        {
+          "rank": 4,
+          "token": "disclaimer",
+          "token_pos": 4,
+          "word_score_logit": 0.007946737110614777,
+          "word_attn_weight": 0.0770353227853775
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "importance": 0.3561782240867615,
+      "sentence_text": "nate",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "nate",
+          "token_pos": 0,
+          "word_score_logit": 0.03379758447408676,
+          "word_attn_weight": 1.0
+        },
+        {
+          "rank": 1,
+          "token": "<PAD/OUT>",
+          "token_pos": 3,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 2,
+          "token": "<PAD/OUT>",
+          "token_pos": 1,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 3,
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 4,
+          "token": "<PAD/OUT>",
+          "token_pos": 2,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "confusion",
+      "token_pos": 12,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.7525519132614136,
+          "sentence_text": "that's what the pseudo disclaimer is supposed to say sorry for the confusion"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.24744805693626404,
+          "sentence_text": "nate"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "the",
+      "token_pos": 11,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.7359756231307983,
+          "sentence_text": "that's what the pseudo disclaimer is supposed to say sorry for the confusion"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.26402437686920166,
+          "sentence_text": "nate"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "what",
+      "token_pos": 1,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.7408751249313354,
+          "sentence_text": "that's what the pseudo disclaimer is supposed to say sorry for the confusion"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.25912487506866455,
+          "sentence_text": "nate"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "say",
+      "token_pos": 8,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.7428780198097229,
+          "sentence_text": "that's what the pseudo disclaimer is supposed to say sorry for the confusion"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.2571219801902771,
+          "sentence_text": "nate"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "disclaimer",
+      "token_pos": 4,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.7614479064941406,
+          "sentence_text": "that's what the pseudo disclaimer is supposed to say sorry for the confusion"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.23855212330818176,
+          "sentence_text": "nate"
+        }
+      ]
+    },
+    {
+      "query_id": 5,
+      "from_sentence_id": 1,
+      "token": "nate",
+      "token_pos": 0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.525471031665802,
+          "sentence_text": "nate"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.4745290279388428,
+          "sentence_text": "that's what the pseudo disclaimer is supposed to say sorry for the confusion"
+        }
+      ]
+    },
+    {
+      "query_id": 6,
+      "from_sentence_id": 1,
+      "token": "<PAD/OUT>",
+      "token_pos": 3,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5574901103973389,
+          "sentence_text": "that's what the pseudo disclaimer is supposed to say sorry for the confusion"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.44250988960266113,
+          "sentence_text": "nate"
+        }
+      ]
+    },
+    {
+      "query_id": 7,
+      "from_sentence_id": 1,
+      "token": "<PAD/OUT>",
+      "token_pos": 1,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5574901103973389,
+          "sentence_text": "that's what the pseudo disclaimer is supposed to say sorry for the confusion"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.44250988960266113,
+          "sentence_text": "nate"
+        }
+      ]
+    },
+    {
+      "query_id": 8,
+      "from_sentence_id": 1,
+      "token": "<PAD/OUT>",
+      "token_pos": 4,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5574901103973389,
+          "sentence_text": "that's what the pseudo disclaimer is supposed to say sorry for the confusion"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.44250988960266113,
+          "sentence_text": "nate"
+        }
+      ]
+    },
+    {
+      "query_id": 9,
+      "from_sentence_id": 1,
+      "token": "<PAD/OUT>",
+      "token_pos": 2,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5574901103973389,
+          "sentence_text": "that's what the pseudo disclaimer is supposed to say sorry for the confusion"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.44250988960266113,
+          "sentence_text": "nate"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_5454"
+}

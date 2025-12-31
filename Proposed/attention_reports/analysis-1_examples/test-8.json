@@ -1,0 +1,965 @@
+{
+  "true_label_id": 15,
+  "pred_label_id": 1,
+  "true_label_name": "soc.religion.christian",
+  "pred_label_name": "comp.graphics",
+  "pred_confidence": 0.45319193601608276,
+  "num_sents": 5,
+  "sentence_summaries": [
+    {
+      "sentence_id": 0,
+      "sentence_text": "a friend of mine managed to get a copy of a <UNK> greek and hebrew lexicon called the word perfect that is not the word processing package wordperfect",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "a",
+          "token_pos": 7,
+          "word_score_logit": 0.03940887004137039,
+          "word_attn_weight": 0.0367518812417984
+        },
+        {
+          "rank": 1,
+          "token": "to",
+          "token_pos": 5,
+          "word_score_logit": 0.039083801209926605,
+          "word_attn_weight": 0.03673993796110153
+        },
+        {
+          "rank": 2,
+          "token": "the",
+          "token_pos": 17,
+          "word_score_logit": 0.03845705837011337,
+          "word_attn_weight": 0.036716919392347336
+        },
+        {
+          "rank": 3,
+          "token": "get",
+          "token_pos": 6,
+          "word_score_logit": 0.03681308403611183,
+          "word_attn_weight": 0.03665660694241524
+        },
+        {
+          "rank": 4,
+          "token": "managed",
+          "token_pos": 4,
+          "word_score_logit": 0.03482160344719887,
+          "word_attn_weight": 0.03658367693424225
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "sentence_text": "however some one wiped out the exe file and she has not been able to restore it",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "exe",
+          "token_pos": 6,
+          "word_score_logit": 0.0389852300286293,
+          "word_attn_weight": 0.06114333122968674
+        },
+        {
+          "rank": 1,
+          "token": "however",
+          "token_pos": 0,
+          "word_score_logit": 0.03049202263355255,
+          "word_attn_weight": 0.06062622368335724
+        },
+        {
+          "rank": 2,
+          "token": "one",
+          "token_pos": 2,
+          "word_score_logit": 0.02903199940919876,
+          "word_attn_weight": 0.060537777841091156
+        },
+        {
+          "rank": 3,
+          "token": "some",
+          "token_pos": 1,
+          "word_score_logit": 0.020343352109193802,
+          "word_attn_weight": 0.060014065355062485
+        },
+        {
+          "rank": 4,
+          "token": "file",
+          "token_pos": 7,
+          "word_score_logit": 0.018918264657258987,
+          "word_attn_weight": 0.05992859974503517
+        }
+      ]
+    },
+    {
+      "sentence_id": 2,
+      "sentence_text": "there are no distributors of the package in south africa",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "there",
+          "token_pos": 0,
+          "word_score_logit": 0.004681587219238281,
+          "word_attn_weight": 0.10288426280021667
+        },
+        {
+          "rank": 1,
+          "token": "africa",
+          "token_pos": 9,
+          "word_score_logit": -0.011060245335102081,
+          "word_attn_weight": 0.10127735137939453
+        },
+        {
+          "rank": 2,
+          "token": "no",
+          "token_pos": 2,
+          "word_score_logit": -0.013212410733103752,
+          "word_attn_weight": 0.10105961561203003
+        },
+        {
+          "rank": 3,
+          "token": "are",
+          "token_pos": 1,
+          "word_score_logit": -0.014310471713542938,
+          "word_attn_weight": 0.10094871371984482
+        },
+        {
+          "rank": 4,
+          "token": "in",
+          "token_pos": 7,
+          "word_score_logit": -0.01746165007352829,
+          "word_attn_weight": 0.10063110291957855
+        }
+      ]
+    },
+    {
+      "sentence_id": 3,
+      "sentence_text": "i would appreciate it if some one could email me the file or at least tell me where i could get it from",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "email",
+          "token_pos": 8,
+          "word_score_logit": 0.0706305131316185,
+          "word_attn_weight": 0.04532383382320404
+        },
+        {
+          "rank": 1,
+          "token": "file",
+          "token_pos": 11,
+          "word_score_logit": 0.05882323533296585,
+          "word_attn_weight": 0.04479183256626129
+        },
+        {
+          "rank": 2,
+          "token": "the",
+          "token_pos": 10,
+          "word_score_logit": 0.054855167865753174,
+          "word_attn_weight": 0.04461444541811943
+        },
+        {
+          "rank": 3,
+          "token": "me",
+          "token_pos": 9,
+          "word_score_logit": 0.05288732051849365,
+          "word_attn_weight": 0.04452673718333244
+        },
+        {
+          "rank": 4,
+          "token": "or",
+          "token_pos": 12,
+          "word_score_logit": 0.04676224663853645,
+          "word_attn_weight": 0.0442548431456089
+        }
+      ]
+    },
+    {
+      "sentence_id": 4,
+      "sentence_text": "my email address is <UNK> <UNK> und ac za or <UNK> <UNK> und ac za many thanks",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "address",
+          "token_pos": 2,
+          "word_score_logit": 0.060656242072582245,
+          "word_attn_weight": 0.061976611614227295
+        },
+        {
+          "rank": 1,
+          "token": "email",
+          "token_pos": 1,
+          "word_score_logit": 0.0474834069609642,
+          "word_attn_weight": 0.06116555631160736
+        },
+        {
+          "rank": 2,
+          "token": "or",
+          "token_pos": 9,
+          "word_score_logit": 0.04255463927984238,
+          "word_attn_weight": 0.060864828526973724
+        },
+        {
+          "rank": 3,
+          "token": "za",
+          "token_pos": 8,
+          "word_score_logit": 0.037619419395923615,
+          "word_attn_weight": 0.06056518480181694
+        },
+        {
+          "rank": 4,
+          "token": "za",
+          "token_pos": 14,
+          "word_score_logit": 0.037017226219177246,
+          "word_attn_weight": 0.06052873283624649
+        }
+      ]
+    }
+  ],
+  "query_summaries": [
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "a",
+      "token_pos": 7,
+      "word_score_logit": 0.03940887004137039,
+      "word_attn_weight": 0.0367518812417984,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.7593543529510498,
+          "sentence_text": "a friend of mine managed to get a copy of a <UNK> greek and hebrew lexicon called the word perfect that is not the word processing package wordperfect"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.1029825359582901,
+          "sentence_text": "i would appreciate it if some one could email me the file or at least tell me where i could get it from"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.06194451451301575,
+          "sentence_text": "however some one wiped out the exe file and she has not been able to restore it"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "to",
+      "token_pos": 5,
+      "word_score_logit": 0.039083801209926605,
+      "word_attn_weight": 0.03673993796110153,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.7893962264060974,
+          "sentence_text": "a friend of mine managed to get a copy of a <UNK> greek and hebrew lexicon called the word perfect that is not the word processing package wordperfect"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.08137556910514832,
+          "sentence_text": "i would appreciate it if some one could email me the file or at least tell me where i could get it from"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.0584244430065155,
+          "sentence_text": "however some one wiped out the exe file and she has not been able to restore it"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "the",
+      "token_pos": 17,
+      "word_score_logit": 0.03845705837011337,
+      "word_attn_weight": 0.036716919392347336,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.7661954164505005,
+          "sentence_text": "a friend of mine managed to get a copy of a <UNK> greek and hebrew lexicon called the word perfect that is not the word processing package wordperfect"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.07110698521137238,
+          "sentence_text": "i would appreciate it if some one could email me the file or at least tell me where i could get it from"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.07092931866645813,
+          "sentence_text": "however some one wiped out the exe file and she has not been able to restore it"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "get",
+      "token_pos": 6,
+      "word_score_logit": 0.03681308403611183,
+      "word_attn_weight": 0.03665660694241524,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.7528765201568604,
+          "sentence_text": "a friend of mine managed to get a copy of a <UNK> greek and hebrew lexicon called the word perfect that is not the word processing package wordperfect"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.09095308184623718,
+          "sentence_text": "i would appreciate it if some one could email me the file or at least tell me where i could get it from"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.068917416036129,
+          "sentence_text": "however some one wiped out the exe file and she has not been able to restore it"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "managed",
+      "token_pos": 4,
+      "word_score_logit": 0.03482160344719887,
+      "word_attn_weight": 0.03658367693424225,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.7383278608322144,
+          "sentence_text": "a friend of mine managed to get a copy of a <UNK> greek and hebrew lexicon called the word perfect that is not the word processing package wordperfect"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.09529423713684082,
+          "sentence_text": "i would appreciate it if some one could email me the file or at least tell me where i could get it from"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.07284607738256454,
+          "sentence_text": "however some one wiped out the exe file and she has not been able to restore it"
+        }
+      ]
+    },
+    {
+      "query_id": 5,
+      "from_sentence_id": 1,
+      "token": "exe",
+      "token_pos": 6,
+      "word_score_logit": 0.0389852300286293,
+      "word_attn_weight": 0.06114333122968674,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.21779190003871918,
+          "sentence_text": "my email address is <UNK> <UNK> und ac za or <UNK> <UNK> und ac za many thanks"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.2005951702594757,
+          "sentence_text": "i would appreciate it if some one could email me the file or at least tell me where i could get it from"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.19953086972236633,
+          "sentence_text": "however some one wiped out the exe file and she has not been able to restore it"
+        }
+      ]
+    },
+    {
+      "query_id": 6,
+      "from_sentence_id": 1,
+      "token": "however",
+      "token_pos": 0,
+      "word_score_logit": 0.03049202263355255,
+      "word_attn_weight": 0.06062622368335724,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.3901461660861969,
+          "sentence_text": "a friend of mine managed to get a copy of a <UNK> greek and hebrew lexicon called the word perfect that is not the word processing package wordperfect"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.16757558286190033,
+          "sentence_text": "however some one wiped out the exe file and she has not been able to restore it"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.15573732554912567,
+          "sentence_text": "i would appreciate it if some one could email me the file or at least tell me where i could get it from"
+        }
+      ]
+    },
+    {
+      "query_id": 7,
+      "from_sentence_id": 1,
+      "token": "one",
+      "token_pos": 2,
+      "word_score_logit": 0.02903199940919876,
+      "word_attn_weight": 0.060537777841091156,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.2788190543651581,
+          "sentence_text": "a friend of mine managed to get a copy of a <UNK> greek and hebrew lexicon called the word perfect that is not the word processing package wordperfect"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.1956140249967575,
+          "sentence_text": "i would appreciate it if some one could email me the file or at least tell me where i could get it from"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.18824413418769836,
+          "sentence_text": "however some one wiped out the exe file and she has not been able to restore it"
+        }
+      ]
+    },
+    {
+      "query_id": 8,
+      "from_sentence_id": 1,
+      "token": "some",
+      "token_pos": 1,
+      "word_score_logit": 0.020343352109193802,
+      "word_attn_weight": 0.060014065355062485,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.34355640411376953,
+          "sentence_text": "a friend of mine managed to get a copy of a <UNK> greek and hebrew lexicon called the word perfect that is not the word processing package wordperfect"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.1775558590888977,
+          "sentence_text": "however some one wiped out the exe file and she has not been able to restore it"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.16640843451023102,
+          "sentence_text": "i would appreciate it if some one could email me the file or at least tell me where i could get it from"
+        }
+      ]
+    },
+    {
+      "query_id": 9,
+      "from_sentence_id": 1,
+      "token": "file",
+      "token_pos": 7,
+      "word_score_logit": 0.018918264657258987,
+      "word_attn_weight": 0.05992859974503517,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5211846828460693,
+          "sentence_text": "a friend of mine managed to get a copy of a <UNK> greek and hebrew lexicon called the word perfect that is not the word processing package wordperfect"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.16108836233615875,
+          "sentence_text": "there are no distributors of the package in south africa"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.13521593809127808,
+          "sentence_text": "however some one wiped out the exe file and she has not been able to restore it"
+        }
+      ]
+    },
+    {
+      "query_id": 10,
+      "from_sentence_id": 2,
+      "token": "there",
+      "token_pos": 0,
+      "word_score_logit": 0.004681587219238281,
+      "word_attn_weight": 0.10288426280021667,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.33895352482795715,
+          "sentence_text": "a friend of mine managed to get a copy of a <UNK> greek and hebrew lexicon called the word perfect that is not the word processing package wordperfect"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.22884267568588257,
+          "sentence_text": "there are no distributors of the package in south africa"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.17486897110939026,
+          "sentence_text": "however some one wiped out the exe file and she has not been able to restore it"
+        }
+      ]
+    },
+    {
+      "query_id": 11,
+      "from_sentence_id": 2,
+      "token": "africa",
+      "token_pos": 9,
+      "word_score_logit": -0.011060245335102081,
+      "word_attn_weight": 0.10127735137939453,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.42001259326934814,
+          "sentence_text": "a friend of mine managed to get a copy of a <UNK> greek and hebrew lexicon called the word perfect that is not the word processing package wordperfect"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.18207433819770813,
+          "sentence_text": "there are no distributors of the package in south africa"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.15869808197021484,
+          "sentence_text": "however some one wiped out the exe file and she has not been able to restore it"
+        }
+      ]
+    },
+    {
+      "query_id": 12,
+      "from_sentence_id": 2,
+      "token": "no",
+      "token_pos": 2,
+      "word_score_logit": -0.013212410733103752,
+      "word_attn_weight": 0.10105961561203003,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.3412368893623352,
+          "sentence_text": "a friend of mine managed to get a copy of a <UNK> greek and hebrew lexicon called the word perfect that is not the word processing package wordperfect"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.21168911457061768,
+          "sentence_text": "there are no distributors of the package in south africa"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.17458003759384155,
+          "sentence_text": "however some one wiped out the exe file and she has not been able to restore it"
+        }
+      ]
+    },
+    {
+      "query_id": 13,
+      "from_sentence_id": 2,
+      "token": "are",
+      "token_pos": 1,
+      "word_score_logit": -0.014310471713542938,
+      "word_attn_weight": 0.10094871371984482,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.3289150595664978,
+          "sentence_text": "a friend of mine managed to get a copy of a <UNK> greek and hebrew lexicon called the word perfect that is not the word processing package wordperfect"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.21052317321300507,
+          "sentence_text": "there are no distributors of the package in south africa"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.1778605580329895,
+          "sentence_text": "however some one wiped out the exe file and she has not been able to restore it"
+        }
+      ]
+    },
+    {
+      "query_id": 14,
+      "from_sentence_id": 2,
+      "token": "in",
+      "token_pos": 7,
+      "word_score_logit": -0.01746165007352829,
+      "word_attn_weight": 0.10063110291957855,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.48080891370773315,
+          "sentence_text": "a friend of mine managed to get a copy of a <UNK> greek and hebrew lexicon called the word perfect that is not the word processing package wordperfect"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.19980071485042572,
+          "sentence_text": "there are no distributors of the package in south africa"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.14002451300621033,
+          "sentence_text": "however some one wiped out the exe file and she has not been able to restore it"
+        }
+      ]
+    },
+    {
+      "query_id": 15,
+      "from_sentence_id": 3,
+      "token": "email",
+      "token_pos": 8,
+      "word_score_logit": 0.0706305131316185,
+      "word_attn_weight": 0.04532383382320404,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.471306174993515,
+          "sentence_text": "a friend of mine managed to get a copy of a <UNK> greek and hebrew lexicon called the word perfect that is not the word processing package wordperfect"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.1866423785686493,
+          "sentence_text": "there are no distributors of the package in south africa"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.14648520946502686,
+          "sentence_text": "however some one wiped out the exe file and she has not been able to restore it"
+        }
+      ]
+    },
+    {
+      "query_id": 16,
+      "from_sentence_id": 3,
+      "token": "file",
+      "token_pos": 11,
+      "word_score_logit": 0.05882323533296585,
+      "word_attn_weight": 0.04479183256626129,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5751927495002747,
+          "sentence_text": "a friend of mine managed to get a copy of a <UNK> greek and hebrew lexicon called the word perfect that is not the word processing package wordperfect"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.15655800700187683,
+          "sentence_text": "there are no distributors of the package in south africa"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.12063368409872055,
+          "sentence_text": "however some one wiped out the exe file and she has not been able to restore it"
+        }
+      ]
+    },
+    {
+      "query_id": 17,
+      "from_sentence_id": 3,
+      "token": "the",
+      "token_pos": 10,
+      "word_score_logit": 0.054855167865753174,
+      "word_attn_weight": 0.04461444541811943,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.46983179450035095,
+          "sentence_text": "a friend of mine managed to get a copy of a <UNK> greek and hebrew lexicon called the word perfect that is not the word processing package wordperfect"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.17101998627185822,
+          "sentence_text": "there are no distributors of the package in south africa"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.14930689334869385,
+          "sentence_text": "however some one wiped out the exe file and she has not been able to restore it"
+        }
+      ]
+    },
+    {
+      "query_id": 18,
+      "from_sentence_id": 3,
+      "token": "me",
+      "token_pos": 9,
+      "word_score_logit": 0.05288732051849365,
+      "word_attn_weight": 0.04452673718333244,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.40937966108322144,
+          "sentence_text": "a friend of mine managed to get a copy of a <UNK> greek and hebrew lexicon called the word perfect that is not the word processing package wordperfect"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.1936006247997284,
+          "sentence_text": "there are no distributors of the package in south africa"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.16504302620887756,
+          "sentence_text": "however some one wiped out the exe file and she has not been able to restore it"
+        }
+      ]
+    },
+    {
+      "query_id": 19,
+      "from_sentence_id": 3,
+      "token": "or",
+      "token_pos": 12,
+      "word_score_logit": 0.04676224663853645,
+      "word_attn_weight": 0.0442548431456089,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5176073908805847,
+          "sentence_text": "a friend of mine managed to get a copy of a <UNK> greek and hebrew lexicon called the word perfect that is not the word processing package wordperfect"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.19754090905189514,
+          "sentence_text": "there are no distributors of the package in south africa"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.13362433016300201,
+          "sentence_text": "however some one wiped out the exe file and she has not been able to restore it"
+        }
+      ]
+    },
+    {
+      "query_id": 20,
+      "from_sentence_id": 4,
+      "token": "address",
+      "token_pos": 2,
+      "word_score_logit": 0.060656242072582245,
+      "word_attn_weight": 0.061976611614227295,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.4859327971935272,
+          "sentence_text": "a friend of mine managed to get a copy of a <UNK> greek and hebrew lexicon called the word perfect that is not the word processing package wordperfect"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.17575809359550476,
+          "sentence_text": "there are no distributors of the package in south africa"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.14273899793624878,
+          "sentence_text": "however some one wiped out the exe file and she has not been able to restore it"
+        }
+      ]
+    },
+    {
+      "query_id": 21,
+      "from_sentence_id": 4,
+      "token": "email",
+      "token_pos": 1,
+      "word_score_logit": 0.0474834069609642,
+      "word_attn_weight": 0.06116555631160736,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.4513470530509949,
+          "sentence_text": "a friend of mine managed to get a copy of a <UNK> greek and hebrew lexicon called the word perfect that is not the word processing package wordperfect"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.1831171065568924,
+          "sentence_text": "there are no distributors of the package in south africa"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.14973756670951843,
+          "sentence_text": "however some one wiped out the exe file and she has not been able to restore it"
+        }
+      ]
+    },
+    {
+      "query_id": 22,
+      "from_sentence_id": 4,
+      "token": "or",
+      "token_pos": 9,
+      "word_score_logit": 0.04255463927984238,
+      "word_attn_weight": 0.060864828526973724,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.21692149341106415,
+          "sentence_text": "a friend of mine managed to get a copy of a <UNK> greek and hebrew lexicon called the word perfect that is not the word processing package wordperfect"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 4,
+          "attn_weight": 0.21240931749343872,
+          "sentence_text": "my email address is <UNK> <UNK> und ac za or <UNK> <UNK> und ac za many thanks"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.21070724725723267,
+          "sentence_text": "there are no distributors of the package in south africa"
+        }
+      ]
+    },
+    {
+      "query_id": 23,
+      "from_sentence_id": 4,
+      "token": "za",
+      "token_pos": 8,
+      "word_score_logit": 0.037619419395923615,
+      "word_attn_weight": 0.06056518480181694,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.2215888649225235,
+          "sentence_text": "my email address is <UNK> <UNK> und ac za or <UNK> <UNK> und ac za many thanks"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.20957481861114502,
+          "sentence_text": "there are no distributors of the package in south africa"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.19679808616638184,
+          "sentence_text": "however some one wiped out the exe file and she has not been able to restore it"
+        }
+      ]
+    },
+    {
+      "query_id": 24,
+      "from_sentence_id": 4,
+      "token": "za",
+      "token_pos": 14,
+      "word_score_logit": 0.037017226219177246,
+      "word_attn_weight": 0.06052873283624649,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.23242783546447754,
+          "sentence_text": "there are no distributors of the package in south africa"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 4,
+          "attn_weight": 0.21213746070861816,
+          "sentence_text": "my email address is <UNK> <UNK> und ac za or <UNK> <UNK> und ac za many thanks"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.19956770539283752,
+          "sentence_text": "however some one wiped out the exe file and she has not been able to restore it"
+        }
+      ]
+    }
+  ],
+  "sentence_importance_from_cross_attn": {
+    "definition": "mean cross-attn over queries",
+    "values": [
+      {
+        "sentence_id": 0,
+        "importance": 0.45699048042297363
+      },
+      {
+        "sentence_id": 1,
+        "importance": 0.14506284892559052
+      },
+      {
+        "sentence_id": 2,
+        "importance": 0.15745596587657928
+      },
+      {
+        "sentence_id": 3,
+        "importance": 0.11499479413032532
+      },
+      {
+        "sentence_id": 4,
+        "importance": 0.12549597024917603
+      }
+    ],
+    "ranked": [
+      {
+        "sentence_id": 0,
+        "importance": 0.45699048042297363
+      },
+      {
+        "sentence_id": 2,
+        "importance": 0.15745596587657928
+      },
+      {
+        "sentence_id": 1,
+        "importance": 0.14506284892559052
+      },
+      {
+        "sentence_id": 4,
+        "importance": 0.12549597024917603
+      },
+      {
+        "sentence_id": 3,
+        "importance": 0.11499479413032532
+      }
+    ]
+  },
+  "example_id": "test-8"
+}

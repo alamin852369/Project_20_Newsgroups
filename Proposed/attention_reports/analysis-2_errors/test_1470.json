@@ -1,0 +1,297 @@
+{
+  "true_label_id": 11,
+  "pred_label_id": 12,
+  "true_label_name": "sci.crypt",
+  "pred_label_name": "sci.electronics",
+  "pred_confidence": 0.17467762529850006,
+  "num_sents": 2,
+  "top_sentences": [
+    {
+      "sentence_id": 0,
+      "importance": 0.5450750589370728,
+      "sentence_text": "they are and they have",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "they",
+          "token_pos": 0,
+          "word_score_logit": 0.02792578935623169,
+          "word_attn_weight": 0.20173808932304382
+        },
+        {
+          "rank": 1,
+          "token": "they",
+          "token_pos": 3,
+          "word_score_logit": 0.02399379201233387,
+          "word_attn_weight": 0.20094642043113708
+        },
+        {
+          "rank": 2,
+          "token": "and",
+          "token_pos": 2,
+          "word_score_logit": 0.018796540796756744,
+          "word_attn_weight": 0.19990475475788116
+        },
+        {
+          "rank": 3,
+          "token": "have",
+          "token_pos": 4,
+          "word_score_logit": 0.016494542360305786,
+          "word_attn_weight": 0.19944509863853455
+        },
+        {
+          "rank": 4,
+          "token": "are",
+          "token_pos": 1,
+          "word_score_logit": 0.00904906913638115,
+          "word_attn_weight": 0.19796566665172577
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "importance": 0.45492497086524963,
+      "sentence_text": "david",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "david",
+          "token_pos": 0,
+          "word_score_logit": 0.039763059467077255,
+          "word_attn_weight": 1.0
+        },
+        {
+          "rank": 1,
+          "token": "<PAD/OUT>",
+          "token_pos": 3,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 2,
+          "token": "<PAD/OUT>",
+          "token_pos": 1,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 3,
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 4,
+          "token": "<PAD/OUT>",
+          "token_pos": 2,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "they",
+      "token_pos": 0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5700646638870239,
+          "sentence_text": "they are and they have"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.4299353361129761,
+          "sentence_text": "david"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "they",
+      "token_pos": 3,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.556239128112793,
+          "sentence_text": "they are and they have"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.44376084208488464,
+          "sentence_text": "david"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "and",
+      "token_pos": 2,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.557257890701294,
+          "sentence_text": "they are and they have"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.44274207949638367,
+          "sentence_text": "david"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "have",
+      "token_pos": 4,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5546879768371582,
+          "sentence_text": "they are and they have"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.4453119933605194,
+          "sentence_text": "david"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "are",
+      "token_pos": 1,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5596067905426025,
+          "sentence_text": "they are and they have"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.4403931796550751,
+          "sentence_text": "david"
+        }
+      ]
+    },
+    {
+      "query_id": 5,
+      "from_sentence_id": 1,
+      "token": "david",
+      "token_pos": 0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5354021191596985,
+          "sentence_text": "they are and they have"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.4645978510379791,
+          "sentence_text": "david"
+        }
+      ]
+    },
+    {
+      "query_id": 6,
+      "from_sentence_id": 1,
+      "token": "<PAD/OUT>",
+      "token_pos": 3,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5293728709220886,
+          "sentence_text": "they are and they have"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.4706271290779114,
+          "sentence_text": "david"
+        }
+      ]
+    },
+    {
+      "query_id": 7,
+      "from_sentence_id": 1,
+      "token": "<PAD/OUT>",
+      "token_pos": 1,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5293728709220886,
+          "sentence_text": "they are and they have"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.4706271290779114,
+          "sentence_text": "david"
+        }
+      ]
+    },
+    {
+      "query_id": 8,
+      "from_sentence_id": 1,
+      "token": "<PAD/OUT>",
+      "token_pos": 4,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5293728709220886,
+          "sentence_text": "they are and they have"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.4706271290779114,
+          "sentence_text": "david"
+        }
+      ]
+    },
+    {
+      "query_id": 9,
+      "from_sentence_id": 1,
+      "token": "<PAD/OUT>",
+      "token_pos": 2,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5293728709220886,
+          "sentence_text": "they are and they have"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.4706271290779114,
+          "sentence_text": "david"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_1470"
+}

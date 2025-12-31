@@ -1,0 +1,1343 @@
+{
+  "true_label_id": 4,
+  "pred_label_id": 2,
+  "true_label_name": "comp.sys.mac.hardware",
+  "pred_label_name": "comp.os.ms-windows.misc",
+  "pred_confidence": 0.4272906184196472,
+  "num_sents": 7,
+  "sentence_summaries": [
+    {
+      "sentence_id": 0,
+      "sentence_text": "<UNK> got a problem printing with a <UNK>",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "with",
+          "token_pos": 5,
+          "word_score_logit": 0.029189249500632286,
+          "word_attn_weight": 0.12802328169345856
+        },
+        {
+          "rank": 1,
+          "token": "printing",
+          "token_pos": 4,
+          "word_score_logit": 0.02529129572212696,
+          "word_attn_weight": 0.1275252252817154
+        },
+        {
+          "rank": 2,
+          "token": "a",
+          "token_pos": 6,
+          "word_score_logit": 0.014127306640148163,
+          "word_attn_weight": 0.12610945105552673
+        },
+        {
+          "rank": 3,
+          "token": "problem",
+          "token_pos": 3,
+          "word_score_logit": 0.00962204858660698,
+          "word_attn_weight": 0.12554258108139038
+        },
+        {
+          "rank": 4,
+          "token": "<UNK>",
+          "token_pos": 7,
+          "word_score_logit": 0.0051541803404688835,
+          "word_attn_weight": 0.12498291581869125
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "sentence_text": "i am printing from a iivx with 20 megs ram",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "from",
+          "token_pos": 3,
+          "word_score_logit": 0.00903435330837965,
+          "word_attn_weight": 0.10233165323734283
+        },
+        {
+          "rank": 1,
+          "token": "i",
+          "token_pos": 0,
+          "word_score_logit": 0.0033662309870123863,
+          "word_attn_weight": 0.10175327211618423
+        },
+        {
+          "rank": 2,
+          "token": "a",
+          "token_pos": 4,
+          "word_score_logit": -0.008014090359210968,
+          "word_attn_weight": 0.10060184448957443
+        },
+        {
+          "rank": 3,
+          "token": "printing",
+          "token_pos": 2,
+          "word_score_logit": -0.01056249812245369,
+          "word_attn_weight": 0.10034579783678055
+        },
+        {
+          "rank": 4,
+          "token": "with",
+          "token_pos": 6,
+          "word_score_logit": -0.015065951272845268,
+          "word_attn_weight": 0.09989491105079651
+        }
+      ]
+    },
+    {
+      "sentence_id": 2,
+      "sentence_text": "i am trying to print a quark file that has 2 fonts a couple of boxes and 3 gradient fills",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "quark",
+          "token_pos": 6,
+          "word_score_logit": 0.07607688754796982,
+          "word_attn_weight": 0.052151769399642944
+        },
+        {
+          "rank": 1,
+          "token": "file",
+          "token_pos": 7,
+          "word_score_logit": 0.07246718555688858,
+          "word_attn_weight": 0.05196385458111763
+        },
+        {
+          "rank": 2,
+          "token": "a",
+          "token_pos": 5,
+          "word_score_logit": 0.05290796235203743,
+          "word_attn_weight": 0.05095736309885979
+        },
+        {
+          "rank": 3,
+          "token": "3",
+          "token_pos": 17,
+          "word_score_logit": 0.04667791351675987,
+          "word_attn_weight": 0.05064087733626366
+        },
+        {
+          "rank": 4,
+          "token": "a",
+          "token_pos": 12,
+          "word_score_logit": 0.04110503941774368,
+          "word_attn_weight": 0.05035945028066635
+        }
+      ]
+    },
+    {
+      "sentence_id": 3,
+      "sentence_text": "two things happen i get a disk is full error that i can't find documented i also have parts of letters that are over one of the gradient fills get cut off",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "of",
+          "token_pos": 19,
+          "word_score_logit": 0.07046175003051758,
+          "word_attn_weight": 0.032877955585718155
+        },
+        {
+          "rank": 1,
+          "token": "parts",
+          "token_pos": 18,
+          "word_score_logit": 0.058767106384038925,
+          "word_attn_weight": 0.03249569982290268
+        },
+        {
+          "rank": 2,
+          "token": "error",
+          "token_pos": 9,
+          "word_score_logit": 0.056460022926330566,
+          "word_attn_weight": 0.032420817762613297
+        },
+        {
+          "rank": 3,
+          "token": "of",
+          "token_pos": 25,
+          "word_score_logit": 0.0495036318898201,
+          "word_attn_weight": 0.03219606727361679
+        },
+        {
+          "rank": 4,
+          "token": "disk",
+          "token_pos": 6,
+          "word_score_logit": 0.04737386479973793,
+          "word_attn_weight": 0.03212756663560867
+        }
+      ]
+    },
+    {
+      "sentence_id": 4,
+      "sentence_text": "this only happens to the text over the fill",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "only",
+          "token_pos": 1,
+          "word_score_logit": 0.027446210384368896,
+          "word_attn_weight": 0.11274544894695282
+        },
+        {
+          "rank": 1,
+          "token": "the",
+          "token_pos": 7,
+          "word_score_logit": 0.024059083312749863,
+          "word_attn_weight": 0.11236421763896942
+        },
+        {
+          "rank": 2,
+          "token": "the",
+          "token_pos": 4,
+          "word_score_logit": 0.019950252026319504,
+          "word_attn_weight": 0.11190347373485565
+        },
+        {
+          "rank": 3,
+          "token": "happens",
+          "token_pos": 2,
+          "word_score_logit": 0.01766148954629898,
+          "word_attn_weight": 0.11164765059947968
+        },
+        {
+          "rank": 4,
+          "token": "this",
+          "token_pos": 0,
+          "word_score_logit": 0.01740133948624134,
+          "word_attn_weight": 0.11161860823631287
+        }
+      ]
+    },
+    {
+      "sentence_id": 5,
+      "sentence_text": "text <UNK> in a different box is <UNK>",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "different",
+          "token_pos": 4,
+          "word_score_logit": 0.033567819744348526,
+          "word_attn_weight": 0.12716710567474365
+        },
+        {
+          "rank": 1,
+          "token": "box",
+          "token_pos": 5,
+          "word_score_logit": 0.030658237636089325,
+          "word_attn_weight": 0.1267976462841034
+        },
+        {
+          "rank": 2,
+          "token": "in",
+          "token_pos": 2,
+          "word_score_logit": 0.02857106178998947,
+          "word_attn_weight": 0.12653326988220215
+        },
+        {
+          "rank": 3,
+          "token": "a",
+          "token_pos": 3,
+          "word_score_logit": 0.027549386024475098,
+          "word_attn_weight": 0.1264040619134903
+        },
+        {
+          "rank": 4,
+          "token": "is",
+          "token_pos": 6,
+          "word_score_logit": 0.01678677275776863,
+          "word_attn_weight": 0.12505091726779938
+        }
+      ]
+    },
+    {
+      "sentence_id": 6,
+      "sentence_text": "any ideas",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "any",
+          "token_pos": 0,
+          "word_score_logit": 0.020688431337475777,
+          "word_attn_weight": 0.5089116096496582
+        },
+        {
+          "rank": 1,
+          "token": "ideas",
+          "token_pos": 1,
+          "word_score_logit": -0.014961913228034973,
+          "word_attn_weight": 0.4910883605480194
+        },
+        {
+          "rank": 2,
+          "token": "<PAD>",
+          "token_pos": 4,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 3,
+          "token": "<PAD>",
+          "token_pos": 3,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 4,
+          "token": "<PAD>",
+          "token_pos": 2,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    }
+  ],
+  "query_summaries": [
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "with",
+      "token_pos": 5,
+      "word_score_logit": 0.029189249500632286,
+      "word_attn_weight": 0.12802328169345856,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.2028166800737381,
+          "sentence_text": "i am printing from a iivx with 20 megs ram"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.1687004268169403,
+          "sentence_text": "i am trying to print a quark file that has 2 fonts a couple of boxes and 3 gradient fills"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.15827229619026184,
+          "sentence_text": "<UNK> got a problem printing with a <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "printing",
+      "token_pos": 4,
+      "word_score_logit": 0.02529129572212696,
+      "word_attn_weight": 0.1275252252817154,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.21569468080997467,
+          "sentence_text": "i am printing from a iivx with 20 megs ram"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.18606093525886536,
+          "sentence_text": "i am trying to print a quark file that has 2 fonts a couple of boxes and 3 gradient fills"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.1603834331035614,
+          "sentence_text": "<UNK> got a problem printing with a <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "a",
+      "token_pos": 6,
+      "word_score_logit": 0.014127306640148163,
+      "word_attn_weight": 0.12610945105552673,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.18376047909259796,
+          "sentence_text": "i am printing from a iivx with 20 megs ram"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.16060611605644226,
+          "sentence_text": "i am trying to print a quark file that has 2 fonts a couple of boxes and 3 gradient fills"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.15427814424037933,
+          "sentence_text": "<UNK> got a problem printing with a <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "problem",
+      "token_pos": 3,
+      "word_score_logit": 0.00962204858660698,
+      "word_attn_weight": 0.12554258108139038,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.20615392923355103,
+          "sentence_text": "i am printing from a iivx with 20 megs ram"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.19170159101486206,
+          "sentence_text": "i am trying to print a quark file that has 2 fonts a couple of boxes and 3 gradient fills"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.15969040989875793,
+          "sentence_text": "<UNK> got a problem printing with a <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "<UNK>",
+      "token_pos": 7,
+      "word_score_logit": 0.0051541803404688835,
+      "word_attn_weight": 0.12498291581869125,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.1737366020679474,
+          "sentence_text": "i am printing from a iivx with 20 megs ram"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.15810687839984894,
+          "sentence_text": "i am trying to print a quark file that has 2 fonts a couple of boxes and 3 gradient fills"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.15221178531646729,
+          "sentence_text": "<UNK> got a problem printing with a <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 5,
+      "from_sentence_id": 1,
+      "token": "from",
+      "token_pos": 3,
+      "word_score_logit": 0.00903435330837965,
+      "word_attn_weight": 0.10233165323734283,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.2197180986404419,
+          "sentence_text": "i am printing from a iivx with 20 megs ram"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.17713138461112976,
+          "sentence_text": "i am trying to print a quark file that has 2 fonts a couple of boxes and 3 gradient fills"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.16026711463928223,
+          "sentence_text": "<UNK> got a problem printing with a <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 6,
+      "from_sentence_id": 1,
+      "token": "i",
+      "token_pos": 0,
+      "word_score_logit": 0.0033662309870123863,
+      "word_attn_weight": 0.10175327211618423,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.19602081179618835,
+          "sentence_text": "i am printing from a iivx with 20 megs ram"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.17760229110717773,
+          "sentence_text": "i am trying to print a quark file that has 2 fonts a couple of boxes and 3 gradient fills"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.1557522863149643,
+          "sentence_text": "<UNK> got a problem printing with a <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 7,
+      "from_sentence_id": 1,
+      "token": "a",
+      "token_pos": 4,
+      "word_score_logit": -0.008014090359210968,
+      "word_attn_weight": 0.10060184448957443,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.1987793743610382,
+          "sentence_text": "i am printing from a iivx with 20 megs ram"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.17005795240402222,
+          "sentence_text": "i am trying to print a quark file that has 2 fonts a couple of boxes and 3 gradient fills"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.16656187176704407,
+          "sentence_text": "two things happen i get a disk is full error that i can't find documented i also have parts of letters that are over one of the gradient fills get cut off"
+        }
+      ]
+    },
+    {
+      "query_id": 8,
+      "from_sentence_id": 1,
+      "token": "printing",
+      "token_pos": 2,
+      "word_score_logit": -0.01056249812245369,
+      "word_attn_weight": 0.10034579783678055,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.22118574380874634,
+          "sentence_text": "i am printing from a iivx with 20 megs ram"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.18366652727127075,
+          "sentence_text": "i am trying to print a quark file that has 2 fonts a couple of boxes and 3 gradient fills"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.1633952260017395,
+          "sentence_text": "two things happen i get a disk is full error that i can't find documented i also have parts of letters that are over one of the gradient fills get cut off"
+        }
+      ]
+    },
+    {
+      "query_id": 9,
+      "from_sentence_id": 1,
+      "token": "with",
+      "token_pos": 6,
+      "word_score_logit": -0.015065951272845268,
+      "word_attn_weight": 0.09989491105079651,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.2067994624376297,
+          "sentence_text": "i am printing from a iivx with 20 megs ram"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.1717069447040558,
+          "sentence_text": "i am trying to print a quark file that has 2 fonts a couple of boxes and 3 gradient fills"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.16625246405601501,
+          "sentence_text": "two things happen i get a disk is full error that i can't find documented i also have parts of letters that are over one of the gradient fills get cut off"
+        }
+      ]
+    },
+    {
+      "query_id": 10,
+      "from_sentence_id": 2,
+      "token": "quark",
+      "token_pos": 6,
+      "word_score_logit": 0.07607688754796982,
+      "word_attn_weight": 0.052151769399642944,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.20715129375457764,
+          "sentence_text": "i am trying to print a quark file that has 2 fonts a couple of boxes and 3 gradient fills"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.19772599637508392,
+          "sentence_text": "i am printing from a iivx with 20 megs ram"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.15383392572402954,
+          "sentence_text": "<UNK> got a problem printing with a <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 11,
+      "from_sentence_id": 2,
+      "token": "file",
+      "token_pos": 7,
+      "word_score_logit": 0.07246718555688858,
+      "word_attn_weight": 0.05196385458111763,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.2358599454164505,
+          "sentence_text": "i am trying to print a quark file that has 2 fonts a couple of boxes and 3 gradient fills"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.2158481627702713,
+          "sentence_text": "i am printing from a iivx with 20 megs ram"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.14442625641822815,
+          "sentence_text": "<UNK> got a problem printing with a <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 12,
+      "from_sentence_id": 2,
+      "token": "a",
+      "token_pos": 5,
+      "word_score_logit": 0.05290796235203743,
+      "word_attn_weight": 0.05095736309885979,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.20058892667293549,
+          "sentence_text": "i am trying to print a quark file that has 2 fonts a couple of boxes and 3 gradient fills"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.1855606883764267,
+          "sentence_text": "i am printing from a iivx with 20 megs ram"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.15181173384189606,
+          "sentence_text": "<UNK> got a problem printing with a <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 13,
+      "from_sentence_id": 2,
+      "token": "3",
+      "token_pos": 17,
+      "word_score_logit": 0.04667791351675987,
+      "word_attn_weight": 0.05064087733626366,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.1768016219139099,
+          "sentence_text": "i am printing from a iivx with 20 megs ram"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.1660112738609314,
+          "sentence_text": "i am trying to print a quark file that has 2 fonts a couple of boxes and 3 gradient fills"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.15560343861579895,
+          "sentence_text": "two things happen i get a disk is full error that i can't find documented i also have parts of letters that are over one of the gradient fills get cut off"
+        }
+      ]
+    },
+    {
+      "query_id": 14,
+      "from_sentence_id": 2,
+      "token": "a",
+      "token_pos": 12,
+      "word_score_logit": 0.04110503941774368,
+      "word_attn_weight": 0.05035945028066635,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.24348227679729462,
+          "sentence_text": "i am printing from a iivx with 20 megs ram"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.18713608384132385,
+          "sentence_text": "i am trying to print a quark file that has 2 fonts a couple of boxes and 3 gradient fills"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.16035941243171692,
+          "sentence_text": "<UNK> got a problem printing with a <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 15,
+      "from_sentence_id": 3,
+      "token": "of",
+      "token_pos": 19,
+      "word_score_logit": 0.07046175003051758,
+      "word_attn_weight": 0.032877955585718155,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.20312100648880005,
+          "sentence_text": "i am printing from a iivx with 20 megs ram"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.17491766810417175,
+          "sentence_text": "i am trying to print a quark file that has 2 fonts a couple of boxes and 3 gradient fills"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.16877499222755432,
+          "sentence_text": "this only happens to the text over the fill"
+        }
+      ]
+    },
+    {
+      "query_id": 16,
+      "from_sentence_id": 3,
+      "token": "parts",
+      "token_pos": 18,
+      "word_score_logit": 0.058767106384038925,
+      "word_attn_weight": 0.03249569982290268,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.23683318495750427,
+          "sentence_text": "i am printing from a iivx with 20 megs ram"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.1684262752532959,
+          "sentence_text": "i am trying to print a quark file that has 2 fonts a couple of boxes and 3 gradient fills"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.16109375655651093,
+          "sentence_text": "<UNK> got a problem printing with a <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 17,
+      "from_sentence_id": 3,
+      "token": "error",
+      "token_pos": 9,
+      "word_score_logit": 0.056460022926330566,
+      "word_attn_weight": 0.032420817762613297,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.24306656420230865,
+          "sentence_text": "i am printing from a iivx with 20 megs ram"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.19228312373161316,
+          "sentence_text": "i am trying to print a quark file that has 2 fonts a couple of boxes and 3 gradient fills"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.15881985425949097,
+          "sentence_text": "<UNK> got a problem printing with a <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 18,
+      "from_sentence_id": 3,
+      "token": "of",
+      "token_pos": 25,
+      "word_score_logit": 0.0495036318898201,
+      "word_attn_weight": 0.03219606727361679,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.2142888605594635,
+          "sentence_text": "i am printing from a iivx with 20 megs ram"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.1746019721031189,
+          "sentence_text": "i am trying to print a quark file that has 2 fonts a couple of boxes and 3 gradient fills"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.1567833125591278,
+          "sentence_text": "<UNK> got a problem printing with a <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 19,
+      "from_sentence_id": 3,
+      "token": "disk",
+      "token_pos": 6,
+      "word_score_logit": 0.04737386479973793,
+      "word_attn_weight": 0.03212756663560867,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.30434179306030273,
+          "sentence_text": "i am printing from a iivx with 20 megs ram"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.18246714770793915,
+          "sentence_text": "i am trying to print a quark file that has 2 fonts a couple of boxes and 3 gradient fills"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.17589221894741058,
+          "sentence_text": "two things happen i get a disk is full error that i can't find documented i also have parts of letters that are over one of the gradient fills get cut off"
+        }
+      ]
+    },
+    {
+      "query_id": 20,
+      "from_sentence_id": 4,
+      "token": "only",
+      "token_pos": 1,
+      "word_score_logit": 0.027446210384368896,
+      "word_attn_weight": 0.11274544894695282,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.17925292253494263,
+          "sentence_text": "this only happens to the text over the fill"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.15317897498607635,
+          "sentence_text": "i am trying to print a quark file that has 2 fonts a couple of boxes and 3 gradient fills"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.15222077071666718,
+          "sentence_text": "i am printing from a iivx with 20 megs ram"
+        }
+      ]
+    },
+    {
+      "query_id": 21,
+      "from_sentence_id": 4,
+      "token": "the",
+      "token_pos": 7,
+      "word_score_logit": 0.024059083312749863,
+      "word_attn_weight": 0.11236421763896942,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.19259260594844818,
+          "sentence_text": "i am printing from a iivx with 20 megs ram"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 4,
+          "attn_weight": 0.17113740742206573,
+          "sentence_text": "this only happens to the text over the fill"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.15701407194137573,
+          "sentence_text": "i am trying to print a quark file that has 2 fonts a couple of boxes and 3 gradient fills"
+        }
+      ]
+    },
+    {
+      "query_id": 22,
+      "from_sentence_id": 4,
+      "token": "the",
+      "token_pos": 4,
+      "word_score_logit": 0.019950252026319504,
+      "word_attn_weight": 0.11190347373485565,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.18199005722999573,
+          "sentence_text": "this only happens to the text over the fill"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.15726956725120544,
+          "sentence_text": "i am trying to print a quark file that has 2 fonts a couple of boxes and 3 gradient fills"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.1459353119134903,
+          "sentence_text": "i am printing from a iivx with 20 megs ram"
+        }
+      ]
+    },
+    {
+      "query_id": 23,
+      "from_sentence_id": 4,
+      "token": "happens",
+      "token_pos": 2,
+      "word_score_logit": 0.01766148954629898,
+      "word_attn_weight": 0.11164765059947968,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.1810196489095688,
+          "sentence_text": "this only happens to the text over the fill"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.16124403476715088,
+          "sentence_text": "i am printing from a iivx with 20 megs ram"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.15760952234268188,
+          "sentence_text": "i am trying to print a quark file that has 2 fonts a couple of boxes and 3 gradient fills"
+        }
+      ]
+    },
+    {
+      "query_id": 24,
+      "from_sentence_id": 4,
+      "token": "this",
+      "token_pos": 0,
+      "word_score_logit": 0.01740133948624134,
+      "word_attn_weight": 0.11161860823631287,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.17686009407043457,
+          "sentence_text": "this only happens to the text over the fill"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.15378448367118835,
+          "sentence_text": "i am trying to print a quark file that has 2 fonts a couple of boxes and 3 gradient fills"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.15095272660255432,
+          "sentence_text": "i am printing from a iivx with 20 megs ram"
+        }
+      ]
+    },
+    {
+      "query_id": 25,
+      "from_sentence_id": 5,
+      "token": "different",
+      "token_pos": 4,
+      "word_score_logit": 0.033567819744348526,
+      "word_attn_weight": 0.12716710567474365,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.16902628540992737,
+          "sentence_text": "i am printing from a iivx with 20 megs ram"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.16373996436595917,
+          "sentence_text": "i am trying to print a quark file that has 2 fonts a couple of boxes and 3 gradient fills"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.1565125435590744,
+          "sentence_text": "this only happens to the text over the fill"
+        }
+      ]
+    },
+    {
+      "query_id": 26,
+      "from_sentence_id": 5,
+      "token": "box",
+      "token_pos": 5,
+      "word_score_logit": 0.030658237636089325,
+      "word_attn_weight": 0.1267976462841034,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.17226073145866394,
+          "sentence_text": "i am printing from a iivx with 20 megs ram"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.15412631630897522,
+          "sentence_text": "i am trying to print a quark file that has 2 fonts a couple of boxes and 3 gradient fills"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.15192389488220215,
+          "sentence_text": "<UNK> got a problem printing with a <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 27,
+      "from_sentence_id": 5,
+      "token": "in",
+      "token_pos": 2,
+      "word_score_logit": 0.02857106178998947,
+      "word_attn_weight": 0.12653326988220215,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.18275931477546692,
+          "sentence_text": "i am printing from a iivx with 20 megs ram"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.16911599040031433,
+          "sentence_text": "i am trying to print a quark file that has 2 fonts a couple of boxes and 3 gradient fills"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.15775424242019653,
+          "sentence_text": "this only happens to the text over the fill"
+        }
+      ]
+    },
+    {
+      "query_id": 28,
+      "from_sentence_id": 5,
+      "token": "a",
+      "token_pos": 3,
+      "word_score_logit": 0.027549386024475098,
+      "word_attn_weight": 0.1264040619134903,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.1714622974395752,
+          "sentence_text": "i am printing from a iivx with 20 megs ram"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.16120028495788574,
+          "sentence_text": "i am trying to print a quark file that has 2 fonts a couple of boxes and 3 gradient fills"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.15116377174854279,
+          "sentence_text": "this only happens to the text over the fill"
+        }
+      ]
+    },
+    {
+      "query_id": 29,
+      "from_sentence_id": 5,
+      "token": "is",
+      "token_pos": 6,
+      "word_score_logit": 0.01678677275776863,
+      "word_attn_weight": 0.12505091726779938,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.16923749446868896,
+          "sentence_text": "i am printing from a iivx with 20 megs ram"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.16023492813110352,
+          "sentence_text": "i am trying to print a quark file that has 2 fonts a couple of boxes and 3 gradient fills"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.15442189574241638,
+          "sentence_text": "this only happens to the text over the fill"
+        }
+      ]
+    },
+    {
+      "query_id": 30,
+      "from_sentence_id": 6,
+      "token": "any",
+      "token_pos": 0,
+      "word_score_logit": 0.020688431337475777,
+      "word_attn_weight": 0.5089116096496582,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.16267432272434235,
+          "sentence_text": "this only happens to the text over the fill"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.16221334040164948,
+          "sentence_text": "i am trying to print a quark file that has 2 fonts a couple of boxes and 3 gradient fills"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.16199137270450592,
+          "sentence_text": "i am printing from a iivx with 20 megs ram"
+        }
+      ]
+    },
+    {
+      "query_id": 31,
+      "from_sentence_id": 6,
+      "token": "ideas",
+      "token_pos": 1,
+      "word_score_logit": -0.014961913228034973,
+      "word_attn_weight": 0.4910883605480194,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.1621767282485962,
+          "sentence_text": "this only happens to the text over the fill"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.16096779704093933,
+          "sentence_text": "i am trying to print a quark file that has 2 fonts a couple of boxes and 3 gradient fills"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.1531125009059906,
+          "sentence_text": "i am printing from a iivx with 20 megs ram"
+        }
+      ]
+    },
+    {
+      "query_id": 32,
+      "from_sentence_id": 6,
+      "token": "<PAD>",
+      "token_pos": 4,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.15695396065711975,
+          "sentence_text": "i am printing from a iivx with 20 megs ram"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 4,
+          "attn_weight": 0.15285678207874298,
+          "sentence_text": "this only happens to the text over the fill"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.14820650219917297,
+          "sentence_text": "i am trying to print a quark file that has 2 fonts a couple of boxes and 3 gradient fills"
+        }
+      ]
+    },
+    {
+      "query_id": 33,
+      "from_sentence_id": 6,
+      "token": "<PAD>",
+      "token_pos": 3,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.15695396065711975,
+          "sentence_text": "i am printing from a iivx with 20 megs ram"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 4,
+          "attn_weight": 0.15285678207874298,
+          "sentence_text": "this only happens to the text over the fill"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.14820650219917297,
+          "sentence_text": "i am trying to print a quark file that has 2 fonts a couple of boxes and 3 gradient fills"
+        }
+      ]
+    },
+    {
+      "query_id": 34,
+      "from_sentence_id": 6,
+      "token": "<PAD>",
+      "token_pos": 2,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.15695396065711975,
+          "sentence_text": "i am printing from a iivx with 20 megs ram"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 4,
+          "attn_weight": 0.15285678207874298,
+          "sentence_text": "this only happens to the text over the fill"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.14820650219917297,
+          "sentence_text": "i am trying to print a quark file that has 2 fonts a couple of boxes and 3 gradient fills"
+        }
+      ]
+    }
+  ],
+  "sentence_importance_from_cross_attn": {
+    "definition": "mean cross-attn over queries",
+    "values": [
+      {
+        "sentence_id": 0,
+        "importance": 0.15215328335762024
+      },
+      {
+        "sentence_id": 1,
+        "importance": 0.19141124188899994
+      },
+      {
+        "sentence_id": 2,
+        "importance": 0.17113885283470154
+      },
+      {
+        "sentence_id": 3,
+        "importance": 0.14509126543998718
+      },
+      {
+        "sentence_id": 4,
+        "importance": 0.13399332761764526
+      },
+      {
+        "sentence_id": 5,
+        "importance": 0.10813464224338531
+      },
+      {
+        "sentence_id": 6,
+        "importance": 0.09807746112346649
+      }
+    ],
+    "ranked": [
+      {
+        "sentence_id": 1,
+        "importance": 0.19141124188899994
+      },
+      {
+        "sentence_id": 2,
+        "importance": 0.17113885283470154
+      },
+      {
+        "sentence_id": 0,
+        "importance": 0.15215328335762024
+      },
+      {
+        "sentence_id": 3,
+        "importance": 0.14509126543998718
+      },
+      {
+        "sentence_id": 4,
+        "importance": 0.13399332761764526
+      },
+      {
+        "sentence_id": 5,
+        "importance": 0.10813464224338531
+      },
+      {
+        "sentence_id": 6,
+        "importance": 0.09807746112346649
+      }
+    ]
+  },
+  "example_id": "test-17"
+}

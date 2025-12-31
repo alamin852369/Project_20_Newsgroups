@@ -1,0 +1,159 @@
+{
+  "example_id": "test_5560",
+  "true_label_id": 16,
+  "pred_label_id": 14,
+  "true_label_name": "talk.politics.guns",
+  "pred_label_name": "sci.space",
+  "pred_confidence": 0.996619462966919,
+  "metrics": {
+    "num_sents": 3,
+    "K": 5,
+    "stop_ratio": 0.5333333333333333,
+    "unk_ratio": 0.0,
+    "num_ratio": 0.0,
+    "content_ratio": 0.4666666666666667,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 0.8565226793289185,
+    "sentence_importance_entropy": 0.9206138849258423,
+    "sentence_importance_max": 0.6256738305091858,
+    "top_sentence_id": 2,
+    "query_mismatch_rate": 0.6666666666666666,
+    "selected_quality_counts": {
+      "stopword": 8,
+      "content_word": 7
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.32,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.5538489043712616,
+    "D_local_global_conflict": 0.6666666666666666,
+    "E_overconfident_error": 0.996619462966919
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "only because you are apparently easy to fool",
+      "in other words your remark is obviously from someone who wouldn't know the difference",
+      "insisting on perfect safety is for people who don't have the balls to live in the real world mary shafer nasa ames dryden"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "because",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.027828000485897064,
+          "word_attn_weight": 0.12824203073978424
+        },
+        {
+          "token": "only",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": 0.02610819973051548,
+          "word_attn_weight": 0.12802167236804962
+        },
+        {
+          "token": "you",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.01106591708958149,
+          "word_attn_weight": 0.12611034512519836
+        },
+        {
+          "token": "to",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": 0.005305454134941101,
+          "word_attn_weight": 0.12538596987724304
+        },
+        {
+          "token": "are",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": -0.00472960714250803,
+          "word_attn_weight": 0.12413401901721954
+        }
+      ],
+      [
+        {
+          "token": "other",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.03539781644940376,
+          "word_attn_weight": 0.07274732738733292
+        },
+        {
+          "token": "in",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.03265316039323807,
+          "word_attn_weight": 0.07254793494939804
+        },
+        {
+          "token": "words",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.022664247080683708,
+          "word_attn_weight": 0.07182686775922775
+        },
+        {
+          "token": "is",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.020026134327054024,
+          "word_attn_weight": 0.07163763791322708
+        },
+        {
+          "token": "the",
+          "token_pos": 12,
+          "quality": "stopword",
+          "word_score_logit": 0.01983102224767208,
+          "word_attn_weight": 0.07162365317344666
+        }
+      ],
+      [
+        {
+          "token": "dryden",
+          "token_pos": 22,
+          "quality": "content_word",
+          "word_score_logit": 0.11595707386732101,
+          "word_attn_weight": 0.046816080808639526
+        },
+        {
+          "token": "nasa",
+          "token_pos": 20,
+          "quality": "content_word",
+          "word_score_logit": 0.1010279431939125,
+          "word_attn_weight": 0.04612234979867935
+        },
+        {
+          "token": "safety",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.08486054092645645,
+          "word_attn_weight": 0.04538266733288765
+        },
+        {
+          "token": "ames",
+          "token_pos": 21,
+          "quality": "content_word",
+          "word_score_logit": 0.07484764605760574,
+          "word_attn_weight": 0.04493052139878273
+        },
+        {
+          "token": "is",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": 0.06473860144615173,
+          "word_attn_weight": 0.04447860270738602
+        }
+      ]
+    ],
+    "top_sentence_id": 2,
+    "sentence_importance_distribution": [
+      0.1836128532886505,
+      0.1907132863998413,
+      0.6256738305091858
+    ]
+  }
+}

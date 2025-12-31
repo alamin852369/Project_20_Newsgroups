@@ -1,0 +1,161 @@
+{
+  "example_id": "test_1970",
+  "true_label_id": 2,
+  "pred_label_id": 1,
+  "true_label_name": "comp.os.ms-windows.misc",
+  "pred_label_name": "comp.graphics",
+  "pred_confidence": 0.9927753210067749,
+  "metrics": {
+    "num_sents": 3,
+    "K": 5,
+    "stop_ratio": 0.06666666666666667,
+    "unk_ratio": 0.0,
+    "num_ratio": 0.26666666666666666,
+    "content_ratio": 0.4,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 0.9777088761329651,
+    "sentence_importance_entropy": 1.0057992935180664,
+    "sentence_importance_max": 0.5282439589500427,
+    "top_sentence_id": 1,
+    "query_mismatch_rate": 0.6666666666666666,
+    "selected_quality_counts": {
+      "content_word": 6,
+      "number": 4,
+      "stopword": 1,
+      "other": 4
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.06666666666666667,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.4686109125614166,
+    "D_local_global_conflict": 0.6666666666666666,
+    "E_overconfident_error": 0.9927753210067749
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "i am working with 24 bit rgb bmp files and need to <UNK> these to 15 and 16 bit images",
+      "how do convert 24 bit images to 15 and 16 bit rgb images",
+      "thanks"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "rgb",
+          "token_pos": 6,
+          "quality": "content_word",
+          "word_score_logit": 0.10999839752912521,
+          "word_attn_weight": 0.05589178949594498
+        },
+        {
+          "token": "24",
+          "token_pos": 4,
+          "quality": "number",
+          "word_score_logit": 0.03347001224756241,
+          "word_attn_weight": 0.051774051040410995
+        },
+        {
+          "token": "with",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": 0.02303451858460903,
+          "word_attn_weight": 0.05123657360672951
+        },
+        {
+          "token": "bit",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.011961693875491619,
+          "word_attn_weight": 0.050672370940446854
+        },
+        {
+          "token": "files",
+          "token_pos": 8,
+          "quality": "content_word",
+          "word_score_logit": 0.011222561821341515,
+          "word_attn_weight": 0.05063492804765701
+        }
+      ],
+      [
+        {
+          "token": "rgb",
+          "token_pos": 11,
+          "quality": "content_word",
+          "word_score_logit": 0.07631660252809525,
+          "word_attn_weight": 0.08266882598400116
+        },
+        {
+          "token": "24",
+          "token_pos": 3,
+          "quality": "number",
+          "word_score_logit": 0.02750345505774021,
+          "word_attn_weight": 0.07873040437698364
+        },
+        {
+          "token": "15",
+          "token_pos": 7,
+          "quality": "number",
+          "word_score_logit": 0.018825862556695938,
+          "word_attn_weight": 0.0780501738190651
+        },
+        {
+          "token": "16",
+          "token_pos": 9,
+          "quality": "number",
+          "word_score_logit": 0.01365707442164421,
+          "word_attn_weight": 0.07764778286218643
+        },
+        {
+          "token": "convert",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.013566343113780022,
+          "word_attn_weight": 0.07764074206352234
+        }
+      ],
+      [
+        {
+          "token": "thanks",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": 0.015355927869677544,
+          "word_attn_weight": 1.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 3,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 1,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 2,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    ],
+    "top_sentence_id": 1,
+    "sentence_importance_distribution": [
+      0.29046544432640076,
+      0.5282439589500427,
+      0.1812906265258789
+    ]
+  }
+}

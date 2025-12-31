@@ -1,0 +1,381 @@
+{
+  "true_label_id": 3,
+  "pred_label_id": 12,
+  "true_label_name": "comp.sys.ibm.pc.hardware",
+  "pred_label_name": "sci.electronics",
+  "pred_confidence": 0.9496235847473145,
+  "num_sents": 4,
+  "top_sentences": [
+    {
+      "sentence_id": 0,
+      "importance": 0.388345867395401,
+      "sentence_text": "the difference is that the 16550 got bugs while the <UNK> can be used <UNK> problems even in fast serial communications",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "communications",
+          "token_pos": 20,
+          "word_score_logit": 0.07981128990650177,
+          "word_attn_weight": 0.04994669929146767
+        },
+        {
+          "rank": 1,
+          "token": "used",
+          "token_pos": 13,
+          "word_score_logit": 0.06034110113978386,
+          "word_attn_weight": 0.048983633518218994
+        },
+        {
+          "rank": 2,
+          "token": "the",
+          "token_pos": 0,
+          "word_score_logit": 0.05457009747624397,
+          "word_attn_weight": 0.04870176315307617
+        },
+        {
+          "rank": 3,
+          "token": "the",
+          "token_pos": 9,
+          "word_score_logit": 0.04956946149468422,
+          "word_attn_weight": 0.048458829522132874
+        },
+        {
+          "rank": 4,
+          "token": "while",
+          "token_pos": 8,
+          "word_score_logit": 0.04786008596420288,
+          "word_attn_weight": 0.048376068472862244
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "importance": 0.283993661403656,
+      "sentence_text": "other sources say that only the <UNK> from nat semi i e",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "e",
+          "token_pos": 11,
+          "word_score_logit": 0.08531186729669571,
+          "word_attn_weight": 0.08666043728590012
+        },
+        {
+          "rank": 1,
+          "token": "sources",
+          "token_pos": 1,
+          "word_score_logit": 0.08485281467437744,
+          "word_attn_weight": 0.08662065863609314
+        },
+        {
+          "rank": 2,
+          "token": "other",
+          "token_pos": 0,
+          "word_score_logit": 0.05834612995386124,
+          "word_attn_weight": 0.08435479551553726
+        },
+        {
+          "rank": 3,
+          "token": "only",
+          "token_pos": 4,
+          "word_score_logit": 0.051223497837781906,
+          "word_attn_weight": 0.08375610411167145
+        },
+        {
+          "rank": 4,
+          "token": "say",
+          "token_pos": 2,
+          "word_score_logit": 0.0459764190018177,
+          "word_attn_weight": 0.08331777900457382
+        }
+      ]
+    },
+    {
+      "sentence_id": 2,
+      "importance": 0.1662093847990036,
+      "sentence_text": "not second sources is really ok",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "sources",
+          "token_pos": 2,
+          "word_score_logit": 0.0668758973479271,
+          "word_attn_weight": 0.1717638224363327
+        },
+        {
+          "rank": 1,
+          "token": "second",
+          "token_pos": 1,
+          "word_score_logit": 0.05154360458254814,
+          "word_attn_weight": 0.16915036737918854
+        },
+        {
+          "rank": 2,
+          "token": "not",
+          "token_pos": 0,
+          "word_score_logit": 0.04627048969268799,
+          "word_attn_weight": 0.16826078295707703
+        },
+        {
+          "rank": 3,
+          "token": "is",
+          "token_pos": 3,
+          "word_score_logit": 0.036954835057258606,
+          "word_attn_weight": 0.1667006015777588
+        },
+        {
+          "rank": 4,
+          "token": "really",
+          "token_pos": 4,
+          "word_score_logit": 0.01704804226756096,
+          "word_attn_weight": 0.16341494023799896
+        }
+      ]
+    },
+    {
+      "sentence_id": 3,
+      "importance": 0.16145116090774536,
+      "sentence_text": "best wishes",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "best",
+          "token_pos": 0,
+          "word_score_logit": 0.0021295170299708843,
+          "word_attn_weight": 0.50111985206604
+        },
+        {
+          "rank": 1,
+          "token": "wishes",
+          "token_pos": 1,
+          "word_score_logit": -0.002349773421883583,
+          "word_attn_weight": 0.49888017773628235
+        },
+        {
+          "rank": 2,
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 3,
+          "token": "<PAD/OUT>",
+          "token_pos": 3,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 4,
+          "token": "<PAD/OUT>",
+          "token_pos": 2,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "communications",
+      "token_pos": 20,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.544428288936615,
+          "sentence_text": "the difference is that the 16550 got bugs while the <UNK> can be used <UNK> problems even in fast serial communications"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.23330065608024597,
+          "sentence_text": "other sources say that only the <UNK> from nat semi i e"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "used",
+      "token_pos": 13,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5518172979354858,
+          "sentence_text": "the difference is that the 16550 got bugs while the <UNK> can be used <UNK> problems even in fast serial communications"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.23821724951267242,
+          "sentence_text": "other sources say that only the <UNK> from nat semi i e"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "the",
+      "token_pos": 0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5465205907821655,
+          "sentence_text": "the difference is that the 16550 got bugs while the <UNK> can be used <UNK> problems even in fast serial communications"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.23184071481227875,
+          "sentence_text": "other sources say that only the <UNK> from nat semi i e"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "the",
+      "token_pos": 9,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5463991165161133,
+          "sentence_text": "the difference is that the 16550 got bugs while the <UNK> can be used <UNK> problems even in fast serial communications"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.2401062697172165,
+          "sentence_text": "other sources say that only the <UNK> from nat semi i e"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "while",
+      "token_pos": 8,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.525905430316925,
+          "sentence_text": "the difference is that the 16550 got bugs while the <UNK> can be used <UNK> problems even in fast serial communications"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.23932945728302002,
+          "sentence_text": "other sources say that only the <UNK> from nat semi i e"
+        }
+      ]
+    },
+    {
+      "query_id": 5,
+      "from_sentence_id": 1,
+      "token": "e",
+      "token_pos": 11,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.42896926403045654,
+          "sentence_text": "the difference is that the 16550 got bugs while the <UNK> can be used <UNK> problems even in fast serial communications"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.27864623069763184,
+          "sentence_text": "other sources say that only the <UNK> from nat semi i e"
+        }
+      ]
+    },
+    {
+      "query_id": 6,
+      "from_sentence_id": 1,
+      "token": "sources",
+      "token_pos": 1,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.3675576448440552,
+          "sentence_text": "other sources say that only the <UNK> from nat semi i e"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.33512258529663086,
+          "sentence_text": "the difference is that the 16550 got bugs while the <UNK> can be used <UNK> problems even in fast serial communications"
+        }
+      ]
+    },
+    {
+      "query_id": 7,
+      "from_sentence_id": 1,
+      "token": "other",
+      "token_pos": 0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.3392234444618225,
+          "sentence_text": "the difference is that the 16550 got bugs while the <UNK> can be used <UNK> problems even in fast serial communications"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.3327181935310364,
+          "sentence_text": "other sources say that only the <UNK> from nat semi i e"
+        }
+      ]
+    },
+    {
+      "query_id": 8,
+      "from_sentence_id": 1,
+      "token": "only",
+      "token_pos": 4,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.3659764230251312,
+          "sentence_text": "the difference is that the 16550 got bugs while the <UNK> can be used <UNK> problems even in fast serial communications"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.318374365568161,
+          "sentence_text": "other sources say that only the <UNK> from nat semi i e"
+        }
+      ]
+    },
+    {
+      "query_id": 9,
+      "from_sentence_id": 1,
+      "token": "say",
+      "token_pos": 2,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.35572484135627747,
+          "sentence_text": "the difference is that the 16550 got bugs while the <UNK> can be used <UNK> problems even in fast serial communications"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.3387596309185028,
+          "sentence_text": "other sources say that only the <UNK> from nat semi i e"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_689"
+}

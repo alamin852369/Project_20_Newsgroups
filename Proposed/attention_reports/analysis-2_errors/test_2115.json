@@ -1,0 +1,381 @@
+{
+  "true_label_id": 3,
+  "pred_label_id": 12,
+  "true_label_name": "comp.sys.ibm.pc.hardware",
+  "pred_label_name": "sci.electronics",
+  "pred_confidence": 0.8865395188331604,
+  "num_sents": 4,
+  "top_sentences": [
+    {
+      "sentence_id": 0,
+      "importance": 0.4683203399181366,
+      "sentence_text": "with your date time problems you might have a problem with the dallas clock chip i'm making a possibly bad assumption that your system has a clock chip and that it's the standard dallas clock chip",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "system",
+          "token_pos": 23,
+          "word_score_logit": 0.09481455385684967,
+          "word_attn_weight": 0.02871246449649334
+        },
+        {
+          "rank": 1,
+          "token": "with",
+          "token_pos": 10,
+          "word_score_logit": 0.09461618214845657,
+          "word_attn_weight": 0.02870676852762699
+        },
+        {
+          "rank": 2,
+          "token": "the",
+          "token_pos": 11,
+          "word_score_logit": 0.0873003676533699,
+          "word_attn_weight": 0.028497524559497833
+        },
+        {
+          "rank": 3,
+          "token": "problems",
+          "token_pos": 4,
+          "word_score_logit": 0.0861574038863182,
+          "word_attn_weight": 0.028464969247579575
+        },
+        {
+          "rank": 4,
+          "token": "problem",
+          "token_pos": 9,
+          "word_score_logit": 0.08397918939590454,
+          "word_attn_weight": 0.028403034433722496
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "importance": 0.2324155569076538,
+      "sentence_text": "i always look at the battery and the clock chip when such things go wrong at least as the first course of action",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "battery",
+          "token_pos": 5,
+          "word_score_logit": 0.07888800650835037,
+          "word_attn_weight": 0.04514384642243385
+        },
+        {
+          "rank": 1,
+          "token": "the",
+          "token_pos": 4,
+          "word_score_logit": 0.06524412333965302,
+          "word_attn_weight": 0.04453209042549133
+        },
+        {
+          "rank": 2,
+          "token": "at",
+          "token_pos": 3,
+          "word_score_logit": 0.06330525875091553,
+          "word_attn_weight": 0.044445835053920746
+        },
+        {
+          "rank": 3,
+          "token": "least",
+          "token_pos": 16,
+          "word_score_logit": 0.054114483296871185,
+          "word_attn_weight": 0.04403921589255333
+        },
+        {
+          "rank": 4,
+          "token": "always",
+          "token_pos": 1,
+          "word_score_logit": 0.05034617334604263,
+          "word_attn_weight": 0.04387357458472252
+        }
+      ]
+    },
+    {
+      "sentence_id": 3,
+      "importance": 0.19648177921772003,
+      "sentence_text": "white data services city of <UNK> texas",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "city",
+          "token_pos": 3,
+          "word_score_logit": 0.11788874119520187,
+          "word_attn_weight": 0.1472247689962387
+        },
+        {
+          "rank": 1,
+          "token": "services",
+          "token_pos": 2,
+          "word_score_logit": 0.11087430268526077,
+          "word_attn_weight": 0.1461956799030304
+        },
+        {
+          "rank": 2,
+          "token": "texas",
+          "token_pos": 6,
+          "word_score_logit": 0.09351765364408493,
+          "word_attn_weight": 0.14368011057376862
+        },
+        {
+          "rank": 3,
+          "token": "of",
+          "token_pos": 4,
+          "word_score_logit": 0.08839868754148483,
+          "word_attn_weight": 0.1429464966058731
+        },
+        {
+          "rank": 4,
+          "token": "data",
+          "token_pos": 1,
+          "word_score_logit": 0.08697986602783203,
+          "word_attn_weight": 0.1427438110113144
+        }
+      ]
+    },
+    {
+      "sentence_id": 2,
+      "importance": 0.10278234630823135,
+      "sentence_text": "mel",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "mel",
+          "token_pos": 0,
+          "word_score_logit": 0.02656533755362034,
+          "word_attn_weight": 1.0
+        },
+        {
+          "rank": 1,
+          "token": "<PAD/OUT>",
+          "token_pos": 3,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 2,
+          "token": "<PAD/OUT>",
+          "token_pos": 1,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 3,
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 4,
+          "token": "<PAD/OUT>",
+          "token_pos": 2,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "system",
+      "token_pos": 23,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6297556161880493,
+          "sentence_text": "with your date time problems you might have a problem with the dallas clock chip i'm making a possibly bad assumption that your system has a clock chip and that it's the standard dallas clock chip"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.20716822147369385,
+          "sentence_text": "i always look at the battery and the clock chip when such things go wrong at least as the first course of action"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "with",
+      "token_pos": 10,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5674858093261719,
+          "sentence_text": "with your date time problems you might have a problem with the dallas clock chip i'm making a possibly bad assumption that your system has a clock chip and that it's the standard dallas clock chip"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.2295456826686859,
+          "sentence_text": "i always look at the battery and the clock chip when such things go wrong at least as the first course of action"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "the",
+      "token_pos": 11,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5941556096076965,
+          "sentence_text": "with your date time problems you might have a problem with the dallas clock chip i'm making a possibly bad assumption that your system has a clock chip and that it's the standard dallas clock chip"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.21572285890579224,
+          "sentence_text": "i always look at the battery and the clock chip when such things go wrong at least as the first course of action"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "problems",
+      "token_pos": 4,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6021654605865479,
+          "sentence_text": "with your date time problems you might have a problem with the dallas clock chip i'm making a possibly bad assumption that your system has a clock chip and that it's the standard dallas clock chip"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.21911320090293884,
+          "sentence_text": "i always look at the battery and the clock chip when such things go wrong at least as the first course of action"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "problem",
+      "token_pos": 9,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5903688669204712,
+          "sentence_text": "with your date time problems you might have a problem with the dallas clock chip i'm making a possibly bad assumption that your system has a clock chip and that it's the standard dallas clock chip"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.22797997295856476,
+          "sentence_text": "i always look at the battery and the clock chip when such things go wrong at least as the first course of action"
+        }
+      ]
+    },
+    {
+      "query_id": 5,
+      "from_sentence_id": 1,
+      "token": "battery",
+      "token_pos": 5,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6095113754272461,
+          "sentence_text": "with your date time problems you might have a problem with the dallas clock chip i'm making a possibly bad assumption that your system has a clock chip and that it's the standard dallas clock chip"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.22883623838424683,
+          "sentence_text": "i always look at the battery and the clock chip when such things go wrong at least as the first course of action"
+        }
+      ]
+    },
+    {
+      "query_id": 6,
+      "from_sentence_id": 1,
+      "token": "the",
+      "token_pos": 4,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5913928151130676,
+          "sentence_text": "with your date time problems you might have a problem with the dallas clock chip i'm making a possibly bad assumption that your system has a clock chip and that it's the standard dallas clock chip"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.22881823778152466,
+          "sentence_text": "i always look at the battery and the clock chip when such things go wrong at least as the first course of action"
+        }
+      ]
+    },
+    {
+      "query_id": 7,
+      "from_sentence_id": 1,
+      "token": "at",
+      "token_pos": 3,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5546971559524536,
+          "sentence_text": "with your date time problems you might have a problem with the dallas clock chip i'm making a possibly bad assumption that your system has a clock chip and that it's the standard dallas clock chip"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.23840638995170593,
+          "sentence_text": "i always look at the battery and the clock chip when such things go wrong at least as the first course of action"
+        }
+      ]
+    },
+    {
+      "query_id": 8,
+      "from_sentence_id": 1,
+      "token": "least",
+      "token_pos": 16,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.4228002727031708,
+          "sentence_text": "with your date time problems you might have a problem with the dallas clock chip i'm making a possibly bad assumption that your system has a clock chip and that it's the standard dallas clock chip"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.23455893993377686,
+          "sentence_text": "i always look at the battery and the clock chip when such things go wrong at least as the first course of action"
+        }
+      ]
+    },
+    {
+      "query_id": 9,
+      "from_sentence_id": 1,
+      "token": "always",
+      "token_pos": 1,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5512609481811523,
+          "sentence_text": "with your date time problems you might have a problem with the dallas clock chip i'm making a possibly bad assumption that your system has a clock chip and that it's the standard dallas clock chip"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.23129823803901672,
+          "sentence_text": "i always look at the battery and the clock chip when such things go wrong at least as the first course of action"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_2115"
+}

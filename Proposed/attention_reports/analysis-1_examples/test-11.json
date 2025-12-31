@@ -1,0 +1,587 @@
+{
+  "true_label_id": 2,
+  "pred_label_id": 2,
+  "true_label_name": "comp.os.ms-windows.misc",
+  "pred_label_name": "comp.os.ms-windows.misc",
+  "pred_confidence": 0.9449604749679565,
+  "num_sents": 3,
+  "sentence_summaries": [
+    {
+      "sentence_id": 0,
+      "sentence_text": "i have uploaded the windows on line review shareware edition to ftp cica indiana edu as pub pc win3 uploads <UNK> zip",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "windows",
+          "token_pos": 4,
+          "word_score_logit": 0.11718769371509552,
+          "word_attn_weight": 0.04929417371749878
+        },
+        {
+          "rank": 1,
+          "token": "i",
+          "token_pos": 0,
+          "word_score_logit": 0.07140248268842697,
+          "word_attn_weight": 0.04708812013268471
+        },
+        {
+          "rank": 2,
+          "token": "indiana",
+          "token_pos": 13,
+          "word_score_logit": 0.07106362283229828,
+          "word_attn_weight": 0.047072164714336395
+        },
+        {
+          "rank": 3,
+          "token": "on",
+          "token_pos": 5,
+          "word_score_logit": 0.07002750784158707,
+          "word_attn_weight": 0.04702341929078102
+        },
+        {
+          "rank": 4,
+          "token": "zip",
+          "token_pos": 21,
+          "word_score_logit": 0.06365296989679337,
+          "word_attn_weight": 0.04672461748123169
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "sentence_text": "it is an on line magazine which contains reviews of some shareware products i grabbed it from the windows on line bbs",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "windows",
+          "token_pos": 18,
+          "word_score_logit": 0.09167999029159546,
+          "word_attn_weight": 0.04887954890727997
+        },
+        {
+          "rank": 1,
+          "token": "on",
+          "token_pos": 19,
+          "word_score_logit": 0.04765816405415535,
+          "word_attn_weight": 0.04677445814013481
+        },
+        {
+          "rank": 2,
+          "token": "contains",
+          "token_pos": 7,
+          "word_score_logit": 0.04022618755698204,
+          "word_attn_weight": 0.04642811417579651
+        },
+        {
+          "rank": 3,
+          "token": "line",
+          "token_pos": 20,
+          "word_score_logit": 0.038453083485364914,
+          "word_attn_weight": 0.04634586721658707
+        },
+        {
+          "rank": 4,
+          "token": "bbs",
+          "token_pos": 21,
+          "word_score_logit": 0.03739673271775246,
+          "word_attn_weight": 0.04629693552851677
+        }
+      ]
+    },
+    {
+      "sentence_id": 2,
+      "sentence_text": "<UNK>",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "<UNK>",
+          "token_pos": 0,
+          "word_score_logit": 0.0027645998634397984,
+          "word_attn_weight": 1.0
+        },
+        {
+          "rank": 1,
+          "token": "<PAD>",
+          "token_pos": 3,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 2,
+          "token": "<PAD>",
+          "token_pos": 1,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 3,
+          "token": "<PAD>",
+          "token_pos": 4,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 4,
+          "token": "<PAD>",
+          "token_pos": 2,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    }
+  ],
+  "query_summaries": [
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "windows",
+      "token_pos": 4,
+      "word_score_logit": 0.11718769371509552,
+      "word_attn_weight": 0.04929417371749878,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.42313575744628906,
+          "sentence_text": "it is an on line magazine which contains reviews of some shareware products i grabbed it from the windows on line bbs"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.33548882603645325,
+          "sentence_text": "i have uploaded the windows on line review shareware edition to ftp cica indiana edu as pub pc win3 uploads <UNK> zip"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.2413753867149353,
+          "sentence_text": "<UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "i",
+      "token_pos": 0,
+      "word_score_logit": 0.07140248268842697,
+      "word_attn_weight": 0.04708812013268471,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.37396180629730225,
+          "sentence_text": "i have uploaded the windows on line review shareware edition to ftp cica indiana edu as pub pc win3 uploads <UNK> zip"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.3188513517379761,
+          "sentence_text": "it is an on line magazine which contains reviews of some shareware products i grabbed it from the windows on line bbs"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.30718687176704407,
+          "sentence_text": "<UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "indiana",
+      "token_pos": 13,
+      "word_score_logit": 0.07106362283229828,
+      "word_attn_weight": 0.047072164714336395,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.4982668161392212,
+          "sentence_text": "it is an on line magazine which contains reviews of some shareware products i grabbed it from the windows on line bbs"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.32850730419158936,
+          "sentence_text": "i have uploaded the windows on line review shareware edition to ftp cica indiana edu as pub pc win3 uploads <UNK> zip"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.17322584986686707,
+          "sentence_text": "<UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "on",
+      "token_pos": 5,
+      "word_score_logit": 0.07002750784158707,
+      "word_attn_weight": 0.04702341929078102,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.42160993814468384,
+          "sentence_text": "it is an on line magazine which contains reviews of some shareware products i grabbed it from the windows on line bbs"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.35614287853240967,
+          "sentence_text": "i have uploaded the windows on line review shareware edition to ftp cica indiana edu as pub pc win3 uploads <UNK> zip"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.22224724292755127,
+          "sentence_text": "<UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "zip",
+      "token_pos": 21,
+      "word_score_logit": 0.06365296989679337,
+      "word_attn_weight": 0.04672461748123169,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.5238319635391235,
+          "sentence_text": "it is an on line magazine which contains reviews of some shareware products i grabbed it from the windows on line bbs"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.3361029028892517,
+          "sentence_text": "i have uploaded the windows on line review shareware edition to ftp cica indiana edu as pub pc win3 uploads <UNK> zip"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.14006519317626953,
+          "sentence_text": "<UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 5,
+      "from_sentence_id": 1,
+      "token": "windows",
+      "token_pos": 18,
+      "word_score_logit": 0.09167999029159546,
+      "word_attn_weight": 0.04887954890727997,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.5082392692565918,
+          "sentence_text": "it is an on line magazine which contains reviews of some shareware products i grabbed it from the windows on line bbs"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.3146620988845825,
+          "sentence_text": "i have uploaded the windows on line review shareware edition to ftp cica indiana edu as pub pc win3 uploads <UNK> zip"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.1770986020565033,
+          "sentence_text": "<UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 6,
+      "from_sentence_id": 1,
+      "token": "on",
+      "token_pos": 19,
+      "word_score_logit": 0.04765816405415535,
+      "word_attn_weight": 0.04677445814013481,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.540471076965332,
+          "sentence_text": "it is an on line magazine which contains reviews of some shareware products i grabbed it from the windows on line bbs"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.329024076461792,
+          "sentence_text": "i have uploaded the windows on line review shareware edition to ftp cica indiana edu as pub pc win3 uploads <UNK> zip"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.13050486147403717,
+          "sentence_text": "<UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 7,
+      "from_sentence_id": 1,
+      "token": "contains",
+      "token_pos": 7,
+      "word_score_logit": 0.04022618755698204,
+      "word_attn_weight": 0.04642811417579651,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.45328325033187866,
+          "sentence_text": "it is an on line magazine which contains reviews of some shareware products i grabbed it from the windows on line bbs"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.34370917081832886,
+          "sentence_text": "i have uploaded the windows on line review shareware edition to ftp cica indiana edu as pub pc win3 uploads <UNK> zip"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.2030075490474701,
+          "sentence_text": "<UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 8,
+      "from_sentence_id": 1,
+      "token": "line",
+      "token_pos": 20,
+      "word_score_logit": 0.038453083485364914,
+      "word_attn_weight": 0.04634586721658707,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.5262706279754639,
+          "sentence_text": "it is an on line magazine which contains reviews of some shareware products i grabbed it from the windows on line bbs"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.3311270475387573,
+          "sentence_text": "i have uploaded the windows on line review shareware edition to ftp cica indiana edu as pub pc win3 uploads <UNK> zip"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.1426023542881012,
+          "sentence_text": "<UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 9,
+      "from_sentence_id": 1,
+      "token": "bbs",
+      "token_pos": 21,
+      "word_score_logit": 0.03739673271775246,
+      "word_attn_weight": 0.04629693552851677,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.5486143827438354,
+          "sentence_text": "it is an on line magazine which contains reviews of some shareware products i grabbed it from the windows on line bbs"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.3372609317302704,
+          "sentence_text": "i have uploaded the windows on line review shareware edition to ftp cica indiana edu as pub pc win3 uploads <UNK> zip"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.11412469297647476,
+          "sentence_text": "<UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 10,
+      "from_sentence_id": 2,
+      "token": "<UNK>",
+      "token_pos": 0,
+      "word_score_logit": 0.0027645998634397984,
+      "word_attn_weight": 1.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.37736189365386963,
+          "sentence_text": "it is an on line magazine which contains reviews of some shareware products i grabbed it from the windows on line bbs"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.3539803922176361,
+          "sentence_text": "i have uploaded the windows on line review shareware edition to ftp cica indiana edu as pub pc win3 uploads <UNK> zip"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.2686576843261719,
+          "sentence_text": "<UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 11,
+      "from_sentence_id": 2,
+      "token": "<PAD>",
+      "token_pos": 3,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.37176668643951416,
+          "sentence_text": "it is an on line magazine which contains reviews of some shareware products i grabbed it from the windows on line bbs"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.3554559350013733,
+          "sentence_text": "i have uploaded the windows on line review shareware edition to ftp cica indiana edu as pub pc win3 uploads <UNK> zip"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.2727773189544678,
+          "sentence_text": "<UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 12,
+      "from_sentence_id": 2,
+      "token": "<PAD>",
+      "token_pos": 1,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.37176668643951416,
+          "sentence_text": "it is an on line magazine which contains reviews of some shareware products i grabbed it from the windows on line bbs"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.3554559350013733,
+          "sentence_text": "i have uploaded the windows on line review shareware edition to ftp cica indiana edu as pub pc win3 uploads <UNK> zip"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.2727773189544678,
+          "sentence_text": "<UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 13,
+      "from_sentence_id": 2,
+      "token": "<PAD>",
+      "token_pos": 4,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.37176668643951416,
+          "sentence_text": "it is an on line magazine which contains reviews of some shareware products i grabbed it from the windows on line bbs"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.3554559350013733,
+          "sentence_text": "i have uploaded the windows on line review shareware edition to ftp cica indiana edu as pub pc win3 uploads <UNK> zip"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.2727773189544678,
+          "sentence_text": "<UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 14,
+      "from_sentence_id": 2,
+      "token": "<PAD>",
+      "token_pos": 2,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.37176668643951416,
+          "sentence_text": "it is an on line magazine which contains reviews of some shareware products i grabbed it from the windows on line bbs"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.3554559350013733,
+          "sentence_text": "i have uploaded the windows on line review shareware edition to ftp cica indiana edu as pub pc win3 uploads <UNK> zip"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.2727773189544678,
+          "sentence_text": "<UNK>"
+        }
+      ]
+    }
+  ],
+  "sentence_importance_from_cross_attn": {
+    "definition": "mean cross-attn over queries",
+    "values": [
+      {
+        "sentence_id": 0,
+        "importance": 0.34411942958831787
+      },
+      {
+        "sentence_id": 1,
+        "importance": 0.44180023670196533
+      },
+      {
+        "sentence_id": 2,
+        "importance": 0.21408039331436157
+      }
+    ],
+    "ranked": [
+      {
+        "sentence_id": 1,
+        "importance": 0.44180023670196533
+      },
+      {
+        "sentence_id": 0,
+        "importance": 0.34411942958831787
+      },
+      {
+        "sentence_id": 2,
+        "importance": 0.21408039331436157
+      }
+    ]
+  },
+  "example_id": "test-11"
+}

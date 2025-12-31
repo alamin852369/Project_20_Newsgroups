@@ -1,0 +1,200 @@
+{
+  "example_id": "test_38",
+  "true_label_id": 6,
+  "pred_label_id": 4,
+  "true_label_name": "misc.forsale",
+  "pred_label_name": "comp.sys.mac.hardware",
+  "pred_confidence": 0.3795231580734253,
+  "metrics": {
+    "num_sents": 4,
+    "K": 5,
+    "stop_ratio": 0.3,
+    "unk_ratio": 0.0,
+    "num_ratio": 0.1,
+    "content_ratio": 0.4,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 1.3751349449157715,
+    "sentence_importance_entropy": 1.383676290512085,
+    "sentence_importance_max": 0.2709053158760071,
+    "top_sentence_id": 3,
+    "query_mismatch_rate": 0.5,
+    "selected_quality_counts": {
+      "content_word": 8,
+      "number": 2,
+      "stopword": 6,
+      "other": 4
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.19,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.21289846301078796,
+    "D_local_global_conflict": 0.5,
+    "E_overconfident_error": 0.3795231580734253
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "i have a mac lcii 4 80 purchased last august",
+      "just the cpu and mouse",
+      "no monitor or keyboard",
+      "800 obo"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "purchased",
+          "token_pos": 7,
+          "quality": "content_word",
+          "word_score_logit": 0.0326109454035759,
+          "word_attn_weight": 0.10190165787935257
+        },
+        {
+          "token": "august",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": 0.024958277121186256,
+          "word_attn_weight": 0.10112481564283371
+        },
+        {
+          "token": "lcii",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.024639809504151344,
+          "word_attn_weight": 0.10109260678291321
+        },
+        {
+          "token": "4",
+          "token_pos": 5,
+          "quality": "number",
+          "word_score_logit": 0.022593848407268524,
+          "word_attn_weight": 0.10088599473237991
+        },
+        {
+          "token": "i",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.020470555871725082,
+          "word_attn_weight": 0.10067200660705566
+        }
+      ],
+      [
+        {
+          "token": "cpu",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.04055335000157356,
+          "word_attn_weight": 0.20294904708862305
+        },
+        {
+          "token": "and",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": 0.024691293016076088,
+          "word_attn_weight": 0.1997552514076233
+        },
+        {
+          "token": "mouse",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.02257058583199978,
+          "word_attn_weight": 0.1993320733308792
+        },
+        {
+          "token": "just",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.02105611190199852,
+          "word_attn_weight": 0.19903041422367096
+        },
+        {
+          "token": "the",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.020567698404192924,
+          "word_attn_weight": 0.19893322885036469
+        }
+      ],
+      [
+        {
+          "token": "keyboard",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.07388978451490402,
+          "word_attn_weight": 0.2532964050769806
+        },
+        {
+          "token": "or",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.06977908313274384,
+          "word_attn_weight": 0.2522573173046112
+        },
+        {
+          "token": "monitor",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.06599166244268417,
+          "word_attn_weight": 0.2513037323951721
+        },
+        {
+          "token": "no",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.03297732397913933,
+          "word_attn_weight": 0.24314257502555847
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ],
+      [
+        {
+          "token": "obo",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.034521643072366714,
+          "word_attn_weight": 0.5119275450706482
+        },
+        {
+          "token": "800",
+          "token_pos": 0,
+          "quality": "number",
+          "word_score_logit": -0.01319756731390953,
+          "word_attn_weight": 0.4880724549293518
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 3,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 2,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    ],
+    "top_sentence_id": 3,
+    "sentence_importance_distribution": [
+      0.26331278681755066,
+      0.22572393715381622,
+      0.24005794525146484,
+      0.2709053158760071
+    ]
+  }
+}

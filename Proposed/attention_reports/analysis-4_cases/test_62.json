@@ -1,0 +1,121 @@
+{
+  "example_id": "test_62",
+  "true_label_id": 17,
+  "pred_label_id": 8,
+  "true_label_name": "talk.politics.mideast",
+  "pred_label_name": "rec.motorcycles",
+  "pred_confidence": 0.6506763696670532,
+  "metrics": {
+    "num_sents": 2,
+    "K": 5,
+    "stop_ratio": 0.4,
+    "unk_ratio": 0.0,
+    "num_ratio": 0.0,
+    "content_ratio": 0.3,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 0.677369236946106,
+    "sentence_importance_entropy": 0.6795681715011597,
+    "sentence_importance_max": 0.582211434841156,
+    "top_sentence_id": 1,
+    "query_mismatch_rate": 0.5,
+    "selected_quality_counts": {
+      "content_word": 3,
+      "other": 3,
+      "stopword": 4
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.24,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.5716343700885772,
+    "D_local_global_conflict": 0.5,
+    "E_overconfident_error": 0.6506763696670532
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "all right",
+      "let's hope they get off their rear ends and do something because the un clearly is content to sit on its"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "right",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.038183052092790604,
+          "word_attn_weight": 0.5028353929519653
+        },
+        {
+          "token": "all",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": 0.02684127911925316,
+          "word_attn_weight": 0.4971645772457123
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 3,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 2,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ],
+      [
+        {
+          "token": "rear",
+          "token_pos": 6,
+          "quality": "content_word",
+          "word_score_logit": 0.03324989229440689,
+          "word_attn_weight": 0.04941246658563614
+        },
+        {
+          "token": "and",
+          "token_pos": 8,
+          "quality": "stopword",
+          "word_score_logit": 0.027001826092600822,
+          "word_attn_weight": 0.04910469427704811
+        },
+        {
+          "token": "do",
+          "token_pos": 9,
+          "quality": "stopword",
+          "word_score_logit": 0.02237938717007637,
+          "word_attn_weight": 0.04887823760509491
+        },
+        {
+          "token": "because",
+          "token_pos": 11,
+          "quality": "stopword",
+          "word_score_logit": 0.016089091077446938,
+          "word_attn_weight": 0.048571739345788956
+        },
+        {
+          "token": "the",
+          "token_pos": 12,
+          "quality": "stopword",
+          "word_score_logit": 0.012611648067831993,
+          "word_attn_weight": 0.04840313270688057
+        }
+      ]
+    ],
+    "top_sentence_id": 1,
+    "sentence_importance_distribution": [
+      0.417788565158844,
+      0.582211434841156
+    ]
+  }
+}

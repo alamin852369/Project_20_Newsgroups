@@ -1,0 +1,423 @@
+{
+  "true_label_id": 18,
+  "pred_label_id": 16,
+  "true_label_name": "talk.politics.misc",
+  "pred_label_name": "talk.politics.guns",
+  "pred_confidence": 0.9872149229049683,
+  "num_sents": 19,
+  "top_sentences": [
+    {
+      "sentence_id": 0,
+      "importance": 0.30560222268104553,
+      "sentence_text": "so you approve of the batf launching a 100 person raid complete with <UNK> jackets men hidden in horse <UNK> <UNK> grenades semi auto weapons on peaceful citizens",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "complete",
+          "token_pos": 11,
+          "word_score_logit": 0.1250297725200653,
+          "word_attn_weight": 0.03828621283173561
+        },
+        {
+          "rank": 1,
+          "token": "a",
+          "token_pos": 7,
+          "word_score_logit": 0.11879659444093704,
+          "word_attn_weight": 0.038048312067985535
+        },
+        {
+          "rank": 2,
+          "token": "with",
+          "token_pos": 12,
+          "word_score_logit": 0.1071435734629631,
+          "word_attn_weight": 0.037607502192258835
+        },
+        {
+          "rank": 3,
+          "token": "100",
+          "token_pos": 8,
+          "word_score_logit": 0.10542099922895432,
+          "word_attn_weight": 0.03754277899861336
+        },
+        {
+          "rank": 4,
+          "token": "of",
+          "token_pos": 3,
+          "word_score_logit": 0.1054057702422142,
+          "word_attn_weight": 0.03754220902919769
+        }
+      ]
+    },
+    {
+      "sentence_id": 4,
+      "importance": 0.12552142143249512,
+      "sentence_text": "the automatic firearms violation is a tax matter",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "automatic",
+          "token_pos": 1,
+          "word_score_logit": 0.09674258530139923,
+          "word_attn_weight": 0.1304081529378891
+        },
+        {
+          "rank": 1,
+          "token": "firearms",
+          "token_pos": 2,
+          "word_score_logit": 0.0950547382235527,
+          "word_attn_weight": 0.1301882266998291
+        },
+        {
+          "rank": 2,
+          "token": "the",
+          "token_pos": 0,
+          "word_score_logit": 0.07417618483304977,
+          "word_attn_weight": 0.12749826908111572
+        },
+        {
+          "rank": 3,
+          "token": "violation",
+          "token_pos": 3,
+          "word_score_logit": 0.05474819988012314,
+          "word_attn_weight": 0.12504513561725616
+        },
+        {
+          "rank": 4,
+          "token": "is",
+          "token_pos": 4,
+          "word_score_logit": 0.0543392188847065,
+          "word_attn_weight": 0.12499400973320007
+        }
+      ]
+    },
+    {
+      "sentence_id": 2,
+      "importance": 0.07456421107053757,
+      "sentence_text": "there is still no proof that the branch davidians had illegal weapons",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "the",
+          "token_pos": 6,
+          "word_score_logit": 0.06580547988414764,
+          "word_attn_weight": 0.08506211638450623
+        },
+        {
+          "rank": 1,
+          "token": "that",
+          "token_pos": 5,
+          "word_score_logit": 0.06392547488212585,
+          "word_attn_weight": 0.08490235358476639
+        },
+        {
+          "rank": 2,
+          "token": "no",
+          "token_pos": 3,
+          "word_score_logit": 0.06372625380754471,
+          "word_attn_weight": 0.08488544076681137
+        },
+        {
+          "rank": 3,
+          "token": "there",
+          "token_pos": 0,
+          "word_score_logit": 0.06234181672334671,
+          "word_attn_weight": 0.08476799726486206
+        },
+        {
+          "rank": 4,
+          "token": "proof",
+          "token_pos": 4,
+          "word_score_logit": 0.051195770502090454,
+          "word_attn_weight": 0.0838284119963646
+        }
+      ]
+    },
+    {
+      "sentence_id": 8,
+      "importance": 0.0674590915441513,
+      "sentence_text": "but the stupidity may have been to attempt to serve the warrant by <UNK> over armed over protected and over confident gestapo",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "and",
+          "token_pos": 18,
+          "word_score_logit": 0.05884089693427086,
+          "word_attn_weight": 0.04725330322980881
+        },
+        {
+          "rank": 1,
+          "token": "confident",
+          "token_pos": 20,
+          "word_score_logit": 0.052606001496315,
+          "word_attn_weight": 0.04695959761738777
+        },
+        {
+          "rank": 2,
+          "token": "may",
+          "token_pos": 3,
+          "word_score_logit": 0.040577784180641174,
+          "word_attn_weight": 0.04639814421534538
+        },
+        {
+          "rank": 3,
+          "token": "the",
+          "token_pos": 10,
+          "word_score_logit": 0.03911783546209335,
+          "word_attn_weight": 0.04633045196533203
+        },
+        {
+          "rank": 4,
+          "token": "to",
+          "token_pos": 8,
+          "word_score_logit": 0.03709934651851654,
+          "word_attn_weight": 0.0462370291352272
+        }
+      ]
+    },
+    {
+      "sentence_id": 3,
+      "importance": 0.056510455906391144,
+      "sentence_text": "nothing else was in the jurisdiction of the batf unless they were thought to have a still or be smoking <UNK> cigarettes",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "in",
+          "token_pos": 3,
+          "word_score_logit": 0.0910152792930603,
+          "word_attn_weight": 0.04798873886466026
+        },
+        {
+          "rank": 1,
+          "token": "was",
+          "token_pos": 2,
+          "word_score_logit": 0.08358453214168549,
+          "word_attn_weight": 0.04763346537947655
+        },
+        {
+          "rank": 2,
+          "token": "the",
+          "token_pos": 4,
+          "word_score_logit": 0.08339481800794601,
+          "word_attn_weight": 0.04762442782521248
+        },
+        {
+          "rank": 3,
+          "token": "else",
+          "token_pos": 1,
+          "word_score_logit": 0.06667225062847137,
+          "word_attn_weight": 0.04683464765548706
+        },
+        {
+          "rank": 4,
+          "token": "of",
+          "token_pos": 6,
+          "word_score_logit": 0.062460239976644516,
+          "word_attn_weight": 0.046637795865535736
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "complete",
+      "token_pos": 11,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.7384413480758667,
+          "sentence_text": "so you approve of the batf launching a 100 person raid complete with <UNK> jackets men hidden in horse <UNK> <UNK> grenades semi auto weapons on peaceful citizens"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 4,
+          "attn_weight": 0.05584614723920822,
+          "sentence_text": "the automatic firearms violation is a tax matter"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "a",
+      "token_pos": 7,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6847359538078308,
+          "sentence_text": "so you approve of the batf launching a 100 person raid complete with <UNK> jackets men hidden in horse <UNK> <UNK> grenades semi auto weapons on peaceful citizens"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 4,
+          "attn_weight": 0.07805706560611725,
+          "sentence_text": "the automatic firearms violation is a tax matter"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "with",
+      "token_pos": 12,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6960906386375427,
+          "sentence_text": "so you approve of the batf launching a 100 person raid complete with <UNK> jackets men hidden in horse <UNK> <UNK> grenades semi auto weapons on peaceful citizens"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 4,
+          "attn_weight": 0.06680798530578613,
+          "sentence_text": "the automatic firearms violation is a tax matter"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "100",
+      "token_pos": 8,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6754114031791687,
+          "sentence_text": "so you approve of the batf launching a 100 person raid complete with <UNK> jackets men hidden in horse <UNK> <UNK> grenades semi auto weapons on peaceful citizens"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 4,
+          "attn_weight": 0.08047579228878021,
+          "sentence_text": "the automatic firearms violation is a tax matter"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "of",
+      "token_pos": 3,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.7182179689407349,
+          "sentence_text": "so you approve of the batf launching a 100 person raid complete with <UNK> jackets men hidden in horse <UNK> <UNK> grenades semi auto weapons on peaceful citizens"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 4,
+          "attn_weight": 0.07112826406955719,
+          "sentence_text": "the automatic firearms violation is a tax matter"
+        }
+      ]
+    },
+    {
+      "query_id": 20,
+      "from_sentence_id": 4,
+      "token": "automatic",
+      "token_pos": 1,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.4741297662258148,
+          "sentence_text": "so you approve of the batf launching a 100 person raid complete with <UNK> jackets men hidden in horse <UNK> <UNK> grenades semi auto weapons on peaceful citizens"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 4,
+          "attn_weight": 0.10908149927854538,
+          "sentence_text": "the automatic firearms violation is a tax matter"
+        }
+      ]
+    },
+    {
+      "query_id": 21,
+      "from_sentence_id": 4,
+      "token": "firearms",
+      "token_pos": 2,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.4517627954483032,
+          "sentence_text": "so you approve of the batf launching a 100 person raid complete with <UNK> jackets men hidden in horse <UNK> <UNK> grenades semi auto weapons on peaceful citizens"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 4,
+          "attn_weight": 0.11648435890674591,
+          "sentence_text": "the automatic firearms violation is a tax matter"
+        }
+      ]
+    },
+    {
+      "query_id": 22,
+      "from_sentence_id": 4,
+      "token": "the",
+      "token_pos": 0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.4045063257217407,
+          "sentence_text": "so you approve of the batf launching a 100 person raid complete with <UNK> jackets men hidden in horse <UNK> <UNK> grenades semi auto weapons on peaceful citizens"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 4,
+          "attn_weight": 0.12144824862480164,
+          "sentence_text": "the automatic firearms violation is a tax matter"
+        }
+      ]
+    },
+    {
+      "query_id": 23,
+      "from_sentence_id": 4,
+      "token": "violation",
+      "token_pos": 3,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.3504346013069153,
+          "sentence_text": "so you approve of the batf launching a 100 person raid complete with <UNK> jackets men hidden in horse <UNK> <UNK> grenades semi auto weapons on peaceful citizens"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 4,
+          "attn_weight": 0.16165348887443542,
+          "sentence_text": "the automatic firearms violation is a tax matter"
+        }
+      ]
+    },
+    {
+      "query_id": 24,
+      "from_sentence_id": 4,
+      "token": "is",
+      "token_pos": 4,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.4339049458503723,
+          "sentence_text": "so you approve of the batf launching a 100 person raid complete with <UNK> jackets men hidden in horse <UNK> <UNK> grenades semi auto weapons on peaceful citizens"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 4,
+          "attn_weight": 0.1514083445072174,
+          "sentence_text": "the automatic firearms violation is a tax matter"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_1681"
+}

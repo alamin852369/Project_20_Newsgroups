@@ -1,0 +1,1644 @@
+{
+  "meta": {
+    "created_at": "2025-12-31T13:19:05.034704",
+    "split": "test",
+    "model_checkpoint": "best_model_by_val_loss.pt",
+    "glove_coverage": 0.8259883992266152,
+    "settings": {
+      "MAX_SENTS": 20,
+      "MAX_TOKENS_PER_SENT": 50,
+      "TOPK_WORDS": 5,
+      "TOP_PAIRS": 10,
+      "EXAMPLES_PER_PAIR": 5,
+      "LOW_CONF_EXTRA": 10
+    }
+  },
+  "overall": {
+    "accuracy": 0.6488316516197558,
+    "num_test_examples": 7532,
+    "num_misclassified": 2645
+  },
+  "per_class_metrics": [
+    {
+      "class_id": 0,
+      "class_name": "alt.atheism",
+      "precision": 0.391156462585034,
+      "recall": 0.3605015673981191,
+      "f1": 0.37520391517128876,
+      "support": 319
+    },
+    {
+      "class_id": 1,
+      "class_name": "comp.graphics",
+      "precision": 0.5897435897435898,
+      "recall": 0.7095115681233933,
+      "f1": 0.6441073512252042,
+      "support": 389
+    },
+    {
+      "class_id": 2,
+      "class_name": "comp.os.ms-windows.misc",
+      "precision": 0.6021505376344086,
+      "recall": 0.5685279187817259,
+      "f1": 0.5848563968668408,
+      "support": 394
+    },
+    {
+      "class_id": 3,
+      "class_name": "comp.sys.ibm.pc.hardware",
+      "precision": 0.6540880503144654,
+      "recall": 0.5306122448979592,
+      "f1": 0.5859154929577465,
+      "support": 392
+    },
+    {
+      "class_id": 4,
+      "class_name": "comp.sys.mac.hardware",
+      "precision": 0.7040816326530612,
+      "recall": 0.5376623376623376,
+      "f1": 0.6097201767304861,
+      "support": 385
+    },
+    {
+      "class_id": 5,
+      "class_name": "comp.windows.x",
+      "precision": 0.809375,
+      "recall": 0.6556962025316456,
+      "f1": 0.7244755244755244,
+      "support": 395
+    },
+    {
+      "class_id": 6,
+      "class_name": "misc.forsale",
+      "precision": 0.7146118721461188,
+      "recall": 0.8025641025641026,
+      "f1": 0.7560386473429952,
+      "support": 390
+    },
+    {
+      "class_id": 7,
+      "class_name": "rec.autos",
+      "precision": 0.750733137829912,
+      "recall": 0.6464646464646465,
+      "f1": 0.694708276797829,
+      "support": 396
+    },
+    {
+      "class_id": 8,
+      "class_name": "rec.motorcycles",
+      "precision": 0.6340425531914894,
+      "recall": 0.7487437185929648,
+      "f1": 0.6866359447004609,
+      "support": 398
+    },
+    {
+      "class_id": 9,
+      "class_name": "rec.sport.baseball",
+      "precision": 0.9455128205128205,
+      "recall": 0.743073047858942,
+      "f1": 0.8321579689703809,
+      "support": 397
+    },
+    {
+      "class_id": 10,
+      "class_name": "rec.sport.hockey",
+      "precision": 0.9287598944591029,
+      "recall": 0.8822055137844611,
+      "f1": 0.9048843187660668,
+      "support": 399
+    },
+    {
+      "class_id": 11,
+      "class_name": "sci.crypt",
+      "precision": 0.8884758364312267,
+      "recall": 0.6035353535353535,
+      "f1": 0.718796992481203,
+      "support": 396
+    },
+    {
+      "class_id": 12,
+      "class_name": "sci.electronics",
+      "precision": 0.5250596658711217,
+      "recall": 0.5597964376590331,
+      "f1": 0.541871921182266,
+      "support": 393
+    },
+    {
+      "class_id": 13,
+      "class_name": "sci.med",
+      "precision": 0.7139689578713969,
+      "recall": 0.8131313131313131,
+      "f1": 0.7603305785123967,
+      "support": 396
+    },
+    {
+      "class_id": 14,
+      "class_name": "sci.space",
+      "precision": 0.6434782608695652,
+      "recall": 0.751269035532995,
+      "f1": 0.6932084309133489,
+      "support": 394
+    },
+    {
+      "class_id": 15,
+      "class_name": "soc.religion.christian",
+      "precision": 0.6003490401396161,
+      "recall": 0.864321608040201,
+      "f1": 0.7085478887744593,
+      "support": 398
+    },
+    {
+      "class_id": 16,
+      "class_name": "talk.politics.guns",
+      "precision": 0.5419664268585132,
+      "recall": 0.6208791208791209,
+      "f1": 0.5787451984635084,
+      "support": 364
+    },
+    {
+      "class_id": 17,
+      "class_name": "talk.politics.mideast",
+      "precision": 0.475968992248062,
+      "recall": 0.8164893617021277,
+      "f1": 0.6013712047012733,
+      "support": 376
+    },
+    {
+      "class_id": 18,
+      "class_name": "talk.politics.misc",
+      "precision": 0.4840182648401826,
+      "recall": 0.3419354838709677,
+      "f1": 0.4007561436672968,
+      "support": 310
+    },
+    {
+      "class_id": 19,
+      "class_name": "talk.religion.misc",
+      "precision": 0.3287671232876712,
+      "recall": 0.09561752988047809,
+      "f1": 0.14814814814814814,
+      "support": 251
+    }
+  ],
+  "hardest_topics_by_f1": [
+    {
+      "class_id": 19,
+      "class_name": "talk.religion.misc",
+      "precision": 0.3287671232876712,
+      "recall": 0.09561752988047809,
+      "f1": 0.14814814814814814,
+      "support": 251
+    },
+    {
+      "class_id": 0,
+      "class_name": "alt.atheism",
+      "precision": 0.391156462585034,
+      "recall": 0.3605015673981191,
+      "f1": 0.37520391517128876,
+      "support": 319
+    },
+    {
+      "class_id": 18,
+      "class_name": "talk.politics.misc",
+      "precision": 0.4840182648401826,
+      "recall": 0.3419354838709677,
+      "f1": 0.4007561436672968,
+      "support": 310
+    },
+    {
+      "class_id": 12,
+      "class_name": "sci.electronics",
+      "precision": 0.5250596658711217,
+      "recall": 0.5597964376590331,
+      "f1": 0.541871921182266,
+      "support": 393
+    },
+    {
+      "class_id": 16,
+      "class_name": "talk.politics.guns",
+      "precision": 0.5419664268585132,
+      "recall": 0.6208791208791209,
+      "f1": 0.5787451984635084,
+      "support": 364
+    },
+    {
+      "class_id": 2,
+      "class_name": "comp.os.ms-windows.misc",
+      "precision": 0.6021505376344086,
+      "recall": 0.5685279187817259,
+      "f1": 0.5848563968668408,
+      "support": 394
+    },
+    {
+      "class_id": 3,
+      "class_name": "comp.sys.ibm.pc.hardware",
+      "precision": 0.6540880503144654,
+      "recall": 0.5306122448979592,
+      "f1": 0.5859154929577465,
+      "support": 392
+    },
+    {
+      "class_id": 17,
+      "class_name": "talk.politics.mideast",
+      "precision": 0.475968992248062,
+      "recall": 0.8164893617021277,
+      "f1": 0.6013712047012733,
+      "support": 376
+    },
+    {
+      "class_id": 4,
+      "class_name": "comp.sys.mac.hardware",
+      "precision": 0.7040816326530612,
+      "recall": 0.5376623376623376,
+      "f1": 0.6097201767304861,
+      "support": 385
+    },
+    {
+      "class_id": 1,
+      "class_name": "comp.graphics",
+      "precision": 0.5897435897435898,
+      "recall": 0.7095115681233933,
+      "f1": 0.6441073512252042,
+      "support": 389
+    }
+  ],
+  "most_confused_pairs": [
+    {
+      "true_id": 19,
+      "pred_id": 15,
+      "true_name": "talk.religion.misc",
+      "pred_name": "soc.religion.christian",
+      "count": 98
+    },
+    {
+      "true_id": 0,
+      "pred_id": 15,
+      "true_name": "alt.atheism",
+      "pred_name": "soc.religion.christian",
+      "count": 93
+    },
+    {
+      "true_id": 18,
+      "pred_id": 16,
+      "true_name": "talk.politics.misc",
+      "pred_name": "talk.politics.guns",
+      "count": 89
+    },
+    {
+      "true_id": 5,
+      "pred_id": 1,
+      "true_name": "comp.windows.x",
+      "pred_name": "comp.graphics",
+      "count": 59
+    },
+    {
+      "true_id": 3,
+      "pred_id": 12,
+      "true_name": "comp.sys.ibm.pc.hardware",
+      "pred_name": "sci.electronics",
+      "count": 52
+    },
+    {
+      "true_id": 3,
+      "pred_id": 2,
+      "true_name": "comp.sys.ibm.pc.hardware",
+      "pred_name": "comp.os.ms-windows.misc",
+      "count": 49
+    },
+    {
+      "true_id": 19,
+      "pred_id": 0,
+      "true_name": "talk.religion.misc",
+      "pred_name": "alt.atheism",
+      "count": 48
+    },
+    {
+      "true_id": 7,
+      "pred_id": 8,
+      "true_name": "rec.autos",
+      "pred_name": "rec.motorcycles",
+      "count": 46
+    },
+    {
+      "true_id": 4,
+      "pred_id": 12,
+      "true_name": "comp.sys.mac.hardware",
+      "pred_name": "sci.electronics",
+      "count": 43
+    },
+    {
+      "true_id": 4,
+      "pred_id": 3,
+      "true_name": "comp.sys.mac.hardware",
+      "pred_name": "comp.sys.ibm.pc.hardware",
+      "count": 40
+    },
+    {
+      "true_id": 0,
+      "pred_id": 17,
+      "true_name": "alt.atheism",
+      "pred_name": "talk.politics.mideast",
+      "count": 35
+    },
+    {
+      "true_id": 2,
+      "pred_id": 1,
+      "true_name": "comp.os.ms-windows.misc",
+      "pred_name": "comp.graphics",
+      "count": 35
+    },
+    {
+      "true_id": 11,
+      "pred_id": 16,
+      "true_name": "sci.crypt",
+      "pred_name": "talk.politics.guns",
+      "count": 34
+    },
+    {
+      "true_id": 3,
+      "pred_id": 6,
+      "true_name": "comp.sys.ibm.pc.hardware",
+      "pred_name": "misc.forsale",
+      "count": 30
+    },
+    {
+      "true_id": 5,
+      "pred_id": 2,
+      "true_name": "comp.windows.x",
+      "pred_name": "comp.os.ms-windows.misc",
+      "count": 28
+    },
+    {
+      "true_id": 16,
+      "pred_id": 18,
+      "true_name": "talk.politics.guns",
+      "pred_name": "talk.politics.misc",
+      "count": 28
+    },
+    {
+      "true_id": 18,
+      "pred_id": 0,
+      "true_name": "talk.politics.misc",
+      "pred_name": "alt.atheism",
+      "count": 28
+    },
+    {
+      "true_id": 11,
+      "pred_id": 12,
+      "true_name": "sci.crypt",
+      "pred_name": "sci.electronics",
+      "count": 27
+    },
+    {
+      "true_id": 2,
+      "pred_id": 3,
+      "true_name": "comp.os.ms-windows.misc",
+      "pred_name": "comp.sys.ibm.pc.hardware",
+      "count": 25
+    },
+    {
+      "true_id": 7,
+      "pred_id": 17,
+      "true_name": "rec.autos",
+      "pred_name": "talk.politics.mideast",
+      "count": 25
+    }
+  ],
+  "selected_error_examples_index": [
+    {
+      "example_id": "test_3472",
+      "true_label_name": "talk.religion.misc",
+      "pred_label_name": "soc.religion.christian",
+      "pred_confidence": 0.8625094890594482,
+      "num_sents": 20,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 16,
+          "importance": 0.19696380198001862
+        },
+        {
+          "sentence_id": 9,
+          "importance": 0.11651059985160828
+        },
+        {
+          "sentence_id": 13,
+          "importance": 0.09781338274478912
+        }
+      ],
+      "file": "analysis-2_errors/test_3472.json"
+    },
+    {
+      "example_id": "test_4929",
+      "true_label_name": "talk.religion.misc",
+      "pred_label_name": "soc.religion.christian",
+      "pred_confidence": 0.8614222407341003,
+      "num_sents": 20,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 16,
+          "importance": 0.1782146841287613
+        },
+        {
+          "sentence_id": 7,
+          "importance": 0.11824098229408264
+        },
+        {
+          "sentence_id": 2,
+          "importance": 0.10992851108312607
+        }
+      ],
+      "file": "analysis-2_errors/test_4929.json"
+    },
+    {
+      "example_id": "test_2031",
+      "true_label_name": "talk.religion.misc",
+      "pred_label_name": "soc.religion.christian",
+      "pred_confidence": 0.8610717058181763,
+      "num_sents": 2,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 0,
+          "importance": 0.8525516390800476
+        },
+        {
+          "sentence_id": 1,
+          "importance": 0.1474483609199524
+        }
+      ],
+      "file": "analysis-2_errors/test_2031.json"
+    },
+    {
+      "example_id": "test_2630",
+      "true_label_name": "talk.religion.misc",
+      "pred_label_name": "soc.religion.christian",
+      "pred_confidence": 0.84588623046875,
+      "num_sents": 3,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 2,
+          "importance": 0.5023843050003052
+        },
+        {
+          "sentence_id": 0,
+          "importance": 0.30375251173973083
+        },
+        {
+          "sentence_id": 1,
+          "importance": 0.1938631534576416
+        }
+      ],
+      "file": "analysis-2_errors/test_2630.json"
+    },
+    {
+      "example_id": "test_4064",
+      "true_label_name": "talk.religion.misc",
+      "pred_label_name": "soc.religion.christian",
+      "pred_confidence": 0.8395680785179138,
+      "num_sents": 20,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 2,
+          "importance": 0.19147364795207977
+        },
+        {
+          "sentence_id": 17,
+          "importance": 0.14465297758579254
+        },
+        {
+          "sentence_id": 1,
+          "importance": 0.1051921471953392
+        }
+      ],
+      "file": "analysis-2_errors/test_4064.json"
+    },
+    {
+      "example_id": "test_6963",
+      "true_label_name": "alt.atheism",
+      "pred_label_name": "soc.religion.christian",
+      "pred_confidence": 0.8851279616355896,
+      "num_sents": 2,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 1,
+          "importance": 0.7270878553390503
+        },
+        {
+          "sentence_id": 0,
+          "importance": 0.2729121744632721
+        }
+      ],
+      "file": "analysis-2_errors/test_6963.json"
+    },
+    {
+      "example_id": "test_2904",
+      "true_label_name": "alt.atheism",
+      "pred_label_name": "soc.religion.christian",
+      "pred_confidence": 0.8355172276496887,
+      "num_sents": 20,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 10,
+          "importance": 0.11995818465948105
+        },
+        {
+          "sentence_id": 17,
+          "importance": 0.09716673195362091
+        },
+        {
+          "sentence_id": 4,
+          "importance": 0.07381480187177658
+        }
+      ],
+      "file": "analysis-2_errors/test_2904.json"
+    },
+    {
+      "example_id": "test_3414",
+      "true_label_name": "alt.atheism",
+      "pred_label_name": "soc.religion.christian",
+      "pred_confidence": 0.8346683382987976,
+      "num_sents": 20,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 9,
+          "importance": 0.21953099966049194
+        },
+        {
+          "sentence_id": 15,
+          "importance": 0.15886373817920685
+        },
+        {
+          "sentence_id": 16,
+          "importance": 0.14915980398654938
+        }
+      ],
+      "file": "analysis-2_errors/test_3414.json"
+    },
+    {
+      "example_id": "test_7483",
+      "true_label_name": "alt.atheism",
+      "pred_label_name": "soc.religion.christian",
+      "pred_confidence": 0.8272338509559631,
+      "num_sents": 6,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 4,
+          "importance": 0.3972470164299011
+        },
+        {
+          "sentence_id": 5,
+          "importance": 0.19969652593135834
+        },
+        {
+          "sentence_id": 2,
+          "importance": 0.13947422802448273
+        }
+      ],
+      "file": "analysis-2_errors/test_7483.json"
+    },
+    {
+      "example_id": "test_4531",
+      "true_label_name": "alt.atheism",
+      "pred_label_name": "soc.religion.christian",
+      "pred_confidence": 0.8116335868835449,
+      "num_sents": 12,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 9,
+          "importance": 0.21093803644180298
+        },
+        {
+          "sentence_id": 2,
+          "importance": 0.16857686638832092
+        },
+        {
+          "sentence_id": 1,
+          "importance": 0.1499740034341812
+        }
+      ],
+      "file": "analysis-2_errors/test_4531.json"
+    },
+    {
+      "example_id": "test_2408",
+      "true_label_name": "talk.politics.misc",
+      "pred_label_name": "talk.politics.guns",
+      "pred_confidence": 0.9901325702667236,
+      "num_sents": 8,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 4,
+          "importance": 0.3216266632080078
+        },
+        {
+          "sentence_id": 1,
+          "importance": 0.15137986838817596
+        },
+        {
+          "sentence_id": 3,
+          "importance": 0.11754434555768967
+        }
+      ],
+      "file": "analysis-2_errors/test_2408.json"
+    },
+    {
+      "example_id": "test_4946",
+      "true_label_name": "talk.politics.misc",
+      "pred_label_name": "talk.politics.guns",
+      "pred_confidence": 0.989508867263794,
+      "num_sents": 20,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 10,
+          "importance": 0.20575782656669617
+        },
+        {
+          "sentence_id": 19,
+          "importance": 0.14028167724609375
+        },
+        {
+          "sentence_id": 13,
+          "importance": 0.08799362927675247
+        }
+      ],
+      "file": "analysis-2_errors/test_4946.json"
+    },
+    {
+      "example_id": "test_1681",
+      "true_label_name": "talk.politics.misc",
+      "pred_label_name": "talk.politics.guns",
+      "pred_confidence": 0.9872149229049683,
+      "num_sents": 19,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 0,
+          "importance": 0.30560222268104553
+        },
+        {
+          "sentence_id": 4,
+          "importance": 0.12552142143249512
+        },
+        {
+          "sentence_id": 2,
+          "importance": 0.07456421107053757
+        }
+      ],
+      "file": "analysis-2_errors/test_1681.json"
+    },
+    {
+      "example_id": "test_4345",
+      "true_label_name": "talk.politics.misc",
+      "pred_label_name": "talk.politics.guns",
+      "pred_confidence": 0.9871619343757629,
+      "num_sents": 2,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 1,
+          "importance": 0.750452995300293
+        },
+        {
+          "sentence_id": 0,
+          "importance": 0.24954698979854584
+        }
+      ],
+      "file": "analysis-2_errors/test_4345.json"
+    },
+    {
+      "example_id": "test_5162",
+      "true_label_name": "talk.politics.misc",
+      "pred_label_name": "talk.politics.guns",
+      "pred_confidence": 0.986381471157074,
+      "num_sents": 8,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 4,
+          "importance": 0.4031868577003479
+        },
+        {
+          "sentence_id": 2,
+          "importance": 0.17716555297374725
+        },
+        {
+          "sentence_id": 0,
+          "importance": 0.16925357282161713
+        }
+      ],
+      "file": "analysis-2_errors/test_5162.json"
+    },
+    {
+      "example_id": "test_5721",
+      "true_label_name": "comp.windows.x",
+      "pred_label_name": "comp.graphics",
+      "pred_confidence": 0.9815301299095154,
+      "num_sents": 3,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 0,
+          "importance": 0.6458794474601746
+        },
+        {
+          "sentence_id": 1,
+          "importance": 0.19387952983379364
+        },
+        {
+          "sentence_id": 2,
+          "importance": 0.160241037607193
+        }
+      ],
+      "file": "analysis-2_errors/test_5721.json"
+    },
+    {
+      "example_id": "test_4002",
+      "true_label_name": "comp.windows.x",
+      "pred_label_name": "comp.graphics",
+      "pred_confidence": 0.9798489212989807,
+      "num_sents": 2,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 0,
+          "importance": 0.7684196829795837
+        },
+        {
+          "sentence_id": 1,
+          "importance": 0.23158030211925507
+        }
+      ],
+      "file": "analysis-2_errors/test_4002.json"
+    },
+    {
+      "example_id": "test_2439",
+      "true_label_name": "comp.windows.x",
+      "pred_label_name": "comp.graphics",
+      "pred_confidence": 0.9692400693893433,
+      "num_sents": 5,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 2,
+          "importance": 0.3455725908279419
+        },
+        {
+          "sentence_id": 1,
+          "importance": 0.20889800786972046
+        },
+        {
+          "sentence_id": 0,
+          "importance": 0.15526661276817322
+        }
+      ],
+      "file": "analysis-2_errors/test_2439.json"
+    },
+    {
+      "example_id": "test_3453",
+      "true_label_name": "comp.windows.x",
+      "pred_label_name": "comp.graphics",
+      "pred_confidence": 0.9677119255065918,
+      "num_sents": 4,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 0,
+          "importance": 0.6123092174530029
+        },
+        {
+          "sentence_id": 2,
+          "importance": 0.13494977355003357
+        },
+        {
+          "sentence_id": 3,
+          "importance": 0.1313096582889557
+        }
+      ],
+      "file": "analysis-2_errors/test_3453.json"
+    },
+    {
+      "example_id": "test_5601",
+      "true_label_name": "comp.windows.x",
+      "pred_label_name": "comp.graphics",
+      "pred_confidence": 0.9655279517173767,
+      "num_sents": 3,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 0,
+          "importance": 0.46802735328674316
+        },
+        {
+          "sentence_id": 1,
+          "importance": 0.2914237082004547
+        },
+        {
+          "sentence_id": 2,
+          "importance": 0.24054895341396332
+        }
+      ],
+      "file": "analysis-2_errors/test_5601.json"
+    },
+    {
+      "example_id": "test_689",
+      "true_label_name": "comp.sys.ibm.pc.hardware",
+      "pred_label_name": "sci.electronics",
+      "pred_confidence": 0.9496235847473145,
+      "num_sents": 4,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 0,
+          "importance": 0.388345867395401
+        },
+        {
+          "sentence_id": 1,
+          "importance": 0.283993661403656
+        },
+        {
+          "sentence_id": 2,
+          "importance": 0.1662093847990036
+        }
+      ],
+      "file": "analysis-2_errors/test_689.json"
+    },
+    {
+      "example_id": "test_5332",
+      "true_label_name": "comp.sys.ibm.pc.hardware",
+      "pred_label_name": "sci.electronics",
+      "pred_confidence": 0.9324813485145569,
+      "num_sents": 6,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 0,
+          "importance": 0.2742445766925812
+        },
+        {
+          "sentence_id": 1,
+          "importance": 0.21750859916210175
+        },
+        {
+          "sentence_id": 2,
+          "importance": 0.2084563970565796
+        }
+      ],
+      "file": "analysis-2_errors/test_5332.json"
+    },
+    {
+      "example_id": "test_4400",
+      "true_label_name": "comp.sys.ibm.pc.hardware",
+      "pred_label_name": "sci.electronics",
+      "pred_confidence": 0.9095276594161987,
+      "num_sents": 4,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 2,
+          "importance": 0.3530414402484894
+        },
+        {
+          "sentence_id": 0,
+          "importance": 0.29310905933380127
+        },
+        {
+          "sentence_id": 3,
+          "importance": 0.20369748771190643
+        }
+      ],
+      "file": "analysis-2_errors/test_4400.json"
+    },
+    {
+      "example_id": "test_4769",
+      "true_label_name": "comp.sys.ibm.pc.hardware",
+      "pred_label_name": "sci.electronics",
+      "pred_confidence": 0.9008697271347046,
+      "num_sents": 4,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 1,
+          "importance": 0.32654762268066406
+        },
+        {
+          "sentence_id": 2,
+          "importance": 0.26650333404541016
+        },
+        {
+          "sentence_id": 0,
+          "importance": 0.22828960418701172
+        }
+      ],
+      "file": "analysis-2_errors/test_4769.json"
+    },
+    {
+      "example_id": "test_2115",
+      "true_label_name": "comp.sys.ibm.pc.hardware",
+      "pred_label_name": "sci.electronics",
+      "pred_confidence": 0.8865395188331604,
+      "num_sents": 4,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 0,
+          "importance": 0.4683203399181366
+        },
+        {
+          "sentence_id": 1,
+          "importance": 0.2324155569076538
+        },
+        {
+          "sentence_id": 3,
+          "importance": 0.19648177921772003
+        }
+      ],
+      "file": "analysis-2_errors/test_2115.json"
+    },
+    {
+      "example_id": "test_4006",
+      "true_label_name": "comp.sys.ibm.pc.hardware",
+      "pred_label_name": "comp.os.ms-windows.misc",
+      "pred_confidence": 0.983355700969696,
+      "num_sents": 2,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 0,
+          "importance": 0.676636815071106
+        },
+        {
+          "sentence_id": 1,
+          "importance": 0.3233632445335388
+        }
+      ],
+      "file": "analysis-2_errors/test_4006.json"
+    },
+    {
+      "example_id": "test_6281",
+      "true_label_name": "comp.sys.ibm.pc.hardware",
+      "pred_label_name": "comp.os.ms-windows.misc",
+      "pred_confidence": 0.9582794904708862,
+      "num_sents": 3,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 0,
+          "importance": 0.46306872367858887
+        },
+        {
+          "sentence_id": 1,
+          "importance": 0.32398489117622375
+        },
+        {
+          "sentence_id": 2,
+          "importance": 0.21294641494750977
+        }
+      ],
+      "file": "analysis-2_errors/test_6281.json"
+    },
+    {
+      "example_id": "test_5336",
+      "true_label_name": "comp.sys.ibm.pc.hardware",
+      "pred_label_name": "comp.os.ms-windows.misc",
+      "pred_confidence": 0.9567729234695435,
+      "num_sents": 4,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 2,
+          "importance": 0.44075027108192444
+        },
+        {
+          "sentence_id": 3,
+          "importance": 0.22512221336364746
+        },
+        {
+          "sentence_id": 0,
+          "importance": 0.17367802560329437
+        }
+      ],
+      "file": "analysis-2_errors/test_5336.json"
+    },
+    {
+      "example_id": "test_194",
+      "true_label_name": "comp.sys.ibm.pc.hardware",
+      "pred_label_name": "comp.os.ms-windows.misc",
+      "pred_confidence": 0.9484776854515076,
+      "num_sents": 5,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 1,
+          "importance": 0.45338472723960876
+        },
+        {
+          "sentence_id": 4,
+          "importance": 0.1756327599287033
+        },
+        {
+          "sentence_id": 0,
+          "importance": 0.13870280981063843
+        }
+      ],
+      "file": "analysis-2_errors/test_194.json"
+    },
+    {
+      "example_id": "test_5424",
+      "true_label_name": "comp.sys.ibm.pc.hardware",
+      "pred_label_name": "comp.os.ms-windows.misc",
+      "pred_confidence": 0.9484518766403198,
+      "num_sents": 5,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 0,
+          "importance": 0.2954018712043762
+        },
+        {
+          "sentence_id": 2,
+          "importance": 0.21632523834705353
+        },
+        {
+          "sentence_id": 3,
+          "importance": 0.18582192063331604
+        }
+      ],
+      "file": "analysis-2_errors/test_5424.json"
+    },
+    {
+      "example_id": "test_1072",
+      "true_label_name": "talk.religion.misc",
+      "pred_label_name": "alt.atheism",
+      "pred_confidence": 0.8912068009376526,
+      "num_sents": 1,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 0,
+          "importance": 1.0
+        }
+      ],
+      "file": "analysis-2_errors/test_1072.json"
+    },
+    {
+      "example_id": "test_5831",
+      "true_label_name": "talk.religion.misc",
+      "pred_label_name": "alt.atheism",
+      "pred_confidence": 0.821998655796051,
+      "num_sents": 9,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 4,
+          "importance": 0.14929963648319244
+        },
+        {
+          "sentence_id": 6,
+          "importance": 0.1300794631242752
+        },
+        {
+          "sentence_id": 7,
+          "importance": 0.12009944021701813
+        }
+      ],
+      "file": "analysis-2_errors/test_5831.json"
+    },
+    {
+      "example_id": "test_710",
+      "true_label_name": "talk.religion.misc",
+      "pred_label_name": "alt.atheism",
+      "pred_confidence": 0.814195454120636,
+      "num_sents": 4,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 0,
+          "importance": 0.2612379789352417
+        },
+        {
+          "sentence_id": 1,
+          "importance": 0.2612379789352417
+        },
+        {
+          "sentence_id": 2,
+          "importance": 0.25363942980766296
+        }
+      ],
+      "file": "analysis-2_errors/test_710.json"
+    },
+    {
+      "example_id": "test_770",
+      "true_label_name": "talk.religion.misc",
+      "pred_label_name": "alt.atheism",
+      "pred_confidence": 0.8100358247756958,
+      "num_sents": 4,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 2,
+          "importance": 0.3611670136451721
+        },
+        {
+          "sentence_id": 0,
+          "importance": 0.22981560230255127
+        },
+        {
+          "sentence_id": 3,
+          "importance": 0.21254988014698029
+        }
+      ],
+      "file": "analysis-2_errors/test_770.json"
+    },
+    {
+      "example_id": "test_3055",
+      "true_label_name": "talk.religion.misc",
+      "pred_label_name": "alt.atheism",
+      "pred_confidence": 0.7900992035865784,
+      "num_sents": 6,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 0,
+          "importance": 0.2780338525772095
+        },
+        {
+          "sentence_id": 2,
+          "importance": 0.19727575778961182
+        },
+        {
+          "sentence_id": 1,
+          "importance": 0.17572642862796783
+        }
+      ],
+      "file": "analysis-2_errors/test_3055.json"
+    },
+    {
+      "example_id": "test_3980",
+      "true_label_name": "rec.autos",
+      "pred_label_name": "rec.motorcycles",
+      "pred_confidence": 0.9801222085952759,
+      "num_sents": 6,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 0,
+          "importance": 0.3198466897010803
+        },
+        {
+          "sentence_id": 2,
+          "importance": 0.27619239687919617
+        },
+        {
+          "sentence_id": 5,
+          "importance": 0.14719657599925995
+        }
+      ],
+      "file": "analysis-2_errors/test_3980.json"
+    },
+    {
+      "example_id": "test_6635",
+      "true_label_name": "rec.autos",
+      "pred_label_name": "rec.motorcycles",
+      "pred_confidence": 0.9770077466964722,
+      "num_sents": 1,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 0,
+          "importance": 1.0
+        }
+      ],
+      "file": "analysis-2_errors/test_6635.json"
+    },
+    {
+      "example_id": "test_7008",
+      "true_label_name": "rec.autos",
+      "pred_label_name": "rec.motorcycles",
+      "pred_confidence": 0.9726626873016357,
+      "num_sents": 5,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 2,
+          "importance": 0.3694353699684143
+        },
+        {
+          "sentence_id": 3,
+          "importance": 0.30238810181617737
+        },
+        {
+          "sentence_id": 0,
+          "importance": 0.15296649932861328
+        }
+      ],
+      "file": "analysis-2_errors/test_7008.json"
+    },
+    {
+      "example_id": "test_7178",
+      "true_label_name": "rec.autos",
+      "pred_label_name": "rec.motorcycles",
+      "pred_confidence": 0.9593319892883301,
+      "num_sents": 1,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 0,
+          "importance": 1.0
+        }
+      ],
+      "file": "analysis-2_errors/test_7178.json"
+    },
+    {
+      "example_id": "test_1967",
+      "true_label_name": "rec.autos",
+      "pred_label_name": "rec.motorcycles",
+      "pred_confidence": 0.9009215235710144,
+      "num_sents": 3,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 2,
+          "importance": 0.3682372570037842
+        },
+        {
+          "sentence_id": 1,
+          "importance": 0.3576909601688385
+        },
+        {
+          "sentence_id": 0,
+          "importance": 0.2740718126296997
+        }
+      ],
+      "file": "analysis-2_errors/test_1967.json"
+    },
+    {
+      "example_id": "test_729",
+      "true_label_name": "comp.sys.mac.hardware",
+      "pred_label_name": "sci.electronics",
+      "pred_confidence": 0.9790267944335938,
+      "num_sents": 1,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 0,
+          "importance": 1.0
+        }
+      ],
+      "file": "analysis-2_errors/test_729.json"
+    },
+    {
+      "example_id": "test_3481",
+      "true_label_name": "comp.sys.mac.hardware",
+      "pred_label_name": "sci.electronics",
+      "pred_confidence": 0.977644145488739,
+      "num_sents": 2,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 0,
+          "importance": 0.5864201188087463
+        },
+        {
+          "sentence_id": 1,
+          "importance": 0.41357991099357605
+        }
+      ],
+      "file": "analysis-2_errors/test_3481.json"
+    },
+    {
+      "example_id": "test_7025",
+      "true_label_name": "comp.sys.mac.hardware",
+      "pred_label_name": "sci.electronics",
+      "pred_confidence": 0.9256759881973267,
+      "num_sents": 6,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 4,
+          "importance": 0.32187071442604065
+        },
+        {
+          "sentence_id": 1,
+          "importance": 0.18049617111682892
+        },
+        {
+          "sentence_id": 0,
+          "importance": 0.13979896903038025
+        }
+      ],
+      "file": "analysis-2_errors/test_7025.json"
+    },
+    {
+      "example_id": "test_4033",
+      "true_label_name": "comp.sys.mac.hardware",
+      "pred_label_name": "sci.electronics",
+      "pred_confidence": 0.9248893857002258,
+      "num_sents": 4,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 1,
+          "importance": 0.4158553183078766
+        },
+        {
+          "sentence_id": 2,
+          "importance": 0.278007835149765
+        },
+        {
+          "sentence_id": 0,
+          "importance": 0.21870486438274384
+        }
+      ],
+      "file": "analysis-2_errors/test_4033.json"
+    },
+    {
+      "example_id": "test_6972",
+      "true_label_name": "comp.sys.mac.hardware",
+      "pred_label_name": "sci.electronics",
+      "pred_confidence": 0.8743409514427185,
+      "num_sents": 6,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 2,
+          "importance": 0.24097616970539093
+        },
+        {
+          "sentence_id": 5,
+          "importance": 0.20855320990085602
+        },
+        {
+          "sentence_id": 4,
+          "importance": 0.1700761914253235
+        }
+      ],
+      "file": "analysis-2_errors/test_6972.json"
+    },
+    {
+      "example_id": "test_572",
+      "true_label_name": "comp.sys.mac.hardware",
+      "pred_label_name": "comp.sys.ibm.pc.hardware",
+      "pred_confidence": 0.9155405163764954,
+      "num_sents": 1,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 0,
+          "importance": 1.0
+        }
+      ],
+      "file": "analysis-2_errors/test_572.json"
+    },
+    {
+      "example_id": "test_83",
+      "true_label_name": "comp.sys.mac.hardware",
+      "pred_label_name": "comp.sys.ibm.pc.hardware",
+      "pred_confidence": 0.7472265362739563,
+      "num_sents": 1,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 0,
+          "importance": 1.0
+        }
+      ],
+      "file": "analysis-2_errors/test_83.json"
+    },
+    {
+      "example_id": "test_1349",
+      "true_label_name": "comp.sys.mac.hardware",
+      "pred_label_name": "comp.sys.ibm.pc.hardware",
+      "pred_confidence": 0.739605724811554,
+      "num_sents": 4,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 0,
+          "importance": 0.3303835093975067
+        },
+        {
+          "sentence_id": 1,
+          "importance": 0.29179641604423523
+        },
+        {
+          "sentence_id": 2,
+          "importance": 0.19515322148799896
+        }
+      ],
+      "file": "analysis-2_errors/test_1349.json"
+    },
+    {
+      "example_id": "test_6020",
+      "true_label_name": "comp.sys.mac.hardware",
+      "pred_label_name": "comp.sys.ibm.pc.hardware",
+      "pred_confidence": 0.7217546105384827,
+      "num_sents": 4,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 2,
+          "importance": 0.297530859708786
+        },
+        {
+          "sentence_id": 3,
+          "importance": 0.2815958261489868
+        },
+        {
+          "sentence_id": 1,
+          "importance": 0.248380646109581
+        }
+      ],
+      "file": "analysis-2_errors/test_6020.json"
+    },
+    {
+      "example_id": "test_5139",
+      "true_label_name": "comp.sys.mac.hardware",
+      "pred_label_name": "comp.sys.ibm.pc.hardware",
+      "pred_confidence": 0.6949782371520996,
+      "num_sents": 3,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 1,
+          "importance": 0.4036998450756073
+        },
+        {
+          "sentence_id": 0,
+          "importance": 0.3242954909801483
+        },
+        {
+          "sentence_id": 2,
+          "importance": 0.2720046639442444
+        }
+      ],
+      "file": "analysis-2_errors/test_5139.json"
+    },
+    {
+      "example_id": "test_5454",
+      "true_label_name": "comp.sys.mac.hardware",
+      "pred_label_name": "talk.politics.mideast",
+      "pred_confidence": 0.1551574170589447,
+      "num_sents": 2,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 0,
+          "importance": 0.6438218355178833
+        },
+        {
+          "sentence_id": 1,
+          "importance": 0.3561782240867615
+        }
+      ],
+      "file": "analysis-2_errors/test_5454.json"
+    },
+    {
+      "example_id": "test_183",
+      "true_label_name": "alt.atheism",
+      "pred_label_name": "talk.politics.mideast",
+      "pred_confidence": 0.1648767739534378,
+      "num_sents": 2,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 1,
+          "importance": 0.5034722685813904
+        },
+        {
+          "sentence_id": 0,
+          "importance": 0.4965277314186096
+        }
+      ],
+      "file": "analysis-2_errors/test_183.json"
+    },
+    {
+      "example_id": "test_6072",
+      "true_label_name": "comp.os.ms-windows.misc",
+      "pred_label_name": "comp.windows.x",
+      "pred_confidence": 0.17262603342533112,
+      "num_sents": 16,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 9,
+          "importance": 0.1186474934220314
+        },
+        {
+          "sentence_id": 10,
+          "importance": 0.08626371622085571
+        },
+        {
+          "sentence_id": 0,
+          "importance": 0.08178793638944626
+        }
+      ],
+      "file": "analysis-2_errors/test_6072.json"
+    },
+    {
+      "example_id": "test_1470",
+      "true_label_name": "sci.crypt",
+      "pred_label_name": "sci.electronics",
+      "pred_confidence": 0.17467762529850006,
+      "num_sents": 2,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 0,
+          "importance": 0.5450750589370728
+        },
+        {
+          "sentence_id": 1,
+          "importance": 0.45492497086524963
+        }
+      ],
+      "file": "analysis-2_errors/test_1470.json"
+    },
+    {
+      "example_id": "test_4204",
+      "true_label_name": "sci.electronics",
+      "pred_label_name": "rec.autos",
+      "pred_confidence": 0.17766962945461273,
+      "num_sents": 2,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 0,
+          "importance": 0.7015984058380127
+        },
+        {
+          "sentence_id": 1,
+          "importance": 0.2984015643596649
+        }
+      ],
+      "file": "analysis-2_errors/test_4204.json"
+    },
+    {
+      "example_id": "test_5041",
+      "true_label_name": "rec.sport.hockey",
+      "pred_label_name": "rec.sport.baseball",
+      "pred_confidence": 0.17801272869110107,
+      "num_sents": 2,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 0,
+          "importance": 0.6040520071983337
+        },
+        {
+          "sentence_id": 1,
+          "importance": 0.39594799280166626
+        }
+      ],
+      "file": "analysis-2_errors/test_5041.json"
+    },
+    {
+      "example_id": "test_6202",
+      "true_label_name": "talk.politics.guns",
+      "pred_label_name": "sci.med",
+      "pred_confidence": 0.1793062835931778,
+      "num_sents": 6,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 2,
+          "importance": 0.21301905810832977
+        },
+        {
+          "sentence_id": 4,
+          "importance": 0.18393172323703766
+        },
+        {
+          "sentence_id": 1,
+          "importance": 0.18268223106861115
+        }
+      ],
+      "file": "analysis-2_errors/test_6202.json"
+    },
+    {
+      "example_id": "test_1824",
+      "true_label_name": "misc.forsale",
+      "pred_label_name": "talk.politics.guns",
+      "pred_confidence": 0.18032799661159515,
+      "num_sents": 15,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 13,
+          "importance": 0.13495516777038574
+        },
+        {
+          "sentence_id": 6,
+          "importance": 0.08766274154186249
+        },
+        {
+          "sentence_id": 8,
+          "importance": 0.07335290312767029
+        }
+      ],
+      "file": "analysis-2_errors/test_1824.json"
+    },
+    {
+      "example_id": "test_6299",
+      "true_label_name": "talk.religion.misc",
+      "pred_label_name": "sci.space",
+      "pred_confidence": 0.18103401362895966,
+      "num_sents": 4,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 0,
+          "importance": 0.301753968000412
+        },
+        {
+          "sentence_id": 1,
+          "importance": 0.2805022597312927
+        },
+        {
+          "sentence_id": 3,
+          "importance": 0.25048714876174927
+        }
+      ],
+      "file": "analysis-2_errors/test_6299.json"
+    },
+    {
+      "example_id": "test_694",
+      "true_label_name": "alt.atheism",
+      "pred_label_name": "sci.space",
+      "pred_confidence": 0.18373405933380127,
+      "num_sents": 3,
+      "top_sentences_preview": [
+        {
+          "sentence_id": 2,
+          "importance": 0.42155373096466064
+        },
+        {
+          "sentence_id": 1,
+          "importance": 0.3014238476753235
+        },
+        {
+          "sentence_id": 0,
+          "importance": 0.27702251076698303
+        }
+      ],
+      "file": "analysis-2_errors/test_694.json"
+    }
+  ],
+  "saved_files": {
+    "analysis_json": "analysis-2.json",
+    "confusion_csv": "analysis-2_confusion.csv",
+    "per_class_metrics_csv": "analysis-2_per_class_metrics.csv",
+    "errors_dir": "analysis-2_errors",
+    "plots_dir": "analysis-2_plots"
+  }
+}

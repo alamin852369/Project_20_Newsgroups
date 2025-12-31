@@ -1,0 +1,198 @@
+{
+  "example_id": "test_35",
+  "true_label_id": 1,
+  "pred_label_id": 13,
+  "true_label_name": "comp.graphics",
+  "pred_label_name": "sci.med",
+  "pred_confidence": 0.5597334504127502,
+  "metrics": {
+    "num_sents": 4,
+    "K": 5,
+    "stop_ratio": 0.45,
+    "unk_ratio": 0.0,
+    "num_ratio": 0.0,
+    "content_ratio": 0.55,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 1.2569061517715454,
+    "sentence_importance_entropy": 1.2664482593536377,
+    "sentence_importance_max": 0.38561150431632996,
+    "top_sentence_id": 2,
+    "query_mismatch_rate": 0.6,
+    "selected_quality_counts": {
+      "content_word": 11,
+      "stopword": 9
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.27,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.3166384011507034,
+    "D_local_global_conflict": 0.6,
+    "E_overconfident_error": 0.5597334504127502
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "stuff deleted i have a similiar question relating to anti <UNK> that my friend has asked to have posted to the more knowledgable in this group",
+      "i'm sorry if this is an faq",
+      "what anti <UNK> methods do persistance of vision polyray use thank you in advance",
+      "you can either email me or reply or flame me if it is an faq"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "posted",
+          "token_pos": 18,
+          "quality": "content_word",
+          "word_score_logit": 0.0534660704433918,
+          "word_attn_weight": 0.04055650159716606
+        },
+        {
+          "token": "have",
+          "token_pos": 17,
+          "quality": "content_word",
+          "word_score_logit": 0.046230413019657135,
+          "word_attn_weight": 0.040264103561639786
+        },
+        {
+          "token": "asked",
+          "token_pos": 15,
+          "quality": "content_word",
+          "word_score_logit": 0.04192560166120529,
+          "word_attn_weight": 0.040091149508953094
+        },
+        {
+          "token": "has",
+          "token_pos": 14,
+          "quality": "content_word",
+          "word_score_logit": 0.040505193173885345,
+          "word_attn_weight": 0.04003424569964409
+        },
+        {
+          "token": "to",
+          "token_pos": 16,
+          "quality": "stopword",
+          "word_score_logit": 0.03433515876531601,
+          "word_attn_weight": 0.03978799283504486
+        }
+      ],
+      [
+        {
+          "token": "faq",
+          "token_pos": 6,
+          "quality": "content_word",
+          "word_score_logit": 0.0569944828748703,
+          "word_attn_weight": 0.14726504683494568
+        },
+        {
+          "token": "an",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.026248525828123093,
+          "word_attn_weight": 0.14280614256858826
+        },
+        {
+          "token": "is",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": 0.024501804262399673,
+          "word_attn_weight": 0.14255692064762115
+        },
+        {
+          "token": "sorry",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.02101495862007141,
+          "word_attn_weight": 0.14206069707870483
+        },
+        {
+          "token": "this",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": 0.02054658532142639,
+          "word_attn_weight": 0.1419941931962967
+        }
+      ],
+      [
+        {
+          "token": "use",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": 0.07000276446342468,
+          "word_attn_weight": 0.0761280357837677
+        },
+        {
+          "token": "thank",
+          "token_pos": 10,
+          "quality": "content_word",
+          "word_score_logit": 0.03383812680840492,
+          "word_attn_weight": 0.0734240859746933
+        },
+        {
+          "token": "of",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": 0.03039613738656044,
+          "word_attn_weight": 0.07317179441452026
+        },
+        {
+          "token": "advance",
+          "token_pos": 13,
+          "quality": "content_word",
+          "word_score_logit": 0.025090117007493973,
+          "word_attn_weight": 0.07278457283973694
+        },
+        {
+          "token": "in",
+          "token_pos": 12,
+          "quality": "stopword",
+          "word_score_logit": 0.022573361173272133,
+          "word_attn_weight": 0.07260161638259888
+        }
+      ],
+      [
+        {
+          "token": "faq",
+          "token_pos": 14,
+          "quality": "content_word",
+          "word_score_logit": 0.062466248869895935,
+          "word_attn_weight": 0.06822429597377777
+        },
+        {
+          "token": "or",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.061483439058065414,
+          "word_attn_weight": 0.06815728545188904
+        },
+        {
+          "token": "email",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.04332313314080238,
+          "word_attn_weight": 0.06693068891763687
+        },
+        {
+          "token": "me",
+          "token_pos": 9,
+          "quality": "stopword",
+          "word_score_logit": 0.04127230495214462,
+          "word_attn_weight": 0.06679356843233109
+        },
+        {
+          "token": "me",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": 0.04036207124590874,
+          "word_attn_weight": 0.06673280149698257
+        }
+      ]
+    ],
+    "top_sentence_id": 2,
+    "sentence_importance_distribution": [
+      0.35104653239250183,
+      0.14946234226226807,
+      0.38561150431632996,
+      0.11387963593006134
+    ]
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "example_id": "test_800",
+  "true_label_id": 8,
+  "pred_label_id": 13,
+  "true_label_name": "rec.motorcycles",
+  "pred_label_name": "sci.med",
+  "pred_confidence": 0.9896106719970703,
+  "metrics": {
+    "num_sents": 2,
+    "K": 5,
+    "stop_ratio": 0.0,
+    "unk_ratio": 0.1,
+    "num_ratio": 0.2,
+    "content_ratio": 0.4,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 0.5838309526443481,
+    "sentence_importance_entropy": 0.6101949214935303,
+    "sentence_importance_max": 0.7007883191108704,
+    "top_sentence_id": 0,
+    "query_mismatch_rate": 0.5,
+    "selected_quality_counts": {
+      "content_word": 4,
+      "unk": 1,
+      "number": 2,
+      "other": 3
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.05,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.6685128390789031,
+    "D_local_global_conflict": 0.5,
+    "E_overconfident_error": 0.9896106719970703
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "like non <UNK> cold medicines",
+      "1 2"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "non",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.030452275648713112,
+          "word_attn_weight": 0.2029934823513031
+        },
+        {
+          "token": "medicines",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.01650364324450493,
+          "word_attn_weight": 0.20018166303634644
+        },
+        {
+          "token": "like",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": 0.013738609850406647,
+          "word_attn_weight": 0.19962891936302185
+        },
+        {
+          "token": "<UNK>",
+          "token_pos": 2,
+          "quality": "unk",
+          "word_score_logit": 0.012874062173068523,
+          "word_attn_weight": 0.19945639371871948
+        },
+        {
+          "token": "cold",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.004229380749166012,
+          "word_attn_weight": 0.1977395862340927
+        }
+      ],
+      [
+        {
+          "token": "2",
+          "token_pos": 1,
+          "quality": "number",
+          "word_score_logit": 0.029921846464276314,
+          "word_attn_weight": 0.5024411678314209
+        },
+        {
+          "token": "1",
+          "token_pos": 0,
+          "quality": "number",
+          "word_score_logit": 0.02015705779194832,
+          "word_attn_weight": 0.4975588023662567
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 3,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 2,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    ],
+    "top_sentence_id": 0,
+    "sentence_importance_distribution": [
+      0.7007883191108704,
+      0.299211710691452
+    ]
+  }
+}

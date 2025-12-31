@@ -1,0 +1,121 @@
+{
+  "example_id": "test_4048",
+  "true_label_id": 19,
+  "pred_label_id": 15,
+  "true_label_name": "talk.religion.misc",
+  "pred_label_name": "soc.religion.christian",
+  "pred_confidence": 0.6548322439193726,
+  "metrics": {
+    "num_sents": 2,
+    "K": 5,
+    "stop_ratio": 0.8,
+    "unk_ratio": 0.0,
+    "num_ratio": 0.0,
+    "content_ratio": 0.1,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 0.6929479837417603,
+    "sentence_importance_entropy": 0.6930443048477173,
+    "sentence_importance_max": 0.5071726441383362,
+    "top_sentence_id": 1,
+    "query_mismatch_rate": 0.5,
+    "selected_quality_counts": {
+      "stopword": 8,
+      "content_word": 1,
+      "other": 1
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.48,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.5164119899272919,
+    "D_local_global_conflict": 0.5,
+    "E_overconfident_error": 0.6548322439193726
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "jesus did and so do i",
+      "peace be with you"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "did",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.028060073032975197,
+          "word_attn_weight": 0.16849733889102936
+        },
+        {
+          "token": "do",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": 0.022212965413928032,
+          "word_attn_weight": 0.16751499474048615
+        },
+        {
+          "token": "and",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.020311551168560982,
+          "word_attn_weight": 0.16719679534435272
+        },
+        {
+          "token": "so",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": 0.01655496656894684,
+          "word_attn_weight": 0.16656987369060516
+        },
+        {
+          "token": "i",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.014628274366259575,
+          "word_attn_weight": 0.16624924540519714
+        }
+      ],
+      [
+        {
+          "token": "with",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 8.977623656392097e-05,
+          "word_attn_weight": 0.2553739547729492
+        },
+        {
+          "token": "you",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": -0.006188883446156979,
+          "word_attn_weight": 0.25377556681632996
+        },
+        {
+          "token": "be",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": -0.01263519562780857,
+          "word_attn_weight": 0.2521449327468872
+        },
+        {
+          "token": "peace",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": -0.06740840524435043,
+          "word_attn_weight": 0.23870554566383362
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    ],
+    "top_sentence_id": 1,
+    "sentence_importance_distribution": [
+      0.4928273856639862,
+      0.5071726441383362
+    ]
+  }
+}

@@ -1,0 +1,423 @@
+{
+  "true_label_id": 16,
+  "pred_label_id": 13,
+  "true_label_name": "talk.politics.guns",
+  "pred_label_name": "sci.med",
+  "pred_confidence": 0.1793062835931778,
+  "num_sents": 6,
+  "top_sentences": [
+    {
+      "sentence_id": 2,
+      "importance": 0.21301905810832977,
+      "sentence_text": "guess it can happen to the best and in his case the worst of us",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "his",
+          "token_pos": 9,
+          "word_score_logit": 0.03904062509536743,
+          "word_attn_weight": 0.0679020807147026
+        },
+        {
+          "rank": 1,
+          "token": "in",
+          "token_pos": 8,
+          "word_score_logit": 0.03835389018058777,
+          "word_attn_weight": 0.06785546988248825
+        },
+        {
+          "rank": 2,
+          "token": "and",
+          "token_pos": 7,
+          "word_score_logit": 0.03293358534574509,
+          "word_attn_weight": 0.0674886628985405
+        },
+        {
+          "rank": 3,
+          "token": "happen",
+          "token_pos": 3,
+          "word_score_logit": 0.03229948505759239,
+          "word_attn_weight": 0.06744588166475296
+        },
+        {
+          "rank": 4,
+          "token": "the",
+          "token_pos": 5,
+          "word_score_logit": 0.030802907422184944,
+          "word_attn_weight": 0.0673450157046318
+        }
+      ]
+    },
+    {
+      "sentence_id": 4,
+      "importance": 0.18393172323703766,
+      "sentence_text": "the point he seems to be missing now is that after a certain point accuracy can be very <UNK> and ridiculous",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "accuracy",
+          "token_pos": 14,
+          "word_score_logit": 0.052342962473630905,
+          "word_attn_weight": 0.04943147301673889
+        },
+        {
+          "rank": 1,
+          "token": "missing",
+          "token_pos": 6,
+          "word_score_logit": 0.03439950942993164,
+          "word_attn_weight": 0.04855240881443024
+        },
+        {
+          "rank": 2,
+          "token": "the",
+          "token_pos": 0,
+          "word_score_logit": 0.033337995409965515,
+          "word_attn_weight": 0.048500899225473404
+        },
+        {
+          "rank": 3,
+          "token": "he",
+          "token_pos": 2,
+          "word_score_logit": 0.033007144927978516,
+          "word_attn_weight": 0.04848485812544823
+        },
+        {
+          "rank": 4,
+          "token": "can",
+          "token_pos": 15,
+          "word_score_logit": 0.027480019256472588,
+          "word_attn_weight": 0.04821760952472687
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "importance": 0.18268223106861115,
+      "sentence_text": "here freeman is pre judging someone before he knows all of the facts",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "freeman",
+          "token_pos": 1,
+          "word_score_logit": 0.05958631634712219,
+          "word_attn_weight": 0.0798894390463829
+        },
+        {
+          "rank": 1,
+          "token": "he",
+          "token_pos": 7,
+          "word_score_logit": 0.037698693573474884,
+          "word_attn_weight": 0.07815984636545181
+        },
+        {
+          "rank": 2,
+          "token": "here",
+          "token_pos": 0,
+          "word_score_logit": 0.036438003182411194,
+          "word_attn_weight": 0.07806137204170227
+        },
+        {
+          "rank": 3,
+          "token": "knows",
+          "token_pos": 8,
+          "word_score_logit": 0.036017876118421555,
+          "word_attn_weight": 0.0780285894870758
+        },
+        {
+          "rank": 4,
+          "token": "is",
+          "token_pos": 2,
+          "word_score_logit": 0.025535548105835915,
+          "word_attn_weight": 0.07721493393182755
+        }
+      ]
+    },
+    {
+      "sentence_id": 5,
+      "importance": 0.18033578991889954,
+      "sentence_text": "see <UNK> next post for an explanation",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "explanation",
+          "token_pos": 6,
+          "word_score_logit": 0.018573392182588577,
+          "word_attn_weight": 0.14504490792751312
+        },
+        {
+          "rank": 1,
+          "token": "an",
+          "token_pos": 5,
+          "word_score_logit": 0.01755542680621147,
+          "word_attn_weight": 0.14489732682704926
+        },
+        {
+          "rank": 2,
+          "token": "see",
+          "token_pos": 0,
+          "word_score_logit": 0.006419793702661991,
+          "word_attn_weight": 0.14329275488853455
+        },
+        {
+          "rank": 3,
+          "token": "next",
+          "token_pos": 2,
+          "word_score_logit": 0.001025991514325142,
+          "word_attn_weight": 0.1425219476222992
+        },
+        {
+          "rank": 4,
+          "token": "for",
+          "token_pos": 4,
+          "word_score_logit": -0.0034962696954607964,
+          "word_attn_weight": 0.1418788731098175
+        }
+      ]
+    },
+    {
+      "sentence_id": 3,
+      "importance": 0.12181870639324188,
+      "sentence_text": "freeman thinks i am behind when actually i am quite on top of things",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "freeman",
+          "token_pos": 0,
+          "word_score_logit": 0.06512562930583954,
+          "word_attn_weight": 0.07607880979776382
+        },
+        {
+          "rank": 1,
+          "token": "thinks",
+          "token_pos": 1,
+          "word_score_logit": 0.025381118059158325,
+          "word_attn_weight": 0.07311440259218216
+        },
+        {
+          "rank": 2,
+          "token": "of",
+          "token_pos": 12,
+          "word_score_logit": 0.020366739481687546,
+          "word_attn_weight": 0.07274869829416275
+        },
+        {
+          "rank": 3,
+          "token": "i",
+          "token_pos": 2,
+          "word_score_logit": 0.008663320913910866,
+          "word_attn_weight": 0.07190224528312683
+        },
+        {
+          "rank": 4,
+          "token": "actually",
+          "token_pos": 6,
+          "word_score_logit": 0.006388045847415924,
+          "word_attn_weight": 0.0717388391494751
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 10,
+      "from_sentence_id": 2,
+      "token": "his",
+      "token_pos": 9,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.21762952208518982,
+          "sentence_text": "guess it can happen to the best and in his case the worst of us"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.20493128895759583,
+          "sentence_text": "here freeman is pre judging someone before he knows all of the facts"
+        }
+      ]
+    },
+    {
+      "query_id": 11,
+      "from_sentence_id": 2,
+      "token": "in",
+      "token_pos": 8,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.21624638140201569,
+          "sentence_text": "guess it can happen to the best and in his case the worst of us"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.19709432125091553,
+          "sentence_text": "here freeman is pre judging someone before he knows all of the facts"
+        }
+      ]
+    },
+    {
+      "query_id": 12,
+      "from_sentence_id": 2,
+      "token": "and",
+      "token_pos": 7,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.22132866084575653,
+          "sentence_text": "guess it can happen to the best and in his case the worst of us"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.19232334196567535,
+          "sentence_text": "here freeman is pre judging someone before he knows all of the facts"
+        }
+      ]
+    },
+    {
+      "query_id": 13,
+      "from_sentence_id": 2,
+      "token": "happen",
+      "token_pos": 3,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.23841768503189087,
+          "sentence_text": "guess it can happen to the best and in his case the worst of us"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.18594028055667877,
+          "sentence_text": "here freeman is pre judging someone before he knows all of the facts"
+        }
+      ]
+    },
+    {
+      "query_id": 14,
+      "from_sentence_id": 2,
+      "token": "the",
+      "token_pos": 5,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.250444233417511,
+          "sentence_text": "guess it can happen to the best and in his case the worst of us"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.19138512015342712,
+          "sentence_text": "here freeman is pre judging someone before he knows all of the facts"
+        }
+      ]
+    },
+    {
+      "query_id": 20,
+      "from_sentence_id": 4,
+      "token": "accuracy",
+      "token_pos": 14,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.22307030856609344,
+          "sentence_text": "guess it can happen to the best and in his case the worst of us"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 4,
+          "attn_weight": 0.22129791975021362,
+          "sentence_text": "the point he seems to be missing now is that after a certain point accuracy can be very <UNK> and ridiculous"
+        }
+      ]
+    },
+    {
+      "query_id": 21,
+      "from_sentence_id": 4,
+      "token": "missing",
+      "token_pos": 6,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.21141834557056427,
+          "sentence_text": "guess it can happen to the best and in his case the worst of us"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 4,
+          "attn_weight": 0.20878779888153076,
+          "sentence_text": "the point he seems to be missing now is that after a certain point accuracy can be very <UNK> and ridiculous"
+        }
+      ]
+    },
+    {
+      "query_id": 22,
+      "from_sentence_id": 4,
+      "token": "the",
+      "token_pos": 0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.209712415933609,
+          "sentence_text": "the point he seems to be missing now is that after a certain point accuracy can be very <UNK> and ridiculous"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.1857920140028,
+          "sentence_text": "guess it can happen to the best and in his case the worst of us"
+        }
+      ]
+    },
+    {
+      "query_id": 23,
+      "from_sentence_id": 4,
+      "token": "he",
+      "token_pos": 2,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.19980373978614807,
+          "sentence_text": "the point he seems to be missing now is that after a certain point accuracy can be very <UNK> and ridiculous"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.19078540802001953,
+          "sentence_text": "guess it can happen to the best and in his case the worst of us"
+        }
+      ]
+    },
+    {
+      "query_id": 24,
+      "from_sentence_id": 4,
+      "token": "can",
+      "token_pos": 15,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.22507968544960022,
+          "sentence_text": "the point he seems to be missing now is that after a certain point accuracy can be very <UNK> and ridiculous"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.20546123385429382,
+          "sentence_text": "guess it can happen to the best and in his case the worst of us"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_6202"
+}

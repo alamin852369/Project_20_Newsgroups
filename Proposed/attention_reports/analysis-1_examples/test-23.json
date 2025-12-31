@@ -1,0 +1,3800 @@
+{
+  "true_label_id": 17,
+  "pred_label_id": 17,
+  "true_label_name": "talk.politics.mideast",
+  "pred_label_name": "talk.politics.mideast",
+  "pred_confidence": 0.955694854259491,
+  "num_sents": 20,
+  "sentence_summaries": [
+    {
+      "sentence_id": 0,
+      "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "bosnian",
+          "token_pos": 0,
+          "word_score_logit": -0.049628544598817825,
+          "word_attn_weight": 0.06337005645036697
+        },
+        {
+          "rank": 1,
+          "token": "od",
+          "token_pos": 4,
+          "word_score_logit": -0.07073765993118286,
+          "word_attn_weight": 0.062046393752098083
+        },
+        {
+          "rank": 2,
+          "token": "are",
+          "token_pos": 2,
+          "word_score_logit": -0.07945980876684189,
+          "word_attn_weight": 0.06150756776332855
+        },
+        {
+          "rank": 3,
+          "token": "bosnia",
+          "token_pos": 5,
+          "word_score_logit": -0.08236768841743469,
+          "word_attn_weight": 0.06132896989583969
+        },
+        {
+          "rank": 4,
+          "token": "muslims",
+          "token_pos": 1,
+          "word_score_logit": -0.0831233337521553,
+          "word_attn_weight": 0.06128264591097832
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "sentence_text": "in bosnia muslim is not merely a religious category but an ethnic one as well",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "in",
+          "token_pos": 0,
+          "word_score_logit": -0.005570295266807079,
+          "word_attn_weight": 0.06928864866495132
+        },
+        {
+          "rank": 1,
+          "token": "an",
+          "token_pos": 10,
+          "word_score_logit": -0.012293828651309013,
+          "word_attn_weight": 0.06882435083389282
+        },
+        {
+          "rank": 2,
+          "token": "as",
+          "token_pos": 13,
+          "word_score_logit": -0.026179920881986618,
+          "word_attn_weight": 0.06787525862455368
+        },
+        {
+          "rank": 3,
+          "token": "one",
+          "token_pos": 12,
+          "word_score_logit": -0.026931315660476685,
+          "word_attn_weight": 0.06782427430152893
+        },
+        {
+          "rank": 4,
+          "token": "but",
+          "token_pos": 9,
+          "word_score_logit": -0.02782071754336357,
+          "word_attn_weight": 0.06776397675275803
+        }
+      ]
+    },
+    {
+      "sentence_id": 2,
+      "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "there",
+          "token_pos": 14,
+          "word_score_logit": 0.012500311248004436,
+          "word_attn_weight": 0.03334831818938255
+        },
+        {
+          "rank": 1,
+          "token": "is",
+          "token_pos": 15,
+          "word_score_logit": 0.010750450193881989,
+          "word_attn_weight": 0.033290017396211624
+        },
+        {
+          "rank": 2,
+          "token": "only",
+          "token_pos": 16,
+          "word_score_logit": 0.006358126178383827,
+          "word_attn_weight": 0.03314411640167236
+        },
+        {
+          "rank": 3,
+          "token": "actually",
+          "token_pos": 0,
+          "word_score_logit": 0.0050275688990950584,
+          "word_attn_weight": 0.03310004249215126
+        },
+        {
+          "rank": 4,
+          "token": "the",
+          "token_pos": 3,
+          "word_score_logit": 0.003533540293574333,
+          "word_attn_weight": 0.03305063024163246
+        }
+      ]
+    },
+    {
+      "sentence_id": 3,
+      "sentence_text": "2 bosnian muslims are a separate nationality since they do not feel themselves to be <UNK> nor serbs",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "nor",
+          "token_pos": 16,
+          "word_score_logit": 0.010255251079797745,
+          "word_attn_weight": 0.057892076671123505
+        },
+        {
+          "rank": 1,
+          "token": "be",
+          "token_pos": 14,
+          "word_score_logit": -0.01091449148952961,
+          "word_attn_weight": 0.05667939409613609
+        },
+        {
+          "rank": 2,
+          "token": "not",
+          "token_pos": 10,
+          "word_score_logit": -0.01899818703532219,
+          "word_attn_weight": 0.056223064661026
+        },
+        {
+          "rank": 3,
+          "token": "2",
+          "token_pos": 0,
+          "word_score_logit": -0.0192045196890831,
+          "word_attn_weight": 0.05621146783232689
+        },
+        {
+          "rank": 4,
+          "token": "separate",
+          "token_pos": 5,
+          "word_score_logit": -0.023775305598974228,
+          "word_attn_weight": 0.05595511943101883
+        }
+      ]
+    },
+    {
+      "sentence_id": 4,
+      "sentence_text": "in 1968 argument 2 was accepted by former yugoslavia as valid and 1 was <UNK> rejected",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "was",
+          "token_pos": 13,
+          "word_score_logit": 0.00020468607544898987,
+          "word_attn_weight": 0.06385059654712677
+        },
+        {
+          "rank": 1,
+          "token": "was",
+          "token_pos": 4,
+          "word_score_logit": -0.007112534716725349,
+          "word_attn_weight": 0.06338509172201157
+        },
+        {
+          "rank": 2,
+          "token": "1",
+          "token_pos": 12,
+          "word_score_logit": -0.007132086902856827,
+          "word_attn_weight": 0.06338385492563248
+        },
+        {
+          "rank": 3,
+          "token": "in",
+          "token_pos": 0,
+          "word_score_logit": -0.011128097772598267,
+          "word_attn_weight": 0.06313107907772064
+        },
+        {
+          "rank": 4,
+          "token": "former",
+          "token_pos": 7,
+          "word_score_logit": -0.012299086898565292,
+          "word_attn_weight": 0.06305719912052155
+        }
+      ]
+    },
+    {
+      "sentence_id": 5,
+      "sentence_text": "the reasons are pragmatic even if bosnian muslims are <UNK> and serbs who converted to islam under turkish rule centuries ago none of the present generation has any clue what was their <UNK> actual nationality",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "the",
+          "token_pos": 0,
+          "word_score_logit": -0.0008204057812690735,
+          "word_attn_weight": 0.030990779399871826
+        },
+        {
+          "rank": 1,
+          "token": "reasons",
+          "token_pos": 1,
+          "word_score_logit": -0.013330314308404922,
+          "word_attn_weight": 0.030605502426624298
+        },
+        {
+          "rank": 2,
+          "token": "if",
+          "token_pos": 5,
+          "word_score_logit": -0.019387785345315933,
+          "word_attn_weight": 0.03042067214846611
+        },
+        {
+          "rank": 3,
+          "token": "are",
+          "token_pos": 2,
+          "word_score_logit": -0.027459248900413513,
+          "word_attn_weight": 0.03017611801624298
+        },
+        {
+          "rank": 4,
+          "token": "even",
+          "token_pos": 4,
+          "word_score_logit": -0.03419971838593483,
+          "word_attn_weight": 0.029973404482007027
+        }
+      ]
+    },
+    {
+      "sentence_id": 6,
+      "sentence_text": "in fact although bosnian muslims have felt drawn to <UNK> or serbian national allegiance most of them feel they have a separate cultural and historic identity",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "in",
+          "token_pos": 0,
+          "word_score_logit": 0.01667597144842148,
+          "word_attn_weight": 0.040009479969739914
+        },
+        {
+          "rank": 1,
+          "token": "although",
+          "token_pos": 2,
+          "word_score_logit": 0.016614185646176338,
+          "word_attn_weight": 0.040007010102272034
+        },
+        {
+          "rank": 2,
+          "token": "fact",
+          "token_pos": 1,
+          "word_score_logit": 0.013636350631713867,
+          "word_attn_weight": 0.03988805413246155
+        },
+        {
+          "rank": 3,
+          "token": "or",
+          "token_pos": 10,
+          "word_score_logit": -0.0003451984375715256,
+          "word_attn_weight": 0.03933423385024071
+        },
+        {
+          "rank": 4,
+          "token": "a",
+          "token_pos": 20,
+          "word_score_logit": -0.0015837214887142181,
+          "word_attn_weight": 0.03928554803133011
+        }
+      ]
+    },
+    {
+      "sentence_id": 7,
+      "sentence_text": "so arguments like yes but your ancestors were <UNK> or serbs carry very little weight",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "weight",
+          "token_pos": 14,
+          "word_score_logit": 0.014333164319396019,
+          "word_attn_weight": 0.06822900474071503
+        },
+        {
+          "rank": 1,
+          "token": "or",
+          "token_pos": 9,
+          "word_score_logit": 0.005796830169856548,
+          "word_attn_weight": 0.06764905154705048
+        },
+        {
+          "rank": 2,
+          "token": "your",
+          "token_pos": 5,
+          "word_score_logit": 0.0015723370015621185,
+          "word_attn_weight": 0.06736388057470322
+        },
+        {
+          "rank": 3,
+          "token": "ancestors",
+          "token_pos": 6,
+          "word_score_logit": -0.0032337987795472145,
+          "word_attn_weight": 0.06704089045524597
+        },
+        {
+          "rank": 4,
+          "token": "but",
+          "token_pos": 4,
+          "word_score_logit": -0.004004974849522114,
+          "word_attn_weight": 0.06698921322822571
+        }
+      ]
+    },
+    {
+      "sentence_id": 8,
+      "sentence_text": "regardless of what their ancestors might have been as long as bosnian muslims feel that they are a separate national group that ends the debate",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "the",
+          "token_pos": 23,
+          "word_score_logit": 0.006125068292021751,
+          "word_attn_weight": 0.041020989418029785
+        },
+        {
+          "rank": 1,
+          "token": "as",
+          "token_pos": 10,
+          "word_score_logit": 0.0055087860673666,
+          "word_attn_weight": 0.04099571704864502
+        },
+        {
+          "rank": 2,
+          "token": "regardless",
+          "token_pos": 0,
+          "word_score_logit": 0.005419425666332245,
+          "word_attn_weight": 0.04099205508828163
+        },
+        {
+          "rank": 3,
+          "token": "of",
+          "token_pos": 1,
+          "word_score_logit": 0.0013545025140047073,
+          "word_attn_weight": 0.04082576185464859
+        },
+        {
+          "rank": 4,
+          "token": "as",
+          "token_pos": 8,
+          "word_score_logit": 0.0008833897300064564,
+          "word_attn_weight": 0.04080653190612793
+        }
+      ]
+    },
+    {
+      "sentence_id": 9,
+      "sentence_text": "what outsiders say is simply not relevant",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "say",
+          "token_pos": 2,
+          "word_score_logit": 0.029053280130028725,
+          "word_attn_weight": 0.14458505809307098
+        },
+        {
+          "rank": 1,
+          "token": "outsiders",
+          "token_pos": 1,
+          "word_score_logit": 0.026011962443590164,
+          "word_attn_weight": 0.14414601027965546
+        },
+        {
+          "rank": 2,
+          "token": "what",
+          "token_pos": 0,
+          "word_score_logit": 0.024351544678211212,
+          "word_attn_weight": 0.1439068615436554
+        },
+        {
+          "rank": 3,
+          "token": "is",
+          "token_pos": 3,
+          "word_score_logit": 0.020469045266509056,
+          "word_attn_weight": 0.14334923028945923
+        },
+        {
+          "rank": 4,
+          "token": "not",
+          "token_pos": 5,
+          "word_score_logit": 0.01055537536740303,
+          "word_attn_weight": 0.14193512499332428
+        }
+      ]
+    },
+    {
+      "sentence_id": 10,
+      "sentence_text": "in the case of former yugoslavia the date is 1971 when muslim nationality appeared as a census category for the first time",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "the",
+          "token_pos": 1,
+          "word_score_logit": -0.005022896453738213,
+          "word_attn_weight": 0.04635104537010193
+        },
+        {
+          "rank": 1,
+          "token": "in",
+          "token_pos": 0,
+          "word_score_logit": -0.005393877625465393,
+          "word_attn_weight": 0.04633385315537453
+        },
+        {
+          "rank": 2,
+          "token": "of",
+          "token_pos": 3,
+          "word_score_logit": -0.005863339640200138,
+          "word_attn_weight": 0.0463121123611927
+        },
+        {
+          "rank": 3,
+          "token": "former",
+          "token_pos": 4,
+          "word_score_logit": -0.008441329002380371,
+          "word_attn_weight": 0.046192869544029236
+        },
+        {
+          "rank": 4,
+          "token": "when",
+          "token_pos": 10,
+          "word_score_logit": -0.009957471862435341,
+          "word_attn_weight": 0.04612288996577263
+        }
+      ]
+    },
+    {
+      "sentence_id": 11,
+      "sentence_text": "this was the result of a sequence of decisions over the past decade from recognizing <UNK> as an ethnic group 1961 to february 1968 resolution in b h declaring that muslims are a separate nation to formal endorsement of this in january 1969 and eventually to the 1971 inclusion of",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "h",
+          "token_pos": 27,
+          "word_score_logit": 0.04354051500558853,
+          "word_attn_weight": 0.02184244617819786
+        },
+        {
+          "rank": 1,
+          "token": "sequence",
+          "token_pos": 6,
+          "word_score_logit": 0.01225206907838583,
+          "word_attn_weight": 0.021169612184166908
+        },
+        {
+          "rank": 2,
+          "token": "of",
+          "token_pos": 49,
+          "word_score_logit": 0.004015584476292133,
+          "word_attn_weight": 0.020995965227484703
+        },
+        {
+          "rank": 3,
+          "token": "was",
+          "token_pos": 1,
+          "word_score_logit": -0.001786181703209877,
+          "word_attn_weight": 0.0208745039999485
+        },
+        {
+          "rank": 4,
+          "token": "b",
+          "token_pos": 26,
+          "word_score_logit": -0.003801180049777031,
+          "word_attn_weight": 0.02083248272538185
+        }
+      ]
+    },
+    {
+      "sentence_id": 12,
+      "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "census",
+          "token_pos": 4,
+          "word_score_logit": 0.009266644716262817,
+          "word_attn_weight": 0.027836818248033524
+        },
+        {
+          "rank": 1,
+          "token": "available",
+          "token_pos": 10,
+          "word_score_logit": 0.008897741325199604,
+          "word_attn_weight": 0.027826551347970963
+        },
+        {
+          "rank": 2,
+          "token": "in",
+          "token_pos": 2,
+          "word_score_logit": 0.006887571886181831,
+          "word_attn_weight": 0.027770673856139183
+        },
+        {
+          "rank": 3,
+          "token": "comparison",
+          "token_pos": 1,
+          "word_score_logit": -0.007404636591672897,
+          "word_attn_weight": 0.02737659029662609
+        },
+        {
+          "rank": 4,
+          "token": "there",
+          "token_pos": 5,
+          "word_score_logit": -0.008203204721212387,
+          "word_attn_weight": 0.027354737743735313
+        }
+      ]
+    },
+    {
+      "sentence_id": 13,
+      "sentence_text": "only a tiny minority felt able to choose <UNK> or <UNK> nationality",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "choose",
+          "token_pos": 7,
+          "word_score_logit": 0.044545456767082214,
+          "word_attn_weight": 0.08603964745998383
+        },
+        {
+          "rank": 1,
+          "token": "or",
+          "token_pos": 9,
+          "word_score_logit": 0.04068131744861603,
+          "word_attn_weight": 0.08570781350135803
+        },
+        {
+          "rank": 2,
+          "token": "<UNK>",
+          "token_pos": 10,
+          "word_score_logit": 0.028243277221918106,
+          "word_attn_weight": 0.08464837819337845
+        },
+        {
+          "rank": 3,
+          "token": "<UNK>",
+          "token_pos": 8,
+          "word_score_logit": 0.023441310971975327,
+          "word_attn_weight": 0.08424288034439087
+        },
+        {
+          "rank": 4,
+          "token": "nationality",
+          "token_pos": 11,
+          "word_score_logit": 0.021485667675733566,
+          "word_attn_weight": 0.08407828956842422
+        }
+      ]
+    },
+    {
+      "sentence_id": 14,
+      "sentence_text": "census results show that bosnian muslims have consistently <UNK> for a third category in 1948 they chose undeclared in 1953 they chose <UNK> in 1961 both <UNK> and <UNK> ethnic group and in 1971 1981 and 1991 they chose muslim nationality",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "census",
+          "token_pos": 0,
+          "word_score_logit": -0.002132439985871315,
+          "word_attn_weight": 0.02531130239367485
+        },
+        {
+          "rank": 1,
+          "token": "1961",
+          "token_pos": 24,
+          "word_score_logit": -0.0025216182693839073,
+          "word_attn_weight": 0.025301454588770866
+        },
+        {
+          "rank": 2,
+          "token": "both",
+          "token_pos": 25,
+          "word_score_logit": -0.005856397561728954,
+          "word_attn_weight": 0.025217220187187195
+        },
+        {
+          "rank": 3,
+          "token": "1953",
+          "token_pos": 19,
+          "word_score_logit": -0.007024806924164295,
+          "word_attn_weight": 0.025187773630023003
+        },
+        {
+          "rank": 4,
+          "token": "in",
+          "token_pos": 23,
+          "word_score_logit": -0.010087063536047935,
+          "word_attn_weight": 0.02511075884103775
+        }
+      ]
+    },
+    {
+      "sentence_id": 15,
+      "sentence_text": "perhaps the term bosnian muslim nationality is too confusing for the rest of the world",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "term",
+          "token_pos": 2,
+          "word_score_logit": 0.01882660761475563,
+          "word_attn_weight": 0.06998594850301743
+        },
+        {
+          "rank": 1,
+          "token": "the",
+          "token_pos": 1,
+          "word_score_logit": 0.017670080065727234,
+          "word_attn_weight": 0.06990505754947662
+        },
+        {
+          "rank": 2,
+          "token": "perhaps",
+          "token_pos": 0,
+          "word_score_logit": 0.01563240960240364,
+          "word_attn_weight": 0.06976275891065598
+        },
+        {
+          "rank": 3,
+          "token": "the",
+          "token_pos": 10,
+          "word_score_logit": -0.01695883646607399,
+          "word_attn_weight": 0.06752575933933258
+        },
+        {
+          "rank": 4,
+          "token": "of",
+          "token_pos": 12,
+          "word_score_logit": -0.025693029165267944,
+          "word_attn_weight": 0.06693854182958603
+        }
+      ]
+    },
+    {
+      "sentence_id": 16,
+      "sentence_text": "but in the present context we are talking about muslims as nationality not as a <UNK> group within some separate national identity",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "in",
+          "token_pos": 1,
+          "word_score_logit": 0.008817074820399284,
+          "word_attn_weight": 0.04660778492689133
+        },
+        {
+          "rank": 1,
+          "token": "the",
+          "token_pos": 2,
+          "word_score_logit": 0.00668760109692812,
+          "word_attn_weight": 0.04650864005088806
+        },
+        {
+          "rank": 2,
+          "token": "some",
+          "token_pos": 18,
+          "word_score_logit": 0.0037820246070623398,
+          "word_attn_weight": 0.04637370631098747
+        },
+        {
+          "rank": 3,
+          "token": "but",
+          "token_pos": 0,
+          "word_score_logit": 0.0032831248827278614,
+          "word_attn_weight": 0.046350572258234024
+        },
+        {
+          "rank": 4,
+          "token": "within",
+          "token_pos": 17,
+          "word_score_logit": 0.002781420946121216,
+          "word_attn_weight": 0.04632732272148132
+        }
+      ]
+    },
+    {
+      "sentence_id": 17,
+      "sentence_text": "the reasons are mostly historical and cultural",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "the",
+          "token_pos": 0,
+          "word_score_logit": 0.029413340613245964,
+          "word_attn_weight": 0.14880047738552094
+        },
+        {
+          "rank": 1,
+          "token": "reasons",
+          "token_pos": 1,
+          "word_score_logit": 0.019768528640270233,
+          "word_attn_weight": 0.14737221598625183
+        },
+        {
+          "rank": 2,
+          "token": "are",
+          "token_pos": 2,
+          "word_score_logit": 0.002003124915063381,
+          "word_attn_weight": 0.14477720856666565
+        },
+        {
+          "rank": 3,
+          "token": "mostly",
+          "token_pos": 3,
+          "word_score_logit": -0.014984620735049248,
+          "word_attn_weight": 0.1423385590314865
+        },
+        {
+          "rank": 4,
+          "token": "and",
+          "token_pos": 5,
+          "word_score_logit": -0.02656499296426773,
+          "word_attn_weight": 0.14069972932338715
+        }
+      ]
+    },
+    {
+      "sentence_id": 18,
+      "sentence_text": "religion plays a smaller role as a part of culture in general because the area is simply not known for religious fanaticism",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "the",
+          "token_pos": 13,
+          "word_score_logit": 0.023901429027318954,
+          "word_attn_weight": 0.046534717082977295
+        },
+        {
+          "rank": 1,
+          "token": "known",
+          "token_pos": 18,
+          "word_score_logit": 0.018389178439974785,
+          "word_attn_weight": 0.04627891257405281
+        },
+        {
+          "rank": 2,
+          "token": "general",
+          "token_pos": 11,
+          "word_score_logit": 0.017468934878706932,
+          "word_attn_weight": 0.04623633995652199
+        },
+        {
+          "rank": 3,
+          "token": "is",
+          "token_pos": 15,
+          "word_score_logit": 0.01637301780283451,
+          "word_attn_weight": 0.0461856983602047
+        },
+        {
+          "rank": 4,
+          "token": "area",
+          "token_pos": 14,
+          "word_score_logit": 0.014174031093716621,
+          "word_attn_weight": 0.04608425125479698
+        }
+      ]
+    },
+    {
+      "sentence_id": 19,
+      "sentence_text": "political fanaticism yes religious fanaticism no",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "political",
+          "token_pos": 0,
+          "word_score_logit": 0.009058341383934021,
+          "word_attn_weight": 0.17079214751720428
+        },
+        {
+          "rank": 1,
+          "token": "yes",
+          "token_pos": 2,
+          "word_score_logit": -0.005692567676305771,
+          "word_attn_weight": 0.16829130053520203
+        },
+        {
+          "rank": 2,
+          "token": "fanaticism",
+          "token_pos": 1,
+          "word_score_logit": -0.01325911469757557,
+          "word_attn_weight": 0.1670227199792862
+        },
+        {
+          "rank": 3,
+          "token": "no",
+          "token_pos": 5,
+          "word_score_logit": -0.015341663733124733,
+          "word_attn_weight": 0.16667525470256805
+        },
+        {
+          "rank": 4,
+          "token": "religious",
+          "token_pos": 3,
+          "word_score_logit": -0.030504513531923294,
+          "word_attn_weight": 0.16416704654693604
+        }
+      ]
+    }
+  ],
+  "query_summaries": [
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "bosnian",
+      "token_pos": 0,
+      "word_score_logit": -0.049628544598817825,
+      "word_attn_weight": 0.06337005645036697,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6991240978240967,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.13476809859275818,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 12,
+          "attn_weight": 0.05311684310436249,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "od",
+      "token_pos": 4,
+      "word_score_logit": -0.07073765993118286,
+      "word_attn_weight": 0.062046393752098083,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5953167080879211,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.13863292336463928,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 12,
+          "attn_weight": 0.07965464144945145,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "are",
+      "token_pos": 2,
+      "word_score_logit": -0.07945980876684189,
+      "word_attn_weight": 0.06150756776332855,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6084222197532654,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.14273643493652344,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 12,
+          "attn_weight": 0.07375576347112656,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "bosnia",
+      "token_pos": 5,
+      "word_score_logit": -0.08236768841743469,
+      "word_attn_weight": 0.06132896989583969,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.7289713621139526,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.12278207391500473,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 12,
+          "attn_weight": 0.05447027459740639,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "muslims",
+      "token_pos": 1,
+      "word_score_logit": -0.0831233337521553,
+      "word_attn_weight": 0.06128264591097832,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.7581263184547424,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.12035401910543442,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 12,
+          "attn_weight": 0.04610981419682503,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        }
+      ]
+    },
+    {
+      "query_id": 5,
+      "from_sentence_id": 1,
+      "token": "in",
+      "token_pos": 0,
+      "word_score_logit": -0.005570295266807079,
+      "word_attn_weight": 0.06928864866495132,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6439184546470642,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.11928921937942505,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 12,
+          "attn_weight": 0.10390486568212509,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        }
+      ]
+    },
+    {
+      "query_id": 6,
+      "from_sentence_id": 1,
+      "token": "an",
+      "token_pos": 10,
+      "word_score_logit": -0.012293828651309013,
+      "word_attn_weight": 0.06882435083389282,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.3634278178215027,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.18573251366615295,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.09244638681411743,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        }
+      ]
+    },
+    {
+      "query_id": 7,
+      "from_sentence_id": 1,
+      "token": "as",
+      "token_pos": 13,
+      "word_score_logit": -0.026179920881986618,
+      "word_attn_weight": 0.06787525862455368,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.2878580093383789,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.18448328971862793,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.08283261954784393,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        }
+      ]
+    },
+    {
+      "query_id": 8,
+      "from_sentence_id": 1,
+      "token": "one",
+      "token_pos": 12,
+      "word_score_logit": -0.026931315660476685,
+      "word_attn_weight": 0.06782427430152893,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.28458303213119507,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.18183305859565735,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.08392079919576645,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        }
+      ]
+    },
+    {
+      "query_id": 9,
+      "from_sentence_id": 1,
+      "token": "but",
+      "token_pos": 9,
+      "word_score_logit": -0.02782071754336357,
+      "word_attn_weight": 0.06776397675275803,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.3509036600589752,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.18531909584999084,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.09274455904960632,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        }
+      ]
+    },
+    {
+      "query_id": 10,
+      "from_sentence_id": 2,
+      "token": "there",
+      "token_pos": 14,
+      "word_score_logit": 0.012500311248004436,
+      "word_attn_weight": 0.03334831818938255,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.634301483631134,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.13050785660743713,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 12,
+          "attn_weight": 0.08796820789575577,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        }
+      ]
+    },
+    {
+      "query_id": 11,
+      "from_sentence_id": 2,
+      "token": "is",
+      "token_pos": 15,
+      "word_score_logit": 0.010750450193881989,
+      "word_attn_weight": 0.033290017396211624,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6255587339401245,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.13456037640571594,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 12,
+          "attn_weight": 0.0843871608376503,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        }
+      ]
+    },
+    {
+      "query_id": 12,
+      "from_sentence_id": 2,
+      "token": "only",
+      "token_pos": 16,
+      "word_score_logit": 0.006358126178383827,
+      "word_attn_weight": 0.03314411640167236,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.648392915725708,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.13182996213436127,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 12,
+          "attn_weight": 0.08066325634717941,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        }
+      ]
+    },
+    {
+      "query_id": 13,
+      "from_sentence_id": 2,
+      "token": "actually",
+      "token_pos": 0,
+      "word_score_logit": 0.0050275688990950584,
+      "word_attn_weight": 0.03310004249215126,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.4781859219074249,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.1341729462146759,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 12,
+          "attn_weight": 0.1132146567106247,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        }
+      ]
+    },
+    {
+      "query_id": 14,
+      "from_sentence_id": 2,
+      "token": "the",
+      "token_pos": 3,
+      "word_score_logit": 0.003533540293574333,
+      "word_attn_weight": 0.03305063024163246,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.681930422782898,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.123191699385643,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 12,
+          "attn_weight": 0.08185072988271713,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        }
+      ]
+    },
+    {
+      "query_id": 15,
+      "from_sentence_id": 3,
+      "token": "nor",
+      "token_pos": 16,
+      "word_score_logit": 0.010255251079797745,
+      "word_attn_weight": 0.057892076671123505,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.3269928991794586,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.16519445180892944,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.10013856738805771,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        }
+      ]
+    },
+    {
+      "query_id": 16,
+      "from_sentence_id": 3,
+      "token": "be",
+      "token_pos": 14,
+      "word_score_logit": -0.01091449148952961,
+      "word_attn_weight": 0.05667939409613609,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.2687136232852936,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.14097243547439575,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.1007455587387085,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        }
+      ]
+    },
+    {
+      "query_id": 17,
+      "from_sentence_id": 3,
+      "token": "not",
+      "token_pos": 10,
+      "word_score_logit": -0.01899818703532219,
+      "word_attn_weight": 0.056223064661026,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.3587017059326172,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.1519809365272522,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.10594211518764496,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        }
+      ]
+    },
+    {
+      "query_id": 18,
+      "from_sentence_id": 3,
+      "token": "2",
+      "token_pos": 0,
+      "word_score_logit": -0.0192045196890831,
+      "word_attn_weight": 0.05621146783232689,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.3908902108669281,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.14249753952026367,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 12,
+          "attn_weight": 0.09036088734865189,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        }
+      ]
+    },
+    {
+      "query_id": 19,
+      "from_sentence_id": 3,
+      "token": "separate",
+      "token_pos": 5,
+      "word_score_logit": -0.023775305598974228,
+      "word_attn_weight": 0.05595511943101883,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.43367287516593933,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.13559329509735107,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.11751558631658554,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        }
+      ]
+    },
+    {
+      "query_id": 20,
+      "from_sentence_id": 4,
+      "token": "was",
+      "token_pos": 13,
+      "word_score_logit": 0.00020468607544898987,
+      "word_attn_weight": 0.06385059654712677,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.1868908852338791,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.1214953064918518,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.08811396360397339,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        }
+      ]
+    },
+    {
+      "query_id": 21,
+      "from_sentence_id": 4,
+      "token": "was",
+      "token_pos": 4,
+      "word_score_logit": -0.007112534716725349,
+      "word_attn_weight": 0.06338509172201157,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.2820255160331726,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.11606936901807785,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.11360561847686768,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        }
+      ]
+    },
+    {
+      "query_id": 22,
+      "from_sentence_id": 4,
+      "token": "1",
+      "token_pos": 12,
+      "word_score_logit": -0.007132086902856827,
+      "word_attn_weight": 0.06338385492563248,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.16540315747261047,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.10741613805294037,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.08682239800691605,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        }
+      ]
+    },
+    {
+      "query_id": 23,
+      "from_sentence_id": 4,
+      "token": "in",
+      "token_pos": 0,
+      "word_score_logit": -0.011128097772598267,
+      "word_attn_weight": 0.06313107907772064,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.33023807406425476,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.15122033655643463,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.10659961402416229,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        }
+      ]
+    },
+    {
+      "query_id": 24,
+      "from_sentence_id": 4,
+      "token": "former",
+      "token_pos": 7,
+      "word_score_logit": -0.012299086898565292,
+      "word_attn_weight": 0.06305719912052155,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.2963648736476898,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.14241793751716614,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.1033329889178276,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        }
+      ]
+    },
+    {
+      "query_id": 25,
+      "from_sentence_id": 5,
+      "token": "the",
+      "token_pos": 0,
+      "word_score_logit": -0.0008204057812690735,
+      "word_attn_weight": 0.030990779399871826,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6448358297348022,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.1288805902004242,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 12,
+          "attn_weight": 0.08532783389091492,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        }
+      ]
+    },
+    {
+      "query_id": 26,
+      "from_sentence_id": 5,
+      "token": "reasons",
+      "token_pos": 1,
+      "word_score_logit": -0.013330314308404922,
+      "word_attn_weight": 0.030605502426624298,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6140233874320984,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.13674159348011017,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 12,
+          "attn_weight": 0.08585867285728455,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        }
+      ]
+    },
+    {
+      "query_id": 27,
+      "from_sentence_id": 5,
+      "token": "if",
+      "token_pos": 5,
+      "word_score_logit": -0.019387785345315933,
+      "word_attn_weight": 0.03042067214846611,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6253098249435425,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.14014995098114014,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 12,
+          "attn_weight": 0.07880444824695587,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        }
+      ]
+    },
+    {
+      "query_id": 28,
+      "from_sentence_id": 5,
+      "token": "are",
+      "token_pos": 2,
+      "word_score_logit": -0.027459248900413513,
+      "word_attn_weight": 0.03017611801624298,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5899472832679749,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.13976001739501953,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 12,
+          "attn_weight": 0.08703721314668655,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        }
+      ]
+    },
+    {
+      "query_id": 29,
+      "from_sentence_id": 5,
+      "token": "even",
+      "token_pos": 4,
+      "word_score_logit": -0.03419971838593483,
+      "word_attn_weight": 0.029973404482007027,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.633161187171936,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.13809098303318024,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 12,
+          "attn_weight": 0.07950230687856674,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        }
+      ]
+    },
+    {
+      "query_id": 30,
+      "from_sentence_id": 6,
+      "token": "in",
+      "token_pos": 0,
+      "word_score_logit": 0.01667597144842148,
+      "word_attn_weight": 0.040009479969739914,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6235641837120056,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.12400132417678833,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 12,
+          "attn_weight": 0.10409456491470337,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        }
+      ]
+    },
+    {
+      "query_id": 31,
+      "from_sentence_id": 6,
+      "token": "although",
+      "token_pos": 2,
+      "word_score_logit": 0.016614185646176338,
+      "word_attn_weight": 0.040007010102272034,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6474493145942688,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.11764580011367798,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 12,
+          "attn_weight": 0.10494181513786316,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        }
+      ]
+    },
+    {
+      "query_id": 32,
+      "from_sentence_id": 6,
+      "token": "fact",
+      "token_pos": 1,
+      "word_score_logit": 0.013636350631713867,
+      "word_attn_weight": 0.03988805413246155,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6421745419502258,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.12370484322309494,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 12,
+          "attn_weight": 0.09841751307249069,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        }
+      ]
+    },
+    {
+      "query_id": 33,
+      "from_sentence_id": 6,
+      "token": "or",
+      "token_pos": 10,
+      "word_score_logit": -0.0003451984375715256,
+      "word_attn_weight": 0.03933423385024071,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5993744134902954,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.11765855550765991,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 12,
+          "attn_weight": 0.11681614816188812,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        }
+      ]
+    },
+    {
+      "query_id": 34,
+      "from_sentence_id": 6,
+      "token": "a",
+      "token_pos": 20,
+      "word_score_logit": -0.0015837214887142181,
+      "word_attn_weight": 0.03928554803133011,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.3835422694683075,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.13812410831451416,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.11779110878705978,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        }
+      ]
+    },
+    {
+      "query_id": 35,
+      "from_sentence_id": 7,
+      "token": "weight",
+      "token_pos": 14,
+      "word_score_logit": 0.014333164319396019,
+      "word_attn_weight": 0.06822900474071503,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.13124948740005493,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.12501300871372223,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 5,
+          "attn_weight": 0.08216351270675659,
+          "sentence_text": "the reasons are pragmatic even if bosnian muslims are <UNK> and serbs who converted to islam under turkish rule centuries ago none of the present generation has any clue what was their <UNK> actual nationality"
+        }
+      ]
+    },
+    {
+      "query_id": 36,
+      "from_sentence_id": 7,
+      "token": "or",
+      "token_pos": 9,
+      "word_score_logit": 0.005796830169856548,
+      "word_attn_weight": 0.06764905154705048,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.22082290053367615,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.1873915195465088,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 5,
+          "attn_weight": 0.08716842532157898,
+          "sentence_text": "the reasons are pragmatic even if bosnian muslims are <UNK> and serbs who converted to islam under turkish rule centuries ago none of the present generation has any clue what was their <UNK> actual nationality"
+        }
+      ]
+    },
+    {
+      "query_id": 37,
+      "from_sentence_id": 7,
+      "token": "your",
+      "token_pos": 5,
+      "word_score_logit": 0.0015723370015621185,
+      "word_attn_weight": 0.06736388057470322,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.23495608568191528,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.18736301362514496,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 5,
+          "attn_weight": 0.08278469741344452,
+          "sentence_text": "the reasons are pragmatic even if bosnian muslims are <UNK> and serbs who converted to islam under turkish rule centuries ago none of the present generation has any clue what was their <UNK> actual nationality"
+        }
+      ]
+    },
+    {
+      "query_id": 38,
+      "from_sentence_id": 7,
+      "token": "ancestors",
+      "token_pos": 6,
+      "word_score_logit": -0.0032337987795472145,
+      "word_attn_weight": 0.06704089045524597,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.33669131994247437,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.2256278395652771,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 5,
+          "attn_weight": 0.0772334560751915,
+          "sentence_text": "the reasons are pragmatic even if bosnian muslims are <UNK> and serbs who converted to islam under turkish rule centuries ago none of the present generation has any clue what was their <UNK> actual nationality"
+        }
+      ]
+    },
+    {
+      "query_id": 39,
+      "from_sentence_id": 7,
+      "token": "but",
+      "token_pos": 4,
+      "word_score_logit": -0.004004974849522114,
+      "word_attn_weight": 0.06698921322822571,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.22723349928855896,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.1764320433139801,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 5,
+          "attn_weight": 0.08297325670719147,
+          "sentence_text": "the reasons are pragmatic even if bosnian muslims are <UNK> and serbs who converted to islam under turkish rule centuries ago none of the present generation has any clue what was their <UNK> actual nationality"
+        }
+      ]
+    },
+    {
+      "query_id": 40,
+      "from_sentence_id": 8,
+      "token": "the",
+      "token_pos": 23,
+      "word_score_logit": 0.006125068292021751,
+      "word_attn_weight": 0.041020989418029785,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.3990497589111328,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.22170554101467133,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.08107529580593109,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        }
+      ]
+    },
+    {
+      "query_id": 41,
+      "from_sentence_id": 8,
+      "token": "as",
+      "token_pos": 10,
+      "word_score_logit": 0.0055087860673666,
+      "word_attn_weight": 0.04099571704864502,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6560095548629761,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.12467709928750992,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.10126399248838425,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        }
+      ]
+    },
+    {
+      "query_id": 42,
+      "from_sentence_id": 8,
+      "token": "regardless",
+      "token_pos": 0,
+      "word_score_logit": 0.005419425666332245,
+      "word_attn_weight": 0.04099205508828163,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5007457137107849,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.1401834487915039,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.11524131894111633,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        }
+      ]
+    },
+    {
+      "query_id": 43,
+      "from_sentence_id": 8,
+      "token": "of",
+      "token_pos": 1,
+      "word_score_logit": 0.0013545025140047073,
+      "word_attn_weight": 0.04082576185464859,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5793994665145874,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.13680654764175415,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.1082269474864006,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        }
+      ]
+    },
+    {
+      "query_id": 44,
+      "from_sentence_id": 8,
+      "token": "as",
+      "token_pos": 8,
+      "word_score_logit": 0.0008833897300064564,
+      "word_attn_weight": 0.04080653190612793,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6266193985939026,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.12177437543869019,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.11044181883335114,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        }
+      ]
+    },
+    {
+      "query_id": 45,
+      "from_sentence_id": 9,
+      "token": "say",
+      "token_pos": 2,
+      "word_score_logit": 0.029053280130028725,
+      "word_attn_weight": 0.14458505809307098,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.2555069923400879,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.18880286812782288,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 5,
+          "attn_weight": 0.08340263366699219,
+          "sentence_text": "the reasons are pragmatic even if bosnian muslims are <UNK> and serbs who converted to islam under turkish rule centuries ago none of the present generation has any clue what was their <UNK> actual nationality"
+        }
+      ]
+    },
+    {
+      "query_id": 46,
+      "from_sentence_id": 9,
+      "token": "outsiders",
+      "token_pos": 1,
+      "word_score_logit": 0.026011962443590164,
+      "word_attn_weight": 0.14414601027965546,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.3398415446281433,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.21694430708885193,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.08190052211284637,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        }
+      ]
+    },
+    {
+      "query_id": 47,
+      "from_sentence_id": 9,
+      "token": "what",
+      "token_pos": 0,
+      "word_score_logit": 0.024351544678211212,
+      "word_attn_weight": 0.1439068615436554,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.28949958086013794,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.19812750816345215,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.08295705914497375,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        }
+      ]
+    },
+    {
+      "query_id": 48,
+      "from_sentence_id": 9,
+      "token": "is",
+      "token_pos": 3,
+      "word_score_logit": 0.020469045266509056,
+      "word_attn_weight": 0.14334923028945923,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.1757086217403412,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.1453271508216858,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 5,
+          "attn_weight": 0.0829973965883255,
+          "sentence_text": "the reasons are pragmatic even if bosnian muslims are <UNK> and serbs who converted to islam under turkish rule centuries ago none of the present generation has any clue what was their <UNK> actual nationality"
+        }
+      ]
+    },
+    {
+      "query_id": 49,
+      "from_sentence_id": 9,
+      "token": "not",
+      "token_pos": 5,
+      "word_score_logit": 0.01055537536740303,
+      "word_attn_weight": 0.14193512499332428,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.1637134701013565,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.14757174253463745,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 5,
+          "attn_weight": 0.08569936454296112,
+          "sentence_text": "the reasons are pragmatic even if bosnian muslims are <UNK> and serbs who converted to islam under turkish rule centuries ago none of the present generation has any clue what was their <UNK> actual nationality"
+        }
+      ]
+    },
+    {
+      "query_id": 50,
+      "from_sentence_id": 10,
+      "token": "the",
+      "token_pos": 1,
+      "word_score_logit": -0.005022896453738213,
+      "word_attn_weight": 0.04635104537010193,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.4300490617752075,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.15822023153305054,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.10623683780431747,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        }
+      ]
+    },
+    {
+      "query_id": 51,
+      "from_sentence_id": 10,
+      "token": "in",
+      "token_pos": 0,
+      "word_score_logit": -0.005393877625465393,
+      "word_attn_weight": 0.04633385315537453,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.39787188172340393,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.14931276440620422,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.11143414676189423,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        }
+      ]
+    },
+    {
+      "query_id": 52,
+      "from_sentence_id": 10,
+      "token": "of",
+      "token_pos": 3,
+      "word_score_logit": -0.005863339640200138,
+      "word_attn_weight": 0.0463121123611927,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5014612674713135,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.16059228777885437,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.10225728154182434,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        }
+      ]
+    },
+    {
+      "query_id": 53,
+      "from_sentence_id": 10,
+      "token": "former",
+      "token_pos": 4,
+      "word_score_logit": -0.008441329002380371,
+      "word_attn_weight": 0.046192869544029236,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.4224410653114319,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.15996454656124115,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.10377710312604904,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        }
+      ]
+    },
+    {
+      "query_id": 54,
+      "from_sentence_id": 10,
+      "token": "when",
+      "token_pos": 10,
+      "word_score_logit": -0.009957471862435341,
+      "word_attn_weight": 0.04612288996577263,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5033928751945496,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.16239473223686218,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.10262935608625412,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        }
+      ]
+    },
+    {
+      "query_id": 55,
+      "from_sentence_id": 11,
+      "token": "h",
+      "token_pos": 27,
+      "word_score_logit": 0.04354051500558853,
+      "word_attn_weight": 0.02184244617819786,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6032456159591675,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.16844964027404785,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.085512675344944,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        }
+      ]
+    },
+    {
+      "query_id": 56,
+      "from_sentence_id": 11,
+      "token": "sequence",
+      "token_pos": 6,
+      "word_score_logit": 0.01225206907838583,
+      "word_attn_weight": 0.021169612184166908,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6413285732269287,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.11224022507667542,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.11087838560342789,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        }
+      ]
+    },
+    {
+      "query_id": 57,
+      "from_sentence_id": 11,
+      "token": "of",
+      "token_pos": 49,
+      "word_score_logit": 0.004015584476292133,
+      "word_attn_weight": 0.020995965227484703,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.2536744475364685,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.18596433103084564,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 5,
+          "attn_weight": 0.08204738050699234,
+          "sentence_text": "the reasons are pragmatic even if bosnian muslims are <UNK> and serbs who converted to islam under turkish rule centuries ago none of the present generation has any clue what was their <UNK> actual nationality"
+        }
+      ]
+    },
+    {
+      "query_id": 58,
+      "from_sentence_id": 11,
+      "token": "was",
+      "token_pos": 1,
+      "word_score_logit": -0.001786181703209877,
+      "word_attn_weight": 0.0208745039999485,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.49023398756980896,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.1364610195159912,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 12,
+          "attn_weight": 0.09750139713287354,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        }
+      ]
+    },
+    {
+      "query_id": 59,
+      "from_sentence_id": 11,
+      "token": "b",
+      "token_pos": 26,
+      "word_score_logit": -0.003801180049777031,
+      "word_attn_weight": 0.02083248272538185,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5765876173973083,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.14368915557861328,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.10524383932352066,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        }
+      ]
+    },
+    {
+      "query_id": 60,
+      "from_sentence_id": 12,
+      "token": "census",
+      "token_pos": 4,
+      "word_score_logit": 0.009266644716262817,
+      "word_attn_weight": 0.027836818248033524,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.7059569358825684,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.10836485773324966,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 12,
+          "attn_weight": 0.08588000386953354,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        }
+      ]
+    },
+    {
+      "query_id": 61,
+      "from_sentence_id": 12,
+      "token": "available",
+      "token_pos": 10,
+      "word_score_logit": 0.008897741325199604,
+      "word_attn_weight": 0.027826551347970963,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.550948977470398,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.14002037048339844,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 12,
+          "attn_weight": 0.08188086748123169,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        }
+      ]
+    },
+    {
+      "query_id": 62,
+      "from_sentence_id": 12,
+      "token": "in",
+      "token_pos": 2,
+      "word_score_logit": 0.006887571886181831,
+      "word_attn_weight": 0.027770673856139183,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6345816254615784,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.12170858681201935,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 12,
+          "attn_weight": 0.09232306480407715,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        }
+      ]
+    },
+    {
+      "query_id": 63,
+      "from_sentence_id": 12,
+      "token": "comparison",
+      "token_pos": 1,
+      "word_score_logit": -0.007404636591672897,
+      "word_attn_weight": 0.02737659029662609,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5604421496391296,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.12465476989746094,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 12,
+          "attn_weight": 0.10469359159469604,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        }
+      ]
+    },
+    {
+      "query_id": 64,
+      "from_sentence_id": 12,
+      "token": "there",
+      "token_pos": 5,
+      "word_score_logit": -0.008203204721212387,
+      "word_attn_weight": 0.027354737743735313,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5935027599334717,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.1333884596824646,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 12,
+          "attn_weight": 0.084471195936203,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        }
+      ]
+    },
+    {
+      "query_id": 65,
+      "from_sentence_id": 13,
+      "token": "choose",
+      "token_pos": 7,
+      "word_score_logit": 0.044545456767082214,
+      "word_attn_weight": 0.08603964745998383,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.2782214879989624,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.1659165918827057,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.09329027682542801,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        }
+      ]
+    },
+    {
+      "query_id": 66,
+      "from_sentence_id": 13,
+      "token": "or",
+      "token_pos": 9,
+      "word_score_logit": 0.04068131744861603,
+      "word_attn_weight": 0.08570781350135803,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.23904940485954285,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.17681972682476044,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 5,
+          "attn_weight": 0.08204349875450134,
+          "sentence_text": "the reasons are pragmatic even if bosnian muslims are <UNK> and serbs who converted to islam under turkish rule centuries ago none of the present generation has any clue what was their <UNK> actual nationality"
+        }
+      ]
+    },
+    {
+      "query_id": 67,
+      "from_sentence_id": 13,
+      "token": "<UNK>",
+      "token_pos": 10,
+      "word_score_logit": 0.028243277221918106,
+      "word_attn_weight": 0.08464837819337845,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.2455192506313324,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.17208325862884521,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.08320998400449753,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        }
+      ]
+    },
+    {
+      "query_id": 68,
+      "from_sentence_id": 13,
+      "token": "<UNK>",
+      "token_pos": 8,
+      "word_score_logit": 0.023441310971975327,
+      "word_attn_weight": 0.08424288034439087,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.21998360753059387,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.16382206976413727,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 5,
+          "attn_weight": 0.08109775185585022,
+          "sentence_text": "the reasons are pragmatic even if bosnian muslims are <UNK> and serbs who converted to islam under turkish rule centuries ago none of the present generation has any clue what was their <UNK> actual nationality"
+        }
+      ]
+    },
+    {
+      "query_id": 69,
+      "from_sentence_id": 13,
+      "token": "nationality",
+      "token_pos": 11,
+      "word_score_logit": 0.021485667675733566,
+      "word_attn_weight": 0.08407828956842422,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.3741958439350128,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.18308722972869873,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.09451954066753387,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        }
+      ]
+    },
+    {
+      "query_id": 70,
+      "from_sentence_id": 14,
+      "token": "census",
+      "token_pos": 0,
+      "word_score_logit": -0.002132439985871315,
+      "word_attn_weight": 0.02531130239367485,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6786712408065796,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.12769407033920288,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.09223461151123047,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        }
+      ]
+    },
+    {
+      "query_id": 71,
+      "from_sentence_id": 14,
+      "token": "1961",
+      "token_pos": 24,
+      "word_score_logit": -0.0025216182693839073,
+      "word_attn_weight": 0.025301454588770866,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.2751237452030182,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.1102433055639267,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.09869775176048279,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        }
+      ]
+    },
+    {
+      "query_id": 72,
+      "from_sentence_id": 14,
+      "token": "both",
+      "token_pos": 25,
+      "word_score_logit": -0.005856397561728954,
+      "word_attn_weight": 0.025217220187187195,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.30062413215637207,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.11406824737787247,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 12,
+          "attn_weight": 0.10105736553668976,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        }
+      ]
+    },
+    {
+      "query_id": 73,
+      "from_sentence_id": 14,
+      "token": "1953",
+      "token_pos": 19,
+      "word_score_logit": -0.007024806924164295,
+      "word_attn_weight": 0.025187773630023003,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.2980729937553406,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.1296050250530243,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.09849631041288376,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        }
+      ]
+    },
+    {
+      "query_id": 74,
+      "from_sentence_id": 14,
+      "token": "in",
+      "token_pos": 23,
+      "word_score_logit": -0.010087063536047935,
+      "word_attn_weight": 0.02511075884103775,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.36603376269340515,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.14560896158218384,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.1032218486070633,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        }
+      ]
+    },
+    {
+      "query_id": 75,
+      "from_sentence_id": 15,
+      "token": "term",
+      "token_pos": 2,
+      "word_score_logit": 0.01882660761475563,
+      "word_attn_weight": 0.06998594850301743,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6265072822570801,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.11565953493118286,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.1153872087597847,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        }
+      ]
+    },
+    {
+      "query_id": 76,
+      "from_sentence_id": 15,
+      "token": "the",
+      "token_pos": 1,
+      "word_score_logit": 0.017670080065727234,
+      "word_attn_weight": 0.06990505754947662,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6593202352523804,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.11212599277496338,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.10853413492441177,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        }
+      ]
+    },
+    {
+      "query_id": 77,
+      "from_sentence_id": 15,
+      "token": "perhaps",
+      "token_pos": 0,
+      "word_score_logit": 0.01563240960240364,
+      "word_attn_weight": 0.06976275891065598,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6020817756652832,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.12303581088781357,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 12,
+          "attn_weight": 0.11072815954685211,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        }
+      ]
+    },
+    {
+      "query_id": 78,
+      "from_sentence_id": 15,
+      "token": "the",
+      "token_pos": 10,
+      "word_score_logit": -0.01695883646607399,
+      "word_attn_weight": 0.06752575933933258,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.30901312828063965,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.19477057456970215,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.08120417594909668,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        }
+      ]
+    },
+    {
+      "query_id": 79,
+      "from_sentence_id": 15,
+      "token": "of",
+      "token_pos": 12,
+      "word_score_logit": -0.025693029165267944,
+      "word_attn_weight": 0.06693854182958603,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.3321433663368225,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.20407521724700928,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.08148037642240524,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        }
+      ]
+    },
+    {
+      "query_id": 80,
+      "from_sentence_id": 16,
+      "token": "in",
+      "token_pos": 1,
+      "word_score_logit": 0.008817074820399284,
+      "word_attn_weight": 0.04660778492689133,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6362175941467285,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.1265256404876709,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 12,
+          "attn_weight": 0.09413465857505798,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        }
+      ]
+    },
+    {
+      "query_id": 81,
+      "from_sentence_id": 16,
+      "token": "the",
+      "token_pos": 2,
+      "word_score_logit": 0.00668760109692812,
+      "word_attn_weight": 0.04650864005088806,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.678386926651001,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.1161472424864769,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 12,
+          "attn_weight": 0.09212753176689148,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        }
+      ]
+    },
+    {
+      "query_id": 82,
+      "from_sentence_id": 16,
+      "token": "some",
+      "token_pos": 18,
+      "word_score_logit": 0.0037820246070623398,
+      "word_attn_weight": 0.04637370631098747,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.4664912819862366,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.1810285449028015,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.09756776690483093,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        }
+      ]
+    },
+    {
+      "query_id": 83,
+      "from_sentence_id": 16,
+      "token": "but",
+      "token_pos": 0,
+      "word_score_logit": 0.0032831248827278614,
+      "word_attn_weight": 0.046350572258234024,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5523062944412231,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.13764704763889313,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 12,
+          "attn_weight": 0.09771832078695297,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        }
+      ]
+    },
+    {
+      "query_id": 84,
+      "from_sentence_id": 16,
+      "token": "within",
+      "token_pos": 17,
+      "word_score_logit": 0.002781420946121216,
+      "word_attn_weight": 0.04632732272148132,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5033977031707764,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.17976927757263184,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.09644517302513123,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        }
+      ]
+    },
+    {
+      "query_id": 85,
+      "from_sentence_id": 17,
+      "token": "the",
+      "token_pos": 0,
+      "word_score_logit": 0.029413340613245964,
+      "word_attn_weight": 0.14880047738552094,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.27663952112197876,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.20033575594425201,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 5,
+          "attn_weight": 0.08137723058462143,
+          "sentence_text": "the reasons are pragmatic even if bosnian muslims are <UNK> and serbs who converted to islam under turkish rule centuries ago none of the present generation has any clue what was their <UNK> actual nationality"
+        }
+      ]
+    },
+    {
+      "query_id": 86,
+      "from_sentence_id": 17,
+      "token": "reasons",
+      "token_pos": 1,
+      "word_score_logit": 0.019768528640270233,
+      "word_attn_weight": 0.14737221598625183,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.29575982689857483,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.19224831461906433,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.08579515665769577,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        }
+      ]
+    },
+    {
+      "query_id": 87,
+      "from_sentence_id": 17,
+      "token": "are",
+      "token_pos": 2,
+      "word_score_logit": 0.002003124915063381,
+      "word_attn_weight": 0.14477720856666565,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.26741474866867065,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.1714077591896057,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.0890977680683136,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        }
+      ]
+    },
+    {
+      "query_id": 88,
+      "from_sentence_id": 17,
+      "token": "mostly",
+      "token_pos": 3,
+      "word_score_logit": -0.014984620735049248,
+      "word_attn_weight": 0.1423385590314865,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.2983047664165497,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.15743163228034973,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.09895838797092438,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        }
+      ]
+    },
+    {
+      "query_id": 89,
+      "from_sentence_id": 17,
+      "token": "and",
+      "token_pos": 5,
+      "word_score_logit": -0.02656499296426773,
+      "word_attn_weight": 0.14069972932338715,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.2478741854429245,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.15242968499660492,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.09179261326789856,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        }
+      ]
+    },
+    {
+      "query_id": 90,
+      "from_sentence_id": 18,
+      "token": "the",
+      "token_pos": 13,
+      "word_score_logit": 0.023901429027318954,
+      "word_attn_weight": 0.046534717082977295,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6068755984306335,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.12959393858909607,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.10760360956192017,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        }
+      ]
+    },
+    {
+      "query_id": 91,
+      "from_sentence_id": 18,
+      "token": "known",
+      "token_pos": 18,
+      "word_score_logit": 0.018389178439974785,
+      "word_attn_weight": 0.04627891257405281,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6135609149932861,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.1300838738679886,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.1079973429441452,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        }
+      ]
+    },
+    {
+      "query_id": 92,
+      "from_sentence_id": 18,
+      "token": "general",
+      "token_pos": 11,
+      "word_score_logit": 0.017468934878706932,
+      "word_attn_weight": 0.04623633995652199,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6131014227867126,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.13306820392608643,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.10307661443948746,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        }
+      ]
+    },
+    {
+      "query_id": 93,
+      "from_sentence_id": 18,
+      "token": "is",
+      "token_pos": 15,
+      "word_score_logit": 0.01637301780283451,
+      "word_attn_weight": 0.0461856983602047,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5584951639175415,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.1258489042520523,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.1197943240404129,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        }
+      ]
+    },
+    {
+      "query_id": 94,
+      "from_sentence_id": 18,
+      "token": "area",
+      "token_pos": 14,
+      "word_score_logit": 0.014174031093716621,
+      "word_attn_weight": 0.04608425125479698,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6023035645484924,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.1340775489807129,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.10513897240161896,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        }
+      ]
+    },
+    {
+      "query_id": 95,
+      "from_sentence_id": 19,
+      "token": "political",
+      "token_pos": 0,
+      "word_score_logit": 0.009058341383934021,
+      "word_attn_weight": 0.17079214751720428,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6703510284423828,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.11831074953079224,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 12,
+          "attn_weight": 0.09780097007751465,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        }
+      ]
+    },
+    {
+      "query_id": 96,
+      "from_sentence_id": 19,
+      "token": "yes",
+      "token_pos": 2,
+      "word_score_logit": -0.005692567676305771,
+      "word_attn_weight": 0.16829130053520203,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5159178972244263,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.12949202954769135,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.12218963354825974,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        }
+      ]
+    },
+    {
+      "query_id": 97,
+      "from_sentence_id": 19,
+      "token": "fanaticism",
+      "token_pos": 1,
+      "word_score_logit": -0.01325911469757557,
+      "word_attn_weight": 0.1670227199792862,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6308184862136841,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.13261908292770386,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 12,
+          "attn_weight": 0.08799812197685242,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        }
+      ]
+    },
+    {
+      "query_id": 98,
+      "from_sentence_id": 19,
+      "token": "no",
+      "token_pos": 5,
+      "word_score_logit": -0.015341663733124733,
+      "word_attn_weight": 0.16667525470256805,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.25190746784210205,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.13955292105674744,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.09862291812896729,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        }
+      ]
+    },
+    {
+      "query_id": 99,
+      "from_sentence_id": 19,
+      "token": "religious",
+      "token_pos": 3,
+      "word_score_logit": -0.030504513531923294,
+      "word_attn_weight": 0.16416704654693604,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6773431897163391,
+          "sentence_text": "bosnian muslims are citizens od bosnia herzegovina who identify themselves with bosnian muslim cultural and religious tradition"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.11801080405712128,
+          "sentence_text": "actually here are the two contradictory arguments made by people on this subject 1 there is only serbian and <UNK> nationality and bosnian muslims are simply <UNK> and serbs of islamic faith"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 12,
+          "attn_weight": 0.09161046892404556,
+          "sentence_text": "for comparison in 1948 census there were three national categories available to muslims in bosnia herzegovina <UNK> muslims 71 991 <UNK> muslims 25 295 muslims <UNK> undeclared <UNK> 403 this clearly demonstrates that muslims feel themselves to be their own nationality"
+        }
+      ]
+    }
+  ],
+  "sentence_importance_from_cross_attn": {
+    "definition": "mean cross-attn over queries",
+    "values": [
+      {
+        "sentence_id": 0,
+        "importance": 0.46203094720840454
+      },
+      {
+        "sentence_id": 1,
+        "importance": 0.017346952110528946
+      },
+      {
+        "sentence_id": 2,
+        "importance": 0.10684572905302048
+      },
+      {
+        "sentence_id": 3,
+        "importance": 0.013262978754937649
+      },
+      {
+        "sentence_id": 4,
+        "importance": 0.00852266140282154
+      },
+      {
+        "sentence_id": 5,
+        "importance": 0.04508037492632866
+      },
+      {
+        "sentence_id": 6,
+        "importance": 0.024944355711340904
+      },
+      {
+        "sentence_id": 7,
+        "importance": 0.004268780816346407
+      },
+      {
+        "sentence_id": 8,
+        "importance": 0.01712852716445923
+      },
+      {
+        "sentence_id": 9,
+        "importance": 0.005405995063483715
+      },
+      {
+        "sentence_id": 10,
+        "importance": 0.011217658407986164
+      },
+      {
+        "sentence_id": 11,
+        "importance": 0.01988789439201355
+      },
+      {
+        "sentence_id": 12,
+        "importance": 0.13320490717887878
+      },
+      {
+        "sentence_id": 13,
+        "importance": 0.006296284031122923
+      },
+      {
+        "sentence_id": 14,
+        "importance": 0.020951440557837486
+      },
+      {
+        "sentence_id": 15,
+        "importance": 0.01390057522803545
+      },
+      {
+        "sentence_id": 16,
+        "importance": 0.026177257299423218
+      },
+      {
+        "sentence_id": 17,
+        "importance": 0.007533235475420952
+      },
+      {
+        "sentence_id": 18,
+        "importance": 0.02776479721069336
+      },
+      {
+        "sentence_id": 19,
+        "importance": 0.02822866104543209
+      }
+    ],
+    "ranked": [
+      {
+        "sentence_id": 0,
+        "importance": 0.46203094720840454
+      },
+      {
+        "sentence_id": 12,
+        "importance": 0.13320490717887878
+      },
+      {
+        "sentence_id": 2,
+        "importance": 0.10684572905302048
+      },
+      {
+        "sentence_id": 5,
+        "importance": 0.04508037492632866
+      },
+      {
+        "sentence_id": 19,
+        "importance": 0.02822866104543209
+      },
+      {
+        "sentence_id": 18,
+        "importance": 0.02776479721069336
+      },
+      {
+        "sentence_id": 16,
+        "importance": 0.026177257299423218
+      },
+      {
+        "sentence_id": 6,
+        "importance": 0.024944355711340904
+      },
+      {
+        "sentence_id": 14,
+        "importance": 0.020951440557837486
+      },
+      {
+        "sentence_id": 11,
+        "importance": 0.01988789439201355
+      },
+      {
+        "sentence_id": 1,
+        "importance": 0.017346952110528946
+      },
+      {
+        "sentence_id": 8,
+        "importance": 0.01712852716445923
+      },
+      {
+        "sentence_id": 15,
+        "importance": 0.01390057522803545
+      },
+      {
+        "sentence_id": 3,
+        "importance": 0.013262978754937649
+      },
+      {
+        "sentence_id": 10,
+        "importance": 0.011217658407986164
+      },
+      {
+        "sentence_id": 4,
+        "importance": 0.00852266140282154
+      },
+      {
+        "sentence_id": 17,
+        "importance": 0.007533235475420952
+      },
+      {
+        "sentence_id": 13,
+        "importance": 0.006296284031122923
+      },
+      {
+        "sentence_id": 9,
+        "importance": 0.005405995063483715
+      },
+      {
+        "sentence_id": 7,
+        "importance": 0.004268780816346407
+      }
+    ]
+  },
+  "example_id": "test-23"
+}

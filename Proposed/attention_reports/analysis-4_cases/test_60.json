@@ -1,0 +1,434 @@
+{
+  "example_id": "test_60",
+  "true_label_id": 8,
+  "pred_label_id": 13,
+  "true_label_name": "rec.motorcycles",
+  "pred_label_name": "sci.med",
+  "pred_confidence": 0.5699158906936646,
+  "metrics": {
+    "num_sents": 10,
+    "K": 5,
+    "stop_ratio": 0.36,
+    "unk_ratio": 0.02,
+    "num_ratio": 0.02,
+    "content_ratio": 0.6,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 2.098925828933716,
+    "sentence_importance_entropy": 2.1911487579345703,
+    "sentence_importance_max": 0.2016441822052002,
+    "top_sentence_id": 1,
+    "query_mismatch_rate": 0.72,
+    "selected_quality_counts": {
+      "content_word": 30,
+      "stopword": 18,
+      "number": 1,
+      "unk": 1
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.224,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.14115092754364011,
+    "D_local_global_conflict": 0.72,
+    "E_overconfident_error": 0.5699158906936646
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "we were having a problem with instability in the universal gravitational constant that day the closer i got to those exposed <UNK> still dripping no doubt with the <UNK> of the last <UNK> <UNK> <UNK> <UNK> psychology the bigger and heavier the dog appeared to become",
+      "also recall that the distribution of the <UNK> is one five pound jaw teeth operated by two <UNK> muscles driven by a 005 ounce brain possessing an <UNK> <UNK> composed of equal parts of <UNK> and <UNK> hunger",
+      "the other 5 lb is of course dog <UNK> but that varies all over the place as the dog <UNK> it regularly on the <UNK> <UNK> and tended <UNK> of the dog's owner's neighbors whilst continuously <UNK> its <UNK> supply no doubt by consuming the likes of folks like me",
+      "my very thought at the time but as i looked down at these once <UNK> instruments of <UNK> i realized they had become weak and <UNK> by too many <UNK> hours tapping away at my ergonomically correct crt keyboard",
+      "there was only one option left i reached down to the toolbox near my car and <UNK> my <UNK> 150 ft lb torque wrench surely the <UNK> of dire necessity if ever there was one",
+      "to my amazement and confusion the <UNK> started shaking and rolling on the grass then <UNK> to its feet and vanished down the street still <UNK> and occasionally looking back at me",
+      "seven at one blow i <UNK> <UNK> my new found <UNK> and <UNK> my terrible weapon of <UNK> as i <UNK> the now secure environs of my domicile",
+      "it was only later that i found out what the dog apparently knew all along the wrench was defective would no longer measure torque accurately and <UNK> wouldn't fix it or replace it",
+      "what i had interpreted as fear and <UNK> were in fact <UNK> <UNK> and contempt",
+      "exactly nobody can look quite as silly as we can"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "constant",
+          "token_pos": 11,
+          "quality": "content_word",
+          "word_score_logit": 0.07674519717693329,
+          "word_attn_weight": 0.023079175502061844
+        },
+        {
+          "token": "instability",
+          "token_pos": 6,
+          "quality": "content_word",
+          "word_score_logit": 0.04332657530903816,
+          "word_attn_weight": 0.022320646792650223
+        },
+        {
+          "token": "with",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.03836483508348465,
+          "word_attn_weight": 0.022210171446204185
+        },
+        {
+          "token": "day",
+          "token_pos": 13,
+          "quality": "content_word",
+          "word_score_logit": 0.037950947880744934,
+          "word_attn_weight": 0.02220098115503788
+        },
+        {
+          "token": "doubt",
+          "token_pos": 25,
+          "quality": "content_word",
+          "word_score_logit": 0.03574103116989136,
+          "word_attn_weight": 0.022151973098516464
+        }
+      ],
+      [
+        {
+          "token": "operated",
+          "token_pos": 14,
+          "quality": "content_word",
+          "word_score_logit": 0.08895471692085266,
+          "word_attn_weight": 0.027568457648158073
+        },
+        {
+          "token": "of",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.0881170779466629,
+          "word_attn_weight": 0.027545373886823654
+        },
+        {
+          "token": "ounce",
+          "token_pos": 23,
+          "quality": "content_word",
+          "word_score_logit": 0.0875592976808548,
+          "word_attn_weight": 0.027530014514923096
+        },
+        {
+          "token": "distribution",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.07102753221988678,
+          "word_attn_weight": 0.02707863599061966
+        },
+        {
+          "token": "the",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": 0.07048597186803818,
+          "word_attn_weight": 0.027063975110650063
+        }
+      ],
+      [
+        {
+          "token": "varies",
+          "token_pos": 11,
+          "quality": "content_word",
+          "word_score_logit": 0.07659194618463516,
+          "word_attn_weight": 0.02102789096534252
+        },
+        {
+          "token": "of",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.06467632949352264,
+          "word_attn_weight": 0.020778818055987358
+        },
+        {
+          "token": "is",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": 0.061052314937114716,
+          "word_attn_weight": 0.020703651010990143
+        },
+        {
+          "token": "5",
+          "token_pos": 2,
+          "quality": "number",
+          "word_score_logit": 0.05913032963871956,
+          "word_attn_weight": 0.020663898438215256
+        },
+        {
+          "token": "the",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.05876786634325981,
+          "word_attn_weight": 0.020656408742070198
+        }
+      ],
+      [
+        {
+          "token": "instruments",
+          "token_pos": 15,
+          "quality": "content_word",
+          "word_score_logit": 0.10202523320913315,
+          "word_attn_weight": 0.027666497975587845
+        },
+        {
+          "token": "keyboard",
+          "token_pos": 38,
+          "quality": "content_word",
+          "word_score_logit": 0.06627067923545837,
+          "word_attn_weight": 0.02669477090239525
+        },
+        {
+          "token": "of",
+          "token_pos": 16,
+          "quality": "stopword",
+          "word_score_logit": 0.0500856414437294,
+          "word_attn_weight": 0.0262661911547184
+        },
+        {
+          "token": "weak",
+          "token_pos": 23,
+          "quality": "content_word",
+          "word_score_logit": 0.047161765396595,
+          "word_attn_weight": 0.02618950605392456
+        },
+        {
+          "token": "<UNK>",
+          "token_pos": 14,
+          "quality": "unk",
+          "word_score_logit": 0.045184291899204254,
+          "word_attn_weight": 0.026137767359614372
+        }
+      ],
+      [
+        {
+          "token": "wrench",
+          "token_pos": 23,
+          "quality": "content_word",
+          "word_score_logit": 0.14975422620773315,
+          "word_attn_weight": 0.03206314519047737
+        },
+        {
+          "token": "and",
+          "token_pos": 15,
+          "quality": "stopword",
+          "word_score_logit": 0.07681646198034286,
+          "word_attn_weight": 0.02980778180062771
+        },
+        {
+          "token": "surely",
+          "token_pos": 24,
+          "quality": "content_word",
+          "word_score_logit": 0.0740942731499672,
+          "word_attn_weight": 0.029726751148700714
+        },
+        {
+          "token": "reached",
+          "token_pos": 7,
+          "quality": "content_word",
+          "word_score_logit": 0.06653223186731339,
+          "word_attn_weight": 0.029502801597118378
+        },
+        {
+          "token": "car",
+          "token_pos": 14,
+          "quality": "content_word",
+          "word_score_logit": 0.06600801646709442,
+          "word_attn_weight": 0.02948734164237976
+        }
+      ],
+      [
+        {
+          "token": "confusion",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.07587289065122604,
+          "word_attn_weight": 0.03237149864435196
+        },
+        {
+          "token": "then",
+          "token_pos": 14,
+          "quality": "stopword",
+          "word_score_logit": 0.07207387685775757,
+          "word_attn_weight": 0.03224875405430794
+        },
+        {
+          "token": "its",
+          "token_pos": 17,
+          "quality": "content_word",
+          "word_score_logit": 0.06938085705041885,
+          "word_attn_weight": 0.032162025570869446
+        },
+        {
+          "token": "grass",
+          "token_pos": 13,
+          "quality": "content_word",
+          "word_score_logit": 0.06701652705669403,
+          "word_attn_weight": 0.032086070626974106
+        },
+        {
+          "token": "vanished",
+          "token_pos": 20,
+          "quality": "content_word",
+          "word_score_logit": 0.06108848378062248,
+          "word_attn_weight": 0.031896427273750305
+        }
+      ],
+      [
+        {
+          "token": "found",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": 0.04136611521244049,
+          "word_attn_weight": 0.03673377260565758
+        },
+        {
+          "token": "environs",
+          "token_pos": 24,
+          "quality": "content_word",
+          "word_score_logit": 0.04057011753320694,
+          "word_attn_weight": 0.036704543977975845
+        },
+        {
+          "token": "my",
+          "token_pos": 26,
+          "quality": "stopword",
+          "word_score_logit": 0.03522919490933418,
+          "word_attn_weight": 0.03650902956724167
+        },
+        {
+          "token": "domicile",
+          "token_pos": 27,
+          "quality": "content_word",
+          "word_score_logit": 0.03467303141951561,
+          "word_attn_weight": 0.03648873418569565
+        },
+        {
+          "token": "my",
+          "token_pos": 13,
+          "quality": "stopword",
+          "word_score_logit": 0.03449920564889908,
+          "word_attn_weight": 0.03648239001631737
+        }
+      ],
+      [
+        {
+          "token": "accurately",
+          "token_pos": 24,
+          "quality": "content_word",
+          "word_score_logit": 0.10344064980745316,
+          "word_attn_weight": 0.03202856332063675
+        },
+        {
+          "token": "replace",
+          "token_pos": 31,
+          "quality": "content_word",
+          "word_score_logit": 0.0962834358215332,
+          "word_attn_weight": 0.03180014714598656
+        },
+        {
+          "token": "or",
+          "token_pos": 30,
+          "quality": "stopword",
+          "word_score_logit": 0.08637809753417969,
+          "word_attn_weight": 0.03148671239614487
+        },
+        {
+          "token": "and",
+          "token_pos": 25,
+          "quality": "stopword",
+          "word_score_logit": 0.08614169806241989,
+          "word_attn_weight": 0.03147926926612854
+        },
+        {
+          "token": "torque",
+          "token_pos": 23,
+          "quality": "content_word",
+          "word_score_logit": 0.0742330253124237,
+          "word_attn_weight": 0.03110661543905735
+        }
+      ],
+      [
+        {
+          "token": "interpreted",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.024689797312021255,
+          "word_attn_weight": 0.06770286709070206
+        },
+        {
+          "token": "and",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": 0.02467690408229828,
+          "word_attn_weight": 0.06770199537277222
+        },
+        {
+          "token": "had",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.01918061450123787,
+          "word_attn_weight": 0.06733091175556183
+        },
+        {
+          "token": "what",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.01743210107088089,
+          "word_attn_weight": 0.0672132819890976
+        },
+        {
+          "token": "in",
+          "token_pos": 9,
+          "quality": "stopword",
+          "word_score_logit": 0.016858864575624466,
+          "word_attn_weight": 0.0671747624874115
+        }
+      ],
+      [
+        {
+          "token": "exactly",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": 0.026104483753442764,
+          "word_attn_weight": 0.10175836831331253
+        },
+        {
+          "token": "nobody",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.018746810033917427,
+          "word_attn_weight": 0.10101240873336792
+        },
+        {
+          "token": "can",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.014012624509632587,
+          "word_attn_weight": 0.1005353257060051
+        },
+        {
+          "token": "look",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.013801977969706059,
+          "word_attn_weight": 0.10051415115594864
+        },
+        {
+          "token": "as",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.013077706098556519,
+          "word_attn_weight": 0.10044137388467789
+        }
+      ]
+    ],
+    "top_sentence_id": 1,
+    "sentence_importance_distribution": [
+      0.1354386806488037,
+      0.2016441822052002,
+      0.10756538808345795,
+      0.0668606236577034,
+      0.13126030564308167,
+      0.10467872768640518,
+      0.07426705956459045,
+      0.09254933893680573,
+      0.06255940347909927,
+      0.023176338523626328
+    ]
+  }
+}

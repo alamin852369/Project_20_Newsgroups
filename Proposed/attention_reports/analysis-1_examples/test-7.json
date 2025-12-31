@@ -1,0 +1,338 @@
+{
+  "true_label_id": 15,
+  "pred_label_id": 18,
+  "true_label_name": "soc.religion.christian",
+  "pred_label_name": "talk.politics.misc",
+  "pred_confidence": 0.3224535882472992,
+  "num_sents": 2,
+  "sentence_summaries": [
+    {
+      "sentence_id": 0,
+      "sentence_text": "dishonest money <UNK> away but he who <UNK> money little by little makes it grow",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "he",
+          "token_pos": 5,
+          "word_score_logit": 0.011081637814640999,
+          "word_attn_weight": 0.06864377111196518
+        },
+        {
+          "rank": 1,
+          "token": "makes",
+          "token_pos": 12,
+          "word_score_logit": 0.000622074119746685,
+          "word_attn_weight": 0.06792952865362167
+        },
+        {
+          "rank": 2,
+          "token": "it",
+          "token_pos": 13,
+          "word_score_logit": -0.0004963474348187447,
+          "word_attn_weight": 0.06785359978675842
+        },
+        {
+          "rank": 3,
+          "token": "but",
+          "token_pos": 4,
+          "word_score_logit": -0.0015030428767204285,
+          "word_attn_weight": 0.06778533011674881
+        },
+        {
+          "rank": 4,
+          "token": "grow",
+          "token_pos": 14,
+          "word_score_logit": -0.010216863825917244,
+          "word_attn_weight": 0.06719722598791122
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "sentence_text": "proverbs 13 11",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "13",
+          "token_pos": 1,
+          "word_score_logit": 0.030048616230487823,
+          "word_attn_weight": 0.3399813771247864
+        },
+        {
+          "rank": 1,
+          "token": "11",
+          "token_pos": 2,
+          "word_score_logit": 0.026786968111991882,
+          "word_attn_weight": 0.33887428045272827
+        },
+        {
+          "rank": 2,
+          "token": "proverbs",
+          "token_pos": 0,
+          "word_score_logit": -0.026951611042022705,
+          "word_attn_weight": 0.32114431262016296
+        },
+        {
+          "rank": 3,
+          "token": "<PAD>",
+          "token_pos": 4,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 4,
+          "token": "<PAD>",
+          "token_pos": 3,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    }
+  ],
+  "query_summaries": [
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "he",
+      "token_pos": 5,
+      "word_score_logit": 0.011081637814640999,
+      "word_attn_weight": 0.06864377111196518,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5120664834976196,
+          "sentence_text": "dishonest money <UNK> away but he who <UNK> money little by little makes it grow"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.487933486700058,
+          "sentence_text": "proverbs 13 11"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "makes",
+      "token_pos": 12,
+      "word_score_logit": 0.000622074119746685,
+      "word_attn_weight": 0.06792952865362167,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5249282121658325,
+          "sentence_text": "dishonest money <UNK> away but he who <UNK> money little by little makes it grow"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.47507181763648987,
+          "sentence_text": "proverbs 13 11"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "it",
+      "token_pos": 13,
+      "word_score_logit": -0.0004963474348187447,
+      "word_attn_weight": 0.06785359978675842,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5196415185928345,
+          "sentence_text": "dishonest money <UNK> away but he who <UNK> money little by little makes it grow"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.4803584814071655,
+          "sentence_text": "proverbs 13 11"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "but",
+      "token_pos": 4,
+      "word_score_logit": -0.0015030428767204285,
+      "word_attn_weight": 0.06778533011674881,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5187356472015381,
+          "sentence_text": "dishonest money <UNK> away but he who <UNK> money little by little makes it grow"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.4812643527984619,
+          "sentence_text": "proverbs 13 11"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "grow",
+      "token_pos": 14,
+      "word_score_logit": -0.010216863825917244,
+      "word_attn_weight": 0.06719722598791122,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5207425951957703,
+          "sentence_text": "dishonest money <UNK> away but he who <UNK> money little by little makes it grow"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.47925737500190735,
+          "sentence_text": "proverbs 13 11"
+        }
+      ]
+    },
+    {
+      "query_id": 5,
+      "from_sentence_id": 1,
+      "token": "13",
+      "token_pos": 1,
+      "word_score_logit": 0.030048616230487823,
+      "word_attn_weight": 0.3399813771247864,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.5059844851493835,
+          "sentence_text": "proverbs 13 11"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.49401551485061646,
+          "sentence_text": "dishonest money <UNK> away but he who <UNK> money little by little makes it grow"
+        }
+      ]
+    },
+    {
+      "query_id": 6,
+      "from_sentence_id": 1,
+      "token": "11",
+      "token_pos": 2,
+      "word_score_logit": 0.026786968111991882,
+      "word_attn_weight": 0.33887428045272827,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.5061689615249634,
+          "sentence_text": "proverbs 13 11"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.493831068277359,
+          "sentence_text": "dishonest money <UNK> away but he who <UNK> money little by little makes it grow"
+        }
+      ]
+    },
+    {
+      "query_id": 7,
+      "from_sentence_id": 1,
+      "token": "proverbs",
+      "token_pos": 0,
+      "word_score_logit": -0.026951611042022705,
+      "word_attn_weight": 0.32114431262016296,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.5100563764572144,
+          "sentence_text": "proverbs 13 11"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.48994365334510803,
+          "sentence_text": "dishonest money <UNK> away but he who <UNK> money little by little makes it grow"
+        }
+      ]
+    },
+    {
+      "query_id": 8,
+      "from_sentence_id": 1,
+      "token": "<PAD>",
+      "token_pos": 4,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5060290694236755,
+          "sentence_text": "dishonest money <UNK> away but he who <UNK> money little by little makes it grow"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.49397093057632446,
+          "sentence_text": "proverbs 13 11"
+        }
+      ]
+    },
+    {
+      "query_id": 9,
+      "from_sentence_id": 1,
+      "token": "<PAD>",
+      "token_pos": 3,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5060290694236755,
+          "sentence_text": "dishonest money <UNK> away but he who <UNK> money little by little makes it grow"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.49397093057632446,
+          "sentence_text": "proverbs 13 11"
+        }
+      ]
+    }
+  ],
+  "sentence_importance_from_cross_attn": {
+    "definition": "mean cross-attn over queries",
+    "values": [
+      {
+        "sentence_id": 0,
+        "importance": 0.5085963010787964
+      },
+      {
+        "sentence_id": 1,
+        "importance": 0.4914036691188812
+      }
+    ],
+    "ranked": [
+      {
+        "sentence_id": 0,
+        "importance": 0.5085963010787964
+      },
+      {
+        "sentence_id": 1,
+        "importance": 0.4914036691188812
+      }
+    ]
+  },
+  "example_id": "test-7"
+}

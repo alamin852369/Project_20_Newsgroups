@@ -1,0 +1,241 @@
+{
+  "example_id": "test_37",
+  "true_label_id": 4,
+  "pred_label_id": 6,
+  "true_label_name": "comp.sys.mac.hardware",
+  "pred_label_name": "misc.forsale",
+  "pred_confidence": 0.6945294141769409,
+  "metrics": {
+    "num_sents": 5,
+    "K": 5,
+    "stop_ratio": 0.2,
+    "unk_ratio": 0.08,
+    "num_ratio": 0.04,
+    "content_ratio": 0.4,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 1.4679381847381592,
+    "sentence_importance_entropy": 1.4937968254089355,
+    "sentence_importance_max": 0.2850721776485443,
+    "top_sentence_id": 1,
+    "query_mismatch_rate": 0.48,
+    "selected_quality_counts": {
+      "stopword": 5,
+      "content_word": 10,
+      "unk": 2,
+      "number": 1,
+      "short_word": 2,
+      "other": 5
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.148,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.2007911592721939,
+    "D_local_global_conflict": 0.48,
+    "E_overconfident_error": 0.6945294141769409
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "is there any third party video ram adapter for <UNK> 24 bit color on lcii",
+      "i heard that apple is selling it <UNK> 160",
+      "please e mail me",
+      "thanks",
+      "young <UNK> mace cc purdue edu"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "is",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.019586481153964996,
+          "word_attn_weight": 0.06834718585014343
+        },
+        {
+          "token": "third",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.012971045449376106,
+          "word_attn_weight": 0.0678965300321579
+        },
+        {
+          "token": "any",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.012490342371165752,
+          "word_attn_weight": 0.06786390393972397
+        },
+        {
+          "token": "color",
+          "token_pos": 12,
+          "quality": "content_word",
+          "word_score_logit": 0.012231837958097458,
+          "word_attn_weight": 0.06784636527299881
+        },
+        {
+          "token": "there",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.005945505574345589,
+          "word_attn_weight": 0.06742119789123535
+        }
+      ],
+      [
+        {
+          "token": "i",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.020911207422614098,
+          "word_attn_weight": 0.11546554416418076
+        },
+        {
+          "token": "heard",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.013853603042662144,
+          "word_attn_weight": 0.11465349793434143
+        },
+        {
+          "token": "<UNK>",
+          "token_pos": 7,
+          "quality": "unk",
+          "word_score_logit": -0.006042896769940853,
+          "word_attn_weight": 0.11239485442638397
+        },
+        {
+          "token": "it",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": -0.01622941344976425,
+          "word_attn_weight": 0.11125574260950089
+        },
+        {
+          "token": "160",
+          "token_pos": 8,
+          "quality": "number",
+          "word_score_logit": -0.018307913094758987,
+          "word_attn_weight": 0.11102474480867386
+        }
+      ],
+      [
+        {
+          "token": "e",
+          "token_pos": 1,
+          "quality": "short_word",
+          "word_score_logit": 0.06235469505190849,
+          "word_attn_weight": 0.2533693015575409
+        },
+        {
+          "token": "mail",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.061928603798151016,
+          "word_attn_weight": 0.25326138734817505
+        },
+        {
+          "token": "please",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": 0.03877388313412666,
+          "word_attn_weight": 0.24746455252170563
+        },
+        {
+          "token": "me",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": 0.03245093673467636,
+          "word_attn_weight": 0.24590477347373962
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ],
+      [
+        {
+          "token": "thanks",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": 0.015355927869677544,
+          "word_attn_weight": 1.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 3,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 1,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 2,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ],
+      [
+        {
+          "token": "edu",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.0992836058139801,
+          "word_attn_weight": 0.17753028869628906
+        },
+        {
+          "token": "cc",
+          "token_pos": 3,
+          "quality": "short_word",
+          "word_score_logit": 0.04409124329686165,
+          "word_attn_weight": 0.16799746453762054
+        },
+        {
+          "token": "purdue",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.03148084878921509,
+          "word_attn_weight": 0.16589225828647614
+        },
+        {
+          "token": "young",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": 0.025374796241521835,
+          "word_attn_weight": 0.16488239169120789
+        },
+        {
+          "token": "<UNK>",
+          "token_pos": 1,
+          "quality": "unk",
+          "word_score_logit": 0.014570954255759716,
+          "word_attn_weight": 0.163110613822937
+        }
+      ]
+    ],
+    "top_sentence_id": 1,
+    "sentence_importance_distribution": [
+      0.2580316364765167,
+      0.2850721776485443,
+      0.07959048449993134,
+      0.09912879765033722,
+      0.278176873922348
+    ]
+  }
+}

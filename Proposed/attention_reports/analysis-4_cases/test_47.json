@@ -1,0 +1,121 @@
+{
+  "example_id": "test_47",
+  "true_label_id": 3,
+  "pred_label_id": 8,
+  "true_label_name": "comp.sys.ibm.pc.hardware",
+  "pred_label_name": "rec.motorcycles",
+  "pred_confidence": 0.2856251299381256,
+  "metrics": {
+    "num_sents": 2,
+    "K": 5,
+    "stop_ratio": 0.2,
+    "unk_ratio": 0.0,
+    "num_ratio": 0.0,
+    "content_ratio": 0.4,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 0.6829848885536194,
+    "sentence_importance_entropy": 0.6860290765762329,
+    "sentence_importance_max": 0.5595870018005371,
+    "top_sentence_id": 0,
+    "query_mismatch_rate": 0.5,
+    "selected_quality_counts": {
+      "stopword": 2,
+      "content_word": 4,
+      "other": 4
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.12,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.5545050859451294,
+    "D_local_global_conflict": 0.5,
+    "E_overconfident_error": 0.2856251299381256
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "there should be no problem with this just remember to get the number of wait states correct",
+      "guy"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "with",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.029661737382411957,
+          "word_attn_weight": 0.059926338493824005
+        },
+        {
+          "token": "problem",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.025663459673523903,
+          "word_attn_weight": 0.05968721583485603
+        },
+        {
+          "token": "correct",
+          "token_pos": 16,
+          "quality": "content_word",
+          "word_score_logit": 0.025227466598153114,
+          "word_attn_weight": 0.059661198407411575
+        },
+        {
+          "token": "of",
+          "token_pos": 13,
+          "quality": "stopword",
+          "word_score_logit": 0.021657520905137062,
+          "word_attn_weight": 0.05944858863949776
+        },
+        {
+          "token": "number",
+          "token_pos": 12,
+          "quality": "content_word",
+          "word_score_logit": 0.020530223846435547,
+          "word_attn_weight": 0.05938160791993141
+        }
+      ],
+      [
+        {
+          "token": "guy",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": 0.001670164056122303,
+          "word_attn_weight": 1.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 3,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 1,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 2,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    ],
+    "top_sentence_id": 0,
+    "sentence_importance_distribution": [
+      0.5595870018005371,
+      0.4404129683971405
+    ]
+  }
+}

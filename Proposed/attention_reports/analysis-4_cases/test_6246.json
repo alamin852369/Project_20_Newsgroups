@@ -1,0 +1,277 @@
+{
+  "example_id": "test_6246",
+  "true_label_id": 12,
+  "pred_label_id": 13,
+  "true_label_name": "sci.electronics",
+  "pred_label_name": "sci.med",
+  "pred_confidence": 0.9967251420021057,
+  "metrics": {
+    "num_sents": 6,
+    "K": 5,
+    "stop_ratio": 0.3333333333333333,
+    "unk_ratio": 0.0,
+    "num_ratio": 0.0,
+    "content_ratio": 0.6333333333333333,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 1.536722183227539,
+    "sentence_importance_entropy": 1.5587637424468994,
+    "sentence_importance_max": 0.454997181892395,
+    "top_sentence_id": 0,
+    "query_mismatch_rate": 0.8333333333333334,
+    "selected_quality_counts": {
+      "content_word": 19,
+      "stopword": 10,
+      "other": 1
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.19999999999999998,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.31849802732467647,
+    "D_local_global_conflict": 0.8333333333333334,
+    "E_overconfident_error": 0.9967251420021057
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "not only is <UNK> a <UNK> it is <UNK> through the skin and cause cumulative damage to the bone marrow which is essential to the production of your blood cells",
+      "it is highly toxic",
+      "one exposure is unlikely to kill you but it will likely do hidden damage",
+      "<UNK> is one compound that chemists try like hell to avoid using",
+      "<UNK> is much less toxic but is highly flammable and volatile",
+      "it also <UNK> lots of things so handle with great care"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "cumulative",
+          "token_pos": 14,
+          "quality": "content_word",
+          "word_score_logit": 0.09320881217718124,
+          "word_attn_weight": 0.034964047372341156
+        },
+        {
+          "token": "cause",
+          "token_pos": 13,
+          "quality": "content_word",
+          "word_score_logit": 0.08261214196681976,
+          "word_attn_weight": 0.03459550067782402
+        },
+        {
+          "token": "and",
+          "token_pos": 12,
+          "quality": "stopword",
+          "word_score_logit": 0.07948783040046692,
+          "word_attn_weight": 0.03448758274316788
+        },
+        {
+          "token": "damage",
+          "token_pos": 15,
+          "quality": "content_word",
+          "word_score_logit": 0.06822724640369415,
+          "word_attn_weight": 0.03410140797495842
+        },
+        {
+          "token": "only",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.05905921012163162,
+          "word_attn_weight": 0.03379019349813461
+        }
+      ],
+      [
+        {
+          "token": "is",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.006635735277086496,
+          "word_attn_weight": 0.2524676024913788
+        },
+        {
+          "token": "it",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.0009367028251290321,
+          "word_attn_weight": 0.25103288888931274
+        },
+        {
+          "token": "toxic",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": -0.007096927613019943,
+          "word_attn_weight": 0.24902425706386566
+        },
+        {
+          "token": "highly",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": -0.013336604461073875,
+          "word_attn_weight": 0.2474752515554428
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ],
+      [
+        {
+          "token": "damage",
+          "token_pos": 13,
+          "quality": "content_word",
+          "word_score_logit": 0.023754233494400978,
+          "word_attn_weight": 0.07296409457921982
+        },
+        {
+          "token": "likely",
+          "token_pos": 10,
+          "quality": "content_word",
+          "word_score_logit": 0.017062094062566757,
+          "word_attn_weight": 0.07247743010520935
+        },
+        {
+          "token": "hidden",
+          "token_pos": 12,
+          "quality": "content_word",
+          "word_score_logit": 0.015338854864239693,
+          "word_attn_weight": 0.07235264033079147
+        },
+        {
+          "token": "unlikely",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.01441579032689333,
+          "word_attn_weight": 0.07228589057922363
+        },
+        {
+          "token": "is",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.005856404080986977,
+          "word_attn_weight": 0.0716698095202446
+        }
+      ],
+      [
+        {
+          "token": "using",
+          "token_pos": 11,
+          "quality": "content_word",
+          "word_score_logit": 0.09064619988203049,
+          "word_attn_weight": 0.08743946254253387
+        },
+        {
+          "token": "compound",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.0857689157128334,
+          "word_attn_weight": 0.08701403439044952
+        },
+        {
+          "token": "chemists",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.059817008674144745,
+          "word_attn_weight": 0.08478491008281708
+        },
+        {
+          "token": "one",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.04577586427330971,
+          "word_attn_weight": 0.08360275626182556
+        },
+        {
+          "token": "is",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.04475323110818863,
+          "word_attn_weight": 0.08351729810237885
+        }
+      ],
+      [
+        {
+          "token": "flammable",
+          "token_pos": 8,
+          "quality": "content_word",
+          "word_score_logit": 0.07791797071695328,
+          "word_attn_weight": 0.09468303620815277
+        },
+        {
+          "token": "and",
+          "token_pos": 9,
+          "quality": "stopword",
+          "word_score_logit": 0.059212129563093185,
+          "word_attn_weight": 0.09292837232351303
+        },
+        {
+          "token": "volatile",
+          "token_pos": 10,
+          "quality": "content_word",
+          "word_score_logit": 0.05611748993396759,
+          "word_attn_weight": 0.09264124184846878
+        },
+        {
+          "token": "is",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": 0.04788580536842346,
+          "word_attn_weight": 0.09188177436590195
+        },
+        {
+          "token": "but",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.04668215662240982,
+          "word_attn_weight": 0.09177125245332718
+        }
+      ],
+      [
+        {
+          "token": "care",
+          "token_pos": 10,
+          "quality": "content_word",
+          "word_score_logit": 0.026092320680618286,
+          "word_attn_weight": 0.09211517870426178
+        },
+        {
+          "token": "great",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": 0.022453228011727333,
+          "word_attn_weight": 0.09178057312965393
+        },
+        {
+          "token": "of",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": 0.022182077169418335,
+          "word_attn_weight": 0.0917556881904602
+        },
+        {
+          "token": "with",
+          "token_pos": 8,
+          "quality": "stopword",
+          "word_score_logit": 0.020472675561904907,
+          "word_attn_weight": 0.0915989801287651
+        },
+        {
+          "token": "also",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.018085643649101257,
+          "word_attn_weight": 0.09138058125972748
+        }
+      ]
+    ],
+    "top_sentence_id": 0,
+    "sentence_importance_distribution": [
+      0.454997181892395,
+      0.09495993703603745,
+      0.10252302885055542,
+      0.14249353110790253,
+      0.11383034288883209,
+      0.09119592607021332
+    ]
+  }
+}

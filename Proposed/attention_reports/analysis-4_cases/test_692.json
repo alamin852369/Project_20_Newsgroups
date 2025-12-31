@@ -1,0 +1,826 @@
+{
+  "example_id": "test_692",
+  "true_label_id": 18,
+  "pred_label_id": 16,
+  "true_label_name": "talk.politics.misc",
+  "pred_label_name": "talk.politics.guns",
+  "pred_confidence": 0.9630438685417175,
+  "metrics": {
+    "num_sents": 20,
+    "K": 5,
+    "stop_ratio": 0.41,
+    "unk_ratio": 0.01,
+    "num_ratio": 0.02,
+    "content_ratio": 0.48,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 2.6676104068756104,
+    "sentence_importance_entropy": 2.712895631790161,
+    "sentence_importance_max": 0.23413288593292236,
+    "top_sentence_id": 1,
+    "query_mismatch_rate": 0.95,
+    "selected_quality_counts": {
+      "short_word": 3,
+      "number": 2,
+      "content_word": 48,
+      "stopword": 41,
+      "unk": 1,
+      "other": 5
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.25099999999999995,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.16389302015304563,
+    "D_local_global_conflict": 0.95,
+    "E_overconfident_error": 0.9630438685417175
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "the white house office of the press secretary for immediate release april 20 1993 remarks by the president in question and answer session with the press the rose garden 1 36 p m",
+      "edt the president on february the 28th four federal agents were killed in the line of duty trying to enforce the law against the branch davidian compound which had illegally <UNK> weaponry and ammunition and placed innocent children at risk",
+      "because the batf operation had failed to meet its objective a 51 day standoff ensued",
+      "the federal bureau of investigation then made every reasonable effort to bring this <UNK> situation to an end without bloodshed and further loss of life",
+      "the bureau's efforts were ultimately <UNK> because the individual with whom they were dealing david koresh was dangerous irrational and probably insane",
+      "he engaged in numerous activities which violated both federal law and common standards of <UNK>",
+      "he was moreover responsible for the deaths and injuries which occurred during the action against the compound in february",
+      "given his inclination towards violence and in an effort to protect his young hostages no provocative actions were taken for more than seven weeks by federal agents against the compound",
+      "this weekend i was briefed by attorney general reno on an operation prepared by the fbi designed to increase pressure on koresh and persuade those in the compound to surrender peacefully",
+      "the plan included a decision to withhold the use of ammunition even in the face of fire and instead to use tear gas that would not cause permanent harm to health but would it was hoped force the people in the compound to come outside and to surrender",
+      "i was informed of the plan to end the siege",
+      "i discussed it with attorney general reno",
+      "i asked the questions i thought it was appropriate for me to ask",
+      "i then told her to do what she thought was right and i take full responsibility for the implementation of the decision",
+      "yesterday's action ended in a horrible human tragedy",
+      "mr",
+      "koresh's response to the demands for his surrender by federal agents was to destroy himself and murder the children who were his <UNK> as well as all the other people who were there who did not survive",
+      "he killed those he controlled and he bears ultimate responsibility for the carnage that ensued",
+      "now we must review the past with an eye towards the future",
+      "i have directed the united stated departments of justice and treasury to undertake a <UNK> and thorough investigation to uncover what happened and why and whether anything could have been done differently"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "m",
+          "token_pos": 32,
+          "quality": "short_word",
+          "word_score_logit": 0.13614696264266968,
+          "word_attn_weight": 0.03427760675549507
+        },
+        {
+          "token": "p",
+          "token_pos": 31,
+          "quality": "short_word",
+          "word_score_logit": 0.11879109591245651,
+          "word_attn_weight": 0.03368782252073288
+        },
+        {
+          "token": "36",
+          "token_pos": 30,
+          "quality": "number",
+          "word_score_logit": 0.07217100262641907,
+          "word_attn_weight": 0.03215333819389343
+        },
+        {
+          "token": "1",
+          "token_pos": 29,
+          "quality": "number",
+          "word_score_logit": 0.06036213040351868,
+          "word_attn_weight": 0.03177587687969208
+        },
+        {
+          "token": "garden",
+          "token_pos": 28,
+          "quality": "content_word",
+          "word_score_logit": 0.055312201380729675,
+          "word_attn_weight": 0.031615812331438065
+        }
+      ],
+      [
+        {
+          "token": "against",
+          "token_pos": 22,
+          "quality": "content_word",
+          "word_score_logit": 0.13774672150611877,
+          "word_attn_weight": 0.027213770896196365
+        },
+        {
+          "token": "the",
+          "token_pos": 23,
+          "quality": "stopword",
+          "word_score_logit": 0.13086430728435516,
+          "word_attn_weight": 0.02702711708843708
+        },
+        {
+          "token": "branch",
+          "token_pos": 24,
+          "quality": "content_word",
+          "word_score_logit": 0.12404879927635193,
+          "word_attn_weight": 0.026843540370464325
+        },
+        {
+          "token": "law",
+          "token_pos": 21,
+          "quality": "content_word",
+          "word_score_logit": 0.11016469448804855,
+          "word_attn_weight": 0.02647341601550579
+        },
+        {
+          "token": "edt",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": 0.10451196879148483,
+          "word_attn_weight": 0.026324192062020302
+        }
+      ],
+      [
+        {
+          "token": "because",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.024637389928102493,
+          "word_attn_weight": 0.0688324123620987
+        },
+        {
+          "token": "a",
+          "token_pos": 10,
+          "quality": "stopword",
+          "word_score_logit": 0.021720800548791885,
+          "word_attn_weight": 0.06863195449113846
+        },
+        {
+          "token": "its",
+          "token_pos": 8,
+          "quality": "content_word",
+          "word_score_logit": 0.009070135653018951,
+          "word_attn_weight": 0.06776918470859528
+        },
+        {
+          "token": "the",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.005370925180613995,
+          "word_attn_weight": 0.06751894950866699
+        },
+        {
+          "token": "operation",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.005256464704871178,
+          "word_attn_weight": 0.06751122325658798
+        }
+      ],
+      [
+        {
+          "token": "to",
+          "token_pos": 10,
+          "quality": "stopword",
+          "word_score_logit": 0.00587751530110836,
+          "word_attn_weight": 0.04087507352232933
+        },
+        {
+          "token": "bring",
+          "token_pos": 11,
+          "quality": "content_word",
+          "word_score_logit": 0.004885545000433922,
+          "word_attn_weight": 0.04083454608917236
+        },
+        {
+          "token": "the",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": -0.0007986240088939667,
+          "word_attn_weight": 0.040603093802928925
+        },
+        {
+          "token": "federal",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": -0.0009111613035202026,
+          "word_attn_weight": 0.04059852659702301
+        },
+        {
+          "token": "this",
+          "token_pos": 12,
+          "quality": "stopword",
+          "word_score_logit": -0.0019161440432071686,
+          "word_attn_weight": 0.04055774211883545
+        }
+      ],
+      [
+        {
+          "token": "with",
+          "token_pos": 9,
+          "quality": "stopword",
+          "word_score_logit": 0.055873721837997437,
+          "word_attn_weight": 0.04714614152908325
+        },
+        {
+          "token": "whom",
+          "token_pos": 10,
+          "quality": "stopword",
+          "word_score_logit": 0.043673962354660034,
+          "word_attn_weight": 0.046574465930461884
+        },
+        {
+          "token": "david",
+          "token_pos": 14,
+          "quality": "content_word",
+          "word_score_logit": 0.043218474835157394,
+          "word_attn_weight": 0.04655325412750244
+        },
+        {
+          "token": "and",
+          "token_pos": 19,
+          "quality": "stopword",
+          "word_score_logit": 0.041717201471328735,
+          "word_attn_weight": 0.046483419835567474
+        },
+        {
+          "token": "was",
+          "token_pos": 16,
+          "quality": "stopword",
+          "word_score_logit": 0.04134596139192581,
+          "word_attn_weight": 0.046466164290905
+        }
+      ],
+      [
+        {
+          "token": "of",
+          "token_pos": 13,
+          "quality": "stopword",
+          "word_score_logit": 0.05499323457479477,
+          "word_attn_weight": 0.07027973979711533
+        },
+        {
+          "token": "<UNK>",
+          "token_pos": 14,
+          "quality": "unk",
+          "word_score_logit": 0.02685685083270073,
+          "word_attn_weight": 0.06832987815141678
+        },
+        {
+          "token": "both",
+          "token_pos": 7,
+          "quality": "content_word",
+          "word_score_logit": 0.026329388841986656,
+          "word_attn_weight": 0.06829384714365005
+        },
+        {
+          "token": "law",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": 0.025795359164476395,
+          "word_attn_weight": 0.06825738400220871
+        },
+        {
+          "token": "federal",
+          "token_pos": 8,
+          "quality": "content_word",
+          "word_score_logit": 0.025627795606851578,
+          "word_attn_weight": 0.06824594736099243
+        }
+      ],
+      [
+        {
+          "token": "injuries",
+          "token_pos": 8,
+          "quality": "content_word",
+          "word_score_logit": 0.07675640285015106,
+          "word_attn_weight": 0.05435708537697792
+        },
+        {
+          "token": "compound",
+          "token_pos": 16,
+          "quality": "content_word",
+          "word_score_logit": 0.07242725789546967,
+          "word_attn_weight": 0.05412227660417557
+        },
+        {
+          "token": "against",
+          "token_pos": 14,
+          "quality": "content_word",
+          "word_score_logit": 0.06632040441036224,
+          "word_attn_weight": 0.053792763501405716
+        },
+        {
+          "token": "he",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.0541105642914772,
+          "word_attn_weight": 0.053139954805374146
+        },
+        {
+          "token": "moreover",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.05257945507764816,
+          "word_attn_weight": 0.05305865406990051
+        }
+      ],
+      [
+        {
+          "token": "against",
+          "token_pos": 27,
+          "quality": "content_word",
+          "word_score_logit": 0.1093602105975151,
+          "word_attn_weight": 0.036417629569768906
+        },
+        {
+          "token": "compound",
+          "token_pos": 29,
+          "quality": "content_word",
+          "word_score_logit": 0.10167910903692245,
+          "word_attn_weight": 0.03613897040486336
+        },
+        {
+          "token": "agents",
+          "token_pos": 26,
+          "quality": "content_word",
+          "word_score_logit": 0.09825117886066437,
+          "word_attn_weight": 0.036015305668115616
+        },
+        {
+          "token": "the",
+          "token_pos": 28,
+          "quality": "stopword",
+          "word_score_logit": 0.09345422685146332,
+          "word_attn_weight": 0.03584295138716698
+        },
+        {
+          "token": "federal",
+          "token_pos": 25,
+          "quality": "content_word",
+          "word_score_logit": 0.07643931359052658,
+          "word_attn_weight": 0.035238247364759445
+        }
+      ],
+      [
+        {
+          "token": "compound",
+          "token_pos": 27,
+          "quality": "content_word",
+          "word_score_logit": 0.07694217562675476,
+          "word_attn_weight": 0.03377901390194893
+        },
+        {
+          "token": "in",
+          "token_pos": 25,
+          "quality": "stopword",
+          "word_score_logit": 0.06306575238704681,
+          "word_attn_weight": 0.03331351652741432
+        },
+        {
+          "token": "the",
+          "token_pos": 26,
+          "quality": "stopword",
+          "word_score_logit": 0.057681940495967865,
+          "word_attn_weight": 0.033134642988443375
+        },
+        {
+          "token": "those",
+          "token_pos": 24,
+          "quality": "stopword",
+          "word_score_logit": 0.05757295340299606,
+          "word_attn_weight": 0.033131033182144165
+        },
+        {
+          "token": "the",
+          "token_pos": 14,
+          "quality": "stopword",
+          "word_score_logit": 0.047276824712753296,
+          "word_attn_weight": 0.03279166296124458
+        }
+      ],
+      [
+        {
+          "token": "use",
+          "token_pos": 8,
+          "quality": "content_word",
+          "word_score_logit": 0.14306598901748657,
+          "word_attn_weight": 0.022700419649481773
+        },
+        {
+          "token": "use",
+          "token_pos": 20,
+          "quality": "content_word",
+          "word_score_logit": 0.12478478252887726,
+          "word_attn_weight": 0.022289199754595757
+        },
+        {
+          "token": "of",
+          "token_pos": 9,
+          "quality": "stopword",
+          "word_score_logit": 0.09985318779945374,
+          "word_attn_weight": 0.021740363910794258
+        },
+        {
+          "token": "force",
+          "token_pos": 36,
+          "quality": "content_word",
+          "word_score_logit": 0.09800482541322708,
+          "word_attn_weight": 0.021700216457247734
+        },
+        {
+          "token": "compound",
+          "token_pos": 41,
+          "quality": "content_word",
+          "word_score_logit": 0.09462375938892365,
+          "word_attn_weight": 0.021626971662044525
+        }
+      ],
+      [
+        {
+          "token": "the",
+          "token_pos": 8,
+          "quality": "stopword",
+          "word_score_logit": 0.0190564077347517,
+          "word_attn_weight": 0.10286381095647812
+        },
+        {
+          "token": "end",
+          "token_pos": 7,
+          "quality": "content_word",
+          "word_score_logit": 0.012035494670271873,
+          "word_attn_weight": 0.10214414447546005
+        },
+        {
+          "token": "was",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.0039542922750115395,
+          "word_attn_weight": 0.10132201761007309
+        },
+        {
+          "token": "i",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": -0.005204762332141399,
+          "word_attn_weight": 0.1003982424736023
+        },
+        {
+          "token": "informed",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": -0.008620776236057281,
+          "word_attn_weight": 0.10005586594343185
+        }
+      ],
+      [
+        {
+          "token": "attorney",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.04662642627954483,
+          "word_attn_weight": 0.1461414396762848
+        },
+        {
+          "token": "general",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.037775952368974686,
+          "word_attn_weight": 0.14485372602939606
+        },
+        {
+          "token": "with",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": 0.03194918483495712,
+          "word_attn_weight": 0.14401215314865112
+        },
+        {
+          "token": "reno",
+          "token_pos": 6,
+          "quality": "content_word",
+          "word_score_logit": 0.021696757525205612,
+          "word_attn_weight": 0.14254321157932281
+        },
+        {
+          "token": "discussed",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.01212332583963871,
+          "word_attn_weight": 0.14118510484695435
+        }
+      ],
+      [
+        {
+          "token": "appropriate",
+          "token_pos": 8,
+          "quality": "content_word",
+          "word_score_logit": 0.027799762785434723,
+          "word_attn_weight": 0.0776500478386879
+        },
+        {
+          "token": "ask",
+          "token_pos": 12,
+          "quality": "content_word",
+          "word_score_logit": 0.0259696077555418,
+          "word_attn_weight": 0.07750806957483292
+        },
+        {
+          "token": "me",
+          "token_pos": 10,
+          "quality": "stopword",
+          "word_score_logit": 0.024268925189971924,
+          "word_attn_weight": 0.0773763656616211
+        },
+        {
+          "token": "the",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.022192344069480896,
+          "word_attn_weight": 0.07721585035324097
+        },
+        {
+          "token": "for",
+          "token_pos": 9,
+          "quality": "stopword",
+          "word_score_logit": 0.021891221404075623,
+          "word_attn_weight": 0.07719259709119797
+        }
+      ],
+      [
+        {
+          "token": "was",
+          "token_pos": 9,
+          "quality": "stopword",
+          "word_score_logit": 0.031158536672592163,
+          "word_attn_weight": 0.04664181172847748
+        },
+        {
+          "token": "thought",
+          "token_pos": 8,
+          "quality": "content_word",
+          "word_score_logit": 0.025501418858766556,
+          "word_attn_weight": 0.04637869819998741
+        },
+        {
+          "token": "of",
+          "token_pos": 19,
+          "quality": "stopword",
+          "word_score_logit": 0.02422288805246353,
+          "word_attn_weight": 0.04631943628191948
+        },
+        {
+          "token": "do",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.02320951037108898,
+          "word_attn_weight": 0.04627252370119095
+        },
+        {
+          "token": "right",
+          "token_pos": 10,
+          "quality": "content_word",
+          "word_score_logit": 0.022725630551576614,
+          "word_attn_weight": 0.04625013843178749
+        }
+      ],
+      [
+        {
+          "token": "yesterday's",
+          "token_pos": 0,
+          "quality": "other",
+          "word_score_logit": -0.012216683477163315,
+          "word_attn_weight": 0.12826262414455414
+        },
+        {
+          "token": "action",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": -0.017902400344610214,
+          "word_attn_weight": 0.12753543257713318
+        },
+        {
+          "token": "in",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": -0.020643912255764008,
+          "word_attn_weight": 0.12718628346920013
+        },
+        {
+          "token": "a",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": -0.02692524343729019,
+          "word_attn_weight": 0.12638989090919495
+        },
+        {
+          "token": "ended",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": -0.0353626050055027,
+          "word_attn_weight": 0.1253279596567154
+        }
+      ],
+      [
+        {
+          "token": "mr",
+          "token_pos": 0,
+          "quality": "short_word",
+          "word_score_logit": 0.012166532687842846,
+          "word_attn_weight": 1.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 3,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 1,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 2,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ],
+      [
+        {
+          "token": "agents",
+          "token_pos": 10,
+          "quality": "content_word",
+          "word_score_logit": 0.06335686892271042,
+          "word_attn_weight": 0.028422387316823006
+        },
+        {
+          "token": "himself",
+          "token_pos": 14,
+          "quality": "content_word",
+          "word_score_logit": 0.05474581569433212,
+          "word_attn_weight": 0.028178691864013672
+        },
+        {
+          "token": "and",
+          "token_pos": 15,
+          "quality": "stopword",
+          "word_score_logit": 0.05395250767469406,
+          "word_attn_weight": 0.028156345710158348
+        },
+        {
+          "token": "his",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": 0.05265846848487854,
+          "word_attn_weight": 0.02811993472278118
+        },
+        {
+          "token": "was",
+          "token_pos": 11,
+          "quality": "stopword",
+          "word_score_logit": 0.05219629406929016,
+          "word_attn_weight": 0.028106939047574997
+        }
+      ],
+      [
+        {
+          "token": "he",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.08744335174560547,
+          "word_attn_weight": 0.07080846279859543
+        },
+        {
+          "token": "he",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": 0.07611924409866333,
+          "word_attn_weight": 0.07001114636659622
+        },
+        {
+          "token": "he",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": 0.06403550505638123,
+          "word_attn_weight": 0.06917023658752441
+        },
+        {
+          "token": "and",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.06111455336213112,
+          "word_attn_weight": 0.06896848976612091
+        },
+        {
+          "token": "controlled",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.056257884949445724,
+          "word_attn_weight": 0.06863434612751007
+        }
+      ],
+      [
+        {
+          "token": "the",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": 0.02414686605334282,
+          "word_attn_weight": 0.08485095947980881
+        },
+        {
+          "token": "review",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.020956270396709442,
+          "word_attn_weight": 0.0845806673169136
+        },
+        {
+          "token": "now",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": 0.01666410267353058,
+          "word_attn_weight": 0.08421841263771057
+        },
+        {
+          "token": "eye",
+          "token_pos": 8,
+          "quality": "content_word",
+          "word_score_logit": 0.015378204174339771,
+          "word_attn_weight": 0.08411018550395966
+        },
+        {
+          "token": "past",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.011563501320779324,
+          "word_attn_weight": 0.08378993719816208
+        }
+      ],
+      [
+        {
+          "token": "differently",
+          "token_pos": 31,
+          "quality": "content_word",
+          "word_score_logit": 0.02260640822350979,
+          "word_attn_weight": 0.031872522085905075
+        },
+        {
+          "token": "done",
+          "token_pos": 30,
+          "quality": "stopword",
+          "word_score_logit": 0.021644599735736847,
+          "word_attn_weight": 0.031841881573200226
+        },
+        {
+          "token": "could",
+          "token_pos": 27,
+          "quality": "stopword",
+          "word_score_logit": 0.02036362700164318,
+          "word_attn_weight": 0.031801119446754456
+        },
+        {
+          "token": "have",
+          "token_pos": 28,
+          "quality": "content_word",
+          "word_score_logit": 0.02016676589846611,
+          "word_attn_weight": 0.03179486095905304
+        },
+        {
+          "token": "anything",
+          "token_pos": 26,
+          "quality": "content_word",
+          "word_score_logit": 0.01862563192844391,
+          "word_attn_weight": 0.031745895743370056
+        }
+      ]
+    ],
+    "top_sentence_id": 1,
+    "sentence_importance_distribution": [
+      0.03071688301861286,
+      0.23413288593292236,
+      0.059047672897577286,
+      0.04376596212387085,
+      0.03566015884280205,
+      0.048272568732500076,
+      0.039780620485544205,
+      0.06402178853750229,
+      0.06574072688817978,
+      0.08483517169952393,
+      0.04187581688165665,
+      0.02078850008547306,
+      0.014609633013606071,
+      0.024319607764482498,
+      0.025275763124227524,
+      0.011716317385435104,
+      0.06449075788259506,
+      0.03683037310838699,
+      0.027447709813714027,
+      0.026671113446354866
+    ]
+  }
+}

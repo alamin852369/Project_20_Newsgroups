@@ -1,0 +1,823 @@
+{
+  "example_id": "test_2046",
+  "true_label_id": 0,
+  "pred_label_id": 17,
+  "true_label_name": "alt.atheism",
+  "pred_label_name": "talk.politics.mideast",
+  "pred_confidence": 0.655626118183136,
+  "metrics": {
+    "num_sents": 20,
+    "K": 5,
+    "stop_ratio": 0.55,
+    "unk_ratio": 0.0,
+    "num_ratio": 0.0,
+    "content_ratio": 0.42,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 2.442300796508789,
+    "sentence_importance_entropy": 2.529942274093628,
+    "sentence_importance_max": 0.24699333310127258,
+    "top_sentence_id": 0,
+    "query_mismatch_rate": 0.98,
+    "selected_quality_counts": {
+      "content_word": 42,
+      "stopword": 55,
+      "other": 3
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.33,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.17289533317089079,
+    "D_local_global_conflict": 0.98,
+    "E_overconfident_error": 0.655626118183136
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "once the rushdie situation exploded into the media the muslim voice on the matter of the book was effectively restricted to short video bytes showing the dramatic highlights of muslim demonstrations",
+      "for every twenty or so newspaper magazine articles interviews etc",
+      "supporting rushdie there would appear one muslim voice",
+      "this person was usually selected based on how dramatic and <UNK> he was not on his knowledge of islam or the situation at the time",
+      "this approx",
+      "twenty to one ratio continued throughout the <UNK> of the crisis with rushdie in the central <UNK> as the man of the moment the valiant defender of <UNK> right to free speech <UNK> from responsibility",
+      "as an aside it's interesting that while the hue and cry about freedom of speech went up some books <UNK> certain ethnic and religious groups continued to be banned here",
+      "it was felt that they injured the <UNK> of these groups and presented a false image which could promote feelings of hate towards these groups",
+      "for muslims this kind of double standard was annoying rushdie saw this <UNK> as a golden opportunity to <UNK> out at organized islam and he did so with <UNK> verbal skill",
+      "the only kind of islam which rushdie finds palatable is what he calls a secular islam an islam separated from it's qur'an it's prophet god its legislation and most importantly from any intrusion into any political arena",
+      "fine rushdie made his views known the <UNK> made their anger at his book known",
+      "the scale of the whole affair <UNK> into global proportions it was by this time already a political situation affecting governments as well as individuals",
+      "the situation was a serious one with far reaching political implications",
+      "at the centre of this turmoil was rushdie throwing fuel on the fire engaged in a personal crusade that made him oblivious to any sense of caution",
+      "now you may feel that the person in the centre of a worldwide storm such as this has no responsibility has no reason to exercise restraint of any kind has no obligation to perhaps step back <UNK> out of the <UNK> till matters calm down",
+      "perhaps you even feel that he is justified in boldly defying the anger of all those who dare to take <UNK> at his literary work no matter what insult they find within it",
+      "perhaps you see him as a kind of secular heroic knight mounted on the his media <UNK> doing battle with the dragon of islamic fundamentalism",
+      "well khomeini saw him as a <UNK> author who grew up in a muslim atmosphere knew well what <UNK> hold dear who wrote a book which <UNK> uses certain literary conventions to slander insult and attack islam and its most notable personalities who when faced with a situation that became",
+      "khomeini saw the crisis as <UNK> making on a grand scale <UNK> making that grew in scale as the scale of the crisis enlarged",
+      "the deaths of muslims around the world and rushdie's continued media <UNK> even after this was the <UNK> factor that seemed to decide khomeini on putting a stop to the <UNK>"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "bytes",
+          "token_pos": 23,
+          "quality": "content_word",
+          "word_score_logit": 0.015752287581562996,
+          "word_attn_weight": 0.034183915704488754
+        },
+        {
+          "token": "short",
+          "token_pos": 21,
+          "quality": "content_word",
+          "word_score_logit": 0.007001877762377262,
+          "word_attn_weight": 0.03388609737157822
+        },
+        {
+          "token": "video",
+          "token_pos": 22,
+          "quality": "content_word",
+          "word_score_logit": -0.004932623356580734,
+          "word_attn_weight": 0.03348408639431
+        },
+        {
+          "token": "into",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": -0.007022476755082607,
+          "word_attn_weight": 0.03341418132185936
+        },
+        {
+          "token": "was",
+          "token_pos": 17,
+          "quality": "stopword",
+          "word_score_logit": -0.008193131536245346,
+          "word_attn_weight": 0.0333750881254673
+        }
+      ],
+      [
+        {
+          "token": "every",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.022752413526177406,
+          "word_attn_weight": 0.10357488691806793
+        },
+        {
+          "token": "or",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": 0.014979491010308266,
+          "word_attn_weight": 0.10277292877435684
+        },
+        {
+          "token": "for",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.00621686689555645,
+          "word_attn_weight": 0.10187629610300064
+        },
+        {
+          "token": "so",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": 0.004299743101000786,
+          "word_attn_weight": 0.1016811802983284
+        },
+        {
+          "token": "twenty",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": -0.0034648962318897247,
+          "word_attn_weight": 0.10089472681283951
+        }
+      ],
+      [
+        {
+          "token": "appear",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.015302128158509731,
+          "word_attn_weight": 0.1292831301689148
+        },
+        {
+          "token": "one",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.012432780116796494,
+          "word_attn_weight": 0.12891270220279694
+        },
+        {
+          "token": "voice",
+          "token_pos": 7,
+          "quality": "content_word",
+          "word_score_logit": -0.007054544985294342,
+          "word_attn_weight": 0.1264248490333557
+        },
+        {
+          "token": "there",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": -0.009728431701660156,
+          "word_attn_weight": 0.1260872632265091
+        },
+        {
+          "token": "would",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": -0.011256810277700424,
+          "word_attn_weight": 0.125894695520401
+        }
+      ],
+      [
+        {
+          "token": "knowledge",
+          "token_pos": 16,
+          "quality": "content_word",
+          "word_score_logit": 0.05581711232662201,
+          "word_attn_weight": 0.04120675101876259
+        },
+        {
+          "token": "of",
+          "token_pos": 17,
+          "quality": "stopword",
+          "word_score_logit": 0.05311448872089386,
+          "word_attn_weight": 0.041095536202192307
+        },
+        {
+          "token": "his",
+          "token_pos": 15,
+          "quality": "stopword",
+          "word_score_logit": 0.05187403783202171,
+          "word_attn_weight": 0.04104459285736084
+        },
+        {
+          "token": "he",
+          "token_pos": 11,
+          "quality": "stopword",
+          "word_score_logit": 0.04045041278004646,
+          "word_attn_weight": 0.04057838022708893
+        },
+        {
+          "token": "was",
+          "token_pos": 12,
+          "quality": "stopword",
+          "word_score_logit": 0.03846537694334984,
+          "word_attn_weight": 0.04049791023135185
+        }
+      ],
+      [
+        {
+          "token": "this",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": -0.004103801213204861,
+          "word_attn_weight": 0.5084352493286133
+        },
+        {
+          "token": "approx",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": -0.03784796595573425,
+          "word_attn_weight": 0.4915647506713867
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 3,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 2,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ],
+      [
+        {
+          "token": "throughout",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.04767982289195061,
+          "word_attn_weight": 0.030007168650627136
+        },
+        {
+          "token": "continued",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.03682900592684746,
+          "word_attn_weight": 0.029683327302336693
+        },
+        {
+          "token": "the",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": 0.02716205269098282,
+          "word_attn_weight": 0.029397761449217796
+        },
+        {
+          "token": "in",
+          "token_pos": 13,
+          "quality": "stopword",
+          "word_score_logit": 0.027156416326761246,
+          "word_attn_weight": 0.029397593811154366
+        },
+        {
+          "token": "as",
+          "token_pos": 17,
+          "quality": "stopword",
+          "word_score_logit": 0.02644796296954155,
+          "word_attn_weight": 0.02937677502632141
+        }
+      ],
+      [
+        {
+          "token": "certain",
+          "token_pos": 20,
+          "quality": "content_word",
+          "word_score_logit": 0.023163704201579094,
+          "word_attn_weight": 0.034463364630937576
+        },
+        {
+          "token": "the",
+          "token_pos": 7,
+          "quality": "stopword",
+          "word_score_logit": 0.018780898302793503,
+          "word_attn_weight": 0.034312646836042404
+        },
+        {
+          "token": "as",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.016560396179556847,
+          "word_attn_weight": 0.03423653915524483
+        },
+        {
+          "token": "hue",
+          "token_pos": 8,
+          "quality": "content_word",
+          "word_score_logit": 0.016144458204507828,
+          "word_attn_weight": 0.034222304821014404
+        },
+        {
+          "token": "an",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.012650134041905403,
+          "word_attn_weight": 0.03410292789340019
+        }
+      ],
+      [
+        {
+          "token": "was",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.04856182634830475,
+          "word_attn_weight": 0.04207611829042435
+        },
+        {
+          "token": "felt",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.041856780648231506,
+          "word_attn_weight": 0.04179494082927704
+        },
+        {
+          "token": "injured",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.04127074033021927,
+          "word_attn_weight": 0.04177045449614525
+        },
+        {
+          "token": "that",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": 0.037071872502565384,
+          "word_attn_weight": 0.04159543290734291
+        },
+        {
+          "token": "they",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": 0.03225567564368248,
+          "word_attn_weight": 0.041395582258701324
+        }
+      ],
+      [
+        {
+          "token": "at",
+          "token_pos": 20,
+          "quality": "stopword",
+          "word_score_logit": 0.026435652747750282,
+          "word_attn_weight": 0.03329430893063545
+        },
+        {
+          "token": "he",
+          "token_pos": 24,
+          "quality": "stopword",
+          "word_score_logit": 0.019859515130519867,
+          "word_attn_weight": 0.033076077699661255
+        },
+        {
+          "token": "did",
+          "token_pos": 25,
+          "quality": "stopword",
+          "word_score_logit": 0.011500348336994648,
+          "word_attn_weight": 0.032800741493701935
+        },
+        {
+          "token": "of",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": 0.010676136240363121,
+          "word_attn_weight": 0.03277371823787689
+        },
+        {
+          "token": "for",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.00997762382030487,
+          "word_attn_weight": 0.03275083377957344
+        }
+      ],
+      [
+        {
+          "token": "any",
+          "token_pos": 34,
+          "quality": "content_word",
+          "word_score_logit": 0.05398222804069519,
+          "word_attn_weight": 0.029514197260141373
+        },
+        {
+          "token": "into",
+          "token_pos": 33,
+          "quality": "stopword",
+          "word_score_logit": 0.04411262273788452,
+          "word_attn_weight": 0.02922433614730835
+        },
+        {
+          "token": "intrusion",
+          "token_pos": 32,
+          "quality": "content_word",
+          "word_score_logit": 0.0439152717590332,
+          "word_attn_weight": 0.02921856753528118
+        },
+        {
+          "token": "political",
+          "token_pos": 35,
+          "quality": "content_word",
+          "word_score_logit": 0.029722785577178,
+          "word_attn_weight": 0.028806813061237335
+        },
+        {
+          "token": "kind",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.015792004764080048,
+          "word_attn_weight": 0.028408294543623924
+        }
+      ],
+      [
+        {
+          "token": "his",
+          "token_pos": 12,
+          "quality": "stopword",
+          "word_score_logit": 0.05774679780006409,
+          "word_attn_weight": 0.06931710243225098
+        },
+        {
+          "token": "his",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": 0.05530925467610359,
+          "word_attn_weight": 0.06914834678173065
+        },
+        {
+          "token": "known",
+          "token_pos": 14,
+          "quality": "content_word",
+          "word_score_logit": 0.05487959831953049,
+          "word_attn_weight": 0.06911864131689072
+        },
+        {
+          "token": "known",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.045362744480371475,
+          "word_attn_weight": 0.06846396625041962
+        },
+        {
+          "token": "at",
+          "token_pos": 11,
+          "quality": "stopword",
+          "word_score_logit": 0.033428605645895004,
+          "word_attn_weight": 0.06765176355838776
+        }
+      ],
+      [
+        {
+          "token": "as",
+          "token_pos": 23,
+          "quality": "stopword",
+          "word_score_logit": 0.014975612983107567,
+          "word_attn_weight": 0.041607677936553955
+        },
+        {
+          "token": "as",
+          "token_pos": 21,
+          "quality": "stopword",
+          "word_score_logit": 0.0032293451949954033,
+          "word_attn_weight": 0.04112180322408676
+        },
+        {
+          "token": "was",
+          "token_pos": 11,
+          "quality": "stopword",
+          "word_score_logit": 0.0021545542404055595,
+          "word_attn_weight": 0.0410776324570179
+        },
+        {
+          "token": "proportions",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": 0.0005264077335596085,
+          "word_attn_weight": 0.04101080447435379
+        },
+        {
+          "token": "individuals",
+          "token_pos": 24,
+          "quality": "content_word",
+          "word_score_logit": 4.5746564865112305e-06,
+          "word_attn_weight": 0.040989406406879425
+        }
+      ],
+      [
+        {
+          "token": "the",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": -0.001311618834733963,
+          "word_attn_weight": 0.09245925396680832
+        },
+        {
+          "token": "was",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": -0.011155996471643448,
+          "word_attn_weight": 0.09155351668596268
+        },
+        {
+          "token": "situation",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": -0.013794023543596268,
+          "word_attn_weight": 0.09131231158971786
+        },
+        {
+          "token": "with",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": -0.014403112232685089,
+          "word_attn_weight": 0.09125671535730362
+        },
+        {
+          "token": "one",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": -0.016526373103260994,
+          "word_attn_weight": 0.09106316417455673
+        }
+      ],
+      [
+        {
+          "token": "caution",
+          "token_pos": 26,
+          "quality": "content_word",
+          "word_score_logit": 0.05878482758998871,
+          "word_attn_weight": 0.038997549563646317
+        },
+        {
+          "token": "him",
+          "token_pos": 20,
+          "quality": "stopword",
+          "word_score_logit": 0.04788728058338165,
+          "word_attn_weight": 0.03857487440109253
+        },
+        {
+          "token": "any",
+          "token_pos": 23,
+          "quality": "content_word",
+          "word_score_logit": 0.0395297147333622,
+          "word_attn_weight": 0.03825382888317108
+        },
+        {
+          "token": "sense",
+          "token_pos": 24,
+          "quality": "content_word",
+          "word_score_logit": 0.03723672777414322,
+          "word_attn_weight": 0.038166213780641556
+        },
+        {
+          "token": "made",
+          "token_pos": 19,
+          "quality": "content_word",
+          "word_score_logit": 0.033872976899147034,
+          "word_attn_weight": 0.03803804889321327
+        }
+      ],
+      [
+        {
+          "token": "calm",
+          "token_pos": 43,
+          "quality": "content_word",
+          "word_score_logit": 0.025682032108306885,
+          "word_attn_weight": 0.02302365005016327
+        },
+        {
+          "token": "no",
+          "token_pos": 30,
+          "quality": "stopword",
+          "word_score_logit": 0.022359490394592285,
+          "word_attn_weight": 0.02294727973639965
+        },
+        {
+          "token": "any",
+          "token_pos": 27,
+          "quality": "content_word",
+          "word_score_logit": 0.020588822662830353,
+          "word_attn_weight": 0.022906683385372162
+        },
+        {
+          "token": "of",
+          "token_pos": 26,
+          "quality": "stopword",
+          "word_score_logit": 0.017400914803147316,
+          "word_attn_weight": 0.022833773866295815
+        },
+        {
+          "token": "kind",
+          "token_pos": 28,
+          "quality": "content_word",
+          "word_score_logit": 0.01625322364270687,
+          "word_attn_weight": 0.022807583212852478
+        }
+      ],
+      [
+        {
+          "token": "no",
+          "token_pos": 25,
+          "quality": "stopword",
+          "word_score_logit": 0.054381296038627625,
+          "word_attn_weight": 0.032350149005651474
+        },
+        {
+          "token": "matter",
+          "token_pos": 26,
+          "quality": "content_word",
+          "word_score_logit": 0.04196299612522125,
+          "word_attn_weight": 0.031950898468494415
+        },
+        {
+          "token": "his",
+          "token_pos": 22,
+          "quality": "stopword",
+          "word_score_logit": 0.02911456674337387,
+          "word_attn_weight": 0.031543005257844925
+        },
+        {
+          "token": "what",
+          "token_pos": 27,
+          "quality": "stopword",
+          "word_score_logit": 0.026303190737962723,
+          "word_attn_weight": 0.03145445138216019
+        },
+        {
+          "token": "at",
+          "token_pos": 21,
+          "quality": "stopword",
+          "word_score_logit": 0.011338552460074425,
+          "word_attn_weight": 0.030987251549959183
+        }
+      ],
+      [
+        {
+          "token": "his",
+          "token_pos": 14,
+          "quality": "stopword",
+          "word_score_logit": 0.02547037973999977,
+          "word_attn_weight": 0.042030639946460724
+        },
+        {
+          "token": "perhaps",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": 0.021600591018795967,
+          "word_attn_weight": 0.04186830669641495
+        },
+        {
+          "token": "the",
+          "token_pos": 13,
+          "quality": "stopword",
+          "word_score_logit": 0.011996513232588768,
+          "word_attn_weight": 0.041468121111392975
+        },
+        {
+          "token": "as",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": 0.006252845749258995,
+          "word_attn_weight": 0.04123062267899513
+        },
+        {
+          "token": "you",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.005199434235692024,
+          "word_attn_weight": 0.041187215596437454
+        }
+      ],
+      [
+        {
+          "token": "uses",
+          "token_pos": 27,
+          "quality": "content_word",
+          "word_score_logit": 0.04651426896452904,
+          "word_attn_weight": 0.021458085626363754
+        },
+        {
+          "token": "certain",
+          "token_pos": 28,
+          "quality": "content_word",
+          "word_score_logit": 0.038725681602954865,
+          "word_attn_weight": 0.02129160799086094
+        },
+        {
+          "token": "a",
+          "token_pos": 12,
+          "quality": "stopword",
+          "word_score_logit": 0.0153703223913908,
+          "word_attn_weight": 0.020800095051527023
+        },
+        {
+          "token": "attack",
+          "token_pos": 35,
+          "quality": "content_word",
+          "word_score_logit": 0.00965377688407898,
+          "word_attn_weight": 0.020681532099843025
+        },
+        {
+          "token": "literary",
+          "token_pos": 29,
+          "quality": "content_word",
+          "word_score_logit": 0.008749861270189285,
+          "word_attn_weight": 0.02066284604370594
+        }
+      ],
+      [
+        {
+          "token": "of",
+          "token_pos": 20,
+          "quality": "stopword",
+          "word_score_logit": 0.014503167942166328,
+          "word_attn_weight": 0.0435858890414238
+        },
+        {
+          "token": "as",
+          "token_pos": 17,
+          "quality": "stopword",
+          "word_score_logit": 0.008841796778142452,
+          "word_attn_weight": 0.04333983361721039
+        },
+        {
+          "token": "scale",
+          "token_pos": 19,
+          "quality": "content_word",
+          "word_score_logit": 0.0076728202402591705,
+          "word_attn_weight": 0.043289195746183395
+        },
+        {
+          "token": "the",
+          "token_pos": 21,
+          "quality": "stopword",
+          "word_score_logit": 0.002218213863670826,
+          "word_attn_weight": 0.04305371642112732
+        },
+        {
+          "token": "scale",
+          "token_pos": 16,
+          "quality": "content_word",
+          "word_score_logit": -0.0028301607817411423,
+          "word_attn_weight": 0.042836908251047134
+        }
+      ],
+      [
+        {
+          "token": "factor",
+          "token_pos": 18,
+          "quality": "content_word",
+          "word_score_logit": 0.04407689347863197,
+          "word_attn_weight": 0.03437117859721184
+        },
+        {
+          "token": "was",
+          "token_pos": 15,
+          "quality": "stopword",
+          "word_score_logit": 0.02476339414715767,
+          "word_attn_weight": 0.03371372073888779
+        },
+        {
+          "token": "the",
+          "token_pos": 16,
+          "quality": "stopword",
+          "word_score_logit": 0.01613732986152172,
+          "word_attn_weight": 0.03342415392398834
+        },
+        {
+          "token": "that",
+          "token_pos": 19,
+          "quality": "stopword",
+          "word_score_logit": 0.012314094230532646,
+          "word_attn_weight": 0.0332966111600399
+        },
+        {
+          "token": "the",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.010812819004058838,
+          "word_attn_weight": 0.033246658742427826
+        }
+      ]
+    ],
+    "top_sentence_id": 0,
+    "sentence_importance_distribution": [
+      0.24699333310127258,
+      0.013093938119709492,
+      0.035616856068372726,
+      0.03512118011713028,
+      0.010692750103771687,
+      0.020823070779442787,
+      0.04388940706849098,
+      0.046054039150476456,
+      0.022615529596805573,
+      0.1840684860944748,
+      0.022374583408236504,
+      0.024340501055121422,
+      0.015754640102386475,
+      0.03024287149310112,
+      0.019272349774837494,
+      0.023708492517471313,
+      0.08015000820159912,
+      0.0804637148976326,
+      0.019231854006648064,
+      0.02549237199127674
+    ]
+  }
+}

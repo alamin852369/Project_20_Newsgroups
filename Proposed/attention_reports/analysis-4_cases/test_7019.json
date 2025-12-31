@@ -1,0 +1,80 @@
+{
+  "example_id": "test_7019",
+  "true_label_id": 8,
+  "pred_label_id": 0,
+  "true_label_name": "rec.motorcycles",
+  "pred_label_name": "alt.atheism",
+  "pred_confidence": 0.8799318671226501,
+  "metrics": {
+    "num_sents": 1,
+    "K": 5,
+    "stop_ratio": 1.0,
+    "unk_ratio": 0.0,
+    "num_ratio": 0.0,
+    "content_ratio": 0.0,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 0.0,
+    "sentence_importance_entropy": -0.0,
+    "sentence_importance_max": 1.0,
+    "top_sentence_id": 0,
+    "query_mismatch_rate": 0.0,
+    "selected_quality_counts": {
+      "stopword": 5
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.6,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 1.0,
+    "D_local_global_conflict": 0.0,
+    "E_overconfident_error": 0.8799318671226501
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "wrong newsgroup or no what did <UNK> mean when he wrote that line"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "no",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": 0.052034273743629456,
+          "word_attn_weight": 0.07907950133085251
+        },
+        {
+          "token": "did",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.03328754007816315,
+          "word_attn_weight": 0.07761082798242569
+        },
+        {
+          "token": "what",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": 0.03296443074941635,
+          "word_attn_weight": 0.07758575677871704
+        },
+        {
+          "token": "he",
+          "token_pos": 9,
+          "quality": "stopword",
+          "word_score_logit": 0.03293466940522194,
+          "word_attn_weight": 0.077583447098732
+        },
+        {
+          "token": "or",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.0328499861061573,
+          "word_attn_weight": 0.07757687568664551
+        }
+      ]
+    ],
+    "top_sentence_id": 0,
+    "sentence_importance_distribution": [
+      1.0
+    ]
+  }
+}

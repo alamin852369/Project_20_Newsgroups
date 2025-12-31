@@ -1,0 +1,297 @@
+{
+  "true_label_id": 18,
+  "pred_label_id": 16,
+  "true_label_name": "talk.politics.misc",
+  "pred_label_name": "talk.politics.guns",
+  "pred_confidence": 0.9871619343757629,
+  "num_sents": 2,
+  "top_sentences": [
+    {
+      "sentence_id": 1,
+      "importance": 0.750452995300293,
+      "sentence_text": "are you telling me that clinton and reno did not know that the batf actions were illegal <UNK> in violation of their warrant",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "did",
+          "token_pos": 8,
+          "word_score_logit": 0.06520043313503265,
+          "word_attn_weight": 0.045080412179231644
+        },
+        {
+          "rank": 1,
+          "token": "not",
+          "token_pos": 9,
+          "word_score_logit": 0.06400617957115173,
+          "word_attn_weight": 0.04502660781145096
+        },
+        {
+          "rank": 2,
+          "token": "of",
+          "token_pos": 20,
+          "word_score_logit": 0.06135900318622589,
+          "word_attn_weight": 0.044907573610544205
+        },
+        {
+          "rank": 3,
+          "token": "and",
+          "token_pos": 6,
+          "word_score_logit": 0.05667343735694885,
+          "word_attn_weight": 0.04469764605164528
+        },
+        {
+          "rank": 4,
+          "token": "reno",
+          "token_pos": 7,
+          "word_score_logit": 0.056183822453022,
+          "word_attn_weight": 0.04467576742172241
+        }
+      ]
+    },
+    {
+      "sentence_id": 0,
+      "importance": 0.24954698979854584,
+      "sentence_text": "give me a break chum",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "give",
+          "token_pos": 0,
+          "word_score_logit": 0.02582988329231739,
+          "word_attn_weight": 0.20377381145954132
+        },
+        {
+          "rank": 1,
+          "token": "me",
+          "token_pos": 1,
+          "word_score_logit": 0.009012185968458652,
+          "word_attn_weight": 0.20037546753883362
+        },
+        {
+          "rank": 2,
+          "token": "chum",
+          "token_pos": 4,
+          "word_score_logit": 0.0015407679602503777,
+          "word_attn_weight": 0.19888393580913544
+        },
+        {
+          "rank": 3,
+          "token": "a",
+          "token_pos": 2,
+          "word_score_logit": 0.0001073949970304966,
+          "word_attn_weight": 0.19859907031059265
+        },
+        {
+          "rank": 4,
+          "token": "break",
+          "token_pos": 3,
+          "word_score_logit": -0.001058107241988182,
+          "word_attn_weight": 0.19836774468421936
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 5,
+      "from_sentence_id": 1,
+      "token": "did",
+      "token_pos": 8,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.8819917440414429,
+          "sentence_text": "are you telling me that clinton and reno did not know that the batf actions were illegal <UNK> in violation of their warrant"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.11800822615623474,
+          "sentence_text": "give me a break chum"
+        }
+      ]
+    },
+    {
+      "query_id": 6,
+      "from_sentence_id": 1,
+      "token": "not",
+      "token_pos": 9,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.8764723539352417,
+          "sentence_text": "are you telling me that clinton and reno did not know that the batf actions were illegal <UNK> in violation of their warrant"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.1235276311635971,
+          "sentence_text": "give me a break chum"
+        }
+      ]
+    },
+    {
+      "query_id": 7,
+      "from_sentence_id": 1,
+      "token": "of",
+      "token_pos": 20,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.9014735817909241,
+          "sentence_text": "are you telling me that clinton and reno did not know that the batf actions were illegal <UNK> in violation of their warrant"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.09852639585733414,
+          "sentence_text": "give me a break chum"
+        }
+      ]
+    },
+    {
+      "query_id": 8,
+      "from_sentence_id": 1,
+      "token": "and",
+      "token_pos": 6,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.8489064574241638,
+          "sentence_text": "are you telling me that clinton and reno did not know that the batf actions were illegal <UNK> in violation of their warrant"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.15109354257583618,
+          "sentence_text": "give me a break chum"
+        }
+      ]
+    },
+    {
+      "query_id": 9,
+      "from_sentence_id": 1,
+      "token": "reno",
+      "token_pos": 7,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.8680372834205627,
+          "sentence_text": "are you telling me that clinton and reno did not know that the batf actions were illegal <UNK> in violation of their warrant"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.13196274638175964,
+          "sentence_text": "give me a break chum"
+        }
+      ]
+    },
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "give",
+      "token_pos": 0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.7207474708557129,
+          "sentence_text": "are you telling me that clinton and reno did not know that the batf actions were illegal <UNK> in violation of their warrant"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.2792524993419647,
+          "sentence_text": "give me a break chum"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "me",
+      "token_pos": 1,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.6440684795379639,
+          "sentence_text": "are you telling me that clinton and reno did not know that the batf actions were illegal <UNK> in violation of their warrant"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.35593149065971375,
+          "sentence_text": "give me a break chum"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "chum",
+      "token_pos": 4,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5316600799560547,
+          "sentence_text": "give me a break chum"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.4683399796485901,
+          "sentence_text": "are you telling me that clinton and reno did not know that the batf actions were illegal <UNK> in violation of their warrant"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "a",
+      "token_pos": 2,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.640144944190979,
+          "sentence_text": "are you telling me that clinton and reno did not know that the batf actions were illegal <UNK> in violation of their warrant"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.3598550260066986,
+          "sentence_text": "give me a break chum"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "break",
+      "token_pos": 3,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.6543476581573486,
+          "sentence_text": "are you telling me that clinton and reno did not know that the batf actions were illegal <UNK> in violation of their warrant"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.34565234184265137,
+          "sentence_text": "give me a break chum"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_4345"
+}

@@ -1,0 +1,316 @@
+{
+  "example_id": "test_7051",
+  "true_label_id": 2,
+  "pred_label_id": 14,
+  "true_label_name": "comp.os.ms-windows.misc",
+  "pred_label_name": "sci.space",
+  "pred_confidence": 0.9925646781921387,
+  "metrics": {
+    "num_sents": 7,
+    "K": 5,
+    "stop_ratio": 0.42857142857142855,
+    "unk_ratio": 0.0,
+    "num_ratio": 0.0,
+    "content_ratio": 0.3142857142857143,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 1.8000363111495972,
+    "sentence_importance_entropy": 1.8489056825637817,
+    "sentence_importance_max": 0.3148810863494873,
+    "top_sentence_id": 6,
+    "query_mismatch_rate": 0.8571428571428571,
+    "selected_quality_counts": {
+      "stopword": 15,
+      "content_word": 11,
+      "other": 9
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.2571428571428571,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.2204167604446411,
+    "D_local_global_conflict": 0.8571428571428571,
+    "E_overconfident_error": 0.9925646781921387
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "i have a copy",
+      "it isn't in there",
+      "microsoft says it will not be in the release version either",
+      "he just asked if it did or not",
+      "i told him",
+      "you're welcome",
+      "insisting on perfect safety is for people who don't have the balls to live in the real world mary shafer nasa ames dryden"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "i",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.017995264381170273,
+          "word_attn_weight": 0.25244927406311035
+        },
+        {
+          "token": "have",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.01658649370074272,
+          "word_attn_weight": 0.2520938813686371
+        },
+        {
+          "token": "a",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.010167950764298439,
+          "word_attn_weight": 0.250480979681015
+        },
+        {
+          "token": "copy",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": -0.012055372819304466,
+          "word_attn_weight": 0.24497586488723755
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ],
+      [
+        {
+          "token": "in",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.013979876413941383,
+          "word_attn_weight": 0.25225263833999634
+        },
+        {
+          "token": "there",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": 0.012312851846218109,
+          "word_attn_weight": 0.2518324851989746
+        },
+        {
+          "token": "it",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": -0.00191524438560009,
+          "word_attn_weight": 0.2482747584581375
+        },
+        {
+          "token": "isn't",
+          "token_pos": 1,
+          "quality": "other",
+          "word_score_logit": -0.004474641755223274,
+          "word_attn_weight": 0.24764011800289154
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ],
+      [
+        {
+          "token": "either",
+          "token_pos": 10,
+          "quality": "content_word",
+          "word_score_logit": 0.04196522384881973,
+          "word_attn_weight": 0.09460563212633133
+        },
+        {
+          "token": "version",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": 0.01913358084857464,
+          "word_attn_weight": 0.09247010201215744
+        },
+        {
+          "token": "microsoft",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": 0.01172739826142788,
+          "word_attn_weight": 0.09178777784109116
+        },
+        {
+          "token": "in",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": -0.0005547981709241867,
+          "word_attn_weight": 0.09066732227802277
+        },
+        {
+          "token": "not",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": -0.0005701351910829544,
+          "word_attn_weight": 0.09066592901945114
+        }
+      ],
+      [
+        {
+          "token": "he",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.031903788447380066,
+          "word_attn_weight": 0.12629207968711853
+        },
+        {
+          "token": "or",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": 0.031646728515625,
+          "word_attn_weight": 0.12625962495803833
+        },
+        {
+          "token": "not",
+          "token_pos": 7,
+          "quality": "stopword",
+          "word_score_logit": 0.03008570522069931,
+          "word_attn_weight": 0.12606269121170044
+        },
+        {
+          "token": "did",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.02758890390396118,
+          "word_attn_weight": 0.12574832141399384
+        },
+        {
+          "token": "if",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": 0.015540001913905144,
+          "word_attn_weight": 0.12424228340387344
+        }
+      ],
+      [
+        {
+          "token": "him",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.02322966977953911,
+          "word_attn_weight": 0.33381181955337524
+        },
+        {
+          "token": "i",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.022200338542461395,
+          "word_attn_weight": 0.33346837759017944
+        },
+        {
+          "token": "told",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.01995299756526947,
+          "word_attn_weight": 0.3327198028564453
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 3,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ],
+      [
+        {
+          "token": "welcome",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.01266389898955822,
+          "word_attn_weight": 0.5057234764099121
+        },
+        {
+          "token": "you're",
+          "token_pos": 0,
+          "quality": "other",
+          "word_score_logit": -0.010231086984276772,
+          "word_attn_weight": 0.4942765235900879
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 3,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 2,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ],
+      [
+        {
+          "token": "dryden",
+          "token_pos": 22,
+          "quality": "content_word",
+          "word_score_logit": 0.11595707386732101,
+          "word_attn_weight": 0.046816080808639526
+        },
+        {
+          "token": "nasa",
+          "token_pos": 20,
+          "quality": "content_word",
+          "word_score_logit": 0.1010279431939125,
+          "word_attn_weight": 0.04612234979867935
+        },
+        {
+          "token": "safety",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.08486054092645645,
+          "word_attn_weight": 0.04538266733288765
+        },
+        {
+          "token": "ames",
+          "token_pos": 21,
+          "quality": "content_word",
+          "word_score_logit": 0.07484764605760574,
+          "word_attn_weight": 0.04493052139878273
+        },
+        {
+          "token": "is",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": 0.06473860144615173,
+          "word_attn_weight": 0.04447860270738602
+        }
+      ]
+    ],
+    "top_sentence_id": 6,
+    "sentence_importance_distribution": [
+      0.12043245136737823,
+      0.1270158886909485,
+      0.11282531917095184,
+      0.10788074880838394,
+      0.1139431744813919,
+      0.10302136838436127,
+      0.3148810863494873
+    ]
+  }
+}

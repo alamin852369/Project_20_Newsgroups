@@ -1,0 +1,587 @@
+{
+  "true_label_id": 16,
+  "pred_label_id": 16,
+  "true_label_name": "talk.politics.guns",
+  "pred_label_name": "talk.politics.guns",
+  "pred_confidence": 0.9575928449630737,
+  "num_sents": 3,
+  "sentence_summaries": [
+    {
+      "sentence_id": 0,
+      "sentence_text": "i just called <UNK> legislative bill tracking service and found out that hb 1776 concealed carry is scheduled for a floor vote today",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "found",
+          "token_pos": 9,
+          "word_score_logit": 0.11300662904977798,
+          "word_attn_weight": 0.04614381864666939
+        },
+        {
+          "rank": 1,
+          "token": "and",
+          "token_pos": 8,
+          "word_score_logit": 0.10130123049020767,
+          "word_attn_weight": 0.045606836676597595
+        },
+        {
+          "rank": 2,
+          "token": "service",
+          "token_pos": 7,
+          "word_score_logit": 0.09982911497354507,
+          "word_attn_weight": 0.045539747923612595
+        },
+        {
+          "rank": 3,
+          "token": "out",
+          "token_pos": 10,
+          "word_score_logit": 0.09715931862592697,
+          "word_attn_weight": 0.04541832581162453
+        },
+        {
+          "rank": 4,
+          "token": "that",
+          "token_pos": 11,
+          "word_score_logit": 0.08303185552358627,
+          "word_attn_weight": 0.044781193137168884
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "sentence_text": "let those phone calls roll in",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "in",
+          "token_pos": 5,
+          "word_score_logit": 0.05695950612425804,
+          "word_attn_weight": 0.1702350378036499
+        },
+        {
+          "rank": 1,
+          "token": "phone",
+          "token_pos": 2,
+          "word_score_logit": 0.04587690904736519,
+          "word_attn_weight": 0.16835881769657135
+        },
+        {
+          "rank": 2,
+          "token": "calls",
+          "token_pos": 3,
+          "word_score_logit": 0.044063981622457504,
+          "word_attn_weight": 0.16805385053157806
+        },
+        {
+          "rank": 3,
+          "token": "roll",
+          "token_pos": 4,
+          "word_score_logit": 0.03997687250375748,
+          "word_attn_weight": 0.16736841201782227
+        },
+        {
+          "rank": 4,
+          "token": "let",
+          "token_pos": 0,
+          "word_score_logit": 0.022271405905485153,
+          "word_attn_weight": 0.1644311547279358
+        }
+      ]
+    },
+    {
+      "sentence_id": 2,
+      "sentence_text": "daryl",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "daryl",
+          "token_pos": 0,
+          "word_score_logit": 0.04141083359718323,
+          "word_attn_weight": 1.0
+        },
+        {
+          "rank": 1,
+          "token": "<PAD>",
+          "token_pos": 3,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 2,
+          "token": "<PAD>",
+          "token_pos": 1,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 3,
+          "token": "<PAD>",
+          "token_pos": 4,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 4,
+          "token": "<PAD>",
+          "token_pos": 2,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    }
+  ],
+  "query_summaries": [
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "found",
+      "token_pos": 9,
+      "word_score_logit": 0.11300662904977798,
+      "word_attn_weight": 0.04614381864666939,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.7545517683029175,
+          "sentence_text": "i just called <UNK> legislative bill tracking service and found out that hb 1776 concealed carry is scheduled for a floor vote today"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.13736751675605774,
+          "sentence_text": "let those phone calls roll in"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.10808071494102478,
+          "sentence_text": "daryl"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "and",
+      "token_pos": 8,
+      "word_score_logit": 0.10130123049020767,
+      "word_attn_weight": 0.045606836676597595,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.773670494556427,
+          "sentence_text": "i just called <UNK> legislative bill tracking service and found out that hb 1776 concealed carry is scheduled for a floor vote today"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.12245480716228485,
+          "sentence_text": "let those phone calls roll in"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.10387466847896576,
+          "sentence_text": "daryl"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "service",
+      "token_pos": 7,
+      "word_score_logit": 0.09982911497354507,
+      "word_attn_weight": 0.045539747923612595,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.8058189153671265,
+          "sentence_text": "i just called <UNK> legislative bill tracking service and found out that hb 1776 concealed carry is scheduled for a floor vote today"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.10682994872331619,
+          "sentence_text": "let those phone calls roll in"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.08735112845897675,
+          "sentence_text": "daryl"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "out",
+      "token_pos": 10,
+      "word_score_logit": 0.09715931862592697,
+      "word_attn_weight": 0.04541832581162453,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.7120774984359741,
+          "sentence_text": "i just called <UNK> legislative bill tracking service and found out that hb 1776 concealed carry is scheduled for a floor vote today"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.15615388751029968,
+          "sentence_text": "let those phone calls roll in"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.131768599152565,
+          "sentence_text": "daryl"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "that",
+      "token_pos": 11,
+      "word_score_logit": 0.08303185552358627,
+      "word_attn_weight": 0.044781193137168884,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.7092224955558777,
+          "sentence_text": "i just called <UNK> legislative bill tracking service and found out that hb 1776 concealed carry is scheduled for a floor vote today"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.15849415957927704,
+          "sentence_text": "let those phone calls roll in"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.13228335976600647,
+          "sentence_text": "daryl"
+        }
+      ]
+    },
+    {
+      "query_id": 5,
+      "from_sentence_id": 1,
+      "token": "in",
+      "token_pos": 5,
+      "word_score_logit": 0.05695950612425804,
+      "word_attn_weight": 0.1702350378036499,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6619961261749268,
+          "sentence_text": "i just called <UNK> legislative bill tracking service and found out that hb 1776 concealed carry is scheduled for a floor vote today"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.19016866385936737,
+          "sentence_text": "let those phone calls roll in"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.14783522486686707,
+          "sentence_text": "daryl"
+        }
+      ]
+    },
+    {
+      "query_id": 6,
+      "from_sentence_id": 1,
+      "token": "phone",
+      "token_pos": 2,
+      "word_score_logit": 0.04587690904736519,
+      "word_attn_weight": 0.16835881769657135,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6888960599899292,
+          "sentence_text": "i just called <UNK> legislative bill tracking service and found out that hb 1776 concealed carry is scheduled for a floor vote today"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.17662745714187622,
+          "sentence_text": "let those phone calls roll in"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.13447648286819458,
+          "sentence_text": "daryl"
+        }
+      ]
+    },
+    {
+      "query_id": 7,
+      "from_sentence_id": 1,
+      "token": "calls",
+      "token_pos": 3,
+      "word_score_logit": 0.044063981622457504,
+      "word_attn_weight": 0.16805385053157806,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.7034380435943604,
+          "sentence_text": "i just called <UNK> legislative bill tracking service and found out that hb 1776 concealed carry is scheduled for a floor vote today"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.16979281604290009,
+          "sentence_text": "let those phone calls roll in"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.12676912546157837,
+          "sentence_text": "daryl"
+        }
+      ]
+    },
+    {
+      "query_id": 8,
+      "from_sentence_id": 1,
+      "token": "roll",
+      "token_pos": 4,
+      "word_score_logit": 0.03997687250375748,
+      "word_attn_weight": 0.16736841201782227,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.739088773727417,
+          "sentence_text": "i just called <UNK> legislative bill tracking service and found out that hb 1776 concealed carry is scheduled for a floor vote today"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.14488628506660461,
+          "sentence_text": "let those phone calls roll in"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.1160249337553978,
+          "sentence_text": "daryl"
+        }
+      ]
+    },
+    {
+      "query_id": 9,
+      "from_sentence_id": 1,
+      "token": "let",
+      "token_pos": 0,
+      "word_score_logit": 0.022271405905485153,
+      "word_attn_weight": 0.1644311547279358,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6085261702537537,
+          "sentence_text": "i just called <UNK> legislative bill tracking service and found out that hb 1776 concealed carry is scheduled for a floor vote today"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.22022947669029236,
+          "sentence_text": "let those phone calls roll in"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.17124438285827637,
+          "sentence_text": "daryl"
+        }
+      ]
+    },
+    {
+      "query_id": 10,
+      "from_sentence_id": 2,
+      "token": "daryl",
+      "token_pos": 0,
+      "word_score_logit": 0.04141083359718323,
+      "word_attn_weight": 1.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.606842041015625,
+          "sentence_text": "i just called <UNK> legislative bill tracking service and found out that hb 1776 concealed carry is scheduled for a floor vote today"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.19777530431747437,
+          "sentence_text": "daryl"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.19538262486457825,
+          "sentence_text": "let those phone calls roll in"
+        }
+      ]
+    },
+    {
+      "query_id": 11,
+      "from_sentence_id": 2,
+      "token": "<PAD>",
+      "token_pos": 3,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.45253944396972656,
+          "sentence_text": "i just called <UNK> legislative bill tracking service and found out that hb 1776 concealed carry is scheduled for a floor vote today"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.2851425111293793,
+          "sentence_text": "let those phone calls roll in"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.2623180150985718,
+          "sentence_text": "daryl"
+        }
+      ]
+    },
+    {
+      "query_id": 12,
+      "from_sentence_id": 2,
+      "token": "<PAD>",
+      "token_pos": 1,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.45253944396972656,
+          "sentence_text": "i just called <UNK> legislative bill tracking service and found out that hb 1776 concealed carry is scheduled for a floor vote today"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.2851425111293793,
+          "sentence_text": "let those phone calls roll in"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.2623180150985718,
+          "sentence_text": "daryl"
+        }
+      ]
+    },
+    {
+      "query_id": 13,
+      "from_sentence_id": 2,
+      "token": "<PAD>",
+      "token_pos": 4,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.45253944396972656,
+          "sentence_text": "i just called <UNK> legislative bill tracking service and found out that hb 1776 concealed carry is scheduled for a floor vote today"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.2851425111293793,
+          "sentence_text": "let those phone calls roll in"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.2623180150985718,
+          "sentence_text": "daryl"
+        }
+      ]
+    },
+    {
+      "query_id": 14,
+      "from_sentence_id": 2,
+      "token": "<PAD>",
+      "token_pos": 2,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.45253944396972656,
+          "sentence_text": "i just called <UNK> legislative bill tracking service and found out that hb 1776 concealed carry is scheduled for a floor vote today"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.2851425111293793,
+          "sentence_text": "let those phone calls roll in"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.2623180150985718,
+          "sentence_text": "daryl"
+        }
+      ]
+    }
+  ],
+  "sentence_importance_from_cross_attn": {
+    "definition": "mean cross-attn over queries",
+    "values": [
+      {
+        "sentence_id": 0,
+        "importance": 0.6382858157157898
+      },
+      {
+        "sentence_id": 1,
+        "importance": 0.19459718465805054
+      },
+      {
+        "sentence_id": 2,
+        "importance": 0.16711707413196564
+      }
+    ],
+    "ranked": [
+      {
+        "sentence_id": 0,
+        "importance": 0.6382858157157898
+      },
+      {
+        "sentence_id": 1,
+        "importance": 0.19459718465805054
+      },
+      {
+        "sentence_id": 2,
+        "importance": 0.16711707413196564
+      }
+    ]
+  },
+  "example_id": "test-20"
+}

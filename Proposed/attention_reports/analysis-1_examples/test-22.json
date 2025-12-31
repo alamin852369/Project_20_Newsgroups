@@ -1,0 +1,776 @@
+{
+  "true_label_id": 6,
+  "pred_label_id": 6,
+  "true_label_name": "misc.forsale",
+  "pred_label_name": "misc.forsale",
+  "pred_confidence": 0.9627501964569092,
+  "num_sents": 4,
+  "sentence_summaries": [
+    {
+      "sentence_id": 0,
+      "sentence_text": "new price i have an extra copy of lotus 1 2 3 ver 3 4 for dos",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "ver",
+          "token_pos": 12,
+          "word_score_logit": 0.030348725616931915,
+          "word_attn_weight": 0.06068147346377373
+        },
+        {
+          "rank": 1,
+          "token": "1",
+          "token_pos": 9,
+          "word_score_logit": 0.022283824160695076,
+          "word_attn_weight": 0.06019405275583267
+        },
+        {
+          "rank": 2,
+          "token": "2",
+          "token_pos": 10,
+          "word_score_logit": 0.020141273736953735,
+          "word_attn_weight": 0.060065221041440964
+        },
+        {
+          "rank": 3,
+          "token": "3",
+          "token_pos": 11,
+          "word_score_logit": 0.01787937991321087,
+          "word_attn_weight": 0.059929512441158295
+        },
+        {
+          "rank": 4,
+          "token": "dos",
+          "token_pos": 16,
+          "word_score_logit": 0.013695887289941311,
+          "word_attn_weight": 0.05967932194471359
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "sentence_text": "this package was originally 600",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "was",
+          "token_pos": 2,
+          "word_score_logit": 0.052738141268491745,
+          "word_attn_weight": 0.20656894147396088
+        },
+        {
+          "rank": 1,
+          "token": "originally",
+          "token_pos": 3,
+          "word_score_logit": 0.04960203170776367,
+          "word_attn_weight": 0.20592214167118073
+        },
+        {
+          "rank": 2,
+          "token": "600",
+          "token_pos": 4,
+          "word_score_logit": 0.0005320529453456402,
+          "word_attn_weight": 0.19606144726276398
+        },
+        {
+          "rank": 3,
+          "token": "this",
+          "token_pos": 0,
+          "word_score_logit": -0.0007605087012052536,
+          "word_attn_weight": 0.19580820202827454
+        },
+        {
+          "rank": 4,
+          "token": "package",
+          "token_pos": 1,
+          "word_score_logit": -0.001623718999326229,
+          "word_attn_weight": 0.1956392377614975
+        }
+      ]
+    },
+    {
+      "sentence_id": 2,
+      "sentence_text": "i'd like to get 75 for it",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "like",
+          "token_pos": 1,
+          "word_score_logit": 0.008409365080296993,
+          "word_attn_weight": 0.14362803101539612
+        },
+        {
+          "rank": 1,
+          "token": "it",
+          "token_pos": 6,
+          "word_score_logit": 0.007731752470135689,
+          "word_attn_weight": 0.1435307413339615
+        },
+        {
+          "rank": 2,
+          "token": "for",
+          "token_pos": 5,
+          "word_score_logit": 0.004885141272097826,
+          "word_attn_weight": 0.14312274754047394
+        },
+        {
+          "rank": 3,
+          "token": "to",
+          "token_pos": 2,
+          "word_score_logit": 0.0017053866758942604,
+          "word_attn_weight": 0.14266838133335114
+        },
+        {
+          "rank": 4,
+          "token": "get",
+          "token_pos": 3,
+          "word_score_logit": 9.13962721824646e-05,
+          "word_attn_weight": 0.14243829250335693
+        }
+      ]
+    },
+    {
+      "sentence_id": 3,
+      "sentence_text": "please reply by e mail to <UNK> bach udel edu",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "edu",
+          "token_pos": 9,
+          "word_score_logit": 0.08238483965396881,
+          "word_attn_weight": 0.1059485524892807
+        },
+        {
+          "rank": 1,
+          "token": "e",
+          "token_pos": 3,
+          "word_score_logit": 0.039870213717222214,
+          "word_attn_weight": 0.10153859853744507
+        },
+        {
+          "rank": 2,
+          "token": "mail",
+          "token_pos": 4,
+          "word_score_logit": 0.03983766585588455,
+          "word_attn_weight": 0.10153529047966003
+        },
+        {
+          "rank": 3,
+          "token": "udel",
+          "token_pos": 8,
+          "word_score_logit": 0.03190966695547104,
+          "word_attn_weight": 0.10073350369930267
+        },
+        {
+          "rank": 4,
+          "token": "to",
+          "token_pos": 5,
+          "word_score_logit": 0.023905539885163307,
+          "word_attn_weight": 0.09993043541908264
+        }
+      ]
+    }
+  ],
+  "query_summaries": [
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "ver",
+      "token_pos": 12,
+      "word_score_logit": 0.030348725616931915,
+      "word_attn_weight": 0.06068147346377373,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.2765050530433655,
+          "sentence_text": "this package was originally 600"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.2679068446159363,
+          "sentence_text": "new price i have an extra copy of lotus 1 2 3 ver 3 4 for dos"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.238413006067276,
+          "sentence_text": "i'd like to get 75 for it"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "1",
+      "token_pos": 9,
+      "word_score_logit": 0.022283824160695076,
+      "word_attn_weight": 0.06019405275583267,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.2917099595069885,
+          "sentence_text": "this package was originally 600"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.26777464151382446,
+          "sentence_text": "new price i have an extra copy of lotus 1 2 3 ver 3 4 for dos"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.2500189244747162,
+          "sentence_text": "i'd like to get 75 for it"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "2",
+      "token_pos": 10,
+      "word_score_logit": 0.020141273736953735,
+      "word_attn_weight": 0.060065221041440964,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.27300798892974854,
+          "sentence_text": "new price i have an extra copy of lotus 1 2 3 ver 3 4 for dos"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.25707435607910156,
+          "sentence_text": "this package was originally 600"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.24588879942893982,
+          "sentence_text": "please reply by e mail to <UNK> bach udel edu"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "3",
+      "token_pos": 11,
+      "word_score_logit": 0.01787937991321087,
+      "word_attn_weight": 0.059929512441158295,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.27363455295562744,
+          "sentence_text": "new price i have an extra copy of lotus 1 2 3 ver 3 4 for dos"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.26537269353866577,
+          "sentence_text": "please reply by e mail to <UNK> bach udel edu"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.24580109119415283,
+          "sentence_text": "this package was originally 600"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "dos",
+      "token_pos": 16,
+      "word_score_logit": 0.013695887289941311,
+      "word_attn_weight": 0.05967932194471359,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.28152996301651,
+          "sentence_text": "new price i have an extra copy of lotus 1 2 3 ver 3 4 for dos"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.2583290934562683,
+          "sentence_text": "this package was originally 600"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.25044095516204834,
+          "sentence_text": "please reply by e mail to <UNK> bach udel edu"
+        }
+      ]
+    },
+    {
+      "query_id": 5,
+      "from_sentence_id": 1,
+      "token": "was",
+      "token_pos": 2,
+      "word_score_logit": 0.052738141268491745,
+      "word_attn_weight": 0.20656894147396088,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.33056485652923584,
+          "sentence_text": "this package was originally 600"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.2917485535144806,
+          "sentence_text": "i'd like to get 75 for it"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.23291409015655518,
+          "sentence_text": "new price i have an extra copy of lotus 1 2 3 ver 3 4 for dos"
+        }
+      ]
+    },
+    {
+      "query_id": 6,
+      "from_sentence_id": 1,
+      "token": "originally",
+      "token_pos": 3,
+      "word_score_logit": 0.04960203170776367,
+      "word_attn_weight": 0.20592214167118073,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.3277285397052765,
+          "sentence_text": "this package was originally 600"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.2901424765586853,
+          "sentence_text": "i'd like to get 75 for it"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.23245003819465637,
+          "sentence_text": "new price i have an extra copy of lotus 1 2 3 ver 3 4 for dos"
+        }
+      ]
+    },
+    {
+      "query_id": 7,
+      "from_sentence_id": 1,
+      "token": "600",
+      "token_pos": 4,
+      "word_score_logit": 0.0005320529453456402,
+      "word_attn_weight": 0.19606144726276398,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.3261190950870514,
+          "sentence_text": "this package was originally 600"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.2878328561782837,
+          "sentence_text": "i'd like to get 75 for it"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.2358429878950119,
+          "sentence_text": "new price i have an extra copy of lotus 1 2 3 ver 3 4 for dos"
+        }
+      ]
+    },
+    {
+      "query_id": 8,
+      "from_sentence_id": 1,
+      "token": "this",
+      "token_pos": 0,
+      "word_score_logit": -0.0007605087012052536,
+      "word_attn_weight": 0.19580820202827454,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.30295172333717346,
+          "sentence_text": "this package was originally 600"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.2628215551376343,
+          "sentence_text": "i'd like to get 75 for it"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.24709853529930115,
+          "sentence_text": "new price i have an extra copy of lotus 1 2 3 ver 3 4 for dos"
+        }
+      ]
+    },
+    {
+      "query_id": 9,
+      "from_sentence_id": 1,
+      "token": "package",
+      "token_pos": 1,
+      "word_score_logit": -0.001623718999326229,
+      "word_attn_weight": 0.1956392377614975,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.2993316054344177,
+          "sentence_text": "this package was originally 600"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.25395774841308594,
+          "sentence_text": "new price i have an extra copy of lotus 1 2 3 ver 3 4 for dos"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.2443152368068695,
+          "sentence_text": "i'd like to get 75 for it"
+        }
+      ]
+    },
+    {
+      "query_id": 10,
+      "from_sentence_id": 2,
+      "token": "like",
+      "token_pos": 1,
+      "word_score_logit": 0.008409365080296993,
+      "word_attn_weight": 0.14362803101539612,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.3373451828956604,
+          "sentence_text": "this package was originally 600"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.3172120451927185,
+          "sentence_text": "i'd like to get 75 for it"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.22488659620285034,
+          "sentence_text": "new price i have an extra copy of lotus 1 2 3 ver 3 4 for dos"
+        }
+      ]
+    },
+    {
+      "query_id": 11,
+      "from_sentence_id": 2,
+      "token": "it",
+      "token_pos": 6,
+      "word_score_logit": 0.007731752470135689,
+      "word_attn_weight": 0.1435307413339615,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.31777381896972656,
+          "sentence_text": "this package was originally 600"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.3142760992050171,
+          "sentence_text": "i'd like to get 75 for it"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.22749096155166626,
+          "sentence_text": "new price i have an extra copy of lotus 1 2 3 ver 3 4 for dos"
+        }
+      ]
+    },
+    {
+      "query_id": 12,
+      "from_sentence_id": 2,
+      "token": "for",
+      "token_pos": 5,
+      "word_score_logit": 0.004885141272097826,
+      "word_attn_weight": 0.14312274754047394,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.31146106123924255,
+          "sentence_text": "this package was originally 600"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.30956971645355225,
+          "sentence_text": "i'd like to get 75 for it"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.22929398715496063,
+          "sentence_text": "new price i have an extra copy of lotus 1 2 3 ver 3 4 for dos"
+        }
+      ]
+    },
+    {
+      "query_id": 13,
+      "from_sentence_id": 2,
+      "token": "to",
+      "token_pos": 2,
+      "word_score_logit": 0.0017053866758942604,
+      "word_attn_weight": 0.14266838133335114,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.3229387402534485,
+          "sentence_text": "this package was originally 600"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.3096923828125,
+          "sentence_text": "i'd like to get 75 for it"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.22770589590072632,
+          "sentence_text": "new price i have an extra copy of lotus 1 2 3 ver 3 4 for dos"
+        }
+      ]
+    },
+    {
+      "query_id": 14,
+      "from_sentence_id": 2,
+      "token": "get",
+      "token_pos": 3,
+      "word_score_logit": 9.13962721824646e-05,
+      "word_attn_weight": 0.14243829250335693,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.3355685770511627,
+          "sentence_text": "this package was originally 600"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.31172019243240356,
+          "sentence_text": "i'd like to get 75 for it"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.22586549818515778,
+          "sentence_text": "new price i have an extra copy of lotus 1 2 3 ver 3 4 for dos"
+        }
+      ]
+    },
+    {
+      "query_id": 15,
+      "from_sentence_id": 3,
+      "token": "edu",
+      "token_pos": 9,
+      "word_score_logit": 0.08238483965396881,
+      "word_attn_weight": 0.1059485524892807,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.32769912481307983,
+          "sentence_text": "this package was originally 600"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.27326422929763794,
+          "sentence_text": "i'd like to get 75 for it"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.24406880140304565,
+          "sentence_text": "new price i have an extra copy of lotus 1 2 3 ver 3 4 for dos"
+        }
+      ]
+    },
+    {
+      "query_id": 16,
+      "from_sentence_id": 3,
+      "token": "e",
+      "token_pos": 3,
+      "word_score_logit": 0.039870213717222214,
+      "word_attn_weight": 0.10153859853744507,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.32430127263069153,
+          "sentence_text": "this package was originally 600"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.2885761260986328,
+          "sentence_text": "i'd like to get 75 for it"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.24066446721553802,
+          "sentence_text": "new price i have an extra copy of lotus 1 2 3 ver 3 4 for dos"
+        }
+      ]
+    },
+    {
+      "query_id": 17,
+      "from_sentence_id": 3,
+      "token": "mail",
+      "token_pos": 4,
+      "word_score_logit": 0.03983766585588455,
+      "word_attn_weight": 0.10153529047966003,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.32955968379974365,
+          "sentence_text": "this package was originally 600"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.2830813229084015,
+          "sentence_text": "i'd like to get 75 for it"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.24563774466514587,
+          "sentence_text": "new price i have an extra copy of lotus 1 2 3 ver 3 4 for dos"
+        }
+      ]
+    },
+    {
+      "query_id": 18,
+      "from_sentence_id": 3,
+      "token": "udel",
+      "token_pos": 8,
+      "word_score_logit": 0.03190966695547104,
+      "word_attn_weight": 0.10073350369930267,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.2884826362133026,
+          "sentence_text": "this package was originally 600"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.2614281475543976,
+          "sentence_text": "new price i have an extra copy of lotus 1 2 3 ver 3 4 for dos"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.24194276332855225,
+          "sentence_text": "i'd like to get 75 for it"
+        }
+      ]
+    },
+    {
+      "query_id": 19,
+      "from_sentence_id": 3,
+      "token": "to",
+      "token_pos": 5,
+      "word_score_logit": 0.023905539885163307,
+      "word_attn_weight": 0.09993043541908264,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.3029745817184448,
+          "sentence_text": "this package was originally 600"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.26986977458000183,
+          "sentence_text": "i'd like to get 75 for it"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.2535768747329712,
+          "sentence_text": "new price i have an extra copy of lotus 1 2 3 ver 3 4 for dos"
+        }
+      ]
+    }
+  ],
+  "sentence_importance_from_cross_attn": {
+    "definition": "mean cross-attn over queries",
+    "values": [
+      {
+        "sentence_id": 0,
+        "importance": 0.24733681976795197
+      },
+      {
+        "sentence_id": 1,
+        "importance": 0.3057110011577606
+      },
+      {
+        "sentence_id": 2,
+        "importance": 0.2716709077358246
+      },
+      {
+        "sentence_id": 3,
+        "importance": 0.17528128623962402
+      }
+    ],
+    "ranked": [
+      {
+        "sentence_id": 1,
+        "importance": 0.3057110011577606
+      },
+      {
+        "sentence_id": 2,
+        "importance": 0.2716709077358246
+      },
+      {
+        "sentence_id": 0,
+        "importance": 0.24733681976795197
+      },
+      {
+        "sentence_id": 3,
+        "importance": 0.17528128623962402
+      }
+    ]
+  },
+  "example_id": "test-22"
+}

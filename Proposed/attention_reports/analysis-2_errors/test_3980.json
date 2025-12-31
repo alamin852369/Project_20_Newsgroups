@@ -1,0 +1,423 @@
+{
+  "true_label_id": 7,
+  "pred_label_id": 8,
+  "true_label_name": "rec.autos",
+  "pred_label_name": "rec.motorcycles",
+  "pred_confidence": 0.9801222085952759,
+  "num_sents": 6,
+  "top_sentences": [
+    {
+      "sentence_id": 0,
+      "importance": 0.3198466897010803,
+      "sentence_text": "best way to reduce risk when operating a vehicle is being able to avoid hazards and for that reason my preferred vehicle is a motorcycle",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "vehicle",
+          "token_pos": 21,
+          "word_score_logit": 0.16284853219985962,
+          "word_attn_weight": 0.043496280908584595
+        },
+        {
+          "rank": 1,
+          "token": "vehicle",
+          "token_pos": 8,
+          "word_score_logit": 0.1559639275074005,
+          "word_attn_weight": 0.04319785535335541
+        },
+        {
+          "rank": 2,
+          "token": "operating",
+          "token_pos": 6,
+          "word_score_logit": 0.10922025144100189,
+          "word_attn_weight": 0.041225094348192215
+        },
+        {
+          "rank": 3,
+          "token": "is",
+          "token_pos": 9,
+          "word_score_logit": 0.10481641441583633,
+          "word_attn_weight": 0.041043948382139206
+        },
+        {
+          "rank": 4,
+          "token": "is",
+          "token_pos": 22,
+          "word_score_logit": 0.10355571657419205,
+          "word_attn_weight": 0.04099223390221596
+        }
+      ]
+    },
+    {
+      "sentence_id": 2,
+      "importance": 0.27619239687919617,
+      "sentence_text": "if the four <UNK> has as much collision protection as the average motorcycle then it has enough form me",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "protection",
+          "token_pos": 8,
+          "word_score_logit": 0.1562860906124115,
+          "word_attn_weight": 0.057810161262750626
+        },
+        {
+          "rank": 1,
+          "token": "as",
+          "token_pos": 9,
+          "word_score_logit": 0.11930253356695175,
+          "word_attn_weight": 0.05571119114756584
+        },
+        {
+          "rank": 2,
+          "token": "the",
+          "token_pos": 10,
+          "word_score_logit": 0.09422788769006729,
+          "word_attn_weight": 0.05433162301778793
+        },
+        {
+          "rank": 3,
+          "token": "collision",
+          "token_pos": 7,
+          "word_score_logit": 0.0930604562163353,
+          "word_attn_weight": 0.05426822602748871
+        },
+        {
+          "rank": 4,
+          "token": "average",
+          "token_pos": 11,
+          "word_score_logit": 0.07051634043455124,
+          "word_attn_weight": 0.05305849015712738
+        }
+      ]
+    },
+    {
+      "sentence_id": 5,
+      "importance": 0.14719657599925995,
+      "sentence_text": "is <UNK> dod <UNK>",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "dod",
+          "token_pos": 2,
+          "word_score_logit": 0.029240483418107033,
+          "word_attn_weight": 0.25443726778030396
+        },
+        {
+          "rank": 1,
+          "token": "is",
+          "token_pos": 0,
+          "word_score_logit": 0.014674138277769089,
+          "word_attn_weight": 0.2507579028606415
+        },
+        {
+          "rank": 2,
+          "token": "<UNK>",
+          "token_pos": 3,
+          "word_score_logit": 0.011783521622419357,
+          "word_attn_weight": 0.2500340938568115
+        },
+        {
+          "rank": 3,
+          "token": "<UNK>",
+          "token_pos": 1,
+          "word_score_logit": -0.009491762146353722,
+          "word_attn_weight": 0.24477073550224304
+        },
+        {
+          "rank": 4,
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    },
+    {
+      "sentence_id": 4,
+      "importance": 0.11248830705881119,
+      "sentence_text": "one definition of safe is without risk",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "one",
+          "token_pos": 0,
+          "word_score_logit": 0.031153138726949692,
+          "word_attn_weight": 0.14441083371639252
+        },
+        {
+          "rank": 1,
+          "token": "risk",
+          "token_pos": 6,
+          "word_score_logit": 0.025858771055936813,
+          "word_attn_weight": 0.14364828169345856
+        },
+        {
+          "rank": 2,
+          "token": "is",
+          "token_pos": 4,
+          "word_score_logit": 0.02285599522292614,
+          "word_attn_weight": 0.14321759343147278
+        },
+        {
+          "rank": 3,
+          "token": "definition",
+          "token_pos": 1,
+          "word_score_logit": 0.022627217695116997,
+          "word_attn_weight": 0.1431848257780075
+        },
+        {
+          "rank": 4,
+          "token": "without",
+          "token_pos": 5,
+          "word_score_logit": 0.0214560367166996,
+          "word_attn_weight": 0.1430172175168991
+        }
+      ]
+    },
+    {
+      "sentence_id": 3,
+      "importance": 0.07657799124717712,
+      "sentence_text": "how do you define safe",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "safe",
+          "token_pos": 4,
+          "word_score_logit": 0.025998231023550034,
+          "word_attn_weight": 0.2027730941772461
+        },
+        {
+          "rank": 1,
+          "token": "do",
+          "token_pos": 1,
+          "word_score_logit": 0.017926324158906937,
+          "word_attn_weight": 0.20114292204380035
+        },
+        {
+          "rank": 2,
+          "token": "how",
+          "token_pos": 0,
+          "word_score_logit": 0.010223198682069778,
+          "word_attn_weight": 0.19959944486618042
+        },
+        {
+          "rank": 3,
+          "token": "define",
+          "token_pos": 3,
+          "word_score_logit": 0.00515808816999197,
+          "word_attn_weight": 0.19859100878238678
+        },
+        {
+          "rank": 4,
+          "token": "you",
+          "token_pos": 2,
+          "word_score_logit": 0.00163960549980402,
+          "word_attn_weight": 0.19789350032806396
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "vehicle",
+      "token_pos": 21,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5998250842094421,
+          "sentence_text": "best way to reduce risk when operating a vehicle is being able to avoid hazards and for that reason my preferred vehicle is a motorcycle"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.35886451601982117,
+          "sentence_text": "if the four <UNK> has as much collision protection as the average motorcycle then it has enough form me"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "vehicle",
+      "token_pos": 8,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5843716859817505,
+          "sentence_text": "best way to reduce risk when operating a vehicle is being able to avoid hazards and for that reason my preferred vehicle is a motorcycle"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.3654007315635681,
+          "sentence_text": "if the four <UNK> has as much collision protection as the average motorcycle then it has enough form me"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "operating",
+      "token_pos": 6,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5166096687316895,
+          "sentence_text": "best way to reduce risk when operating a vehicle is being able to avoid hazards and for that reason my preferred vehicle is a motorcycle"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.3845827579498291,
+          "sentence_text": "if the four <UNK> has as much collision protection as the average motorcycle then it has enough form me"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "is",
+      "token_pos": 9,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5017896294593811,
+          "sentence_text": "best way to reduce risk when operating a vehicle is being able to avoid hazards and for that reason my preferred vehicle is a motorcycle"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.3892584443092346,
+          "sentence_text": "if the four <UNK> has as much collision protection as the average motorcycle then it has enough form me"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "is",
+      "token_pos": 22,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5158463716506958,
+          "sentence_text": "best way to reduce risk when operating a vehicle is being able to avoid hazards and for that reason my preferred vehicle is a motorcycle"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.3853619694709778,
+          "sentence_text": "if the four <UNK> has as much collision protection as the average motorcycle then it has enough form me"
+        }
+      ]
+    },
+    {
+      "query_id": 10,
+      "from_sentence_id": 2,
+      "token": "protection",
+      "token_pos": 8,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5120412111282349,
+          "sentence_text": "best way to reduce risk when operating a vehicle is being able to avoid hazards and for that reason my preferred vehicle is a motorcycle"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.39449989795684814,
+          "sentence_text": "if the four <UNK> has as much collision protection as the average motorcycle then it has enough form me"
+        }
+      ]
+    },
+    {
+      "query_id": 11,
+      "from_sentence_id": 2,
+      "token": "as",
+      "token_pos": 9,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.4850548207759857,
+          "sentence_text": "best way to reduce risk when operating a vehicle is being able to avoid hazards and for that reason my preferred vehicle is a motorcycle"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.40272057056427,
+          "sentence_text": "if the four <UNK> has as much collision protection as the average motorcycle then it has enough form me"
+        }
+      ]
+    },
+    {
+      "query_id": 12,
+      "from_sentence_id": 2,
+      "token": "the",
+      "token_pos": 10,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5028438568115234,
+          "sentence_text": "best way to reduce risk when operating a vehicle is being able to avoid hazards and for that reason my preferred vehicle is a motorcycle"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.402163028717041,
+          "sentence_text": "if the four <UNK> has as much collision protection as the average motorcycle then it has enough form me"
+        }
+      ]
+    },
+    {
+      "query_id": 13,
+      "from_sentence_id": 2,
+      "token": "collision",
+      "token_pos": 7,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5460277199745178,
+          "sentence_text": "best way to reduce risk when operating a vehicle is being able to avoid hazards and for that reason my preferred vehicle is a motorcycle"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.3881857097148895,
+          "sentence_text": "if the four <UNK> has as much collision protection as the average motorcycle then it has enough form me"
+        }
+      ]
+    },
+    {
+      "query_id": 14,
+      "from_sentence_id": 2,
+      "token": "average",
+      "token_pos": 11,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.47987672686576843,
+          "sentence_text": "best way to reduce risk when operating a vehicle is being able to avoid hazards and for that reason my preferred vehicle is a motorcycle"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.4041777551174164,
+          "sentence_text": "if the four <UNK> has as much collision protection as the average motorcycle then it has enough form me"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_3980"
+}

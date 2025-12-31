@@ -1,0 +1,81 @@
+{
+  "example_id": "test_318",
+  "true_label_id": 9,
+  "pred_label_id": 1,
+  "true_label_name": "rec.sport.baseball",
+  "pred_label_name": "comp.graphics",
+  "pred_confidence": 0.7413010001182556,
+  "metrics": {
+    "num_sents": 1,
+    "K": 5,
+    "stop_ratio": 0.2,
+    "unk_ratio": 0.0,
+    "num_ratio": 0.0,
+    "content_ratio": 0.8,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 0.0,
+    "sentence_importance_entropy": -0.0,
+    "sentence_importance_max": 1.0,
+    "top_sentence_id": 0,
+    "query_mismatch_rate": 0.0,
+    "selected_quality_counts": {
+      "content_word": 4,
+      "stopword": 1
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.12,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 1.0,
+    "D_local_global_conflict": 0.0,
+    "E_overconfident_error": 0.7413010001182556
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "only to was mjones donald aix kingston ibm com"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "com",
+          "token_pos": 8,
+          "quality": "content_word",
+          "word_score_logit": 0.04484323039650917,
+          "word_attn_weight": 0.11369810253381729
+        },
+        {
+          "token": "was",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.03269103541970253,
+          "word_attn_weight": 0.1123247817158699
+        },
+        {
+          "token": "kingston",
+          "token_pos": 6,
+          "quality": "content_word",
+          "word_score_logit": 0.027560871094465256,
+          "word_attn_weight": 0.11175001412630081
+        },
+        {
+          "token": "aix",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.027347151190042496,
+          "word_attn_weight": 0.11172614246606827
+        },
+        {
+          "token": "donald",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.023121267557144165,
+          "word_attn_weight": 0.11125498265028
+        }
+      ]
+    ],
+    "top_sentence_id": 0,
+    "sentence_importance_distribution": [
+      1.0
+    ]
+  }
+}

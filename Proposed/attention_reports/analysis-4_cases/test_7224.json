@@ -1,0 +1,161 @@
+{
+  "example_id": "test_7224",
+  "true_label_id": 19,
+  "pred_label_id": 13,
+  "true_label_name": "talk.religion.misc",
+  "pred_label_name": "sci.med",
+  "pred_confidence": 0.9959412813186646,
+  "metrics": {
+    "num_sents": 3,
+    "K": 5,
+    "stop_ratio": 0.13333333333333333,
+    "unk_ratio": 0.06666666666666667,
+    "num_ratio": 0.0,
+    "content_ratio": 0.5333333333333333,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 0.8869994282722473,
+    "sentence_importance_entropy": 0.919845461845398,
+    "sentence_importance_max": 0.6203700304031372,
+    "top_sentence_id": 1,
+    "query_mismatch_rate": 0.6666666666666666,
+    "selected_quality_counts": {
+      "unk": 1,
+      "other": 4,
+      "content_word": 8,
+      "stopword": 2
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.1,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.5502899289131165,
+    "D_local_global_conflict": 0.6666666666666666,
+    "E_overconfident_error": 0.9959412813186646
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "<UNK>",
+      "does it matter that the study yes <UNK> that showed lsd causing birth defects also holds true for aspirin",
+      "does it matter that this study is flat out wrong and lsd does not give you a greater risk of having children with birth defects"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "<UNK>",
+          "token_pos": 0,
+          "quality": "unk",
+          "word_score_logit": 0.0027645998634397984,
+          "word_attn_weight": 1.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 3,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 1,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 2,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ],
+      [
+        {
+          "token": "aspirin",
+          "token_pos": 18,
+          "quality": "content_word",
+          "word_score_logit": 0.051517702639102936,
+          "word_attn_weight": 0.0539836660027504
+        },
+        {
+          "token": "showed",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": 0.04639500007033348,
+          "word_attn_weight": 0.05370783060789108
+        },
+        {
+          "token": "causing",
+          "token_pos": 11,
+          "quality": "content_word",
+          "word_score_logit": 0.035641081631183624,
+          "word_attn_weight": 0.05313335359096527
+        },
+        {
+          "token": "defects",
+          "token_pos": 13,
+          "quality": "content_word",
+          "word_score_logit": 0.03499205410480499,
+          "word_attn_weight": 0.053098879754543304
+        },
+        {
+          "token": "does",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.0340183824300766,
+          "word_attn_weight": 0.05304720252752304
+        }
+      ],
+      [
+        {
+          "token": "risk",
+          "token_pos": 18,
+          "quality": "content_word",
+          "word_score_logit": 0.03570745885372162,
+          "word_attn_weight": 0.040933623909950256
+        },
+        {
+          "token": "flat",
+          "token_pos": 7,
+          "quality": "content_word",
+          "word_score_logit": 0.03469392657279968,
+          "word_attn_weight": 0.04089215770363808
+        },
+        {
+          "token": "of",
+          "token_pos": 19,
+          "quality": "stopword",
+          "word_score_logit": 0.03281639516353607,
+          "word_attn_weight": 0.040815453976392746
+        },
+        {
+          "token": "having",
+          "token_pos": 20,
+          "quality": "content_word",
+          "word_score_logit": 0.032490454614162445,
+          "word_attn_weight": 0.04080215469002724
+        },
+        {
+          "token": "wrong",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": 0.03209048509597778,
+          "word_attn_weight": 0.040785834193229675
+        }
+      ]
+    ],
+    "top_sentence_id": 1,
+    "sentence_importance_distribution": [
+      0.15302303433418274,
+      0.6203700304031372,
+      0.22660700976848602
+    ]
+  }
+}

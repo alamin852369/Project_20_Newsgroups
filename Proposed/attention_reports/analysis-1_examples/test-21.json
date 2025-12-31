@@ -1,0 +1,3800 @@
+{
+  "true_label_id": 1,
+  "pred_label_id": 13,
+  "true_label_name": "comp.graphics",
+  "pred_label_name": "sci.med",
+  "pred_confidence": 0.7531351447105408,
+  "num_sents": 20,
+  "sentence_summaries": [
+    {
+      "sentence_id": 0,
+      "sentence_text": "this is an invitation to send articles to the <UNK> magazine",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "an",
+          "token_pos": 2,
+          "word_score_logit": 0.04061254486441612,
+          "word_attn_weight": 0.09378881007432938
+        },
+        {
+          "rank": 1,
+          "token": "is",
+          "token_pos": 1,
+          "word_score_logit": 0.03477691859006882,
+          "word_attn_weight": 0.09324309229850769
+        },
+        {
+          "rank": 2,
+          "token": "this",
+          "token_pos": 0,
+          "word_score_logit": 0.02866474725306034,
+          "word_attn_weight": 0.09267491102218628
+        },
+        {
+          "rank": 3,
+          "token": "send",
+          "token_pos": 5,
+          "word_score_logit": 0.01617369055747986,
+          "word_attn_weight": 0.09152450412511826
+        },
+        {
+          "rank": 4,
+          "token": "invitation",
+          "token_pos": 3,
+          "word_score_logit": 0.015782825648784637,
+          "word_attn_weight": 0.09148873388767242
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "sentence_text": "the first fully international issue has been published and echoes are quite favourable",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "the",
+          "token_pos": 0,
+          "word_score_logit": 0.0022208690643310547,
+          "word_attn_weight": 0.079141765832901
+        },
+        {
+          "rank": 1,
+          "token": "first",
+          "token_pos": 1,
+          "word_score_logit": -0.005056144669651985,
+          "word_attn_weight": 0.07856793701648712
+        },
+        {
+          "rank": 2,
+          "token": "and",
+          "token_pos": 8,
+          "word_score_logit": -0.008392579853534698,
+          "word_attn_weight": 0.07830624282360077
+        },
+        {
+          "rank": 3,
+          "token": "are",
+          "token_pos": 10,
+          "word_score_logit": -0.01712268590927124,
+          "word_attn_weight": 0.0776255875825882
+        },
+        {
+          "rank": 4,
+          "token": "echoes",
+          "token_pos": 9,
+          "word_score_logit": -0.019223108887672424,
+          "word_attn_weight": 0.07746271789073944
+        }
+      ]
+    },
+    {
+      "sentence_id": 2,
+      "sentence_text": "for any information contact <UNK> <UNK> ijs si",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "contact",
+          "token_pos": 3,
+          "word_score_logit": 0.09784794598817825,
+          "word_attn_weight": 0.13388371467590332
+        },
+        {
+          "rank": 1,
+          "token": "any",
+          "token_pos": 1,
+          "word_score_logit": 0.05017955228686333,
+          "word_attn_weight": 0.1276514083147049
+        },
+        {
+          "rank": 2,
+          "token": "information",
+          "token_pos": 2,
+          "word_score_logit": 0.04423707723617554,
+          "word_attn_weight": 0.12689508497714996
+        },
+        {
+          "rank": 3,
+          "token": "si",
+          "token_pos": 7,
+          "word_score_logit": 0.04225851967930794,
+          "word_attn_weight": 0.12664426863193512
+        },
+        {
+          "rank": 4,
+          "token": "<UNK>",
+          "token_pos": 4,
+          "word_score_logit": 0.033068571239709854,
+          "word_attn_weight": 0.12548576295375824
+        }
+      ]
+    },
+    {
+      "sentence_id": 3,
+      "sentence_text": "dear colleague april 25 1993 number 1 of volume 17 of <UNK> is now out of print and some of you will receive it in a week or so",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "1",
+          "token_pos": 6,
+          "word_score_logit": 0.056042954325675964,
+          "word_attn_weight": 0.03619198873639107
+        },
+        {
+          "rank": 1,
+          "token": "of",
+          "token_pos": 7,
+          "word_score_logit": 0.05306456238031387,
+          "word_attn_weight": 0.036084357649087906
+        },
+        {
+          "rank": 2,
+          "token": "volume",
+          "token_pos": 8,
+          "word_score_logit": 0.04424915462732315,
+          "word_attn_weight": 0.035767655819654465
+        },
+        {
+          "rank": 3,
+          "token": "17",
+          "token_pos": 9,
+          "word_score_logit": 0.04238838329911232,
+          "word_attn_weight": 0.03570115938782692
+        },
+        {
+          "rank": 4,
+          "token": "of",
+          "token_pos": 10,
+          "word_score_logit": 0.031059512868523598,
+          "word_attn_weight": 0.03529898822307587
+        }
+      ]
+    },
+    {
+      "sentence_id": 4,
+      "sentence_text": "as you will see the journal is structured in the following way the editorial first page profiles second page biography of an editor in this issue terry <UNK> the edited part of papers pp",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "profiles",
+          "token_pos": 16,
+          "word_score_logit": 0.08133099228143692,
+          "word_attn_weight": 0.030763676390051842
+        },
+        {
+          "rank": 1,
+          "token": "the",
+          "token_pos": 4,
+          "word_score_logit": 0.07380328327417374,
+          "word_attn_weight": 0.030532965436577797
+        },
+        {
+          "rank": 2,
+          "token": "journal",
+          "token_pos": 5,
+          "word_score_logit": 0.06860706210136414,
+          "word_attn_weight": 0.030374722555279732
+        },
+        {
+          "rank": 3,
+          "token": "second",
+          "token_pos": 17,
+          "word_score_logit": 0.06856328994035721,
+          "word_attn_weight": 0.03037339262664318
+        },
+        {
+          "rank": 4,
+          "token": "of",
+          "token_pos": 20,
+          "word_score_logit": 0.06298129260540009,
+          "word_attn_weight": 0.030204320326447487
+        }
+      ]
+    },
+    {
+      "sentence_id": 5,
+      "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "stanford",
+          "token_pos": 17,
+          "word_score_logit": 0.03378427028656006,
+          "word_attn_weight": 0.054217152297496796
+        },
+        {
+          "rank": 1,
+          "token": "mission",
+          "token_pos": 2,
+          "word_score_logit": 0.032974664121866226,
+          "word_attn_weight": 0.05417327582836151
+        },
+        {
+          "rank": 2,
+          "token": "in",
+          "token_pos": 16,
+          "word_score_logit": 0.02980397641658783,
+          "word_attn_weight": 0.05400177836418152
+        },
+        {
+          "rank": 3,
+          "token": "and",
+          "token_pos": 14,
+          "word_score_logit": 0.028352774679660797,
+          "word_attn_weight": 0.05392347276210785
+        },
+        {
+          "rank": 4,
+          "token": "<UNK>",
+          "token_pos": 15,
+          "word_score_logit": 0.02270675264298916,
+          "word_attn_weight": 0.0536198727786541
+        }
+      ]
+    },
+    {
+      "sentence_id": 6,
+      "sentence_text": "81 100 and news and announcements pp",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "news",
+          "token_pos": 3,
+          "word_score_logit": 0.03589171916246414,
+          "word_attn_weight": 0.14596125483512878
+        },
+        {
+          "rank": 1,
+          "token": "and",
+          "token_pos": 2,
+          "word_score_logit": 0.027831044048070908,
+          "word_attn_weight": 0.1447894424200058
+        },
+        {
+          "rank": 2,
+          "token": "announcements",
+          "token_pos": 5,
+          "word_score_logit": 0.01906289905309677,
+          "word_attn_weight": 0.14352545142173767
+        },
+        {
+          "rank": 3,
+          "token": "and",
+          "token_pos": 4,
+          "word_score_logit": 0.017083998769521713,
+          "word_attn_weight": 0.14324171841144562
+        },
+        {
+          "rank": 4,
+          "token": "81",
+          "token_pos": 0,
+          "word_score_logit": 0.011066829785704613,
+          "word_attn_weight": 0.14238238334655762
+        }
+      ]
+    },
+    {
+      "sentence_id": 7,
+      "sentence_text": "101 108",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "108",
+          "token_pos": 1,
+          "word_score_logit": 0.07050587981939316,
+          "word_attn_weight": 0.5069161057472229
+        },
+        {
+          "rank": 1,
+          "token": "101",
+          "token_pos": 0,
+          "word_score_logit": 0.04283975809812546,
+          "word_attn_weight": 0.4930839240550995
+        },
+        {
+          "rank": 2,
+          "token": "<PAD>",
+          "token_pos": 4,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 3,
+          "token": "<PAD>",
+          "token_pos": 3,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 4,
+          "token": "<PAD>",
+          "token_pos": 2,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    },
+    {
+      "sentence_id": 8,
+      "sentence_text": "this structure is mentioned to give you a suggestion how could you help to make the contents of the journal significant diverse and interesting bringing your own views into the discourse",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "structure",
+          "token_pos": 1,
+          "word_score_logit": 0.05002870038151741,
+          "word_attn_weight": 0.03374907001852989
+        },
+        {
+          "rank": 1,
+          "token": "the",
+          "token_pos": 15,
+          "word_score_logit": 0.04805690795183182,
+          "word_attn_weight": 0.03368259221315384
+        },
+        {
+          "rank": 2,
+          "token": "make",
+          "token_pos": 14,
+          "word_score_logit": 0.04230635240674019,
+          "word_attn_weight": 0.03348945081233978
+        },
+        {
+          "rank": 3,
+          "token": "of",
+          "token_pos": 17,
+          "word_score_logit": 0.033769331872463226,
+          "word_attn_weight": 0.03320476785302162
+        },
+        {
+          "rank": 4,
+          "token": "to",
+          "token_pos": 13,
+          "word_score_logit": 0.02971535362303257,
+          "word_attn_weight": 0.03307043015956879
+        }
+      ]
+    },
+    {
+      "sentence_id": 9,
+      "sentence_text": "a great emphasis is given to the so called editorial page",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "the",
+          "token_pos": 6,
+          "word_score_logit": 0.0326760858297348,
+          "word_attn_weight": 0.09260417520999908
+        },
+        {
+          "rank": 1,
+          "token": "called",
+          "token_pos": 8,
+          "word_score_logit": 0.030694715678691864,
+          "word_attn_weight": 0.09242088347673416
+        },
+        {
+          "rank": 2,
+          "token": "given",
+          "token_pos": 4,
+          "word_score_logit": 0.025974994525313377,
+          "word_attn_weight": 0.09198570251464844
+        },
+        {
+          "rank": 3,
+          "token": "to",
+          "token_pos": 5,
+          "word_score_logit": 0.020373329520225525,
+          "word_attn_weight": 0.09147186577320099
+        },
+        {
+          "rank": 4,
+          "token": "is",
+          "token_pos": 3,
+          "word_score_logit": 0.01858007349073887,
+          "word_attn_weight": 0.09130798280239105
+        }
+      ]
+    },
+    {
+      "sentence_id": 10,
+      "sentence_text": "this page expresses an opinion belief of the writing editor to some problems within the scope of computing and <UNK> extending into other concerning disciplines e g",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "g",
+          "token_pos": 26,
+          "word_score_logit": 0.11308643966913223,
+          "word_attn_weight": 0.04074966907501221
+        },
+        {
+          "rank": 1,
+          "token": "e",
+          "token_pos": 25,
+          "word_score_logit": 0.0845206007361412,
+          "word_attn_weight": 0.039602089673280716
+        },
+        {
+          "rank": 2,
+          "token": "and",
+          "token_pos": 18,
+          "word_score_logit": 0.050301242619752884,
+          "word_attn_weight": 0.038269855082035065
+        },
+        {
+          "rank": 3,
+          "token": "<UNK>",
+          "token_pos": 19,
+          "word_score_logit": 0.03396201506257057,
+          "word_attn_weight": 0.03764963522553444
+        },
+        {
+          "rank": 4,
+          "token": "of",
+          "token_pos": 6,
+          "word_score_logit": 0.031174227595329285,
+          "word_attn_weight": 0.03754482418298721
+        }
+      ]
+    },
+    {
+      "sentence_id": 11,
+      "sentence_text": "<UNK> advanced ai cognitive sciences mind <UNK> concerned neural sciences advanced technology e g",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "g",
+          "token_pos": 13,
+          "word_score_logit": 0.11802183836698532,
+          "word_attn_weight": 0.07944145053625107
+        },
+        {
+          "rank": 1,
+          "token": "e",
+          "token_pos": 12,
+          "word_score_logit": 0.11069951206445694,
+          "word_attn_weight": 0.07886187732219696
+        },
+        {
+          "rank": 2,
+          "token": "neural",
+          "token_pos": 8,
+          "word_score_logit": 0.02206949144601822,
+          "word_attn_weight": 0.07217314094305038
+        },
+        {
+          "rank": 3,
+          "token": "technology",
+          "token_pos": 11,
+          "word_score_logit": 0.020881783217191696,
+          "word_attn_weight": 0.07208747416734695
+        },
+        {
+          "rank": 4,
+          "token": "sciences",
+          "token_pos": 9,
+          "word_score_logit": 0.005567567888647318,
+          "word_attn_weight": 0.07099191844463348
+        }
+      ]
+    },
+    {
+      "sentence_id": 12,
+      "sentence_text": "<UNK> etc",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "etc",
+          "token_pos": 1,
+          "word_score_logit": 0.00878605991601944,
+          "word_attn_weight": 0.507421612739563
+        },
+        {
+          "rank": 1,
+          "token": "<UNK>",
+          "token_pos": 0,
+          "word_score_logit": -0.020902564749121666,
+          "word_attn_weight": 0.4925784170627594
+        },
+        {
+          "rank": 2,
+          "token": "<PAD>",
+          "token_pos": 4,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 3,
+          "token": "<PAD>",
+          "token_pos": 3,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 4,
+          "token": "<PAD>",
+          "token_pos": 2,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    },
+    {
+      "sentence_id": 13,
+      "sentence_text": "i asked professor terry <UNK> to write this page for number 2",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "terry",
+          "token_pos": 3,
+          "word_score_logit": 0.04027289152145386,
+          "word_attn_weight": 0.08582720160484314
+        },
+        {
+          "rank": 1,
+          "token": "asked",
+          "token_pos": 1,
+          "word_score_logit": 0.036330509930849075,
+          "word_attn_weight": 0.08548950403928757
+        },
+        {
+          "rank": 2,
+          "token": "professor",
+          "token_pos": 2,
+          "word_score_logit": 0.03099806234240532,
+          "word_attn_weight": 0.08503485471010208
+        },
+        {
+          "rank": 3,
+          "token": "2",
+          "token_pos": 11,
+          "word_score_logit": 0.026556748896837234,
+          "word_attn_weight": 0.08465801924467087
+        },
+        {
+          "rank": 4,
+          "token": "i",
+          "token_pos": 0,
+          "word_score_logit": 0.024410733953118324,
+          "word_attn_weight": 0.084476538002491
+        }
+      ]
+    },
+    {
+      "sentence_id": 14,
+      "sentence_text": "i certainly would appreciate very much to get suggestions or possible offers from other editors who like to express their strong directed beliefs concerning a future development of the area in question",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "of",
+          "token_pos": 27,
+          "word_score_logit": 0.029074039310216904,
+          "word_attn_weight": 0.03235309198498726
+        },
+        {
+          "rank": 1,
+          "token": "the",
+          "token_pos": 28,
+          "word_score_logit": 0.025689352303743362,
+          "word_attn_weight": 0.032243773341178894
+        },
+        {
+          "rank": 2,
+          "token": "area",
+          "token_pos": 29,
+          "word_score_logit": 0.016902823001146317,
+          "word_attn_weight": 0.031961701810359955
+        },
+        {
+          "rank": 3,
+          "token": "in",
+          "token_pos": 30,
+          "word_score_logit": 0.01145947352051735,
+          "word_attn_weight": 0.03178819641470909
+        },
+        {
+          "rank": 4,
+          "token": "express",
+          "token_pos": 18,
+          "word_score_logit": 0.010020779445767403,
+          "word_attn_weight": 0.03174249455332756
+        }
+      ]
+    },
+    {
+      "sentence_id": 15,
+      "sentence_text": "on the second page of each number an editor's profile is published",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "the",
+          "token_pos": 1,
+          "word_score_logit": 0.04324968531727791,
+          "word_attn_weight": 0.08539500832557678
+        },
+        {
+          "rank": 1,
+          "token": "second",
+          "token_pos": 2,
+          "word_score_logit": 0.03844626247882843,
+          "word_attn_weight": 0.08498580753803253
+        },
+        {
+          "rank": 2,
+          "token": "page",
+          "token_pos": 3,
+          "word_score_logit": 0.030376635491847992,
+          "word_attn_weight": 0.08430276066064835
+        },
+        {
+          "rank": 3,
+          "token": "on",
+          "token_pos": 0,
+          "word_score_logit": 0.023173358291387558,
+          "word_attn_weight": 0.08369769155979156
+        },
+        {
+          "rank": 4,
+          "token": "of",
+          "token_pos": 4,
+          "word_score_logit": 0.023116450756788254,
+          "word_attn_weight": 0.08369292318820953
+        }
+      ]
+    },
+    {
+      "sentence_id": 16,
+      "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "profile",
+          "token_pos": 4,
+          "word_score_logit": 0.06374800950288773,
+          "word_attn_weight": 0.02560439519584179
+        },
+        {
+          "rank": 1,
+          "token": "of",
+          "token_pos": 2,
+          "word_score_logit": 0.05325644463300705,
+          "word_attn_weight": 0.02533717080950737
+        },
+        {
+          "rank": 2,
+          "token": "the",
+          "token_pos": 0,
+          "word_score_logit": 0.04743948206305504,
+          "word_attn_weight": 0.025190213695168495
+        },
+        {
+          "rank": 3,
+          "token": "is",
+          "token_pos": 5,
+          "word_score_logit": 0.04570050165057182,
+          "word_attn_weight": 0.025146445259451866
+        },
+        {
+          "rank": 4,
+          "token": "the",
+          "token_pos": 3,
+          "word_score_logit": 0.044705942273139954,
+          "word_attn_weight": 0.025121448561549187
+        }
+      ]
+    },
+    {
+      "sentence_id": 17,
+      "sentence_text": "this kind of story should be instructive adequately <UNK> faced contributing to the understanding of circumstances in which editors have to act and live",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "faced",
+          "token_pos": 9,
+          "word_score_logit": 0.019475162029266357,
+          "word_attn_weight": 0.0430988147854805
+        },
+        {
+          "rank": 1,
+          "token": "and",
+          "token_pos": 22,
+          "word_score_logit": 0.008029807358980179,
+          "word_attn_weight": 0.0426083467900753
+        },
+        {
+          "rank": 2,
+          "token": "the",
+          "token_pos": 12,
+          "word_score_logit": 0.0023357877507805824,
+          "word_attn_weight": 0.042366426438093185
+        },
+        {
+          "rank": 3,
+          "token": "kind",
+          "token_pos": 1,
+          "word_score_logit": -0.00046461448073387146,
+          "word_attn_weight": 0.0422479473054409
+        },
+        {
+          "rank": 4,
+          "token": "of",
+          "token_pos": 2,
+          "word_score_logit": -0.002093978226184845,
+          "word_attn_weight": 0.0421791672706604
+        }
+      ]
+    },
+    {
+      "sentence_id": 18,
+      "sentence_text": "the edited part edited papers is still critical",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "the",
+          "token_pos": 0,
+          "word_score_logit": 0.03432265669107437,
+          "word_attn_weight": 0.1311633288860321
+        },
+        {
+          "rank": 1,
+          "token": "part",
+          "token_pos": 2,
+          "word_score_logit": 0.0013541905209422112,
+          "word_attn_weight": 0.12690958380699158
+        },
+        {
+          "rank": 2,
+          "token": "edited",
+          "token_pos": 1,
+          "word_score_logit": -0.012974703684449196,
+          "word_attn_weight": 0.12510408461093903
+        },
+        {
+          "rank": 3,
+          "token": "is",
+          "token_pos": 5,
+          "word_score_logit": -0.017950531095266342,
+          "word_attn_weight": 0.124483123421669
+        },
+        {
+          "rank": 4,
+          "token": "edited",
+          "token_pos": 3,
+          "word_score_logit": -0.02640865370631218,
+          "word_attn_weight": 0.12343467772006989
+        }
+      ]
+    },
+    {
+      "sentence_id": 19,
+      "sentence_text": "i would like to have a stock of accepted papers in advance so the issuing dates of a particular number can be fixed e g",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "g",
+          "token_pos": 24,
+          "word_score_logit": 0.1369529664516449,
+          "word_attn_weight": 0.04422732815146446
+        },
+        {
+          "rank": 1,
+          "token": "fixed",
+          "token_pos": 22,
+          "word_score_logit": 0.13127049803733826,
+          "word_attn_weight": 0.04397672042250633
+        },
+        {
+          "rank": 2,
+          "token": "e",
+          "token_pos": 23,
+          "word_score_logit": 0.12799644470214844,
+          "word_attn_weight": 0.04383297264575958
+        },
+        {
+          "rank": 3,
+          "token": "can",
+          "token_pos": 20,
+          "word_score_logit": 0.06272031366825104,
+          "word_attn_weight": 0.041063111275434494
+        },
+        {
+          "rank": 4,
+          "token": "be",
+          "token_pos": 21,
+          "word_score_logit": 0.06168156489729881,
+          "word_attn_weight": 0.041020482778549194
+        }
+      ]
+    }
+  ],
+  "query_summaries": [
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "an",
+      "token_pos": 2,
+      "word_score_logit": 0.04061254486441612,
+      "word_attn_weight": 0.09378881007432938,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.11956740915775299,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.11656491458415985,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.06580736488103867,
+          "sentence_text": "i certainly would appreciate very much to get suggestions or possible offers from other editors who like to express their strong directed beliefs concerning a future development of the area in question"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "is",
+      "token_pos": 1,
+      "word_score_logit": 0.03477691859006882,
+      "word_attn_weight": 0.09324309229850769,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.10694347321987152,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.10234254598617554,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.060486651957035065,
+          "sentence_text": "i certainly would appreciate very much to get suggestions or possible offers from other editors who like to express their strong directed beliefs concerning a future development of the area in question"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "this",
+      "token_pos": 0,
+      "word_score_logit": 0.02866474725306034,
+      "word_attn_weight": 0.09267491102218628,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 5,
+          "attn_weight": 0.1085398718714714,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 16,
+          "attn_weight": 0.10759219527244568,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.06263183057308197,
+          "sentence_text": "i certainly would appreciate very much to get suggestions or possible offers from other editors who like to express their strong directed beliefs concerning a future development of the area in question"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "send",
+      "token_pos": 5,
+      "word_score_logit": 0.01617369055747986,
+      "word_attn_weight": 0.09152450412511826,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.1495533585548401,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.14176058769226074,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 10,
+          "attn_weight": 0.05864977091550827,
+          "sentence_text": "this page expresses an opinion belief of the writing editor to some problems within the scope of computing and <UNK> extending into other concerning disciplines e g"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "invitation",
+      "token_pos": 3,
+      "word_score_logit": 0.015782825648784637,
+      "word_attn_weight": 0.09148873388767242,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 5,
+          "attn_weight": 0.1221175342798233,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 16,
+          "attn_weight": 0.11956588923931122,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.06885658204555511,
+          "sentence_text": "i certainly would appreciate very much to get suggestions or possible offers from other editors who like to express their strong directed beliefs concerning a future development of the area in question"
+        }
+      ]
+    },
+    {
+      "query_id": 5,
+      "from_sentence_id": 1,
+      "token": "the",
+      "token_pos": 0,
+      "word_score_logit": 0.0022208690643310547,
+      "word_attn_weight": 0.079141765832901,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 5,
+          "attn_weight": 0.14888814091682434,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 16,
+          "attn_weight": 0.13832712173461914,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 10,
+          "attn_weight": 0.07257463037967682,
+          "sentence_text": "this page expresses an opinion belief of the writing editor to some problems within the scope of computing and <UNK> extending into other concerning disciplines e g"
+        }
+      ]
+    },
+    {
+      "query_id": 6,
+      "from_sentence_id": 1,
+      "token": "first",
+      "token_pos": 1,
+      "word_score_logit": -0.005056144669651985,
+      "word_attn_weight": 0.07856793701648712,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 5,
+          "attn_weight": 0.1264476329088211,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 16,
+          "attn_weight": 0.11644204705953598,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 10,
+          "attn_weight": 0.07162797451019287,
+          "sentence_text": "this page expresses an opinion belief of the writing editor to some problems within the scope of computing and <UNK> extending into other concerning disciplines e g"
+        }
+      ]
+    },
+    {
+      "query_id": 7,
+      "from_sentence_id": 1,
+      "token": "and",
+      "token_pos": 8,
+      "word_score_logit": -0.008392579853534698,
+      "word_attn_weight": 0.07830624282360077,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.15145578980445862,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.1491125226020813,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.08650392293930054,
+          "sentence_text": "i certainly would appreciate very much to get suggestions or possible offers from other editors who like to express their strong directed beliefs concerning a future development of the area in question"
+        }
+      ]
+    },
+    {
+      "query_id": 8,
+      "from_sentence_id": 1,
+      "token": "are",
+      "token_pos": 10,
+      "word_score_logit": -0.01712268590927124,
+      "word_attn_weight": 0.0776255875825882,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.15089306235313416,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.14397919178009033,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.0771164745092392,
+          "sentence_text": "i certainly would appreciate very much to get suggestions or possible offers from other editors who like to express their strong directed beliefs concerning a future development of the area in question"
+        }
+      ]
+    },
+    {
+      "query_id": 9,
+      "from_sentence_id": 1,
+      "token": "echoes",
+      "token_pos": 9,
+      "word_score_logit": -0.019223108887672424,
+      "word_attn_weight": 0.07746271789073944,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 5,
+          "attn_weight": 0.21318261325359344,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 16,
+          "attn_weight": 0.19828017055988312,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.0960850641131401,
+          "sentence_text": "i certainly would appreciate very much to get suggestions or possible offers from other editors who like to express their strong directed beliefs concerning a future development of the area in question"
+        }
+      ]
+    },
+    {
+      "query_id": 10,
+      "from_sentence_id": 2,
+      "token": "contact",
+      "token_pos": 3,
+      "word_score_logit": 0.09784794598817825,
+      "word_attn_weight": 0.13388371467590332,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.199118971824646,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.13398313522338867,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.06692449748516083,
+          "sentence_text": "for any information contact <UNK> <UNK> ijs si"
+        }
+      ]
+    },
+    {
+      "query_id": 11,
+      "from_sentence_id": 2,
+      "token": "any",
+      "token_pos": 1,
+      "word_score_logit": 0.05017955228686333,
+      "word_attn_weight": 0.1276514083147049,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.15383808314800262,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.12385761737823486,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.06242910772562027,
+          "sentence_text": "for any information contact <UNK> <UNK> ijs si"
+        }
+      ]
+    },
+    {
+      "query_id": 12,
+      "from_sentence_id": 2,
+      "token": "information",
+      "token_pos": 2,
+      "word_score_logit": 0.04423707723617554,
+      "word_attn_weight": 0.12689508497714996,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.15782925486564636,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.1388457715511322,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 10,
+          "attn_weight": 0.061368416994810104,
+          "sentence_text": "this page expresses an opinion belief of the writing editor to some problems within the scope of computing and <UNK> extending into other concerning disciplines e g"
+        }
+      ]
+    },
+    {
+      "query_id": 13,
+      "from_sentence_id": 2,
+      "token": "si",
+      "token_pos": 7,
+      "word_score_logit": 0.04225851967930794,
+      "word_attn_weight": 0.12664426863193512,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.16654688119888306,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.13187023997306824,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.06926274299621582,
+          "sentence_text": "for any information contact <UNK> <UNK> ijs si"
+        }
+      ]
+    },
+    {
+      "query_id": 14,
+      "from_sentence_id": 2,
+      "token": "<UNK>",
+      "token_pos": 4,
+      "word_score_logit": 0.033068571239709854,
+      "word_attn_weight": 0.12548576295375824,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.14663653075695038,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.1244761049747467,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 10,
+          "attn_weight": 0.059317246079444885,
+          "sentence_text": "this page expresses an opinion belief of the writing editor to some problems within the scope of computing and <UNK> extending into other concerning disciplines e g"
+        }
+      ]
+    },
+    {
+      "query_id": 15,
+      "from_sentence_id": 3,
+      "token": "1",
+      "token_pos": 6,
+      "word_score_logit": 0.056042954325675964,
+      "word_attn_weight": 0.03619198873639107,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 5,
+          "attn_weight": 0.11366529017686844,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 16,
+          "attn_weight": 0.11260377615690231,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 10,
+          "attn_weight": 0.0625210553407669,
+          "sentence_text": "this page expresses an opinion belief of the writing editor to some problems within the scope of computing and <UNK> extending into other concerning disciplines e g"
+        }
+      ]
+    },
+    {
+      "query_id": 16,
+      "from_sentence_id": 3,
+      "token": "of",
+      "token_pos": 7,
+      "word_score_logit": 0.05306456238031387,
+      "word_attn_weight": 0.036084357649087906,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.14508913457393646,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.14044854044914246,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 10,
+          "attn_weight": 0.0674668699502945,
+          "sentence_text": "this page expresses an opinion belief of the writing editor to some problems within the scope of computing and <UNK> extending into other concerning disciplines e g"
+        }
+      ]
+    },
+    {
+      "query_id": 17,
+      "from_sentence_id": 3,
+      "token": "volume",
+      "token_pos": 8,
+      "word_score_logit": 0.04424915462732315,
+      "word_attn_weight": 0.035767655819654465,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.13007648289203644,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.1259523630142212,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 10,
+          "attn_weight": 0.06437936425209045,
+          "sentence_text": "this page expresses an opinion belief of the writing editor to some problems within the scope of computing and <UNK> extending into other concerning disciplines e g"
+        }
+      ]
+    },
+    {
+      "query_id": 18,
+      "from_sentence_id": 3,
+      "token": "17",
+      "token_pos": 9,
+      "word_score_logit": 0.04238838329911232,
+      "word_attn_weight": 0.03570115938782692,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 5,
+          "attn_weight": 0.12961459159851074,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 16,
+          "attn_weight": 0.12947463989257812,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 10,
+          "attn_weight": 0.06497475504875183,
+          "sentence_text": "this page expresses an opinion belief of the writing editor to some problems within the scope of computing and <UNK> extending into other concerning disciplines e g"
+        }
+      ]
+    },
+    {
+      "query_id": 19,
+      "from_sentence_id": 3,
+      "token": "of",
+      "token_pos": 10,
+      "word_score_logit": 0.031059512868523598,
+      "word_attn_weight": 0.03529898822307587,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.1502864956855774,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.14754241704940796,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 10,
+          "attn_weight": 0.07278196513652802,
+          "sentence_text": "this page expresses an opinion belief of the writing editor to some problems within the scope of computing and <UNK> extending into other concerning disciplines e g"
+        }
+      ]
+    },
+    {
+      "query_id": 20,
+      "from_sentence_id": 4,
+      "token": "profiles",
+      "token_pos": 16,
+      "word_score_logit": 0.08133099228143692,
+      "word_attn_weight": 0.030763676390051842,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.23409494757652283,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.1967669427394867,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 10,
+          "attn_weight": 0.06220712512731552,
+          "sentence_text": "this page expresses an opinion belief of the writing editor to some problems within the scope of computing and <UNK> extending into other concerning disciplines e g"
+        }
+      ]
+    },
+    {
+      "query_id": 21,
+      "from_sentence_id": 4,
+      "token": "the",
+      "token_pos": 4,
+      "word_score_logit": 0.07380328327417374,
+      "word_attn_weight": 0.030532965436577797,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.2674591839313507,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.22108516097068787,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.05311957001686096,
+          "sentence_text": "i certainly would appreciate very much to get suggestions or possible offers from other editors who like to express their strong directed beliefs concerning a future development of the area in question"
+        }
+      ]
+    },
+    {
+      "query_id": 22,
+      "from_sentence_id": 4,
+      "token": "journal",
+      "token_pos": 5,
+      "word_score_logit": 0.06860706210136414,
+      "word_attn_weight": 0.030374722555279732,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.2545478343963623,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.23108753561973572,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.062170084565877914,
+          "sentence_text": "i certainly would appreciate very much to get suggestions or possible offers from other editors who like to express their strong directed beliefs concerning a future development of the area in question"
+        }
+      ]
+    },
+    {
+      "query_id": 23,
+      "from_sentence_id": 4,
+      "token": "second",
+      "token_pos": 17,
+      "word_score_logit": 0.06856328994035721,
+      "word_attn_weight": 0.03037339262664318,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.17548739910125732,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.16663816571235657,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 10,
+          "attn_weight": 0.06321552395820618,
+          "sentence_text": "this page expresses an opinion belief of the writing editor to some problems within the scope of computing and <UNK> extending into other concerning disciplines e g"
+        }
+      ]
+    },
+    {
+      "query_id": 24,
+      "from_sentence_id": 4,
+      "token": "of",
+      "token_pos": 20,
+      "word_score_logit": 0.06298129260540009,
+      "word_attn_weight": 0.030204320326447487,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.19459325075149536,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.18695786595344543,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.07097291946411133,
+          "sentence_text": "i certainly would appreciate very much to get suggestions or possible offers from other editors who like to express their strong directed beliefs concerning a future development of the area in question"
+        }
+      ]
+    },
+    {
+      "query_id": 25,
+      "from_sentence_id": 5,
+      "token": "stanford",
+      "token_pos": 17,
+      "word_score_logit": 0.03378427028656006,
+      "word_attn_weight": 0.054217152297496796,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 5,
+          "attn_weight": 0.2398775815963745,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 16,
+          "attn_weight": 0.22104039788246155,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.07972666621208191,
+          "sentence_text": "i certainly would appreciate very much to get suggestions or possible offers from other editors who like to express their strong directed beliefs concerning a future development of the area in question"
+        }
+      ]
+    },
+    {
+      "query_id": 26,
+      "from_sentence_id": 5,
+      "token": "mission",
+      "token_pos": 2,
+      "word_score_logit": 0.032974664121866226,
+      "word_attn_weight": 0.05417327582836151,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 5,
+          "attn_weight": 0.2784256339073181,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 16,
+          "attn_weight": 0.23606957495212555,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.09751354157924652,
+          "sentence_text": "i certainly would appreciate very much to get suggestions or possible offers from other editors who like to express their strong directed beliefs concerning a future development of the area in question"
+        }
+      ]
+    },
+    {
+      "query_id": 27,
+      "from_sentence_id": 5,
+      "token": "in",
+      "token_pos": 16,
+      "word_score_logit": 0.02980397641658783,
+      "word_attn_weight": 0.05400177836418152,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 5,
+          "attn_weight": 0.25372496247291565,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 16,
+          "attn_weight": 0.2196865826845169,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.09157153964042664,
+          "sentence_text": "i certainly would appreciate very much to get suggestions or possible offers from other editors who like to express their strong directed beliefs concerning a future development of the area in question"
+        }
+      ]
+    },
+    {
+      "query_id": 28,
+      "from_sentence_id": 5,
+      "token": "and",
+      "token_pos": 14,
+      "word_score_logit": 0.028352774679660797,
+      "word_attn_weight": 0.05392347276210785,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 5,
+          "attn_weight": 0.24625742435455322,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 16,
+          "attn_weight": 0.22096368670463562,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.08856336772441864,
+          "sentence_text": "i certainly would appreciate very much to get suggestions or possible offers from other editors who like to express their strong directed beliefs concerning a future development of the area in question"
+        }
+      ]
+    },
+    {
+      "query_id": 29,
+      "from_sentence_id": 5,
+      "token": "<UNK>",
+      "token_pos": 15,
+      "word_score_logit": 0.02270675264298916,
+      "word_attn_weight": 0.0536198727786541,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 5,
+          "attn_weight": 0.2606346011161804,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 16,
+          "attn_weight": 0.23774582147598267,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.08562395721673965,
+          "sentence_text": "i certainly would appreciate very much to get suggestions or possible offers from other editors who like to express their strong directed beliefs concerning a future development of the area in question"
+        }
+      ]
+    },
+    {
+      "query_id": 30,
+      "from_sentence_id": 6,
+      "token": "news",
+      "token_pos": 3,
+      "word_score_logit": 0.03589171916246414,
+      "word_attn_weight": 0.14596125483512878,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 5,
+          "attn_weight": 0.14661529660224915,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 16,
+          "attn_weight": 0.11797937005758286,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.06217781454324722,
+          "sentence_text": "i certainly would appreciate very much to get suggestions or possible offers from other editors who like to express their strong directed beliefs concerning a future development of the area in question"
+        }
+      ]
+    },
+    {
+      "query_id": 31,
+      "from_sentence_id": 6,
+      "token": "and",
+      "token_pos": 2,
+      "word_score_logit": 0.027831044048070908,
+      "word_attn_weight": 0.1447894424200058,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 5,
+          "attn_weight": 0.11926887184381485,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 16,
+          "attn_weight": 0.1140630841255188,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.06218007951974869,
+          "sentence_text": "i certainly would appreciate very much to get suggestions or possible offers from other editors who like to express their strong directed beliefs concerning a future development of the area in question"
+        }
+      ]
+    },
+    {
+      "query_id": 32,
+      "from_sentence_id": 6,
+      "token": "announcements",
+      "token_pos": 5,
+      "word_score_logit": 0.01906289905309677,
+      "word_attn_weight": 0.14352545142173767,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 5,
+          "attn_weight": 0.09492179751396179,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 16,
+          "attn_weight": 0.08697406947612762,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.06173286959528923,
+          "sentence_text": "for any information contact <UNK> <UNK> ijs si"
+        }
+      ]
+    },
+    {
+      "query_id": 33,
+      "from_sentence_id": 6,
+      "token": "and",
+      "token_pos": 4,
+      "word_score_logit": 0.017083998769521713,
+      "word_attn_weight": 0.14324171841144562,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 5,
+          "attn_weight": 0.10893911123275757,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 16,
+          "attn_weight": 0.10139842331409454,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 6,
+          "attn_weight": 0.0542658194899559,
+          "sentence_text": "81 100 and news and announcements pp"
+        }
+      ]
+    },
+    {
+      "query_id": 34,
+      "from_sentence_id": 6,
+      "token": "81",
+      "token_pos": 0,
+      "word_score_logit": 0.011066829785704613,
+      "word_attn_weight": 0.14238238334655762,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 5,
+          "attn_weight": 0.1275370866060257,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 16,
+          "attn_weight": 0.11174437403678894,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.0567043274641037,
+          "sentence_text": "i certainly would appreciate very much to get suggestions or possible offers from other editors who like to express their strong directed beliefs concerning a future development of the area in question"
+        }
+      ]
+    },
+    {
+      "query_id": 35,
+      "from_sentence_id": 7,
+      "token": "108",
+      "token_pos": 1,
+      "word_score_logit": 0.07050587981939316,
+      "word_attn_weight": 0.5069161057472229,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.11548696458339691,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.11146321147680283,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 10,
+          "attn_weight": 0.055864278227090836,
+          "sentence_text": "this page expresses an opinion belief of the writing editor to some problems within the scope of computing and <UNK> extending into other concerning disciplines e g"
+        }
+      ]
+    },
+    {
+      "query_id": 36,
+      "from_sentence_id": 7,
+      "token": "101",
+      "token_pos": 0,
+      "word_score_logit": 0.04283975809812546,
+      "word_attn_weight": 0.4930839240550995,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.11827460676431656,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.11067204177379608,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.06103074550628662,
+          "sentence_text": "for any information contact <UNK> <UNK> ijs si"
+        }
+      ]
+    },
+    {
+      "query_id": 37,
+      "from_sentence_id": 7,
+      "token": "<PAD>",
+      "token_pos": 4,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.07811281085014343,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.07564935088157654,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 10,
+          "attn_weight": 0.057182587683200836,
+          "sentence_text": "this page expresses an opinion belief of the writing editor to some problems within the scope of computing and <UNK> extending into other concerning disciplines e g"
+        }
+      ]
+    },
+    {
+      "query_id": 38,
+      "from_sentence_id": 7,
+      "token": "<PAD>",
+      "token_pos": 3,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.07811281085014343,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.07564935088157654,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 10,
+          "attn_weight": 0.057182587683200836,
+          "sentence_text": "this page expresses an opinion belief of the writing editor to some problems within the scope of computing and <UNK> extending into other concerning disciplines e g"
+        }
+      ]
+    },
+    {
+      "query_id": 39,
+      "from_sentence_id": 7,
+      "token": "<PAD>",
+      "token_pos": 2,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.07811281085014343,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.07564935088157654,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 10,
+          "attn_weight": 0.057182587683200836,
+          "sentence_text": "this page expresses an opinion belief of the writing editor to some problems within the scope of computing and <UNK> extending into other concerning disciplines e g"
+        }
+      ]
+    },
+    {
+      "query_id": 40,
+      "from_sentence_id": 8,
+      "token": "structure",
+      "token_pos": 1,
+      "word_score_logit": 0.05002870038151741,
+      "word_attn_weight": 0.03374907001852989,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 5,
+          "attn_weight": 0.1779959499835968,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 16,
+          "attn_weight": 0.17022597789764404,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.08651715517044067,
+          "sentence_text": "i certainly would appreciate very much to get suggestions or possible offers from other editors who like to express their strong directed beliefs concerning a future development of the area in question"
+        }
+      ]
+    },
+    {
+      "query_id": 41,
+      "from_sentence_id": 8,
+      "token": "the",
+      "token_pos": 15,
+      "word_score_logit": 0.04805690795183182,
+      "word_attn_weight": 0.03368259221315384,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.16137737035751343,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.16029010713100433,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.1064908504486084,
+          "sentence_text": "i certainly would appreciate very much to get suggestions or possible offers from other editors who like to express their strong directed beliefs concerning a future development of the area in question"
+        }
+      ]
+    },
+    {
+      "query_id": 42,
+      "from_sentence_id": 8,
+      "token": "make",
+      "token_pos": 14,
+      "word_score_logit": 0.04230635240674019,
+      "word_attn_weight": 0.03348945081233978,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 5,
+          "attn_weight": 0.16579078137874603,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 16,
+          "attn_weight": 0.16551148891448975,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.08310139179229736,
+          "sentence_text": "i certainly would appreciate very much to get suggestions or possible offers from other editors who like to express their strong directed beliefs concerning a future development of the area in question"
+        }
+      ]
+    },
+    {
+      "query_id": 43,
+      "from_sentence_id": 8,
+      "token": "of",
+      "token_pos": 17,
+      "word_score_logit": 0.033769331872463226,
+      "word_attn_weight": 0.03320476785302162,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.23367799818515778,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.22472646832466125,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.12008655071258545,
+          "sentence_text": "i certainly would appreciate very much to get suggestions or possible offers from other editors who like to express their strong directed beliefs concerning a future development of the area in question"
+        }
+      ]
+    },
+    {
+      "query_id": 44,
+      "from_sentence_id": 8,
+      "token": "to",
+      "token_pos": 13,
+      "word_score_logit": 0.02971535362303257,
+      "word_attn_weight": 0.03307043015956879,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.164405956864357,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.1617717295885086,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.09567219018936157,
+          "sentence_text": "i certainly would appreciate very much to get suggestions or possible offers from other editors who like to express their strong directed beliefs concerning a future development of the area in question"
+        }
+      ]
+    },
+    {
+      "query_id": 45,
+      "from_sentence_id": 9,
+      "token": "the",
+      "token_pos": 6,
+      "word_score_logit": 0.0326760858297348,
+      "word_attn_weight": 0.09260417520999908,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 5,
+          "attn_weight": 0.18631604313850403,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 16,
+          "attn_weight": 0.16781653463840485,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.09343817830085754,
+          "sentence_text": "i certainly would appreciate very much to get suggestions or possible offers from other editors who like to express their strong directed beliefs concerning a future development of the area in question"
+        }
+      ]
+    },
+    {
+      "query_id": 46,
+      "from_sentence_id": 9,
+      "token": "called",
+      "token_pos": 8,
+      "word_score_logit": 0.030694715678691864,
+      "word_attn_weight": 0.09242088347673416,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 5,
+          "attn_weight": 0.15723641216754913,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 16,
+          "attn_weight": 0.1369866579771042,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.08983904123306274,
+          "sentence_text": "i certainly would appreciate very much to get suggestions or possible offers from other editors who like to express their strong directed beliefs concerning a future development of the area in question"
+        }
+      ]
+    },
+    {
+      "query_id": 47,
+      "from_sentence_id": 9,
+      "token": "given",
+      "token_pos": 4,
+      "word_score_logit": 0.025974994525313377,
+      "word_attn_weight": 0.09198570251464844,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 5,
+          "attn_weight": 0.14585837721824646,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 16,
+          "attn_weight": 0.12279367446899414,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.11280502378940582,
+          "sentence_text": "i certainly would appreciate very much to get suggestions or possible offers from other editors who like to express their strong directed beliefs concerning a future development of the area in question"
+        }
+      ]
+    },
+    {
+      "query_id": 48,
+      "from_sentence_id": 9,
+      "token": "to",
+      "token_pos": 5,
+      "word_score_logit": 0.020373329520225525,
+      "word_attn_weight": 0.09147186577320099,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 5,
+          "attn_weight": 0.140924334526062,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 16,
+          "attn_weight": 0.1248856633901596,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.10296918451786041,
+          "sentence_text": "i certainly would appreciate very much to get suggestions or possible offers from other editors who like to express their strong directed beliefs concerning a future development of the area in question"
+        }
+      ]
+    },
+    {
+      "query_id": 49,
+      "from_sentence_id": 9,
+      "token": "is",
+      "token_pos": 3,
+      "word_score_logit": 0.01858007349073887,
+      "word_attn_weight": 0.09130798280239105,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 5,
+          "attn_weight": 0.12020862847566605,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 16,
+          "attn_weight": 0.10753683745861053,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.10071663558483124,
+          "sentence_text": "i certainly would appreciate very much to get suggestions or possible offers from other editors who like to express their strong directed beliefs concerning a future development of the area in question"
+        }
+      ]
+    },
+    {
+      "query_id": 50,
+      "from_sentence_id": 10,
+      "token": "g",
+      "token_pos": 26,
+      "word_score_logit": 0.11308643966913223,
+      "word_attn_weight": 0.04074966907501221,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.23219704627990723,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.21436063945293427,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 10,
+          "attn_weight": 0.0584859736263752,
+          "sentence_text": "this page expresses an opinion belief of the writing editor to some problems within the scope of computing and <UNK> extending into other concerning disciplines e g"
+        }
+      ]
+    },
+    {
+      "query_id": 51,
+      "from_sentence_id": 10,
+      "token": "e",
+      "token_pos": 25,
+      "word_score_logit": 0.0845206007361412,
+      "word_attn_weight": 0.039602089673280716,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.2473902851343155,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.21994087100028992,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 10,
+          "attn_weight": 0.0590994656085968,
+          "sentence_text": "this page expresses an opinion belief of the writing editor to some problems within the scope of computing and <UNK> extending into other concerning disciplines e g"
+        }
+      ]
+    },
+    {
+      "query_id": 52,
+      "from_sentence_id": 10,
+      "token": "and",
+      "token_pos": 18,
+      "word_score_logit": 0.050301242619752884,
+      "word_attn_weight": 0.038269855082035065,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.2144739031791687,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.20262986421585083,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 10,
+          "attn_weight": 0.07381544262170792,
+          "sentence_text": "this page expresses an opinion belief of the writing editor to some problems within the scope of computing and <UNK> extending into other concerning disciplines e g"
+        }
+      ]
+    },
+    {
+      "query_id": 53,
+      "from_sentence_id": 10,
+      "token": "<UNK>",
+      "token_pos": 19,
+      "word_score_logit": 0.03396201506257057,
+      "word_attn_weight": 0.03764963522553444,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.19268599152565002,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.19211366772651672,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 10,
+          "attn_weight": 0.07625532150268555,
+          "sentence_text": "this page expresses an opinion belief of the writing editor to some problems within the scope of computing and <UNK> extending into other concerning disciplines e g"
+        }
+      ]
+    },
+    {
+      "query_id": 54,
+      "from_sentence_id": 10,
+      "token": "of",
+      "token_pos": 6,
+      "word_score_logit": 0.031174227595329285,
+      "word_attn_weight": 0.03754482418298721,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.20727543532848358,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.17903243005275726,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.09790582209825516,
+          "sentence_text": "i certainly would appreciate very much to get suggestions or possible offers from other editors who like to express their strong directed beliefs concerning a future development of the area in question"
+        }
+      ]
+    },
+    {
+      "query_id": 55,
+      "from_sentence_id": 11,
+      "token": "g",
+      "token_pos": 13,
+      "word_score_logit": 0.11802183836698532,
+      "word_attn_weight": 0.07944145053625107,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.23683993518352509,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.22049552202224731,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 10,
+          "attn_weight": 0.056633174419403076,
+          "sentence_text": "this page expresses an opinion belief of the writing editor to some problems within the scope of computing and <UNK> extending into other concerning disciplines e g"
+        }
+      ]
+    },
+    {
+      "query_id": 56,
+      "from_sentence_id": 11,
+      "token": "e",
+      "token_pos": 12,
+      "word_score_logit": 0.11069951206445694,
+      "word_attn_weight": 0.07886187732219696,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.285995215177536,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.24472305178642273,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 10,
+          "attn_weight": 0.05402673780918121,
+          "sentence_text": "this page expresses an opinion belief of the writing editor to some problems within the scope of computing and <UNK> extending into other concerning disciplines e g"
+        }
+      ]
+    },
+    {
+      "query_id": 57,
+      "from_sentence_id": 11,
+      "token": "neural",
+      "token_pos": 8,
+      "word_score_logit": 0.02206949144601822,
+      "word_attn_weight": 0.07217314094305038,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.17878633737564087,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.13352236151695251,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 10,
+          "attn_weight": 0.0855487734079361,
+          "sentence_text": "this page expresses an opinion belief of the writing editor to some problems within the scope of computing and <UNK> extending into other concerning disciplines e g"
+        }
+      ]
+    },
+    {
+      "query_id": 58,
+      "from_sentence_id": 11,
+      "token": "technology",
+      "token_pos": 11,
+      "word_score_logit": 0.020881783217191696,
+      "word_attn_weight": 0.07208747416734695,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.2877826690673828,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.25200772285461426,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 10,
+          "attn_weight": 0.05811329185962677,
+          "sentence_text": "this page expresses an opinion belief of the writing editor to some problems within the scope of computing and <UNK> extending into other concerning disciplines e g"
+        }
+      ]
+    },
+    {
+      "query_id": 59,
+      "from_sentence_id": 11,
+      "token": "sciences",
+      "token_pos": 9,
+      "word_score_logit": 0.005567567888647318,
+      "word_attn_weight": 0.07099191844463348,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.23362857103347778,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.19663868844509125,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 10,
+          "attn_weight": 0.07420611381530762,
+          "sentence_text": "this page expresses an opinion belief of the writing editor to some problems within the scope of computing and <UNK> extending into other concerning disciplines e g"
+        }
+      ]
+    },
+    {
+      "query_id": 60,
+      "from_sentence_id": 12,
+      "token": "etc",
+      "token_pos": 1,
+      "word_score_logit": 0.00878605991601944,
+      "word_attn_weight": 0.507421612739563,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.10898198187351227,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.0915975496172905,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 10,
+          "attn_weight": 0.058879487216472626,
+          "sentence_text": "this page expresses an opinion belief of the writing editor to some problems within the scope of computing and <UNK> extending into other concerning disciplines e g"
+        }
+      ]
+    },
+    {
+      "query_id": 61,
+      "from_sentence_id": 12,
+      "token": "<UNK>",
+      "token_pos": 0,
+      "word_score_logit": -0.020902564749121666,
+      "word_attn_weight": 0.4925784170627594,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.08184866607189178,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.0714796856045723,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 10,
+          "attn_weight": 0.0565325953066349,
+          "sentence_text": "this page expresses an opinion belief of the writing editor to some problems within the scope of computing and <UNK> extending into other concerning disciplines e g"
+        }
+      ]
+    },
+    {
+      "query_id": 62,
+      "from_sentence_id": 12,
+      "token": "<PAD>",
+      "token_pos": 4,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.07811281085014343,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.07564935088157654,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 10,
+          "attn_weight": 0.057182587683200836,
+          "sentence_text": "this page expresses an opinion belief of the writing editor to some problems within the scope of computing and <UNK> extending into other concerning disciplines e g"
+        }
+      ]
+    },
+    {
+      "query_id": 63,
+      "from_sentence_id": 12,
+      "token": "<PAD>",
+      "token_pos": 3,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.07811281085014343,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.07564935088157654,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 10,
+          "attn_weight": 0.057182587683200836,
+          "sentence_text": "this page expresses an opinion belief of the writing editor to some problems within the scope of computing and <UNK> extending into other concerning disciplines e g"
+        }
+      ]
+    },
+    {
+      "query_id": 64,
+      "from_sentence_id": 12,
+      "token": "<PAD>",
+      "token_pos": 2,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.07811281085014343,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.07564935088157654,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 10,
+          "attn_weight": 0.057182587683200836,
+          "sentence_text": "this page expresses an opinion belief of the writing editor to some problems within the scope of computing and <UNK> extending into other concerning disciplines e g"
+        }
+      ]
+    },
+    {
+      "query_id": 65,
+      "from_sentence_id": 13,
+      "token": "terry",
+      "token_pos": 3,
+      "word_score_logit": 0.04027289152145386,
+      "word_attn_weight": 0.08582720160484314,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.10905120521783829,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.09452328085899353,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 10,
+          "attn_weight": 0.05542462319135666,
+          "sentence_text": "this page expresses an opinion belief of the writing editor to some problems within the scope of computing and <UNK> extending into other concerning disciplines e g"
+        }
+      ]
+    },
+    {
+      "query_id": 66,
+      "from_sentence_id": 13,
+      "token": "asked",
+      "token_pos": 1,
+      "word_score_logit": 0.036330509930849075,
+      "word_attn_weight": 0.08548950403928757,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.14559228718280792,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.13590146601200104,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.08395258337259293,
+          "sentence_text": "i certainly would appreciate very much to get suggestions or possible offers from other editors who like to express their strong directed beliefs concerning a future development of the area in question"
+        }
+      ]
+    },
+    {
+      "query_id": 67,
+      "from_sentence_id": 13,
+      "token": "professor",
+      "token_pos": 2,
+      "word_score_logit": 0.03099806234240532,
+      "word_attn_weight": 0.08503485471010208,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.12405700981616974,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.11315202713012695,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.07537462562322617,
+          "sentence_text": "i certainly would appreciate very much to get suggestions or possible offers from other editors who like to express their strong directed beliefs concerning a future development of the area in question"
+        }
+      ]
+    },
+    {
+      "query_id": 68,
+      "from_sentence_id": 13,
+      "token": "2",
+      "token_pos": 11,
+      "word_score_logit": 0.026556748896837234,
+      "word_attn_weight": 0.08465801924467087,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.08057975769042969,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.07445485889911652,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 10,
+          "attn_weight": 0.054367803037166595,
+          "sentence_text": "this page expresses an opinion belief of the writing editor to some problems within the scope of computing and <UNK> extending into other concerning disciplines e g"
+        }
+      ]
+    },
+    {
+      "query_id": 69,
+      "from_sentence_id": 13,
+      "token": "i",
+      "token_pos": 0,
+      "word_score_logit": 0.024410733953118324,
+      "word_attn_weight": 0.084476538002491,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.1455172747373581,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.1256193220615387,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.07165655493736267,
+          "sentence_text": "i certainly would appreciate very much to get suggestions or possible offers from other editors who like to express their strong directed beliefs concerning a future development of the area in question"
+        }
+      ]
+    },
+    {
+      "query_id": 70,
+      "from_sentence_id": 14,
+      "token": "of",
+      "token_pos": 27,
+      "word_score_logit": 0.029074039310216904,
+      "word_attn_weight": 0.03235309198498726,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 5,
+          "attn_weight": 0.20495468378067017,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 16,
+          "attn_weight": 0.1882818043231964,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.11814475059509277,
+          "sentence_text": "i certainly would appreciate very much to get suggestions or possible offers from other editors who like to express their strong directed beliefs concerning a future development of the area in question"
+        }
+      ]
+    },
+    {
+      "query_id": 71,
+      "from_sentence_id": 14,
+      "token": "the",
+      "token_pos": 28,
+      "word_score_logit": 0.025689352303743362,
+      "word_attn_weight": 0.032243773341178894,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 5,
+          "attn_weight": 0.22311346232891083,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 16,
+          "attn_weight": 0.21416664123535156,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.10387824475765228,
+          "sentence_text": "i certainly would appreciate very much to get suggestions or possible offers from other editors who like to express their strong directed beliefs concerning a future development of the area in question"
+        }
+      ]
+    },
+    {
+      "query_id": 72,
+      "from_sentence_id": 14,
+      "token": "area",
+      "token_pos": 29,
+      "word_score_logit": 0.016902823001146317,
+      "word_attn_weight": 0.031961701810359955,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 5,
+          "attn_weight": 0.21312053501605988,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 16,
+          "attn_weight": 0.18926841020584106,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.11824557185173035,
+          "sentence_text": "i certainly would appreciate very much to get suggestions or possible offers from other editors who like to express their strong directed beliefs concerning a future development of the area in question"
+        }
+      ]
+    },
+    {
+      "query_id": 73,
+      "from_sentence_id": 14,
+      "token": "in",
+      "token_pos": 30,
+      "word_score_logit": 0.01145947352051735,
+      "word_attn_weight": 0.03178819641470909,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 5,
+          "attn_weight": 0.17940622568130493,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 16,
+          "attn_weight": 0.14976313710212708,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.12844565510749817,
+          "sentence_text": "i certainly would appreciate very much to get suggestions or possible offers from other editors who like to express their strong directed beliefs concerning a future development of the area in question"
+        }
+      ]
+    },
+    {
+      "query_id": 74,
+      "from_sentence_id": 14,
+      "token": "express",
+      "token_pos": 18,
+      "word_score_logit": 0.010020779445767403,
+      "word_attn_weight": 0.03174249455332756,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 14,
+          "attn_weight": 0.21997405588626862,
+          "sentence_text": "i certainly would appreciate very much to get suggestions or possible offers from other editors who like to express their strong directed beliefs concerning a future development of the area in question"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 18,
+          "attn_weight": 0.07840970158576965,
+          "sentence_text": "the edited part edited papers is still critical"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 8,
+          "attn_weight": 0.07753124833106995,
+          "sentence_text": "this structure is mentioned to give you a suggestion how could you help to make the contents of the journal significant diverse and interesting bringing your own views into the discourse"
+        }
+      ]
+    },
+    {
+      "query_id": 75,
+      "from_sentence_id": 15,
+      "token": "the",
+      "token_pos": 1,
+      "word_score_logit": 0.04324968531727791,
+      "word_attn_weight": 0.08539500832557678,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.17086860537528992,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.15015333890914917,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 10,
+          "attn_weight": 0.07423444092273712,
+          "sentence_text": "this page expresses an opinion belief of the writing editor to some problems within the scope of computing and <UNK> extending into other concerning disciplines e g"
+        }
+      ]
+    },
+    {
+      "query_id": 76,
+      "from_sentence_id": 15,
+      "token": "second",
+      "token_pos": 2,
+      "word_score_logit": 0.03844626247882843,
+      "word_attn_weight": 0.08498580753803253,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.1368863880634308,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.12359257787466049,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 10,
+          "attn_weight": 0.07273230701684952,
+          "sentence_text": "this page expresses an opinion belief of the writing editor to some problems within the scope of computing and <UNK> extending into other concerning disciplines e g"
+        }
+      ]
+    },
+    {
+      "query_id": 77,
+      "from_sentence_id": 15,
+      "token": "page",
+      "token_pos": 3,
+      "word_score_logit": 0.030376635491847992,
+      "word_attn_weight": 0.08430276066064835,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.15836495161056519,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.13282564282417297,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 10,
+          "attn_weight": 0.07364974915981293,
+          "sentence_text": "this page expresses an opinion belief of the writing editor to some problems within the scope of computing and <UNK> extending into other concerning disciplines e g"
+        }
+      ]
+    },
+    {
+      "query_id": 78,
+      "from_sentence_id": 15,
+      "token": "on",
+      "token_pos": 0,
+      "word_score_logit": 0.023173358291387558,
+      "word_attn_weight": 0.08369769155979156,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.12197612226009369,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.11027372628450394,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 10,
+          "attn_weight": 0.0725981816649437,
+          "sentence_text": "this page expresses an opinion belief of the writing editor to some problems within the scope of computing and <UNK> extending into other concerning disciplines e g"
+        }
+      ]
+    },
+    {
+      "query_id": 79,
+      "from_sentence_id": 15,
+      "token": "of",
+      "token_pos": 4,
+      "word_score_logit": 0.023116450756788254,
+      "word_attn_weight": 0.08369292318820953,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.15175402164459229,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.1275097131729126,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 10,
+          "attn_weight": 0.07719049602746964,
+          "sentence_text": "this page expresses an opinion belief of the writing editor to some problems within the scope of computing and <UNK> extending into other concerning disciplines e g"
+        }
+      ]
+    },
+    {
+      "query_id": 80,
+      "from_sentence_id": 16,
+      "token": "profile",
+      "token_pos": 4,
+      "word_score_logit": 0.06374800950288773,
+      "word_attn_weight": 0.02560439519584179,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.3025236129760742,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.20478016138076782,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.07875895500183105,
+          "sentence_text": "i certainly would appreciate very much to get suggestions or possible offers from other editors who like to express their strong directed beliefs concerning a future development of the area in question"
+        }
+      ]
+    },
+    {
+      "query_id": 81,
+      "from_sentence_id": 16,
+      "token": "of",
+      "token_pos": 2,
+      "word_score_logit": 0.05325644463300705,
+      "word_attn_weight": 0.02533717080950737,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.2899692952632904,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.18940433859825134,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.0926705002784729,
+          "sentence_text": "i certainly would appreciate very much to get suggestions or possible offers from other editors who like to express their strong directed beliefs concerning a future development of the area in question"
+        }
+      ]
+    },
+    {
+      "query_id": 82,
+      "from_sentence_id": 16,
+      "token": "the",
+      "token_pos": 0,
+      "word_score_logit": 0.04743948206305504,
+      "word_attn_weight": 0.025190213695168495,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.2382221221923828,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.17004115879535675,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.10154205560684204,
+          "sentence_text": "i certainly would appreciate very much to get suggestions or possible offers from other editors who like to express their strong directed beliefs concerning a future development of the area in question"
+        }
+      ]
+    },
+    {
+      "query_id": 83,
+      "from_sentence_id": 16,
+      "token": "is",
+      "token_pos": 5,
+      "word_score_logit": 0.04570050165057182,
+      "word_attn_weight": 0.025146445259451866,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.21189020574092865,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.14720231294631958,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.10446234792470932,
+          "sentence_text": "i certainly would appreciate very much to get suggestions or possible offers from other editors who like to express their strong directed beliefs concerning a future development of the area in question"
+        }
+      ]
+    },
+    {
+      "query_id": 84,
+      "from_sentence_id": 16,
+      "token": "the",
+      "token_pos": 3,
+      "word_score_logit": 0.044705942273139954,
+      "word_attn_weight": 0.025121448561549187,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.3113413453102112,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.2057253122329712,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.08122635632753372,
+          "sentence_text": "i certainly would appreciate very much to get suggestions or possible offers from other editors who like to express their strong directed beliefs concerning a future development of the area in question"
+        }
+      ]
+    },
+    {
+      "query_id": 85,
+      "from_sentence_id": 17,
+      "token": "faced",
+      "token_pos": 9,
+      "word_score_logit": 0.019475162029266357,
+      "word_attn_weight": 0.0430988147854805,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 5,
+          "attn_weight": 0.1222575455904007,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 16,
+          "attn_weight": 0.11556931585073471,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.1139930933713913,
+          "sentence_text": "i certainly would appreciate very much to get suggestions or possible offers from other editors who like to express their strong directed beliefs concerning a future development of the area in question"
+        }
+      ]
+    },
+    {
+      "query_id": 86,
+      "from_sentence_id": 17,
+      "token": "and",
+      "token_pos": 22,
+      "word_score_logit": 0.008029807358980179,
+      "word_attn_weight": 0.0426083467900753,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 5,
+          "attn_weight": 0.1047392338514328,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 16,
+          "attn_weight": 0.08938555419445038,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.08322388678789139,
+          "sentence_text": "i certainly would appreciate very much to get suggestions or possible offers from other editors who like to express their strong directed beliefs concerning a future development of the area in question"
+        }
+      ]
+    },
+    {
+      "query_id": 87,
+      "from_sentence_id": 17,
+      "token": "the",
+      "token_pos": 12,
+      "word_score_logit": 0.0023357877507805824,
+      "word_attn_weight": 0.042366426438093185,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 14,
+          "attn_weight": 0.13545747101306915,
+          "sentence_text": "i certainly would appreciate very much to get suggestions or possible offers from other editors who like to express their strong directed beliefs concerning a future development of the area in question"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.13359886407852173,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 16,
+          "attn_weight": 0.11502048373222351,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        }
+      ]
+    },
+    {
+      "query_id": 88,
+      "from_sentence_id": 17,
+      "token": "kind",
+      "token_pos": 1,
+      "word_score_logit": -0.00046461448073387146,
+      "word_attn_weight": 0.0422479473054409,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 14,
+          "attn_weight": 0.10447835922241211,
+          "sentence_text": "i certainly would appreciate very much to get suggestions or possible offers from other editors who like to express their strong directed beliefs concerning a future development of the area in question"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.09823913872241974,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 16,
+          "attn_weight": 0.09070105850696564,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        }
+      ]
+    },
+    {
+      "query_id": 89,
+      "from_sentence_id": 17,
+      "token": "of",
+      "token_pos": 2,
+      "word_score_logit": -0.002093978226184845,
+      "word_attn_weight": 0.0421791672706604,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 14,
+          "attn_weight": 0.12019012868404388,
+          "sentence_text": "i certainly would appreciate very much to get suggestions or possible offers from other editors who like to express their strong directed beliefs concerning a future development of the area in question"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.08197353780269623,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 16,
+          "attn_weight": 0.07326632738113403,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        }
+      ]
+    },
+    {
+      "query_id": 90,
+      "from_sentence_id": 18,
+      "token": "the",
+      "token_pos": 0,
+      "word_score_logit": 0.03432265669107437,
+      "word_attn_weight": 0.1311633288860321,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 5,
+          "attn_weight": 0.13534343242645264,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 16,
+          "attn_weight": 0.1120787262916565,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.09775454550981522,
+          "sentence_text": "i certainly would appreciate very much to get suggestions or possible offers from other editors who like to express their strong directed beliefs concerning a future development of the area in question"
+        }
+      ]
+    },
+    {
+      "query_id": 91,
+      "from_sentence_id": 18,
+      "token": "part",
+      "token_pos": 2,
+      "word_score_logit": 0.0013541905209422112,
+      "word_attn_weight": 0.12690958380699158,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 5,
+          "attn_weight": 0.13148616254329681,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 16,
+          "attn_weight": 0.10280321538448334,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.09398046135902405,
+          "sentence_text": "i certainly would appreciate very much to get suggestions or possible offers from other editors who like to express their strong directed beliefs concerning a future development of the area in question"
+        }
+      ]
+    },
+    {
+      "query_id": 92,
+      "from_sentence_id": 18,
+      "token": "edited",
+      "token_pos": 1,
+      "word_score_logit": -0.012974703684449196,
+      "word_attn_weight": 0.12510408461093903,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 5,
+          "attn_weight": 0.10514997690916061,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 14,
+          "attn_weight": 0.09602178633213043,
+          "sentence_text": "i certainly would appreciate very much to get suggestions or possible offers from other editors who like to express their strong directed beliefs concerning a future development of the area in question"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 16,
+          "attn_weight": 0.09108565002679825,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        }
+      ]
+    },
+    {
+      "query_id": 93,
+      "from_sentence_id": 18,
+      "token": "is",
+      "token_pos": 5,
+      "word_score_logit": -0.017950531095266342,
+      "word_attn_weight": 0.124483123421669,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.11500117182731628,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.11108988523483276,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.08538283407688141,
+          "sentence_text": "i certainly would appreciate very much to get suggestions or possible offers from other editors who like to express their strong directed beliefs concerning a future development of the area in question"
+        }
+      ]
+    },
+    {
+      "query_id": 94,
+      "from_sentence_id": 18,
+      "token": "edited",
+      "token_pos": 3,
+      "word_score_logit": -0.02640865370631218,
+      "word_attn_weight": 0.12343467772006989,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 5,
+          "attn_weight": 0.09983973205089569,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 14,
+          "attn_weight": 0.09861326217651367,
+          "sentence_text": "i certainly would appreciate very much to get suggestions or possible offers from other editors who like to express their strong directed beliefs concerning a future development of the area in question"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 16,
+          "attn_weight": 0.0879402682185173,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        }
+      ]
+    },
+    {
+      "query_id": 95,
+      "from_sentence_id": 19,
+      "token": "g",
+      "token_pos": 24,
+      "word_score_logit": 0.1369529664516449,
+      "word_attn_weight": 0.04422732815146446,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.2308281660079956,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.20547063648700714,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 10,
+          "attn_weight": 0.0564141608774662,
+          "sentence_text": "this page expresses an opinion belief of the writing editor to some problems within the scope of computing and <UNK> extending into other concerning disciplines e g"
+        }
+      ]
+    },
+    {
+      "query_id": 96,
+      "from_sentence_id": 19,
+      "token": "fixed",
+      "token_pos": 22,
+      "word_score_logit": 0.13127049803733826,
+      "word_attn_weight": 0.04397672042250633,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.2859145700931549,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.22280091047286987,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 10,
+          "attn_weight": 0.06093406677246094,
+          "sentence_text": "this page expresses an opinion belief of the writing editor to some problems within the scope of computing and <UNK> extending into other concerning disciplines e g"
+        }
+      ]
+    },
+    {
+      "query_id": 97,
+      "from_sentence_id": 19,
+      "token": "e",
+      "token_pos": 23,
+      "word_score_logit": 0.12799644470214844,
+      "word_attn_weight": 0.04383297264575958,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.26278191804885864,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.2233462780714035,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 10,
+          "attn_weight": 0.05560130625963211,
+          "sentence_text": "this page expresses an opinion belief of the writing editor to some problems within the scope of computing and <UNK> extending into other concerning disciplines e g"
+        }
+      ]
+    },
+    {
+      "query_id": 98,
+      "from_sentence_id": 19,
+      "token": "can",
+      "token_pos": 20,
+      "word_score_logit": 0.06272031366825104,
+      "word_attn_weight": 0.041063111275434494,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.20699270069599152,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.1821911633014679,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 10,
+          "attn_weight": 0.07233965396881104,
+          "sentence_text": "this page expresses an opinion belief of the writing editor to some problems within the scope of computing and <UNK> extending into other concerning disciplines e g"
+        }
+      ]
+    },
+    {
+      "query_id": 99,
+      "from_sentence_id": 19,
+      "token": "be",
+      "token_pos": 21,
+      "word_score_logit": 0.06168156489729881,
+      "word_attn_weight": 0.041020482778549194,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.16320565342903137,
+          "sentence_text": "the aim of the profile is twofold to show his her professional achievements interests scientific and philosophical orientation on one side to <UNK> his her life story in the environments in which editors has lived and live on the other side"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.14895430207252502,
+          "sentence_text": "3 80 mission and research reports a plan for knowledge archives project in japan and <UNK> in stanford pp"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 10,
+          "attn_weight": 0.0710853785276413,
+          "sentence_text": "this page expresses an opinion belief of the writing editor to some problems within the scope of computing and <UNK> extending into other concerning disciplines e g"
+        }
+      ]
+    }
+  ],
+  "sentence_importance_from_cross_attn": {
+    "definition": "mean cross-attn over queries",
+    "values": [
+      {
+        "sentence_id": 0,
+        "importance": 0.034116338938474655
+      },
+      {
+        "sentence_id": 1,
+        "importance": 0.04325283318758011
+      },
+      {
+        "sentence_id": 2,
+        "importance": 0.034475382417440414
+      },
+      {
+        "sentence_id": 3,
+        "importance": 0.030566303059458733
+      },
+      {
+        "sentence_id": 4,
+        "importance": 0.03502081334590912
+      },
+      {
+        "sentence_id": 5,
+        "importance": 0.15183831751346588
+      },
+      {
+        "sentence_id": 6,
+        "importance": 0.0354372002184391
+      },
+      {
+        "sentence_id": 7,
+        "importance": 0.023661606013774872
+      },
+      {
+        "sentence_id": 8,
+        "importance": 0.04583926871418953
+      },
+      {
+        "sentence_id": 9,
+        "importance": 0.032160140573978424
+      },
+      {
+        "sentence_id": 10,
+        "importance": 0.0642554983496666
+      },
+      {
+        "sentence_id": 11,
+        "importance": 0.04453360289335251
+      },
+      {
+        "sentence_id": 12,
+        "importance": 0.02507988177239895
+      },
+      {
+        "sentence_id": 13,
+        "importance": 0.020924309268593788
+      },
+      {
+        "sentence_id": 14,
+        "importance": 0.07343617081642151
+      },
+      {
+        "sentence_id": 15,
+        "importance": 0.03413497656583786
+      },
+      {
+        "sentence_id": 16,
+        "importance": 0.1603579968214035
+      },
+      {
+        "sentence_id": 17,
+        "importance": 0.04285857453942299
+      },
+      {
+        "sentence_id": 18,
+        "importance": 0.03305073082447052
+      },
+      {
+        "sentence_id": 19,
+        "importance": 0.03500012680888176
+      }
+    ],
+    "ranked": [
+      {
+        "sentence_id": 16,
+        "importance": 0.1603579968214035
+      },
+      {
+        "sentence_id": 5,
+        "importance": 0.15183831751346588
+      },
+      {
+        "sentence_id": 14,
+        "importance": 0.07343617081642151
+      },
+      {
+        "sentence_id": 10,
+        "importance": 0.0642554983496666
+      },
+      {
+        "sentence_id": 8,
+        "importance": 0.04583926871418953
+      },
+      {
+        "sentence_id": 11,
+        "importance": 0.04453360289335251
+      },
+      {
+        "sentence_id": 1,
+        "importance": 0.04325283318758011
+      },
+      {
+        "sentence_id": 17,
+        "importance": 0.04285857453942299
+      },
+      {
+        "sentence_id": 6,
+        "importance": 0.0354372002184391
+      },
+      {
+        "sentence_id": 4,
+        "importance": 0.03502081334590912
+      },
+      {
+        "sentence_id": 19,
+        "importance": 0.03500012680888176
+      },
+      {
+        "sentence_id": 2,
+        "importance": 0.034475382417440414
+      },
+      {
+        "sentence_id": 15,
+        "importance": 0.03413497656583786
+      },
+      {
+        "sentence_id": 0,
+        "importance": 0.034116338938474655
+      },
+      {
+        "sentence_id": 18,
+        "importance": 0.03305073082447052
+      },
+      {
+        "sentence_id": 9,
+        "importance": 0.032160140573978424
+      },
+      {
+        "sentence_id": 3,
+        "importance": 0.030566303059458733
+      },
+      {
+        "sentence_id": 12,
+        "importance": 0.02507988177239895
+      },
+      {
+        "sentence_id": 7,
+        "importance": 0.023661606013774872
+      },
+      {
+        "sentence_id": 13,
+        "importance": 0.020924309268593788
+      }
+    ]
+  },
+  "example_id": "test-21"
+}

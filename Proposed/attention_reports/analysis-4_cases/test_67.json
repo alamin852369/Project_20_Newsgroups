@@ -1,0 +1,397 @@
+{
+  "example_id": "test_67",
+  "true_label_id": 13,
+  "pred_label_id": 4,
+  "true_label_name": "sci.med",
+  "pred_label_name": "comp.sys.mac.hardware",
+  "pred_confidence": 0.45492225885391235,
+  "metrics": {
+    "num_sents": 9,
+    "K": 5,
+    "stop_ratio": 0.28888888888888886,
+    "unk_ratio": 0.022222222222222223,
+    "num_ratio": 0.022222222222222223,
+    "content_ratio": 0.5333333333333333,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 2.056452751159668,
+    "sentence_importance_entropy": 2.080789089202881,
+    "sentence_importance_max": 0.2675588130950928,
+    "top_sentence_id": 7,
+    "query_mismatch_rate": 0.8888888888888888,
+    "selected_quality_counts": {
+      "stopword": 13,
+      "content_word": 24,
+      "other": 2,
+      "short_word": 4,
+      "unk": 1,
+      "number": 1
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.18222222222222217,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.18729116916656494,
+    "D_local_global_conflict": 0.8888888888888888,
+    "E_overconfident_error": 0.45492225885391235
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "do i ever",
+      "after 2 years of having health problems that had been cleared up w <UNK> shots and not knowing why i went and was re tested",
+      "i actually did better than when i had been tested 2 years ago",
+      "then putting 2 2 together i realized that it all started back up when the laser printer came into the office",
+      "i kept track of the usage and on hi use days i was worse",
+      "i got better over the weekends",
+      "the laser printer is gone i'm 100 better",
+      "whether it is the toner dust or chemicals i dont know i am highly allergic to dust but it definitely was the laser printer",
+      "<UNK> <UNK> carderock div nswc david taylor model basin bethesda md 20084 e mail cape <UNK> dt navy mil or"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "do",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.01980278268456459,
+          "word_attn_weight": 0.33511558175086975
+        },
+        {
+          "token": "ever",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.014426026493310928,
+          "word_attn_weight": 0.3333185911178589
+        },
+        {
+          "token": "i",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.009153655730187893,
+          "word_attn_weight": 0.33156585693359375
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 3,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ],
+      [
+        {
+          "token": "w",
+          "token_pos": 12,
+          "quality": "short_word",
+          "word_score_logit": 0.08716070652008057,
+          "word_attn_weight": 0.042403437197208405
+        },
+        {
+          "token": "cleared",
+          "token_pos": 10,
+          "quality": "content_word",
+          "word_score_logit": 0.07133794575929642,
+          "word_attn_weight": 0.04173777252435684
+        },
+        {
+          "token": "<UNK>",
+          "token_pos": 13,
+          "quality": "unk",
+          "word_score_logit": 0.05931375175714493,
+          "word_attn_weight": 0.04123891890048981
+        },
+        {
+          "token": "up",
+          "token_pos": 11,
+          "quality": "stopword",
+          "word_score_logit": 0.053423818200826645,
+          "word_attn_weight": 0.0409967377781868
+        },
+        {
+          "token": "had",
+          "token_pos": 8,
+          "quality": "content_word",
+          "word_score_logit": 0.04780317470431328,
+          "word_attn_weight": 0.04076695814728737
+        }
+      ],
+      [
+        {
+          "token": "2",
+          "token_pos": 10,
+          "quality": "number",
+          "word_score_logit": 0.02630235068500042,
+          "word_attn_weight": 0.07798413932323456
+        },
+        {
+          "token": "did",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.019512047991156578,
+          "word_attn_weight": 0.07745639234781265
+        },
+        {
+          "token": "actually",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.018202800303697586,
+          "word_attn_weight": 0.0773550495505333
+        },
+        {
+          "token": "tested",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": 0.017765328288078308,
+          "word_attn_weight": 0.07732122391462326
+        },
+        {
+          "token": "had",
+          "token_pos": 7,
+          "quality": "content_word",
+          "word_score_logit": 0.015521721914410591,
+          "word_attn_weight": 0.0771479383111
+        }
+      ],
+      [
+        {
+          "token": "laser",
+          "token_pos": 15,
+          "quality": "content_word",
+          "word_score_logit": 0.07718057930469513,
+          "word_attn_weight": 0.05014883354306221
+        },
+        {
+          "token": "the",
+          "token_pos": 14,
+          "quality": "stopword",
+          "word_score_logit": 0.05814060568809509,
+          "word_attn_weight": 0.04920303449034691
+        },
+        {
+          "token": "printer",
+          "token_pos": 16,
+          "quality": "content_word",
+          "word_score_logit": 0.057053495198488235,
+          "word_attn_weight": 0.04914957284927368
+        },
+        {
+          "token": "came",
+          "token_pos": 17,
+          "quality": "content_word",
+          "word_score_logit": 0.0491173192858696,
+          "word_attn_weight": 0.04876105487346649
+        },
+        {
+          "token": "into",
+          "token_pos": 18,
+          "quality": "stopword",
+          "word_score_logit": 0.041544109582901,
+          "word_attn_weight": 0.04839317500591278
+        }
+      ],
+      [
+        {
+          "token": "use",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": 0.09847113490104675,
+          "word_attn_weight": 0.07506519556045532
+        },
+        {
+          "token": "usage",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.08241790533065796,
+          "word_attn_weight": 0.07386977970600128
+        },
+        {
+          "token": "days",
+          "token_pos": 10,
+          "quality": "content_word",
+          "word_score_logit": 0.060488261282444,
+          "word_attn_weight": 0.07226748019456863
+        },
+        {
+          "token": "kept",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.05469096824526787,
+          "word_attn_weight": 0.07184973359107971
+        },
+        {
+          "token": "and",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": 0.04891447722911835,
+          "word_attn_weight": 0.07143589109182358
+        }
+      ],
+      [
+        {
+          "token": "the",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": 0.029831739142537117,
+          "word_attn_weight": 0.16867941617965698
+        },
+        {
+          "token": "weekends",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.022699248045682907,
+          "word_attn_weight": 0.16748058795928955
+        },
+        {
+          "token": "better",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.01881030760705471,
+          "word_attn_weight": 0.16683052480220795
+        },
+        {
+          "token": "i",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.016017936170101166,
+          "word_attn_weight": 0.16636532545089722
+        },
+        {
+          "token": "got",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.015422020107507706,
+          "word_attn_weight": 0.16626621782779694
+        }
+      ],
+      [
+        {
+          "token": "laser",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.07032317668199539,
+          "word_attn_weight": 0.1299041360616684
+        },
+        {
+          "token": "the",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.05838874354958534,
+          "word_attn_weight": 0.1283630132675171
+        },
+        {
+          "token": "printer",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.04165820777416229,
+          "word_attn_weight": 0.1262332946062088
+        },
+        {
+          "token": "is",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": 0.02912953495979309,
+          "word_attn_weight": 0.12466162443161011
+        },
+        {
+          "token": "gone",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.023866012692451477,
+          "word_attn_weight": 0.12400718778371811
+        }
+      ],
+      [
+        {
+          "token": "laser",
+          "token_pos": 22,
+          "quality": "content_word",
+          "word_score_logit": 0.08008400350809097,
+          "word_attn_weight": 0.043537840247154236
+        },
+        {
+          "token": "dont",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": 0.07345596700906754,
+          "word_attn_weight": 0.043250225484371185
+        },
+        {
+          "token": "was",
+          "token_pos": 20,
+          "quality": "stopword",
+          "word_score_logit": 0.06681832671165466,
+          "word_attn_weight": 0.04296409711241722
+        },
+        {
+          "token": "the",
+          "token_pos": 21,
+          "quality": "stopword",
+          "word_score_logit": 0.06487821787595749,
+          "word_attn_weight": 0.0428808219730854
+        },
+        {
+          "token": "printer",
+          "token_pos": 23,
+          "quality": "content_word",
+          "word_score_logit": 0.054352015256881714,
+          "word_attn_weight": 0.04243181645870209
+        }
+      ],
+      [
+        {
+          "token": "md",
+          "token_pos": 10,
+          "quality": "short_word",
+          "word_score_logit": 0.11159316450357437,
+          "word_attn_weight": 0.05277097597718239
+        },
+        {
+          "token": "e",
+          "token_pos": 12,
+          "quality": "short_word",
+          "word_score_logit": 0.08949092775583267,
+          "word_attn_weight": 0.051617417484521866
+        },
+        {
+          "token": "carderock",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.08853194862604141,
+          "word_attn_weight": 0.051567938178777695
+        },
+        {
+          "token": "dt",
+          "token_pos": 16,
+          "quality": "short_word",
+          "word_score_logit": 0.08847980946302414,
+          "word_attn_weight": 0.051565248519182205
+        },
+        {
+          "token": "bethesda",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": 0.08419711142778397,
+          "word_attn_weight": 0.05134488269686699
+        }
+      ]
+    ],
+    "top_sentence_id": 7,
+    "sentence_importance_distribution": [
+      0.054115694016218185,
+      0.1096486747264862,
+      0.07776793837547302,
+      0.11367888003587723,
+      0.07638644427061081,
+      0.08369601517915726,
+      0.12983770668506622,
+      0.2675588130950928,
+      0.08730987459421158
+    ]
+  }
+}

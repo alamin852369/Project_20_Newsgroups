@@ -1,0 +1,279 @@
+{
+  "example_id": "test_2323",
+  "true_label_id": 1,
+  "pred_label_id": 6,
+  "true_label_name": "comp.graphics",
+  "pred_label_name": "misc.forsale",
+  "pred_confidence": 0.9920805096626282,
+  "metrics": {
+    "num_sents": 6,
+    "K": 5,
+    "stop_ratio": 0.03333333333333333,
+    "unk_ratio": 0.06666666666666667,
+    "num_ratio": 0.26666666666666666,
+    "content_ratio": 0.5333333333333333,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 1.2891253232955933,
+    "sentence_importance_entropy": 1.4734818935394287,
+    "sentence_importance_max": 0.5063972473144531,
+    "top_sentence_id": 3,
+    "query_mismatch_rate": 0.8333333333333334,
+    "selected_quality_counts": {
+      "content_word": 16,
+      "stopword": 1,
+      "short_word": 3,
+      "unk": 2,
+      "number": 8
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.06666666666666667,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.3597816944122314,
+    "D_local_global_conflict": 0.8333333333333334,
+    "E_overconfident_error": 0.9920805096626282
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "software retail sale price graphics corel draw 2 0 300 25 aldus photo <UNK> 1 1 800 100 image in color 2 800 100 photo finish 3 of these 295 75 image in scan paint 150 20 image in full pack 300 45 picture publisher 800 100 image prep 200",
+      "200 50 publisher's paintbrush 495 50 deluxe paint 2 <UNK> 129 25 <UNK> font workshop 300 25 vista pro 100 20 <UNK> workshop 149 35 <UNK> cad 100 25 utilities x tree gold for win 99 25 tnt anti virus 100 15 salvation 100 15 amish utilities 79 15 multimedia",
+      "sound effects 50 10 music bytes 50 10 <UNK> show 495 50 <UNK> plus 400 50 programming m s windows 3 1 dev",
+      "kit full 500 75 windows maker pro 995 50 ms c 5 1 500 10 top speed modula 300 10 business the art of negotiating 150 10 <UNK> 150 10 full impact mac 500 10 approach database 400 50 <UNK> 300 35 games nfl pro league football 49 15 eco",
+      "the wedding planner 49 10 software yard sale fri 4 30 sat",
+      "5 1 sun 5 2 8 30 to 4 00 e mail <UNK> <UNK> <UNK> <UNK> edu location 436 <UNK> rd paradise ca <UNK> phone 916 872 <UNK>"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "price",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.023707272484898567,
+          "word_attn_weight": 0.020931970328092575
+        },
+        {
+          "token": "color",
+          "token_pos": 20,
+          "quality": "content_word",
+          "word_score_logit": 0.01810307428240776,
+          "word_attn_weight": 0.020814992487430573
+        },
+        {
+          "token": "scan",
+          "token_pos": 33,
+          "quality": "content_word",
+          "word_score_logit": 0.016322331503033638,
+          "word_attn_weight": 0.020777959376573563
+        },
+        {
+          "token": "photo",
+          "token_pos": 24,
+          "quality": "content_word",
+          "word_score_logit": 0.013570785522460938,
+          "word_attn_weight": 0.020720865577459335
+        },
+        {
+          "token": "in",
+          "token_pos": 19,
+          "quality": "stopword",
+          "word_score_logit": 0.013027312234044075,
+          "word_attn_weight": 0.020709607750177383
+        }
+      ],
+      [
+        {
+          "token": "x",
+          "token_pos": 30,
+          "quality": "short_word",
+          "word_score_logit": 0.05967158079147339,
+          "word_attn_weight": 0.02096298709511757
+        },
+        {
+          "token": "tree",
+          "token_pos": 31,
+          "quality": "content_word",
+          "word_score_logit": 0.057131294161081314,
+          "word_attn_weight": 0.020909802988171577
+        },
+        {
+          "token": "vista",
+          "token_pos": 17,
+          "quality": "content_word",
+          "word_score_logit": 0.05324576422572136,
+          "word_attn_weight": 0.020828714594244957
+        },
+        {
+          "token": "utilities",
+          "token_pos": 46,
+          "quality": "content_word",
+          "word_score_logit": 0.05255335196852684,
+          "word_attn_weight": 0.02081429585814476
+        },
+        {
+          "token": "<UNK>",
+          "token_pos": 9,
+          "quality": "unk",
+          "word_score_logit": 0.050161588937044144,
+          "word_attn_weight": 0.02076457440853119
+        }
+      ],
+      [
+        {
+          "token": "windows",
+          "token_pos": 19,
+          "quality": "content_word",
+          "word_score_logit": 0.13722318410873413,
+          "word_attn_weight": 0.04825896397233009
+        },
+        {
+          "token": "3",
+          "token_pos": 20,
+          "quality": "number",
+          "word_score_logit": 0.09509357810020447,
+          "word_attn_weight": 0.04626806825399399
+        },
+        {
+          "token": "1",
+          "token_pos": 21,
+          "quality": "number",
+          "word_score_logit": 0.082914337515831,
+          "word_attn_weight": 0.04570797085762024
+        },
+        {
+          "token": "m",
+          "token_pos": 17,
+          "quality": "short_word",
+          "word_score_logit": 0.07339219003915787,
+          "word_attn_weight": 0.045274801552295685
+        },
+        {
+          "token": "programming",
+          "token_pos": 16,
+          "quality": "content_word",
+          "word_score_logit": 0.06608451902866364,
+          "word_attn_weight": 0.04494515061378479
+        }
+      ],
+      [
+        {
+          "token": "<UNK>",
+          "token_pos": 39,
+          "quality": "unk",
+          "word_score_logit": 0.18679603934288025,
+          "word_attn_weight": 0.021746745333075523
+        },
+        {
+          "token": "nfl",
+          "token_pos": 43,
+          "quality": "content_word",
+          "word_score_logit": 0.17956626415252686,
+          "word_attn_weight": 0.021590087562799454
+        },
+        {
+          "token": "database",
+          "token_pos": 36,
+          "quality": "content_word",
+          "word_score_logit": 0.17721861600875854,
+          "word_attn_weight": 0.021539460867643356
+        },
+        {
+          "token": "10",
+          "token_pos": 34,
+          "quality": "number",
+          "word_score_logit": 0.1720503568649292,
+          "word_attn_weight": 0.02142842672765255
+        },
+        {
+          "token": "50",
+          "token_pos": 38,
+          "quality": "number",
+          "word_score_logit": 0.16977524757385254,
+          "word_attn_weight": 0.021379729732871056
+        }
+      ],
+      [
+        {
+          "token": "fri",
+          "token_pos": 8,
+          "quality": "content_word",
+          "word_score_logit": 0.10359116643667221,
+          "word_attn_weight": 0.09093526750802994
+        },
+        {
+          "token": "sat",
+          "token_pos": 11,
+          "quality": "content_word",
+          "word_score_logit": 0.060421254485845566,
+          "word_attn_weight": 0.08709312975406647
+        },
+        {
+          "token": "4",
+          "token_pos": 9,
+          "quality": "number",
+          "word_score_logit": 0.047759704291820526,
+          "word_attn_weight": 0.08599734306335449
+        },
+        {
+          "token": "30",
+          "token_pos": 10,
+          "quality": "number",
+          "word_score_logit": 0.04218160733580589,
+          "word_attn_weight": 0.085518978536129
+        },
+        {
+          "token": "yard",
+          "token_pos": 6,
+          "quality": "content_word",
+          "word_score_logit": 0.012944608926773071,
+          "word_attn_weight": 0.08305486291646957
+        }
+      ],
+      [
+        {
+          "token": "00",
+          "token_pos": 9,
+          "quality": "number",
+          "word_score_logit": 0.07789962738752365,
+          "word_attn_weight": 0.03751634061336517
+        },
+        {
+          "token": "5",
+          "token_pos": 3,
+          "quality": "number",
+          "word_score_logit": 0.07333987206220627,
+          "word_attn_weight": 0.03734566643834114
+        },
+        {
+          "token": "sun",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.07105637341737747,
+          "word_attn_weight": 0.03726048395037651
+        },
+        {
+          "token": "e",
+          "token_pos": 10,
+          "quality": "short_word",
+          "word_score_logit": 0.06889505684375763,
+          "word_attn_weight": 0.037180040031671524
+        },
+        {
+          "token": "location",
+          "token_pos": 17,
+          "quality": "content_word",
+          "word_score_logit": 0.06792592257261276,
+          "word_attn_weight": 0.037144023925065994
+        }
+      ]
+    ],
+    "top_sentence_id": 3,
+    "sentence_importance_distribution": [
+      0.09716621041297913,
+      0.09314244985580444,
+      0.07354564964771271,
+      0.5063972473144531,
+      0.08511200547218323,
+      0.14463649690151215
+    ]
+  }
+}

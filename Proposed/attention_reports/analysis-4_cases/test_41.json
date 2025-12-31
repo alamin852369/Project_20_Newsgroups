@@ -1,0 +1,121 @@
+{
+  "example_id": "test_41",
+  "true_label_id": 2,
+  "pred_label_id": 17,
+  "true_label_name": "comp.os.ms-windows.misc",
+  "pred_label_name": "talk.politics.mideast",
+  "pred_confidence": 0.557101309299469,
+  "metrics": {
+    "num_sents": 2,
+    "K": 5,
+    "stop_ratio": 0.7,
+    "unk_ratio": 0.1,
+    "num_ratio": 0.0,
+    "content_ratio": 0.2,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 0.6864952445030212,
+    "sentence_importance_entropy": 0.6906525492668152,
+    "sentence_importance_max": 0.5353026986122131,
+    "top_sentence_id": 0,
+    "query_mismatch_rate": 0.2,
+    "selected_quality_counts": {
+      "stopword": 7,
+      "unk": 1,
+      "content_word": 2
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.44999999999999996,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.5365813791751861,
+    "D_local_global_conflict": 0.2,
+    "E_overconfident_error": 0.557101309299469
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "<UNK> hey isn't it funny how <UNK> have bugs in them",
+      "hey do me a favor and don't put up stupid posts"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "in",
+          "token_pos": 9,
+          "quality": "stopword",
+          "word_score_logit": 0.038236334919929504,
+          "word_attn_weight": 0.09656953811645508
+        },
+        {
+          "token": "them",
+          "token_pos": 10,
+          "quality": "stopword",
+          "word_score_logit": 0.015465468168258667,
+          "word_attn_weight": 0.09439541399478912
+        },
+        {
+          "token": "<UNK>",
+          "token_pos": 0,
+          "quality": "unk",
+          "word_score_logit": -0.008048592135310173,
+          "word_attn_weight": 0.09220168739557266
+        },
+        {
+          "token": "bugs",
+          "token_pos": 8,
+          "quality": "content_word",
+          "word_score_logit": -0.009684298187494278,
+          "word_attn_weight": 0.09205099940299988
+        },
+        {
+          "token": "have",
+          "token_pos": 7,
+          "quality": "content_word",
+          "word_score_logit": -0.03052973747253418,
+          "word_attn_weight": 0.09015201777219772
+        }
+      ],
+      [
+        {
+          "token": "do",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": -0.0075094085186719894,
+          "word_attn_weight": 0.09234656393527985
+        },
+        {
+          "token": "and",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": -0.007923190481960773,
+          "word_attn_weight": 0.09230836480855942
+        },
+        {
+          "token": "up",
+          "token_pos": 8,
+          "quality": "stopword",
+          "word_score_logit": -0.016561858355998993,
+          "word_attn_weight": 0.09151437133550644
+        },
+        {
+          "token": "a",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": -0.01765669509768486,
+          "word_attn_weight": 0.09141422808170319
+        },
+        {
+          "token": "me",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": -0.017708513885736465,
+          "word_attn_weight": 0.09140949696302414
+        }
+      ]
+    ],
+    "top_sentence_id": 0,
+    "sentence_importance_distribution": [
+      0.5353026986122131,
+      0.4646972715854645
+    ]
+  }
+}

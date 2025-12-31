@@ -1,0 +1,1343 @@
+{
+  "true_label_id": 7,
+  "pred_label_id": 7,
+  "true_label_name": "rec.autos",
+  "pred_label_name": "rec.autos",
+  "pred_confidence": 0.4610237181186676,
+  "num_sents": 7,
+  "sentence_summaries": [
+    {
+      "sentence_id": 0,
+      "sentence_text": "i am a little confused on all of the models of the 88 89 <UNK>",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "of",
+          "token_pos": 10,
+          "word_score_logit": 0.0595918670296669,
+          "word_attn_weight": 0.07031744718551636
+        },
+        {
+          "rank": 1,
+          "token": "the",
+          "token_pos": 11,
+          "word_score_logit": 0.05448681488633156,
+          "word_attn_weight": 0.0699593797326088
+        },
+        {
+          "rank": 2,
+          "token": "88",
+          "token_pos": 12,
+          "word_score_logit": 0.03716082125902176,
+          "word_attn_weight": 0.06875771284103394
+        },
+        {
+          "rank": 3,
+          "token": "models",
+          "token_pos": 9,
+          "word_score_logit": 0.031913112848997116,
+          "word_attn_weight": 0.06839783489704132
+        },
+        {
+          "rank": 4,
+          "token": "89",
+          "token_pos": 13,
+          "word_score_logit": 0.01853802055120468,
+          "word_attn_weight": 0.06748910248279572
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "sentence_text": "i have heard of the le se <UNK> <UNK> <UNK>",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "heard",
+          "token_pos": 2,
+          "word_score_logit": 0.024387147277593613,
+          "word_attn_weight": 0.10179533809423447
+        },
+        {
+          "rank": 1,
+          "token": "have",
+          "token_pos": 1,
+          "word_score_logit": 0.02329265885055065,
+          "word_attn_weight": 0.10168398916721344
+        },
+        {
+          "rank": 2,
+          "token": "of",
+          "token_pos": 3,
+          "word_score_logit": 0.01913350820541382,
+          "word_attn_weight": 0.10126194357872009
+        },
+        {
+          "rank": 3,
+          "token": "le",
+          "token_pos": 5,
+          "word_score_logit": 0.015908444300293922,
+          "word_attn_weight": 0.10093589872121811
+        },
+        {
+          "rank": 4,
+          "token": "i",
+          "token_pos": 0,
+          "word_score_logit": 0.015192341059446335,
+          "word_attn_weight": 0.10086363554000854
+        }
+      ]
+    },
+    {
+      "sentence_id": 2,
+      "sentence_text": "could someone tell me the differences are far as features or performance",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "someone",
+          "token_pos": 1,
+          "word_score_logit": 0.04569272696971893,
+          "word_attn_weight": 0.08555975556373596
+        },
+        {
+          "rank": 1,
+          "token": "the",
+          "token_pos": 4,
+          "word_score_logit": 0.041490599513053894,
+          "word_attn_weight": 0.0852009728550911
+        },
+        {
+          "rank": 2,
+          "token": "could",
+          "token_pos": 0,
+          "word_score_logit": 0.04023109748959541,
+          "word_attn_weight": 0.08509372919797897
+        },
+        {
+          "rank": 3,
+          "token": "tell",
+          "token_pos": 2,
+          "word_score_logit": 0.027935506775975227,
+          "word_attn_weight": 0.08405385166406631
+        },
+        {
+          "rank": 4,
+          "token": "me",
+          "token_pos": 3,
+          "word_score_logit": 0.02180650644004345,
+          "word_attn_weight": 0.08354026824235916
+        }
+      ]
+    },
+    {
+      "sentence_id": 3,
+      "sentence_text": "i am also curious to know what the book value is for <UNK> the 89 model",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "the",
+          "token_pos": 13,
+          "word_score_logit": 0.02205796353518963,
+          "word_attn_weight": 0.06366966664791107
+        },
+        {
+          "rank": 1,
+          "token": "know",
+          "token_pos": 5,
+          "word_score_logit": 0.011572226881980896,
+          "word_attn_weight": 0.06300552934408188
+        },
+        {
+          "rank": 2,
+          "token": "89",
+          "token_pos": 14,
+          "word_score_logit": 0.010935761965811253,
+          "word_attn_weight": 0.06296544522047043
+        },
+        {
+          "rank": 3,
+          "token": "model",
+          "token_pos": 15,
+          "word_score_logit": 0.010153059847652912,
+          "word_attn_weight": 0.06291618198156357
+        },
+        {
+          "rank": 4,
+          "token": "i",
+          "token_pos": 0,
+          "word_score_logit": 0.009864108636975288,
+          "word_attn_weight": 0.06289800256490707
+        }
+      ]
+    },
+    {
+      "sentence_id": 4,
+      "sentence_text": "and how much less than book value can you usually get them for",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "usually",
+          "token_pos": 9,
+          "word_score_logit": 0.036741163581609726,
+          "word_attn_weight": 0.07854829728603363
+        },
+        {
+          "rank": 1,
+          "token": "can",
+          "token_pos": 7,
+          "word_score_logit": 0.0339798666536808,
+          "word_attn_weight": 0.07833170145750046
+        },
+        {
+          "rank": 2,
+          "token": "value",
+          "token_pos": 6,
+          "word_score_logit": 0.03355439752340317,
+          "word_attn_weight": 0.07829838246107101
+        },
+        {
+          "rank": 3,
+          "token": "less",
+          "token_pos": 3,
+          "word_score_logit": 0.02212516963481903,
+          "word_attn_weight": 0.07740858197212219
+        },
+        {
+          "rank": 4,
+          "token": "and",
+          "token_pos": 0,
+          "word_score_logit": 0.019315635785460472,
+          "word_attn_weight": 0.07719140499830246
+        }
+      ]
+    },
+    {
+      "sentence_id": 5,
+      "sentence_text": "in other words how much are they in demand this time of year",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "other",
+          "token_pos": 1,
+          "word_score_logit": 0.028776299208402634,
+          "word_attn_weight": 0.07865884900093079
+        },
+        {
+          "rank": 1,
+          "token": "of",
+          "token_pos": 11,
+          "word_score_logit": 0.0205436572432518,
+          "word_attn_weight": 0.07801393419504166
+        },
+        {
+          "rank": 2,
+          "token": "in",
+          "token_pos": 0,
+          "word_score_logit": 0.015997888520359993,
+          "word_attn_weight": 0.07766010612249374
+        },
+        {
+          "rank": 3,
+          "token": "time",
+          "token_pos": 10,
+          "word_score_logit": 0.015548227354884148,
+          "word_attn_weight": 0.07762519270181656
+        },
+        {
+          "rank": 4,
+          "token": "words",
+          "token_pos": 2,
+          "word_score_logit": 0.014104477129876614,
+          "word_attn_weight": 0.0775132030248642
+        }
+      ]
+    },
+    {
+      "sentence_id": 6,
+      "sentence_text": "i have heard that the mid spring early summer is the best time to buy",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "spring",
+          "token_pos": 6,
+          "word_score_logit": 0.10166314989328384,
+          "word_attn_weight": 0.07007785886526108
+        },
+        {
+          "rank": 1,
+          "token": "heard",
+          "token_pos": 2,
+          "word_score_logit": 0.07000540941953659,
+          "word_attn_weight": 0.0678940936923027
+        },
+        {
+          "rank": 2,
+          "token": "the",
+          "token_pos": 4,
+          "word_score_logit": 0.06974093616008759,
+          "word_attn_weight": 0.06787614524364471
+        },
+        {
+          "rank": 3,
+          "token": "have",
+          "token_pos": 1,
+          "word_score_logit": 0.06773589551448822,
+          "word_attn_weight": 0.06774018704891205
+        },
+        {
+          "rank": 4,
+          "token": "that",
+          "token_pos": 3,
+          "word_score_logit": 0.06016915664076805,
+          "word_attn_weight": 0.06722954660654068
+        }
+      ]
+    }
+  ],
+  "query_summaries": [
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "of",
+      "token_pos": 10,
+      "word_score_logit": 0.0595918670296669,
+      "word_attn_weight": 0.07031744718551636,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 6,
+          "attn_weight": 0.40399685502052307,
+          "sentence_text": "i have heard that the mid spring early summer is the best time to buy"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.20714130997657776,
+          "sentence_text": "i am a little confused on all of the models of the 88 89 <UNK>"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.09917205572128296,
+          "sentence_text": "i am also curious to know what the book value is for <UNK> the 89 model"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "the",
+      "token_pos": 11,
+      "word_score_logit": 0.05448681488633156,
+      "word_attn_weight": 0.0699593797326088,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 6,
+          "attn_weight": 0.40705710649490356,
+          "sentence_text": "i have heard that the mid spring early summer is the best time to buy"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.2089078724384308,
+          "sentence_text": "i am a little confused on all of the models of the 88 89 <UNK>"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.09793021529912949,
+          "sentence_text": "i am also curious to know what the book value is for <UNK> the 89 model"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "88",
+      "token_pos": 12,
+      "word_score_logit": 0.03716082125902176,
+      "word_attn_weight": 0.06875771284103394,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 6,
+          "attn_weight": 0.3838937282562256,
+          "sentence_text": "i have heard that the mid spring early summer is the best time to buy"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.2001386135816574,
+          "sentence_text": "i am a little confused on all of the models of the 88 89 <UNK>"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.10334081202745438,
+          "sentence_text": "i am also curious to know what the book value is for <UNK> the 89 model"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "models",
+      "token_pos": 9,
+      "word_score_logit": 0.031913112848997116,
+      "word_attn_weight": 0.06839783489704132,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 6,
+          "attn_weight": 0.4525288939476013,
+          "sentence_text": "i have heard that the mid spring early summer is the best time to buy"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.26893889904022217,
+          "sentence_text": "i am a little confused on all of the models of the 88 89 <UNK>"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.09225933998823166,
+          "sentence_text": "i have heard of the le se <UNK> <UNK> <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "89",
+      "token_pos": 13,
+      "word_score_logit": 0.01853802055120468,
+      "word_attn_weight": 0.06748910248279572,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 6,
+          "attn_weight": 0.32596418261528015,
+          "sentence_text": "i have heard that the mid spring early summer is the best time to buy"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.17922882735729218,
+          "sentence_text": "i am a little confused on all of the models of the 88 89 <UNK>"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.11632543802261353,
+          "sentence_text": "i am also curious to know what the book value is for <UNK> the 89 model"
+        }
+      ]
+    },
+    {
+      "query_id": 5,
+      "from_sentence_id": 1,
+      "token": "heard",
+      "token_pos": 2,
+      "word_score_logit": 0.024387147277593613,
+      "word_attn_weight": 0.10179533809423447,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 6,
+          "attn_weight": 0.3637714087963104,
+          "sentence_text": "i have heard that the mid spring early summer is the best time to buy"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.20685073733329773,
+          "sentence_text": "i am a little confused on all of the models of the 88 89 <UNK>"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.10619203746318817,
+          "sentence_text": "i have heard of the le se <UNK> <UNK> <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 6,
+      "from_sentence_id": 1,
+      "token": "have",
+      "token_pos": 1,
+      "word_score_logit": 0.02329265885055065,
+      "word_attn_weight": 0.10168398916721344,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 6,
+          "attn_weight": 0.357441246509552,
+          "sentence_text": "i have heard that the mid spring early summer is the best time to buy"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.2053498923778534,
+          "sentence_text": "i am a little confused on all of the models of the 88 89 <UNK>"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.10723906755447388,
+          "sentence_text": "i am also curious to know what the book value is for <UNK> the 89 model"
+        }
+      ]
+    },
+    {
+      "query_id": 7,
+      "from_sentence_id": 1,
+      "token": "of",
+      "token_pos": 3,
+      "word_score_logit": 0.01913350820541382,
+      "word_attn_weight": 0.10126194357872009,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 6,
+          "attn_weight": 0.3665195107460022,
+          "sentence_text": "i have heard that the mid spring early summer is the best time to buy"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.211543470621109,
+          "sentence_text": "i am a little confused on all of the models of the 88 89 <UNK>"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.10650797933340073,
+          "sentence_text": "i have heard of the le se <UNK> <UNK> <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 8,
+      "from_sentence_id": 1,
+      "token": "le",
+      "token_pos": 5,
+      "word_score_logit": 0.015908444300293922,
+      "word_attn_weight": 0.10093589872121811,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 6,
+          "attn_weight": 0.3737929165363312,
+          "sentence_text": "i have heard that the mid spring early summer is the best time to buy"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.21433033049106598,
+          "sentence_text": "i am a little confused on all of the models of the 88 89 <UNK>"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.10544268786907196,
+          "sentence_text": "i have heard of the le se <UNK> <UNK> <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 9,
+      "from_sentence_id": 1,
+      "token": "i",
+      "token_pos": 0,
+      "word_score_logit": 0.015192341059446335,
+      "word_attn_weight": 0.10086363554000854,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 6,
+          "attn_weight": 0.34202057123184204,
+          "sentence_text": "i have heard that the mid spring early summer is the best time to buy"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.2036229968070984,
+          "sentence_text": "i am a little confused on all of the models of the 88 89 <UNK>"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.11054202169179916,
+          "sentence_text": "i am also curious to know what the book value is for <UNK> the 89 model"
+        }
+      ]
+    },
+    {
+      "query_id": 10,
+      "from_sentence_id": 2,
+      "token": "someone",
+      "token_pos": 1,
+      "word_score_logit": 0.04569272696971893,
+      "word_attn_weight": 0.08555975556373596,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 6,
+          "attn_weight": 0.27162304520606995,
+          "sentence_text": "i have heard that the mid spring early summer is the best time to buy"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.17279371619224548,
+          "sentence_text": "i am a little confused on all of the models of the 88 89 <UNK>"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.12675434350967407,
+          "sentence_text": "i am also curious to know what the book value is for <UNK> the 89 model"
+        }
+      ]
+    },
+    {
+      "query_id": 11,
+      "from_sentence_id": 2,
+      "token": "the",
+      "token_pos": 4,
+      "word_score_logit": 0.041490599513053894,
+      "word_attn_weight": 0.0852009728550911,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 6,
+          "attn_weight": 0.2817874550819397,
+          "sentence_text": "i have heard that the mid spring early summer is the best time to buy"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.19580529630184174,
+          "sentence_text": "i am a little confused on all of the models of the 88 89 <UNK>"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.12326149642467499,
+          "sentence_text": "i am also curious to know what the book value is for <UNK> the 89 model"
+        }
+      ]
+    },
+    {
+      "query_id": 12,
+      "from_sentence_id": 2,
+      "token": "could",
+      "token_pos": 0,
+      "word_score_logit": 0.04023109748959541,
+      "word_attn_weight": 0.08509372919797897,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 6,
+          "attn_weight": 0.27214014530181885,
+          "sentence_text": "i have heard that the mid spring early summer is the best time to buy"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.17513400316238403,
+          "sentence_text": "i am a little confused on all of the models of the 88 89 <UNK>"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.12619483470916748,
+          "sentence_text": "i am also curious to know what the book value is for <UNK> the 89 model"
+        }
+      ]
+    },
+    {
+      "query_id": 13,
+      "from_sentence_id": 2,
+      "token": "tell",
+      "token_pos": 2,
+      "word_score_logit": 0.027935506775975227,
+      "word_attn_weight": 0.08405385166406631,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 6,
+          "attn_weight": 0.2700086236000061,
+          "sentence_text": "i have heard that the mid spring early summer is the best time to buy"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.17831969261169434,
+          "sentence_text": "i am a little confused on all of the models of the 88 89 <UNK>"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.12667211890220642,
+          "sentence_text": "i am also curious to know what the book value is for <UNK> the 89 model"
+        }
+      ]
+    },
+    {
+      "query_id": 14,
+      "from_sentence_id": 2,
+      "token": "me",
+      "token_pos": 3,
+      "word_score_logit": 0.02180650644004345,
+      "word_attn_weight": 0.08354026824235916,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 6,
+          "attn_weight": 0.2516019344329834,
+          "sentence_text": "i have heard that the mid spring early summer is the best time to buy"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.18450914323329926,
+          "sentence_text": "i am a little confused on all of the models of the 88 89 <UNK>"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.12882903218269348,
+          "sentence_text": "i am also curious to know what the book value is for <UNK> the 89 model"
+        }
+      ]
+    },
+    {
+      "query_id": 15,
+      "from_sentence_id": 3,
+      "token": "the",
+      "token_pos": 13,
+      "word_score_logit": 0.02205796353518963,
+      "word_attn_weight": 0.06366966664791107,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 6,
+          "attn_weight": 0.3159647583961487,
+          "sentence_text": "i have heard that the mid spring early summer is the best time to buy"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.21248726546764374,
+          "sentence_text": "i am a little confused on all of the models of the 88 89 <UNK>"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.12136338651180267,
+          "sentence_text": "i have heard of the le se <UNK> <UNK> <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 16,
+      "from_sentence_id": 3,
+      "token": "know",
+      "token_pos": 5,
+      "word_score_logit": 0.011572226881980896,
+      "word_attn_weight": 0.06300552934408188,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 6,
+          "attn_weight": 0.2926497161388397,
+          "sentence_text": "i have heard that the mid spring early summer is the best time to buy"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.18640130758285522,
+          "sentence_text": "i am a little confused on all of the models of the 88 89 <UNK>"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.12219361960887909,
+          "sentence_text": "i am also curious to know what the book value is for <UNK> the 89 model"
+        }
+      ]
+    },
+    {
+      "query_id": 17,
+      "from_sentence_id": 3,
+      "token": "89",
+      "token_pos": 14,
+      "word_score_logit": 0.010935761965811253,
+      "word_attn_weight": 0.06296544522047043,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 6,
+          "attn_weight": 0.2920905351638794,
+          "sentence_text": "i have heard that the mid spring early summer is the best time to buy"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.19631314277648926,
+          "sentence_text": "i am a little confused on all of the models of the 88 89 <UNK>"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.12456759065389633,
+          "sentence_text": "i have heard of the le se <UNK> <UNK> <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 18,
+      "from_sentence_id": 3,
+      "token": "model",
+      "token_pos": 15,
+      "word_score_logit": 0.010153059847652912,
+      "word_attn_weight": 0.06291618198156357,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 6,
+          "attn_weight": 0.3166213035583496,
+          "sentence_text": "i have heard that the mid spring early summer is the best time to buy"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.2236167937517166,
+          "sentence_text": "i am a little confused on all of the models of the 88 89 <UNK>"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.12295778095722198,
+          "sentence_text": "i have heard of the le se <UNK> <UNK> <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 19,
+      "from_sentence_id": 3,
+      "token": "i",
+      "token_pos": 0,
+      "word_score_logit": 0.009864108636975288,
+      "word_attn_weight": 0.06289800256490707,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 6,
+          "attn_weight": 0.24922865629196167,
+          "sentence_text": "i have heard that the mid spring early summer is the best time to buy"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.17416398227214813,
+          "sentence_text": "i am a little confused on all of the models of the 88 89 <UNK>"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.12997329235076904,
+          "sentence_text": "i am also curious to know what the book value is for <UNK> the 89 model"
+        }
+      ]
+    },
+    {
+      "query_id": 20,
+      "from_sentence_id": 4,
+      "token": "usually",
+      "token_pos": 9,
+      "word_score_logit": 0.036741163581609726,
+      "word_attn_weight": 0.07854829728603363,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 6,
+          "attn_weight": 0.2639111578464508,
+          "sentence_text": "i have heard that the mid spring early summer is the best time to buy"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.1827467978000641,
+          "sentence_text": "i am a little confused on all of the models of the 88 89 <UNK>"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.12743902206420898,
+          "sentence_text": "i am also curious to know what the book value is for <UNK> the 89 model"
+        }
+      ]
+    },
+    {
+      "query_id": 21,
+      "from_sentence_id": 4,
+      "token": "can",
+      "token_pos": 7,
+      "word_score_logit": 0.0339798666536808,
+      "word_attn_weight": 0.07833170145750046,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 6,
+          "attn_weight": 0.27535951137542725,
+          "sentence_text": "i have heard that the mid spring early summer is the best time to buy"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.18431691825389862,
+          "sentence_text": "i am a little confused on all of the models of the 88 89 <UNK>"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.1257694661617279,
+          "sentence_text": "i am also curious to know what the book value is for <UNK> the 89 model"
+        }
+      ]
+    },
+    {
+      "query_id": 22,
+      "from_sentence_id": 4,
+      "token": "value",
+      "token_pos": 6,
+      "word_score_logit": 0.03355439752340317,
+      "word_attn_weight": 0.07829838246107101,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 6,
+          "attn_weight": 0.23915287852287292,
+          "sentence_text": "i have heard that the mid spring early summer is the best time to buy"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.1754976212978363,
+          "sentence_text": "i am a little confused on all of the models of the 88 89 <UNK>"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.13186416029930115,
+          "sentence_text": "i am also curious to know what the book value is for <UNK> the 89 model"
+        }
+      ]
+    },
+    {
+      "query_id": 23,
+      "from_sentence_id": 4,
+      "token": "less",
+      "token_pos": 3,
+      "word_score_logit": 0.02212516963481903,
+      "word_attn_weight": 0.07740858197212219,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 6,
+          "attn_weight": 0.2684112787246704,
+          "sentence_text": "i have heard that the mid spring early summer is the best time to buy"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.1845487654209137,
+          "sentence_text": "i am a little confused on all of the models of the 88 89 <UNK>"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.12481826543807983,
+          "sentence_text": "i am also curious to know what the book value is for <UNK> the 89 model"
+        }
+      ]
+    },
+    {
+      "query_id": 24,
+      "from_sentence_id": 4,
+      "token": "and",
+      "token_pos": 0,
+      "word_score_logit": 0.019315635785460472,
+      "word_attn_weight": 0.07719140499830246,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 6,
+          "attn_weight": 0.248310387134552,
+          "sentence_text": "i have heard that the mid spring early summer is the best time to buy"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.17744013667106628,
+          "sentence_text": "i am a little confused on all of the models of the 88 89 <UNK>"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.12886393070220947,
+          "sentence_text": "i am also curious to know what the book value is for <UNK> the 89 model"
+        }
+      ]
+    },
+    {
+      "query_id": 25,
+      "from_sentence_id": 5,
+      "token": "other",
+      "token_pos": 1,
+      "word_score_logit": 0.028776299208402634,
+      "word_attn_weight": 0.07865884900093079,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 6,
+          "attn_weight": 0.23031122982501984,
+          "sentence_text": "i have heard that the mid spring early summer is the best time to buy"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.1591900885105133,
+          "sentence_text": "in other words how much are they in demand this time of year"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.14144691824913025,
+          "sentence_text": "i am a little confused on all of the models of the 88 89 <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 26,
+      "from_sentence_id": 5,
+      "token": "of",
+      "token_pos": 11,
+      "word_score_logit": 0.0205436572432518,
+      "word_attn_weight": 0.07801393419504166,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 6,
+          "attn_weight": 0.26741188764572144,
+          "sentence_text": "i have heard that the mid spring early summer is the best time to buy"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.16062796115875244,
+          "sentence_text": "i am a little confused on all of the models of the 88 89 <UNK>"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 5,
+          "attn_weight": 0.1313038021326065,
+          "sentence_text": "in other words how much are they in demand this time of year"
+        }
+      ]
+    },
+    {
+      "query_id": 27,
+      "from_sentence_id": 5,
+      "token": "in",
+      "token_pos": 0,
+      "word_score_logit": 0.015997888520359993,
+      "word_attn_weight": 0.07766010612249374,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 6,
+          "attn_weight": 0.22582630813121796,
+          "sentence_text": "i have heard that the mid spring early summer is the best time to buy"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.15498894453048706,
+          "sentence_text": "in other words how much are they in demand this time of year"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.14423614740371704,
+          "sentence_text": "i am a little confused on all of the models of the 88 89 <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 28,
+      "from_sentence_id": 5,
+      "token": "time",
+      "token_pos": 10,
+      "word_score_logit": 0.015548227354884148,
+      "word_attn_weight": 0.07762519270181656,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 6,
+          "attn_weight": 0.2535877823829651,
+          "sentence_text": "i have heard that the mid spring early summer is the best time to buy"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.1590726673603058,
+          "sentence_text": "i am a little confused on all of the models of the 88 89 <UNK>"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 5,
+          "attn_weight": 0.13402923941612244,
+          "sentence_text": "in other words how much are they in demand this time of year"
+        }
+      ]
+    },
+    {
+      "query_id": 29,
+      "from_sentence_id": 5,
+      "token": "words",
+      "token_pos": 2,
+      "word_score_logit": 0.014104477129876614,
+      "word_attn_weight": 0.0775132030248642,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 6,
+          "attn_weight": 0.18948468565940857,
+          "sentence_text": "i have heard that the mid spring early summer is the best time to buy"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.17289035022258759,
+          "sentence_text": "in other words how much are they in demand this time of year"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.137069970369339,
+          "sentence_text": "i am also curious to know what the book value is for <UNK> the 89 model"
+        }
+      ]
+    },
+    {
+      "query_id": 30,
+      "from_sentence_id": 6,
+      "token": "spring",
+      "token_pos": 6,
+      "word_score_logit": 0.10166314989328384,
+      "word_attn_weight": 0.07007785886526108,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 6,
+          "attn_weight": 0.45432549715042114,
+          "sentence_text": "i have heard that the mid spring early summer is the best time to buy"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.21766459941864014,
+          "sentence_text": "i am a little confused on all of the models of the 88 89 <UNK>"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.09364722669124603,
+          "sentence_text": "i have heard of the le se <UNK> <UNK> <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 31,
+      "from_sentence_id": 6,
+      "token": "heard",
+      "token_pos": 2,
+      "word_score_logit": 0.07000540941953659,
+      "word_attn_weight": 0.0678940936923027,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 6,
+          "attn_weight": 0.41369837522506714,
+          "sentence_text": "i have heard that the mid spring early summer is the best time to buy"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.21074441075325012,
+          "sentence_text": "i am a little confused on all of the models of the 88 89 <UNK>"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.10018438845872879,
+          "sentence_text": "i have heard of the le se <UNK> <UNK> <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 32,
+      "from_sentence_id": 6,
+      "token": "the",
+      "token_pos": 4,
+      "word_score_logit": 0.06974093616008759,
+      "word_attn_weight": 0.06787614524364471,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 6,
+          "attn_weight": 0.49624449014663696,
+          "sentence_text": "i have heard that the mid spring early summer is the best time to buy"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.22028374671936035,
+          "sentence_text": "i am a little confused on all of the models of the 88 89 <UNK>"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.08374844491481781,
+          "sentence_text": "i have heard of the le se <UNK> <UNK> <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 33,
+      "from_sentence_id": 6,
+      "token": "have",
+      "token_pos": 1,
+      "word_score_logit": 0.06773589551448822,
+      "word_attn_weight": 0.06774018704891205,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 6,
+          "attn_weight": 0.4077504277229309,
+          "sentence_text": "i have heard that the mid spring early summer is the best time to buy"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.2097703516483307,
+          "sentence_text": "i am a little confused on all of the models of the 88 89 <UNK>"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.10091821849346161,
+          "sentence_text": "i have heard of the le se <UNK> <UNK> <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 34,
+      "from_sentence_id": 6,
+      "token": "that",
+      "token_pos": 3,
+      "word_score_logit": 0.06016915664076805,
+      "word_attn_weight": 0.06722954660654068,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 6,
+          "attn_weight": 0.42602652311325073,
+          "sentence_text": "i have heard that the mid spring early summer is the best time to buy"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.21372036635875702,
+          "sentence_text": "i am a little confused on all of the models of the 88 89 <UNK>"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.09877826273441315,
+          "sentence_text": "i have heard of the le se <UNK> <UNK> <UNK>"
+        }
+      ]
+    }
+  ],
+  "sentence_importance_from_cross_attn": {
+    "definition": "mean cross-attn over queries",
+    "values": [
+      {
+        "sentence_id": 0,
+        "importance": 0.191963329911232
+      },
+      {
+        "sentence_id": 1,
+        "importance": 0.11021877080202103
+      },
+      {
+        "sentence_id": 2,
+        "importance": 0.08355462551116943
+      },
+      {
+        "sentence_id": 3,
+        "importance": 0.11400848627090454
+      },
+      {
+        "sentence_id": 4,
+        "importance": 0.0843721553683281
+      },
+      {
+        "sentence_id": 5,
+        "importance": 0.09443936496973038
+      },
+      {
+        "sentence_id": 6,
+        "importance": 0.3214432895183563
+      }
+    ],
+    "ranked": [
+      {
+        "sentence_id": 6,
+        "importance": 0.3214432895183563
+      },
+      {
+        "sentence_id": 0,
+        "importance": 0.191963329911232
+      },
+      {
+        "sentence_id": 3,
+        "importance": 0.11400848627090454
+      },
+      {
+        "sentence_id": 1,
+        "importance": 0.11021877080202103
+      },
+      {
+        "sentence_id": 5,
+        "importance": 0.09443936496973038
+      },
+      {
+        "sentence_id": 4,
+        "importance": 0.0843721553683281
+      },
+      {
+        "sentence_id": 2,
+        "importance": 0.08355462551116943
+      }
+    ]
+  },
+  "example_id": "test-1"
+}

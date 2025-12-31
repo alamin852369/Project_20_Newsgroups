@@ -1,0 +1,121 @@
+{
+  "example_id": "test_450",
+  "true_label_id": 12,
+  "pred_label_id": 13,
+  "true_label_name": "sci.electronics",
+  "pred_label_name": "sci.med",
+  "pred_confidence": 0.9944090247154236,
+  "metrics": {
+    "num_sents": 2,
+    "K": 5,
+    "stop_ratio": 0.1,
+    "unk_ratio": 0.0,
+    "num_ratio": 0.0,
+    "content_ratio": 0.7,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 0.5534653663635254,
+    "sentence_importance_entropy": 0.5627701282501221,
+    "sentence_importance_max": 0.7496036887168884,
+    "top_sentence_id": 0,
+    "query_mismatch_rate": 0.5,
+    "selected_quality_counts": {
+      "other": 2,
+      "content_word": 7,
+      "stopword": 1
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.06,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.7121685564517974,
+    "D_local_global_conflict": 0.5,
+    "E_overconfident_error": 0.9944090247154236
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "if you want to try a non toxic solvent there's one made of citrus that works very well and doesn't take your skin off in the process",
+      "one brand name i've used is <UNK> solve but there are others too"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "there's",
+          "token_pos": 9,
+          "quality": "other",
+          "word_score_logit": 0.06572909653186798,
+          "word_attn_weight": 0.03853771090507507
+        },
+        {
+          "token": "solvent",
+          "token_pos": 8,
+          "quality": "content_word",
+          "word_score_logit": 0.060005441308021545,
+          "word_attn_weight": 0.038317762315273285
+        },
+        {
+          "token": "one",
+          "token_pos": 10,
+          "quality": "content_word",
+          "word_score_logit": 0.050533927977085114,
+          "word_attn_weight": 0.03795655071735382
+        },
+        {
+          "token": "citrus",
+          "token_pos": 13,
+          "quality": "content_word",
+          "word_score_logit": 0.05028273165225983,
+          "word_attn_weight": 0.03794701769948006
+        },
+        {
+          "token": "made",
+          "token_pos": 11,
+          "quality": "content_word",
+          "word_score_logit": 0.0475175566971302,
+          "word_attn_weight": 0.03784222900867462
+        }
+      ],
+      [
+        {
+          "token": "name",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.06293566524982452,
+          "word_attn_weight": 0.0802980288863182
+        },
+        {
+          "token": "used",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.06176494061946869,
+          "word_attn_weight": 0.080204077064991
+        },
+        {
+          "token": "one",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": 0.03490940108895302,
+          "word_attn_weight": 0.07807882130146027
+        },
+        {
+          "token": "is",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.03375755995512009,
+          "word_attn_weight": 0.07798893749713898
+        },
+        {
+          "token": "i've",
+          "token_pos": 3,
+          "quality": "other",
+          "word_score_logit": 0.025905506685376167,
+          "word_attn_weight": 0.07737895846366882
+        }
+      ]
+    ],
+    "top_sentence_id": 0,
+    "sentence_importance_distribution": [
+      0.7496036887168884,
+      0.25039634108543396
+    ]
+  }
+}

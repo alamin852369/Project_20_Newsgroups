@@ -1,0 +1,81 @@
+{
+  "example_id": "test_188",
+  "true_label_id": 0,
+  "pred_label_id": 18,
+  "true_label_name": "alt.atheism",
+  "pred_label_name": "talk.politics.misc",
+  "pred_confidence": 0.43325504660606384,
+  "metrics": {
+    "num_sents": 1,
+    "K": 5,
+    "stop_ratio": 0.6,
+    "unk_ratio": 0.0,
+    "num_ratio": 0.0,
+    "content_ratio": 0.4,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 0.0,
+    "sentence_importance_entropy": -0.0,
+    "sentence_importance_max": 1.0,
+    "top_sentence_id": 0,
+    "query_mismatch_rate": 0.0,
+    "selected_quality_counts": {
+      "content_word": 2,
+      "stopword": 3
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.36,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 1.0,
+    "D_local_global_conflict": 0.0,
+    "E_overconfident_error": 0.43325504660606384
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "at the risk of beginning a <UNK> i'll start with a possibly cheesy good <UNK> <UNK> our shield is freedom or considering what our government has been doing for the past 50 years perhaps this would be more appropriate 100 debt"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "debt",
+          "token_pos": 40,
+          "quality": "content_word",
+          "word_score_logit": 0.024462439119815826,
+          "word_attn_weight": 0.0251932255923748
+        },
+        {
+          "token": "appropriate",
+          "token_pos": 38,
+          "quality": "content_word",
+          "word_score_logit": 0.023060040548443794,
+          "word_attn_weight": 0.025157921016216278
+        },
+        {
+          "token": "is",
+          "token_pos": 18,
+          "quality": "stopword",
+          "word_score_logit": 0.01962698996067047,
+          "word_attn_weight": 0.025071697309613228
+        },
+        {
+          "token": "the",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.018090110272169113,
+          "word_attn_weight": 0.025033196434378624
+        },
+        {
+          "token": "at",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.017959685996174812,
+          "word_attn_weight": 0.025029931217432022
+        }
+      ]
+    ],
+    "top_sentence_id": 0,
+    "sentence_importance_distribution": [
+      1.0
+    ]
+  }
+}

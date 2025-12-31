@@ -1,0 +1,3800 @@
+{
+  "true_label_id": 13,
+  "pred_label_id": 13,
+  "true_label_name": "sci.med",
+  "pred_label_name": "sci.med",
+  "pred_confidence": 0.9970927238464355,
+  "num_sents": 20,
+  "sentence_summaries": [
+    {
+      "sentence_id": 0,
+      "sentence_text": "<UNK> let's set the record straight for the nth time i have not read the yeast connection",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "time",
+          "token_pos": 9,
+          "word_score_logit": 0.05322594568133354,
+          "word_attn_weight": 0.060640718787908554
+        },
+        {
+          "rank": 1,
+          "token": "the",
+          "token_pos": 3,
+          "word_score_logit": 0.051009900867938995,
+          "word_attn_weight": 0.060506485402584076
+        },
+        {
+          "rank": 2,
+          "token": "connection",
+          "token_pos": 16,
+          "word_score_logit": 0.04859636351466179,
+          "word_attn_weight": 0.0603606291115284
+        },
+        {
+          "rank": 3,
+          "token": "i",
+          "token_pos": 10,
+          "word_score_logit": 0.0356646291911602,
+          "word_attn_weight": 0.0595850832760334
+        },
+        {
+          "rank": 4,
+          "token": "have",
+          "token_pos": 11,
+          "word_score_logit": 0.034787677228450775,
+          "word_attn_weight": 0.05953285098075867
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "sentence_text": "so anything that i say is not due to brainwashing by this hated book",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "anything",
+          "token_pos": 1,
+          "word_score_logit": 0.018851090222597122,
+          "word_attn_weight": 0.0731637179851532
+        },
+        {
+          "rank": 1,
+          "token": "that",
+          "token_pos": 2,
+          "word_score_logit": 0.009463492780923843,
+          "word_attn_weight": 0.07248009741306305
+        },
+        {
+          "rank": 2,
+          "token": "i",
+          "token_pos": 3,
+          "word_score_logit": 0.008553216233849525,
+          "word_attn_weight": 0.07241415232419968
+        },
+        {
+          "rank": 3,
+          "token": "say",
+          "token_pos": 4,
+          "word_score_logit": 0.006463787518441677,
+          "word_attn_weight": 0.07226300239562988
+        },
+        {
+          "rank": 4,
+          "token": "this",
+          "token_pos": 11,
+          "word_score_logit": 0.005543215200304985,
+          "word_attn_weight": 0.07219651341438293
+        }
+      ]
+    },
+    {
+      "sentence_id": 2,
+      "sentence_text": "it's okay i guess to hate the book by why hate me",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "to",
+          "token_pos": 4,
+          "word_score_logit": 0.022878753021359444,
+          "word_attn_weight": 0.08507870882749557
+        },
+        {
+          "rank": 1,
+          "token": "why",
+          "token_pos": 9,
+          "word_score_logit": 0.021829254925251007,
+          "word_attn_weight": 0.08498947322368622
+        },
+        {
+          "rank": 2,
+          "token": "guess",
+          "token_pos": 3,
+          "word_score_logit": 0.019662868231534958,
+          "word_attn_weight": 0.08480554074048996
+        },
+        {
+          "rank": 3,
+          "token": "i",
+          "token_pos": 2,
+          "word_score_logit": 0.009033993817865849,
+          "word_attn_weight": 0.08390893042087555
+        },
+        {
+          "rank": 4,
+          "token": "hate",
+          "token_pos": 5,
+          "word_score_logit": 0.007253425195813179,
+          "word_attn_weight": 0.08375965803861618
+        }
+      ]
+    },
+    {
+      "sentence_id": 3,
+      "sentence_text": "<UNK> i'm going to quote from <UNK> microbiology 20th edition",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "from",
+          "token_pos": 5,
+          "word_score_logit": 0.025842204689979553,
+          "word_attn_weight": 0.10214550048112869
+        },
+        {
+          "rank": 1,
+          "token": "quote",
+          "token_pos": 4,
+          "word_score_logit": 0.01666351966559887,
+          "word_attn_weight": 0.10121222585439682
+        },
+        {
+          "rank": 2,
+          "token": "to",
+          "token_pos": 3,
+          "word_score_logit": 0.013979685492813587,
+          "word_attn_weight": 0.10094095766544342
+        },
+        {
+          "rank": 3,
+          "token": "going",
+          "token_pos": 2,
+          "word_score_logit": 0.0072125717997550964,
+          "word_attn_weight": 0.1002601832151413
+        },
+        {
+          "rank": 4,
+          "token": "i'm",
+          "token_pos": 1,
+          "word_score_logit": 0.0037667497526854277,
+          "word_attn_weight": 0.09991530328989029
+        }
+      ]
+    },
+    {
+      "sentence_id": 4,
+      "sentence_text": "a book that you should be familiar with and not hate",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "not",
+          "token_pos": 9,
+          "word_score_logit": 0.046317294239997864,
+          "word_attn_weight": 0.09415870159864426
+        },
+        {
+          "rank": 1,
+          "token": "familiar",
+          "token_pos": 6,
+          "word_score_logit": 0.03816809132695198,
+          "word_attn_weight": 0.09339450299739838
+        },
+        {
+          "rank": 2,
+          "token": "and",
+          "token_pos": 8,
+          "word_score_logit": 0.03417442366480827,
+          "word_attn_weight": 0.09302225708961487
+        },
+        {
+          "rank": 3,
+          "token": "with",
+          "token_pos": 7,
+          "word_score_logit": 0.025963928550481796,
+          "word_attn_weight": 0.09226162731647491
+        },
+        {
+          "rank": 4,
+          "token": "hate",
+          "token_pos": 10,
+          "word_score_logit": 0.00939931720495224,
+          "word_attn_weight": 0.0907459408044815
+        }
+      ]
+    },
+    {
+      "sentence_id": 5,
+      "sentence_text": "candida species <UNK> the <UNK> surfaces of all humans during birth or shortly thereafter",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "surfaces",
+          "token_pos": 5,
+          "word_score_logit": 0.06395779550075531,
+          "word_attn_weight": 0.07352594286203384
+        },
+        {
+          "rank": 1,
+          "token": "species",
+          "token_pos": 1,
+          "word_score_logit": 0.06056884676218033,
+          "word_attn_weight": 0.07327719032764435
+        },
+        {
+          "rank": 2,
+          "token": "thereafter",
+          "token_pos": 13,
+          "word_score_logit": 0.057585496455430984,
+          "word_attn_weight": 0.07305890321731567
+        },
+        {
+          "rank": 3,
+          "token": "of",
+          "token_pos": 6,
+          "word_score_logit": 0.05138736590743065,
+          "word_attn_weight": 0.07260747998952866
+        },
+        {
+          "rank": 4,
+          "token": "<UNK>",
+          "token_pos": 2,
+          "word_score_logit": 0.038816437125205994,
+          "word_attn_weight": 0.07170044630765915
+        }
+      ]
+    },
+    {
+      "sentence_id": 6,
+      "sentence_text": "the risk of <UNK> infection is clearly ever present",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "is",
+          "token_pos": 5,
+          "word_score_logit": 0.04024326801300049,
+          "word_attn_weight": 0.1130712628364563
+        },
+        {
+          "rank": 1,
+          "token": "of",
+          "token_pos": 2,
+          "word_score_logit": 0.02815706469118595,
+          "word_attn_weight": 0.11171289533376694
+        },
+        {
+          "rank": 2,
+          "token": "ever",
+          "token_pos": 7,
+          "word_score_logit": 0.024122856557369232,
+          "word_attn_weight": 0.11126311868429184
+        },
+        {
+          "rank": 3,
+          "token": "the",
+          "token_pos": 0,
+          "word_score_logit": 0.023526189848780632,
+          "word_attn_weight": 0.11119675636291504
+        },
+        {
+          "rank": 4,
+          "token": "clearly",
+          "token_pos": 6,
+          "word_score_logit": 0.022298254072666168,
+          "word_attn_weight": 0.11106029897928238
+        }
+      ]
+    },
+    {
+      "sentence_id": 7,
+      "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "<UNK>",
+          "token_pos": 10,
+          "word_score_logit": 0.07036592811346054,
+          "word_attn_weight": 0.026260295882821083
+        },
+        {
+          "rank": 1,
+          "token": "and",
+          "token_pos": 4,
+          "word_score_logit": 0.06864817440509796,
+          "word_attn_weight": 0.02621522545814514
+        },
+        {
+          "rank": 2,
+          "token": "<UNK>",
+          "token_pos": 11,
+          "word_score_logit": 0.06589753180742264,
+          "word_attn_weight": 0.026143215596675873
+        },
+        {
+          "rank": 3,
+          "token": "<UNK>",
+          "token_pos": 30,
+          "word_score_logit": 0.05825981870293617,
+          "word_attn_weight": 0.0259442999958992
+        },
+        {
+          "rank": 4,
+          "token": "is",
+          "token_pos": 5,
+          "word_score_logit": 0.05722926929593086,
+          "word_attn_weight": 0.025917576625943184
+        }
+      ]
+    },
+    {
+      "sentence_id": 8,
+      "sentence_text": "poor diet and persistent <UNK> <UNK> set many third world residents up for candidiasis",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "candidiasis",
+          "token_pos": 13,
+          "word_score_logit": 0.025523360818624496,
+          "word_attn_weight": 0.07351983338594437
+        },
+        {
+          "rank": 1,
+          "token": "<UNK>",
+          "token_pos": 4,
+          "word_score_logit": 0.005679477006196976,
+          "word_attn_weight": 0.07207529246807098
+        },
+        {
+          "rank": 2,
+          "token": "and",
+          "token_pos": 2,
+          "word_score_logit": 0.0054140957072377205,
+          "word_attn_weight": 0.07205616682767868
+        },
+        {
+          "rank": 3,
+          "token": "persistent",
+          "token_pos": 3,
+          "word_score_logit": 0.001250509638339281,
+          "word_attn_weight": 0.07175678014755249
+        },
+        {
+          "rank": 4,
+          "token": "poor",
+          "token_pos": 0,
+          "word_score_logit": -0.0012356247752904892,
+          "word_attn_weight": 0.07157859951257706
+        }
+      ]
+    },
+    {
+      "sentence_id": 9,
+      "sentence_text": "your assessment of candidiasis in the u s",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "s",
+          "token_pos": 7,
+          "word_score_logit": 0.020654084160923958,
+          "word_attn_weight": 0.12778636813163757
+        },
+        {
+          "rank": 1,
+          "token": "assessment",
+          "token_pos": 1,
+          "word_score_logit": 0.003770193550735712,
+          "word_attn_weight": 0.1256469488143921
+        },
+        {
+          "rank": 2,
+          "token": "in",
+          "token_pos": 4,
+          "word_score_logit": 0.003647024743258953,
+          "word_attn_weight": 0.12563148140907288
+        },
+        {
+          "rank": 3,
+          "token": "u",
+          "token_pos": 6,
+          "word_score_logit": 0.002360598649829626,
+          "word_attn_weight": 0.12546996772289276
+        },
+        {
+          "rank": 4,
+          "token": "the",
+          "token_pos": 5,
+          "word_score_logit": -0.004311153665184975,
+          "word_attn_weight": 0.12463564425706863
+        }
+      ]
+    },
+    {
+      "sentence_id": 10,
+      "sentence_text": "is correct and i do not dispute it",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "correct",
+          "token_pos": 1,
+          "word_score_logit": 0.01946895755827427,
+          "word_attn_weight": 0.12757718563079834
+        },
+        {
+          "rank": 1,
+          "token": "is",
+          "token_pos": 0,
+          "word_score_logit": 0.017246577888727188,
+          "word_attn_weight": 0.12729397416114807
+        },
+        {
+          "rank": 2,
+          "token": "and",
+          "token_pos": 2,
+          "word_score_logit": 0.010094273835420609,
+          "word_attn_weight": 0.12638676166534424
+        },
+        {
+          "rank": 3,
+          "token": "i",
+          "token_pos": 3,
+          "word_score_logit": 0.006655432749539614,
+          "word_attn_weight": 0.12595289945602417
+        },
+        {
+          "rank": 4,
+          "token": "do",
+          "token_pos": 4,
+          "word_score_logit": 0.0053925467655062675,
+          "word_attn_weight": 0.1257939338684082
+        }
+      ]
+    },
+    {
+      "sentence_id": 11,
+      "sentence_text": "what i posted was a discussion of candida blooms without systemic infection",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "posted",
+          "token_pos": 2,
+          "word_score_logit": 0.052838973701000214,
+          "word_attn_weight": 0.08677837252616882
+        },
+        {
+          "rank": 1,
+          "token": "i",
+          "token_pos": 1,
+          "word_score_logit": 0.033969953656196594,
+          "word_attn_weight": 0.08515629917383194
+        },
+        {
+          "rank": 2,
+          "token": "what",
+          "token_pos": 0,
+          "word_score_logit": 0.029934655874967575,
+          "word_attn_weight": 0.08481336385011673
+        },
+        {
+          "rank": 3,
+          "token": "infection",
+          "token_pos": 11,
+          "word_score_logit": 0.029880067333579063,
+          "word_attn_weight": 0.08480872958898544
+        },
+        {
+          "rank": 4,
+          "token": "without",
+          "token_pos": 9,
+          "word_score_logit": 0.026194090023636818,
+          "word_attn_weight": 0.08449670672416687
+        }
+      ]
+    },
+    {
+      "sentence_id": 12,
+      "sentence_text": "these blooms would be responsible for local sites of irritation gi tract mouth vagina and sinus <UNK>",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "sites",
+          "token_pos": 7,
+          "word_score_logit": 0.0691903829574585,
+          "word_attn_weight": 0.06174256652593613
+        },
+        {
+          "rank": 1,
+          "token": "local",
+          "token_pos": 6,
+          "word_score_logit": 0.05644908919930458,
+          "word_attn_weight": 0.06096087768673897
+        },
+        {
+          "rank": 2,
+          "token": "of",
+          "token_pos": 8,
+          "word_score_logit": 0.056304510682821274,
+          "word_attn_weight": 0.06095205992460251
+        },
+        {
+          "rank": 3,
+          "token": "be",
+          "token_pos": 3,
+          "word_score_logit": 0.043934278190135956,
+          "word_attn_weight": 0.060202717781066895
+        },
+        {
+          "rank": 4,
+          "token": "irritation",
+          "token_pos": 9,
+          "word_score_logit": 0.0403447300195694,
+          "word_attn_weight": 0.05998700484633446
+        }
+      ]
+    },
+    {
+      "sentence_id": 13,
+      "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "candida",
+          "token_pos": 6,
+          "word_score_logit": 0.04574066027998924,
+          "word_attn_weight": 0.06430408358573914
+        },
+        {
+          "rank": 1,
+          "token": "was",
+          "token_pos": 7,
+          "word_score_logit": 0.0439298041164875,
+          "word_attn_weight": 0.06418774276971817
+        },
+        {
+          "rank": 2,
+          "token": "as",
+          "token_pos": 9,
+          "word_score_logit": 0.031293489038944244,
+          "word_attn_weight": 0.06338175386190414
+        },
+        {
+          "rank": 3,
+          "token": "blooms",
+          "token_pos": 15,
+          "word_score_logit": 0.025059018284082413,
+          "word_attn_weight": 0.06298782676458359
+        },
+        {
+          "rank": 4,
+          "token": "possible",
+          "token_pos": 11,
+          "word_score_logit": 0.024703964591026306,
+          "word_attn_weight": 0.06296546757221222
+        }
+      ]
+    },
+    {
+      "sentence_id": 14,
+      "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "use",
+          "token_pos": 12,
+          "word_score_logit": 0.08794432133436203,
+          "word_attn_weight": 0.03896152973175049
+        },
+        {
+          "rank": 1,
+          "token": "of",
+          "token_pos": 13,
+          "word_score_logit": 0.06393950432538986,
+          "word_attn_weight": 0.03803740069270134
+        },
+        {
+          "rank": 2,
+          "token": "factors",
+          "token_pos": 8,
+          "word_score_logit": 0.05203673988580704,
+          "word_attn_weight": 0.03758733719587326
+        },
+        {
+          "rank": 3,
+          "token": "as",
+          "token_pos": 10,
+          "word_score_logit": 0.05150599032640457,
+          "word_attn_weight": 0.037567391991615295
+        },
+        {
+          "rank": 4,
+          "token": "may",
+          "token_pos": 19,
+          "word_score_logit": 0.045771487057209015,
+          "word_attn_weight": 0.03735257685184479
+        }
+      ]
+    },
+    {
+      "sentence_id": 15,
+      "sentence_text": "i was addressing <UNK> infections i like the term blooms better",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "better",
+          "token_pos": 10,
+          "word_score_logit": 0.03583577275276184,
+          "word_attn_weight": 0.09367944300174713
+        },
+        {
+          "rank": 1,
+          "token": "was",
+          "token_pos": 1,
+          "word_score_logit": 0.021836083382368088,
+          "word_attn_weight": 0.09237709641456604
+        },
+        {
+          "rank": 2,
+          "token": "i",
+          "token_pos": 0,
+          "word_score_logit": 0.015776855871081352,
+          "word_attn_weight": 0.09181905537843704
+        },
+        {
+          "rank": 3,
+          "token": "the",
+          "token_pos": 7,
+          "word_score_logit": 0.014981891959905624,
+          "word_attn_weight": 0.09174609184265137
+        },
+        {
+          "rank": 4,
+          "token": "blooms",
+          "token_pos": 9,
+          "word_score_logit": 0.014517421834170818,
+          "word_attn_weight": 0.09170348942279816
+        }
+      ]
+    },
+    {
+      "sentence_id": 16,
+      "sentence_text": "the nutrition course that i teach covers this effect of antibiotic treatment as well as the cure",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "nutrition",
+          "token_pos": 1,
+          "word_score_logit": 0.050862088799476624,
+          "word_attn_weight": 0.060419321060180664
+        },
+        {
+          "rank": 1,
+          "token": "treatment",
+          "token_pos": 11,
+          "word_score_logit": 0.042812779545784,
+          "word_attn_weight": 0.059934936463832855
+        },
+        {
+          "rank": 2,
+          "token": "effect",
+          "token_pos": 8,
+          "word_score_logit": 0.03815692663192749,
+          "word_attn_weight": 0.0596565380692482
+        },
+        {
+          "rank": 3,
+          "token": "course",
+          "token_pos": 2,
+          "word_score_logit": 0.037041567265987396,
+          "word_attn_weight": 0.059590037912130356
+        },
+        {
+          "rank": 4,
+          "token": "the",
+          "token_pos": 0,
+          "word_score_logit": 0.036849986761808395,
+          "word_attn_weight": 0.05957862362265587
+        }
+      ]
+    },
+    {
+      "sentence_id": 17,
+      "sentence_text": "i guess that your nutrition course does not too bad",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "course",
+          "token_pos": 5,
+          "word_score_logit": 0.021452978253364563,
+          "word_attn_weight": 0.10136789828538895
+        },
+        {
+          "rank": 1,
+          "token": "does",
+          "token_pos": 6,
+          "word_score_logit": 0.019892632961273193,
+          "word_attn_weight": 0.1012098491191864
+        },
+        {
+          "rank": 2,
+          "token": "nutrition",
+          "token_pos": 4,
+          "word_score_logit": 0.01614392176270485,
+          "word_attn_weight": 0.10083115100860596
+        },
+        {
+          "rank": 3,
+          "token": "guess",
+          "token_pos": 1,
+          "word_score_logit": 0.008389188908040524,
+          "word_attn_weight": 0.10005225986242294
+        },
+        {
+          "rank": 4,
+          "token": "i",
+          "token_pos": 0,
+          "word_score_logit": 0.008307250216603279,
+          "word_attn_weight": 0.10004406422376633
+        }
+      ]
+    },
+    {
+      "sentence_id": 18,
+      "sentence_text": "my my <UNK> do i detect a little of steve dyer in you",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "detect",
+          "token_pos": 5,
+          "word_score_logit": 0.06492538750171661,
+          "word_attn_weight": 0.07991743832826614
+        },
+        {
+          "rank": 1,
+          "token": "of",
+          "token_pos": 8,
+          "word_score_logit": 0.06182358041405678,
+          "word_attn_weight": 0.07966993004083633
+        },
+        {
+          "rank": 2,
+          "token": "a",
+          "token_pos": 6,
+          "word_score_logit": 0.04716953635215759,
+          "word_attn_weight": 0.07851095497608185
+        },
+        {
+          "rank": 3,
+          "token": "little",
+          "token_pos": 7,
+          "word_score_logit": 0.04228011891245842,
+          "word_attn_weight": 0.07812802493572235
+        },
+        {
+          "rank": 4,
+          "token": "steve",
+          "token_pos": 9,
+          "word_score_logit": 0.03371259570121765,
+          "word_attn_weight": 0.07746151834726334
+        }
+      ]
+    },
+    {
+      "sentence_id": 19,
+      "sentence_text": "if you noticed my faculty rank i'm a <UNK> not a <UNK>",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "noticed",
+          "token_pos": 2,
+          "word_score_logit": 0.050620388239622116,
+          "word_attn_weight": 0.08643242716789246
+        },
+        {
+          "rank": 1,
+          "token": "my",
+          "token_pos": 3,
+          "word_score_logit": 0.03421363979578018,
+          "word_attn_weight": 0.08502592146396637
+        },
+        {
+          "rank": 2,
+          "token": "if",
+          "token_pos": 0,
+          "word_score_logit": 0.028035469353199005,
+          "word_attn_weight": 0.08450223505496979
+        },
+        {
+          "rank": 3,
+          "token": "you",
+          "token_pos": 1,
+          "word_score_logit": 0.021326741203665733,
+          "word_attn_weight": 0.08393722772598267
+        },
+        {
+          "rank": 4,
+          "token": "not",
+          "token_pos": 9,
+          "word_score_logit": 0.01564229652285576,
+          "word_attn_weight": 0.0834614485502243
+        }
+      ]
+    }
+  ],
+  "query_summaries": [
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "time",
+      "token_pos": 9,
+      "word_score_logit": 0.05322594568133354,
+      "word_attn_weight": 0.060640718787908554,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.18402792513370514,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 13,
+          "attn_weight": 0.12931635975837708,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.12722720205783844,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "the",
+      "token_pos": 3,
+      "word_score_logit": 0.051009900867938995,
+      "word_attn_weight": 0.060506485402584076,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.14475861191749573,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 13,
+          "attn_weight": 0.12338791787624359,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.11691952496767044,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "connection",
+      "token_pos": 16,
+      "word_score_logit": 0.04859636351466179,
+      "word_attn_weight": 0.0603606291115284,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.16725705564022064,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 14,
+          "attn_weight": 0.11821062862873077,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 13,
+          "attn_weight": 0.11812537163496017,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "i",
+      "token_pos": 10,
+      "word_score_logit": 0.0356646291911602,
+      "word_attn_weight": 0.0595850832760334,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.17541947960853577,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 13,
+          "attn_weight": 0.12702059745788574,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.1229461058974266,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "have",
+      "token_pos": 11,
+      "word_score_logit": 0.034787677228450775,
+      "word_attn_weight": 0.05953285098075867,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.17786714434623718,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 13,
+          "attn_weight": 0.12626612186431885,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.12403340637683868,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        }
+      ]
+    },
+    {
+      "query_id": 5,
+      "from_sentence_id": 1,
+      "token": "anything",
+      "token_pos": 1,
+      "word_score_logit": 0.018851090222597122,
+      "word_attn_weight": 0.0731637179851532,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.09878107905387878,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.08650635182857513,
+          "sentence_text": "candida species <UNK> the <UNK> surfaces of all humans during birth or shortly thereafter"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 13,
+          "attn_weight": 0.07560813426971436,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        }
+      ]
+    },
+    {
+      "query_id": 6,
+      "from_sentence_id": 1,
+      "token": "that",
+      "token_pos": 2,
+      "word_score_logit": 0.009463492780923843,
+      "word_attn_weight": 0.07248009741306305,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 5,
+          "attn_weight": 0.09229852259159088,
+          "sentence_text": "candida species <UNK> the <UNK> surfaces of all humans during birth or shortly thereafter"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 7,
+          "attn_weight": 0.08276341110467911,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.07235608994960785,
+          "sentence_text": "so anything that i say is not due to brainwashing by this hated book"
+        }
+      ]
+    },
+    {
+      "query_id": 7,
+      "from_sentence_id": 1,
+      "token": "i",
+      "token_pos": 3,
+      "word_score_logit": 0.008553216233849525,
+      "word_attn_weight": 0.07241415232419968,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.09485034644603729,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.08841004967689514,
+          "sentence_text": "candida species <UNK> the <UNK> surfaces of all humans during birth or shortly thereafter"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 13,
+          "attn_weight": 0.07014606893062592,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        }
+      ]
+    },
+    {
+      "query_id": 8,
+      "from_sentence_id": 1,
+      "token": "say",
+      "token_pos": 4,
+      "word_score_logit": 0.006463787518441677,
+      "word_attn_weight": 0.07226300239562988,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 5,
+          "attn_weight": 0.09192650020122528,
+          "sentence_text": "candida species <UNK> the <UNK> surfaces of all humans during birth or shortly thereafter"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 7,
+          "attn_weight": 0.07969330251216888,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.07525993138551712,
+          "sentence_text": "so anything that i say is not due to brainwashing by this hated book"
+        }
+      ]
+    },
+    {
+      "query_id": 9,
+      "from_sentence_id": 1,
+      "token": "this",
+      "token_pos": 11,
+      "word_score_logit": 0.005543215200304985,
+      "word_attn_weight": 0.07219651341438293,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.09307010471820831,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.08398880064487457,
+          "sentence_text": "candida species <UNK> the <UNK> surfaces of all humans during birth or shortly thereafter"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 13,
+          "attn_weight": 0.07361867278814316,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        }
+      ]
+    },
+    {
+      "query_id": 10,
+      "from_sentence_id": 2,
+      "token": "to",
+      "token_pos": 4,
+      "word_score_logit": 0.022878753021359444,
+      "word_attn_weight": 0.08507870882749557,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.09866605699062347,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.08764749020338058,
+          "sentence_text": "candida species <UNK> the <UNK> surfaces of all humans during birth or shortly thereafter"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 13,
+          "attn_weight": 0.07917068898677826,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        }
+      ]
+    },
+    {
+      "query_id": 11,
+      "from_sentence_id": 2,
+      "token": "why",
+      "token_pos": 9,
+      "word_score_logit": 0.021829254925251007,
+      "word_attn_weight": 0.08498947322368622,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.11049206554889679,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 13,
+          "attn_weight": 0.09419821202754974,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 5,
+          "attn_weight": 0.08073417842388153,
+          "sentence_text": "candida species <UNK> the <UNK> surfaces of all humans during birth or shortly thereafter"
+        }
+      ]
+    },
+    {
+      "query_id": 12,
+      "from_sentence_id": 2,
+      "token": "guess",
+      "token_pos": 3,
+      "word_score_logit": 0.019662868231534958,
+      "word_attn_weight": 0.08480554074048996,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.10882945358753204,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 13,
+          "attn_weight": 0.09420536458492279,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.08325374871492386,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        }
+      ]
+    },
+    {
+      "query_id": 13,
+      "from_sentence_id": 2,
+      "token": "i",
+      "token_pos": 2,
+      "word_score_logit": 0.009033993817865849,
+      "word_attn_weight": 0.08390893042087555,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.1220630407333374,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 13,
+          "attn_weight": 0.10007418692111969,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.08779286593198776,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        }
+      ]
+    },
+    {
+      "query_id": 14,
+      "from_sentence_id": 2,
+      "token": "hate",
+      "token_pos": 5,
+      "word_score_logit": 0.007253425195813179,
+      "word_attn_weight": 0.08375965803861618,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.09582751989364624,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.09013793617486954,
+          "sentence_text": "candida species <UNK> the <UNK> surfaces of all humans during birth or shortly thereafter"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 13,
+          "attn_weight": 0.08065934479236603,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        }
+      ]
+    },
+    {
+      "query_id": 15,
+      "from_sentence_id": 3,
+      "token": "from",
+      "token_pos": 5,
+      "word_score_logit": 0.025842204689979553,
+      "word_attn_weight": 0.10214550048112869,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.16904157400131226,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 13,
+          "attn_weight": 0.11943957209587097,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.10876047611236572,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        }
+      ]
+    },
+    {
+      "query_id": 16,
+      "from_sentence_id": 3,
+      "token": "quote",
+      "token_pos": 4,
+      "word_score_logit": 0.01666351966559887,
+      "word_attn_weight": 0.10121222585439682,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.15141518414020538,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 13,
+          "attn_weight": 0.11423971503973007,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.10349708795547485,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        }
+      ]
+    },
+    {
+      "query_id": 17,
+      "from_sentence_id": 3,
+      "token": "to",
+      "token_pos": 3,
+      "word_score_logit": 0.013979685492813587,
+      "word_attn_weight": 0.10094095766544342,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.14206001162528992,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 13,
+          "attn_weight": 0.10717035830020905,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.09995931386947632,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        }
+      ]
+    },
+    {
+      "query_id": 18,
+      "from_sentence_id": 3,
+      "token": "going",
+      "token_pos": 2,
+      "word_score_logit": 0.0072125717997550964,
+      "word_attn_weight": 0.1002601832151413,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.1371956318616867,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 13,
+          "attn_weight": 0.11112982779741287,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.10103407502174377,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        }
+      ]
+    },
+    {
+      "query_id": 19,
+      "from_sentence_id": 3,
+      "token": "i'm",
+      "token_pos": 1,
+      "word_score_logit": 0.0037667497526854277,
+      "word_attn_weight": 0.09991530328989029,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.12975060939788818,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 13,
+          "attn_weight": 0.10754995793104172,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.10042193531990051,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        }
+      ]
+    },
+    {
+      "query_id": 20,
+      "from_sentence_id": 4,
+      "token": "not",
+      "token_pos": 9,
+      "word_score_logit": 0.046317294239997864,
+      "word_attn_weight": 0.09415870159864426,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.10580961406230927,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.0858202800154686,
+          "sentence_text": "candida species <UNK> the <UNK> surfaces of all humans during birth or shortly thereafter"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 13,
+          "attn_weight": 0.08485759049654007,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        }
+      ]
+    },
+    {
+      "query_id": 21,
+      "from_sentence_id": 4,
+      "token": "familiar",
+      "token_pos": 6,
+      "word_score_logit": 0.03816809132695198,
+      "word_attn_weight": 0.09339450299739838,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.11272840201854706,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 13,
+          "attn_weight": 0.09175756573677063,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 5,
+          "attn_weight": 0.08543859422206879,
+          "sentence_text": "candida species <UNK> the <UNK> surfaces of all humans during birth or shortly thereafter"
+        }
+      ]
+    },
+    {
+      "query_id": 22,
+      "from_sentence_id": 4,
+      "token": "and",
+      "token_pos": 8,
+      "word_score_logit": 0.03417442366480827,
+      "word_attn_weight": 0.09302225708961487,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.1102508157491684,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 13,
+          "attn_weight": 0.08647465705871582,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 5,
+          "attn_weight": 0.08513204753398895,
+          "sentence_text": "candida species <UNK> the <UNK> surfaces of all humans during birth or shortly thereafter"
+        }
+      ]
+    },
+    {
+      "query_id": 23,
+      "from_sentence_id": 4,
+      "token": "with",
+      "token_pos": 7,
+      "word_score_logit": 0.025963928550481796,
+      "word_attn_weight": 0.09226162731647491,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.11357225477695465,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 13,
+          "attn_weight": 0.08922842890024185,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 5,
+          "attn_weight": 0.08269688487052917,
+          "sentence_text": "candida species <UNK> the <UNK> surfaces of all humans during birth or shortly thereafter"
+        }
+      ]
+    },
+    {
+      "query_id": 24,
+      "from_sentence_id": 4,
+      "token": "hate",
+      "token_pos": 10,
+      "word_score_logit": 0.00939931720495224,
+      "word_attn_weight": 0.0907459408044815,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.09392816573381424,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.08603447675704956,
+          "sentence_text": "candida species <UNK> the <UNK> surfaces of all humans during birth or shortly thereafter"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 13,
+          "attn_weight": 0.07972013205289841,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        }
+      ]
+    },
+    {
+      "query_id": 25,
+      "from_sentence_id": 5,
+      "token": "surfaces",
+      "token_pos": 5,
+      "word_score_logit": 0.06395779550075531,
+      "word_attn_weight": 0.07352594286203384,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.15814612805843353,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.09191885590553284,
+          "sentence_text": "these blooms would be responsible for local sites of irritation gi tract mouth vagina and sinus <UNK>"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.0847369059920311,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        }
+      ]
+    },
+    {
+      "query_id": 26,
+      "from_sentence_id": 5,
+      "token": "species",
+      "token_pos": 1,
+      "word_score_logit": 0.06056884676218033,
+      "word_attn_weight": 0.07327719032764435,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.13293597102165222,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.09787711501121521,
+          "sentence_text": "candida species <UNK> the <UNK> surfaces of all humans during birth or shortly thereafter"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.0802861899137497,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        }
+      ]
+    },
+    {
+      "query_id": 27,
+      "from_sentence_id": 5,
+      "token": "thereafter",
+      "token_pos": 13,
+      "word_score_logit": 0.057585496455430984,
+      "word_attn_weight": 0.07305890321731567,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.13424038887023926,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.09020008146762848,
+          "sentence_text": "candida species <UNK> the <UNK> surfaces of all humans during birth or shortly thereafter"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 13,
+          "attn_weight": 0.08180367201566696,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        }
+      ]
+    },
+    {
+      "query_id": 28,
+      "from_sentence_id": 5,
+      "token": "of",
+      "token_pos": 6,
+      "word_score_logit": 0.05138736590743065,
+      "word_attn_weight": 0.07260747998952866,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.14298203587532043,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.11885187029838562,
+          "sentence_text": "candida species <UNK> the <UNK> surfaces of all humans during birth or shortly thereafter"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 11,
+          "attn_weight": 0.07935409992933273,
+          "sentence_text": "what i posted was a discussion of candida blooms without systemic infection"
+        }
+      ]
+    },
+    {
+      "query_id": 29,
+      "from_sentence_id": 5,
+      "token": "<UNK>",
+      "token_pos": 2,
+      "word_score_logit": 0.038816437125205994,
+      "word_attn_weight": 0.07170044630765915,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.1248522400856018,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.08628563582897186,
+          "sentence_text": "candida species <UNK> the <UNK> surfaces of all humans during birth or shortly thereafter"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 12,
+          "attn_weight": 0.08072853833436966,
+          "sentence_text": "these blooms would be responsible for local sites of irritation gi tract mouth vagina and sinus <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 30,
+      "from_sentence_id": 6,
+      "token": "is",
+      "token_pos": 5,
+      "word_score_logit": 0.04024326801300049,
+      "word_attn_weight": 0.1130712628364563,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.12459069490432739,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 13,
+          "attn_weight": 0.0910334661602974,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.08601375669240952,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        }
+      ]
+    },
+    {
+      "query_id": 31,
+      "from_sentence_id": 6,
+      "token": "of",
+      "token_pos": 2,
+      "word_score_logit": 0.02815706469118595,
+      "word_attn_weight": 0.11171289533376694,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.15004229545593262,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 14,
+          "attn_weight": 0.09752395749092102,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 13,
+          "attn_weight": 0.09721226990222931,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        }
+      ]
+    },
+    {
+      "query_id": 32,
+      "from_sentence_id": 6,
+      "token": "ever",
+      "token_pos": 7,
+      "word_score_logit": 0.024122856557369232,
+      "word_attn_weight": 0.11126311868429184,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.13975217938423157,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 13,
+          "attn_weight": 0.11026251316070557,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.09861774742603302,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        }
+      ]
+    },
+    {
+      "query_id": 33,
+      "from_sentence_id": 6,
+      "token": "the",
+      "token_pos": 0,
+      "word_score_logit": 0.023526189848780632,
+      "word_attn_weight": 0.11119675636291504,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.16249167919158936,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 14,
+          "attn_weight": 0.10205817967653275,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 13,
+          "attn_weight": 0.10150637477636337,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        }
+      ]
+    },
+    {
+      "query_id": 34,
+      "from_sentence_id": 6,
+      "token": "clearly",
+      "token_pos": 6,
+      "word_score_logit": 0.022298254072666168,
+      "word_attn_weight": 0.11106029897928238,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.1318504810333252,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 13,
+          "attn_weight": 0.09886226058006287,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.09128711372613907,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        }
+      ]
+    },
+    {
+      "query_id": 35,
+      "from_sentence_id": 7,
+      "token": "<UNK>",
+      "token_pos": 10,
+      "word_score_logit": 0.07036592811346054,
+      "word_attn_weight": 0.026260295882821083,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.22503449022769928,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 14,
+          "attn_weight": 0.10196337848901749,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 12,
+          "attn_weight": 0.09879755973815918,
+          "sentence_text": "these blooms would be responsible for local sites of irritation gi tract mouth vagina and sinus <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 36,
+      "from_sentence_id": 7,
+      "token": "and",
+      "token_pos": 4,
+      "word_score_logit": 0.06864817440509796,
+      "word_attn_weight": 0.02621522545814514,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.22115270793437958,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 14,
+          "attn_weight": 0.09836649149656296,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 12,
+          "attn_weight": 0.0958431214094162,
+          "sentence_text": "these blooms would be responsible for local sites of irritation gi tract mouth vagina and sinus <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 37,
+      "from_sentence_id": 7,
+      "token": "<UNK>",
+      "token_pos": 11,
+      "word_score_logit": 0.06589753180742264,
+      "word_attn_weight": 0.026143215596675873,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.2361128032207489,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 14,
+          "attn_weight": 0.10374614596366882,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 13,
+          "attn_weight": 0.10060671716928482,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        }
+      ]
+    },
+    {
+      "query_id": 38,
+      "from_sentence_id": 7,
+      "token": "<UNK>",
+      "token_pos": 30,
+      "word_score_logit": 0.05825981870293617,
+      "word_attn_weight": 0.0259442999958992,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.19022953510284424,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 14,
+          "attn_weight": 0.10713040083646774,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 13,
+          "attn_weight": 0.10647089779376984,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        }
+      ]
+    },
+    {
+      "query_id": 39,
+      "from_sentence_id": 7,
+      "token": "is",
+      "token_pos": 5,
+      "word_score_logit": 0.05722926929593086,
+      "word_attn_weight": 0.025917576625943184,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.21126919984817505,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 14,
+          "attn_weight": 0.09856881201267242,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 12,
+          "attn_weight": 0.09516480565071106,
+          "sentence_text": "these blooms would be responsible for local sites of irritation gi tract mouth vagina and sinus <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 40,
+      "from_sentence_id": 8,
+      "token": "candidiasis",
+      "token_pos": 13,
+      "word_score_logit": 0.025523360818624496,
+      "word_attn_weight": 0.07351983338594437,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.10672406852245331,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 13,
+          "attn_weight": 0.07873903959989548,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 5,
+          "attn_weight": 0.07755643129348755,
+          "sentence_text": "candida species <UNK> the <UNK> surfaces of all humans during birth or shortly thereafter"
+        }
+      ]
+    },
+    {
+      "query_id": 41,
+      "from_sentence_id": 8,
+      "token": "<UNK>",
+      "token_pos": 4,
+      "word_score_logit": 0.005679477006196976,
+      "word_attn_weight": 0.07207529246807098,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.09438185393810272,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.08342171460390091,
+          "sentence_text": "candida species <UNK> the <UNK> surfaces of all humans during birth or shortly thereafter"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 11,
+          "attn_weight": 0.06925996392965317,
+          "sentence_text": "what i posted was a discussion of candida blooms without systemic infection"
+        }
+      ]
+    },
+    {
+      "query_id": 42,
+      "from_sentence_id": 8,
+      "token": "and",
+      "token_pos": 2,
+      "word_score_logit": 0.0054140957072377205,
+      "word_attn_weight": 0.07205616682767868,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.09228016436100006,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.08152309060096741,
+          "sentence_text": "candida species <UNK> the <UNK> surfaces of all humans during birth or shortly thereafter"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 11,
+          "attn_weight": 0.06962139159440994,
+          "sentence_text": "what i posted was a discussion of candida blooms without systemic infection"
+        }
+      ]
+    },
+    {
+      "query_id": 43,
+      "from_sentence_id": 8,
+      "token": "persistent",
+      "token_pos": 3,
+      "word_score_logit": 0.001250509638339281,
+      "word_attn_weight": 0.07175678014755249,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.09331194311380386,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.08580366522073746,
+          "sentence_text": "candida species <UNK> the <UNK> surfaces of all humans during birth or shortly thereafter"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 11,
+          "attn_weight": 0.07227436453104019,
+          "sentence_text": "what i posted was a discussion of candida blooms without systemic infection"
+        }
+      ]
+    },
+    {
+      "query_id": 44,
+      "from_sentence_id": 8,
+      "token": "poor",
+      "token_pos": 0,
+      "word_score_logit": -0.0012356247752904892,
+      "word_attn_weight": 0.07157859951257706,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.10873846709728241,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.07841277122497559,
+          "sentence_text": "candida species <UNK> the <UNK> surfaces of all humans during birth or shortly thereafter"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.07408608496189117,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        }
+      ]
+    },
+    {
+      "query_id": 45,
+      "from_sentence_id": 9,
+      "token": "s",
+      "token_pos": 7,
+      "word_score_logit": 0.020654084160923958,
+      "word_attn_weight": 0.12778636813163757,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.12100450694561005,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 13,
+          "attn_weight": 0.10369692742824554,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.09144219756126404,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        }
+      ]
+    },
+    {
+      "query_id": 46,
+      "from_sentence_id": 9,
+      "token": "assessment",
+      "token_pos": 1,
+      "word_score_logit": 0.003770193550735712,
+      "word_attn_weight": 0.1256469488143921,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.14231392741203308,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 13,
+          "attn_weight": 0.09691056609153748,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.09469345211982727,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        }
+      ]
+    },
+    {
+      "query_id": 47,
+      "from_sentence_id": 9,
+      "token": "in",
+      "token_pos": 4,
+      "word_score_logit": 0.003647024743258953,
+      "word_attn_weight": 0.12563148140907288,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.12011529505252838,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 13,
+          "attn_weight": 0.09179071336984634,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.08577069640159607,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        }
+      ]
+    },
+    {
+      "query_id": 48,
+      "from_sentence_id": 9,
+      "token": "u",
+      "token_pos": 6,
+      "word_score_logit": 0.002360598649829626,
+      "word_attn_weight": 0.12546996772289276,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.12416273355484009,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 13,
+          "attn_weight": 0.1002621203660965,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.09398490190505981,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        }
+      ]
+    },
+    {
+      "query_id": 49,
+      "from_sentence_id": 9,
+      "token": "the",
+      "token_pos": 5,
+      "word_score_logit": -0.004311153665184975,
+      "word_attn_weight": 0.12463564425706863,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.12002456933259964,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 13,
+          "attn_weight": 0.09481261670589447,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.08816249668598175,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        }
+      ]
+    },
+    {
+      "query_id": 50,
+      "from_sentence_id": 10,
+      "token": "correct",
+      "token_pos": 1,
+      "word_score_logit": 0.01946895755827427,
+      "word_attn_weight": 0.12757718563079834,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.10463489592075348,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 13,
+          "attn_weight": 0.08365263789892197,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.07845743000507355,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        }
+      ]
+    },
+    {
+      "query_id": 51,
+      "from_sentence_id": 10,
+      "token": "is",
+      "token_pos": 0,
+      "word_score_logit": 0.017246577888727188,
+      "word_attn_weight": 0.12729397416114807,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.09383785724639893,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 13,
+          "attn_weight": 0.07875470072031021,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.0757344663143158,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        }
+      ]
+    },
+    {
+      "query_id": 52,
+      "from_sentence_id": 10,
+      "token": "and",
+      "token_pos": 2,
+      "word_score_logit": 0.010094273835420609,
+      "word_attn_weight": 0.12638676166534424,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.09445592761039734,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 13,
+          "attn_weight": 0.07615280896425247,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.07253751158714294,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        }
+      ]
+    },
+    {
+      "query_id": 53,
+      "from_sentence_id": 10,
+      "token": "i",
+      "token_pos": 3,
+      "word_score_logit": 0.006655432749539614,
+      "word_attn_weight": 0.12595289945602417,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.10812362283468246,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 13,
+          "attn_weight": 0.08668895065784454,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.08108317852020264,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        }
+      ]
+    },
+    {
+      "query_id": 54,
+      "from_sentence_id": 10,
+      "token": "do",
+      "token_pos": 4,
+      "word_score_logit": 0.0053925467655062675,
+      "word_attn_weight": 0.1257939338684082,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.08991588652133942,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 13,
+          "attn_weight": 0.07503798604011536,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.07171052694320679,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        }
+      ]
+    },
+    {
+      "query_id": 55,
+      "from_sentence_id": 11,
+      "token": "posted",
+      "token_pos": 2,
+      "word_score_logit": 0.052838973701000214,
+      "word_attn_weight": 0.08677837252616882,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.15702271461486816,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 14,
+          "attn_weight": 0.09643406420946121,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 13,
+          "attn_weight": 0.09372170269489288,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        }
+      ]
+    },
+    {
+      "query_id": 56,
+      "from_sentence_id": 11,
+      "token": "i",
+      "token_pos": 1,
+      "word_score_logit": 0.033969953656196594,
+      "word_attn_weight": 0.08515629917383194,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.14256031811237335,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 14,
+          "attn_weight": 0.09145449101924896,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 13,
+          "attn_weight": 0.08840872347354889,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        }
+      ]
+    },
+    {
+      "query_id": 57,
+      "from_sentence_id": 11,
+      "token": "what",
+      "token_pos": 0,
+      "word_score_logit": 0.029934655874967575,
+      "word_attn_weight": 0.08481336385011673,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.1375589817762375,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 14,
+          "attn_weight": 0.08830899745225906,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 5,
+          "attn_weight": 0.08644668757915497,
+          "sentence_text": "candida species <UNK> the <UNK> surfaces of all humans during birth or shortly thereafter"
+        }
+      ]
+    },
+    {
+      "query_id": 58,
+      "from_sentence_id": 11,
+      "token": "infection",
+      "token_pos": 11,
+      "word_score_logit": 0.029880067333579063,
+      "word_attn_weight": 0.08480872958898544,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.17230266332626343,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.10031047463417053,
+          "sentence_text": "candida species <UNK> the <UNK> surfaces of all humans during birth or shortly thereafter"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.09065308421850204,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        }
+      ]
+    },
+    {
+      "query_id": 59,
+      "from_sentence_id": 11,
+      "token": "without",
+      "token_pos": 9,
+      "word_score_logit": 0.026194090023636818,
+      "word_attn_weight": 0.08449670672416687,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.1606636345386505,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 14,
+          "attn_weight": 0.09216045588254929,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 5,
+          "attn_weight": 0.09102632105350494,
+          "sentence_text": "candida species <UNK> the <UNK> surfaces of all humans during birth or shortly thereafter"
+        }
+      ]
+    },
+    {
+      "query_id": 60,
+      "from_sentence_id": 12,
+      "token": "sites",
+      "token_pos": 7,
+      "word_score_logit": 0.0691903829574585,
+      "word_attn_weight": 0.06174256652593613,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.2501217722892761,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 14,
+          "attn_weight": 0.1387491673231125,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 13,
+          "attn_weight": 0.13254353404045105,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        }
+      ]
+    },
+    {
+      "query_id": 61,
+      "from_sentence_id": 12,
+      "token": "local",
+      "token_pos": 6,
+      "word_score_logit": 0.05644908919930458,
+      "word_attn_weight": 0.06096087768673897,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.22646623849868774,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 14,
+          "attn_weight": 0.1288832128047943,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 13,
+          "attn_weight": 0.12289781868457794,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        }
+      ]
+    },
+    {
+      "query_id": 62,
+      "from_sentence_id": 12,
+      "token": "of",
+      "token_pos": 8,
+      "word_score_logit": 0.056304510682821274,
+      "word_attn_weight": 0.06095205992460251,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.24345824122428894,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 14,
+          "attn_weight": 0.12568488717079163,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 12,
+          "attn_weight": 0.12143777310848236,
+          "sentence_text": "these blooms would be responsible for local sites of irritation gi tract mouth vagina and sinus <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 63,
+      "from_sentence_id": 12,
+      "token": "be",
+      "token_pos": 3,
+      "word_score_logit": 0.043934278190135956,
+      "word_attn_weight": 0.060202717781066895,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.19768014550209045,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 14,
+          "attn_weight": 0.11996027827262878,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 13,
+          "attn_weight": 0.11248183995485306,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        }
+      ]
+    },
+    {
+      "query_id": 64,
+      "from_sentence_id": 12,
+      "token": "irritation",
+      "token_pos": 9,
+      "word_score_logit": 0.0403447300195694,
+      "word_attn_weight": 0.05998700484633446,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.2591055631637573,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 14,
+          "attn_weight": 0.1278441697359085,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 13,
+          "attn_weight": 0.12525317072868347,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        }
+      ]
+    },
+    {
+      "query_id": 65,
+      "from_sentence_id": 13,
+      "token": "candida",
+      "token_pos": 6,
+      "word_score_logit": 0.04574066027998924,
+      "word_attn_weight": 0.06430408358573914,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.15715496242046356,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 14,
+          "attn_weight": 0.0932357981801033,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 12,
+          "attn_weight": 0.09016993641853333,
+          "sentence_text": "these blooms would be responsible for local sites of irritation gi tract mouth vagina and sinus <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 66,
+      "from_sentence_id": 13,
+      "token": "was",
+      "token_pos": 7,
+      "word_score_logit": 0.0439298041164875,
+      "word_attn_weight": 0.06418774276971817,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.161889910697937,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 14,
+          "attn_weight": 0.10434292256832123,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 13,
+          "attn_weight": 0.10234447568655014,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        }
+      ]
+    },
+    {
+      "query_id": 67,
+      "from_sentence_id": 13,
+      "token": "as",
+      "token_pos": 9,
+      "word_score_logit": 0.031293489038944244,
+      "word_attn_weight": 0.06338175386190414,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.16148176789283752,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 14,
+          "attn_weight": 0.10468028485774994,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 13,
+          "attn_weight": 0.10318982601165771,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        }
+      ]
+    },
+    {
+      "query_id": 68,
+      "from_sentence_id": 13,
+      "token": "blooms",
+      "token_pos": 15,
+      "word_score_logit": 0.025059018284082413,
+      "word_attn_weight": 0.06298782676458359,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.12331876158714294,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 12,
+          "attn_weight": 0.09121080487966537,
+          "sentence_text": "these blooms would be responsible for local sites of irritation gi tract mouth vagina and sinus <UNK>"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.09072527289390564,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        }
+      ]
+    },
+    {
+      "query_id": 69,
+      "from_sentence_id": 13,
+      "token": "possible",
+      "token_pos": 11,
+      "word_score_logit": 0.024703964591026306,
+      "word_attn_weight": 0.06296546757221222,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.1631145179271698,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 14,
+          "attn_weight": 0.11016932874917984,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 13,
+          "attn_weight": 0.10849630832672119,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        }
+      ]
+    },
+    {
+      "query_id": 70,
+      "from_sentence_id": 14,
+      "token": "use",
+      "token_pos": 12,
+      "word_score_logit": 0.08794432133436203,
+      "word_attn_weight": 0.03896152973175049,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.23385632038116455,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 14,
+          "attn_weight": 0.1421307623386383,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 13,
+          "attn_weight": 0.13716444373130798,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        }
+      ]
+    },
+    {
+      "query_id": 71,
+      "from_sentence_id": 14,
+      "token": "of",
+      "token_pos": 13,
+      "word_score_logit": 0.06393950432538986,
+      "word_attn_weight": 0.03803740069270134,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.24584995210170746,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 14,
+          "attn_weight": 0.13863496482372284,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 13,
+          "attn_weight": 0.1350545734167099,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        }
+      ]
+    },
+    {
+      "query_id": 72,
+      "from_sentence_id": 14,
+      "token": "factors",
+      "token_pos": 8,
+      "word_score_logit": 0.05203673988580704,
+      "word_attn_weight": 0.03758733719587326,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.24815264344215393,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 14,
+          "attn_weight": 0.1303141713142395,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 13,
+          "attn_weight": 0.12645980715751648,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        }
+      ]
+    },
+    {
+      "query_id": 73,
+      "from_sentence_id": 14,
+      "token": "as",
+      "token_pos": 10,
+      "word_score_logit": 0.05150599032640457,
+      "word_attn_weight": 0.037567391991615295,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.22171896696090698,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 14,
+          "attn_weight": 0.13050837814807892,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 13,
+          "attn_weight": 0.12705157697200775,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        }
+      ]
+    },
+    {
+      "query_id": 74,
+      "from_sentence_id": 14,
+      "token": "may",
+      "token_pos": 19,
+      "word_score_logit": 0.045771487057209015,
+      "word_attn_weight": 0.03735257685184479,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.18674537539482117,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 14,
+          "attn_weight": 0.1126532331109047,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 12,
+          "attn_weight": 0.10748620331287384,
+          "sentence_text": "these blooms would be responsible for local sites of irritation gi tract mouth vagina and sinus <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 75,
+      "from_sentence_id": 15,
+      "token": "better",
+      "token_pos": 10,
+      "word_score_logit": 0.03583577275276184,
+      "word_attn_weight": 0.09367944300174713,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.12069820612668991,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 13,
+          "attn_weight": 0.09691078960895538,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.09147795289754868,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        }
+      ]
+    },
+    {
+      "query_id": 76,
+      "from_sentence_id": 15,
+      "token": "was",
+      "token_pos": 1,
+      "word_score_logit": 0.021836083382368088,
+      "word_attn_weight": 0.09237709641456604,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.1486254334449768,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 14,
+          "attn_weight": 0.09815194457769394,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 13,
+          "attn_weight": 0.09411437064409256,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        }
+      ]
+    },
+    {
+      "query_id": 77,
+      "from_sentence_id": 15,
+      "token": "i",
+      "token_pos": 0,
+      "word_score_logit": 0.015776855871081352,
+      "word_attn_weight": 0.09181905537843704,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.14611710608005524,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 14,
+          "attn_weight": 0.09926828742027283,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 13,
+          "attn_weight": 0.09770935773849487,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        }
+      ]
+    },
+    {
+      "query_id": 78,
+      "from_sentence_id": 15,
+      "token": "the",
+      "token_pos": 7,
+      "word_score_logit": 0.014981891959905624,
+      "word_attn_weight": 0.09174609184265137,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.16041570901870728,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 13,
+          "attn_weight": 0.11192537099123001,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.10810134559869766,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        }
+      ]
+    },
+    {
+      "query_id": 79,
+      "from_sentence_id": 15,
+      "token": "blooms",
+      "token_pos": 9,
+      "word_score_logit": 0.014517421834170818,
+      "word_attn_weight": 0.09170348942279816,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.1249486654996872,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 14,
+          "attn_weight": 0.09389469027519226,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 13,
+          "attn_weight": 0.09388852119445801,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        }
+      ]
+    },
+    {
+      "query_id": 80,
+      "from_sentence_id": 16,
+      "token": "nutrition",
+      "token_pos": 1,
+      "word_score_logit": 0.050862088799476624,
+      "word_attn_weight": 0.060419321060180664,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.17997846007347107,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 14,
+          "attn_weight": 0.10115747898817062,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 12,
+          "attn_weight": 0.09653893113136292,
+          "sentence_text": "these blooms would be responsible for local sites of irritation gi tract mouth vagina and sinus <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 81,
+      "from_sentence_id": 16,
+      "token": "treatment",
+      "token_pos": 11,
+      "word_score_logit": 0.042812779545784,
+      "word_attn_weight": 0.059934936463832855,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.21012425422668457,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 14,
+          "attn_weight": 0.09916277229785919,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 13,
+          "attn_weight": 0.09785167872905731,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        }
+      ]
+    },
+    {
+      "query_id": 82,
+      "from_sentence_id": 16,
+      "token": "effect",
+      "token_pos": 8,
+      "word_score_logit": 0.03815692663192749,
+      "word_attn_weight": 0.0596565380692482,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.17643418908119202,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 14,
+          "attn_weight": 0.10069902241230011,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 13,
+          "attn_weight": 0.09603012353181839,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        }
+      ]
+    },
+    {
+      "query_id": 83,
+      "from_sentence_id": 16,
+      "token": "course",
+      "token_pos": 2,
+      "word_score_logit": 0.037041567265987396,
+      "word_attn_weight": 0.059590037912130356,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.18351827561855316,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 14,
+          "attn_weight": 0.1036122739315033,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 13,
+          "attn_weight": 0.1009441614151001,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        }
+      ]
+    },
+    {
+      "query_id": 84,
+      "from_sentence_id": 16,
+      "token": "the",
+      "token_pos": 0,
+      "word_score_logit": 0.036849986761808395,
+      "word_attn_weight": 0.05957862362265587,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.20727819204330444,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 14,
+          "attn_weight": 0.11496506631374359,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 13,
+          "attn_weight": 0.11263281106948853,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        }
+      ]
+    },
+    {
+      "query_id": 85,
+      "from_sentence_id": 17,
+      "token": "course",
+      "token_pos": 5,
+      "word_score_logit": 0.021452978253364563,
+      "word_attn_weight": 0.10136789828538895,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.13767103850841522,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 13,
+          "attn_weight": 0.10663056373596191,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.09446708858013153,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        }
+      ]
+    },
+    {
+      "query_id": 86,
+      "from_sentence_id": 17,
+      "token": "does",
+      "token_pos": 6,
+      "word_score_logit": 0.019892632961273193,
+      "word_attn_weight": 0.1012098491191864,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.14795085787773132,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 13,
+          "attn_weight": 0.11509310454130173,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.1016187071800232,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        }
+      ]
+    },
+    {
+      "query_id": 87,
+      "from_sentence_id": 17,
+      "token": "nutrition",
+      "token_pos": 4,
+      "word_score_logit": 0.01614392176270485,
+      "word_attn_weight": 0.10083115100860596,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.14590910077095032,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 13,
+          "attn_weight": 0.10120580345392227,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.0951295793056488,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        }
+      ]
+    },
+    {
+      "query_id": 88,
+      "from_sentence_id": 17,
+      "token": "guess",
+      "token_pos": 1,
+      "word_score_logit": 0.008389188908040524,
+      "word_attn_weight": 0.10005225986242294,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.14226339757442474,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 13,
+          "attn_weight": 0.11658714711666107,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.10331112891435623,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        }
+      ]
+    },
+    {
+      "query_id": 89,
+      "from_sentence_id": 17,
+      "token": "i",
+      "token_pos": 0,
+      "word_score_logit": 0.008307250216603279,
+      "word_attn_weight": 0.10004406422376633,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.14785036444664001,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 13,
+          "attn_weight": 0.11661183834075928,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.10287430882453918,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        }
+      ]
+    },
+    {
+      "query_id": 90,
+      "from_sentence_id": 18,
+      "token": "detect",
+      "token_pos": 5,
+      "word_score_logit": 0.06492538750171661,
+      "word_attn_weight": 0.07991743832826614,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.20138253271579742,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 13,
+          "attn_weight": 0.15037915110588074,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.14010070264339447,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        }
+      ]
+    },
+    {
+      "query_id": 91,
+      "from_sentence_id": 18,
+      "token": "of",
+      "token_pos": 8,
+      "word_score_logit": 0.06182358041405678,
+      "word_attn_weight": 0.07966993004083633,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.14011868834495544,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 13,
+          "attn_weight": 0.1179952472448349,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.10652187466621399,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        }
+      ]
+    },
+    {
+      "query_id": 92,
+      "from_sentence_id": 18,
+      "token": "a",
+      "token_pos": 6,
+      "word_score_logit": 0.04716953635215759,
+      "word_attn_weight": 0.07851095497608185,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.16043446958065033,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 13,
+          "attn_weight": 0.13730967044830322,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.12271027266979218,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        }
+      ]
+    },
+    {
+      "query_id": 93,
+      "from_sentence_id": 18,
+      "token": "little",
+      "token_pos": 7,
+      "word_score_logit": 0.04228011891245842,
+      "word_attn_weight": 0.07812802493572235,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.14491119980812073,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 13,
+          "attn_weight": 0.1278742551803589,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.11554254591464996,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        }
+      ]
+    },
+    {
+      "query_id": 94,
+      "from_sentence_id": 18,
+      "token": "steve",
+      "token_pos": 9,
+      "word_score_logit": 0.03371259570121765,
+      "word_attn_weight": 0.07746151834726334,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.11706104874610901,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 13,
+          "attn_weight": 0.10639987885951996,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.09634075313806534,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        }
+      ]
+    },
+    {
+      "query_id": 95,
+      "from_sentence_id": 19,
+      "token": "noticed",
+      "token_pos": 2,
+      "word_score_logit": 0.050620388239622116,
+      "word_attn_weight": 0.08643242716789246,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.17782406508922577,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 13,
+          "attn_weight": 0.13031123578548431,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.11615787446498871,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        }
+      ]
+    },
+    {
+      "query_id": 96,
+      "from_sentence_id": 19,
+      "token": "my",
+      "token_pos": 3,
+      "word_score_logit": 0.03421363979578018,
+      "word_attn_weight": 0.08502592146396637,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.15413694083690643,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 13,
+          "attn_weight": 0.11276675015687943,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.1002667248249054,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        }
+      ]
+    },
+    {
+      "query_id": 97,
+      "from_sentence_id": 19,
+      "token": "if",
+      "token_pos": 0,
+      "word_score_logit": 0.028035469353199005,
+      "word_attn_weight": 0.08450223505496979,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.14045163989067078,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 13,
+          "attn_weight": 0.11019913852214813,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.10137210786342621,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        }
+      ]
+    },
+    {
+      "query_id": 98,
+      "from_sentence_id": 19,
+      "token": "you",
+      "token_pos": 1,
+      "word_score_logit": 0.021326741203665733,
+      "word_attn_weight": 0.08393722772598267,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.1466587632894516,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 13,
+          "attn_weight": 0.11366261541843414,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.10245954990386963,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        }
+      ]
+    },
+    {
+      "query_id": 99,
+      "from_sentence_id": 19,
+      "token": "not",
+      "token_pos": 9,
+      "word_score_logit": 0.01564229652285576,
+      "word_attn_weight": 0.0834614485502243,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.10708339512348175,
+          "sentence_text": "indeed candidiasis occurs worldwide and is the most common systemic <UNK> <UNK> play the main role in preventing a systemic infection candidiasis so you would have to have a low <UNK> count or sick <UNK> to see a systemic infection"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 13,
+          "attn_weight": 0.0918632224202156,
+          "sentence_text": "knocking down the bacterial competition for candida was proposed as a possible trigger for candida blooms"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 14,
+          "attn_weight": 0.08665056526660919,
+          "sentence_text": "let me quote from <UNK> again however some factors such as the use of a broad spectrum <UNK> antibiotic may <UNK> to both <UNK> and systemic infections"
+        }
+      ]
+    }
+  ],
+  "sentence_importance_from_cross_attn": {
+    "definition": "mean cross-attn over queries",
+    "values": [
+      {
+        "sentence_id": 0,
+        "importance": 0.03393756225705147
+      },
+      {
+        "sentence_id": 1,
+        "importance": 0.03171088919043541
+      },
+      {
+        "sentence_id": 2,
+        "importance": 0.017507094889879227
+      },
+      {
+        "sentence_id": 3,
+        "importance": 0.02564055658876896
+      },
+      {
+        "sentence_id": 4,
+        "importance": 0.024768365547060966
+      },
+      {
+        "sentence_id": 5,
+        "importance": 0.07733257859945297
+      },
+      {
+        "sentence_id": 6,
+        "importance": 0.03612029179930687
+      },
+      {
+        "sentence_id": 7,
+        "importance": 0.1491989642381668
+      },
+      {
+        "sentence_id": 8,
+        "importance": 0.053387489169836044
+      },
+      {
+        "sentence_id": 9,
+        "importance": 0.024540236219763756
+      },
+      {
+        "sentence_id": 10,
+        "importance": 0.01852313242852688
+      },
+      {
+        "sentence_id": 11,
+        "importance": 0.06452111154794693
+      },
+      {
+        "sentence_id": 12,
+        "importance": 0.09130773693323135
+      },
+      {
+        "sentence_id": 13,
+        "importance": 0.0992887020111084
+      },
+      {
+        "sentence_id": 14,
+        "importance": 0.09651791304349899
+      },
+      {
+        "sentence_id": 15,
+        "importance": 0.031063824892044067
+      },
+      {
+        "sentence_id": 16,
+        "importance": 0.07131391018629074
+      },
+      {
+        "sentence_id": 17,
+        "importance": 0.015299214981496334
+      },
+      {
+        "sentence_id": 18,
+        "importance": 0.01740201935172081
+      },
+      {
+        "sentence_id": 19,
+        "importance": 0.020618390291929245
+      }
+    ],
+    "ranked": [
+      {
+        "sentence_id": 7,
+        "importance": 0.1491989642381668
+      },
+      {
+        "sentence_id": 13,
+        "importance": 0.0992887020111084
+      },
+      {
+        "sentence_id": 14,
+        "importance": 0.09651791304349899
+      },
+      {
+        "sentence_id": 12,
+        "importance": 0.09130773693323135
+      },
+      {
+        "sentence_id": 5,
+        "importance": 0.07733257859945297
+      },
+      {
+        "sentence_id": 16,
+        "importance": 0.07131391018629074
+      },
+      {
+        "sentence_id": 11,
+        "importance": 0.06452111154794693
+      },
+      {
+        "sentence_id": 8,
+        "importance": 0.053387489169836044
+      },
+      {
+        "sentence_id": 6,
+        "importance": 0.03612029179930687
+      },
+      {
+        "sentence_id": 0,
+        "importance": 0.03393756225705147
+      },
+      {
+        "sentence_id": 1,
+        "importance": 0.03171088919043541
+      },
+      {
+        "sentence_id": 15,
+        "importance": 0.031063824892044067
+      },
+      {
+        "sentence_id": 3,
+        "importance": 0.02564055658876896
+      },
+      {
+        "sentence_id": 4,
+        "importance": 0.024768365547060966
+      },
+      {
+        "sentence_id": 9,
+        "importance": 0.024540236219763756
+      },
+      {
+        "sentence_id": 19,
+        "importance": 0.020618390291929245
+      },
+      {
+        "sentence_id": 10,
+        "importance": 0.01852313242852688
+      },
+      {
+        "sentence_id": 2,
+        "importance": 0.017507094889879227
+      },
+      {
+        "sentence_id": 18,
+        "importance": 0.01740201935172081
+      },
+      {
+        "sentence_id": 17,
+        "importance": 0.015299214981496334
+      }
+    ]
+  },
+  "example_id": "test-6"
+}

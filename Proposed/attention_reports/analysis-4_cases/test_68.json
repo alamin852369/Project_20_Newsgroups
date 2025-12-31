@@ -1,0 +1,81 @@
+{
+  "example_id": "test_68",
+  "true_label_id": 0,
+  "pred_label_id": 10,
+  "true_label_name": "alt.atheism",
+  "pred_label_name": "rec.sport.hockey",
+  "pred_confidence": 0.4687155485153198,
+  "metrics": {
+    "num_sents": 1,
+    "K": 5,
+    "stop_ratio": 0.2,
+    "unk_ratio": 0.0,
+    "num_ratio": 0.0,
+    "content_ratio": 0.8,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 0.0,
+    "sentence_importance_entropy": -0.0,
+    "sentence_importance_max": 1.0,
+    "top_sentence_id": 0,
+    "query_mismatch_rate": 0.0,
+    "selected_quality_counts": {
+      "content_word": 4,
+      "stopword": 1
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.12,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 1.0,
+    "D_local_global_conflict": 0.0,
+    "E_overconfident_error": 0.4687155485153198
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "then einstein should have had lunch with me at the <UNK> fu on castro street yesterday when they handed me a fortune cookie that said he who has imagination but not knowledge has wings but no feet"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "has",
+          "token_pos": 32,
+          "quality": "content_word",
+          "word_score_logit": 0.07486151158809662,
+          "word_attn_weight": 0.028753003105521202
+        },
+        {
+          "token": "knowledge",
+          "token_pos": 31,
+          "quality": "content_word",
+          "word_score_logit": 0.06302517652511597,
+          "word_attn_weight": 0.028414679691195488
+        },
+        {
+          "token": "he",
+          "token_pos": 25,
+          "quality": "stopword",
+          "word_score_logit": 0.042915500700473785,
+          "word_attn_weight": 0.027848977595567703
+        },
+        {
+          "token": "wings",
+          "token_pos": 33,
+          "quality": "content_word",
+          "word_score_logit": 0.04243946447968483,
+          "word_attn_weight": 0.027835723012685776
+        },
+        {
+          "token": "yesterday",
+          "token_pos": 15,
+          "quality": "content_word",
+          "word_score_logit": 0.04194583743810654,
+          "word_attn_weight": 0.027821986004710197
+        }
+      ]
+    ],
+    "top_sentence_id": 0,
+    "sentence_importance_distribution": [
+      1.0
+    ]
+  }
+}

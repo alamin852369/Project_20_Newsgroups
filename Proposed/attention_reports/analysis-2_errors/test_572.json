@@ -1,0 +1,125 @@
+{
+  "true_label_id": 4,
+  "pred_label_id": 3,
+  "true_label_name": "comp.sys.mac.hardware",
+  "pred_label_name": "comp.sys.ibm.pc.hardware",
+  "pred_confidence": 0.9155405163764954,
+  "num_sents": 1,
+  "top_sentences": [
+    {
+      "sentence_id": 0,
+      "importance": 1.0,
+      "sentence_text": "have you tried having your scsi bus balanced",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "having",
+          "token_pos": 3,
+          "word_score_logit": 0.032155320048332214,
+          "word_attn_weight": 0.12737706303596497
+        },
+        {
+          "rank": 1,
+          "token": "have",
+          "token_pos": 0,
+          "word_score_logit": 0.022246701642870903,
+          "word_attn_weight": 0.1261211782693863
+        },
+        {
+          "rank": 2,
+          "token": "scsi",
+          "token_pos": 5,
+          "word_score_logit": 0.019243180751800537,
+          "word_attn_weight": 0.12574292719364166
+        },
+        {
+          "rank": 3,
+          "token": "tried",
+          "token_pos": 2,
+          "word_score_logit": 0.016859102994203568,
+          "word_attn_weight": 0.1254435032606125
+        },
+        {
+          "rank": 4,
+          "token": "your",
+          "token_pos": 4,
+          "word_score_logit": 0.015766985714435577,
+          "word_attn_weight": 0.12530657649040222
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "having",
+      "token_pos": 3,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 1.0,
+          "sentence_text": "have you tried having your scsi bus balanced"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "have",
+      "token_pos": 0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 1.0,
+          "sentence_text": "have you tried having your scsi bus balanced"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "scsi",
+      "token_pos": 5,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 1.0,
+          "sentence_text": "have you tried having your scsi bus balanced"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "tried",
+      "token_pos": 2,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 1.0,
+          "sentence_text": "have you tried having your scsi bus balanced"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "your",
+      "token_pos": 4,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 1.0,
+          "sentence_text": "have you tried having your scsi bus balanced"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_572"
+}

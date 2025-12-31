@@ -1,0 +1,381 @@
+{
+  "true_label_id": 19,
+  "pred_label_id": 0,
+  "true_label_name": "talk.religion.misc",
+  "pred_label_name": "alt.atheism",
+  "pred_confidence": 0.8100358247756958,
+  "num_sents": 4,
+  "top_sentences": [
+    {
+      "sentence_id": 2,
+      "importance": 0.3611670136451721,
+      "sentence_text": "clearly we have a case where relativity plays a big role concerning looking at opposite frames of reality",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "where",
+          "token_pos": 5,
+          "word_score_logit": 0.023707028478384018,
+          "word_attn_weight": 0.057156674563884735
+        },
+        {
+          "rank": 1,
+          "token": "clearly",
+          "token_pos": 0,
+          "word_score_logit": 0.021859344094991684,
+          "word_attn_weight": 0.0570511668920517
+        },
+        {
+          "rank": 2,
+          "token": "of",
+          "token_pos": 16,
+          "word_score_logit": 0.014353197067975998,
+          "word_attn_weight": 0.05662453547120094
+        },
+        {
+          "rank": 3,
+          "token": "a",
+          "token_pos": 3,
+          "word_score_logit": 0.012607112526893616,
+          "word_attn_weight": 0.05652574822306633
+        },
+        {
+          "rank": 4,
+          "token": "case",
+          "token_pos": 4,
+          "word_score_logit": 0.01108309905976057,
+          "word_attn_weight": 0.05643966421484947
+        }
+      ]
+    },
+    {
+      "sentence_id": 0,
+      "importance": 0.22981560230255127,
+      "sentence_text": "the problem is that you imagine him inside this huge wall unable to see reality",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "is",
+          "token_pos": 2,
+          "word_score_logit": 0.0260423943400383,
+          "word_attn_weight": 0.06838379055261612
+        },
+        {
+          "rank": 1,
+          "token": "problem",
+          "token_pos": 1,
+          "word_score_logit": 0.02356799878180027,
+          "word_attn_weight": 0.0682147964835167
+        },
+        {
+          "rank": 2,
+          "token": "that",
+          "token_pos": 3,
+          "word_score_logit": 0.012594868429005146,
+          "word_attn_weight": 0.06747035682201385
+        },
+        {
+          "rank": 3,
+          "token": "see",
+          "token_pos": 13,
+          "word_score_logit": 0.012303659692406654,
+          "word_attn_weight": 0.06745070964097977
+        },
+        {
+          "rank": 4,
+          "token": "the",
+          "token_pos": 0,
+          "word_score_logit": 0.00631425715982914,
+          "word_attn_weight": 0.06704792380332947
+        }
+      ]
+    },
+    {
+      "sentence_id": 3,
+      "importance": 0.21254988014698029,
+      "sentence_text": "cheers kent",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "kent",
+          "token_pos": 1,
+          "word_score_logit": 0.07067806273698807,
+          "word_attn_weight": 0.5017491579055786
+        },
+        {
+          "rank": 1,
+          "token": "cheers",
+          "token_pos": 0,
+          "word_score_logit": 0.06368131935596466,
+          "word_attn_weight": 0.498250812292099
+        },
+        {
+          "rank": 2,
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 3,
+          "token": "<PAD/OUT>",
+          "token_pos": 3,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 4,
+          "token": "<PAD/OUT>",
+          "token_pos": 2,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "importance": 0.19646750390529633,
+      "sentence_text": "while he <UNK> the same about you",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "he",
+          "token_pos": 1,
+          "word_score_logit": 0.028680745512247086,
+          "word_attn_weight": 0.14502693712711334
+        },
+        {
+          "rank": 1,
+          "token": "the",
+          "token_pos": 3,
+          "word_score_logit": 0.021650072187185287,
+          "word_attn_weight": 0.14401087164878845
+        },
+        {
+          "rank": 2,
+          "token": "same",
+          "token_pos": 4,
+          "word_score_logit": 0.018816515803337097,
+          "word_attn_weight": 0.1436033844947815
+        },
+        {
+          "rank": 3,
+          "token": "while",
+          "token_pos": 0,
+          "word_score_logit": 0.017792334780097008,
+          "word_attn_weight": 0.1434563845396042
+        },
+        {
+          "rank": 4,
+          "token": "<UNK>",
+          "token_pos": 2,
+          "word_score_logit": 0.00934673473238945,
+          "word_attn_weight": 0.1422499120235443
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 10,
+      "from_sentence_id": 2,
+      "token": "where",
+      "token_pos": 5,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.42810186743736267,
+          "sentence_text": "clearly we have a case where relativity plays a big role concerning looking at opposite frames of reality"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.23770609498023987,
+          "sentence_text": "the problem is that you imagine him inside this huge wall unable to see reality"
+        }
+      ]
+    },
+    {
+      "query_id": 11,
+      "from_sentence_id": 2,
+      "token": "clearly",
+      "token_pos": 0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.41175416111946106,
+          "sentence_text": "clearly we have a case where relativity plays a big role concerning looking at opposite frames of reality"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.23525235056877136,
+          "sentence_text": "the problem is that you imagine him inside this huge wall unable to see reality"
+        }
+      ]
+    },
+    {
+      "query_id": 12,
+      "from_sentence_id": 2,
+      "token": "of",
+      "token_pos": 16,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.4159311056137085,
+          "sentence_text": "clearly we have a case where relativity plays a big role concerning looking at opposite frames of reality"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.23238444328308105,
+          "sentence_text": "the problem is that you imagine him inside this huge wall unable to see reality"
+        }
+      ]
+    },
+    {
+      "query_id": 13,
+      "from_sentence_id": 2,
+      "token": "a",
+      "token_pos": 3,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.39009493589401245,
+          "sentence_text": "clearly we have a case where relativity plays a big role concerning looking at opposite frames of reality"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.24701446294784546,
+          "sentence_text": "the problem is that you imagine him inside this huge wall unable to see reality"
+        }
+      ]
+    },
+    {
+      "query_id": 14,
+      "from_sentence_id": 2,
+      "token": "case",
+      "token_pos": 4,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.4037134051322937,
+          "sentence_text": "clearly we have a case where relativity plays a big role concerning looking at opposite frames of reality"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.2394535392522812,
+          "sentence_text": "the problem is that you imagine him inside this huge wall unable to see reality"
+        }
+      ]
+    },
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "is",
+      "token_pos": 2,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.4141397178173065,
+          "sentence_text": "clearly we have a case where relativity plays a big role concerning looking at opposite frames of reality"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.2239251583814621,
+          "sentence_text": "the problem is that you imagine him inside this huge wall unable to see reality"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "problem",
+      "token_pos": 1,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.41597872972488403,
+          "sentence_text": "clearly we have a case where relativity plays a big role concerning looking at opposite frames of reality"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.22530722618103027,
+          "sentence_text": "the problem is that you imagine him inside this huge wall unable to see reality"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "that",
+      "token_pos": 3,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.4251633882522583,
+          "sentence_text": "clearly we have a case where relativity plays a big role concerning looking at opposite frames of reality"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.21981289982795715,
+          "sentence_text": "the problem is that you imagine him inside this huge wall unable to see reality"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "see",
+      "token_pos": 13,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.3786293864250183,
+          "sentence_text": "clearly we have a case where relativity plays a big role concerning looking at opposite frames of reality"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.2290458232164383,
+          "sentence_text": "the problem is that you imagine him inside this huge wall unable to see reality"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "the",
+      "token_pos": 0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.39890405535697937,
+          "sentence_text": "clearly we have a case where relativity plays a big role concerning looking at opposite frames of reality"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.2313654124736786,
+          "sentence_text": "the problem is that you imagine him inside this huge wall unable to see reality"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_770"
+}

@@ -1,0 +1,316 @@
+{
+  "example_id": "test_49",
+  "true_label_id": 0,
+  "pred_label_id": 11,
+  "true_label_name": "alt.atheism",
+  "pred_label_name": "sci.crypt",
+  "pred_confidence": 0.9912691116333008,
+  "metrics": {
+    "num_sents": 7,
+    "K": 5,
+    "stop_ratio": 0.3142857142857143,
+    "unk_ratio": 0.0,
+    "num_ratio": 0.0,
+    "content_ratio": 0.6285714285714286,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 1.6175005435943604,
+    "sentence_importance_entropy": 1.632719874382019,
+    "sentence_importance_max": 0.34914639592170715,
+    "top_sentence_id": 0,
+    "query_mismatch_rate": 0.8571428571428571,
+    "selected_quality_counts": {
+      "content_word": 22,
+      "stopword": 11,
+      "other": 2
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.18857142857142856,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.244402477145195,
+    "D_local_global_conflict": 0.8571428571428571,
+    "E_overconfident_error": 0.9912691116333008
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "the clipper initiative is an announcement by clinton that all the secure voice phones will use the same crypto chip as a de facto government standard",
+      "problem is the government is admitting that they hold the keys to break the code easily and the justice department will be using the keys to listen in on illegal activities many people are really scared about such an initiative because it is a major step towards outlawing real crypto",
+      "the project was developed by nsa and given to nist",
+      "it uses two keys s1 and s2 that the government claims are needed to break the code",
+      "they claim that these keys will be handed to two different companies and when they get a warrant to do a wiretap the chip is <UNK> the wiretap chip they have to get the keys from both companies",
+      "people have poked holes through and through the press release official version and shown how it is nowhere near as nice as it sounds and i have given the simplified version",
+      "people over on sci crypt are really scared about this proposal it seems"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "use",
+          "token_pos": 15,
+          "quality": "content_word",
+          "word_score_logit": 0.14548924565315247,
+          "word_attn_weight": 0.0426391139626503
+        },
+        {
+          "token": "as",
+          "token_pos": 20,
+          "quality": "stopword",
+          "word_score_logit": 0.11894728243350983,
+          "word_attn_weight": 0.041522279381752014
+        },
+        {
+          "token": "phones",
+          "token_pos": 13,
+          "quality": "content_word",
+          "word_score_logit": 0.10752402991056442,
+          "word_attn_weight": 0.041050657629966736
+        },
+        {
+          "token": "chip",
+          "token_pos": 19,
+          "quality": "content_word",
+          "word_score_logit": 0.10108793526887894,
+          "word_attn_weight": 0.04078729823231697
+        },
+        {
+          "token": "will",
+          "token_pos": 14,
+          "quality": "stopword",
+          "word_score_logit": 0.09841253608465195,
+          "word_attn_weight": 0.040678322315216064
+        }
+      ],
+      [
+        {
+          "token": "easily",
+          "token_pos": 15,
+          "quality": "content_word",
+          "word_score_logit": 0.1081794872879982,
+          "word_attn_weight": 0.02196608856320381
+        },
+        {
+          "token": "and",
+          "token_pos": 16,
+          "quality": "stopword",
+          "word_score_logit": 0.0990278348326683,
+          "word_attn_weight": 0.02176598086953163
+        },
+        {
+          "token": "the",
+          "token_pos": 17,
+          "quality": "stopword",
+          "word_score_logit": 0.09295417368412018,
+          "word_attn_weight": 0.02163418009877205
+        },
+        {
+          "token": "using",
+          "token_pos": 22,
+          "quality": "content_word",
+          "word_score_logit": 0.08265643566846848,
+          "word_attn_weight": 0.021412542089819908
+        },
+        {
+          "token": "code",
+          "token_pos": 14,
+          "quality": "content_word",
+          "word_score_logit": 0.0714845210313797,
+          "word_attn_weight": 0.021174654364585876
+        }
+      ],
+      [
+        {
+          "token": "and",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": 0.09937026351690292,
+          "word_attn_weight": 0.10635709762573242
+        },
+        {
+          "token": "given",
+          "token_pos": 7,
+          "quality": "content_word",
+          "word_score_logit": 0.09043321758508682,
+          "word_attn_weight": 0.10541081428527832
+        },
+        {
+          "token": "to",
+          "token_pos": 8,
+          "quality": "stopword",
+          "word_score_logit": 0.07127507776021957,
+          "word_attn_weight": 0.10341055691242218
+        },
+        {
+          "token": "nist",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": 0.0584227591753006,
+          "word_attn_weight": 0.1020900085568428
+        },
+        {
+          "token": "nsa",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.029529087245464325,
+          "word_attn_weight": 0.09918245673179626
+        }
+      ],
+      [
+        {
+          "token": "s1",
+          "token_pos": 4,
+          "quality": "other",
+          "word_score_logit": 0.08182436972856522,
+          "word_attn_weight": 0.061553820967674255
+        },
+        {
+          "token": "s2",
+          "token_pos": 6,
+          "quality": "other",
+          "word_score_logit": 0.07386088371276855,
+          "word_attn_weight": 0.06106558442115784
+        },
+        {
+          "token": "and",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.07363275438547134,
+          "word_attn_weight": 0.06105165183544159
+        },
+        {
+          "token": "code",
+          "token_pos": 16,
+          "quality": "content_word",
+          "word_score_logit": 0.06977669149637222,
+          "word_attn_weight": 0.060816690325737
+        },
+        {
+          "token": "uses",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.056298933923244476,
+          "word_attn_weight": 0.06000251695513725
+        }
+      ],
+      [
+        {
+          "token": "from",
+          "token_pos": 35,
+          "quality": "stopword",
+          "word_score_logit": 0.09784971922636032,
+          "word_attn_weight": 0.028617991134524345
+        },
+        {
+          "token": "they",
+          "token_pos": 29,
+          "quality": "stopword",
+          "word_score_logit": 0.09455645829439163,
+          "word_attn_weight": 0.028523899614810944
+        },
+        {
+          "token": "both",
+          "token_pos": 36,
+          "quality": "content_word",
+          "word_score_logit": 0.0900685116648674,
+          "word_attn_weight": 0.02839617058634758
+        },
+        {
+          "token": "companies",
+          "token_pos": 37,
+          "quality": "content_word",
+          "word_score_logit": 0.08184940367937088,
+          "word_attn_weight": 0.028163738548755646
+        },
+        {
+          "token": "have",
+          "token_pos": 30,
+          "quality": "content_word",
+          "word_score_logit": 0.0799410492181778,
+          "word_attn_weight": 0.028110040351748466
+        }
+      ],
+      [
+        {
+          "token": "have",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.02115671895444393,
+          "word_attn_weight": 0.032962724566459656
+        },
+        {
+          "token": "poked",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.02051805704832077,
+          "word_attn_weight": 0.032941680401563644
+        },
+        {
+          "token": "version",
+          "token_pos": 30,
+          "quality": "content_word",
+          "word_score_logit": 0.018222026526927948,
+          "word_attn_weight": 0.03286613151431084
+        },
+        {
+          "token": "and",
+          "token_pos": 12,
+          "quality": "stopword",
+          "word_score_logit": 0.017924923449754715,
+          "word_attn_weight": 0.03285636752843857
+        },
+        {
+          "token": "given",
+          "token_pos": 27,
+          "quality": "content_word",
+          "word_score_logit": 0.013677215203642845,
+          "word_attn_weight": 0.03271709755063057
+        }
+      ],
+      [
+        {
+          "token": "are",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.05094829946756363,
+          "word_attn_weight": 0.08064364641904831
+        },
+        {
+          "token": "sci",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.04650639742612839,
+          "word_attn_weight": 0.08028622716665268
+        },
+        {
+          "token": "crypt",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.039420634508132935,
+          "word_attn_weight": 0.07971934974193573
+        },
+        {
+          "token": "really",
+          "token_pos": 6,
+          "quality": "content_word",
+          "word_score_logit": 0.020578086376190186,
+          "word_attn_weight": 0.07823128998279572
+        },
+        {
+          "token": "seems",
+          "token_pos": 12,
+          "quality": "content_word",
+          "word_score_logit": 0.017824465408921242,
+          "word_attn_weight": 0.07801616936922073
+        }
+      ]
+    ],
+    "top_sentence_id": 0,
+    "sentence_importance_distribution": [
+      0.34914639592170715,
+      0.08614041656255722,
+      0.25006386637687683,
+      0.04390719160437584,
+      0.19257928431034088,
+      0.03539915010333061,
+      0.042763710021972656
+    ]
+  }
+}

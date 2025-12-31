@@ -1,0 +1,423 @@
+{
+  "true_label_id": 19,
+  "pred_label_id": 0,
+  "true_label_name": "talk.religion.misc",
+  "pred_label_name": "alt.atheism",
+  "pred_confidence": 0.821998655796051,
+  "num_sents": 9,
+  "top_sentences": [
+    {
+      "sentence_id": 4,
+      "importance": 0.14929963648319244,
+      "sentence_text": "read the alt atheism faq to find out why",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "read",
+          "token_pos": 0,
+          "word_score_logit": 0.035336531698703766,
+          "word_attn_weight": 0.11322183161973953
+        },
+        {
+          "rank": 1,
+          "token": "the",
+          "token_pos": 1,
+          "word_score_logit": 0.033242203295230865,
+          "word_attn_weight": 0.11298495531082153
+        },
+        {
+          "rank": 2,
+          "token": "faq",
+          "token_pos": 4,
+          "word_score_logit": 0.024291768670082092,
+          "word_attn_weight": 0.1119782030582428
+        },
+        {
+          "rank": 3,
+          "token": "out",
+          "token_pos": 7,
+          "word_score_logit": 0.02196415141224861,
+          "word_attn_weight": 0.11171785742044449
+        },
+        {
+          "rank": 4,
+          "token": "alt",
+          "token_pos": 2,
+          "word_score_logit": 0.019702717661857605,
+          "word_attn_weight": 0.11146549880504608
+        }
+      ]
+    },
+    {
+      "sentence_id": 6,
+      "importance": 0.1300794631242752,
+      "sentence_text": "i won't the task is impossible and i don't have to do it in the first place",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "in",
+          "token_pos": 13,
+          "word_score_logit": 0.027384638786315918,
+          "word_attn_weight": 0.059922955930233
+        },
+        {
+          "rank": 1,
+          "token": "the",
+          "token_pos": 14,
+          "word_score_logit": 0.02417725697159767,
+          "word_attn_weight": 0.05973106622695923
+        },
+        {
+          "rank": 2,
+          "token": "first",
+          "token_pos": 15,
+          "word_score_logit": 0.023000404238700867,
+          "word_attn_weight": 0.059660814702510834
+        },
+        {
+          "rank": 3,
+          "token": "place",
+          "token_pos": 16,
+          "word_score_logit": 0.018571222200989723,
+          "word_attn_weight": 0.059397149831056595
+        },
+        {
+          "rank": 4,
+          "token": "and",
+          "token_pos": 6,
+          "word_score_logit": 0.015361134894192219,
+          "word_attn_weight": 0.05920678749680519
+        }
+      ]
+    },
+    {
+      "sentence_id": 7,
+      "importance": 0.12009944021701813,
+      "sentence_text": "why should i even bother to change or disprove your beliefs",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "bother",
+          "token_pos": 4,
+          "word_score_logit": 0.03285164758563042,
+          "word_attn_weight": 0.0931134819984436
+        },
+        {
+          "rank": 1,
+          "token": "or",
+          "token_pos": 7,
+          "word_score_logit": 0.028907574713230133,
+          "word_attn_weight": 0.09274696558713913
+        },
+        {
+          "rank": 2,
+          "token": "change",
+          "token_pos": 6,
+          "word_score_logit": 0.02552831918001175,
+          "word_attn_weight": 0.09243407100439072
+        },
+        {
+          "rank": 3,
+          "token": "why",
+          "token_pos": 0,
+          "word_score_logit": 0.014067333191633224,
+          "word_attn_weight": 0.09138073772192001
+        },
+        {
+          "rank": 4,
+          "token": "even",
+          "token_pos": 3,
+          "word_score_logit": 0.01052442379295826,
+          "word_attn_weight": 0.09105755388736725
+        }
+      ]
+    },
+    {
+      "sentence_id": 0,
+      "importance": 0.11981434375047684,
+      "sentence_text": "note talk origins removed from crossposting as this had no business going there in the first place",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "note",
+          "token_pos": 0,
+          "word_score_logit": 0.0654376745223999,
+          "word_attn_weight": 0.06121724471449852
+        },
+        {
+          "rank": 1,
+          "token": "origins",
+          "token_pos": 2,
+          "word_score_logit": 0.05226893723011017,
+          "word_attn_weight": 0.06041637808084488
+        },
+        {
+          "rank": 2,
+          "token": "in",
+          "token_pos": 13,
+          "word_score_logit": 0.03660077974200249,
+          "word_attn_weight": 0.05947713926434517
+        },
+        {
+          "rank": 3,
+          "token": "talk",
+          "token_pos": 1,
+          "word_score_logit": 0.03292788565158844,
+          "word_attn_weight": 0.059259090572595596
+        },
+        {
+          "rank": 4,
+          "token": "the",
+          "token_pos": 14,
+          "word_score_logit": 0.026899220421910286,
+          "word_attn_weight": 0.058902911841869354
+        }
+      ]
+    },
+    {
+      "sentence_id": 8,
+      "importance": 0.11008989810943604,
+      "sentence_text": "mats strong <UNK> <UNK>",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "strong",
+          "token_pos": 1,
+          "word_score_logit": 0.01694326475262642,
+          "word_attn_weight": 0.2560425102710724
+        },
+        {
+          "rank": 1,
+          "token": "<UNK>",
+          "token_pos": 2,
+          "word_score_logit": -0.002266230061650276,
+          "word_attn_weight": 0.2511709928512573
+        },
+        {
+          "rank": 2,
+          "token": "<UNK>",
+          "token_pos": 3,
+          "word_score_logit": -0.0029049478471279144,
+          "word_attn_weight": 0.25101062655448914
+        },
+        {
+          "rank": 3,
+          "token": "mats",
+          "token_pos": 0,
+          "word_score_logit": -0.040389347821474075,
+          "word_attn_weight": 0.24177581071853638
+        },
+        {
+          "rank": 4,
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 20,
+      "from_sentence_id": 4,
+      "token": "read",
+      "token_pos": 0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.17881369590759277,
+          "sentence_text": "read the alt atheism faq to find out why"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 7,
+          "attn_weight": 0.1677570939064026,
+          "sentence_text": "why should i even bother to change or disprove your beliefs"
+        }
+      ]
+    },
+    {
+      "query_id": 21,
+      "from_sentence_id": 4,
+      "token": "the",
+      "token_pos": 1,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.1840040385723114,
+          "sentence_text": "read the alt atheism faq to find out why"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 7,
+          "attn_weight": 0.17767956852912903,
+          "sentence_text": "why should i even bother to change or disprove your beliefs"
+        }
+      ]
+    },
+    {
+      "query_id": 22,
+      "from_sentence_id": 4,
+      "token": "faq",
+      "token_pos": 4,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.18381541967391968,
+          "sentence_text": "read the alt atheism faq to find out why"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 6,
+          "attn_weight": 0.1374654620885849,
+          "sentence_text": "i won't the task is impossible and i don't have to do it in the first place"
+        }
+      ]
+    },
+    {
+      "query_id": 23,
+      "from_sentence_id": 4,
+      "token": "out",
+      "token_pos": 7,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.15877024829387665,
+          "sentence_text": "read the alt atheism faq to find out why"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 6,
+          "attn_weight": 0.1287544071674347,
+          "sentence_text": "i won't the task is impossible and i don't have to do it in the first place"
+        }
+      ]
+    },
+    {
+      "query_id": 24,
+      "from_sentence_id": 4,
+      "token": "alt",
+      "token_pos": 2,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.1737452745437622,
+          "sentence_text": "read the alt atheism faq to find out why"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 7,
+          "attn_weight": 0.159369558095932,
+          "sentence_text": "why should i even bother to change or disprove your beliefs"
+        }
+      ]
+    },
+    {
+      "query_id": 30,
+      "from_sentence_id": 6,
+      "token": "in",
+      "token_pos": 13,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.15668851137161255,
+          "sentence_text": "read the alt atheism faq to find out why"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 6,
+          "attn_weight": 0.14946424961090088,
+          "sentence_text": "i won't the task is impossible and i don't have to do it in the first place"
+        }
+      ]
+    },
+    {
+      "query_id": 31,
+      "from_sentence_id": 6,
+      "token": "the",
+      "token_pos": 14,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.1553753912448883,
+          "sentence_text": "read the alt atheism faq to find out why"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 6,
+          "attn_weight": 0.1524401605129242,
+          "sentence_text": "i won't the task is impossible and i don't have to do it in the first place"
+        }
+      ]
+    },
+    {
+      "query_id": 32,
+      "from_sentence_id": 6,
+      "token": "first",
+      "token_pos": 15,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.15054760873317719,
+          "sentence_text": "read the alt atheism faq to find out why"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 6,
+          "attn_weight": 0.14679501950740814,
+          "sentence_text": "i won't the task is impossible and i don't have to do it in the first place"
+        }
+      ]
+    },
+    {
+      "query_id": 33,
+      "from_sentence_id": 6,
+      "token": "place",
+      "token_pos": 16,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.1485988199710846,
+          "sentence_text": "read the alt atheism faq to find out why"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 6,
+          "attn_weight": 0.1415594220161438,
+          "sentence_text": "i won't the task is impossible and i don't have to do it in the first place"
+        }
+      ]
+    },
+    {
+      "query_id": 34,
+      "from_sentence_id": 6,
+      "token": "and",
+      "token_pos": 6,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.15624545514583588,
+          "sentence_text": "read the alt atheism faq to find out why"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 6,
+          "attn_weight": 0.1464257538318634,
+          "sentence_text": "i won't the task is impossible and i don't have to do it in the first place"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_5831"
+}

@@ -1,0 +1,825 @@
+{
+  "example_id": "test_1217",
+  "true_label_id": 12,
+  "pred_label_id": 8,
+  "true_label_name": "sci.electronics",
+  "pred_label_name": "rec.motorcycles",
+  "pred_confidence": 0.9696601033210754,
+  "metrics": {
+    "num_sents": 20,
+    "K": 5,
+    "stop_ratio": 0.42,
+    "unk_ratio": 0.01,
+    "num_ratio": 0.01,
+    "content_ratio": 0.54,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 2.2925057411193848,
+    "sentence_importance_entropy": 2.39054536819458,
+    "sentence_importance_max": 0.39050567150115967,
+    "top_sentence_id": 5,
+    "query_mismatch_rate": 0.95,
+    "selected_quality_counts": {
+      "content_word": 54,
+      "stopword": 42,
+      "unk": 1,
+      "other": 2,
+      "number": 1
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.256,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.27335397005081175,
+    "D_local_global_conflict": 0.95,
+    "E_overconfident_error": 0.9696601033210754
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "i thought the first thread was hilarious so here goes another post",
+      "some more background information on what has happened to my poor batteries",
+      "one year i left the batteries in the garage",
+      "the garage is <UNK>",
+      "they were left in their places that they needed to be",
+      "one in the riding lawnmower what a <UNK> and one in each motorcycle",
+      "the battery in the riding lawnmower was about 3 4 years old and one of the cycle batteries was new and one was around 5 years old",
+      "upon spring time i discovered that all of the batteries were dead and needed to be <UNK>",
+      "they all worked properly except for the older ones and they had to be replaced about halfway through the summer",
+      "they had originally been stored in the garage and i think i remember my dad charging them in spring last year i decided to bring them in to the basement which has two parts",
+      "one is dirt and brick and the other is concrete",
+      "i brought in all three and discovered in the spring about 15 days ago that not only were the batteries dead but when i put the charger on them the charger said <UNK> and the amp meter read around 1 000 000 000 in other words it was <UNK> the",
+      "they were the same",
+      "realizing that we still had 2 gigantic <UNK> batteries also lead acid i decided to put the charger on them",
+      "these had been sitting for around 1 and a half years on the brick and dirt part and noticed that they only needed a small charge around 2 hours or so on trickle",
+      "i tested them by using them at the local gas station for giving jump starts and they worked fine for around 25 of 'em",
+      "this leads me to believe one of several things",
+      "1 i bought really tty batteries last year",
+      "sorta true 2 the concrete has something to do with the discharge of the batteries",
+      "3 there was enough moisture to short out the terminals in the room where the concrete is 4 the dirt room was able to absorb the moisture in the air better than concrete"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "another",
+          "token_pos": 10,
+          "quality": "content_word",
+          "word_score_logit": 0.01821088045835495,
+          "word_attn_weight": 0.08504272252321243
+        },
+        {
+          "token": "was",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.017463697120547295,
+          "word_attn_weight": 0.08497920632362366
+        },
+        {
+          "token": "i",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.009624096564948559,
+          "word_attn_weight": 0.08431560546159744
+        },
+        {
+          "token": "thought",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.006604410707950592,
+          "word_attn_weight": 0.0840613842010498
+        },
+        {
+          "token": "post",
+          "token_pos": 11,
+          "quality": "content_word",
+          "word_score_logit": 0.006347070448100567,
+          "word_attn_weight": 0.08403975516557693
+        }
+      ],
+      [
+        {
+          "token": "batteries",
+          "token_pos": 11,
+          "quality": "content_word",
+          "word_score_logit": 0.07692576944828033,
+          "word_attn_weight": 0.08672717958688736
+        },
+        {
+          "token": "background",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.058570511639118195,
+          "word_attn_weight": 0.08514980226755142
+        },
+        {
+          "token": "information",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.05195260047912598,
+          "word_attn_weight": 0.08458814024925232
+        },
+        {
+          "token": "has",
+          "token_pos": 6,
+          "quality": "content_word",
+          "word_score_logit": 0.044662754982709885,
+          "word_attn_weight": 0.08397375792264938
+        },
+        {
+          "token": "what",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.03957807645201683,
+          "word_attn_weight": 0.08354786038398743
+        }
+      ],
+      [
+        {
+          "token": "batteries",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.07730929553508759,
+          "word_attn_weight": 0.11368941515684128
+        },
+        {
+          "token": "left",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.060488928109407425,
+          "word_attn_weight": 0.11179310828447342
+        },
+        {
+          "token": "garage",
+          "token_pos": 8,
+          "quality": "content_word",
+          "word_score_logit": 0.05928110331296921,
+          "word_attn_weight": 0.11165816336870193
+        },
+        {
+          "token": "one",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": 0.058170173317193985,
+          "word_attn_weight": 0.11153418570756912
+        },
+        {
+          "token": "year",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.05607171729207039,
+          "word_attn_weight": 0.11130037903785706
+        }
+      ],
+      [
+        {
+          "token": "garage",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.04308604821562767,
+          "word_attn_weight": 0.25310513377189636
+        },
+        {
+          "token": "is",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.03604775294661522,
+          "word_attn_weight": 0.2513299584388733
+        },
+        {
+          "token": "the",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.02384117618203163,
+          "word_attn_weight": 0.24828071892261505
+        },
+        {
+          "token": "<UNK>",
+          "token_pos": 3,
+          "quality": "unk",
+          "word_score_logit": 0.01981934905052185,
+          "word_attn_weight": 0.2472841739654541
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ],
+      [
+        {
+          "token": "they",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.04215771704912186,
+          "word_attn_weight": 0.09198302030563354
+        },
+        {
+          "token": "be",
+          "token_pos": 10,
+          "quality": "stopword",
+          "word_score_logit": 0.040197595953941345,
+          "word_attn_weight": 0.09180290251970291
+        },
+        {
+          "token": "to",
+          "token_pos": 9,
+          "quality": "stopword",
+          "word_score_logit": 0.03629916161298752,
+          "word_attn_weight": 0.09144570678472519
+        },
+        {
+          "token": "left",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.03324449434876442,
+          "word_attn_weight": 0.09116679430007935
+        },
+        {
+          "token": "were",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.029107937589287758,
+          "word_attn_weight": 0.09079046547412872
+        }
+      ],
+      [
+        {
+          "token": "what",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.05960713326931,
+          "word_attn_weight": 0.07860591262578964
+        },
+        {
+          "token": "one",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": 0.05355890095233917,
+          "word_attn_weight": 0.07813192158937454
+        },
+        {
+          "token": "and",
+          "token_pos": 8,
+          "quality": "stopword",
+          "word_score_logit": 0.05158863589167595,
+          "word_attn_weight": 0.07797812670469284
+        },
+        {
+          "token": "a",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": 0.051387809216976166,
+          "word_attn_weight": 0.0779624730348587
+        },
+        {
+          "token": "motorcycle",
+          "token_pos": 12,
+          "quality": "content_word",
+          "word_score_logit": 0.04982643201947212,
+          "word_attn_weight": 0.07784084230661392
+        }
+      ],
+      [
+        {
+          "token": "batteries",
+          "token_pos": 17,
+          "quality": "content_word",
+          "word_score_logit": 0.12719202041625977,
+          "word_attn_weight": 0.04011944308876991
+        },
+        {
+          "token": "was",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": 0.08102794736623764,
+          "word_attn_weight": 0.03830946609377861
+        },
+        {
+          "token": "battery",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.07495549321174622,
+          "word_attn_weight": 0.03807754069566727
+        },
+        {
+          "token": "was",
+          "token_pos": 18,
+          "quality": "stopword",
+          "word_score_logit": 0.06989123672246933,
+          "word_attn_weight": 0.03788519278168678
+        },
+        {
+          "token": "and",
+          "token_pos": 20,
+          "quality": "stopword",
+          "word_score_logit": 0.06812581419944763,
+          "word_attn_weight": 0.03781836852431297
+        }
+      ],
+      [
+        {
+          "token": "batteries",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": 0.08239790052175522,
+          "word_attn_weight": 0.06120140850543976
+        },
+        {
+          "token": "spring",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.08222706615924835,
+          "word_attn_weight": 0.061190955340862274
+        },
+        {
+          "token": "discovered",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.0730600357055664,
+          "word_attn_weight": 0.060632579028606415
+        },
+        {
+          "token": "that",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.06430427730083466,
+          "word_attn_weight": 0.06010401248931885
+        },
+        {
+          "token": "of",
+          "token_pos": 7,
+          "quality": "stopword",
+          "word_score_logit": 0.06296630948781967,
+          "word_attn_weight": 0.06002365052700043
+        }
+      ],
+      [
+        {
+          "token": "replaced",
+          "token_pos": 14,
+          "quality": "content_word",
+          "word_score_logit": 0.08727873861789703,
+          "word_attn_weight": 0.05202118679881096
+        },
+        {
+          "token": "except",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.07771788537502289,
+          "word_attn_weight": 0.05152618885040283
+        },
+        {
+          "token": "the",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": 0.06835632771253586,
+          "word_attn_weight": 0.05104607716202736
+        },
+        {
+          "token": "for",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.06429886817932129,
+          "word_attn_weight": 0.0508393794298172
+        },
+        {
+          "token": "had",
+          "token_pos": 11,
+          "quality": "content_word",
+          "word_score_logit": 0.06249604374170303,
+          "word_attn_weight": 0.05074780806899071
+        }
+      ],
+      [
+        {
+          "token": "and",
+          "token_pos": 8,
+          "quality": "stopword",
+          "word_score_logit": 0.10145287960767746,
+          "word_attn_weight": 0.030994685366749763
+        },
+        {
+          "token": "garage",
+          "token_pos": 7,
+          "quality": "content_word",
+          "word_score_logit": 0.08520206809043884,
+          "word_attn_weight": 0.030495068058371544
+        },
+        {
+          "token": "spring",
+          "token_pos": 18,
+          "quality": "content_word",
+          "word_score_logit": 0.07994309812784195,
+          "word_attn_weight": 0.030335115268826485
+        },
+        {
+          "token": "had",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.07858079671859741,
+          "word_attn_weight": 0.030293818563222885
+        },
+        {
+          "token": "i",
+          "token_pos": 9,
+          "quality": "stopword",
+          "word_score_logit": 0.07590552419424057,
+          "word_attn_weight": 0.030212881043553352
+        }
+      ],
+      [
+        {
+          "token": "and",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": 0.060622647404670715,
+          "word_attn_weight": 0.10194810479879379
+        },
+        {
+          "token": "brick",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.059385403990745544,
+          "word_attn_weight": 0.10182204097509384
+        },
+        {
+          "token": "and",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.049500398337841034,
+          "word_attn_weight": 0.10082048922777176
+        },
+        {
+          "token": "the",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": 0.046579405665397644,
+          "word_attn_weight": 0.10052642971277237
+        },
+        {
+          "token": "other",
+          "token_pos": 7,
+          "quality": "content_word",
+          "word_score_logit": 0.044442493468523026,
+          "word_attn_weight": 0.10031183809041977
+        }
+      ],
+      [
+        {
+          "token": "spring",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": 0.12177485972642899,
+          "word_attn_weight": 0.02143201045691967
+        },
+        {
+          "token": "batteries",
+          "token_pos": 19,
+          "quality": "content_word",
+          "word_score_logit": 0.09757979959249496,
+          "word_attn_weight": 0.0209196824580431
+        },
+        {
+          "token": "in",
+          "token_pos": 7,
+          "quality": "stopword",
+          "word_score_logit": 0.09645549207925797,
+          "word_attn_weight": 0.020896177738904953
+        },
+        {
+          "token": "the",
+          "token_pos": 8,
+          "quality": "stopword",
+          "word_score_logit": 0.09618008136749268,
+          "word_attn_weight": 0.02089042402803898
+        },
+        {
+          "token": "meter",
+          "token_pos": 36,
+          "quality": "content_word",
+          "word_score_logit": 0.09033182263374329,
+          "word_attn_weight": 0.020768607035279274
+        }
+      ],
+      [
+        {
+          "token": "they",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.036926742643117905,
+          "word_attn_weight": 0.2523987591266632
+        },
+        {
+          "token": "the",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.024731557816267014,
+          "word_attn_weight": 0.24933941662311554
+        },
+        {
+          "token": "were",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.02399778924882412,
+          "word_attn_weight": 0.24915651977062225
+        },
+        {
+          "token": "same",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.02379213273525238,
+          "word_attn_weight": 0.2491052895784378
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ],
+      [
+        {
+          "token": "batteries",
+          "token_pos": 8,
+          "quality": "content_word",
+          "word_score_logit": 0.08996159583330154,
+          "word_attn_weight": 0.05290140584111214
+        },
+        {
+          "token": "acid",
+          "token_pos": 11,
+          "quality": "content_word",
+          "word_score_logit": 0.08882860839366913,
+          "word_attn_weight": 0.05284150317311287
+        },
+        {
+          "token": "also",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": 0.07651379704475403,
+          "word_attn_weight": 0.052194759249687195
+        },
+        {
+          "token": "lead",
+          "token_pos": 10,
+          "quality": "content_word",
+          "word_score_logit": 0.061157286167144775,
+          "word_attn_weight": 0.0513993501663208
+        },
+        {
+          "token": "i",
+          "token_pos": 12,
+          "quality": "stopword",
+          "word_score_logit": 0.0561470203101635,
+          "word_attn_weight": 0.05114247277379036
+        }
+      ],
+      [
+        {
+          "token": "noticed",
+          "token_pos": 18,
+          "quality": "content_word",
+          "word_score_logit": 0.0756634771823883,
+          "word_attn_weight": 0.03173917531967163
+        },
+        {
+          "token": "and",
+          "token_pos": 17,
+          "quality": "stopword",
+          "word_score_logit": 0.05926692858338356,
+          "word_attn_weight": 0.031223004683852196
+        },
+        {
+          "token": "charge",
+          "token_pos": 25,
+          "quality": "content_word",
+          "word_score_logit": 0.05623530596494675,
+          "word_attn_weight": 0.031128492206335068
+        },
+        {
+          "token": "that",
+          "token_pos": 19,
+          "quality": "stopword",
+          "word_score_logit": 0.05585348233580589,
+          "word_attn_weight": 0.031116606667637825
+        },
+        {
+          "token": "needed",
+          "token_pos": 22,
+          "quality": "content_word",
+          "word_score_logit": 0.05452026054263115,
+          "word_attn_weight": 0.03107514977455139
+        }
+      ],
+      [
+        {
+          "token": "the",
+          "token_pos": 7,
+          "quality": "stopword",
+          "word_score_logit": 0.10928305983543396,
+          "word_attn_weight": 0.044065479189157486
+        },
+        {
+          "token": "at",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": 0.09753353148698807,
+          "word_attn_weight": 0.0435507632791996
+        },
+        {
+          "token": "station",
+          "token_pos": 10,
+          "quality": "content_word",
+          "word_score_logit": 0.09439871460199356,
+          "word_attn_weight": 0.04341445118188858
+        },
+        {
+          "token": "using",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.0939849466085434,
+          "word_attn_weight": 0.043396491557359695
+        },
+        {
+          "token": "local",
+          "token_pos": 8,
+          "quality": "content_word",
+          "word_score_logit": 0.09202943742275238,
+          "word_attn_weight": 0.0433117114007473
+        }
+      ],
+      [
+        {
+          "token": "of",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": 0.0143283661454916,
+          "word_attn_weight": 0.1118471547961235
+        },
+        {
+          "token": "several",
+          "token_pos": 7,
+          "quality": "content_word",
+          "word_score_logit": 0.012529302388429642,
+          "word_attn_weight": 0.11164611577987671
+        },
+        {
+          "token": "believe",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.011299088597297668,
+          "word_attn_weight": 0.11150884628295898
+        },
+        {
+          "token": "leads",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.00976133905351162,
+          "word_attn_weight": 0.11133751273155212
+        },
+        {
+          "token": "one",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.009224977344274521,
+          "word_attn_weight": 0.11127781122922897
+        }
+      ],
+      [
+        {
+          "token": "batteries",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.07054366916418076,
+          "word_attn_weight": 0.13150112330913544
+        },
+        {
+          "token": "last",
+          "token_pos": 6,
+          "quality": "content_word",
+          "word_score_logit": 0.028110193088650703,
+          "word_attn_weight": 0.1260378062725067
+        },
+        {
+          "token": "1",
+          "token_pos": 0,
+          "quality": "number",
+          "word_score_logit": 0.02340974472463131,
+          "word_attn_weight": 0.12544675171375275
+        },
+        {
+          "token": "year",
+          "token_pos": 7,
+          "quality": "content_word",
+          "word_score_logit": 0.02278667688369751,
+          "word_attn_weight": 0.1253686249256134
+        },
+        {
+          "token": "i",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.012486221268773079,
+          "word_attn_weight": 0.12408389896154404
+        }
+      ],
+      [
+        {
+          "token": "batteries",
+          "token_pos": 14,
+          "quality": "content_word",
+          "word_score_logit": 0.07804271578788757,
+          "word_attn_weight": 0.06891003996133804
+        },
+        {
+          "token": "the",
+          "token_pos": 10,
+          "quality": "stopword",
+          "word_score_logit": 0.06892373412847519,
+          "word_attn_weight": 0.06828451156616211
+        },
+        {
+          "token": "with",
+          "token_pos": 9,
+          "quality": "stopword",
+          "word_score_logit": 0.06830063462257385,
+          "word_attn_weight": 0.06824196875095367
+        },
+        {
+          "token": "of",
+          "token_pos": 12,
+          "quality": "stopword",
+          "word_score_logit": 0.06333129107952118,
+          "word_attn_weight": 0.06790369749069214
+        },
+        {
+          "token": "discharge",
+          "token_pos": 11,
+          "quality": "content_word",
+          "word_score_logit": 0.05195143073797226,
+          "word_attn_weight": 0.06713534146547318
+        }
+      ],
+      [
+        {
+          "token": "in",
+          "token_pos": 10,
+          "quality": "stopword",
+          "word_score_logit": 0.07199545204639435,
+          "word_attn_weight": 0.031092392280697823
+        },
+        {
+          "token": "air",
+          "token_pos": 29,
+          "quality": "content_word",
+          "word_score_logit": 0.06916771829128265,
+          "word_attn_weight": 0.03100459650158882
+        },
+        {
+          "token": "room",
+          "token_pos": 20,
+          "quality": "content_word",
+          "word_score_logit": 0.06612357497215271,
+          "word_attn_weight": 0.03091035597026348
+        },
+        {
+          "token": "was",
+          "token_pos": 21,
+          "quality": "stopword",
+          "word_score_logit": 0.06339271366596222,
+          "word_attn_weight": 0.030826060101389885
+        },
+        {
+          "token": "the",
+          "token_pos": 11,
+          "quality": "stopword",
+          "word_score_logit": 0.0629567801952362,
+          "word_attn_weight": 0.030812624841928482
+        }
+      ]
+    ],
+    "top_sentence_id": 5,
+    "sentence_importance_distribution": [
+      0.012822508811950684,
+      0.02017826959490776,
+      0.05047350749373436,
+      0.025875048711895943,
+      0.024064775556325912,
+      0.39050567150115967,
+      0.09272020310163498,
+      0.03192630782723427,
+      0.02679053507745266,
+      0.03405772149562836,
+      0.019079342484474182,
+      0.03809121996164322,
+      0.021669192239642143,
+      0.039576027542352676,
+      0.02848450094461441,
+      0.03284880891442299,
+      0.012258213944733143,
+      0.02191930264234543,
+      0.032332003116607666,
+      0.0443267822265625
+    ]
+  }
+}

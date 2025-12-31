@@ -1,0 +1,423 @@
+{
+  "true_label_id": 3,
+  "pred_label_id": 2,
+  "true_label_name": "comp.sys.ibm.pc.hardware",
+  "pred_label_name": "comp.os.ms-windows.misc",
+  "pred_confidence": 0.9484776854515076,
+  "num_sents": 5,
+  "top_sentences": [
+    {
+      "sentence_id": 1,
+      "importance": 0.45338472723960876,
+      "sentence_text": "the software for it was made for per windows 3 x windows and will not work with the <UNK> windows",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "x",
+          "token_pos": 10,
+          "word_score_logit": 0.1869286298751831,
+          "word_attn_weight": 0.05438263714313507
+        },
+        {
+          "rank": 1,
+          "token": "windows",
+          "token_pos": 11,
+          "word_score_logit": 0.18618255853652954,
+          "word_attn_weight": 0.054342079907655716
+        },
+        {
+          "rank": 2,
+          "token": "windows",
+          "token_pos": 8,
+          "word_score_logit": 0.16816580295562744,
+          "word_attn_weight": 0.05337177589535713
+        },
+        {
+          "rank": 3,
+          "token": "3",
+          "token_pos": 9,
+          "word_score_logit": 0.1475847363471985,
+          "word_attn_weight": 0.05228455737233162
+        },
+        {
+          "rank": 4,
+          "token": "and",
+          "token_pos": 12,
+          "word_score_logit": 0.12322838604450226,
+          "word_attn_weight": 0.05102647840976715
+        }
+      ]
+    },
+    {
+      "sentence_id": 4,
+      "importance": 0.1756327599287033,
+      "sentence_text": "or if anyone knows of a freeware shareware programme that is able to access this scanner",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "anyone",
+          "token_pos": 2,
+          "word_score_logit": 0.037230342626571655,
+          "word_attn_weight": 0.06502793729305267
+        },
+        {
+          "rank": 1,
+          "token": "if",
+          "token_pos": 1,
+          "word_score_logit": 0.02954082563519478,
+          "word_attn_weight": 0.06452982127666473
+        },
+        {
+          "rank": 2,
+          "token": "scanner",
+          "token_pos": 15,
+          "word_score_logit": 0.028556883335113525,
+          "word_attn_weight": 0.06446635723114014
+        },
+        {
+          "rank": 3,
+          "token": "knows",
+          "token_pos": 3,
+          "word_score_logit": 0.028295382857322693,
+          "word_attn_weight": 0.0644495040178299
+        },
+        {
+          "rank": 4,
+          "token": "or",
+          "token_pos": 0,
+          "word_score_logit": 0.027195332571864128,
+          "word_attn_weight": 0.06437864154577255
+        }
+      ]
+    },
+    {
+      "sentence_id": 0,
+      "importance": 0.13870280981063843,
+      "sentence_text": "i have recently picked up a page scanner by the name of ez scan ii model 35",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "scan",
+          "token_pos": 13,
+          "word_score_logit": 0.08793369680643082,
+          "word_attn_weight": 0.062233392149209976
+        },
+        {
+          "rank": 1,
+          "token": "the",
+          "token_pos": 9,
+          "word_score_logit": 0.057830993086099625,
+          "word_attn_weight": 0.06038791686296463
+        },
+        {
+          "rank": 2,
+          "token": "ii",
+          "token_pos": 14,
+          "word_score_logit": 0.05629292130470276,
+          "word_attn_weight": 0.06029510870575905
+        },
+        {
+          "rank": 3,
+          "token": "name",
+          "token_pos": 10,
+          "word_score_logit": 0.05356927961111069,
+          "word_attn_weight": 0.06013110652565956
+        },
+        {
+          "rank": 4,
+          "token": "by",
+          "token_pos": 8,
+          "word_score_logit": 0.04542090371251106,
+          "word_attn_weight": 0.05964312329888344
+        }
+      ]
+    },
+    {
+      "sentence_id": 2,
+      "importance": 0.13836248219013214,
+      "sentence_text": "does any one out there <UNK> were i could find the company that made this beast copyrights say 1987 and the name <UNK> a division of <UNK>",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "the",
+          "token_pos": 20,
+          "word_score_logit": 0.10948998481035233,
+          "word_attn_weight": 0.03972417488694191
+        },
+        {
+          "rank": 1,
+          "token": "name",
+          "token_pos": 21,
+          "word_score_logit": 0.10756779462099075,
+          "word_attn_weight": 0.039647892117500305
+        },
+        {
+          "rank": 2,
+          "token": "and",
+          "token_pos": 19,
+          "word_score_logit": 0.10224178433418274,
+          "word_attn_weight": 0.03943728655576706
+        },
+        {
+          "rank": 3,
+          "token": "division",
+          "token_pos": 24,
+          "word_score_logit": 0.07912591844797134,
+          "word_attn_weight": 0.03853611648082733
+        },
+        {
+          "rank": 4,
+          "token": "1987",
+          "token_pos": 18,
+          "word_score_logit": 0.0774606242775917,
+          "word_attn_weight": 0.038471996784210205
+        }
+      ]
+    },
+    {
+      "sentence_id": 3,
+      "importance": 0.09391716867685318,
+      "sentence_text": "does anyone know if these companies still exist and if they do do they have an email address",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "address",
+          "token_pos": 17,
+          "word_score_logit": 0.07211586833000183,
+          "word_attn_weight": 0.05772676691412926
+        },
+        {
+          "rank": 1,
+          "token": "exist",
+          "token_pos": 7,
+          "word_score_logit": 0.0588226281106472,
+          "word_attn_weight": 0.05696446821093559
+        },
+        {
+          "rank": 2,
+          "token": "email",
+          "token_pos": 16,
+          "word_score_logit": 0.05155232548713684,
+          "word_attn_weight": 0.05655182525515556
+        },
+        {
+          "rank": 3,
+          "token": "they",
+          "token_pos": 10,
+          "word_score_logit": 0.044509921222925186,
+          "word_attn_weight": 0.05615495890378952
+        },
+        {
+          "rank": 4,
+          "token": "if",
+          "token_pos": 9,
+          "word_score_logit": 0.04140574857592583,
+          "word_attn_weight": 0.05598091706633568
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 5,
+      "from_sentence_id": 1,
+      "token": "x",
+      "token_pos": 10,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.48091426491737366,
+          "sentence_text": "the software for it was made for per windows 3 x windows and will not work with the <UNK> windows"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.20937934517860413,
+          "sentence_text": "does anyone know if these companies still exist and if they do do they have an email address"
+        }
+      ]
+    },
+    {
+      "query_id": 6,
+      "from_sentence_id": 1,
+      "token": "windows",
+      "token_pos": 11,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.5061562061309814,
+          "sentence_text": "the software for it was made for per windows 3 x windows and will not work with the <UNK> windows"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.17749068140983582,
+          "sentence_text": "i have recently picked up a page scanner by the name of ez scan ii model 35"
+        }
+      ]
+    },
+    {
+      "query_id": 7,
+      "from_sentence_id": 1,
+      "token": "windows",
+      "token_pos": 8,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.4519295394420624,
+          "sentence_text": "the software for it was made for per windows 3 x windows and will not work with the <UNK> windows"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.22575820982456207,
+          "sentence_text": "does anyone know if these companies still exist and if they do do they have an email address"
+        }
+      ]
+    },
+    {
+      "query_id": 8,
+      "from_sentence_id": 1,
+      "token": "3",
+      "token_pos": 9,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.3885570466518402,
+          "sentence_text": "the software for it was made for per windows 3 x windows and will not work with the <UNK> windows"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.26307547092437744,
+          "sentence_text": "does anyone know if these companies still exist and if they do do they have an email address"
+        }
+      ]
+    },
+    {
+      "query_id": 9,
+      "from_sentence_id": 1,
+      "token": "and",
+      "token_pos": 12,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.5146846771240234,
+          "sentence_text": "the software for it was made for per windows 3 x windows and will not work with the <UNK> windows"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.15085932612419128,
+          "sentence_text": "i have recently picked up a page scanner by the name of ez scan ii model 35"
+        }
+      ]
+    },
+    {
+      "query_id": 20,
+      "from_sentence_id": 4,
+      "token": "anyone",
+      "token_pos": 2,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.428802490234375,
+          "sentence_text": "the software for it was made for per windows 3 x windows and will not work with the <UNK> windows"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 4,
+          "attn_weight": 0.2015375792980194,
+          "sentence_text": "or if anyone knows of a freeware shareware programme that is able to access this scanner"
+        }
+      ]
+    },
+    {
+      "query_id": 21,
+      "from_sentence_id": 4,
+      "token": "if",
+      "token_pos": 1,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.40965259075164795,
+          "sentence_text": "the software for it was made for per windows 3 x windows and will not work with the <UNK> windows"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 4,
+          "attn_weight": 0.20446863770484924,
+          "sentence_text": "or if anyone knows of a freeware shareware programme that is able to access this scanner"
+        }
+      ]
+    },
+    {
+      "query_id": 22,
+      "from_sentence_id": 4,
+      "token": "scanner",
+      "token_pos": 15,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.49154067039489746,
+          "sentence_text": "the software for it was made for per windows 3 x windows and will not work with the <UNK> windows"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 4,
+          "attn_weight": 0.18922054767608643,
+          "sentence_text": "or if anyone knows of a freeware shareware programme that is able to access this scanner"
+        }
+      ]
+    },
+    {
+      "query_id": 23,
+      "from_sentence_id": 4,
+      "token": "knows",
+      "token_pos": 3,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.4010999798774719,
+          "sentence_text": "the software for it was made for per windows 3 x windows and will not work with the <UNK> windows"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 4,
+          "attn_weight": 0.20668700337409973,
+          "sentence_text": "or if anyone knows of a freeware shareware programme that is able to access this scanner"
+        }
+      ]
+    },
+    {
+      "query_id": 24,
+      "from_sentence_id": 4,
+      "token": "or",
+      "token_pos": 0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.3984522223472595,
+          "sentence_text": "the software for it was made for per windows 3 x windows and will not work with the <UNK> windows"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 4,
+          "attn_weight": 0.19975093007087708,
+          "sentence_text": "or if anyone knows of a freeware shareware programme that is able to access this scanner"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_194"
+}

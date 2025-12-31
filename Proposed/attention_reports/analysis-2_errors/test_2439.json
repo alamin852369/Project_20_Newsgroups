@@ -1,0 +1,423 @@
+{
+  "true_label_id": 5,
+  "pred_label_id": 1,
+  "true_label_name": "comp.windows.x",
+  "pred_label_name": "comp.graphics",
+  "pred_confidence": 0.9692400693893433,
+  "num_sents": 5,
+  "top_sentences": [
+    {
+      "sentence_id": 2,
+      "importance": 0.3455725908279419,
+      "sentence_text": "cubic splines are usually well covered in any undergraduate computer science numerical analysis text",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "any",
+          "token_pos": 7,
+          "word_score_logit": 0.054270531982183456,
+          "word_attn_weight": 0.07387393712997437
+        },
+        {
+          "rank": 1,
+          "token": "numerical",
+          "token_pos": 11,
+          "word_score_logit": 0.05183563753962517,
+          "word_attn_weight": 0.07369428128004074
+        },
+        {
+          "rank": 2,
+          "token": "in",
+          "token_pos": 6,
+          "word_score_logit": 0.04342257231473923,
+          "word_attn_weight": 0.07307689636945724
+        },
+        {
+          "rank": 3,
+          "token": "usually",
+          "token_pos": 3,
+          "word_score_logit": 0.03962303698062897,
+          "word_attn_weight": 0.07279975712299347
+        },
+        {
+          "rank": 4,
+          "token": "science",
+          "token_pos": 10,
+          "word_score_logit": 0.031285904347896576,
+          "word_attn_weight": 0.07219533622264862
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "importance": 0.20889800786972046,
+      "sentence_text": "the topic is also well covered in most undergraduate statistic books",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "in",
+          "token_pos": 6,
+          "word_score_logit": 0.04319112002849579,
+          "word_attn_weight": 0.0930669903755188
+        },
+        {
+          "rank": 1,
+          "token": "also",
+          "token_pos": 3,
+          "word_score_logit": 0.04060494154691696,
+          "word_attn_weight": 0.09282661229372025
+        },
+        {
+          "rank": 2,
+          "token": "is",
+          "token_pos": 2,
+          "word_score_logit": 0.03847809508442879,
+          "word_attn_weight": 0.09262939542531967
+        },
+        {
+          "rank": 3,
+          "token": "the",
+          "token_pos": 0,
+          "word_score_logit": 0.03484393283724785,
+          "word_attn_weight": 0.09229337424039841
+        },
+        {
+          "rank": 4,
+          "token": "most",
+          "token_pos": 7,
+          "word_score_logit": 0.031375229358673096,
+          "word_attn_weight": 0.09197378903627396
+        }
+      ]
+    },
+    {
+      "sentence_id": 0,
+      "importance": 0.15526661276817322,
+      "sentence_text": "many spreadsheets do regression analysis",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "do",
+          "token_pos": 2,
+          "word_score_logit": 0.013759579509496689,
+          "word_attn_weight": 0.20412646234035492
+        },
+        {
+          "rank": 1,
+          "token": "analysis",
+          "token_pos": 4,
+          "word_score_logit": 0.013699027709662914,
+          "word_attn_weight": 0.20411409437656403
+        },
+        {
+          "rank": 2,
+          "token": "spreadsheets",
+          "token_pos": 1,
+          "word_score_logit": -0.012408509850502014,
+          "word_attn_weight": 0.19885413348674774
+        },
+        {
+          "rank": 3,
+          "token": "many",
+          "token_pos": 0,
+          "word_score_logit": -0.018982868641614914,
+          "word_attn_weight": 0.19755110144615173
+        },
+        {
+          "rank": 4,
+          "token": "regression",
+          "token_pos": 3,
+          "word_score_logit": -0.030165959149599075,
+          "word_attn_weight": 0.1953541785478592
+        }
+      ]
+    },
+    {
+      "sentence_id": 4,
+      "importance": 0.15003284811973572,
+      "sentence_text": "i have never used mathematica but i would be surprised if it could not do a spline",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "but",
+          "token_pos": 5,
+          "word_score_logit": 0.037675708532333374,
+          "word_attn_weight": 0.05993172526359558
+        },
+        {
+          "rank": 1,
+          "token": "used",
+          "token_pos": 3,
+          "word_score_logit": 0.030428269878029823,
+          "word_attn_weight": 0.05949894338846207
+        },
+        {
+          "rank": 2,
+          "token": "i",
+          "token_pos": 6,
+          "word_score_logit": 0.027273522689938545,
+          "word_attn_weight": 0.059311531484127045
+        },
+        {
+          "rank": 3,
+          "token": "be",
+          "token_pos": 8,
+          "word_score_logit": 0.02713528834283352,
+          "word_attn_weight": 0.05930333212018013
+        },
+        {
+          "rank": 4,
+          "token": "not",
+          "token_pos": 13,
+          "word_score_logit": 0.025661325082182884,
+          "word_attn_weight": 0.05921598896384239
+        }
+      ]
+    },
+    {
+      "sentence_id": 3,
+      "importance": 0.1402299553155899,
+      "sentence_text": "i am sure ge mm has a well <UNK> library",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "mm",
+          "token_pos": 4,
+          "word_score_logit": 0.05446912348270416,
+          "word_attn_weight": 0.10402428358793259
+        },
+        {
+          "rank": 1,
+          "token": "ge",
+          "token_pos": 3,
+          "word_score_logit": 0.03756163641810417,
+          "word_attn_weight": 0.10228028148412704
+        },
+        {
+          "rank": 2,
+          "token": "i",
+          "token_pos": 0,
+          "word_score_logit": 0.028762856498360634,
+          "word_attn_weight": 0.10138428211212158
+        },
+        {
+          "rank": 3,
+          "token": "has",
+          "token_pos": 5,
+          "word_score_logit": 0.021897967904806137,
+          "word_attn_weight": 0.10069067776203156
+        },
+        {
+          "rank": 4,
+          "token": "sure",
+          "token_pos": 2,
+          "word_score_logit": 0.009900784119963646,
+          "word_attn_weight": 0.09948989748954773
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 10,
+      "from_sentence_id": 2,
+      "token": "any",
+      "token_pos": 7,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.42377379536628723,
+          "sentence_text": "cubic splines are usually well covered in any undergraduate computer science numerical analysis text"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.22258344292640686,
+          "sentence_text": "many spreadsheets do regression analysis"
+        }
+      ]
+    },
+    {
+      "query_id": 11,
+      "from_sentence_id": 2,
+      "token": "numerical",
+      "token_pos": 11,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.51140296459198,
+          "sentence_text": "cubic splines are usually well covered in any undergraduate computer science numerical analysis text"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.18873849511146545,
+          "sentence_text": "many spreadsheets do regression analysis"
+        }
+      ]
+    },
+    {
+      "query_id": 12,
+      "from_sentence_id": 2,
+      "token": "in",
+      "token_pos": 6,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.4275507926940918,
+          "sentence_text": "cubic splines are usually well covered in any undergraduate computer science numerical analysis text"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.22509784996509552,
+          "sentence_text": "many spreadsheets do regression analysis"
+        }
+      ]
+    },
+    {
+      "query_id": 13,
+      "from_sentence_id": 2,
+      "token": "usually",
+      "token_pos": 3,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.4146496057510376,
+          "sentence_text": "cubic splines are usually well covered in any undergraduate computer science numerical analysis text"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.19401805102825165,
+          "sentence_text": "many spreadsheets do regression analysis"
+        }
+      ]
+    },
+    {
+      "query_id": 14,
+      "from_sentence_id": 2,
+      "token": "science",
+      "token_pos": 10,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.49172407388687134,
+          "sentence_text": "cubic splines are usually well covered in any undergraduate computer science numerical analysis text"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.1853008270263672,
+          "sentence_text": "many spreadsheets do regression analysis"
+        }
+      ]
+    },
+    {
+      "query_id": 5,
+      "from_sentence_id": 1,
+      "token": "in",
+      "token_pos": 6,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.33187562227249146,
+          "sentence_text": "the topic is also well covered in most undergraduate statistic books"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.253037691116333,
+          "sentence_text": "cubic splines are usually well covered in any undergraduate computer science numerical analysis text"
+        }
+      ]
+    },
+    {
+      "query_id": 6,
+      "from_sentence_id": 1,
+      "token": "also",
+      "token_pos": 3,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.3454797565937042,
+          "sentence_text": "the topic is also well covered in most undergraduate statistic books"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.24378237128257751,
+          "sentence_text": "cubic splines are usually well covered in any undergraduate computer science numerical analysis text"
+        }
+      ]
+    },
+    {
+      "query_id": 7,
+      "from_sentence_id": 1,
+      "token": "is",
+      "token_pos": 2,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.31312239170074463,
+          "sentence_text": "the topic is also well covered in most undergraduate statistic books"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.25525620579719543,
+          "sentence_text": "cubic splines are usually well covered in any undergraduate computer science numerical analysis text"
+        }
+      ]
+    },
+    {
+      "query_id": 8,
+      "from_sentence_id": 1,
+      "token": "the",
+      "token_pos": 0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.30559757351875305,
+          "sentence_text": "the topic is also well covered in most undergraduate statistic books"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.26419907808303833,
+          "sentence_text": "cubic splines are usually well covered in any undergraduate computer science numerical analysis text"
+        }
+      ]
+    },
+    {
+      "query_id": 9,
+      "from_sentence_id": 1,
+      "token": "most",
+      "token_pos": 7,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.323787659406662,
+          "sentence_text": "the topic is also well covered in most undergraduate statistic books"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.2466128021478653,
+          "sentence_text": "cubic splines are usually well covered in any undergraduate computer science numerical analysis text"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_2439"
+}

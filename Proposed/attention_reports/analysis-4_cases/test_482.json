@@ -1,0 +1,82 @@
+{
+  "example_id": "test_482",
+  "true_label_id": 16,
+  "pred_label_id": 14,
+  "true_label_name": "talk.politics.guns",
+  "pred_label_name": "sci.space",
+  "pred_confidence": 0.7097013592720032,
+  "metrics": {
+    "num_sents": 1,
+    "K": 5,
+    "stop_ratio": 0.2,
+    "unk_ratio": 0.2,
+    "num_ratio": 0.0,
+    "content_ratio": 0.6,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 0.0,
+    "sentence_importance_entropy": -0.0,
+    "sentence_importance_max": 1.0,
+    "top_sentence_id": 0,
+    "query_mismatch_rate": 0.0,
+    "selected_quality_counts": {
+      "content_word": 3,
+      "stopword": 1,
+      "unk": 1
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.18,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 1.0,
+    "D_local_global_conflict": 0.0,
+    "E_overconfident_error": 0.7097013592720032
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "at <UNK> <UNK> the shaped charge will automatically <UNK> after thirty years a la <UNK> run in order to maintain population control"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "control",
+          "token_pos": 21,
+          "quality": "content_word",
+          "word_score_logit": 0.043272342532873154,
+          "word_attn_weight": 0.04730241745710373
+        },
+        {
+          "token": "the",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": 0.029830463230609894,
+          "word_attn_weight": 0.04667083919048309
+        },
+        {
+          "token": "charge",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.017903689295053482,
+          "word_attn_weight": 0.04611751437187195
+        },
+        {
+          "token": "run",
+          "token_pos": 15,
+          "quality": "content_word",
+          "word_score_logit": 0.017222344875335693,
+          "word_attn_weight": 0.04608609899878502
+        },
+        {
+          "token": "<UNK>",
+          "token_pos": 2,
+          "quality": "unk",
+          "word_score_logit": 0.016940442845225334,
+          "word_attn_weight": 0.04607311263680458
+        }
+      ]
+    ],
+    "top_sentence_id": 0,
+    "sentence_importance_distribution": [
+      1.0
+    ]
+  }
+}

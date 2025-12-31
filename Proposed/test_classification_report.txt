@@ -1,0 +1,34 @@
+TEST RESULTS
+Loss: 1.2558
+Acc : 0.6488
+Macro Precision: 0.6463
+Macro Recall   : 0.6326
+Macro F1       : 0.6275
+
+Classification Report:
+                          precision    recall  f1-score   support
+
+             alt.atheism       0.39      0.36      0.38       319
+           comp.graphics       0.59      0.71      0.64       389
+ comp.os.ms-windows.misc       0.60      0.57      0.58       394
+comp.sys.ibm.pc.hardware       0.65      0.53      0.59       392
+   comp.sys.mac.hardware       0.70      0.54      0.61       385
+          comp.windows.x       0.81      0.66      0.72       395
+            misc.forsale       0.71      0.80      0.76       390
+               rec.autos       0.75      0.65      0.69       396
+         rec.motorcycles       0.63      0.75      0.69       398
+      rec.sport.baseball       0.95      0.74      0.83       397
+        rec.sport.hockey       0.93      0.88      0.90       399
+               sci.crypt       0.89      0.60      0.72       396
+         sci.electronics       0.53      0.56      0.54       393
+                 sci.med       0.71      0.81      0.76       396
+               sci.space       0.64      0.75      0.69       394
+  soc.religion.christian       0.60      0.86      0.71       398
+      talk.politics.guns       0.54      0.62      0.58       364
+   talk.politics.mideast       0.48      0.82      0.60       376
+      talk.politics.misc       0.48      0.34      0.40       310
+      talk.religion.misc       0.33      0.10      0.15       251
+
+                accuracy                           0.65      7532
+               macro avg       0.65      0.63      0.63      7532
+            weighted avg       0.66      0.65      0.64      7532

@@ -1,0 +1,1154 @@
+{
+  "true_label_id": 3,
+  "pred_label_id": 3,
+  "true_label_name": "comp.sys.ibm.pc.hardware",
+  "pred_label_name": "comp.sys.ibm.pc.hardware",
+  "pred_confidence": 0.8716356158256531,
+  "num_sents": 6,
+  "sentence_summaries": [
+    {
+      "sentence_id": 0,
+      "sentence_text": "a couple of points i have an adaptec 1542b and am very happy with it",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "a",
+          "token_pos": 0,
+          "word_score_logit": -0.0030053025111556053,
+          "word_attn_weight": 0.06811518967151642
+        },
+        {
+          "rank": 1,
+          "token": "points",
+          "token_pos": 3,
+          "word_score_logit": -0.0040475307032465935,
+          "word_attn_weight": 0.06804423034191132
+        },
+        {
+          "rank": 2,
+          "token": "of",
+          "token_pos": 2,
+          "word_score_logit": -0.007299518212676048,
+          "word_attn_weight": 0.06782331317663193
+        },
+        {
+          "rank": 3,
+          "token": "i",
+          "token_pos": 4,
+          "word_score_logit": -0.01036406122148037,
+          "word_attn_weight": 0.06761578470468521
+        },
+        {
+          "rank": 4,
+          "token": "have",
+          "token_pos": 5,
+          "word_score_logit": -0.014731261879205704,
+          "word_attn_weight": 0.06732113659381866
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "sentence_text": "not so",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "not",
+          "token_pos": 0,
+          "word_score_logit": 0.02403169870376587,
+          "word_attn_weight": 0.5042368173599243
+        },
+        {
+          "rank": 1,
+          "token": "so",
+          "token_pos": 1,
+          "word_score_logit": 0.007084027864038944,
+          "word_attn_weight": 0.4957631826400757
+        },
+        {
+          "rank": 2,
+          "token": "<PAD>",
+          "token_pos": 4,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 3,
+          "token": "<PAD>",
+          "token_pos": 3,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 4,
+          "token": "<PAD>",
+          "token_pos": 2,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    },
+    {
+      "sentence_id": 2,
+      "sentence_text": "i have both ide and an <UNK> in the same box and can use both disks at the same time eg",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "use",
+          "token_pos": 13,
+          "word_score_logit": 0.07575715333223343,
+          "word_attn_weight": 0.04958004131913185
+        },
+        {
+          "rank": 1,
+          "token": "eg",
+          "token_pos": 20,
+          "word_score_logit": 0.05189519375562668,
+          "word_attn_weight": 0.048410966992378235
+        },
+        {
+          "rank": 2,
+          "token": "the",
+          "token_pos": 8,
+          "word_score_logit": 0.051176801323890686,
+          "word_attn_weight": 0.04837619885802269
+        },
+        {
+          "rank": 3,
+          "token": "both",
+          "token_pos": 14,
+          "word_score_logit": 0.048360612243413925,
+          "word_attn_weight": 0.04824015498161316
+        },
+        {
+          "rank": 4,
+          "token": "can",
+          "token_pos": 12,
+          "word_score_logit": 0.043994370847940445,
+          "word_attn_weight": 0.04802998527884483
+        }
+      ]
+    },
+    {
+      "sentence_id": 3,
+      "sentence_text": "ide to scsi disk copy",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "copy",
+          "token_pos": 4,
+          "word_score_logit": 0.021227888762950897,
+          "word_attn_weight": 0.20208097994327545
+        },
+        {
+          "rank": 1,
+          "token": "disk",
+          "token_pos": 3,
+          "word_score_logit": 0.01597888022661209,
+          "word_attn_weight": 0.20102304220199585
+        },
+        {
+          "rank": 2,
+          "token": "ide",
+          "token_pos": 0,
+          "word_score_logit": 0.012979438528418541,
+          "word_attn_weight": 0.20042099058628082
+        },
+        {
+          "rank": 3,
+          "token": "scsi",
+          "token_pos": 2,
+          "word_score_logit": 0.006911098957061768,
+          "word_attn_weight": 0.19920843839645386
+        },
+        {
+          "rank": 4,
+          "token": "to",
+          "token_pos": 1,
+          "word_score_logit": -0.0028849244117736816,
+          "word_attn_weight": 0.19726653397083282
+        }
+      ]
+    },
+    {
+      "sentence_id": 4,
+      "sentence_text": "well one statement and one correction",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "correction",
+          "token_pos": 5,
+          "word_score_logit": 0.052221715450286865,
+          "word_attn_weight": 0.16898326575756073
+        },
+        {
+          "rank": 1,
+          "token": "one",
+          "token_pos": 4,
+          "word_score_logit": 0.04266791418194771,
+          "word_attn_weight": 0.16737651824951172
+        },
+        {
+          "rank": 2,
+          "token": "one",
+          "token_pos": 1,
+          "word_score_logit": 0.042023878544569016,
+          "word_attn_weight": 0.167268767952919
+        },
+        {
+          "rank": 3,
+          "token": "and",
+          "token_pos": 3,
+          "word_score_logit": 0.03496482968330383,
+          "word_attn_weight": 0.1660921573638916
+        },
+        {
+          "rank": 4,
+          "token": "well",
+          "token_pos": 0,
+          "word_score_logit": 0.0299542173743248,
+          "word_attn_weight": 0.16526201367378235
+        }
+      ]
+    },
+    {
+      "sentence_id": 5,
+      "sentence_text": "guy",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "guy",
+          "token_pos": 0,
+          "word_score_logit": 0.001670164056122303,
+          "word_attn_weight": 1.0
+        },
+        {
+          "rank": 1,
+          "token": "<PAD>",
+          "token_pos": 3,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 2,
+          "token": "<PAD>",
+          "token_pos": 1,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 3,
+          "token": "<PAD>",
+          "token_pos": 4,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 4,
+          "token": "<PAD>",
+          "token_pos": 2,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    }
+  ],
+  "query_summaries": [
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "a",
+      "token_pos": 0,
+      "word_score_logit": -0.0030053025111556053,
+      "word_attn_weight": 0.06811518967151642,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.21595075726509094,
+          "sentence_text": "ide to scsi disk copy"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.2021312117576599,
+          "sentence_text": "i have both ide and an <UNK> in the same box and can use both disks at the same time eg"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.16035155951976776,
+          "sentence_text": "a couple of points i have an adaptec 1542b and am very happy with it"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "points",
+      "token_pos": 3,
+      "word_score_logit": -0.0040475307032465935,
+      "word_attn_weight": 0.06804423034191132,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.21605008840560913,
+          "sentence_text": "ide to scsi disk copy"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.19355061650276184,
+          "sentence_text": "i have both ide and an <UNK> in the same box and can use both disks at the same time eg"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.1614551544189453,
+          "sentence_text": "a couple of points i have an adaptec 1542b and am very happy with it"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "of",
+      "token_pos": 2,
+      "word_score_logit": -0.007299518212676048,
+      "word_attn_weight": 0.06782331317663193,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.2002541422843933,
+          "sentence_text": "i have both ide and an <UNK> in the same box and can use both disks at the same time eg"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.18610313534736633,
+          "sentence_text": "ide to scsi disk copy"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.17583559453487396,
+          "sentence_text": "a couple of points i have an adaptec 1542b and am very happy with it"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "i",
+      "token_pos": 4,
+      "word_score_logit": -0.01036406122148037,
+      "word_attn_weight": 0.06761578470468521,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.22279459238052368,
+          "sentence_text": "ide to scsi disk copy"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.21737666428089142,
+          "sentence_text": "i have both ide and an <UNK> in the same box and can use both disks at the same time eg"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.16903816163539886,
+          "sentence_text": "a couple of points i have an adaptec 1542b and am very happy with it"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "have",
+      "token_pos": 5,
+      "word_score_logit": -0.014731261879205704,
+      "word_attn_weight": 0.06732113659381866,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.19709992408752441,
+          "sentence_text": "i have both ide and an <UNK> in the same box and can use both disks at the same time eg"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.19437310099601746,
+          "sentence_text": "ide to scsi disk copy"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.17588987946510315,
+          "sentence_text": "a couple of points i have an adaptec 1542b and am very happy with it"
+        }
+      ]
+    },
+    {
+      "query_id": 5,
+      "from_sentence_id": 1,
+      "token": "not",
+      "token_pos": 0,
+      "word_score_logit": 0.02403169870376587,
+      "word_attn_weight": 0.5042368173599243,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.19845004379749298,
+          "sentence_text": "i have both ide and an <UNK> in the same box and can use both disks at the same time eg"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.17842496931552887,
+          "sentence_text": "a couple of points i have an adaptec 1542b and am very happy with it"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.175210103392601,
+          "sentence_text": "ide to scsi disk copy"
+        }
+      ]
+    },
+    {
+      "query_id": 6,
+      "from_sentence_id": 1,
+      "token": "so",
+      "token_pos": 1,
+      "word_score_logit": 0.007084027864038944,
+      "word_attn_weight": 0.4957631826400757,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.20068876445293427,
+          "sentence_text": "i have both ide and an <UNK> in the same box and can use both disks at the same time eg"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.1796468198299408,
+          "sentence_text": "ide to scsi disk copy"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.17530547082424164,
+          "sentence_text": "a couple of points i have an adaptec 1542b and am very happy with it"
+        }
+      ]
+    },
+    {
+      "query_id": 7,
+      "from_sentence_id": 1,
+      "token": "<PAD>",
+      "token_pos": 4,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.18777820467948914,
+          "sentence_text": "i have both ide and an <UNK> in the same box and can use both disks at the same time eg"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.1771370768547058,
+          "sentence_text": "ide to scsi disk copy"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.17082464694976807,
+          "sentence_text": "a couple of points i have an adaptec 1542b and am very happy with it"
+        }
+      ]
+    },
+    {
+      "query_id": 8,
+      "from_sentence_id": 1,
+      "token": "<PAD>",
+      "token_pos": 3,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.18777820467948914,
+          "sentence_text": "i have both ide and an <UNK> in the same box and can use both disks at the same time eg"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.1771370768547058,
+          "sentence_text": "ide to scsi disk copy"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.17082464694976807,
+          "sentence_text": "a couple of points i have an adaptec 1542b and am very happy with it"
+        }
+      ]
+    },
+    {
+      "query_id": 9,
+      "from_sentence_id": 1,
+      "token": "<PAD>",
+      "token_pos": 2,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.18777820467948914,
+          "sentence_text": "i have both ide and an <UNK> in the same box and can use both disks at the same time eg"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.1771370768547058,
+          "sentence_text": "ide to scsi disk copy"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.17082464694976807,
+          "sentence_text": "a couple of points i have an adaptec 1542b and am very happy with it"
+        }
+      ]
+    },
+    {
+      "query_id": 10,
+      "from_sentence_id": 2,
+      "token": "use",
+      "token_pos": 13,
+      "word_score_logit": 0.07575715333223343,
+      "word_attn_weight": 0.04958004131913185,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.3746033310890198,
+          "sentence_text": "ide to scsi disk copy"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.2433253824710846,
+          "sentence_text": "i have both ide and an <UNK> in the same box and can use both disks at the same time eg"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.10960009694099426,
+          "sentence_text": "a couple of points i have an adaptec 1542b and am very happy with it"
+        }
+      ]
+    },
+    {
+      "query_id": 11,
+      "from_sentence_id": 2,
+      "token": "eg",
+      "token_pos": 20,
+      "word_score_logit": 0.05189519375562668,
+      "word_attn_weight": 0.048410966992378235,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.25870266556739807,
+          "sentence_text": "ide to scsi disk copy"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.21029433608055115,
+          "sentence_text": "i have both ide and an <UNK> in the same box and can use both disks at the same time eg"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.1399911493062973,
+          "sentence_text": "a couple of points i have an adaptec 1542b and am very happy with it"
+        }
+      ]
+    },
+    {
+      "query_id": 12,
+      "from_sentence_id": 2,
+      "token": "the",
+      "token_pos": 8,
+      "word_score_logit": 0.051176801323890686,
+      "word_attn_weight": 0.04837619885802269,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.38219350576400757,
+          "sentence_text": "ide to scsi disk copy"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.23610885441303253,
+          "sentence_text": "i have both ide and an <UNK> in the same box and can use both disks at the same time eg"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.1094878539443016,
+          "sentence_text": "a couple of points i have an adaptec 1542b and am very happy with it"
+        }
+      ]
+    },
+    {
+      "query_id": 13,
+      "from_sentence_id": 2,
+      "token": "both",
+      "token_pos": 14,
+      "word_score_logit": 0.048360612243413925,
+      "word_attn_weight": 0.04824015498161316,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.37116539478302,
+          "sentence_text": "ide to scsi disk copy"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.20890799164772034,
+          "sentence_text": "i have both ide and an <UNK> in the same box and can use both disks at the same time eg"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.10916867852210999,
+          "sentence_text": "a couple of points i have an adaptec 1542b and am very happy with it"
+        }
+      ]
+    },
+    {
+      "query_id": 14,
+      "from_sentence_id": 2,
+      "token": "can",
+      "token_pos": 12,
+      "word_score_logit": 0.043994370847940445,
+      "word_attn_weight": 0.04802998527884483,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.346990168094635,
+          "sentence_text": "ide to scsi disk copy"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.237557053565979,
+          "sentence_text": "i have both ide and an <UNK> in the same box and can use both disks at the same time eg"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.12085653096437454,
+          "sentence_text": "a couple of points i have an adaptec 1542b and am very happy with it"
+        }
+      ]
+    },
+    {
+      "query_id": 15,
+      "from_sentence_id": 3,
+      "token": "copy",
+      "token_pos": 4,
+      "word_score_logit": 0.021227888762950897,
+      "word_attn_weight": 0.20208097994327545,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.48136162757873535,
+          "sentence_text": "ide to scsi disk copy"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.17543408274650574,
+          "sentence_text": "i have both ide and an <UNK> in the same box and can use both disks at the same time eg"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.0906841829419136,
+          "sentence_text": "well one statement and one correction"
+        }
+      ]
+    },
+    {
+      "query_id": 16,
+      "from_sentence_id": 3,
+      "token": "disk",
+      "token_pos": 3,
+      "word_score_logit": 0.01597888022661209,
+      "word_attn_weight": 0.20102304220199585,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.5851521492004395,
+          "sentence_text": "ide to scsi disk copy"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.14900007843971252,
+          "sentence_text": "i have both ide and an <UNK> in the same box and can use both disks at the same time eg"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 5,
+          "attn_weight": 0.08213476836681366,
+          "sentence_text": "guy"
+        }
+      ]
+    },
+    {
+      "query_id": 17,
+      "from_sentence_id": 3,
+      "token": "ide",
+      "token_pos": 0,
+      "word_score_logit": 0.012979438528418541,
+      "word_attn_weight": 0.20042099058628082,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.553237795829773,
+          "sentence_text": "ide to scsi disk copy"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.14699208736419678,
+          "sentence_text": "i have both ide and an <UNK> in the same box and can use both disks at the same time eg"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 5,
+          "attn_weight": 0.0987946018576622,
+          "sentence_text": "guy"
+        }
+      ]
+    },
+    {
+      "query_id": 18,
+      "from_sentence_id": 3,
+      "token": "scsi",
+      "token_pos": 2,
+      "word_score_logit": 0.006911098957061768,
+      "word_attn_weight": 0.19920843839645386,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.6096347570419312,
+          "sentence_text": "ide to scsi disk copy"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.14713522791862488,
+          "sentence_text": "i have both ide and an <UNK> in the same box and can use both disks at the same time eg"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 5,
+          "attn_weight": 0.07721877098083496,
+          "sentence_text": "guy"
+        }
+      ]
+    },
+    {
+      "query_id": 19,
+      "from_sentence_id": 3,
+      "token": "to",
+      "token_pos": 1,
+      "word_score_logit": -0.0028849244117736816,
+      "word_attn_weight": 0.19726653397083282,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.4803045988082886,
+          "sentence_text": "ide to scsi disk copy"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.16419288516044617,
+          "sentence_text": "i have both ide and an <UNK> in the same box and can use both disks at the same time eg"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 5,
+          "attn_weight": 0.10747900605201721,
+          "sentence_text": "guy"
+        }
+      ]
+    },
+    {
+      "query_id": 20,
+      "from_sentence_id": 4,
+      "token": "correction",
+      "token_pos": 5,
+      "word_score_logit": 0.052221715450286865,
+      "word_attn_weight": 0.16898326575756073,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.2398638278245926,
+          "sentence_text": "ide to scsi disk copy"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.22582270205020905,
+          "sentence_text": "i have both ide and an <UNK> in the same box and can use both disks at the same time eg"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.15407951176166534,
+          "sentence_text": "a couple of points i have an adaptec 1542b and am very happy with it"
+        }
+      ]
+    },
+    {
+      "query_id": 21,
+      "from_sentence_id": 4,
+      "token": "one",
+      "token_pos": 4,
+      "word_score_logit": 0.04266791418194771,
+      "word_attn_weight": 0.16737651824951172,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.22971726953983307,
+          "sentence_text": "ide to scsi disk copy"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.2122575342655182,
+          "sentence_text": "i have both ide and an <UNK> in the same box and can use both disks at the same time eg"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.15857988595962524,
+          "sentence_text": "a couple of points i have an adaptec 1542b and am very happy with it"
+        }
+      ]
+    },
+    {
+      "query_id": 22,
+      "from_sentence_id": 4,
+      "token": "one",
+      "token_pos": 1,
+      "word_score_logit": 0.042023878544569016,
+      "word_attn_weight": 0.167268767952919,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.20721691846847534,
+          "sentence_text": "i have both ide and an <UNK> in the same box and can use both disks at the same time eg"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.18057051301002502,
+          "sentence_text": "a couple of points i have an adaptec 1542b and am very happy with it"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.17811009287834167,
+          "sentence_text": "ide to scsi disk copy"
+        }
+      ]
+    },
+    {
+      "query_id": 23,
+      "from_sentence_id": 4,
+      "token": "and",
+      "token_pos": 3,
+      "word_score_logit": 0.03496482968330383,
+      "word_attn_weight": 0.1660921573638916,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.20736265182495117,
+          "sentence_text": "i have both ide and an <UNK> in the same box and can use both disks at the same time eg"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.20380233228206635,
+          "sentence_text": "ide to scsi disk copy"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.16829591989517212,
+          "sentence_text": "a couple of points i have an adaptec 1542b and am very happy with it"
+        }
+      ]
+    },
+    {
+      "query_id": 24,
+      "from_sentence_id": 4,
+      "token": "well",
+      "token_pos": 0,
+      "word_score_logit": 0.0299542173743248,
+      "word_attn_weight": 0.16526201367378235,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.20815840363502502,
+          "sentence_text": "i have both ide and an <UNK> in the same box and can use both disks at the same time eg"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.19298423826694489,
+          "sentence_text": "ide to scsi disk copy"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.1731545776128769,
+          "sentence_text": "a couple of points i have an adaptec 1542b and am very happy with it"
+        }
+      ]
+    },
+    {
+      "query_id": 25,
+      "from_sentence_id": 5,
+      "token": "guy",
+      "token_pos": 0,
+      "word_score_logit": 0.001670164056122303,
+      "word_attn_weight": 1.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.2380148470401764,
+          "sentence_text": "ide to scsi disk copy"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.19594673812389374,
+          "sentence_text": "i have both ide and an <UNK> in the same box and can use both disks at the same time eg"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.15034177899360657,
+          "sentence_text": "a couple of points i have an adaptec 1542b and am very happy with it"
+        }
+      ]
+    },
+    {
+      "query_id": 26,
+      "from_sentence_id": 5,
+      "token": "<PAD>",
+      "token_pos": 3,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.18777820467948914,
+          "sentence_text": "i have both ide and an <UNK> in the same box and can use both disks at the same time eg"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.1771370768547058,
+          "sentence_text": "ide to scsi disk copy"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.17082464694976807,
+          "sentence_text": "a couple of points i have an adaptec 1542b and am very happy with it"
+        }
+      ]
+    },
+    {
+      "query_id": 27,
+      "from_sentence_id": 5,
+      "token": "<PAD>",
+      "token_pos": 1,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.18777820467948914,
+          "sentence_text": "i have both ide and an <UNK> in the same box and can use both disks at the same time eg"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.1771370768547058,
+          "sentence_text": "ide to scsi disk copy"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.17082464694976807,
+          "sentence_text": "a couple of points i have an adaptec 1542b and am very happy with it"
+        }
+      ]
+    },
+    {
+      "query_id": 28,
+      "from_sentence_id": 5,
+      "token": "<PAD>",
+      "token_pos": 4,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.18777820467948914,
+          "sentence_text": "i have both ide and an <UNK> in the same box and can use both disks at the same time eg"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.1771370768547058,
+          "sentence_text": "ide to scsi disk copy"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.17082464694976807,
+          "sentence_text": "a couple of points i have an adaptec 1542b and am very happy with it"
+        }
+      ]
+    },
+    {
+      "query_id": 29,
+      "from_sentence_id": 5,
+      "token": "<PAD>",
+      "token_pos": 2,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.18777820467948914,
+          "sentence_text": "i have both ide and an <UNK> in the same box and can use both disks at the same time eg"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.1771370768547058,
+          "sentence_text": "ide to scsi disk copy"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.17082464694976807,
+          "sentence_text": "a couple of points i have an adaptec 1542b and am very happy with it"
+        }
+      ]
+    }
+  ],
+  "sentence_importance_from_cross_attn": {
+    "definition": "mean cross-attn over queries",
+    "values": [
+      {
+        "sentence_id": 0,
+        "importance": 0.14306510984897614
+      },
+      {
+        "sentence_id": 1,
+        "importance": 0.13105891644954681
+      },
+      {
+        "sentence_id": 2,
+        "importance": 0.19665706157684326
+      },
+      {
+        "sentence_id": 3,
+        "importance": 0.27853089570999146
+      },
+      {
+        "sentence_id": 4,
+        "importance": 0.13326194882392883
+      },
+      {
+        "sentence_id": 5,
+        "importance": 0.11742608994245529
+      }
+    ],
+    "ranked": [
+      {
+        "sentence_id": 3,
+        "importance": 0.27853089570999146
+      },
+      {
+        "sentence_id": 2,
+        "importance": 0.19665706157684326
+      },
+      {
+        "sentence_id": 0,
+        "importance": 0.14306510984897614
+      },
+      {
+        "sentence_id": 4,
+        "importance": 0.13326194882392883
+      },
+      {
+        "sentence_id": 1,
+        "importance": 0.13105891644954681
+      },
+      {
+        "sentence_id": 5,
+        "importance": 0.11742608994245529
+      }
+    ]
+  },
+  "example_id": "test-25"
+}

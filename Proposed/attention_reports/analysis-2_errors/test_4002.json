@@ -1,0 +1,297 @@
+{
+  "true_label_id": 5,
+  "pred_label_id": 1,
+  "true_label_name": "comp.windows.x",
+  "pred_label_name": "comp.graphics",
+  "pred_confidence": 0.9798489212989807,
+  "num_sents": 2,
+  "top_sentences": [
+    {
+      "sentence_id": 0,
+      "importance": 0.7684196829795837,
+      "sentence_text": "the subject line says it all really i'm looking for a pd application which will just handle the displaying of 3d data sets images in cross section or any pointers to code which will aid in the development of such a system",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "system",
+          "token_pos": 41,
+          "word_score_logit": 0.041003450751304626,
+          "word_attn_weight": 0.02505265362560749
+        },
+        {
+          "rank": 1,
+          "token": "any",
+          "token_pos": 28,
+          "word_score_logit": 0.036283887922763824,
+          "word_attn_weight": 0.024934696033596992
+        },
+        {
+          "rank": 2,
+          "token": "application",
+          "token_pos": 12,
+          "word_score_logit": 0.020434241741895676,
+          "word_attn_weight": 0.02454260364174843
+        },
+        {
+          "rank": 3,
+          "token": "or",
+          "token_pos": 27,
+          "word_score_logit": 0.017155829817056656,
+          "word_attn_weight": 0.024462273344397545
+        },
+        {
+          "rank": 4,
+          "token": "section",
+          "token_pos": 26,
+          "word_score_logit": 0.013487107120454311,
+          "word_attn_weight": 0.02437269315123558
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "importance": 0.23158030211925507,
+      "sentence_text": "thanks in advance keith <UNK>",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "advance",
+          "token_pos": 2,
+          "word_score_logit": 0.03627045452594757,
+          "word_attn_weight": 0.20273879170417786
+        },
+        {
+          "rank": 1,
+          "token": "in",
+          "token_pos": 1,
+          "word_score_logit": 0.028457580134272575,
+          "word_attn_weight": 0.2011609971523285
+        },
+        {
+          "rank": 2,
+          "token": "keith",
+          "token_pos": 3,
+          "word_score_logit": 0.0259986761957407,
+          "word_attn_weight": 0.20066697895526886
+        },
+        {
+          "rank": 3,
+          "token": "thanks",
+          "token_pos": 0,
+          "word_score_logit": 0.018011897802352905,
+          "word_attn_weight": 0.19907066226005554
+        },
+        {
+          "rank": 4,
+          "token": "<UNK>",
+          "token_pos": 4,
+          "word_score_logit": 0.004314647987484932,
+          "word_attn_weight": 0.19636254012584686
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "system",
+      "token_pos": 41,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.9108356237411499,
+          "sentence_text": "the subject line says it all really i'm looking for a pd application which will just handle the displaying of 3d data sets images in cross section or any pointers to code which will aid in the development of such a system"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.08916434645652771,
+          "sentence_text": "thanks in advance keith <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "any",
+      "token_pos": 28,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.9436424970626831,
+          "sentence_text": "the subject line says it all really i'm looking for a pd application which will just handle the displaying of 3d data sets images in cross section or any pointers to code which will aid in the development of such a system"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.0563574843108654,
+          "sentence_text": "thanks in advance keith <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "application",
+      "token_pos": 12,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.8969208002090454,
+          "sentence_text": "the subject line says it all really i'm looking for a pd application which will just handle the displaying of 3d data sets images in cross section or any pointers to code which will aid in the development of such a system"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.10307919979095459,
+          "sentence_text": "thanks in advance keith <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "or",
+      "token_pos": 27,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.9321838021278381,
+          "sentence_text": "the subject line says it all really i'm looking for a pd application which will just handle the displaying of 3d data sets images in cross section or any pointers to code which will aid in the development of such a system"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.06781619042158127,
+          "sentence_text": "thanks in advance keith <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "section",
+      "token_pos": 26,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.9317536950111389,
+          "sentence_text": "the subject line says it all really i'm looking for a pd application which will just handle the displaying of 3d data sets images in cross section or any pointers to code which will aid in the development of such a system"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.06824630498886108,
+          "sentence_text": "thanks in advance keith <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 5,
+      "from_sentence_id": 1,
+      "token": "advance",
+      "token_pos": 2,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6475967168807983,
+          "sentence_text": "the subject line says it all really i'm looking for a pd application which will just handle the displaying of 3d data sets images in cross section or any pointers to code which will aid in the development of such a system"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.3524032533168793,
+          "sentence_text": "thanks in advance keith <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 6,
+      "from_sentence_id": 1,
+      "token": "in",
+      "token_pos": 1,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6777820587158203,
+          "sentence_text": "the subject line says it all really i'm looking for a pd application which will just handle the displaying of 3d data sets images in cross section or any pointers to code which will aid in the development of such a system"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.3222178816795349,
+          "sentence_text": "thanks in advance keith <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 7,
+      "from_sentence_id": 1,
+      "token": "keith",
+      "token_pos": 3,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.5079580545425415,
+          "sentence_text": "thanks in advance keith <UNK>"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.4920419752597809,
+          "sentence_text": "the subject line says it all really i'm looking for a pd application which will just handle the displaying of 3d data sets images in cross section or any pointers to code which will aid in the development of such a system"
+        }
+      ]
+    },
+    {
+      "query_id": 8,
+      "from_sentence_id": 1,
+      "token": "thanks",
+      "token_pos": 0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6729583740234375,
+          "sentence_text": "the subject line says it all really i'm looking for a pd application which will just handle the displaying of 3d data sets images in cross section or any pointers to code which will aid in the development of such a system"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.3270415961742401,
+          "sentence_text": "thanks in advance keith <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 9,
+      "from_sentence_id": 1,
+      "token": "<UNK>",
+      "token_pos": 4,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5784811973571777,
+          "sentence_text": "the subject line says it all really i'm looking for a pd application which will just handle the displaying of 3d data sets images in cross section or any pointers to code which will aid in the development of such a system"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.4215187430381775,
+          "sentence_text": "thanks in advance keith <UNK>"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_4002"
+}

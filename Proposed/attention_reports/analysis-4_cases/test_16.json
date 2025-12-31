@@ -1,0 +1,318 @@
+{
+  "example_id": "test_16",
+  "true_label_id": 4,
+  "pred_label_id": 2,
+  "true_label_name": "comp.sys.mac.hardware",
+  "pred_label_name": "comp.os.ms-windows.misc",
+  "pred_confidence": 0.4272906184196472,
+  "metrics": {
+    "num_sents": 7,
+    "K": 5,
+    "stop_ratio": 0.45714285714285713,
+    "unk_ratio": 0.02857142857142857,
+    "num_ratio": 0.02857142857142857,
+    "content_ratio": 0.4,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 1.910580039024353,
+    "sentence_importance_entropy": 1.9227313995361328,
+    "sentence_importance_max": 0.19141124188899994,
+    "top_sentence_id": 1,
+    "query_mismatch_rate": 0.6571428571428571,
+    "selected_quality_counts": {
+      "stopword": 16,
+      "content_word": 14,
+      "unk": 1,
+      "number": 1,
+      "other": 3
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.28571428571428564,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.13398786932229995,
+    "D_local_global_conflict": 0.6571428571428571,
+    "E_overconfident_error": 0.4272906184196472
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "<UNK> got a problem printing with a <UNK>",
+      "i am printing from a iivx with 20 megs ram",
+      "i am trying to print a quark file that has 2 fonts a couple of boxes and 3 gradient fills",
+      "two things happen i get a disk is full error that i can't find documented i also have parts of letters that are over one of the gradient fills get cut off",
+      "this only happens to the text over the fill",
+      "text <UNK> in a different box is <UNK>",
+      "any ideas"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "with",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.029189249500632286,
+          "word_attn_weight": 0.12802328169345856
+        },
+        {
+          "token": "printing",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.02529129572212696,
+          "word_attn_weight": 0.1275252252817154
+        },
+        {
+          "token": "a",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": 0.014127306640148163,
+          "word_attn_weight": 0.12610945105552673
+        },
+        {
+          "token": "problem",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.00962204858660698,
+          "word_attn_weight": 0.12554258108139038
+        },
+        {
+          "token": "<UNK>",
+          "token_pos": 7,
+          "quality": "unk",
+          "word_score_logit": 0.0051541803404688835,
+          "word_attn_weight": 0.12498291581869125
+        }
+      ],
+      [
+        {
+          "token": "from",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": 0.00903435330837965,
+          "word_attn_weight": 0.10233165323734283
+        },
+        {
+          "token": "i",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.0033662309870123863,
+          "word_attn_weight": 0.10175327211618423
+        },
+        {
+          "token": "a",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": -0.008014090359210968,
+          "word_attn_weight": 0.10060184448957443
+        },
+        {
+          "token": "printing",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": -0.01056249812245369,
+          "word_attn_weight": 0.10034579783678055
+        },
+        {
+          "token": "with",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": -0.015065951272845268,
+          "word_attn_weight": 0.09989491105079651
+        }
+      ],
+      [
+        {
+          "token": "quark",
+          "token_pos": 6,
+          "quality": "content_word",
+          "word_score_logit": 0.07607688754796982,
+          "word_attn_weight": 0.052151769399642944
+        },
+        {
+          "token": "file",
+          "token_pos": 7,
+          "quality": "content_word",
+          "word_score_logit": 0.07246718555688858,
+          "word_attn_weight": 0.05196385458111763
+        },
+        {
+          "token": "a",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.05290796235203743,
+          "word_attn_weight": 0.05095736309885979
+        },
+        {
+          "token": "3",
+          "token_pos": 17,
+          "quality": "number",
+          "word_score_logit": 0.04667791351675987,
+          "word_attn_weight": 0.05064087733626366
+        },
+        {
+          "token": "a",
+          "token_pos": 12,
+          "quality": "stopword",
+          "word_score_logit": 0.04110503941774368,
+          "word_attn_weight": 0.05035945028066635
+        }
+      ],
+      [
+        {
+          "token": "of",
+          "token_pos": 19,
+          "quality": "stopword",
+          "word_score_logit": 0.07046175003051758,
+          "word_attn_weight": 0.032877955585718155
+        },
+        {
+          "token": "parts",
+          "token_pos": 18,
+          "quality": "content_word",
+          "word_score_logit": 0.058767106384038925,
+          "word_attn_weight": 0.03249569982290268
+        },
+        {
+          "token": "error",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": 0.056460022926330566,
+          "word_attn_weight": 0.032420817762613297
+        },
+        {
+          "token": "of",
+          "token_pos": 25,
+          "quality": "stopword",
+          "word_score_logit": 0.0495036318898201,
+          "word_attn_weight": 0.03219606727361679
+        },
+        {
+          "token": "disk",
+          "token_pos": 6,
+          "quality": "content_word",
+          "word_score_logit": 0.04737386479973793,
+          "word_attn_weight": 0.03212756663560867
+        }
+      ],
+      [
+        {
+          "token": "only",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.027446210384368896,
+          "word_attn_weight": 0.11274544894695282
+        },
+        {
+          "token": "the",
+          "token_pos": 7,
+          "quality": "stopword",
+          "word_score_logit": 0.024059083312749863,
+          "word_attn_weight": 0.11236421763896942
+        },
+        {
+          "token": "the",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": 0.019950252026319504,
+          "word_attn_weight": 0.11190347373485565
+        },
+        {
+          "token": "happens",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.01766148954629898,
+          "word_attn_weight": 0.11164765059947968
+        },
+        {
+          "token": "this",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.01740133948624134,
+          "word_attn_weight": 0.11161860823631287
+        }
+      ],
+      [
+        {
+          "token": "different",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.033567819744348526,
+          "word_attn_weight": 0.12716710567474365
+        },
+        {
+          "token": "box",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.030658237636089325,
+          "word_attn_weight": 0.1267976462841034
+        },
+        {
+          "token": "in",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.02857106178998947,
+          "word_attn_weight": 0.12653326988220215
+        },
+        {
+          "token": "a",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": 0.027549386024475098,
+          "word_attn_weight": 0.1264040619134903
+        },
+        {
+          "token": "is",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": 0.01678677275776863,
+          "word_attn_weight": 0.12505091726779938
+        }
+      ],
+      [
+        {
+          "token": "any",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": 0.020688431337475777,
+          "word_attn_weight": 0.5089116096496582
+        },
+        {
+          "token": "ideas",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": -0.014961913228034973,
+          "word_attn_weight": 0.4910883605480194
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 3,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 2,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    ],
+    "top_sentence_id": 1,
+    "sentence_importance_distribution": [
+      0.15215328335762024,
+      0.19141124188899994,
+      0.17113885283470154,
+      0.14509126543998718,
+      0.13399332761764526,
+      0.10813464224338531,
+      0.09807746112346649
+    ]
+  }
+}

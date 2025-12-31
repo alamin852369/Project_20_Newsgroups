@@ -1,0 +1,160 @@
+{
+  "example_id": "test_66",
+  "true_label_id": 18,
+  "pred_label_id": 0,
+  "true_label_name": "talk.politics.misc",
+  "pred_label_name": "alt.atheism",
+  "pred_confidence": 0.5809664130210876,
+  "metrics": {
+    "num_sents": 3,
+    "K": 5,
+    "stop_ratio": 0.5333333333333333,
+    "unk_ratio": 0.06666666666666667,
+    "num_ratio": 0.0,
+    "content_ratio": 0.4,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 1.043480396270752,
+    "sentence_importance_entropy": 1.0455927848815918,
+    "sentence_importance_max": 0.44974714517593384,
+    "top_sentence_id": 0,
+    "query_mismatch_rate": 0.6666666666666666,
+    "selected_quality_counts": {
+      "content_word": 6,
+      "stopword": 8,
+      "unk": 1
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.34,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.4057044446468353,
+    "D_local_global_conflict": 0.6666666666666666,
+    "E_overconfident_error": 0.5809664130210876
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "your post is based on the premise that the laws as they stand do not discriminate anybody so your argument falls over immediately",
+      "are you really that dumb as to use <UNK> language to prove an argument",
+      "please feel free to answer that is if you have anything intelligent to say on the matter"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "anybody",
+          "token_pos": 16,
+          "quality": "content_word",
+          "word_score_logit": 0.041025128215551376,
+          "word_attn_weight": 0.04556454345583916
+        },
+        {
+          "token": "so",
+          "token_pos": 17,
+          "quality": "stopword",
+          "word_score_logit": 0.025423381477594376,
+          "word_attn_weight": 0.04485917091369629
+        },
+        {
+          "token": "not",
+          "token_pos": 14,
+          "quality": "stopword",
+          "word_score_logit": 0.025242581963539124,
+          "word_attn_weight": 0.04485106095671654
+        },
+        {
+          "token": "do",
+          "token_pos": 13,
+          "quality": "stopword",
+          "word_score_logit": 0.023969044908881187,
+          "word_attn_weight": 0.044793982058763504
+        },
+        {
+          "token": "discriminate",
+          "token_pos": 15,
+          "quality": "content_word",
+          "word_score_logit": 0.01856609806418419,
+          "word_attn_weight": 0.04455261304974556
+        }
+      ],
+      [
+        {
+          "token": "use",
+          "token_pos": 7,
+          "quality": "content_word",
+          "word_score_logit": 0.06375276297330856,
+          "word_attn_weight": 0.07592066377401352
+        },
+        {
+          "token": "<UNK>",
+          "token_pos": 8,
+          "quality": "unk",
+          "word_score_logit": 0.02817877009510994,
+          "word_attn_weight": 0.07326734066009521
+        },
+        {
+          "token": "an",
+          "token_pos": 12,
+          "quality": "stopword",
+          "word_score_logit": 0.015513084828853607,
+          "word_attn_weight": 0.07234521210193634
+        },
+        {
+          "token": "are",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.006223851814866066,
+          "word_attn_weight": 0.07167629152536392
+        },
+        {
+          "token": "language",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": 0.0017113322392106056,
+          "word_attn_weight": 0.07135358452796936
+        }
+      ],
+      [
+        {
+          "token": "answer",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.022700410336256027,
+          "word_attn_weight": 0.05999859422445297
+        },
+        {
+          "token": "the",
+          "token_pos": 15,
+          "quality": "stopword",
+          "word_score_logit": 0.017492203041911125,
+          "word_attn_weight": 0.059686921536922455
+        },
+        {
+          "token": "please",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": 0.012949986383318901,
+          "word_attn_weight": 0.05941642448306084
+        },
+        {
+          "token": "is",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": 0.009627718478441238,
+          "word_attn_weight": 0.0592193529009819
+        },
+        {
+          "token": "if",
+          "token_pos": 7,
+          "quality": "stopword",
+          "word_score_logit": 0.008055699989199638,
+          "word_attn_weight": 0.05912633240222931
+        }
+      ]
+    ],
+    "top_sentence_id": 0,
+    "sentence_importance_distribution": [
+      0.44974714517593384,
+      0.35562580823898315,
+      0.19462713599205017
+    ]
+  }
+}

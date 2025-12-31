@@ -1,0 +1,81 @@
+{
+  "example_id": "test_1842",
+  "true_label_id": 0,
+  "pred_label_id": 15,
+  "true_label_name": "alt.atheism",
+  "pred_label_name": "soc.religion.christian",
+  "pred_confidence": 0.6578426361083984,
+  "metrics": {
+    "num_sents": 1,
+    "K": 5,
+    "stop_ratio": 0.8,
+    "unk_ratio": 0.0,
+    "num_ratio": 0.0,
+    "content_ratio": 0.2,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 0.0,
+    "sentence_importance_entropy": -0.0,
+    "sentence_importance_max": 1.0,
+    "top_sentence_id": 0,
+    "query_mismatch_rate": 0.0,
+    "selected_quality_counts": {
+      "content_word": 1,
+      "stopword": 4
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.48,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 1.0,
+    "D_local_global_conflict": 0.0,
+    "E_overconfident_error": 0.6578426361083984
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "so when they took the time to copy the text correctly that includes obvious <UNK> so when they took the time to copy the text correctly that does not exclude variant readings from the <UNK> text which are of little theological import hey you're the expert"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "copy",
+          "token_pos": 22,
+          "quality": "content_word",
+          "word_score_logit": 0.049183398485183716,
+          "word_attn_weight": 0.022574473172426224
+        },
+        {
+          "token": "to",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": 0.045020684599876404,
+          "word_attn_weight": 0.02248069830238819
+        },
+        {
+          "token": "the",
+          "token_pos": 23,
+          "quality": "stopword",
+          "word_score_logit": 0.043382368981838226,
+          "word_attn_weight": 0.022443898022174835
+        },
+        {
+          "token": "to",
+          "token_pos": 21,
+          "quality": "stopword",
+          "word_score_logit": 0.04302740842103958,
+          "word_attn_weight": 0.022435933351516724
+        },
+        {
+          "token": "the",
+          "token_pos": 8,
+          "quality": "stopword",
+          "word_score_logit": 0.042708735913038254,
+          "word_attn_weight": 0.022428784519433975
+        }
+      ]
+    ],
+    "top_sentence_id": 0,
+    "sentence_importance_distribution": [
+      1.0
+    ]
+  }
+}

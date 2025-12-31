@@ -1,0 +1,824 @@
+{
+  "example_id": "test_2490",
+  "true_label_id": 19,
+  "pred_label_id": 16,
+  "true_label_name": "talk.religion.misc",
+  "pred_label_name": "talk.politics.guns",
+  "pred_confidence": 0.9918123483657837,
+  "metrics": {
+    "num_sents": 20,
+    "K": 5,
+    "stop_ratio": 0.45,
+    "unk_ratio": 0.01,
+    "num_ratio": 0.0,
+    "content_ratio": 0.53,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 2.5294625759124756,
+    "sentence_importance_entropy": 2.5700762271881104,
+    "sentence_importance_max": 0.21102853119373322,
+    "top_sentence_id": 19,
+    "query_mismatch_rate": 0.93,
+    "selected_quality_counts": {
+      "content_word": 53,
+      "stopword": 45,
+      "short_word": 1,
+      "unk": 1
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.273,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.14771997183561325,
+    "D_local_global_conflict": 0.93,
+    "E_overconfident_error": 0.9918123483657837
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "<UNK> <UNK> berkeley edu isaac kuo states in reply to deleted article about no knock searches arrests in general no knock raids are to preserve evidence like drugs which can be flushed down the toilet",
+      "they are not the standard way to arrest a violent felon like a bank <UNK>",
+      "if there is no need to search or preserve evidence they will just surround the dwelling and order the suspect to come out with her hands up",
+      "if the suspect does not come out tear gas will be used",
+      "comment on the bd omitted it is not a method to <UNK> criminals",
+      "it is a very dangerous method to obtain evidence that might be destroyed if a warrant is served in the normal way",
+      "it is the most dangerous way to arrest anyone",
+      "the cops are charging into a room and they don't know what is in it",
+      "it is much safer to surround the place and announce yourself",
+      "cops are not cops until they identify themselves as police officers",
+      "most drug dealers and professional criminals are aware of the likelihood of arrest but they also know how the system works",
+      "if they are arrested they call their lawyer post bail and hope for a plea bargain",
+      "if they pull a gun and shoot a cop during a raid they will be charged with first degree murder if they survive the raid",
+      "drug dealers have guns for protection from their customers and other criminals not to shoot cops",
+      "cops are shot on no knock drug raids because the criminals aren't aware that they are cops",
+      "no knock raids on homes occupied by non criminals are more likely to end in disaster",
+      "mom and pop citizen know that they have not committed any crime they know that anyone breaking into their house cannot be a cop because they have done nothing wrong",
+      "if they have the means to defend themselves they may because they know that the <UNK> are criminals not cops",
+      "cops and <UNK> may die",
+      "the first reports from waco stated that the atf had a warrant to search for illegal weapons and also an arrest warrant if the illegal weapons were found"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "edu",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.07982397079467773,
+          "word_attn_weight": 0.029967548325657845
+        },
+        {
+          "token": "kuo",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.07131738215684891,
+          "word_attn_weight": 0.02971370704472065
+        },
+        {
+          "token": "arrests",
+          "token_pos": 16,
+          "quality": "content_word",
+          "word_score_logit": 0.057186324149370193,
+          "word_attn_weight": 0.029296772554516792
+        },
+        {
+          "token": "searches",
+          "token_pos": 15,
+          "quality": "content_word",
+          "word_score_logit": 0.055335186421871185,
+          "word_attn_weight": 0.02924259379506111
+        },
+        {
+          "token": "isaac",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.053666308522224426,
+          "word_attn_weight": 0.029193827882409096
+        }
+      ],
+      [
+        {
+          "token": "they",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.02857223153114319,
+          "word_attn_weight": 0.06860094517469406
+        },
+        {
+          "token": "standard",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.01689045876264572,
+          "word_attn_weight": 0.06780422478914261
+        },
+        {
+          "token": "a",
+          "token_pos": 8,
+          "quality": "stopword",
+          "word_score_logit": 0.013488002121448517,
+          "word_attn_weight": 0.0675739124417305
+        },
+        {
+          "token": "way",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.012842272408306599,
+          "word_attn_weight": 0.06753029674291611
+        },
+        {
+          "token": "not",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.012314790859818459,
+          "word_attn_weight": 0.06749469041824341
+        }
+      ],
+      [
+        {
+          "token": "or",
+          "token_pos": 7,
+          "quality": "stopword",
+          "word_score_logit": 0.04844127222895622,
+          "word_attn_weight": 0.03818375617265701
+        },
+        {
+          "token": "evidence",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": 0.04716605320572853,
+          "word_attn_weight": 0.0381350964307785
+        },
+        {
+          "token": "they",
+          "token_pos": 10,
+          "quality": "stopword",
+          "word_score_logit": 0.04580642282962799,
+          "word_attn_weight": 0.0380832776427269
+        },
+        {
+          "token": "surround",
+          "token_pos": 13,
+          "quality": "content_word",
+          "word_score_logit": 0.04030131548643112,
+          "word_attn_weight": 0.03787419945001602
+        },
+        {
+          "token": "will",
+          "token_pos": 11,
+          "quality": "stopword",
+          "word_score_logit": 0.039398521184921265,
+          "word_attn_weight": 0.03784002736210823
+        }
+      ],
+      [
+        {
+          "token": "the",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.06265027821063995,
+          "word_attn_weight": 0.08553998917341232
+        },
+        {
+          "token": "does",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": 0.06032804027199745,
+          "word_attn_weight": 0.08534158021211624
+        },
+        {
+          "token": "suspect",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.05753472447395325,
+          "word_attn_weight": 0.08510352671146393
+        },
+        {
+          "token": "if",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.05325673520565033,
+          "word_attn_weight": 0.08474022895097733
+        },
+        {
+          "token": "used",
+          "token_pos": 11,
+          "quality": "content_word",
+          "word_score_logit": 0.05246337503194809,
+          "word_attn_weight": 0.08467303216457367
+        }
+      ],
+      [
+        {
+          "token": "omitted",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.06015489995479584,
+          "word_attn_weight": 0.08006474375724792
+        },
+        {
+          "token": "bd",
+          "token_pos": 3,
+          "quality": "short_word",
+          "word_score_logit": 0.05274858698248863,
+          "word_attn_weight": 0.07947394251823425
+        },
+        {
+          "token": "comment",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": 0.041915081441402435,
+          "word_attn_weight": 0.07861761748790741
+        },
+        {
+          "token": "method",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": 0.030346503481268883,
+          "word_attn_weight": 0.07771335542201996
+        },
+        {
+          "token": "is",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": 0.02399514988064766,
+          "word_attn_weight": 0.0772213414311409
+        }
+      ],
+      [
+        {
+          "token": "might",
+          "token_pos": 10,
+          "quality": "content_word",
+          "word_score_logit": 0.06383684277534485,
+          "word_attn_weight": 0.047241248190402985
+        },
+        {
+          "token": "obtain",
+          "token_pos": 7,
+          "quality": "content_word",
+          "word_score_logit": 0.06290534883737564,
+          "word_attn_weight": 0.047197263687849045
+        },
+        {
+          "token": "evidence",
+          "token_pos": 8,
+          "quality": "content_word",
+          "word_score_logit": 0.06097181513905525,
+          "word_attn_weight": 0.047106094658374786
+        },
+        {
+          "token": "that",
+          "token_pos": 9,
+          "quality": "stopword",
+          "word_score_logit": 0.05103226751089096,
+          "word_attn_weight": 0.046640198677778244
+        },
+        {
+          "token": "be",
+          "token_pos": 11,
+          "quality": "stopword",
+          "word_score_logit": 0.04944201558828354,
+          "word_attn_weight": 0.04656609147787094
+        }
+      ],
+      [
+        {
+          "token": "anyone",
+          "token_pos": 8,
+          "quality": "content_word",
+          "word_score_logit": 0.02782079204916954,
+          "word_attn_weight": 0.1134965717792511
+        },
+        {
+          "token": "is",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.014140136539936066,
+          "word_attn_weight": 0.11195444315671921
+        },
+        {
+          "token": "the",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.009017521515488625,
+          "word_attn_weight": 0.11138240993022919
+        },
+        {
+          "token": "it",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.007320541422814131,
+          "word_attn_weight": 0.11119356006383896
+        },
+        {
+          "token": "arrest",
+          "token_pos": 7,
+          "quality": "content_word",
+          "word_score_logit": 0.004916038364171982,
+          "word_attn_weight": 0.11092650890350342
+        }
+      ],
+      [
+        {
+          "token": "the",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.017546625807881355,
+          "word_attn_weight": 0.06773392111063004
+        },
+        {
+          "token": "know",
+          "token_pos": 10,
+          "quality": "content_word",
+          "word_score_logit": 0.017323113977909088,
+          "word_attn_weight": 0.06771878898143768
+        },
+        {
+          "token": "room",
+          "token_pos": 6,
+          "quality": "content_word",
+          "word_score_logit": 0.016137370839715004,
+          "word_attn_weight": 0.06763853877782822
+        },
+        {
+          "token": "and",
+          "token_pos": 7,
+          "quality": "stopword",
+          "word_score_logit": 0.015233909711241722,
+          "word_attn_weight": 0.06757745891809464
+        },
+        {
+          "token": "they",
+          "token_pos": 8,
+          "quality": "stopword",
+          "word_score_logit": 0.012595338746905327,
+          "word_attn_weight": 0.06739938259124756
+        }
+      ],
+      [
+        {
+          "token": "surround",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.02422717958688736,
+          "word_attn_weight": 0.0927807167172432
+        },
+        {
+          "token": "to",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": 0.018705112859606743,
+          "word_attn_weight": 0.09226978570222855
+        },
+        {
+          "token": "safer",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.007834620773792267,
+          "word_attn_weight": 0.09127220511436462
+        },
+        {
+          "token": "announce",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": 0.0075371721759438515,
+          "word_attn_weight": 0.09124505519866943
+        },
+        {
+          "token": "is",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.00735975056886673,
+          "word_attn_weight": 0.09122886508703232
+        }
+      ],
+      [
+        {
+          "token": "as",
+          "token_pos": 8,
+          "quality": "stopword",
+          "word_score_logit": 0.04385031387209892,
+          "word_attn_weight": 0.09369482845067978
+        },
+        {
+          "token": "identify",
+          "token_pos": 6,
+          "quality": "content_word",
+          "word_score_logit": 0.03981819003820419,
+          "word_attn_weight": 0.09331779927015305
+        },
+        {
+          "token": "police",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": 0.03248051553964615,
+          "word_attn_weight": 0.09263557195663452
+        },
+        {
+          "token": "they",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.024959390982985497,
+          "word_attn_weight": 0.0919414609670639
+        },
+        {
+          "token": "themselves",
+          "token_pos": 7,
+          "quality": "content_word",
+          "word_score_logit": 0.023769397288560867,
+          "word_attn_weight": 0.09183210879564285
+        }
+      ],
+      [
+        {
+          "token": "and",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": 0.0740361139178276,
+          "word_attn_weight": 0.0501447468996048
+        },
+        {
+          "token": "professional",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.051553722470998764,
+          "word_attn_weight": 0.04902995005249977
+        },
+        {
+          "token": "dealers",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.04110391438007355,
+          "word_attn_weight": 0.04852026700973511
+        },
+        {
+          "token": "system",
+          "token_pos": 19,
+          "quality": "content_word",
+          "word_score_logit": 0.03596865385770798,
+          "word_attn_weight": 0.04827174171805382
+        },
+        {
+          "token": "also",
+          "token_pos": 15,
+          "quality": "content_word",
+          "word_score_logit": 0.02766561135649681,
+          "word_attn_weight": 0.047872599214315414
+        }
+      ],
+      [
+        {
+          "token": "if",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.03296440839767456,
+          "word_attn_weight": 0.06585752964019775
+        },
+        {
+          "token": "they",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.03213696926832199,
+          "word_attn_weight": 0.06580305844545364
+        },
+        {
+          "token": "are",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.011243841610848904,
+          "word_attn_weight": 0.06444248557090759
+        },
+        {
+          "token": "call",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.004126811400055885,
+          "word_attn_weight": 0.06398547440767288
+        },
+        {
+          "token": "they",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": -0.0016424870118498802,
+          "word_attn_weight": 0.06361738592386246
+        }
+      ],
+      [
+        {
+          "token": "degree",
+          "token_pos": 18,
+          "quality": "content_word",
+          "word_score_logit": 0.09596317261457443,
+          "word_attn_weight": 0.04289468005299568
+        },
+        {
+          "token": "if",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.06557086110115051,
+          "word_attn_weight": 0.04161062464118004
+        },
+        {
+          "token": "a",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": 0.06471792608499527,
+          "word_attn_weight": 0.04157514497637749
+        },
+        {
+          "token": "they",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.06317983567714691,
+          "word_attn_weight": 0.04151125252246857
+        },
+        {
+          "token": "murder",
+          "token_pos": 19,
+          "quality": "content_word",
+          "word_score_logit": 0.0444742888212204,
+          "word_attn_weight": 0.04074197635054588
+        }
+      ],
+      [
+        {
+          "token": "protection",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.11682163923978806,
+          "word_attn_weight": 0.06542589515447617
+        },
+        {
+          "token": "have",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.11175525188446045,
+          "word_attn_weight": 0.06509526073932648
+        },
+        {
+          "token": "and",
+          "token_pos": 9,
+          "quality": "stopword",
+          "word_score_logit": 0.10305533558130264,
+          "word_attn_weight": 0.06453139334917068
+        },
+        {
+          "token": "from",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": 0.10106724500656128,
+          "word_attn_weight": 0.0644032284617424
+        },
+        {
+          "token": "other",
+          "token_pos": 10,
+          "quality": "content_word",
+          "word_score_logit": 0.09474039077758789,
+          "word_attn_weight": 0.0639970451593399
+        }
+      ],
+      [
+        {
+          "token": "because",
+          "token_pos": 8,
+          "quality": "stopword",
+          "word_score_logit": 0.048010025173425674,
+          "word_attn_weight": 0.06066032126545906
+        },
+        {
+          "token": "raids",
+          "token_pos": 7,
+          "quality": "content_word",
+          "word_score_logit": 0.04483996704220772,
+          "word_attn_weight": 0.06046833097934723
+        },
+        {
+          "token": "the",
+          "token_pos": 9,
+          "quality": "stopword",
+          "word_score_logit": 0.03244747966527939,
+          "word_attn_weight": 0.05972360074520111
+        },
+        {
+          "token": "aware",
+          "token_pos": 12,
+          "quality": "content_word",
+          "word_score_logit": 0.029362710192799568,
+          "word_attn_weight": 0.05953964591026306
+        },
+        {
+          "token": "that",
+          "token_pos": 13,
+          "quality": "stopword",
+          "word_score_logit": 0.028843319043517113,
+          "word_attn_weight": 0.059508729726076126
+        }
+      ],
+      [
+        {
+          "token": "no",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.019338242709636688,
+          "word_attn_weight": 0.06552425026893616
+        },
+        {
+          "token": "knock",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.008614303544163704,
+          "word_attn_weight": 0.06482532620429993
+        },
+        {
+          "token": "raids",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.0021185860969126225,
+          "word_attn_weight": 0.06440560519695282
+        },
+        {
+          "token": "disaster",
+          "token_pos": 15,
+          "quality": "content_word",
+          "word_score_logit": -0.003155358135700226,
+          "word_attn_weight": 0.0640668272972107
+        },
+        {
+          "token": "in",
+          "token_pos": 14,
+          "quality": "stopword",
+          "word_score_logit": -0.01302751898765564,
+          "word_attn_weight": 0.06343746185302734
+        }
+      ],
+      [
+        {
+          "token": "citizen",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.05347011238336563,
+          "word_attn_weight": 0.034595463424921036
+        },
+        {
+          "token": "know",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.04244203120470047,
+          "word_attn_weight": 0.03421603515744209
+        },
+        {
+          "token": "any",
+          "token_pos": 10,
+          "quality": "content_word",
+          "word_score_logit": 0.03867707401514053,
+          "word_attn_weight": 0.03408745676279068
+        },
+        {
+          "token": "that",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.03304630517959595,
+          "word_attn_weight": 0.033896058797836304
+        },
+        {
+          "token": "they",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": 0.03243197500705719,
+          "word_attn_weight": 0.0338752418756485
+        }
+      ],
+      [
+        {
+          "token": "they",
+          "token_pos": 11,
+          "quality": "stopword",
+          "word_score_logit": 0.07427024841308594,
+          "word_attn_weight": 0.052114374935626984
+        },
+        {
+          "token": "because",
+          "token_pos": 10,
+          "quality": "stopword",
+          "word_score_logit": 0.07323623448610306,
+          "word_attn_weight": 0.05206051468849182
+        },
+        {
+          "token": "may",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": 0.06396330893039703,
+          "word_attn_weight": 0.05157998949289322
+        },
+        {
+          "token": "know",
+          "token_pos": 12,
+          "quality": "content_word",
+          "word_score_logit": 0.06084027141332626,
+          "word_attn_weight": 0.051419153809547424
+        },
+        {
+          "token": "that",
+          "token_pos": 13,
+          "quality": "stopword",
+          "word_score_logit": 0.051806412637233734,
+          "word_attn_weight": 0.050956737250089645
+        }
+      ],
+      [
+        {
+          "token": "may",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.013737175613641739,
+          "word_attn_weight": 0.20564591884613037
+        },
+        {
+          "token": "and",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": -0.005138053558766842,
+          "word_attn_weight": 0.20180070400238037
+        },
+        {
+          "token": "<UNK>",
+          "token_pos": 2,
+          "quality": "unk",
+          "word_score_logit": -0.012770527973771095,
+          "word_attn_weight": 0.20026633143424988
+        },
+        {
+          "token": "die",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": -0.023841511458158493,
+          "word_attn_weight": 0.19806142151355743
+        },
+        {
+          "token": "cops",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": -0.043398305773735046,
+          "word_attn_weight": 0.19422560930252075
+        }
+      ],
+      [
+        {
+          "token": "waco",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.11158838123083115,
+          "word_attn_weight": 0.03787564858794212
+        },
+        {
+          "token": "the",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.10498464107513428,
+          "word_attn_weight": 0.03762635216116905
+        },
+        {
+          "token": "first",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.10305709391832352,
+          "word_attn_weight": 0.03755389153957367
+        },
+        {
+          "token": "from",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": 0.09969358891248703,
+          "word_attn_weight": 0.03742779418826103
+        },
+        {
+          "token": "reports",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.0977739691734314,
+          "word_attn_weight": 0.03735601529479027
+        }
+      ]
+    ],
+    "top_sentence_id": 19,
+    "sentence_importance_distribution": [
+      0.03079458512365818,
+      0.0282213743776083,
+      0.025982214137911797,
+      0.021288519725203514,
+      0.019619986414909363,
+      0.027379851788282394,
+      0.020810388028621674,
+      0.01853068731725216,
+      0.01924583688378334,
+      0.02840634435415268,
+      0.03098715841770172,
+      0.024120818823575974,
+      0.08535771816968918,
+      0.20639804005622864,
+      0.06760705262422562,
+      0.06784754991531372,
+      0.019215360283851624,
+      0.027891525998711586,
+      0.019266491755843163,
+      0.21102853119373322
+    ]
+  }
+}

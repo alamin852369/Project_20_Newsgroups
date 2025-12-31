@@ -1,0 +1,149 @@
+{
+  "true_label_id": 0,
+  "pred_label_id": 0,
+  "true_label_name": "alt.atheism",
+  "pred_label_name": "alt.atheism",
+  "pred_confidence": 0.8416219353675842,
+  "num_sents": 1,
+  "sentence_summaries": [
+    {
+      "sentence_id": 0,
+      "sentence_text": "in a word yes",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "word",
+          "token_pos": 2,
+          "word_score_logit": 0.039897266775369644,
+          "word_attn_weight": 0.25342297554016113
+        },
+        {
+          "rank": 1,
+          "token": "in",
+          "token_pos": 0,
+          "word_score_logit": 0.02911280281841755,
+          "word_attn_weight": 0.25070464611053467
+        },
+        {
+          "rank": 2,
+          "token": "a",
+          "token_pos": 1,
+          "word_score_logit": 0.0249148178845644,
+          "word_attn_weight": 0.2496543973684311
+        },
+        {
+          "rank": 3,
+          "token": "yes",
+          "token_pos": 3,
+          "word_score_logit": 0.011054500006139278,
+          "word_attn_weight": 0.2462179809808731
+        },
+        {
+          "rank": 4,
+          "token": "<PAD>",
+          "token_pos": 4,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    }
+  ],
+  "query_summaries": [
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "word",
+      "token_pos": 2,
+      "word_score_logit": 0.039897266775369644,
+      "word_attn_weight": 0.25342297554016113,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 1.0,
+          "sentence_text": "in a word yes"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "in",
+      "token_pos": 0,
+      "word_score_logit": 0.02911280281841755,
+      "word_attn_weight": 0.25070464611053467,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 1.0,
+          "sentence_text": "in a word yes"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "a",
+      "token_pos": 1,
+      "word_score_logit": 0.0249148178845644,
+      "word_attn_weight": 0.2496543973684311,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 1.0,
+          "sentence_text": "in a word yes"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "yes",
+      "token_pos": 3,
+      "word_score_logit": 0.011054500006139278,
+      "word_attn_weight": 0.2462179809808731,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 1.0,
+          "sentence_text": "in a word yes"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "<PAD>",
+      "token_pos": 4,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 1.0,
+          "sentence_text": "in a word yes"
+        }
+      ]
+    }
+  ],
+  "sentence_importance_from_cross_attn": {
+    "definition": "mean cross-attn over queries",
+    "values": [
+      {
+        "sentence_id": 0,
+        "importance": 1.0
+      }
+    ],
+    "ranked": [
+      {
+        "sentence_id": 0,
+        "importance": 1.0
+      }
+    ]
+  },
+  "example_id": "test-3"
+}

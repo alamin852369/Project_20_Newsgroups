@@ -1,0 +1,423 @@
+{
+  "true_label_id": 0,
+  "pred_label_id": 15,
+  "true_label_name": "alt.atheism",
+  "pred_label_name": "soc.religion.christian",
+  "pred_confidence": 0.8346683382987976,
+  "num_sents": 20,
+  "top_sentences": [
+    {
+      "sentence_id": 9,
+      "importance": 0.21953099966049194,
+      "sentence_text": "gather as many bibles as you can and hide them soon after the <UNK> becomes the leader of the european community the <UNK> roman empire bibles will be confiscated and owning a bible will be <UNK> to treason",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "as",
+          "token_pos": 1,
+          "word_score_logit": -0.004315568134188652,
+          "word_attn_weight": 0.027854369953274727
+        },
+        {
+          "rank": 1,
+          "token": "as",
+          "token_pos": 4,
+          "word_score_logit": -0.006026081740856171,
+          "word_attn_weight": 0.02780676633119583
+        },
+        {
+          "rank": 2,
+          "token": "can",
+          "token_pos": 6,
+          "word_score_logit": -0.025464124977588654,
+          "word_attn_weight": 0.02727147750556469
+        },
+        {
+          "rank": 3,
+          "token": "soon",
+          "token_pos": 10,
+          "word_score_logit": -0.032832786440849304,
+          "word_attn_weight": 0.027071259915828705
+        },
+        {
+          "rank": 4,
+          "token": "to",
+          "token_pos": 36,
+          "word_score_logit": -0.03375823795795441,
+          "word_attn_weight": 0.027046218514442444
+        }
+      ]
+    },
+    {
+      "sentence_id": 15,
+      "importance": 0.15886373817920685,
+      "sentence_text": "pray like you have never prayed before in your life pray until the power of god comes strongly upon you pray and pray and pray",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "of",
+          "token_pos": 14,
+          "word_score_logit": -0.017924170941114426,
+          "word_attn_weight": 0.04143659025430679
+        },
+        {
+          "rank": 1,
+          "token": "power",
+          "token_pos": 13,
+          "word_score_logit": -0.019405487924814224,
+          "word_attn_weight": 0.041375260800123215
+        },
+        {
+          "rank": 2,
+          "token": "god",
+          "token_pos": 15,
+          "word_score_logit": -0.022727258503437042,
+          "word_attn_weight": 0.04123804718255997
+        },
+        {
+          "rank": 3,
+          "token": "comes",
+          "token_pos": 16,
+          "word_score_logit": -0.026575181633234024,
+          "word_attn_weight": 0.04107966646552086
+        },
+        {
+          "rank": 4,
+          "token": "and",
+          "token_pos": 23,
+          "word_score_logit": -0.02778637409210205,
+          "word_attn_weight": 0.04102994129061699
+        }
+      ]
+    },
+    {
+      "sentence_id": 16,
+      "importance": 0.14915980398654938,
+      "sentence_text": "only by reading the word and praying will you gain the spiritual strength to be able to withstand the torture you may have to endure for the sake of christ",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "be",
+          "token_pos": 14,
+          "word_score_logit": 0.01085476391017437,
+          "word_attn_weight": 0.034976642578840256
+        },
+        {
+          "rank": 1,
+          "token": "able",
+          "token_pos": 15,
+          "word_score_logit": 0.009231030009686947,
+          "word_attn_weight": 0.034919898957014084
+        },
+        {
+          "rank": 2,
+          "token": "to",
+          "token_pos": 16,
+          "word_score_logit": -0.001969859004020691,
+          "word_attn_weight": 0.03453094884753227
+        },
+        {
+          "rank": 3,
+          "token": "to",
+          "token_pos": 13,
+          "word_score_logit": -0.00979703664779663,
+          "word_attn_weight": 0.03426171839237213
+        },
+        {
+          "rank": 4,
+          "token": "withstand",
+          "token_pos": 17,
+          "word_score_logit": -0.011232255026698112,
+          "word_attn_weight": 0.03421258181333542
+        }
+      ]
+    },
+    {
+      "sentence_id": 10,
+      "importance": 0.0414644330739975,
+      "sentence_text": "the bible however will be your most valuable possession during the <UNK>",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "possession",
+          "token_pos": 8,
+          "word_score_logit": 0.046509452164173126,
+          "word_attn_weight": 0.08586933463811874
+        },
+        {
+          "rank": 1,
+          "token": "during",
+          "token_pos": 9,
+          "word_score_logit": 0.04189635440707207,
+          "word_attn_weight": 0.08547411859035492
+        },
+        {
+          "rank": 2,
+          "token": "the",
+          "token_pos": 0,
+          "word_score_logit": 0.027797933667898178,
+          "word_attn_weight": 0.08427752554416656
+        },
+        {
+          "rank": 3,
+          "token": "the",
+          "token_pos": 10,
+          "word_score_logit": 0.02519289031624794,
+          "word_attn_weight": 0.0840582624077797
+        },
+        {
+          "rank": 4,
+          "token": "most",
+          "token_pos": 6,
+          "word_score_logit": 0.01960064470767975,
+          "word_attn_weight": 0.08358950167894363
+        }
+      ]
+    },
+    {
+      "sentence_id": 18,
+      "importance": 0.04112987965345383,
+      "sentence_text": "do not take the mark at any cost even in fit means you and your loved ones die as martyrs after the <UNK> becomes the leader of the european community he will institute a world economic system designed so that you cannot buy sell or eat unless you take his",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "his",
+          "token_pos": 49,
+          "word_score_logit": 0.05716647952795029,
+          "word_attn_weight": 0.021146198734641075
+        },
+        {
+          "rank": 1,
+          "token": "unless",
+          "token_pos": 46,
+          "word_score_logit": 0.05601911619305611,
+          "word_attn_weight": 0.021121950820088387
+        },
+        {
+          "rank": 2,
+          "token": "designed",
+          "token_pos": 37,
+          "word_score_logit": 0.053592003881931305,
+          "word_attn_weight": 0.021070748567581177
+        },
+        {
+          "rank": 3,
+          "token": "or",
+          "token_pos": 44,
+          "word_score_logit": 0.05269528925418854,
+          "word_attn_weight": 0.021051861345767975
+        },
+        {
+          "rank": 4,
+          "token": "that",
+          "token_pos": 39,
+          "word_score_logit": 0.04317954555153847,
+          "word_attn_weight": 0.02085248753428459
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 45,
+      "from_sentence_id": 9,
+      "token": "as",
+      "token_pos": 1,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 15,
+          "attn_weight": 0.5367331504821777,
+          "sentence_text": "pray like you have never prayed before in your life pray until the power of god comes strongly upon you pray and pray and pray"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 16,
+          "attn_weight": 0.30721354484558105,
+          "sentence_text": "only by reading the word and praying will you gain the spiritual strength to be able to withstand the torture you may have to endure for the sake of christ"
+        }
+      ]
+    },
+    {
+      "query_id": 46,
+      "from_sentence_id": 9,
+      "token": "as",
+      "token_pos": 4,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 15,
+          "attn_weight": 0.4969996511936188,
+          "sentence_text": "pray like you have never prayed before in your life pray until the power of god comes strongly upon you pray and pray and pray"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 16,
+          "attn_weight": 0.32347142696380615,
+          "sentence_text": "only by reading the word and praying will you gain the spiritual strength to be able to withstand the torture you may have to endure for the sake of christ"
+        }
+      ]
+    },
+    {
+      "query_id": 47,
+      "from_sentence_id": 9,
+      "token": "can",
+      "token_pos": 6,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 15,
+          "attn_weight": 0.48533040285110474,
+          "sentence_text": "pray like you have never prayed before in your life pray until the power of god comes strongly upon you pray and pray and pray"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 16,
+          "attn_weight": 0.3091341257095337,
+          "sentence_text": "only by reading the word and praying will you gain the spiritual strength to be able to withstand the torture you may have to endure for the sake of christ"
+        }
+      ]
+    },
+    {
+      "query_id": 48,
+      "from_sentence_id": 9,
+      "token": "soon",
+      "token_pos": 10,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 15,
+          "attn_weight": 0.5354056358337402,
+          "sentence_text": "pray like you have never prayed before in your life pray until the power of god comes strongly upon you pray and pray and pray"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 16,
+          "attn_weight": 0.29659825563430786,
+          "sentence_text": "only by reading the word and praying will you gain the spiritual strength to be able to withstand the torture you may have to endure for the sake of christ"
+        }
+      ]
+    },
+    {
+      "query_id": 49,
+      "from_sentence_id": 9,
+      "token": "to",
+      "token_pos": 36,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 9,
+          "attn_weight": 0.4922078251838684,
+          "sentence_text": "gather as many bibles as you can and hide them soon after the <UNK> becomes the leader of the european community the <UNK> roman empire bibles will be confiscated and owning a bible will be <UNK> to treason"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 16,
+          "attn_weight": 0.2275451272726059,
+          "sentence_text": "only by reading the word and praying will you gain the spiritual strength to be able to withstand the torture you may have to endure for the sake of christ"
+        }
+      ]
+    },
+    {
+      "query_id": 75,
+      "from_sentence_id": 15,
+      "token": "of",
+      "token_pos": 14,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 15,
+          "attn_weight": 0.6070689558982849,
+          "sentence_text": "pray like you have never prayed before in your life pray until the power of god comes strongly upon you pray and pray and pray"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 16,
+          "attn_weight": 0.3043386936187744,
+          "sentence_text": "only by reading the word and praying will you gain the spiritual strength to be able to withstand the torture you may have to endure for the sake of christ"
+        }
+      ]
+    },
+    {
+      "query_id": 76,
+      "from_sentence_id": 15,
+      "token": "power",
+      "token_pos": 13,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 15,
+          "attn_weight": 0.587431013584137,
+          "sentence_text": "pray like you have never prayed before in your life pray until the power of god comes strongly upon you pray and pray and pray"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 16,
+          "attn_weight": 0.2864282429218292,
+          "sentence_text": "only by reading the word and praying will you gain the spiritual strength to be able to withstand the torture you may have to endure for the sake of christ"
+        }
+      ]
+    },
+    {
+      "query_id": 77,
+      "from_sentence_id": 15,
+      "token": "god",
+      "token_pos": 15,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 15,
+          "attn_weight": 0.6134985685348511,
+          "sentence_text": "pray like you have never prayed before in your life pray until the power of god comes strongly upon you pray and pray and pray"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 16,
+          "attn_weight": 0.30810511112213135,
+          "sentence_text": "only by reading the word and praying will you gain the spiritual strength to be able to withstand the torture you may have to endure for the sake of christ"
+        }
+      ]
+    },
+    {
+      "query_id": 78,
+      "from_sentence_id": 15,
+      "token": "comes",
+      "token_pos": 16,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 15,
+          "attn_weight": 0.5417974591255188,
+          "sentence_text": "pray like you have never prayed before in your life pray until the power of god comes strongly upon you pray and pray and pray"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 16,
+          "attn_weight": 0.3162861466407776,
+          "sentence_text": "only by reading the word and praying will you gain the spiritual strength to be able to withstand the torture you may have to endure for the sake of christ"
+        }
+      ]
+    },
+    {
+      "query_id": 79,
+      "from_sentence_id": 15,
+      "token": "and",
+      "token_pos": 23,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 15,
+          "attn_weight": 0.29387909173965454,
+          "sentence_text": "pray like you have never prayed before in your life pray until the power of god comes strongly upon you pray and pray and pray"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 16,
+          "attn_weight": 0.2653616964817047,
+          "sentence_text": "only by reading the word and praying will you gain the spiritual strength to be able to withstand the torture you may have to endure for the sake of christ"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_3414"
+}

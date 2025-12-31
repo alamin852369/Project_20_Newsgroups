@@ -1,0 +1,423 @@
+{
+  "true_label_id": 4,
+  "pred_label_id": 12,
+  "true_label_name": "comp.sys.mac.hardware",
+  "pred_label_name": "sci.electronics",
+  "pred_confidence": 0.8743409514427185,
+  "num_sents": 6,
+  "top_sentences": [
+    {
+      "sentence_id": 2,
+      "importance": 0.24097616970539093,
+      "sentence_text": "i use it as an all purpose alarm clock <UNK> i've got routines that run in the middle of the night phone calls it makes during the day when i'm out",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "clock",
+          "token_pos": 8,
+          "word_score_logit": 0.1060914695262909,
+          "word_attn_weight": 0.034523867070674896
+        },
+        {
+          "rank": 1,
+          "token": "use",
+          "token_pos": 1,
+          "word_score_logit": 0.08738648146390915,
+          "word_attn_weight": 0.03388410061597824
+        },
+        {
+          "rank": 2,
+          "token": "in",
+          "token_pos": 15,
+          "word_score_logit": 0.07021258026361465,
+          "word_attn_weight": 0.03330714628100395
+        },
+        {
+          "rank": 3,
+          "token": "alarm",
+          "token_pos": 7,
+          "word_score_logit": 0.06991563737392426,
+          "word_attn_weight": 0.033297255635261536
+        },
+        {
+          "rank": 4,
+          "token": "the",
+          "token_pos": 16,
+          "word_score_logit": 0.06682172417640686,
+          "word_attn_weight": 0.033194396644830704
+        }
+      ]
+    },
+    {
+      "sentence_id": 5,
+      "importance": 0.20855320990085602,
+      "sentence_text": "heck i suppose i could even connect the microwave and have dinner ready when i get there",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "and",
+          "token_pos": 9,
+          "word_score_logit": 0.03416953980922699,
+          "word_attn_weight": 0.06027925759553909
+        },
+        {
+          "rank": 1,
+          "token": "have",
+          "token_pos": 10,
+          "word_score_logit": 0.023200394585728645,
+          "word_attn_weight": 0.0596216581761837
+        },
+        {
+          "rank": 2,
+          "token": "there",
+          "token_pos": 16,
+          "word_score_logit": 0.01963925175368786,
+          "word_attn_weight": 0.05940971150994301
+        },
+        {
+          "rank": 3,
+          "token": "connect",
+          "token_pos": 6,
+          "word_score_logit": 0.01795136369764805,
+          "word_attn_weight": 0.059309523552656174
+        },
+        {
+          "rank": 4,
+          "token": "microwave",
+          "token_pos": 8,
+          "word_score_logit": 0.014010017737746239,
+          "word_attn_weight": 0.0590762197971344
+        }
+      ]
+    },
+    {
+      "sentence_id": 4,
+      "importance": 0.1700761914253235,
+      "sentence_text": "i could call it from work and download a file that i might need i could call it from work and have it turn the lights on if i'm going to be late oops more wasted electricity but conversely i could have it turn the lights off",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "conversely",
+          "token_pos": 38,
+          "word_score_logit": 0.05548914521932602,
+          "word_attn_weight": 0.022320814430713654
+        },
+        {
+          "rank": 1,
+          "token": "off",
+          "token_pos": 46,
+          "word_score_logit": 0.051091618835926056,
+          "word_attn_weight": 0.02222287468612194
+        },
+        {
+          "rank": 2,
+          "token": "lights",
+          "token_pos": 45,
+          "word_score_logit": 0.04965951293706894,
+          "word_attn_weight": 0.022191070020198822
+        },
+        {
+          "rank": 3,
+          "token": "could",
+          "token_pos": 40,
+          "word_score_logit": 0.042864393442869186,
+          "word_attn_weight": 0.02204079180955887
+        },
+        {
+          "rank": 4,
+          "token": "have",
+          "token_pos": 41,
+          "word_score_logit": 0.04272250086069107,
+          "word_attn_weight": 0.02203766442835331
+        }
+      ]
+    },
+    {
+      "sentence_id": 3,
+      "importance": 0.14407207071781158,
+      "sentence_text": "if your machine is on 24 hours a day then you can count on it to be working 24 hours a day",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "machine",
+          "token_pos": 2,
+          "word_score_logit": 0.040746401995420456,
+          "word_attn_weight": 0.04737887531518936
+        },
+        {
+          "rank": 1,
+          "token": "if",
+          "token_pos": 0,
+          "word_score_logit": 0.025025948882102966,
+          "word_attn_weight": 0.046639882028102875
+        },
+        {
+          "rank": 2,
+          "token": "is",
+          "token_pos": 3,
+          "word_score_logit": 0.022457316517829895,
+          "word_attn_weight": 0.046520233154296875
+        },
+        {
+          "rank": 3,
+          "token": "24",
+          "token_pos": 18,
+          "word_score_logit": 0.014532199129462242,
+          "word_attn_weight": 0.04615301266312599
+        },
+        {
+          "rank": 4,
+          "token": "24",
+          "token_pos": 5,
+          "word_score_logit": 0.013620691373944283,
+          "word_attn_weight": 0.04611096531152725
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "importance": 0.13096314668655396,
+      "sentence_text": "my machine is on 24 hours a day but it's actually doing things 24 hours a day",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "machine",
+          "token_pos": 1,
+          "word_score_logit": 0.041739486157894135,
+          "word_attn_weight": 0.06120109558105469
+        },
+        {
+          "rank": 1,
+          "token": "is",
+          "token_pos": 2,
+          "word_score_logit": 0.01781409978866577,
+          "word_attn_weight": 0.05975421518087387
+        },
+        {
+          "rank": 2,
+          "token": "24",
+          "token_pos": 4,
+          "word_score_logit": 0.011336339637637138,
+          "word_attn_weight": 0.05936839058995247
+        },
+        {
+          "rank": 3,
+          "token": "my",
+          "token_pos": 0,
+          "word_score_logit": 0.011153008788824081,
+          "word_attn_weight": 0.05935750529170036
+        },
+        {
+          "rank": 4,
+          "token": "24",
+          "token_pos": 13,
+          "word_score_logit": 0.0089090745896101,
+          "word_attn_weight": 0.059224460273981094
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 10,
+      "from_sentence_id": 2,
+      "token": "clock",
+      "token_pos": 8,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.2705332040786743,
+          "sentence_text": "i use it as an all purpose alarm clock <UNK> i've got routines that run in the middle of the night phone calls it makes during the day when i'm out"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.2639314532279968,
+          "sentence_text": "heck i suppose i could even connect the microwave and have dinner ready when i get there"
+        }
+      ]
+    },
+    {
+      "query_id": 11,
+      "from_sentence_id": 2,
+      "token": "use",
+      "token_pos": 1,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.2584545612335205,
+          "sentence_text": "i use it as an all purpose alarm clock <UNK> i've got routines that run in the middle of the night phone calls it makes during the day when i'm out"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.23391586542129517,
+          "sentence_text": "heck i suppose i could even connect the microwave and have dinner ready when i get there"
+        }
+      ]
+    },
+    {
+      "query_id": 12,
+      "from_sentence_id": 2,
+      "token": "in",
+      "token_pos": 15,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.29513299465179443,
+          "sentence_text": "i use it as an all purpose alarm clock <UNK> i've got routines that run in the middle of the night phone calls it makes during the day when i'm out"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.1766018271446228,
+          "sentence_text": "if your machine is on 24 hours a day then you can count on it to be working 24 hours a day"
+        }
+      ]
+    },
+    {
+      "query_id": 13,
+      "from_sentence_id": 2,
+      "token": "alarm",
+      "token_pos": 7,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.29221010208129883,
+          "sentence_text": "i use it as an all purpose alarm clock <UNK> i've got routines that run in the middle of the night phone calls it makes during the day when i'm out"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.24779346585273743,
+          "sentence_text": "heck i suppose i could even connect the microwave and have dinner ready when i get there"
+        }
+      ]
+    },
+    {
+      "query_id": 14,
+      "from_sentence_id": 2,
+      "token": "the",
+      "token_pos": 16,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.30315297842025757,
+          "sentence_text": "i use it as an all purpose alarm clock <UNK> i've got routines that run in the middle of the night phone calls it makes during the day when i'm out"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.17772772908210754,
+          "sentence_text": "if your machine is on 24 hours a day then you can count on it to be working 24 hours a day"
+        }
+      ]
+    },
+    {
+      "query_id": 25,
+      "from_sentence_id": 5,
+      "token": "and",
+      "token_pos": 9,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.26935869455337524,
+          "sentence_text": "i use it as an all purpose alarm clock <UNK> i've got routines that run in the middle of the night phone calls it makes during the day when i'm out"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.21305562555789948,
+          "sentence_text": "heck i suppose i could even connect the microwave and have dinner ready when i get there"
+        }
+      ]
+    },
+    {
+      "query_id": 26,
+      "from_sentence_id": 5,
+      "token": "have",
+      "token_pos": 10,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.28005045652389526,
+          "sentence_text": "i use it as an all purpose alarm clock <UNK> i've got routines that run in the middle of the night phone calls it makes during the day when i'm out"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.20757097005844116,
+          "sentence_text": "heck i suppose i could even connect the microwave and have dinner ready when i get there"
+        }
+      ]
+    },
+    {
+      "query_id": 27,
+      "from_sentence_id": 5,
+      "token": "there",
+      "token_pos": 16,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.23760542273521423,
+          "sentence_text": "i use it as an all purpose alarm clock <UNK> i've got routines that run in the middle of the night phone calls it makes during the day when i'm out"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.20144498348236084,
+          "sentence_text": "heck i suppose i could even connect the microwave and have dinner ready when i get there"
+        }
+      ]
+    },
+    {
+      "query_id": 28,
+      "from_sentence_id": 5,
+      "token": "connect",
+      "token_pos": 6,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 5,
+          "attn_weight": 0.3053029179573059,
+          "sentence_text": "heck i suppose i could even connect the microwave and have dinner ready when i get there"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 4,
+          "attn_weight": 0.2443048059940338,
+          "sentence_text": "i could call it from work and download a file that i might need i could call it from work and have it turn the lights on if i'm going to be late oops more wasted electricity but conversely i could have it turn the lights off"
+        }
+      ]
+    },
+    {
+      "query_id": 29,
+      "from_sentence_id": 5,
+      "token": "microwave",
+      "token_pos": 8,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.31100574135780334,
+          "sentence_text": "i use it as an all purpose alarm clock <UNK> i've got routines that run in the middle of the night phone calls it makes during the day when i'm out"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.28577253222465515,
+          "sentence_text": "heck i suppose i could even connect the microwave and have dinner ready when i get there"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_6972"
+}

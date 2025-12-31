@@ -1,0 +1,339 @@
+{
+  "true_label_id": 0,
+  "pred_label_id": 14,
+  "true_label_name": "alt.atheism",
+  "pred_label_name": "sci.space",
+  "pred_confidence": 0.18373405933380127,
+  "num_sents": 3,
+  "top_sentences": [
+    {
+      "sentence_id": 2,
+      "importance": 0.42155373096466064,
+      "sentence_text": "for some reason no flames please i was reminded of <UNK> carl <UNK> and van <UNK> not all at once though",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "no",
+          "token_pos": 3,
+          "word_score_logit": 0.060597412288188934,
+          "word_attn_weight": 0.049318648874759674
+        },
+        {
+          "rank": 1,
+          "token": "reason",
+          "token_pos": 2,
+          "word_score_logit": 0.05529807507991791,
+          "word_attn_weight": 0.0490579828619957
+        },
+        {
+          "rank": 2,
+          "token": "carl",
+          "token_pos": 11,
+          "word_score_logit": 0.05063435062766075,
+          "word_attn_weight": 0.04882972314953804
+        },
+        {
+          "rank": 3,
+          "token": "please",
+          "token_pos": 5,
+          "word_score_logit": 0.04133223369717598,
+          "word_attn_weight": 0.04837761074304581
+        },
+        {
+          "rank": 4,
+          "token": "though",
+          "token_pos": 20,
+          "word_score_logit": 0.03974336385726929,
+          "word_attn_weight": 0.04830080270767212
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "importance": 0.3014238476753235,
+      "sentence_text": "i found it wonderful",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "found",
+          "token_pos": 1,
+          "word_score_logit": 0.00977543368935585,
+          "word_attn_weight": 0.2540438175201416
+        },
+        {
+          "rank": 1,
+          "token": "it",
+          "token_pos": 2,
+          "word_score_logit": -0.004253599792718887,
+          "word_attn_weight": 0.250504732131958
+        },
+        {
+          "rank": 2,
+          "token": "i",
+          "token_pos": 0,
+          "word_score_logit": -0.00819232314825058,
+          "word_attn_weight": 0.2495199590921402
+        },
+        {
+          "rank": 3,
+          "token": "wonderful",
+          "token_pos": 3,
+          "word_score_logit": -0.022678164765238762,
+          "word_attn_weight": 0.24593153595924377
+        },
+        {
+          "rank": 4,
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    },
+    {
+      "sentence_id": 0,
+      "importance": 0.27702251076698303,
+      "sentence_text": "i read it",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "i",
+          "token_pos": 0,
+          "word_score_logit": 0.01084175892174244,
+          "word_attn_weight": 0.3362702429294586
+        },
+        {
+          "rank": 1,
+          "token": "read",
+          "token_pos": 1,
+          "word_score_logit": 0.00028360821306705475,
+          "word_attn_weight": 0.3327385187149048
+        },
+        {
+          "rank": 2,
+          "token": "it",
+          "token_pos": 2,
+          "word_score_logit": -0.004981339909136295,
+          "word_attn_weight": 0.330991268157959
+        },
+        {
+          "rank": 3,
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 4,
+          "token": "<PAD/OUT>",
+          "token_pos": 3,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 10,
+      "from_sentence_id": 2,
+      "token": "no",
+      "token_pos": 3,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.4764227867126465,
+          "sentence_text": "for some reason no flames please i was reminded of <UNK> carl <UNK> and van <UNK> not all at once though"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.2623658776283264,
+          "sentence_text": "i found it wonderful"
+        }
+      ]
+    },
+    {
+      "query_id": 11,
+      "from_sentence_id": 2,
+      "token": "reason",
+      "token_pos": 2,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.4855949580669403,
+          "sentence_text": "for some reason no flames please i was reminded of <UNK> carl <UNK> and van <UNK> not all at once though"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.2594742178916931,
+          "sentence_text": "i found it wonderful"
+        }
+      ]
+    },
+    {
+      "query_id": 12,
+      "from_sentence_id": 2,
+      "token": "carl",
+      "token_pos": 11,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.44888901710510254,
+          "sentence_text": "for some reason no flames please i was reminded of <UNK> carl <UNK> and van <UNK> not all at once though"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.29300808906555176,
+          "sentence_text": "i found it wonderful"
+        }
+      ]
+    },
+    {
+      "query_id": 13,
+      "from_sentence_id": 2,
+      "token": "please",
+      "token_pos": 5,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.449658066034317,
+          "sentence_text": "for some reason no flames please i was reminded of <UNK> carl <UNK> and van <UNK> not all at once though"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.2852447032928467,
+          "sentence_text": "i found it wonderful"
+        }
+      ]
+    },
+    {
+      "query_id": 14,
+      "from_sentence_id": 2,
+      "token": "though",
+      "token_pos": 20,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.45077699422836304,
+          "sentence_text": "for some reason no flames please i was reminded of <UNK> carl <UNK> and van <UNK> not all at once though"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.2904120683670044,
+          "sentence_text": "i found it wonderful"
+        }
+      ]
+    },
+    {
+      "query_id": 5,
+      "from_sentence_id": 1,
+      "token": "found",
+      "token_pos": 1,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.41985994577407837,
+          "sentence_text": "for some reason no flames please i was reminded of <UNK> carl <UNK> and van <UNK> not all at once though"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.3109726309776306,
+          "sentence_text": "i found it wonderful"
+        }
+      ]
+    },
+    {
+      "query_id": 6,
+      "from_sentence_id": 1,
+      "token": "it",
+      "token_pos": 2,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.4099343419075012,
+          "sentence_text": "for some reason no flames please i was reminded of <UNK> carl <UNK> and van <UNK> not all at once though"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.31264808773994446,
+          "sentence_text": "i found it wonderful"
+        }
+      ]
+    },
+    {
+      "query_id": 7,
+      "from_sentence_id": 1,
+      "token": "i",
+      "token_pos": 0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.42147526144981384,
+          "sentence_text": "for some reason no flames please i was reminded of <UNK> carl <UNK> and van <UNK> not all at once though"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.3103124499320984,
+          "sentence_text": "i found it wonderful"
+        }
+      ]
+    },
+    {
+      "query_id": 8,
+      "from_sentence_id": 1,
+      "token": "wonderful",
+      "token_pos": 3,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.3912159502506256,
+          "sentence_text": "for some reason no flames please i was reminded of <UNK> carl <UNK> and van <UNK> not all at once though"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.318419486284256,
+          "sentence_text": "i found it wonderful"
+        }
+      ]
+    },
+    {
+      "query_id": 9,
+      "from_sentence_id": 1,
+      "token": "<PAD/OUT>",
+      "token_pos": 4,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.3752216398715973,
+          "sentence_text": "for some reason no flames please i was reminded of <UNK> carl <UNK> and van <UNK> not all at once though"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.3188473880290985,
+          "sentence_text": "i found it wonderful"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_694"
+}

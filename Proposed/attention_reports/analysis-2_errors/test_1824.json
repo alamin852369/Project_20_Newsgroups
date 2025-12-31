@@ -1,0 +1,423 @@
+{
+  "true_label_id": 6,
+  "pred_label_id": 16,
+  "true_label_name": "misc.forsale",
+  "pred_label_name": "talk.politics.guns",
+  "pred_confidence": 0.18032799661159515,
+  "num_sents": 15,
+  "top_sentences": [
+    {
+      "sentence_id": 13,
+      "importance": 0.13495516777038574,
+      "sentence_text": "inspiration comes to o baden sys6626 bison mb ca those who baden inqmind bison mb ca seek the baden de bari unknown",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "mb",
+          "token_pos": 7,
+          "word_score_logit": 0.09222545474767685,
+          "word_attn_weight": 0.047483690083026886
+        },
+        {
+          "rank": 1,
+          "token": "baden",
+          "token_pos": 4,
+          "word_score_logit": 0.07872002571821213,
+          "word_attn_weight": 0.04684671387076378
+        },
+        {
+          "rank": 2,
+          "token": "ca",
+          "token_pos": 8,
+          "word_score_logit": 0.07832115143537521,
+          "word_attn_weight": 0.04682803526520729
+        },
+        {
+          "rank": 3,
+          "token": "baden",
+          "token_pos": 18,
+          "word_score_logit": 0.07679068297147751,
+          "word_attn_weight": 0.04675642028450966
+        },
+        {
+          "rank": 4,
+          "token": "mb",
+          "token_pos": 14,
+          "word_score_logit": 0.06826891005039215,
+          "word_attn_weight": 0.04635966569185257
+        }
+      ]
+    },
+    {
+      "sentence_id": 6,
+      "importance": 0.08766274154186249,
+      "sentence_text": "what you can do is contact the local authorities in arizona where this <UNK> resides inform them of the situation if you have proof of the transaction that would also help and they should be able to take it from there",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "contact",
+          "token_pos": 5,
+          "word_score_logit": 0.10379538685083389,
+          "word_attn_weight": 0.02625417709350586
+        },
+        {
+          "rank": 1,
+          "token": "arizona",
+          "token_pos": 10,
+          "word_score_logit": 0.10281006246805191,
+          "word_attn_weight": 0.026228321716189384
+        },
+        {
+          "rank": 2,
+          "token": "the",
+          "token_pos": 6,
+          "word_score_logit": 0.0753120481967926,
+          "word_attn_weight": 0.025516921654343605
+        },
+        {
+          "rank": 3,
+          "token": "in",
+          "token_pos": 9,
+          "word_score_logit": 0.06707055121660233,
+          "word_attn_weight": 0.025307487696409225
+        },
+        {
+          "rank": 4,
+          "token": "local",
+          "token_pos": 7,
+          "word_score_logit": 0.0639396607875824,
+          "word_attn_weight": 0.025228377431631088
+        }
+      ]
+    },
+    {
+      "sentence_id": 8,
+      "importance": 0.07335290312767029,
+      "sentence_text": "don't think that just because you have never met he cannot be prosecuted",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "he",
+          "token_pos": 9,
+          "word_score_logit": 0.03403124958276749,
+          "word_attn_weight": 0.07847098261117935
+        },
+        {
+          "rank": 1,
+          "token": "cannot",
+          "token_pos": 10,
+          "word_score_logit": 0.023187559098005295,
+          "word_attn_weight": 0.07762465626001358
+        },
+        {
+          "rank": 2,
+          "token": "because",
+          "token_pos": 4,
+          "word_score_logit": 0.020218078047037125,
+          "word_attn_weight": 0.077394500374794
+        },
+        {
+          "rank": 3,
+          "token": "never",
+          "token_pos": 7,
+          "word_score_logit": 0.01760849542915821,
+          "word_attn_weight": 0.07719279080629349
+        },
+        {
+          "rank": 4,
+          "token": "met",
+          "token_pos": 8,
+          "word_score_logit": 0.017220064997673035,
+          "word_attn_weight": 0.07716280966997147
+        }
+      ]
+    },
+    {
+      "sentence_id": 3,
+      "importance": 0.0662347823381424,
+      "sentence_text": "<UNK>",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "<UNK>",
+          "token_pos": 0,
+          "word_score_logit": 0.0027645956724882126,
+          "word_attn_weight": 1.0
+        },
+        {
+          "rank": 1,
+          "token": "<PAD/OUT>",
+          "token_pos": 3,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 2,
+          "token": "<PAD/OUT>",
+          "token_pos": 1,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 3,
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 4,
+          "token": "<PAD/OUT>",
+          "token_pos": 2,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    },
+    {
+      "sentence_id": 4,
+      "importance": 0.0662347823381424,
+      "sentence_text": "<UNK>",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "<UNK>",
+          "token_pos": 0,
+          "word_score_logit": 0.0027645956724882126,
+          "word_attn_weight": 1.0
+        },
+        {
+          "rank": 1,
+          "token": "<PAD/OUT>",
+          "token_pos": 3,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 2,
+          "token": "<PAD/OUT>",
+          "token_pos": 1,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 3,
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 4,
+          "token": "<PAD/OUT>",
+          "token_pos": 2,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 65,
+      "from_sentence_id": 13,
+      "token": "mb",
+      "token_pos": 7,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.5693666934967041,
+          "sentence_text": "inspiration comes to o baden sys6626 bison mb ca those who baden inqmind bison mb ca seek the baden de bari unknown"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 6,
+          "attn_weight": 0.053936030715703964,
+          "sentence_text": "what you can do is contact the local authorities in arizona where this <UNK> resides inform them of the situation if you have proof of the transaction that would also help and they should be able to take it from there"
+        }
+      ]
+    },
+    {
+      "query_id": 66,
+      "from_sentence_id": 13,
+      "token": "baden",
+      "token_pos": 4,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.37949317693710327,
+          "sentence_text": "inspiration comes to o baden sys6626 bison mb ca those who baden inqmind bison mb ca seek the baden de bari unknown"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 6,
+          "attn_weight": 0.076504647731781,
+          "sentence_text": "what you can do is contact the local authorities in arizona where this <UNK> resides inform them of the situation if you have proof of the transaction that would also help and they should be able to take it from there"
+        }
+      ]
+    },
+    {
+      "query_id": 67,
+      "from_sentence_id": 13,
+      "token": "ca",
+      "token_pos": 8,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.4537336826324463,
+          "sentence_text": "inspiration comes to o baden sys6626 bison mb ca those who baden inqmind bison mb ca seek the baden de bari unknown"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 6,
+          "attn_weight": 0.07925544679164886,
+          "sentence_text": "what you can do is contact the local authorities in arizona where this <UNK> resides inform them of the situation if you have proof of the transaction that would also help and they should be able to take it from there"
+        }
+      ]
+    },
+    {
+      "query_id": 68,
+      "from_sentence_id": 13,
+      "token": "baden",
+      "token_pos": 18,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.2951948642730713,
+          "sentence_text": "inspiration comes to o baden sys6626 bison mb ca those who baden inqmind bison mb ca seek the baden de bari unknown"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 6,
+          "attn_weight": 0.0826273113489151,
+          "sentence_text": "what you can do is contact the local authorities in arizona where this <UNK> resides inform them of the situation if you have proof of the transaction that would also help and they should be able to take it from there"
+        }
+      ]
+    },
+    {
+      "query_id": 69,
+      "from_sentence_id": 13,
+      "token": "mb",
+      "token_pos": 14,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.4805096685886383,
+          "sentence_text": "inspiration comes to o baden sys6626 bison mb ca those who baden inqmind bison mb ca seek the baden de bari unknown"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 6,
+          "attn_weight": 0.052397120743989944,
+          "sentence_text": "what you can do is contact the local authorities in arizona where this <UNK> resides inform them of the situation if you have proof of the transaction that would also help and they should be able to take it from there"
+        }
+      ]
+    },
+    {
+      "query_id": 30,
+      "from_sentence_id": 6,
+      "token": "contact",
+      "token_pos": 5,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.1933717429637909,
+          "sentence_text": "inspiration comes to o baden sys6626 bison mb ca those who baden inqmind bison mb ca seek the baden de bari unknown"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 6,
+          "attn_weight": 0.09371344745159149,
+          "sentence_text": "what you can do is contact the local authorities in arizona where this <UNK> resides inform them of the situation if you have proof of the transaction that would also help and they should be able to take it from there"
+        }
+      ]
+    },
+    {
+      "query_id": 31,
+      "from_sentence_id": 6,
+      "token": "arizona",
+      "token_pos": 10,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.16069132089614868,
+          "sentence_text": "inspiration comes to o baden sys6626 bison mb ca those who baden inqmind bison mb ca seek the baden de bari unknown"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 6,
+          "attn_weight": 0.10905620455741882,
+          "sentence_text": "what you can do is contact the local authorities in arizona where this <UNK> resides inform them of the situation if you have proof of the transaction that would also help and they should be able to take it from there"
+        }
+      ]
+    },
+    {
+      "query_id": 32,
+      "from_sentence_id": 6,
+      "token": "the",
+      "token_pos": 6,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.1800960898399353,
+          "sentence_text": "inspiration comes to o baden sys6626 bison mb ca those who baden inqmind bison mb ca seek the baden de bari unknown"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 6,
+          "attn_weight": 0.10892066359519958,
+          "sentence_text": "what you can do is contact the local authorities in arizona where this <UNK> resides inform them of the situation if you have proof of the transaction that would also help and they should be able to take it from there"
+        }
+      ]
+    },
+    {
+      "query_id": 33,
+      "from_sentence_id": 6,
+      "token": "in",
+      "token_pos": 9,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.1381828635931015,
+          "sentence_text": "inspiration comes to o baden sys6626 bison mb ca those who baden inqmind bison mb ca seek the baden de bari unknown"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 6,
+          "attn_weight": 0.10837814211845398,
+          "sentence_text": "what you can do is contact the local authorities in arizona where this <UNK> resides inform them of the situation if you have proof of the transaction that would also help and they should be able to take it from there"
+        }
+      ]
+    },
+    {
+      "query_id": 34,
+      "from_sentence_id": 6,
+      "token": "local",
+      "token_pos": 7,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.14099536836147308,
+          "sentence_text": "inspiration comes to o baden sys6626 bison mb ca those who baden inqmind bison mb ca seek the baden de bari unknown"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 6,
+          "attn_weight": 0.10814842581748962,
+          "sentence_text": "what you can do is contact the local authorities in arizona where this <UNK> resides inform them of the situation if you have proof of the transaction that would also help and they should be able to take it from there"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_1824"
+}

@@ -1,0 +1,122 @@
+{
+  "example_id": "test_139",
+  "true_label_id": 12,
+  "pred_label_id": 6,
+  "true_label_name": "sci.electronics",
+  "pred_label_name": "misc.forsale",
+  "pred_confidence": 0.9739100933074951,
+  "metrics": {
+    "num_sents": 2,
+    "K": 5,
+    "stop_ratio": 0.7,
+    "unk_ratio": 0.0,
+    "num_ratio": 0.1,
+    "content_ratio": 0.1,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 0.6398254632949829,
+    "sentence_importance_entropy": 0.6649810671806335,
+    "sentence_importance_max": 0.6181115508079529,
+    "top_sentence_id": 0,
+    "query_mismatch_rate": 0.3,
+    "selected_quality_counts": {
+      "number": 1,
+      "stopword": 7,
+      "content_word": 1,
+      "other": 1
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.43,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.5996818721294402,
+    "D_local_global_conflict": 0.3,
+    "E_overconfident_error": 0.9739100933074951
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "ok i sold all but these i had some offers and i accepted an offer of 25 00 for the pair from <UNK> gag com <UNK> <UNK>",
+      "i don't know what happened to him but he won't reply now that i accepted it so i'll offer these again"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "00",
+          "token_pos": 17,
+          "quality": "number",
+          "word_score_logit": 0.09174403548240662,
+          "word_attn_weight": 0.039766281843185425
+        },
+        {
+          "token": "the",
+          "token_pos": 19,
+          "quality": "stopword",
+          "word_score_logit": 0.05231745168566704,
+          "word_attn_weight": 0.03822894021868706
+        },
+        {
+          "token": "of",
+          "token_pos": 15,
+          "quality": "stopword",
+          "word_score_logit": 0.05042817443609238,
+          "word_attn_weight": 0.03815678134560585
+        },
+        {
+          "token": "and",
+          "token_pos": 10,
+          "quality": "stopword",
+          "word_score_logit": 0.0464264415204525,
+          "word_attn_weight": 0.03800439089536667
+        },
+        {
+          "token": "for",
+          "token_pos": 18,
+          "quality": "stopword",
+          "word_score_logit": 0.04357042908668518,
+          "word_attn_weight": 0.03789600729942322
+        }
+      ],
+      [
+        {
+          "token": "know",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.028120728209614754,
+          "word_attn_weight": 0.04891550913453102
+        },
+        {
+          "token": "don't",
+          "token_pos": 1,
+          "quality": "other",
+          "word_score_logit": 0.022673167288303375,
+          "word_attn_weight": 0.048649758100509644
+        },
+        {
+          "token": "i",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.01789381355047226,
+          "word_attn_weight": 0.04841780290007591
+        },
+        {
+          "token": "him",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": 0.01599937491118908,
+          "word_attn_weight": 0.04832616448402405
+        },
+        {
+          "token": "he",
+          "token_pos": 8,
+          "quality": "stopword",
+          "word_score_logit": 0.014961352571845055,
+          "word_attn_weight": 0.04827602580189705
+        }
+      ]
+    ],
+    "top_sentence_id": 0,
+    "sentence_importance_distribution": [
+      0.6181115508079529,
+      0.3818884491920471
+    ]
+  }
+}

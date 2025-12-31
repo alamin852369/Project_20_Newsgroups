@@ -1,0 +1,238 @@
+{
+  "example_id": "test_7",
+  "true_label_id": 15,
+  "pred_label_id": 1,
+  "true_label_name": "soc.religion.christian",
+  "pred_label_name": "comp.graphics",
+  "pred_confidence": 0.45319193601608276,
+  "metrics": {
+    "num_sents": 5,
+    "K": 5,
+    "stop_ratio": 0.44,
+    "unk_ratio": 0.0,
+    "num_ratio": 0.0,
+    "content_ratio": 0.48,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 1.3561440706253052,
+    "sentence_importance_entropy": 1.4381802082061768,
+    "sentence_importance_max": 0.45699048042297363,
+    "top_sentence_id": 0,
+    "query_mismatch_rate": 0.76,
+    "selected_quality_counts": {
+      "stopword": 11,
+      "content_word": 12,
+      "short_word": 2
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.264,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.33225729465484616,
+    "D_local_global_conflict": 0.76,
+    "E_overconfident_error": 0.45319193601608276
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "a friend of mine managed to get a copy of a <UNK> greek and hebrew lexicon called the word perfect that is not the word processing package wordperfect",
+      "however some one wiped out the exe file and she has not been able to restore it",
+      "there are no distributors of the package in south africa",
+      "i would appreciate it if some one could email me the file or at least tell me where i could get it from",
+      "my email address is <UNK> <UNK> und ac za or <UNK> <UNK> und ac za many thanks"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "a",
+          "token_pos": 7,
+          "quality": "stopword",
+          "word_score_logit": 0.03940887004137039,
+          "word_attn_weight": 0.0367518812417984
+        },
+        {
+          "token": "to",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.039083801209926605,
+          "word_attn_weight": 0.03673993796110153
+        },
+        {
+          "token": "the",
+          "token_pos": 17,
+          "quality": "stopword",
+          "word_score_logit": 0.03845705837011337,
+          "word_attn_weight": 0.036716919392347336
+        },
+        {
+          "token": "get",
+          "token_pos": 6,
+          "quality": "content_word",
+          "word_score_logit": 0.03681308403611183,
+          "word_attn_weight": 0.03665660694241524
+        },
+        {
+          "token": "managed",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.03482160344719887,
+          "word_attn_weight": 0.03658367693424225
+        }
+      ],
+      [
+        {
+          "token": "exe",
+          "token_pos": 6,
+          "quality": "content_word",
+          "word_score_logit": 0.0389852300286293,
+          "word_attn_weight": 0.06114333122968674
+        },
+        {
+          "token": "however",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": 0.03049202263355255,
+          "word_attn_weight": 0.06062622368335724
+        },
+        {
+          "token": "one",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.02903199940919876,
+          "word_attn_weight": 0.060537777841091156
+        },
+        {
+          "token": "some",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.020343352109193802,
+          "word_attn_weight": 0.060014065355062485
+        },
+        {
+          "token": "file",
+          "token_pos": 7,
+          "quality": "content_word",
+          "word_score_logit": 0.018918264657258987,
+          "word_attn_weight": 0.05992859974503517
+        }
+      ],
+      [
+        {
+          "token": "there",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.004681587219238281,
+          "word_attn_weight": 0.10288426280021667
+        },
+        {
+          "token": "africa",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": -0.011060245335102081,
+          "word_attn_weight": 0.10127735137939453
+        },
+        {
+          "token": "no",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": -0.013212410733103752,
+          "word_attn_weight": 0.10105961561203003
+        },
+        {
+          "token": "are",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": -0.014310471713542938,
+          "word_attn_weight": 0.10094871371984482
+        },
+        {
+          "token": "in",
+          "token_pos": 7,
+          "quality": "stopword",
+          "word_score_logit": -0.01746165007352829,
+          "word_attn_weight": 0.10063110291957855
+        }
+      ],
+      [
+        {
+          "token": "email",
+          "token_pos": 8,
+          "quality": "content_word",
+          "word_score_logit": 0.0706305131316185,
+          "word_attn_weight": 0.04532383382320404
+        },
+        {
+          "token": "file",
+          "token_pos": 11,
+          "quality": "content_word",
+          "word_score_logit": 0.05882323533296585,
+          "word_attn_weight": 0.04479183256626129
+        },
+        {
+          "token": "the",
+          "token_pos": 10,
+          "quality": "stopword",
+          "word_score_logit": 0.054855167865753174,
+          "word_attn_weight": 0.04461444541811943
+        },
+        {
+          "token": "me",
+          "token_pos": 9,
+          "quality": "stopword",
+          "word_score_logit": 0.05288732051849365,
+          "word_attn_weight": 0.04452673718333244
+        },
+        {
+          "token": "or",
+          "token_pos": 12,
+          "quality": "stopword",
+          "word_score_logit": 0.04676224663853645,
+          "word_attn_weight": 0.0442548431456089
+        }
+      ],
+      [
+        {
+          "token": "address",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.060656242072582245,
+          "word_attn_weight": 0.061976611614227295
+        },
+        {
+          "token": "email",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.0474834069609642,
+          "word_attn_weight": 0.06116555631160736
+        },
+        {
+          "token": "or",
+          "token_pos": 9,
+          "quality": "stopword",
+          "word_score_logit": 0.04255463927984238,
+          "word_attn_weight": 0.060864828526973724
+        },
+        {
+          "token": "za",
+          "token_pos": 8,
+          "quality": "short_word",
+          "word_score_logit": 0.037619419395923615,
+          "word_attn_weight": 0.06056518480181694
+        },
+        {
+          "token": "za",
+          "token_pos": 14,
+          "quality": "short_word",
+          "word_score_logit": 0.037017226219177246,
+          "word_attn_weight": 0.06052873283624649
+        }
+      ]
+    ],
+    "top_sentence_id": 0,
+    "sentence_importance_distribution": [
+      0.45699048042297363,
+      0.14506284892559052,
+      0.15745596587657928,
+      0.11499479413032532,
+      0.12549597024917603
+    ]
+  }
+}

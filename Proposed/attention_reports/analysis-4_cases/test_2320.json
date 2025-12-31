@@ -1,0 +1,395 @@
+{
+  "example_id": "test_2320",
+  "true_label_id": 15,
+  "pred_label_id": 0,
+  "true_label_name": "soc.religion.christian",
+  "pred_label_name": "alt.atheism",
+  "pred_confidence": 0.5591040253639221,
+  "metrics": {
+    "num_sents": 9,
+    "K": 5,
+    "stop_ratio": 0.4444444444444444,
+    "unk_ratio": 0.022222222222222223,
+    "num_ratio": 0.0,
+    "content_ratio": 0.4444444444444444,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 2.07588791847229,
+    "sentence_importance_entropy": 2.106044292449951,
+    "sentence_importance_max": 0.22636079788208008,
+    "top_sentence_id": 8,
+    "query_mismatch_rate": 0.9555555555555556,
+    "selected_quality_counts": {
+      "content_word": 20,
+      "stopword": 20,
+      "unk": 1,
+      "other": 4
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.2733333333333333,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.15845255851745604,
+    "D_local_global_conflict": 0.9555555555555556,
+    "E_overconfident_error": 0.5591040253639221
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "you are quite confident that <UNK> do not exist",
+      "how do propose to define beings",
+      "can a thing can be one without definition",
+      "can a being have a definition and know essence",
+      "what about properties",
+      "do beings have properties",
+      "does god have properties",
+      "does numbers exist in reality as abstract entities or do we invent them",
+      "see my post in alt messianic about the possibilities of tri theism from a <UNK> point of view"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "exist",
+          "token_pos": 8,
+          "quality": "content_word",
+          "word_score_logit": 0.036301858723163605,
+          "word_attn_weight": 0.11448189616203308
+        },
+        {
+          "token": "not",
+          "token_pos": 7,
+          "quality": "stopword",
+          "word_score_logit": 0.024936288595199585,
+          "word_attn_weight": 0.11318811029195786
+        },
+        {
+          "token": "do",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": 0.018110821023583412,
+          "word_attn_weight": 0.11241818219423294
+        },
+        {
+          "token": "you",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.005945007316768169,
+          "word_attn_weight": 0.111058808863163
+        },
+        {
+          "token": "<UNK>",
+          "token_pos": 5,
+          "quality": "unk",
+          "word_score_logit": -0.0002024313434958458,
+          "word_attn_weight": 0.11037817597389221
+        }
+      ],
+      [
+        {
+          "token": "define",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.019882485270500183,
+          "word_attn_weight": 0.1711321324110031
+        },
+        {
+          "token": "do",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.0035929791629314423,
+          "word_attn_weight": 0.16836704313755035
+        },
+        {
+          "token": "to",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": -0.0026676999405026436,
+          "word_attn_weight": 0.1673162579536438
+        },
+        {
+          "token": "how",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": -0.005745065398514271,
+          "word_attn_weight": 0.16680215299129486
+        },
+        {
+          "token": "beings",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": -0.026020996272563934,
+          "word_attn_weight": 0.16345413029193878
+        }
+      ],
+      [
+        {
+          "token": "without",
+          "token_pos": 6,
+          "quality": "content_word",
+          "word_score_logit": 0.03993836045265198,
+          "word_attn_weight": 0.1274050772190094
+        },
+        {
+          "token": "definition",
+          "token_pos": 7,
+          "quality": "content_word",
+          "word_score_logit": 0.03346749767661095,
+          "word_attn_weight": 0.1265833079814911
+        },
+        {
+          "token": "one",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.025943312793970108,
+          "word_attn_weight": 0.12563446164131165
+        },
+        {
+          "token": "can",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": 0.022596456110477448,
+          "word_attn_weight": 0.12521468102931976
+        },
+        {
+          "token": "be",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": 0.02245130017399788,
+          "word_attn_weight": 0.12519650161266327
+        }
+      ],
+      [
+        {
+          "token": "can",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.02240878716111183,
+          "word_attn_weight": 0.11246198415756226
+        },
+        {
+          "token": "being",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.018953636288642883,
+          "word_attn_weight": 0.11207409203052521
+        },
+        {
+          "token": "a",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": 0.015024274587631226,
+          "word_attn_weight": 0.11163456737995148
+        },
+        {
+          "token": "a",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.014610225334763527,
+          "word_attn_weight": 0.11158835887908936
+        },
+        {
+          "token": "have",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.013124261051416397,
+          "word_attn_weight": 0.11142266541719437
+        }
+      ],
+      [
+        {
+          "token": "properties",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.02595985122025013,
+          "word_attn_weight": 0.33810117840766907
+        },
+        {
+          "token": "what",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.008273759856820107,
+          "word_attn_weight": 0.33217406272888184
+        },
+        {
+          "token": "about",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.0008730674162507057,
+          "word_attn_weight": 0.3297247886657715
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 3,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ],
+      [
+        {
+          "token": "properties",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.02660246007144451,
+          "word_attn_weight": 0.2563633620738983
+        },
+        {
+          "token": "do",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.00554230622947216,
+          "word_attn_weight": 0.25102075934410095
+        },
+        {
+          "token": "have",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.002273013349622488,
+          "word_attn_weight": 0.2502014636993408
+        },
+        {
+          "token": "beings",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": -0.029344771057367325,
+          "word_attn_weight": 0.24241439998149872
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ],
+      [
+        {
+          "token": "does",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.04779068008065224,
+          "word_attn_weight": 0.2538309097290039
+        },
+        {
+          "token": "properties",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.035208046436309814,
+          "word_attn_weight": 0.2506570518016815
+        },
+        {
+          "token": "god",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.031867850571870804,
+          "word_attn_weight": 0.24982120096683502
+        },
+        {
+          "token": "have",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.015196134336292744,
+          "word_attn_weight": 0.24569077789783478
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ],
+      [
+        {
+          "token": "exist",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.05925900489091873,
+          "word_attn_weight": 0.07863736152648926
+        },
+        {
+          "token": "does",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.0563310943543911,
+          "word_attn_weight": 0.07840745896100998
+        },
+        {
+          "token": "numbers",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.051124777644872665,
+          "word_attn_weight": 0.07800030708312988
+        },
+        {
+          "token": "entities",
+          "token_pos": 7,
+          "quality": "content_word",
+          "word_score_logit": 0.04408833011984825,
+          "word_attn_weight": 0.0774533823132515
+        },
+        {
+          "token": "in",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": 0.03846732899546623,
+          "word_attn_weight": 0.07701924443244934
+        }
+      ],
+      [
+        {
+          "token": "see",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": 0.026303861290216446,
+          "word_attn_weight": 0.05774805322289467
+        },
+        {
+          "token": "my",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.024143734946846962,
+          "word_attn_weight": 0.057623445987701416
+        },
+        {
+          "token": "in",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": 0.009153328835964203,
+          "word_attn_weight": 0.0567660927772522
+        },
+        {
+          "token": "post",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.009043071419000626,
+          "word_attn_weight": 0.05675983056426048
+        },
+        {
+          "token": "alt",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.007654152810573578,
+          "word_attn_weight": 0.05668104812502861
+        }
+      ]
+    ],
+    "top_sentence_id": 8,
+    "sentence_importance_distribution": [
+      0.06665116548538208,
+      0.16220863163471222,
+      0.07369323819875717,
+      0.10463670641183853,
+      0.07204923033714294,
+      0.07806693017482758,
+      0.08766394108533859,
+      0.12866941094398499,
+      0.22636079788208008
+    ]
+  }
+}

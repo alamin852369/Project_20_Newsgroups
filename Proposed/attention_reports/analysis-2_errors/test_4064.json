@@ -1,0 +1,423 @@
+{
+  "true_label_id": 19,
+  "pred_label_id": 15,
+  "true_label_name": "talk.religion.misc",
+  "pred_label_name": "soc.religion.christian",
+  "pred_confidence": 0.8395680785179138,
+  "num_sents": 20,
+  "top_sentences": [
+    {
+      "sentence_id": 2,
+      "importance": 0.19147364795207977,
+      "sentence_text": "however the majority of the book is in <UNK> aramaic not babylonian aramaic and only has <UNK> or writing status ref encyclopedia of religion <UNK> <UNK> daniel or in hebrew <UNK> hero of the biblical book that bears his name",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "not",
+          "token_pos": 10,
+          "word_score_logit": -0.009027412161231041,
+          "word_attn_weight": 0.026618462055921555
+        },
+        {
+          "rank": 1,
+          "token": "however",
+          "token_pos": 0,
+          "word_score_logit": -0.011306917294859886,
+          "word_attn_weight": 0.026557855308055878
+        },
+        {
+          "rank": 2,
+          "token": "the",
+          "token_pos": 1,
+          "word_score_logit": -0.016621490940451622,
+          "word_attn_weight": 0.026417085900902748
+        },
+        {
+          "rank": 3,
+          "token": "is",
+          "token_pos": 6,
+          "word_score_logit": -0.018140314146876335,
+          "word_attn_weight": 0.0263769943267107
+        },
+        {
+          "rank": 4,
+          "token": "in",
+          "token_pos": 7,
+          "word_score_logit": -0.01959964632987976,
+          "word_attn_weight": 0.026338526979088783
+        }
+      ]
+    },
+    {
+      "sentence_id": 17,
+      "importance": 0.14465297758579254,
+      "sentence_text": "all of the visions of daniel <UNK> this dominion in different ways for example via images of the <UNK> of a god of judgment with a son of man invested with rule this figure was interpreted by jews as michael the <UNK> and by christians as christ in chapter 7",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "was",
+          "token_pos": 34,
+          "word_score_logit": -0.011125493794679642,
+          "word_attn_weight": 0.020965514704585075
+        },
+        {
+          "rank": 1,
+          "token": "in",
+          "token_pos": 47,
+          "word_score_logit": -0.01360231637954712,
+          "word_attn_weight": 0.020913653075695038
+        },
+        {
+          "rank": 2,
+          "token": "7",
+          "token_pos": 49,
+          "word_score_logit": -0.016383090987801552,
+          "word_attn_weight": 0.020855575799942017
+        },
+        {
+          "rank": 3,
+          "token": "via",
+          "token_pos": 14,
+          "word_score_logit": -0.018858835101127625,
+          "word_attn_weight": 0.02080400660634041
+        },
+        {
+          "rank": 4,
+          "token": "son",
+          "token_pos": 26,
+          "word_score_logit": -0.023923344910144806,
+          "word_attn_weight": 0.0206989124417305
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "importance": 0.1051921471953392,
+      "sentence_text": "if anything one could claim that in a sense daniel is a descendant of zoroaster as daniel though being hebrew has assimilated into zoroastrianism and has successfully introduced the religion into the <UNK> of judaism",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "the",
+          "token_pos": 28,
+          "word_score_logit": 0.020578958094120026,
+          "word_attn_weight": 0.0299095306545496
+        },
+        {
+          "rank": 1,
+          "token": "of",
+          "token_pos": 33,
+          "word_score_logit": 0.014244282618165016,
+          "word_attn_weight": 0.029720662161707878
+        },
+        {
+          "rank": 2,
+          "token": "introduced",
+          "token_pos": 27,
+          "word_score_logit": 0.009668141603469849,
+          "word_attn_weight": 0.029584968462586403
+        },
+        {
+          "rank": 3,
+          "token": "as",
+          "token_pos": 15,
+          "word_score_logit": 0.0010418184101581573,
+          "word_attn_weight": 0.02933085523545742
+        },
+        {
+          "rank": 4,
+          "token": "the",
+          "token_pos": 31,
+          "word_score_logit": -0.0019031604751944542,
+          "word_attn_weight": 0.02924460545182228
+        }
+      ]
+    },
+    {
+      "sentence_id": 15,
+      "importance": 0.07823224365711212,
+      "sentence_text": "presumably the episodes of daniel 2 6 <UNK> a series of <UNK> <UNK> episodes of ritual <UNK> and reports of miraculous <UNK> were collected in the <UNK> period late fourth to mid second century bce in order to <UNK> <UNK> jewish hopes in divine providence and encourage steadfast faith",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "presumably",
+          "token_pos": 0,
+          "word_score_logit": 0.005530312657356262,
+          "word_attn_weight": 0.02186599187552929
+        },
+        {
+          "rank": 1,
+          "token": "the",
+          "token_pos": 1,
+          "word_score_logit": -0.0014444608241319656,
+          "word_attn_weight": 0.02171401120722294
+        },
+        {
+          "rank": 2,
+          "token": "episodes",
+          "token_pos": 2,
+          "word_score_logit": -0.022462278604507446,
+          "word_attn_weight": 0.0212623942643404
+        },
+        {
+          "rank": 3,
+          "token": "of",
+          "token_pos": 3,
+          "word_score_logit": -0.025312282145023346,
+          "word_attn_weight": 0.021201880648732185
+        },
+        {
+          "rank": 4,
+          "token": "6",
+          "token_pos": 6,
+          "word_score_logit": -0.02987958863377571,
+          "word_attn_weight": 0.021105267107486725
+        }
+      ]
+    },
+    {
+      "sentence_id": 4,
+      "importance": 0.06724798679351807,
+      "sentence_text": "he also appears in the last chapters of the book as the <UNK> of divine mysteries and of the <UNK> of israel's restoration to national religious autonomy",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "he",
+          "token_pos": 0,
+          "word_score_logit": -0.006296079605817795,
+          "word_attn_weight": 0.03843168914318085
+        },
+        {
+          "rank": 1,
+          "token": "appears",
+          "token_pos": 2,
+          "word_score_logit": -0.007933862507343292,
+          "word_attn_weight": 0.038368795067071915
+        },
+        {
+          "rank": 2,
+          "token": "in",
+          "token_pos": 3,
+          "word_score_logit": -0.011281512677669525,
+          "word_attn_weight": 0.03824056312441826
+        },
+        {
+          "rank": 3,
+          "token": "also",
+          "token_pos": 1,
+          "word_score_logit": -0.01702142506837845,
+          "word_attn_weight": 0.038021694868803024
+        },
+        {
+          "rank": 4,
+          "token": "last",
+          "token_pos": 5,
+          "word_score_logit": -0.01855434477329254,
+          "word_attn_weight": 0.03796345740556717
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 10,
+      "from_sentence_id": 2,
+      "token": "not",
+      "token_pos": 10,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.26425665616989136,
+          "sentence_text": "however the majority of the book is in <UNK> aramaic not babylonian aramaic and only has <UNK> or writing status ref encyclopedia of religion <UNK> <UNK> daniel or in hebrew <UNK> hero of the biblical book that bears his name"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.2350185066461563,
+          "sentence_text": "all of the visions of daniel <UNK> this dominion in different ways for example via images of the <UNK> of a god of judgment with a son of man invested with rule this figure was interpreted by jews as michael the <UNK> and by christians as christ in chapter 7"
+        }
+      ]
+    },
+    {
+      "query_id": 11,
+      "from_sentence_id": 2,
+      "token": "however",
+      "token_pos": 0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 17,
+          "attn_weight": 0.2181355208158493,
+          "sentence_text": "all of the visions of daniel <UNK> this dominion in different ways for example via images of the <UNK> of a god of judgment with a son of man invested with rule this figure was interpreted by jews as michael the <UNK> and by christians as christ in chapter 7"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.21230953931808472,
+          "sentence_text": "however the majority of the book is in <UNK> aramaic not babylonian aramaic and only has <UNK> or writing status ref encyclopedia of religion <UNK> <UNK> daniel or in hebrew <UNK> hero of the biblical book that bears his name"
+        }
+      ]
+    },
+    {
+      "query_id": 12,
+      "from_sentence_id": 2,
+      "token": "the",
+      "token_pos": 1,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.23732833564281464,
+          "sentence_text": "however the majority of the book is in <UNK> aramaic not babylonian aramaic and only has <UNK> or writing status ref encyclopedia of religion <UNK> <UNK> daniel or in hebrew <UNK> hero of the biblical book that bears his name"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.22440268099308014,
+          "sentence_text": "all of the visions of daniel <UNK> this dominion in different ways for example via images of the <UNK> of a god of judgment with a son of man invested with rule this figure was interpreted by jews as michael the <UNK> and by christians as christ in chapter 7"
+        }
+      ]
+    },
+    {
+      "query_id": 13,
+      "from_sentence_id": 2,
+      "token": "is",
+      "token_pos": 6,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.24062150716781616,
+          "sentence_text": "however the majority of the book is in <UNK> aramaic not babylonian aramaic and only has <UNK> or writing status ref encyclopedia of religion <UNK> <UNK> daniel or in hebrew <UNK> hero of the biblical book that bears his name"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.2208043932914734,
+          "sentence_text": "all of the visions of daniel <UNK> this dominion in different ways for example via images of the <UNK> of a god of judgment with a son of man invested with rule this figure was interpreted by jews as michael the <UNK> and by christians as christ in chapter 7"
+        }
+      ]
+    },
+    {
+      "query_id": 14,
+      "from_sentence_id": 2,
+      "token": "in",
+      "token_pos": 7,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.25616657733917236,
+          "sentence_text": "however the majority of the book is in <UNK> aramaic not babylonian aramaic and only has <UNK> or writing status ref encyclopedia of religion <UNK> <UNK> daniel or in hebrew <UNK> hero of the biblical book that bears his name"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.22811070084571838,
+          "sentence_text": "all of the visions of daniel <UNK> this dominion in different ways for example via images of the <UNK> of a god of judgment with a son of man invested with rule this figure was interpreted by jews as michael the <UNK> and by christians as christ in chapter 7"
+        }
+      ]
+    },
+    {
+      "query_id": 85,
+      "from_sentence_id": 17,
+      "token": "was",
+      "token_pos": 34,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.3004319667816162,
+          "sentence_text": "however the majority of the book is in <UNK> aramaic not babylonian aramaic and only has <UNK> or writing status ref encyclopedia of religion <UNK> <UNK> daniel or in hebrew <UNK> hero of the biblical book that bears his name"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.23659873008728027,
+          "sentence_text": "all of the visions of daniel <UNK> this dominion in different ways for example via images of the <UNK> of a god of judgment with a son of man invested with rule this figure was interpreted by jews as michael the <UNK> and by christians as christ in chapter 7"
+        }
+      ]
+    },
+    {
+      "query_id": 86,
+      "from_sentence_id": 17,
+      "token": "in",
+      "token_pos": 47,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.18739941716194153,
+          "sentence_text": "however the majority of the book is in <UNK> aramaic not babylonian aramaic and only has <UNK> or writing status ref encyclopedia of religion <UNK> <UNK> daniel or in hebrew <UNK> hero of the biblical book that bears his name"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.12436872720718384,
+          "sentence_text": "all of the visions of daniel <UNK> this dominion in different ways for example via images of the <UNK> of a god of judgment with a son of man invested with rule this figure was interpreted by jews as michael the <UNK> and by christians as christ in chapter 7"
+        }
+      ]
+    },
+    {
+      "query_id": 87,
+      "from_sentence_id": 17,
+      "token": "7",
+      "token_pos": 49,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.13286158442497253,
+          "sentence_text": "however the majority of the book is in <UNK> aramaic not babylonian aramaic and only has <UNK> or writing status ref encyclopedia of religion <UNK> <UNK> daniel or in hebrew <UNK> hero of the biblical book that bears his name"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.09456517547369003,
+          "sentence_text": "all of the visions of daniel <UNK> this dominion in different ways for example via images of the <UNK> of a god of judgment with a son of man invested with rule this figure was interpreted by jews as michael the <UNK> and by christians as christ in chapter 7"
+        }
+      ]
+    },
+    {
+      "query_id": 88,
+      "from_sentence_id": 17,
+      "token": "via",
+      "token_pos": 14,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 17,
+          "attn_weight": 0.2056557685136795,
+          "sentence_text": "all of the visions of daniel <UNK> this dominion in different ways for example via images of the <UNK> of a god of judgment with a son of man invested with rule this figure was interpreted by jews as michael the <UNK> and by christians as christ in chapter 7"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.19602623581886292,
+          "sentence_text": "however the majority of the book is in <UNK> aramaic not babylonian aramaic and only has <UNK> or writing status ref encyclopedia of religion <UNK> <UNK> daniel or in hebrew <UNK> hero of the biblical book that bears his name"
+        }
+      ]
+    },
+    {
+      "query_id": 89,
+      "from_sentence_id": 17,
+      "token": "son",
+      "token_pos": 26,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.26805031299591064,
+          "sentence_text": "however the majority of the book is in <UNK> aramaic not babylonian aramaic and only has <UNK> or writing status ref encyclopedia of religion <UNK> <UNK> daniel or in hebrew <UNK> hero of the biblical book that bears his name"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.2266649603843689,
+          "sentence_text": "all of the visions of daniel <UNK> this dominion in different ways for example via images of the <UNK> of a god of judgment with a son of man invested with rule this figure was interpreted by jews as michael the <UNK> and by christians as christ in chapter 7"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_4064"
+}

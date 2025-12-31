@@ -1,0 +1,823 @@
+{
+  "example_id": "test_2226",
+  "true_label_id": 19,
+  "pred_label_id": 15,
+  "true_label_name": "talk.religion.misc",
+  "pred_label_name": "soc.religion.christian",
+  "pred_confidence": 0.772896409034729,
+  "metrics": {
+    "num_sents": 20,
+    "K": 5,
+    "stop_ratio": 0.5,
+    "unk_ratio": 0.0,
+    "num_ratio": 0.0,
+    "content_ratio": 0.43,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 2.626654624938965,
+    "sentence_importance_entropy": 2.7186713218688965,
+    "sentence_importance_max": 0.16771626472473145,
+    "top_sentence_id": 12,
+    "query_mismatch_rate": 0.95,
+    "selected_quality_counts": {
+      "content_word": 43,
+      "stopword": 50,
+      "other": 7
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.3,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.117401385307312,
+    "D_local_global_conflict": 0.95,
+    "E_overconfident_error": 0.772896409034729
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "i see what you are getting at or at least i think i do",
+      "correct me if i am mistaken but i think you are asking me if i still believe that we should uphold all of the laws pertaining to capital punishment for such things as <UNK> rape and other heinous crimes",
+      "as you may recall jesus was confronted by this same question in regards to the <UNK> who was caught in the act and brought before jesus",
+      "and his reply let he who is without sin cast the first stone jesus does not deny the sentence that is to due for this violation of the law",
+      "what do you think of this",
+      "agreed",
+      "agreed also",
+      "if one is to use the bible as a reference one must always be open to different interpretations",
+      "as a christian i have the spirit of god to verify what i believe in the word",
+      "if what the spirit tells me is not backed up in scripture then the spirit i am communicating with is not of god",
+      "after all jesus tells us to test the spirits to know for sure that it is from god",
+      "i obey what the spirit of god tells me to do",
+      "the spirit will not violate anything that is written in the bible because that is the word of god",
+      "i do not worship pastors preachers my wife my mother or my father",
+      "what they tell me does not carry the weight of what god tells me to do and his commands are <UNK> in the bible",
+      "eternal damnation is the consequence of the choice one makes in rejecting god",
+      "if you choose to jump off a cliff you can hardly blame god for you going <UNK> at the bottom",
+      "he knows that if you choose to jump that you will die but he will not prevent you from making that choice",
+      "in fact he sent his son to stand on the edge of the cliff and tell everyone of what lies below",
+      "to prove that point jesus took that <UNK> himself but he being god was able to rise up again"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "least",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": 0.016551898792386055,
+          "word_attn_weight": 0.07277929782867432
+        },
+        {
+          "token": "at",
+          "token_pos": 8,
+          "quality": "stopword",
+          "word_score_logit": 0.015719156712293625,
+          "word_attn_weight": 0.07271871715784073
+        },
+        {
+          "token": "think",
+          "token_pos": 11,
+          "quality": "content_word",
+          "word_score_logit": 0.012471298687160015,
+          "word_attn_weight": 0.07248291373252869
+        },
+        {
+          "token": "i",
+          "token_pos": 10,
+          "quality": "stopword",
+          "word_score_logit": 0.011640205048024654,
+          "word_attn_weight": 0.07242269814014435
+        },
+        {
+          "token": "see",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.011438770219683647,
+          "word_attn_weight": 0.07240811735391617
+        }
+      ],
+      [
+        {
+          "token": "correct",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": 0.01788632944226265,
+          "word_attn_weight": 0.026767518371343613
+        },
+        {
+          "token": "as",
+          "token_pos": 32,
+          "quality": "stopword",
+          "word_score_logit": 0.01728813908994198,
+          "word_attn_weight": 0.026751510798931122
+        },
+        {
+          "token": "other",
+          "token_pos": 36,
+          "quality": "content_word",
+          "word_score_logit": 0.016531772911548615,
+          "word_attn_weight": 0.026731286197900772
+        },
+        {
+          "token": "things",
+          "token_pos": 31,
+          "quality": "content_word",
+          "word_score_logit": 0.015220999717712402,
+          "word_attn_weight": 0.02669626846909523
+        },
+        {
+          "token": "such",
+          "token_pos": 30,
+          "quality": "content_word",
+          "word_score_logit": 0.01460319198668003,
+          "word_attn_weight": 0.026679782196879387
+        }
+      ],
+      [
+        {
+          "token": "was",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.005546648055315018,
+          "word_attn_weight": 0.039576057344675064
+        },
+        {
+          "token": "jesus",
+          "token_pos": 25,
+          "quality": "content_word",
+          "word_score_logit": 0.00024884380400180817,
+          "word_attn_weight": 0.0393669456243515
+        },
+        {
+          "token": "and",
+          "token_pos": 22,
+          "quality": "stopword",
+          "word_score_logit": -0.0017939824610948563,
+          "word_attn_weight": 0.03928660601377487
+        },
+        {
+          "token": "before",
+          "token_pos": 24,
+          "quality": "stopword",
+          "word_score_logit": -0.004959380254149437,
+          "word_attn_weight": 0.039162445813417435
+        },
+        {
+          "token": "brought",
+          "token_pos": 23,
+          "quality": "content_word",
+          "word_score_logit": -0.009752599522471428,
+          "word_attn_weight": 0.03897517919540405
+        }
+      ],
+      [
+        {
+          "token": "the",
+          "token_pos": 17,
+          "quality": "stopword",
+          "word_score_logit": 0.05171644315123558,
+          "word_attn_weight": 0.0361984483897686
+        },
+        {
+          "token": "of",
+          "token_pos": 26,
+          "quality": "stopword",
+          "word_score_logit": 0.03331726789474487,
+          "word_attn_weight": 0.03553851321339607
+        },
+        {
+          "token": "not",
+          "token_pos": 15,
+          "quality": "stopword",
+          "word_score_logit": 0.03199174627661705,
+          "word_attn_weight": 0.03549143671989441
+        },
+        {
+          "token": "does",
+          "token_pos": 14,
+          "quality": "stopword",
+          "word_score_logit": 0.031647808849811554,
+          "word_attn_weight": 0.035479236394166946
+        },
+        {
+          "token": "deny",
+          "token_pos": 16,
+          "quality": "content_word",
+          "word_score_logit": 0.028773469850420952,
+          "word_attn_weight": 0.03537740185856819
+        }
+      ],
+      [
+        {
+          "token": "what",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.014168599620461464,
+          "word_attn_weight": 0.1686573028564453
+        },
+        {
+          "token": "do",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.010861832648515701,
+          "word_attn_weight": 0.1681005209684372
+        },
+        {
+          "token": "of",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": 0.003985546063631773,
+          "word_attn_weight": 0.16694855690002441
+        },
+        {
+          "token": "you",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": -0.0026881080120801926,
+          "word_attn_weight": 0.1658381223678589
+        },
+        {
+          "token": "think",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": -0.0034594759345054626,
+          "word_attn_weight": 0.1657102406024933
+        }
+      ],
+      [
+        {
+          "token": "agreed",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": -0.003430146723985672,
+          "word_attn_weight": 1.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 3,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 1,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 2,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ],
+      [
+        {
+          "token": "also",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.0289294496178627,
+          "word_attn_weight": 0.5073946118354797
+        },
+        {
+          "token": "agreed",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": -0.0006511686369776726,
+          "word_attn_weight": 0.49260538816452026
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 3,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 2,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ],
+      [
+        {
+          "token": "use",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.08219707757234573,
+          "word_attn_weight": 0.058856792747974396
+        },
+        {
+          "token": "different",
+          "token_pos": 16,
+          "quality": "content_word",
+          "word_score_logit": 0.049990955740213394,
+          "word_attn_weight": 0.056991443037986755
+        },
+        {
+          "token": "to",
+          "token_pos": 15,
+          "quality": "stopword",
+          "word_score_logit": 0.043689679354429245,
+          "word_attn_weight": 0.05663345009088516
+        },
+        {
+          "token": "reference",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": 0.038031838834285736,
+          "word_attn_weight": 0.05631393566727638
+        },
+        {
+          "token": "the",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.03772736340761185,
+          "word_attn_weight": 0.05629679188132286
+        }
+      ],
+      [
+        {
+          "token": "the",
+          "token_pos": 15,
+          "quality": "stopword",
+          "word_score_logit": 0.04677807539701462,
+          "word_attn_weight": 0.060899678617715836
+        },
+        {
+          "token": "in",
+          "token_pos": 14,
+          "quality": "stopword",
+          "word_score_logit": 0.04436624422669411,
+          "word_attn_weight": 0.06075297296047211
+        },
+        {
+          "token": "verify",
+          "token_pos": 10,
+          "quality": "content_word",
+          "word_score_logit": 0.04291819781064987,
+          "word_attn_weight": 0.0606650672852993
+        },
+        {
+          "token": "what",
+          "token_pos": 11,
+          "quality": "stopword",
+          "word_score_logit": 0.04104367643594742,
+          "word_attn_weight": 0.06055145338177681
+        },
+        {
+          "token": "believe",
+          "token_pos": 13,
+          "quality": "content_word",
+          "word_score_logit": 0.03427020460367203,
+          "word_attn_weight": 0.060142695903778076
+        }
+      ],
+      [
+        {
+          "token": "not",
+          "token_pos": 20,
+          "quality": "stopword",
+          "word_score_logit": 0.029954660683870316,
+          "word_attn_weight": 0.04606453329324722
+        },
+        {
+          "token": "of",
+          "token_pos": 21,
+          "quality": "stopword",
+          "word_score_logit": 0.027782835066318512,
+          "word_attn_weight": 0.045964598655700684
+        },
+        {
+          "token": "is",
+          "token_pos": 19,
+          "quality": "stopword",
+          "word_score_logit": 0.0268047284334898,
+          "word_attn_weight": 0.045919664204120636
+        },
+        {
+          "token": "with",
+          "token_pos": 18,
+          "quality": "stopword",
+          "word_score_logit": 0.01439923606812954,
+          "word_attn_weight": 0.04535352438688278
+        },
+        {
+          "token": "god",
+          "token_pos": 22,
+          "quality": "content_word",
+          "word_score_logit": 0.012580564245581627,
+          "word_attn_weight": 0.045271117240190506
+        }
+      ],
+      [
+        {
+          "token": "is",
+          "token_pos": 15,
+          "quality": "stopword",
+          "word_score_logit": 0.03210072219371796,
+          "word_attn_weight": 0.05790502950549126
+        },
+        {
+          "token": "sure",
+          "token_pos": 12,
+          "quality": "content_word",
+          "word_score_logit": 0.030184485018253326,
+          "word_attn_weight": 0.057794176042079926
+        },
+        {
+          "token": "from",
+          "token_pos": 16,
+          "quality": "stopword",
+          "word_score_logit": 0.027311677113175392,
+          "word_attn_weight": 0.057628385722637177
+        },
+        {
+          "token": "that",
+          "token_pos": 13,
+          "quality": "stopword",
+          "word_score_logit": 0.021045174449682236,
+          "word_attn_weight": 0.057268381118774414
+        },
+        {
+          "token": "god",
+          "token_pos": 17,
+          "quality": "content_word",
+          "word_score_logit": 0.020681558176875114,
+          "word_attn_weight": 0.05724756419658661
+        }
+      ],
+      [
+        {
+          "token": "of",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.017498202621936798,
+          "word_attn_weight": 0.09232725948095322
+        },
+        {
+          "token": "what",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.012603172101080418,
+          "word_attn_weight": 0.09187641739845276
+        },
+        {
+          "token": "obey",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.012274193577468395,
+          "word_attn_weight": 0.09184620529413223
+        },
+        {
+          "token": "do",
+          "token_pos": 10,
+          "quality": "stopword",
+          "word_score_logit": 0.009033329784870148,
+          "word_attn_weight": 0.09154901653528214
+        },
+        {
+          "token": "god",
+          "token_pos": 6,
+          "quality": "content_word",
+          "word_score_logit": 0.006384747568517923,
+          "word_attn_weight": 0.09130686521530151
+        }
+      ],
+      [
+        {
+          "token": "word",
+          "token_pos": 16,
+          "quality": "content_word",
+          "word_score_logit": 0.04777039587497711,
+          "word_attn_weight": 0.05463440716266632
+        },
+        {
+          "token": "the",
+          "token_pos": 15,
+          "quality": "stopword",
+          "word_score_logit": 0.04362454265356064,
+          "word_attn_weight": 0.054408371448516846
+        },
+        {
+          "token": "is",
+          "token_pos": 14,
+          "quality": "stopword",
+          "word_score_logit": 0.04017578437924385,
+          "word_attn_weight": 0.054221052676439285
+        },
+        {
+          "token": "of",
+          "token_pos": 17,
+          "quality": "stopword",
+          "word_score_logit": 0.03361068293452263,
+          "word_attn_weight": 0.053866248577833176
+        },
+        {
+          "token": "anything",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.026833655312657356,
+          "word_attn_weight": 0.05350242927670479
+        }
+      ],
+      [
+        {
+          "token": "my",
+          "token_pos": 11,
+          "quality": "stopword",
+          "word_score_logit": 0.026175864040851593,
+          "word_attn_weight": 0.07894192636013031
+        },
+        {
+          "token": "father",
+          "token_pos": 12,
+          "quality": "content_word",
+          "word_score_logit": 0.021413298323750496,
+          "word_attn_weight": 0.07856685668230057
+        },
+        {
+          "token": "or",
+          "token_pos": 10,
+          "quality": "stopword",
+          "word_score_logit": 0.01571149379014969,
+          "word_attn_weight": 0.078120157122612
+        },
+        {
+          "token": "my",
+          "token_pos": 8,
+          "quality": "stopword",
+          "word_score_logit": 0.010129357688128948,
+          "word_attn_weight": 0.07768529653549194
+        },
+        {
+          "token": "mother",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": 0.003716588020324707,
+          "word_attn_weight": 0.07718871533870697
+        }
+      ],
+      [
+        {
+          "token": "his",
+          "token_pos": 17,
+          "quality": "stopword",
+          "word_score_logit": 0.038241151720285416,
+          "word_attn_weight": 0.043090179562568665
+        },
+        {
+          "token": "commands",
+          "token_pos": 18,
+          "quality": "content_word",
+          "word_score_logit": 0.03410334140062332,
+          "word_attn_weight": 0.04291224852204323
+        },
+        {
+          "token": "does",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": 0.023254696279764175,
+          "word_attn_weight": 0.0424492247402668
+        },
+        {
+          "token": "weight",
+          "token_pos": 8,
+          "quality": "content_word",
+          "word_score_logit": 0.02297324314713478,
+          "word_attn_weight": 0.04243727773427963
+        },
+        {
+          "token": "what",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.02043696865439415,
+          "word_attn_weight": 0.042329784482717514
+        }
+      ],
+      [
+        {
+          "token": "is",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.03572710603475571,
+          "word_attn_weight": 0.07966107875108719
+        },
+        {
+          "token": "the",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": 0.030426818877458572,
+          "word_attn_weight": 0.07923997193574905
+        },
+        {
+          "token": "god",
+          "token_pos": 12,
+          "quality": "content_word",
+          "word_score_logit": 0.016932843253016472,
+          "word_attn_weight": 0.07817789167165756
+        },
+        {
+          "token": "consequence",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.011574199423193932,
+          "word_attn_weight": 0.07776007801294327
+        },
+        {
+          "token": "damnation",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.00805836170911789,
+          "word_attn_weight": 0.07748717069625854
+        }
+      ],
+      [
+        {
+          "token": "cliff",
+          "token_pos": 7,
+          "quality": "content_word",
+          "word_score_logit": 0.09168952703475952,
+          "word_attn_weight": 0.05313879996538162
+        },
+        {
+          "token": "hardly",
+          "token_pos": 10,
+          "quality": "content_word",
+          "word_score_logit": 0.061899334192276,
+          "word_attn_weight": 0.05157913267612457
+        },
+        {
+          "token": "a",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": 0.04987380653619766,
+          "word_attn_weight": 0.050962578505277634
+        },
+        {
+          "token": "can",
+          "token_pos": 9,
+          "quality": "stopword",
+          "word_score_logit": 0.042257994413375854,
+          "word_attn_weight": 0.05057593062520027
+        },
+        {
+          "token": "off",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.0422186441719532,
+          "word_attn_weight": 0.05057394132018089
+        }
+      ],
+      [
+        {
+          "token": "he",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.0389099046587944,
+          "word_attn_weight": 0.047498878091573715
+        },
+        {
+          "token": "knows",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.03586395084857941,
+          "word_attn_weight": 0.04735441878437996
+        },
+        {
+          "token": "jump",
+          "token_pos": 7,
+          "quality": "content_word",
+          "word_score_logit": 0.011913003399968147,
+          "word_attn_weight": 0.046233709901571274
+        },
+        {
+          "token": "choose",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.008992025628685951,
+          "word_attn_weight": 0.04609886184334755
+        },
+        {
+          "token": "that",
+          "token_pos": 8,
+          "quality": "stopword",
+          "word_score_logit": 0.006331920623779297,
+          "word_attn_weight": 0.045976392924785614
+        }
+      ],
+      [
+        {
+          "token": "cliff",
+          "token_pos": 13,
+          "quality": "content_word",
+          "word_score_logit": 0.08135159313678741,
+          "word_attn_weight": 0.04976508021354675
+        },
+        {
+          "token": "in",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.0709838718175888,
+          "word_attn_weight": 0.04925179481506348
+        },
+        {
+          "token": "of",
+          "token_pos": 11,
+          "quality": "stopword",
+          "word_score_logit": 0.06870359182357788,
+          "word_attn_weight": 0.04913961514830589
+        },
+        {
+          "token": "he",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.0658659040927887,
+          "word_attn_weight": 0.049000371247529984
+        },
+        {
+          "token": "fact",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.062186021357774734,
+          "word_attn_weight": 0.048820383846759796
+        }
+      ],
+      [
+        {
+          "token": "he",
+          "token_pos": 10,
+          "quality": "stopword",
+          "word_score_logit": 0.027614925056695938,
+          "word_attn_weight": 0.053918320685625076
+        },
+        {
+          "token": "again",
+          "token_pos": 18,
+          "quality": "content_word",
+          "word_score_logit": 0.02051098458468914,
+          "word_attn_weight": 0.05353664234280586
+        },
+        {
+          "token": "being",
+          "token_pos": 11,
+          "quality": "stopword",
+          "word_score_logit": 0.016927815973758698,
+          "word_attn_weight": 0.05334515869617462
+        },
+        {
+          "token": "was",
+          "token_pos": 13,
+          "quality": "stopword",
+          "word_score_logit": 0.014841531403362751,
+          "word_attn_weight": 0.05323398485779762
+        },
+        {
+          "token": "rise",
+          "token_pos": 16,
+          "quality": "content_word",
+          "word_score_logit": 0.013456733897328377,
+          "word_attn_weight": 0.05316030979156494
+        }
+      ]
+    ],
+    "top_sentence_id": 12,
+    "sentence_importance_distribution": [
+      0.012846960686147213,
+      0.02669725939631462,
+      0.11787004768848419,
+      0.04822305589914322,
+      0.013140085153281689,
+      0.023587437346577644,
+      0.023555051535367966,
+      0.04031204432249069,
+      0.05183292552828789,
+      0.11794807016849518,
+      0.03939538076519966,
+      0.035447340458631516,
+      0.16771626472473145,
+      0.03702619671821594,
+      0.06458613276481628,
+      0.08512286096811295,
+      0.015016231685876846,
+      0.019521040841937065,
+      0.017487455159425735,
+      0.04266822710633278
+    ]
+  }
+}

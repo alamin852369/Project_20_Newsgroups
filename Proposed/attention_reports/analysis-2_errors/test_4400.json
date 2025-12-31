@@ -1,0 +1,381 @@
+{
+  "true_label_id": 3,
+  "pred_label_id": 12,
+  "true_label_name": "comp.sys.ibm.pc.hardware",
+  "pred_label_name": "sci.electronics",
+  "pred_confidence": 0.9095276594161987,
+  "num_sents": 4,
+  "top_sentences": [
+    {
+      "sentence_id": 2,
+      "importance": 0.3530414402484894,
+      "sentence_text": "this is easily done by getting a large <UNK> core from your local electronics shop a <UNK> core is a ceramic metal <UNK> and wind the telephone line in through the center of the core and out around the outside five or six times",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "wind",
+          "token_pos": 24,
+          "word_score_logit": 0.12580305337905884,
+          "word_attn_weight": 0.02471613511443138
+        },
+        {
+          "rank": 1,
+          "token": "telephone",
+          "token_pos": 26,
+          "word_score_logit": 0.12498792260885239,
+          "word_attn_weight": 0.024695996195077896
+        },
+        {
+          "rank": 2,
+          "token": "the",
+          "token_pos": 25,
+          "word_score_logit": 0.1042722761631012,
+          "word_attn_weight": 0.024189665913581848
+        },
+        {
+          "rank": 3,
+          "token": "and",
+          "token_pos": 23,
+          "word_score_logit": 0.10420677065849304,
+          "word_attn_weight": 0.024188080802559853
+        },
+        {
+          "rank": 4,
+          "token": "in",
+          "token_pos": 28,
+          "word_score_logit": 0.09726446121931076,
+          "word_attn_weight": 0.024020740762352943
+        }
+      ]
+    },
+    {
+      "sentence_id": 0,
+      "importance": 0.29310905933380127,
+      "sentence_text": "i used to have a lot of line noise problems with my 1200 baud modem",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "used",
+          "token_pos": 1,
+          "word_score_logit": 0.08869367092847824,
+          "word_attn_weight": 0.0691523626446724
+        },
+        {
+          "rank": 1,
+          "token": "modem",
+          "token_pos": 14,
+          "word_score_logit": 0.07830847799777985,
+          "word_attn_weight": 0.06843791902065277
+        },
+        {
+          "rank": 2,
+          "token": "have",
+          "token_pos": 3,
+          "word_score_logit": 0.06413480639457703,
+          "word_attn_weight": 0.06747474521398544
+        },
+        {
+          "rank": 3,
+          "token": "problems",
+          "token_pos": 9,
+          "word_score_logit": 0.06284172832965851,
+          "word_attn_weight": 0.06738755106925964
+        },
+        {
+          "rank": 4,
+          "token": "with",
+          "token_pos": 10,
+          "word_score_logit": 0.06022677198052406,
+          "word_attn_weight": 0.0672115683555603
+        }
+      ]
+    },
+    {
+      "sentence_id": 3,
+      "importance": 0.20369748771190643,
+      "sentence_text": "this is a easy and cheap fix that does not have the <UNK> of having to use <UNK> to fix a hardware problem",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "problem",
+          "token_pos": 22,
+          "word_score_logit": 0.07588294893503189,
+          "word_attn_weight": 0.0456753671169281
+        },
+        {
+          "rank": 1,
+          "token": "that",
+          "token_pos": 7,
+          "word_score_logit": 0.07257141917943954,
+          "word_attn_weight": 0.04552436247467995
+        },
+        {
+          "rank": 2,
+          "token": "does",
+          "token_pos": 8,
+          "word_score_logit": 0.07063104212284088,
+          "word_attn_weight": 0.04543611407279968
+        },
+        {
+          "rank": 3,
+          "token": "use",
+          "token_pos": 16,
+          "word_score_logit": 0.06823015213012695,
+          "word_attn_weight": 0.04532715678215027
+        },
+        {
+          "rank": 4,
+          "token": "not",
+          "token_pos": 9,
+          "word_score_logit": 0.05807049199938774,
+          "word_attn_weight": 0.04486897960305214
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "importance": 0.15015201270580292,
+      "sentence_text": "what was <UNK> to me was to put a <UNK> transformer on the line",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "the",
+          "token_pos": 12,
+          "word_score_logit": 0.054906006902456284,
+          "word_attn_weight": 0.07357476651668549
+        },
+        {
+          "rank": 1,
+          "token": "on",
+          "token_pos": 11,
+          "word_score_logit": 0.042884692549705505,
+          "word_attn_weight": 0.07269559800624847
+        },
+        {
+          "rank": 2,
+          "token": "line",
+          "token_pos": 13,
+          "word_score_logit": 0.04030797258019447,
+          "word_attn_weight": 0.07250852137804031
+        },
+        {
+          "rank": 3,
+          "token": "transformer",
+          "token_pos": 10,
+          "word_score_logit": 0.036526158452034,
+          "word_attn_weight": 0.07223483175039291
+        },
+        {
+          "rank": 4,
+          "token": "was",
+          "token_pos": 1,
+          "word_score_logit": 0.0301916915923357,
+          "word_attn_weight": 0.07177870720624924
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 10,
+      "from_sentence_id": 2,
+      "token": "wind",
+      "token_pos": 24,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.411356121301651,
+          "sentence_text": "this is easily done by getting a large <UNK> core from your local electronics shop a <UNK> core is a ceramic metal <UNK> and wind the telephone line in through the center of the core and out around the outside five or six times"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.29383838176727295,
+          "sentence_text": "i used to have a lot of line noise problems with my 1200 baud modem"
+        }
+      ]
+    },
+    {
+      "query_id": 11,
+      "from_sentence_id": 2,
+      "token": "telephone",
+      "token_pos": 26,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.4209320545196533,
+          "sentence_text": "this is easily done by getting a large <UNK> core from your local electronics shop a <UNK> core is a ceramic metal <UNK> and wind the telephone line in through the center of the core and out around the outside five or six times"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.2823953926563263,
+          "sentence_text": "i used to have a lot of line noise problems with my 1200 baud modem"
+        }
+      ]
+    },
+    {
+      "query_id": 12,
+      "from_sentence_id": 2,
+      "token": "the",
+      "token_pos": 25,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.41327911615371704,
+          "sentence_text": "this is easily done by getting a large <UNK> core from your local electronics shop a <UNK> core is a ceramic metal <UNK> and wind the telephone line in through the center of the core and out around the outside five or six times"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.28039127588272095,
+          "sentence_text": "i used to have a lot of line noise problems with my 1200 baud modem"
+        }
+      ]
+    },
+    {
+      "query_id": 13,
+      "from_sentence_id": 2,
+      "token": "and",
+      "token_pos": 23,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.37523153424263,
+          "sentence_text": "this is easily done by getting a large <UNK> core from your local electronics shop a <UNK> core is a ceramic metal <UNK> and wind the telephone line in through the center of the core and out around the outside five or six times"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.2951850891113281,
+          "sentence_text": "i used to have a lot of line noise problems with my 1200 baud modem"
+        }
+      ]
+    },
+    {
+      "query_id": 14,
+      "from_sentence_id": 2,
+      "token": "in",
+      "token_pos": 28,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.3775404095649719,
+          "sentence_text": "this is easily done by getting a large <UNK> core from your local electronics shop a <UNK> core is a ceramic metal <UNK> and wind the telephone line in through the center of the core and out around the outside five or six times"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.27419501543045044,
+          "sentence_text": "i used to have a lot of line noise problems with my 1200 baud modem"
+        }
+      ]
+    },
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "used",
+      "token_pos": 1,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.3886813819408417,
+          "sentence_text": "this is easily done by getting a large <UNK> core from your local electronics shop a <UNK> core is a ceramic metal <UNK> and wind the telephone line in through the center of the core and out around the outside five or six times"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.30402833223342896,
+          "sentence_text": "i used to have a lot of line noise problems with my 1200 baud modem"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "modem",
+      "token_pos": 14,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.39925485849380493,
+          "sentence_text": "i used to have a lot of line noise problems with my 1200 baud modem"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.2799024283885956,
+          "sentence_text": "this is easily done by getting a large <UNK> core from your local electronics shop a <UNK> core is a ceramic metal <UNK> and wind the telephone line in through the center of the core and out around the outside five or six times"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "have",
+      "token_pos": 3,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.3827039897441864,
+          "sentence_text": "this is easily done by getting a large <UNK> core from your local electronics shop a <UNK> core is a ceramic metal <UNK> and wind the telephone line in through the center of the core and out around the outside five or six times"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.3044489622116089,
+          "sentence_text": "i used to have a lot of line noise problems with my 1200 baud modem"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "problems",
+      "token_pos": 9,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.3292665481567383,
+          "sentence_text": "i used to have a lot of line noise problems with my 1200 baud modem"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.29137134552001953,
+          "sentence_text": "this is easily done by getting a large <UNK> core from your local electronics shop a <UNK> core is a ceramic metal <UNK> and wind the telephone line in through the center of the core and out around the outside five or six times"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "with",
+      "token_pos": 10,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.31304505467414856,
+          "sentence_text": "i used to have a lot of line noise problems with my 1200 baud modem"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.2617892622947693,
+          "sentence_text": "this is easily done by getting a large <UNK> core from your local electronics shop a <UNK> core is a ceramic metal <UNK> and wind the telephone line in through the center of the core and out around the outside five or six times"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_4400"
+}

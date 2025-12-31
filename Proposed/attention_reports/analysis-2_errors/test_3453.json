@@ -1,0 +1,381 @@
+{
+  "true_label_id": 5,
+  "pred_label_id": 1,
+  "true_label_name": "comp.windows.x",
+  "pred_label_name": "comp.graphics",
+  "pred_confidence": 0.9677119255065918,
+  "num_sents": 4,
+  "top_sentences": [
+    {
+      "sentence_id": 0,
+      "importance": 0.6123092174530029,
+      "sentence_text": "it seems silly but while i've located things like tgif that can edit gif files and various tools to convert to from gif format i haven't been able to locate a program that just opens a window and displays a gif file in it",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "can",
+          "token_pos": 11,
+          "word_score_logit": 0.032554712146520615,
+          "word_attn_weight": 0.0239338930696249
+        },
+        {
+          "rank": 1,
+          "token": "that",
+          "token_pos": 10,
+          "word_score_logit": 0.02898404933512211,
+          "word_attn_weight": 0.023848585784435272
+        },
+        {
+          "rank": 2,
+          "token": "window",
+          "token_pos": 36,
+          "word_score_logit": 0.027003230527043343,
+          "word_attn_weight": 0.023801391944289207
+        },
+        {
+          "rank": 3,
+          "token": "edit",
+          "token_pos": 12,
+          "word_score_logit": 0.025667481124401093,
+          "word_attn_weight": 0.023769620805978775
+        },
+        {
+          "rank": 4,
+          "token": "in",
+          "token_pos": 42,
+          "word_score_logit": 0.01661067083477974,
+          "word_attn_weight": 0.023555316030979156
+        }
+      ]
+    },
+    {
+      "sentence_id": 2,
+      "importance": 0.13494977355003357,
+      "sentence_text": "is there one lurking about in some archive",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "in",
+          "token_pos": 5,
+          "word_score_logit": 0.012719356454908848,
+          "word_attn_weight": 0.12668082118034363
+        },
+        {
+          "rank": 1,
+          "token": "is",
+          "token_pos": 0,
+          "word_score_logit": 0.01188068650662899,
+          "word_attn_weight": 0.12657462060451508
+        },
+        {
+          "rank": 2,
+          "token": "about",
+          "token_pos": 4,
+          "word_score_logit": 0.007830004207789898,
+          "word_attn_weight": 0.12606294453144073
+        },
+        {
+          "rank": 3,
+          "token": "lurking",
+          "token_pos": 3,
+          "word_score_logit": 0.006474494002759457,
+          "word_attn_weight": 0.12589217722415924
+        },
+        {
+          "rank": 4,
+          "token": "there",
+          "token_pos": 1,
+          "word_score_logit": 0.006469232961535454,
+          "word_attn_weight": 0.12589150667190552
+        }
+      ]
+    },
+    {
+      "sentence_id": 3,
+      "importance": 0.1313096582889557,
+      "sentence_text": "nothing sophisticated just show the pretty picture",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "the",
+          "token_pos": 4,
+          "word_score_logit": 0.024384137243032455,
+          "word_attn_weight": 0.1464209407567978
+        },
+        {
+          "rank": 1,
+          "token": "just",
+          "token_pos": 2,
+          "word_score_logit": 0.021480435505509377,
+          "word_attn_weight": 0.14599639177322388
+        },
+        {
+          "rank": 2,
+          "token": "show",
+          "token_pos": 3,
+          "word_score_logit": 0.013887531124055386,
+          "word_attn_weight": 0.14489206671714783
+        },
+        {
+          "rank": 3,
+          "token": "sophisticated",
+          "token_pos": 1,
+          "word_score_logit": -0.010887514799833298,
+          "word_attn_weight": 0.14134645462036133
+        },
+        {
+          "rank": 4,
+          "token": "pretty",
+          "token_pos": 5,
+          "word_score_logit": -0.015171322971582413,
+          "word_attn_weight": 0.1407422572374344
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "importance": 0.12143141031265259,
+      "sentence_text": "i've looked thru various faq files also to no avail",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "faq",
+          "token_pos": 4,
+          "word_score_logit": 0.07780998200178146,
+          "word_attn_weight": 0.10570988804101944
+        },
+        {
+          "rank": 1,
+          "token": "files",
+          "token_pos": 5,
+          "word_score_logit": 0.06164979934692383,
+          "word_attn_weight": 0.10401532053947449
+        },
+        {
+          "rank": 2,
+          "token": "also",
+          "token_pos": 6,
+          "word_score_logit": 0.03415076434612274,
+          "word_attn_weight": 0.10119397938251495
+        },
+        {
+          "rank": 3,
+          "token": "various",
+          "token_pos": 3,
+          "word_score_logit": 0.03135381639003754,
+          "word_attn_weight": 0.10091133415699005
+        },
+        {
+          "rank": 4,
+          "token": "avail",
+          "token_pos": 9,
+          "word_score_logit": 0.031166069209575653,
+          "word_attn_weight": 0.10089239478111267
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "can",
+      "token_pos": 11,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.853175938129425,
+          "sentence_text": "it seems silly but while i've located things like tgif that can edit gif files and various tools to convert to from gif format i haven't been able to locate a program that just opens a window and displays a gif file in it"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.05513688921928406,
+          "sentence_text": "is there one lurking about in some archive"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "that",
+      "token_pos": 10,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.8693122267723083,
+          "sentence_text": "it seems silly but while i've located things like tgif that can edit gif files and various tools to convert to from gif format i haven't been able to locate a program that just opens a window and displays a gif file in it"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.049286797642707825,
+          "sentence_text": "is there one lurking about in some archive"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "window",
+      "token_pos": 36,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.8823240995407104,
+          "sentence_text": "it seems silly but while i've located things like tgif that can edit gif files and various tools to convert to from gif format i haven't been able to locate a program that just opens a window and displays a gif file in it"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.04348274692893028,
+          "sentence_text": "is there one lurking about in some archive"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "edit",
+      "token_pos": 12,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.8947064876556396,
+          "sentence_text": "it seems silly but while i've located things like tgif that can edit gif files and various tools to convert to from gif format i haven't been able to locate a program that just opens a window and displays a gif file in it"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.0400070920586586,
+          "sentence_text": "is there one lurking about in some archive"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "in",
+      "token_pos": 42,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.8100797533988953,
+          "sentence_text": "it seems silly but while i've located things like tgif that can edit gif files and various tools to convert to from gif format i haven't been able to locate a program that just opens a window and displays a gif file in it"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.07132917642593384,
+          "sentence_text": "is there one lurking about in some archive"
+        }
+      ]
+    },
+    {
+      "query_id": 10,
+      "from_sentence_id": 2,
+      "token": "in",
+      "token_pos": 5,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.610998809337616,
+          "sentence_text": "it seems silly but while i've located things like tgif that can edit gif files and various tools to convert to from gif format i haven't been able to locate a program that just opens a window and displays a gif file in it"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.1396755576133728,
+          "sentence_text": "is there one lurking about in some archive"
+        }
+      ]
+    },
+    {
+      "query_id": 11,
+      "from_sentence_id": 2,
+      "token": "is",
+      "token_pos": 0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5476822853088379,
+          "sentence_text": "it seems silly but while i've located things like tgif that can edit gif files and various tools to convert to from gif format i haven't been able to locate a program that just opens a window and displays a gif file in it"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.15885402262210846,
+          "sentence_text": "is there one lurking about in some archive"
+        }
+      ]
+    },
+    {
+      "query_id": 12,
+      "from_sentence_id": 2,
+      "token": "about",
+      "token_pos": 4,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6139089465141296,
+          "sentence_text": "it seems silly but while i've located things like tgif that can edit gif files and various tools to convert to from gif format i haven't been able to locate a program that just opens a window and displays a gif file in it"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.13815253973007202,
+          "sentence_text": "is there one lurking about in some archive"
+        }
+      ]
+    },
+    {
+      "query_id": 13,
+      "from_sentence_id": 2,
+      "token": "lurking",
+      "token_pos": 3,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6345741748809814,
+          "sentence_text": "it seems silly but while i've located things like tgif that can edit gif files and various tools to convert to from gif format i haven't been able to locate a program that just opens a window and displays a gif file in it"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.1331017166376114,
+          "sentence_text": "is there one lurking about in some archive"
+        }
+      ]
+    },
+    {
+      "query_id": 14,
+      "from_sentence_id": 2,
+      "token": "there",
+      "token_pos": 1,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5970300436019897,
+          "sentence_text": "it seems silly but while i've located things like tgif that can edit gif files and various tools to convert to from gif format i haven't been able to locate a program that just opens a window and displays a gif file in it"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.1434917002916336,
+          "sentence_text": "is there one lurking about in some archive"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_3453"
+}

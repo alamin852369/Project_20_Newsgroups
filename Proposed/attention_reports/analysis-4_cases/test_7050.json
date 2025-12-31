@@ -1,0 +1,122 @@
+{
+  "example_id": "test_7050",
+  "true_label_id": 10,
+  "pred_label_id": 14,
+  "true_label_name": "rec.sport.hockey",
+  "pred_label_name": "sci.space",
+  "pred_confidence": 0.6051723957061768,
+  "metrics": {
+    "num_sents": 2,
+    "K": 5,
+    "stop_ratio": 0.7,
+    "unk_ratio": 0.0,
+    "num_ratio": 0.1,
+    "content_ratio": 0.1,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 0.6811901926994324,
+    "sentence_importance_entropy": 0.6822116374969482,
+    "sentence_importance_max": 0.5738094449043274,
+    "top_sentence_id": 0,
+    "query_mismatch_rate": 0.5,
+    "selected_quality_counts": {
+      "stopword": 7,
+      "content_word": 1,
+      "number": 1,
+      "other": 1
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.43,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.5652242839336395,
+    "D_local_global_conflict": 0.5,
+    "E_overconfident_error": 0.6051723957061768
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "as far as i can tell he was right next to bassen",
+      "don't you guys love it when people like me come out of the <UNK> 8"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "was",
+          "token_pos": 7,
+          "quality": "stopword",
+          "word_score_logit": 0.05773542448878288,
+          "word_attn_weight": 0.08477949351072311
+        },
+        {
+          "token": "he",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": 0.05708731338381767,
+          "word_attn_weight": 0.08472456783056259
+        },
+        {
+          "token": "to",
+          "token_pos": 10,
+          "quality": "stopword",
+          "word_score_logit": 0.04920642450451851,
+          "word_attn_weight": 0.08405947685241699
+        },
+        {
+          "token": "right",
+          "token_pos": 8,
+          "quality": "content_word",
+          "word_score_logit": 0.047374624758958817,
+          "word_attn_weight": 0.0839056447148323
+        },
+        {
+          "token": "as",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.04466329142451286,
+          "word_attn_weight": 0.08367845416069031
+        }
+      ],
+      [
+        {
+          "token": "of",
+          "token_pos": 11,
+          "quality": "stopword",
+          "word_score_logit": 0.02268134616315365,
+          "word_attn_weight": 0.0685996562242508
+        },
+        {
+          "token": "the",
+          "token_pos": 12,
+          "quality": "stopword",
+          "word_score_logit": 0.015492850914597511,
+          "word_attn_weight": 0.06810829788446426
+        },
+        {
+          "token": "8",
+          "token_pos": 14,
+          "quality": "number",
+          "word_score_logit": 0.014100152999162674,
+          "word_attn_weight": 0.0680135041475296
+        },
+        {
+          "token": "out",
+          "token_pos": 10,
+          "quality": "stopword",
+          "word_score_logit": 0.0077413534745574,
+          "word_attn_weight": 0.0675823986530304
+        },
+        {
+          "token": "don't",
+          "token_pos": 0,
+          "quality": "other",
+          "word_score_logit": 0.003807848785072565,
+          "word_attn_weight": 0.06731708347797394
+        }
+      ]
+    ],
+    "top_sentence_id": 0,
+    "sentence_importance_distribution": [
+      0.5738094449043274,
+      0.4261905252933502
+    ]
+  }
+}

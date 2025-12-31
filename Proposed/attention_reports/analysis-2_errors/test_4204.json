@@ -1,0 +1,297 @@
+{
+  "true_label_id": 12,
+  "pred_label_id": 7,
+  "true_label_name": "sci.electronics",
+  "pred_label_name": "rec.autos",
+  "pred_confidence": 0.17766962945461273,
+  "num_sents": 2,
+  "top_sentences": [
+    {
+      "sentence_id": 0,
+      "importance": 0.7015984058380127,
+      "sentence_text": "i think they are really neat to put onto key rings",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "rings",
+          "token_pos": 10,
+          "word_score_logit": 0.046896398067474365,
+          "word_attn_weight": 0.0954197496175766
+        },
+        {
+          "rank": 1,
+          "token": "think",
+          "token_pos": 1,
+          "word_score_logit": 0.027359388768672943,
+          "word_attn_weight": 0.09357362985610962
+        },
+        {
+          "rank": 2,
+          "token": "i",
+          "token_pos": 0,
+          "word_score_logit": 0.026295967400074005,
+          "word_attn_weight": 0.09347417205572128
+        },
+        {
+          "rank": 3,
+          "token": "they",
+          "token_pos": 2,
+          "word_score_logit": 0.020965522155165672,
+          "word_attn_weight": 0.09297723323106766
+        },
+        {
+          "rank": 4,
+          "token": "are",
+          "token_pos": 3,
+          "word_score_logit": -0.003778526559472084,
+          "word_attn_weight": 0.09070483595132828
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "importance": 0.2984015643596649,
+      "sentence_text": "when somebody makes the mistake of asking about it you can totally <UNK> out",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "the",
+          "token_pos": 3,
+          "word_score_logit": 0.02418789267539978,
+          "word_attn_weight": 0.07331681251525879
+        },
+        {
+          "rank": 1,
+          "token": "when",
+          "token_pos": 0,
+          "word_score_logit": 0.021501369774341583,
+          "word_attn_weight": 0.0731201097369194
+        },
+        {
+          "rank": 2,
+          "token": "mistake",
+          "token_pos": 4,
+          "word_score_logit": 0.013830483891069889,
+          "word_attn_weight": 0.0725613534450531
+        },
+        {
+          "rank": 3,
+          "token": "makes",
+          "token_pos": 2,
+          "word_score_logit": 0.012815961614251137,
+          "word_attn_weight": 0.07248777896165848
+        },
+        {
+          "rank": 4,
+          "token": "somebody",
+          "token_pos": 1,
+          "word_score_logit": 0.009569375775754452,
+          "word_attn_weight": 0.07225281745195389
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "rings",
+      "token_pos": 10,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.8083094358444214,
+          "sentence_text": "i think they are really neat to put onto key rings"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.19169051945209503,
+          "sentence_text": "when somebody makes the mistake of asking about it you can totally <UNK> out"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "think",
+      "token_pos": 1,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.7488254308700562,
+          "sentence_text": "i think they are really neat to put onto key rings"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.25117453932762146,
+          "sentence_text": "when somebody makes the mistake of asking about it you can totally <UNK> out"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "i",
+      "token_pos": 0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.7585234045982361,
+          "sentence_text": "i think they are really neat to put onto key rings"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.2414766103029251,
+          "sentence_text": "when somebody makes the mistake of asking about it you can totally <UNK> out"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "they",
+      "token_pos": 2,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.7385258078575134,
+          "sentence_text": "i think they are really neat to put onto key rings"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.2614741623401642,
+          "sentence_text": "when somebody makes the mistake of asking about it you can totally <UNK> out"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "are",
+      "token_pos": 3,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.717192530632019,
+          "sentence_text": "i think they are really neat to put onto key rings"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.28280746936798096,
+          "sentence_text": "when somebody makes the mistake of asking about it you can totally <UNK> out"
+        }
+      ]
+    },
+    {
+      "query_id": 5,
+      "from_sentence_id": 1,
+      "token": "the",
+      "token_pos": 3,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6561955213546753,
+          "sentence_text": "i think they are really neat to put onto key rings"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.3438044786453247,
+          "sentence_text": "when somebody makes the mistake of asking about it you can totally <UNK> out"
+        }
+      ]
+    },
+    {
+      "query_id": 6,
+      "from_sentence_id": 1,
+      "token": "when",
+      "token_pos": 0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6480263471603394,
+          "sentence_text": "i think they are really neat to put onto key rings"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.35197368264198303,
+          "sentence_text": "when somebody makes the mistake of asking about it you can totally <UNK> out"
+        }
+      ]
+    },
+    {
+      "query_id": 7,
+      "from_sentence_id": 1,
+      "token": "mistake",
+      "token_pos": 4,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6287260055541992,
+          "sentence_text": "i think they are really neat to put onto key rings"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.3712739944458008,
+          "sentence_text": "when somebody makes the mistake of asking about it you can totally <UNK> out"
+        }
+      ]
+    },
+    {
+      "query_id": 8,
+      "from_sentence_id": 1,
+      "token": "makes",
+      "token_pos": 2,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6587710380554199,
+          "sentence_text": "i think they are really neat to put onto key rings"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.34122899174690247,
+          "sentence_text": "when somebody makes the mistake of asking about it you can totally <UNK> out"
+        }
+      ]
+    },
+    {
+      "query_id": 9,
+      "from_sentence_id": 1,
+      "token": "somebody",
+      "token_pos": 1,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.65288907289505,
+          "sentence_text": "i think they are really neat to put onto key rings"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.34711092710494995,
+          "sentence_text": "when somebody makes the mistake of asking about it you can totally <UNK> out"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_4204"
+}

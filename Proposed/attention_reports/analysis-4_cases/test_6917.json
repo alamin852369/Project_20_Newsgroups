@@ -1,0 +1,785 @@
+{
+  "example_id": "test_6917",
+  "true_label_id": 5,
+  "pred_label_id": 1,
+  "true_label_name": "comp.windows.x",
+  "pred_label_name": "comp.graphics",
+  "pred_confidence": 0.5162506699562073,
+  "metrics": {
+    "num_sents": 19,
+    "K": 5,
+    "stop_ratio": 0.43157894736842106,
+    "unk_ratio": 0.0,
+    "num_ratio": 0.0,
+    "content_ratio": 0.47368421052631576,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 2.684558391571045,
+    "sentence_importance_entropy": 2.74235463142395,
+    "sentence_importance_max": 0.22300072014331818,
+    "top_sentence_id": 7,
+    "query_mismatch_rate": 0.9578947368421052,
+    "selected_quality_counts": {
+      "stopword": 41,
+      "content_word": 45,
+      "short_word": 8,
+      "other": 1
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.25894736842105265,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.15610050410032272,
+    "D_local_global_conflict": 0.9578947368421052,
+    "E_overconfident_error": 0.5162506699562073
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "it really bums me out that xv went shareware",
+      "xv is shareware for personal use only",
+      "you may use xv for your own what does this mean anyway",
+      "can i sit in a company and look at pictures off the net in my spare time",
+      "amusement and if you find it nifty useful generally cool or of some value to you your non <UNK> donation would be greatly appreciated",
+      "25 is the suggested donation though of course larger donations are quite welcome",
+      "folks who donate 25 or more can receive a real nice bound copy of the xv manual for no extra charge",
+      "commercial government and institutional users must register their copies of xv for the <UNK> reasonable price of just 25 per workstation x terminal",
+      "site licenses are available for those who wish to run xv on a large number of machines",
+      "contact the author for more details",
+      "now since universities are institutions right doesn't this mean that most everyone in the world is affected by this",
+      "i don't believe there are that many running x windows at home yet relatively speaking",
+      "can the author legally sell xv",
+      "xv uses tiff and jpeg code developed by others",
+      "did the author get permission to sell these works",
+      "did the author also get permission from all the people who contributed to xv to sell their work as well",
+      "my guess is that now nobody is going to want to help the author maintain the code anymore now that xv has become a commercial product and support for xv will begin to slide downhill",
+      "if this is the case then that's a bummer",
+      "i really liked xv"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "it",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.02234591916203499,
+          "word_attn_weight": 0.113309346139431
+        },
+        {
+          "token": "really",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.02172255888581276,
+          "word_attn_weight": 0.11323873698711395
+        },
+        {
+          "token": "xv",
+          "token_pos": 6,
+          "quality": "short_word",
+          "word_score_logit": 0.019407302141189575,
+          "word_attn_weight": 0.11297686398029327
+        },
+        {
+          "token": "went",
+          "token_pos": 7,
+          "quality": "content_word",
+          "word_score_logit": 0.01873503066599369,
+          "word_attn_weight": 0.11290093511343002
+        },
+        {
+          "token": "that",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.0011281110346317291,
+          "word_attn_weight": 0.11093050241470337
+        }
+      ],
+      [
+        {
+          "token": "use",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.0947147086262703,
+          "word_attn_weight": 0.15186865627765656
+        },
+        {
+          "token": "only",
+          "token_pos": 6,
+          "quality": "content_word",
+          "word_score_logit": 0.06556861102581024,
+          "word_attn_weight": 0.14750616252422333
+        },
+        {
+          "token": "personal",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.04822343587875366,
+          "word_attn_weight": 0.14496970176696777
+        },
+        {
+          "token": "xv",
+          "token_pos": 0,
+          "quality": "short_word",
+          "word_score_logit": 0.02201075479388237,
+          "word_attn_weight": 0.14121903479099274
+        },
+        {
+          "token": "for",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": 0.013609291985630989,
+          "word_attn_weight": 0.14003755152225494
+        }
+      ],
+      [
+        {
+          "token": "use",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.07734093070030212,
+          "word_attn_weight": 0.08817095309495926
+        },
+        {
+          "token": "xv",
+          "token_pos": 3,
+          "quality": "short_word",
+          "word_score_logit": 0.0428665354847908,
+          "word_attn_weight": 0.08518312126398087
+        },
+        {
+          "token": "may",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.028300432488322258,
+          "word_attn_weight": 0.08395132422447205
+        },
+        {
+          "token": "what",
+          "token_pos": 7,
+          "quality": "stopword",
+          "word_score_logit": 0.024168027564883232,
+          "word_attn_weight": 0.08360511809587479
+        },
+        {
+          "token": "does",
+          "token_pos": 8,
+          "quality": "stopword",
+          "word_score_logit": 0.02159920148551464,
+          "word_attn_weight": 0.08339062333106995
+        }
+      ],
+      [
+        {
+          "token": "time",
+          "token_pos": 16,
+          "quality": "content_word",
+          "word_score_logit": 0.03918794170022011,
+          "word_attn_weight": 0.0602363720536232
+        },
+        {
+          "token": "net",
+          "token_pos": 12,
+          "quality": "content_word",
+          "word_score_logit": 0.03681520000100136,
+          "word_attn_weight": 0.06009361892938614
+        },
+        {
+          "token": "and",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": 0.032832689583301544,
+          "word_attn_weight": 0.059854768216609955
+        },
+        {
+          "token": "the",
+          "token_pos": 11,
+          "quality": "stopword",
+          "word_score_logit": 0.024407314136624336,
+          "word_attn_weight": 0.05935259163379669
+        },
+        {
+          "token": "in",
+          "token_pos": 13,
+          "quality": "stopword",
+          "word_score_logit": 0.02344830147922039,
+          "word_attn_weight": 0.05929569527506828
+        }
+      ],
+      [
+        {
+          "token": "or",
+          "token_pos": 10,
+          "quality": "stopword",
+          "word_score_logit": 0.06325326859951019,
+          "word_attn_weight": 0.04316277801990509
+        },
+        {
+          "token": "generally",
+          "token_pos": 8,
+          "quality": "content_word",
+          "word_score_logit": 0.06106402724981308,
+          "word_attn_weight": 0.04306839033961296
+        },
+        {
+          "token": "of",
+          "token_pos": 11,
+          "quality": "stopword",
+          "word_score_logit": 0.04441744089126587,
+          "word_attn_weight": 0.04235738143324852
+        },
+        {
+          "token": "amusement",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": 0.041468340903520584,
+          "word_attn_weight": 0.04223264753818512
+        },
+        {
+          "token": "useful",
+          "token_pos": 7,
+          "quality": "content_word",
+          "word_score_logit": 0.041053056716918945,
+          "word_attn_weight": 0.04221511259675026
+        }
+      ],
+      [
+        {
+          "token": "donations",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": 0.03441454842686653,
+          "word_attn_weight": 0.07816995680332184
+        },
+        {
+          "token": "though",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.034068718552589417,
+          "word_attn_weight": 0.0781429260969162
+        },
+        {
+          "token": "of",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": 0.028303802013397217,
+          "word_attn_weight": 0.07769373059272766
+        },
+        {
+          "token": "course",
+          "token_pos": 7,
+          "quality": "content_word",
+          "word_score_logit": 0.022049646824598312,
+          "word_attn_weight": 0.07720933854579926
+        },
+        {
+          "token": "suggested",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.021794412285089493,
+          "word_attn_weight": 0.07718963176012039
+        }
+      ],
+      [
+        {
+          "token": "no",
+          "token_pos": 18,
+          "quality": "stopword",
+          "word_score_logit": 0.055575061589479446,
+          "word_attn_weight": 0.0487775020301342
+        },
+        {
+          "token": "of",
+          "token_pos": 13,
+          "quality": "stopword",
+          "word_score_logit": 0.0533868670463562,
+          "word_attn_weight": 0.04867088422179222
+        },
+        {
+          "token": "extra",
+          "token_pos": 19,
+          "quality": "content_word",
+          "word_score_logit": 0.04930505156517029,
+          "word_attn_weight": 0.04847262427210808
+        },
+        {
+          "token": "charge",
+          "token_pos": 20,
+          "quality": "content_word",
+          "word_score_logit": 0.046110451221466064,
+          "word_attn_weight": 0.04831801727414131
+        },
+        {
+          "token": "or",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": 0.043604958802461624,
+          "word_attn_weight": 0.04819710925221443
+        }
+      ],
+      [
+        {
+          "token": "x",
+          "token_pos": 21,
+          "quality": "short_word",
+          "word_score_logit": 0.13772690296173096,
+          "word_attn_weight": 0.04647069051861763
+        },
+        {
+          "token": "workstation",
+          "token_pos": 20,
+          "quality": "content_word",
+          "word_score_logit": 0.12815196812152863,
+          "word_attn_weight": 0.046027861535549164
+        },
+        {
+          "token": "terminal",
+          "token_pos": 22,
+          "quality": "content_word",
+          "word_score_logit": 0.1107567623257637,
+          "word_attn_weight": 0.04523412138223648
+        },
+        {
+          "token": "register",
+          "token_pos": 6,
+          "quality": "content_word",
+          "word_score_logit": 0.10674701631069183,
+          "word_attn_weight": 0.04505310580134392
+        },
+        {
+          "token": "of",
+          "token_pos": 16,
+          "quality": "stopword",
+          "word_score_logit": 0.09410960227251053,
+          "word_attn_weight": 0.04448733106255531
+        }
+      ],
+      [
+        {
+          "token": "available",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.07081326097249985,
+          "word_attn_weight": 0.06132042780518532
+        },
+        {
+          "token": "for",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": 0.048463717103004456,
+          "word_attn_weight": 0.05996514484286308
+        },
+        {
+          "token": "those",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.04372205585241318,
+          "word_attn_weight": 0.0596814826130867
+        },
+        {
+          "token": "are",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.04279770702123642,
+          "word_attn_weight": 0.059626344591379166
+        },
+        {
+          "token": "run",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": 0.04262027144432068,
+          "word_attn_weight": 0.059615761041641235
+        }
+      ],
+      [
+        {
+          "token": "contact",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": 0.09844836592674255,
+          "word_attn_weight": 0.1753554791212082
+        },
+        {
+          "token": "the",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.06064095348119736,
+          "word_attn_weight": 0.16884952783584595
+        },
+        {
+          "token": "details",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.038365066051483154,
+          "word_attn_weight": 0.16512982547283173
+        },
+        {
+          "token": "for",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": 0.03254825994372368,
+          "word_attn_weight": 0.16417206823825836
+        },
+        {
+          "token": "more",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.02817842923104763,
+          "word_attn_weight": 0.1634562462568283
+        }
+      ],
+      [
+        {
+          "token": "now",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": 0.007205206900835037,
+          "word_attn_weight": 0.05340038239955902
+        },
+        {
+          "token": "since",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.003963311202824116,
+          "word_attn_weight": 0.05322754755616188
+        },
+        {
+          "token": "right",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.003495356533676386,
+          "word_attn_weight": 0.053202640265226364
+        },
+        {
+          "token": "this",
+          "token_pos": 18,
+          "quality": "stopword",
+          "word_score_logit": 0.002363518811762333,
+          "word_attn_weight": 0.05314246192574501
+        },
+        {
+          "token": "by",
+          "token_pos": 17,
+          "quality": "stopword",
+          "word_score_logit": -0.00025683268904685974,
+          "word_attn_weight": 0.05300338938832283
+        }
+      ],
+      [
+        {
+          "token": "windows",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": 0.14271783828735352,
+          "word_attn_weight": 0.07168373465538025
+        },
+        {
+          "token": "x",
+          "token_pos": 8,
+          "quality": "short_word",
+          "word_score_logit": 0.12078236788511276,
+          "word_attn_weight": 0.070128433406353
+        },
+        {
+          "token": "home",
+          "token_pos": 11,
+          "quality": "content_word",
+          "word_score_logit": 0.12073884159326553,
+          "word_attn_weight": 0.07012537866830826
+        },
+        {
+          "token": "at",
+          "token_pos": 10,
+          "quality": "stopword",
+          "word_score_logit": 0.11373919248580933,
+          "word_attn_weight": 0.06963624060153961
+        },
+        {
+          "token": "relatively",
+          "token_pos": 13,
+          "quality": "content_word",
+          "word_score_logit": 0.09264925867319107,
+          "word_attn_weight": 0.06818299740552902
+        }
+      ],
+      [
+        {
+          "token": "the",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.02842964604496956,
+          "word_attn_weight": 0.17295575141906738
+        },
+        {
+          "token": "can",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.0280834399163723,
+          "word_attn_weight": 0.1728958934545517
+        },
+        {
+          "token": "xv",
+          "token_pos": 5,
+          "quality": "short_word",
+          "word_score_logit": 0.017650628462433815,
+          "word_attn_weight": 0.17110148072242737
+        },
+        {
+          "token": "author",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.000551530160009861,
+          "word_attn_weight": 0.16820065677165985
+        },
+        {
+          "token": "sell",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": -0.06511879712343216,
+          "word_attn_weight": 0.15750974416732788
+        }
+      ],
+      [
+        {
+          "token": "uses",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.01430636178702116,
+          "word_attn_weight": 0.11437861621379852
+        },
+        {
+          "token": "by",
+          "token_pos": 7,
+          "quality": "stopword",
+          "word_score_logit": 0.005685506388545036,
+          "word_attn_weight": 0.11339680850505829
+        },
+        {
+          "token": "others",
+          "token_pos": 8,
+          "quality": "content_word",
+          "word_score_logit": 0.005316158756613731,
+          "word_attn_weight": 0.11335492879152298
+        },
+        {
+          "token": "code",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": -0.0013557486236095428,
+          "word_attn_weight": 0.11260116100311279
+        },
+        {
+          "token": "developed",
+          "token_pos": 6,
+          "quality": "content_word",
+          "word_score_logit": -0.003501713275909424,
+          "word_attn_weight": 0.11235978454351425
+        }
+      ],
+      [
+        {
+          "token": "did",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.028580864891409874,
+          "word_attn_weight": 0.11475537717342377
+        },
+        {
+          "token": "the",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.015917908400297165,
+          "word_attn_weight": 0.11331139504909515
+        },
+        {
+          "token": "these",
+          "token_pos": 7,
+          "quality": "stopword",
+          "word_score_logit": 0.012178439646959305,
+          "word_attn_weight": 0.11288846284151077
+        },
+        {
+          "token": "works",
+          "token_pos": 8,
+          "quality": "content_word",
+          "word_score_logit": 0.003327231854200363,
+          "word_attn_weight": 0.1118936687707901
+        },
+        {
+          "token": "author",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": -0.004617955535650253,
+          "word_attn_weight": 0.1110081821680069
+        }
+      ],
+      [
+        {
+          "token": "all",
+          "token_pos": 7,
+          "quality": "content_word",
+          "word_score_logit": 0.05742880702018738,
+          "word_attn_weight": 0.05177029222249985
+        },
+        {
+          "token": "from",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": 0.05740106850862503,
+          "word_attn_weight": 0.05176885798573494
+        },
+        {
+          "token": "the",
+          "token_pos": 8,
+          "quality": "stopword",
+          "word_score_logit": 0.05663316696882248,
+          "word_attn_weight": 0.051729120314121246
+        },
+        {
+          "token": "did",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.05154690146446228,
+          "word_attn_weight": 0.0514666773378849
+        },
+        {
+          "token": "the",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.04805494844913483,
+          "word_attn_weight": 0.051287271082401276
+        }
+      ],
+      [
+        {
+          "token": "xv",
+          "token_pos": 29,
+          "quality": "short_word",
+          "word_score_logit": 0.08489926904439926,
+          "word_attn_weight": 0.030206141993403435
+        },
+        {
+          "token": "product",
+          "token_pos": 25,
+          "quality": "content_word",
+          "word_score_logit": 0.07581048458814621,
+          "word_attn_weight": 0.029932847246527672
+        },
+        {
+          "token": "will",
+          "token_pos": 30,
+          "quality": "stopword",
+          "word_score_logit": 0.0722859650850296,
+          "word_attn_weight": 0.029827535152435303
+        },
+        {
+          "token": "for",
+          "token_pos": 28,
+          "quality": "stopword",
+          "word_score_logit": 0.06770189851522446,
+          "word_attn_weight": 0.029691116884350777
+        },
+        {
+          "token": "and",
+          "token_pos": 26,
+          "quality": "stopword",
+          "word_score_logit": 0.06535942852497101,
+          "word_attn_weight": 0.02962164767086506
+        }
+      ],
+      [
+        {
+          "token": "if",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.013839928433299065,
+          "word_attn_weight": 0.11384955048561096
+        },
+        {
+          "token": "is",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.008248652331531048,
+          "word_attn_weight": 0.11321476846933365
+        },
+        {
+          "token": "this",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.006019489839673042,
+          "word_attn_weight": 0.11296266317367554
+        },
+        {
+          "token": "the",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": 0.0015510162338614464,
+          "word_attn_weight": 0.11245902627706528
+        },
+        {
+          "token": "case",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": -0.012479780241847038,
+          "word_attn_weight": 0.1108921468257904
+        }
+      ],
+      [
+        {
+          "token": "xv",
+          "token_pos": 3,
+          "quality": "short_word",
+          "word_score_logit": 0.02696303278207779,
+          "word_attn_weight": 0.25266268849372864
+        },
+        {
+          "token": "liked",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.016179068014025688,
+          "word_attn_weight": 0.24995259940624237
+        },
+        {
+          "token": "i",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.015299343504011631,
+          "word_attn_weight": 0.24973280727863312
+        },
+        {
+          "token": "really",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.006931849755346775,
+          "word_attn_weight": 0.24765188992023468
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    ],
+    "top_sentence_id": 7,
+    "sentence_importance_distribution": [
+      0.03194194659590721,
+      0.04055970162153244,
+      0.026735836640000343,
+      0.04154200106859207,
+      0.03185206651687622,
+      0.030414381995797157,
+      0.04778531938791275,
+      0.22300072014331818,
+      0.05129861459136009,
+      0.03622324392199516,
+      0.034639883786439896,
+      0.0576784648001194,
+      0.052960146218538284,
+      0.06558295339345932,
+      0.05583283677697182,
+      0.05943867936730385,
+      0.059097614139318466,
+      0.027300594374537468,
+      0.02611505798995495
+    ]
+  }
+}

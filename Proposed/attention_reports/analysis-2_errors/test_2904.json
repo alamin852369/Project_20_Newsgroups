@@ -1,0 +1,423 @@
+{
+  "true_label_id": 0,
+  "pred_label_id": 15,
+  "true_label_name": "alt.atheism",
+  "pred_label_name": "soc.religion.christian",
+  "pred_confidence": 0.8355172276496887,
+  "num_sents": 20,
+  "top_sentences": [
+    {
+      "sentence_id": 10,
+      "importance": 0.11995818465948105,
+      "sentence_text": "the mental states i had <UNK> attributed to divine forces or devil's attempts to destroy my faith were nothing more than my imagination and it is easy to achieve the same mental states at will",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "same",
+          "token_pos": 30,
+          "word_score_logit": 0.039440348744392395,
+          "word_attn_weight": 0.03027084469795227
+        },
+        {
+          "rank": 1,
+          "token": "the",
+          "token_pos": 29,
+          "word_score_logit": 0.03801605850458145,
+          "word_attn_weight": 0.03022776171565056
+        },
+        {
+          "rank": 2,
+          "token": "will",
+          "token_pos": 34,
+          "word_score_logit": 0.02377135306596756,
+          "word_attn_weight": 0.029800226911902428
+        },
+        {
+          "rank": 3,
+          "token": "achieve",
+          "token_pos": 28,
+          "word_score_logit": 0.015503793023526669,
+          "word_attn_weight": 0.02955486811697483
+        },
+        {
+          "rank": 4,
+          "token": "at",
+          "token_pos": 33,
+          "word_score_logit": 0.012544814497232437,
+          "word_attn_weight": 0.029467545449733734
+        }
+      ]
+    },
+    {
+      "sentence_id": 17,
+      "importance": 0.09716673195362091,
+      "sentence_text": "besides i am concerned with god's morality and mental health",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "health",
+          "token_pos": 9,
+          "word_score_logit": 0.0036941422149538994,
+          "word_attn_weight": 0.10231303423643112
+        },
+        {
+          "rank": 1,
+          "token": "and",
+          "token_pos": 7,
+          "word_score_logit": 0.00022826530039310455,
+          "word_attn_weight": 0.10195904225111008
+        },
+        {
+          "rank": 2,
+          "token": "i",
+          "token_pos": 1,
+          "word_score_logit": -0.006449883803725243,
+          "word_attn_weight": 0.10128041356801987
+        },
+        {
+          "rank": 3,
+          "token": "besides",
+          "token_pos": 0,
+          "word_score_logit": -0.017127810046076775,
+          "word_attn_weight": 0.100204698741436
+        },
+        {
+          "rank": 4,
+          "token": "mental",
+          "token_pos": 8,
+          "word_score_logit": -0.020954955369234085,
+          "word_attn_weight": 0.09982193261384964
+        }
+      ]
+    },
+    {
+      "sentence_id": 4,
+      "importance": 0.07381480187177658,
+      "sentence_text": "the responsibility is on you to love god and take a step toward him",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "him",
+          "token_pos": 13,
+          "word_score_logit": 0.01974174752831459,
+          "word_attn_weight": 0.07344097644090652
+        },
+        {
+          "rank": 1,
+          "token": "toward",
+          "token_pos": 12,
+          "word_score_logit": 0.017302729189395905,
+          "word_attn_weight": 0.07326207309961319
+        },
+        {
+          "rank": 2,
+          "token": "a",
+          "token_pos": 10,
+          "word_score_logit": 0.014603177085518837,
+          "word_attn_weight": 0.07306456565856934
+        },
+        {
+          "rank": 3,
+          "token": "step",
+          "token_pos": 11,
+          "word_score_logit": 0.0051169609650969505,
+          "word_attn_weight": 0.07237473875284195
+        },
+        {
+          "rank": 4,
+          "token": "take",
+          "token_pos": 9,
+          "word_score_logit": 0.0010423613712191582,
+          "word_attn_weight": 0.07208043336868286
+        }
+      ]
+    },
+    {
+      "sentence_id": 9,
+      "importance": 0.07010841369628906,
+      "sentence_text": "ultimately the only reason what kept me believing was the fear of hell",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "reason",
+          "token_pos": 3,
+          "word_score_logit": 0.031729359179735184,
+          "word_attn_weight": 0.07912521064281464
+        },
+        {
+          "rank": 1,
+          "token": "only",
+          "token_pos": 2,
+          "word_score_logit": 0.018460912629961967,
+          "word_attn_weight": 0.07808227092027664
+        },
+        {
+          "rank": 2,
+          "token": "the",
+          "token_pos": 1,
+          "word_score_logit": 0.013348149135708809,
+          "word_attn_weight": 0.07768408209085464
+        },
+        {
+          "rank": 3,
+          "token": "kept",
+          "token_pos": 5,
+          "word_score_logit": 0.013052888214588165,
+          "word_attn_weight": 0.07766114175319672
+        },
+        {
+          "rank": 4,
+          "token": "me",
+          "token_pos": 6,
+          "word_score_logit": 0.01199448574334383,
+          "word_attn_weight": 0.07757899165153503
+        }
+      ]
+    },
+    {
+      "sentence_id": 8,
+      "importance": 0.05971362441778183,
+      "sentence_text": "i firmly believed in god for 15 years but i eventually realised i was only deluding myself fearful to face the truth",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "was",
+          "token_pos": 13,
+          "word_score_logit": 0.006293026730418205,
+          "word_attn_weight": 0.04672909528017044
+        },
+        {
+          "rank": 1,
+          "token": "i",
+          "token_pos": 0,
+          "word_score_logit": 9.958259761333466e-05,
+          "word_attn_weight": 0.046440571546554565
+        },
+        {
+          "rank": 2,
+          "token": "only",
+          "token_pos": 14,
+          "word_score_logit": -0.003606787882745266,
+          "word_attn_weight": 0.0462687648832798
+        },
+        {
+          "rank": 3,
+          "token": "15",
+          "token_pos": 6,
+          "word_score_logit": -0.006083891727030277,
+          "word_attn_weight": 0.04615429788827896
+        },
+        {
+          "rank": 4,
+          "token": "the",
+          "token_pos": 20,
+          "word_score_logit": -0.0071278465911746025,
+          "word_attn_weight": 0.046106141060590744
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 50,
+      "from_sentence_id": 10,
+      "token": "same",
+      "token_pos": 30,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 10,
+          "attn_weight": 0.18612955510616302,
+          "sentence_text": "the mental states i had <UNK> attributed to divine forces or devil's attempts to destroy my faith were nothing more than my imagination and it is easy to achieve the same mental states at will"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.13927632570266724,
+          "sentence_text": "besides i am concerned with god's morality and mental health"
+        }
+      ]
+    },
+    {
+      "query_id": 51,
+      "from_sentence_id": 10,
+      "token": "the",
+      "token_pos": 29,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 10,
+          "attn_weight": 0.18541868031024933,
+          "sentence_text": "the mental states i had <UNK> attributed to divine forces or devil's attempts to destroy my faith were nothing more than my imagination and it is easy to achieve the same mental states at will"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.14195036888122559,
+          "sentence_text": "besides i am concerned with god's morality and mental health"
+        }
+      ]
+    },
+    {
+      "query_id": 52,
+      "from_sentence_id": 10,
+      "token": "will",
+      "token_pos": 34,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 10,
+          "attn_weight": 0.12388736009597778,
+          "sentence_text": "the mental states i had <UNK> attributed to divine forces or devil's attempts to destroy my faith were nothing more than my imagination and it is easy to achieve the same mental states at will"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.09986793994903564,
+          "sentence_text": "besides i am concerned with god's morality and mental health"
+        }
+      ]
+    },
+    {
+      "query_id": 53,
+      "from_sentence_id": 10,
+      "token": "achieve",
+      "token_pos": 28,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 10,
+          "attn_weight": 0.18018490076065063,
+          "sentence_text": "the mental states i had <UNK> attributed to divine forces or devil's attempts to destroy my faith were nothing more than my imagination and it is easy to achieve the same mental states at will"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.12773366272449493,
+          "sentence_text": "besides i am concerned with god's morality and mental health"
+        }
+      ]
+    },
+    {
+      "query_id": 54,
+      "from_sentence_id": 10,
+      "token": "at",
+      "token_pos": 33,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 10,
+          "attn_weight": 0.1373407244682312,
+          "sentence_text": "the mental states i had <UNK> attributed to divine forces or devil's attempts to destroy my faith were nothing more than my imagination and it is easy to achieve the same mental states at will"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.10906223207712173,
+          "sentence_text": "besides i am concerned with god's morality and mental health"
+        }
+      ]
+    },
+    {
+      "query_id": 85,
+      "from_sentence_id": 17,
+      "token": "health",
+      "token_pos": 9,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 10,
+          "attn_weight": 0.1664825975894928,
+          "sentence_text": "the mental states i had <UNK> attributed to divine forces or devil's attempts to destroy my faith were nothing more than my imagination and it is easy to achieve the same mental states at will"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.12347201257944107,
+          "sentence_text": "besides i am concerned with god's morality and mental health"
+        }
+      ]
+    },
+    {
+      "query_id": 86,
+      "from_sentence_id": 17,
+      "token": "and",
+      "token_pos": 7,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 10,
+          "attn_weight": 0.14174875617027283,
+          "sentence_text": "the mental states i had <UNK> attributed to divine forces or devil's attempts to destroy my faith were nothing more than my imagination and it is easy to achieve the same mental states at will"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.11242222785949707,
+          "sentence_text": "besides i am concerned with god's morality and mental health"
+        }
+      ]
+    },
+    {
+      "query_id": 87,
+      "from_sentence_id": 17,
+      "token": "i",
+      "token_pos": 1,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 10,
+          "attn_weight": 0.14157749712467194,
+          "sentence_text": "the mental states i had <UNK> attributed to divine forces or devil's attempts to destroy my faith were nothing more than my imagination and it is easy to achieve the same mental states at will"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.10391222685575485,
+          "sentence_text": "besides i am concerned with god's morality and mental health"
+        }
+      ]
+    },
+    {
+      "query_id": 88,
+      "from_sentence_id": 17,
+      "token": "besides",
+      "token_pos": 0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 10,
+          "attn_weight": 0.1329663097858429,
+          "sentence_text": "the mental states i had <UNK> attributed to divine forces or devil's attempts to destroy my faith were nothing more than my imagination and it is easy to achieve the same mental states at will"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.10064153373241425,
+          "sentence_text": "ultimately the only reason what kept me believing was the fear of hell"
+        }
+      ]
+    },
+    {
+      "query_id": 89,
+      "from_sentence_id": 17,
+      "token": "mental",
+      "token_pos": 8,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 10,
+          "attn_weight": 0.15214130282402039,
+          "sentence_text": "the mental states i had <UNK> attributed to divine forces or devil's attempts to destroy my faith were nothing more than my imagination and it is easy to achieve the same mental states at will"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.1154855489730835,
+          "sentence_text": "besides i am concerned with god's morality and mental health"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_2904"
+}

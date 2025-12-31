@@ -1,0 +1,120 @@
+{
+  "example_id": "test_1193",
+  "true_label_id": 13,
+  "pred_label_id": 8,
+  "true_label_name": "sci.med",
+  "pred_label_name": "rec.motorcycles",
+  "pred_confidence": 0.38489386439323425,
+  "metrics": {
+    "num_sents": 2,
+    "K": 5,
+    "stop_ratio": 0.7,
+    "unk_ratio": 0.0,
+    "num_ratio": 0.0,
+    "content_ratio": 0.3,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 0.6886687874794006,
+    "sentence_importance_entropy": 0.692635715007782,
+    "sentence_importance_max": 0.5159901976585388,
+    "top_sentence_id": 0,
+    "query_mismatch_rate": 0.0,
+    "selected_quality_counts": {
+      "stopword": 7,
+      "content_word": 3
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.42,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.5226659953594208,
+    "D_local_global_conflict": 0.0,
+    "E_overconfident_error": 0.38489386439323425
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "i saw a printed up flyer that stated the person was a licensed <UNK> and <UNK> what are your opinions",
+      "how much can you tell about a person's health by looking into their eyes"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "a",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.03237290307879448,
+          "word_attn_weight": 0.05121701583266258
+        },
+        {
+          "token": "the",
+          "token_pos": 8,
+          "quality": "stopword",
+          "word_score_logit": 0.02917078509926796,
+          "word_attn_weight": 0.05105327442288399
+        },
+        {
+          "token": "saw",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.02628772333264351,
+          "word_attn_weight": 0.05090629681944847
+        },
+        {
+          "token": "that",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": 0.022479478269815445,
+          "word_attn_weight": 0.05071280524134636
+        },
+        {
+          "token": "i",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.015819288790225983,
+          "word_attn_weight": 0.05037616938352585
+        }
+      ],
+      [
+        {
+          "token": "into",
+          "token_pos": 11,
+          "quality": "stopword",
+          "word_score_logit": 0.020972128957509995,
+          "word_attn_weight": 0.07292021811008453
+        },
+        {
+          "token": "can",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.020662596449255943,
+          "word_attn_weight": 0.07289765775203705
+        },
+        {
+          "token": "looking",
+          "token_pos": 10,
+          "quality": "content_word",
+          "word_score_logit": 0.018856903538107872,
+          "word_attn_weight": 0.07276614010334015
+        },
+        {
+          "token": "their",
+          "token_pos": 12,
+          "quality": "stopword",
+          "word_score_logit": 0.01473604142665863,
+          "word_attn_weight": 0.0724668949842453
+        },
+        {
+          "token": "much",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.010590930469334126,
+          "word_attn_weight": 0.07216713577508926
+        }
+      ]
+    ],
+    "top_sentence_id": 0,
+    "sentence_importance_distribution": [
+      0.5159901976585388,
+      0.48400983214378357
+    ]
+  }
+}

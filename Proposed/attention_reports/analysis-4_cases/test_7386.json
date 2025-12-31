@@ -1,0 +1,81 @@
+{
+  "example_id": "test_7386",
+  "true_label_id": 9,
+  "pred_label_id": 13,
+  "true_label_name": "rec.sport.baseball",
+  "pred_label_name": "sci.med",
+  "pred_confidence": 0.9932511448860168,
+  "metrics": {
+    "num_sents": 1,
+    "K": 5,
+    "stop_ratio": 0.4,
+    "unk_ratio": 0.0,
+    "num_ratio": 0.0,
+    "content_ratio": 0.6,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 0.0,
+    "sentence_importance_entropy": -0.0,
+    "sentence_importance_max": 1.0,
+    "top_sentence_id": 0,
+    "query_mismatch_rate": 0.0,
+    "selected_quality_counts": {
+      "content_word": 3,
+      "stopword": 2
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.24,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 1.0,
+    "D_local_global_conflict": 0.0,
+    "E_overconfident_error": 0.9932511448860168
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "i heard he had a <UNK> abdominal muscle or something like that"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "heard",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.04187852516770363,
+          "word_attn_weight": 0.08441510051488876
+        },
+        {
+          "token": "i",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.04014160856604576,
+          "word_attn_weight": 0.08426860719919205
+        },
+        {
+          "token": "he",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.036474451422691345,
+          "word_attn_weight": 0.0839601457118988
+        },
+        {
+          "token": "abdominal",
+          "token_pos": 6,
+          "quality": "content_word",
+          "word_score_logit": 0.03550019860267639,
+          "word_attn_weight": 0.08387838304042816
+        },
+        {
+          "token": "had",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.03478023409843445,
+          "word_attn_weight": 0.08381801843643188
+        }
+      ]
+    ],
+    "top_sentence_id": 0,
+    "sentence_importance_distribution": [
+      1.0
+    ]
+  }
+}

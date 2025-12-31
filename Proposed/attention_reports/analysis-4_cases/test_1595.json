@@ -1,0 +1,826 @@
+{
+  "example_id": "test_1595",
+  "true_label_id": 17,
+  "pred_label_id": 18,
+  "true_label_name": "talk.politics.mideast",
+  "pred_label_name": "talk.politics.misc",
+  "pred_confidence": 0.49033764004707336,
+  "metrics": {
+    "num_sents": 20,
+    "K": 5,
+    "stop_ratio": 0.45,
+    "unk_ratio": 0.04,
+    "num_ratio": 0.03,
+    "content_ratio": 0.33,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 2.8826255798339844,
+    "sentence_importance_entropy": 2.9129438400268555,
+    "sentence_importance_max": 0.13470280170440674,
+    "top_sentence_id": 3,
+    "query_mismatch_rate": 0.95,
+    "selected_quality_counts": {
+      "content_word": 33,
+      "unk": 4,
+      "stopword": 45,
+      "short_word": 2,
+      "other": 13,
+      "number": 3
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.28500000000000003,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.09429196119308471,
+    "D_local_global_conflict": 0.95,
+    "E_overconfident_error": 0.49033764004707336
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "well let's <UNK> one level deeper",
+      "why is democracy better than <UNK> or other means of govt",
+      "the president of georgia was elected with a <UNK> majority and booted out later w no objections from the un",
+      "similarly the people of algeria elected an islamic <UNK> party into power but the junta declared it illegal",
+      "in both cases i personally have no problems with the outcome but if the voice of the people is that <UNK> thing that the world community claims to revere so why isn't it interfering there",
+      "<UNK>",
+      "exactly",
+      "my point is that it will inevitably turn out that way and we can save ourselves a lot of pain and trouble by simply letting people sort out their problems on their own",
+      "colonial interventions even in <UNK> haven't worked in the past",
+      "they had a 102 <UNK> from <UNK> 1915",
+      "the us invaded in 1915",
+      "and left in 1933 almost 17 years after they had intended to",
+      "was it a success",
+      "well look at <UNK> today and of the past 40 years and decide for yourself",
+      "it was a success so long as the us was in from what i remember",
+      "but it didn't last long obviously",
+      "nobody did",
+      "people should have a right to self defense",
+      "if the un wants to arm the bosnians or <UNK> revolutionaries or whoever i have no problems with that",
+      "i do when they cross that line and attempt to re arrange boundaries <UNK>"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "level",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.03071076050400734,
+          "word_attn_weight": 0.17054979503154755
+        },
+        {
+          "token": "one",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.014771718531847,
+          "word_attn_weight": 0.1678529530763626
+        },
+        {
+          "token": "well",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": 0.005597134120762348,
+          "word_attn_weight": 0.16632001101970673
+        },
+        {
+          "token": "deeper",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.005243739578872919,
+          "word_attn_weight": 0.1662612408399582
+        },
+        {
+          "token": "<UNK>",
+          "token_pos": 2,
+          "quality": "unk",
+          "word_score_logit": -0.00221230648458004,
+          "word_attn_weight": 0.1650262027978897
+        }
+      ],
+      [
+        {
+          "token": "means",
+          "token_pos": 8,
+          "quality": "content_word",
+          "word_score_logit": 0.009280885569751263,
+          "word_attn_weight": 0.09351468086242676
+        },
+        {
+          "token": "other",
+          "token_pos": 7,
+          "quality": "content_word",
+          "word_score_logit": 0.0021723024547100067,
+          "word_attn_weight": 0.09285227954387665
+        },
+        {
+          "token": "or",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": -0.004838312044739723,
+          "word_attn_weight": 0.09220360219478607
+        },
+        {
+          "token": "govt",
+          "token_pos": 10,
+          "quality": "content_word",
+          "word_score_logit": -0.0061766039580106735,
+          "word_attn_weight": 0.09208028763532639
+        },
+        {
+          "token": "of",
+          "token_pos": 9,
+          "quality": "stopword",
+          "word_score_logit": -0.008627567440271378,
+          "word_attn_weight": 0.09185488522052765
+        }
+      ],
+      [
+        {
+          "token": "w",
+          "token_pos": 14,
+          "quality": "short_word",
+          "word_score_logit": 0.034336961805820465,
+          "word_attn_weight": 0.05161631852388382
+        },
+        {
+          "token": "was",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": 0.021701866760849953,
+          "word_attn_weight": 0.050968244671821594
+        },
+        {
+          "token": "of",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.020358463749289513,
+          "word_attn_weight": 0.050899818539619446
+        },
+        {
+          "token": "and",
+          "token_pos": 10,
+          "quality": "stopword",
+          "word_score_logit": 0.016052408143877983,
+          "word_attn_weight": 0.050681110471487045
+        },
+        {
+          "token": "with",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": 0.014146363362669945,
+          "word_attn_weight": 0.05058460310101509
+        }
+      ],
+      [
+        {
+          "token": "similarly",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": -0.00885077565908432,
+          "word_attn_weight": 0.057972487062215805
+        },
+        {
+          "token": "the",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": -0.019686352461576462,
+          "word_attn_weight": 0.05734771117568016
+        },
+        {
+          "token": "an",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": -0.025993093848228455,
+          "word_attn_weight": 0.056987177580595016
+        },
+        {
+          "token": "elected",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": -0.0323425829410553,
+          "word_attn_weight": 0.05662648007273674
+        },
+        {
+          "token": "of",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": -0.033547550439834595,
+          "word_attn_weight": 0.056558288633823395
+        }
+      ],
+      [
+        {
+          "token": "voice",
+          "token_pos": 14,
+          "quality": "content_word",
+          "word_score_logit": 0.013461119495332241,
+          "word_attn_weight": 0.029367750510573387
+        },
+        {
+          "token": "both",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.009496096521615982,
+          "word_attn_weight": 0.02925153635442257
+        },
+        {
+          "token": "the",
+          "token_pos": 9,
+          "quality": "stopword",
+          "word_score_logit": 0.007351858541369438,
+          "word_attn_weight": 0.029188882559537888
+        },
+        {
+          "token": "interfering",
+          "token_pos": 33,
+          "quality": "content_word",
+          "word_score_logit": 0.004737964831292629,
+          "word_attn_weight": 0.029112685471773148
+        },
+        {
+          "token": "of",
+          "token_pos": 15,
+          "quality": "stopword",
+          "word_score_logit": 0.0036455970257520676,
+          "word_attn_weight": 0.02908089943230152
+        }
+      ],
+      [
+        {
+          "token": "<UNK>",
+          "token_pos": 0,
+          "quality": "unk",
+          "word_score_logit": 0.0027645998634397984,
+          "word_attn_weight": 1.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 3,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 1,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 2,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ],
+      [
+        {
+          "token": "exactly",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": 0.02386576309800148,
+          "word_attn_weight": 1.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 3,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 1,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 2,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ],
+      [
+        {
+          "token": "their",
+          "token_pos": 31,
+          "quality": "stopword",
+          "word_score_logit": 0.03228718787431717,
+          "word_attn_weight": 0.03143932297825813
+        },
+        {
+          "token": "problems",
+          "token_pos": 29,
+          "quality": "content_word",
+          "word_score_logit": 0.02535620890557766,
+          "word_attn_weight": 0.03122217208147049
+        },
+        {
+          "token": "on",
+          "token_pos": 30,
+          "quality": "stopword",
+          "word_score_logit": 0.02321828156709671,
+          "word_attn_weight": 0.03115549124777317
+        },
+        {
+          "token": "of",
+          "token_pos": 18,
+          "quality": "stopword",
+          "word_score_logit": 0.0225830115377903,
+          "word_attn_weight": 0.03113570623099804
+        },
+        {
+          "token": "trouble",
+          "token_pos": 21,
+          "quality": "content_word",
+          "word_score_logit": 0.019611261785030365,
+          "word_attn_weight": 0.031043315306305885
+        }
+      ],
+      [
+        {
+          "token": "in",
+          "token_pos": 7,
+          "quality": "stopword",
+          "word_score_logit": 0.03379717096686363,
+          "word_attn_weight": 0.10381907969713211
+        },
+        {
+          "token": "the",
+          "token_pos": 8,
+          "quality": "stopword",
+          "word_score_logit": 0.03066878207027912,
+          "word_attn_weight": 0.103494793176651
+        },
+        {
+          "token": "worked",
+          "token_pos": 6,
+          "quality": "content_word",
+          "word_score_logit": 0.013631602749228477,
+          "word_attn_weight": 0.10174646973609924
+        },
+        {
+          "token": "past",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": 0.011727377772331238,
+          "word_attn_weight": 0.10155291110277176
+        },
+        {
+          "token": "in",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": -0.003211171366274357,
+          "word_attn_weight": 0.10004713386297226
+        }
+      ],
+      [
+        {
+          "token": "102",
+          "token_pos": 3,
+          "quality": "number",
+          "word_score_logit": 0.05961864814162254,
+          "word_attn_weight": 0.12796276807785034
+        },
+        {
+          "token": "a",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.05512375757098198,
+          "word_attn_weight": 0.1273888796567917
+        },
+        {
+          "token": "had",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.05414486676454544,
+          "word_attn_weight": 0.12726423144340515
+        },
+        {
+          "token": "they",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.04538927972316742,
+          "word_attn_weight": 0.126154825091362
+        },
+        {
+          "token": "from",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.02535170689225197,
+          "word_attn_weight": 0.1236521452665329
+        }
+      ],
+      [
+        {
+          "token": "in",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": 0.023736003786325455,
+          "word_attn_weight": 0.2041415572166443
+        },
+        {
+          "token": "1915",
+          "token_pos": 4,
+          "quality": "number",
+          "word_score_logit": 0.018877891823649406,
+          "word_attn_weight": 0.20315222442150116
+        },
+        {
+          "token": "the",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.008808494545519352,
+          "word_attn_weight": 0.2011168748140335
+        },
+        {
+          "token": "us",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": -0.00924285501241684,
+          "word_attn_weight": 0.19751901924610138
+        },
+        {
+          "token": "invaded",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": -0.026857499033212662,
+          "word_attn_weight": 0.1940702497959137
+        }
+      ],
+      [
+        {
+          "token": "left",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.04536277428269386,
+          "word_attn_weight": 0.08557997643947601
+        },
+        {
+          "token": "and",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.04228992760181427,
+          "word_attn_weight": 0.08531741052865982
+        },
+        {
+          "token": "in",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.035036105662584305,
+          "word_attn_weight": 0.08470076322555542
+        },
+        {
+          "token": "1933",
+          "token_pos": 3,
+          "quality": "number",
+          "word_score_logit": 0.03165390342473984,
+          "word_attn_weight": 0.0844147726893425
+        },
+        {
+          "token": "to",
+          "token_pos": 11,
+          "quality": "stopword",
+          "word_score_logit": 0.019465209916234016,
+          "word_attn_weight": 0.08339211344718933
+        }
+      ],
+      [
+        {
+          "token": "was",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.003531389869749546,
+          "word_attn_weight": 0.2525632977485657
+        },
+        {
+          "token": "success",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.0025011571124196053,
+          "word_attn_weight": 0.25230324268341064
+        },
+        {
+          "token": "a",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": -0.016033481806516647,
+          "word_attn_weight": 0.24766995012760162
+        },
+        {
+          "token": "it",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": -0.01686752587556839,
+          "word_attn_weight": 0.24746346473693848
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ],
+      [
+        {
+          "token": "of",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": 0.03484224155545235,
+          "word_attn_weight": 0.06920915096998215
+        },
+        {
+          "token": "and",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.026291748508810997,
+          "word_attn_weight": 0.06861989945173264
+        },
+        {
+          "token": "<UNK>",
+          "token_pos": 3,
+          "quality": "unk",
+          "word_score_logit": 0.025083141401410103,
+          "word_attn_weight": 0.06853701919317245
+        },
+        {
+          "token": "the",
+          "token_pos": 7,
+          "quality": "stopword",
+          "word_score_logit": 0.021482188254594803,
+          "word_attn_weight": 0.06829066574573517
+        },
+        {
+          "token": "at",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.02136213704943657,
+          "word_attn_weight": 0.06828246265649796
+        }
+      ],
+      [
+        {
+          "token": "in",
+          "token_pos": 10,
+          "quality": "stopword",
+          "word_score_logit": 0.02852567657828331,
+          "word_attn_weight": 0.06801644712686539
+        },
+        {
+          "token": "was",
+          "token_pos": 9,
+          "quality": "stopword",
+          "word_score_logit": 0.025174573063850403,
+          "word_attn_weight": 0.06778889894485474
+        },
+        {
+          "token": "from",
+          "token_pos": 11,
+          "quality": "stopword",
+          "word_score_logit": 0.02245454117655754,
+          "word_attn_weight": 0.06760476529598236
+        },
+        {
+          "token": "as",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": 0.021645668894052505,
+          "word_attn_weight": 0.06755010038614273
+        },
+        {
+          "token": "long",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.019175756722688675,
+          "word_attn_weight": 0.06738346070051193
+        }
+      ],
+      [
+        {
+          "token": "long",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.02454707771539688,
+          "word_attn_weight": 0.16899020969867706
+        },
+        {
+          "token": "last",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.018668150529265404,
+          "word_attn_weight": 0.16799965500831604
+        },
+        {
+          "token": "obviously",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.011266496963799,
+          "word_attn_weight": 0.16676075756549835
+        },
+        {
+          "token": "but",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.007867120206356049,
+          "word_attn_weight": 0.1661948412656784
+        },
+        {
+          "token": "didn't",
+          "token_pos": 2,
+          "quality": "other",
+          "word_score_logit": 0.0009491220116615295,
+          "word_attn_weight": 0.16504906117916107
+        }
+      ],
+      [
+        {
+          "token": "nobody",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": 0.03760116919875145,
+          "word_attn_weight": 0.5016549825668335
+        },
+        {
+          "token": "did",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.030981209129095078,
+          "word_attn_weight": 0.4983450174331665
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 3,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 2,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ],
+      [
+        {
+          "token": "right",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.019013632088899612,
+          "word_attn_weight": 0.12715893983840942
+        },
+        {
+          "token": "have",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.01426578126847744,
+          "word_attn_weight": 0.1265566498041153
+        },
+        {
+          "token": "a",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": 0.01035029161721468,
+          "word_attn_weight": 0.1260620802640915
+        },
+        {
+          "token": "defense",
+          "token_pos": 7,
+          "quality": "content_word",
+          "word_score_logit": 0.0070221032947301865,
+          "word_attn_weight": 0.12564322352409363
+        },
+        {
+          "token": "should",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": -0.0003374740481376648,
+          "word_attn_weight": 0.1247219368815422
+        }
+      ],
+      [
+        {
+          "token": "arm",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.021302934736013412,
+          "word_attn_weight": 0.05486021563410759
+        },
+        {
+          "token": "with",
+          "token_pos": 17,
+          "quality": "stopword",
+          "word_score_logit": 0.01122673973441124,
+          "word_attn_weight": 0.054310210049152374
+        },
+        {
+          "token": "problems",
+          "token_pos": 16,
+          "quality": "content_word",
+          "word_score_logit": 0.006451875902712345,
+          "word_attn_weight": 0.05405149981379509
+        },
+        {
+          "token": "that",
+          "token_pos": 18,
+          "quality": "stopword",
+          "word_score_logit": 0.00490850955247879,
+          "word_attn_weight": 0.053968146443367004
+        },
+        {
+          "token": "if",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": -0.00040673185139894485,
+          "word_attn_weight": 0.053682051599025726
+        }
+      ],
+      [
+        {
+          "token": "boundaries",
+          "token_pos": 12,
+          "quality": "content_word",
+          "word_score_logit": 0.05185796692967415,
+          "word_attn_weight": 0.07554633170366287
+        },
+        {
+          "token": "arrange",
+          "token_pos": 11,
+          "quality": "content_word",
+          "word_score_logit": 0.01777443289756775,
+          "word_attn_weight": 0.07301483303308487
+        },
+        {
+          "token": "re",
+          "token_pos": 10,
+          "quality": "short_word",
+          "word_score_logit": 0.007935646921396255,
+          "word_attn_weight": 0.07229997962713242
+        },
+        {
+          "token": "<UNK>",
+          "token_pos": 13,
+          "quality": "unk",
+          "word_score_logit": -0.003531830385327339,
+          "word_attn_weight": 0.07147561758756638
+        },
+        {
+          "token": "to",
+          "token_pos": 9,
+          "quality": "stopword",
+          "word_score_logit": -0.005986180156469345,
+          "word_attn_weight": 0.07130040973424911
+        }
+      ]
+    ],
+    "top_sentence_id": 3,
+    "sentence_importance_distribution": [
+      0.038637515157461166,
+      0.03993571922183037,
+      0.06117387115955353,
+      0.13470280170440674,
+      0.06462184339761734,
+      0.03385905921459198,
+      0.028222575783729553,
+      0.04017375782132149,
+      0.05387382209300995,
+      0.04340371489524841,
+      0.05166410282254219,
+      0.046724483370780945,
+      0.03470386192202568,
+      0.05089640989899635,
+      0.03753720223903656,
+      0.034120723605155945,
+      0.025891147553920746,
+      0.05124751850962639,
+      0.06547539681196213,
+      0.06313450634479523
+    ]
+  }
+}

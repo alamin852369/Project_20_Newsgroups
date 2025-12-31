@@ -1,0 +1,199 @@
+{
+  "example_id": "test_6855",
+  "true_label_id": 18,
+  "pred_label_id": 8,
+  "true_label_name": "talk.politics.misc",
+  "pred_label_name": "rec.motorcycles",
+  "pred_confidence": 0.6873152256011963,
+  "metrics": {
+    "num_sents": 4,
+    "K": 5,
+    "stop_ratio": 0.8,
+    "unk_ratio": 0.0,
+    "num_ratio": 0.0,
+    "content_ratio": 0.15,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 1.3550390005111694,
+    "sentence_importance_entropy": 1.3581560850143433,
+    "sentence_importance_max": 0.32232391834259033,
+    "top_sentence_id": 1,
+    "query_mismatch_rate": 0.75,
+    "selected_quality_counts": {
+      "stopword": 16,
+      "content_word": 3,
+      "short_word": 1
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.48,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.25399552583694457,
+    "D_local_global_conflict": 0.75,
+    "E_overconfident_error": 0.6873152256011963
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "they police did not beat king when he was on the ground",
+      "they beat him when he was on his knees trying to get back up",
+      "if you had <UNK> d the entire video you would have seen this",
+      "if you think this is true much less relevant than you are in <UNK> shape than i thought"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "they",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.0411839485168457,
+          "word_attn_weight": 0.08517062664031982
+        },
+        {
+          "token": "ground",
+          "token_pos": 11,
+          "quality": "content_word",
+          "word_score_logit": 0.0375368632376194,
+          "word_attn_weight": 0.08486057072877884
+        },
+        {
+          "token": "he",
+          "token_pos": 7,
+          "quality": "stopword",
+          "word_score_logit": 0.03197433054447174,
+          "word_attn_weight": 0.0843898355960846
+        },
+        {
+          "token": "was",
+          "token_pos": 8,
+          "quality": "stopword",
+          "word_score_logit": 0.028809551149606705,
+          "word_attn_weight": 0.08412317931652069
+        },
+        {
+          "token": "the",
+          "token_pos": 10,
+          "quality": "stopword",
+          "word_score_logit": 0.023448126390576363,
+          "word_attn_weight": 0.08367336541414261
+        }
+      ],
+      [
+        {
+          "token": "he",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": 0.04144349694252014,
+          "word_attn_weight": 0.0734635442495346
+        },
+        {
+          "token": "him",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.03870709240436554,
+          "word_attn_weight": 0.0732627883553505
+        },
+        {
+          "token": "was",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.03648151084780693,
+          "word_attn_weight": 0.07309991866350174
+        },
+        {
+          "token": "when",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": 0.03382733836770058,
+          "word_attn_weight": 0.07290615886449814
+        },
+        {
+          "token": "they",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.028602734208106995,
+          "word_attn_weight": 0.0725262463092804
+        }
+      ],
+      [
+        {
+          "token": "d",
+          "token_pos": 4,
+          "quality": "short_word",
+          "word_score_logit": 0.06028585880994797,
+          "word_attn_weight": 0.08130628615617752
+        },
+        {
+          "token": "the",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.027283618226647377,
+          "word_attn_weight": 0.0786667913198471
+        },
+        {
+          "token": "if",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.02213779091835022,
+          "word_attn_weight": 0.07826302200555801
+        },
+        {
+          "token": "had",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.013463908806443214,
+          "word_attn_weight": 0.07758711278438568
+        },
+        {
+          "token": "you",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.006263350136578083,
+          "word_attn_weight": 0.07703045010566711
+        }
+      ],
+      [
+        {
+          "token": "thought",
+          "token_pos": 17,
+          "quality": "content_word",
+          "word_score_logit": 0.014321398921310902,
+          "word_attn_weight": 0.05628073215484619
+        },
+        {
+          "token": "than",
+          "token_pos": 15,
+          "quality": "stopword",
+          "word_score_logit": 0.014003271237015724,
+          "word_attn_weight": 0.05626283213496208
+        },
+        {
+          "token": "i",
+          "token_pos": 16,
+          "quality": "stopword",
+          "word_score_logit": 0.012316487729549408,
+          "word_attn_weight": 0.05616800859570503
+        },
+        {
+          "token": "if",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.01040081586688757,
+          "word_attn_weight": 0.056060511618852615
+        },
+        {
+          "token": "than",
+          "token_pos": 9,
+          "quality": "stopword",
+          "word_score_logit": 0.009537934325635433,
+          "word_attn_weight": 0.05601215735077858
+        }
+      ]
+    ],
+    "top_sentence_id": 1,
+    "sentence_importance_distribution": [
+      0.28943324089050293,
+      0.32232391834259033,
+      0.21411104500293732,
+      0.174131840467453
+    ]
+  }
+}

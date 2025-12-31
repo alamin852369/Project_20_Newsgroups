@@ -1,0 +1,423 @@
+{
+  "true_label_id": 0,
+  "pred_label_id": 15,
+  "true_label_name": "alt.atheism",
+  "pred_label_name": "soc.religion.christian",
+  "pred_confidence": 0.8272338509559631,
+  "num_sents": 6,
+  "top_sentences": [
+    {
+      "sentence_id": 4,
+      "importance": 0.3972470164299011,
+      "sentence_text": "doesn't know him condemned so a lukewarm christian someone who knows and believes in god but doesn't make any attempt to live by the bible",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "the",
+          "token_pos": 23,
+          "word_score_logit": 0.03129242733120918,
+          "word_attn_weight": 0.04238898679614067
+        },
+        {
+          "rank": 1,
+          "token": "by",
+          "token_pos": 22,
+          "word_score_logit": 0.01763632521033287,
+          "word_attn_weight": 0.04181405156850815
+        },
+        {
+          "rank": 2,
+          "token": "to",
+          "token_pos": 20,
+          "word_score_logit": 0.004381490871310234,
+          "word_attn_weight": 0.04126346856355667
+        },
+        {
+          "rank": 3,
+          "token": "any",
+          "token_pos": 18,
+          "word_score_logit": -0.00576870609074831,
+          "word_attn_weight": 0.04084675759077072
+        },
+        {
+          "rank": 4,
+          "token": "in",
+          "token_pos": 13,
+          "word_score_logit": -0.011829515919089317,
+          "word_attn_weight": 0.040599942207336426
+        }
+      ]
+    },
+    {
+      "sentence_id": 5,
+      "importance": 0.19969652593135834,
+      "sentence_text": "now i am of the opinion that you a saved through faith alone not what you do as taught in romans but how can i square up in my mind the teachings of james in conjunction with the lukewarm christian being <UNK> out' can anyone help me this really bothers",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "bothers",
+          "token_pos": 49,
+          "word_score_logit": 0.03370651230216026,
+          "word_attn_weight": 0.021207086741924286
+        },
+        {
+          "rank": 1,
+          "token": "me",
+          "token_pos": 46,
+          "word_score_logit": 0.028676720336079597,
+          "word_attn_weight": 0.021100686863064766
+        },
+        {
+          "rank": 2,
+          "token": "anyone",
+          "token_pos": 44,
+          "word_score_logit": 0.027217727154493332,
+          "word_attn_weight": 0.021069923415780067
+        },
+        {
+          "rank": 3,
+          "token": "help",
+          "token_pos": 45,
+          "word_score_logit": 0.023036612197756767,
+          "word_attn_weight": 0.020982012152671814
+        },
+        {
+          "rank": 4,
+          "token": "this",
+          "token_pos": 47,
+          "word_score_logit": 0.019024960696697235,
+          "word_attn_weight": 0.020898008719086647
+        }
+      ]
+    },
+    {
+      "sentence_id": 2,
+      "importance": 0.13947422802448273,
+      "sentence_text": "i know that romans talks about how we are saved by our faith not our deeds yet hebrews and james say that faith without deeds is useless <UNK> you fools do you still think that just believing is enough ' now if someone is fully believing but there life is",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "james",
+          "token_pos": 19,
+          "word_score_logit": 0.021641816943883896,
+          "word_attn_weight": 0.021209269762039185
+        },
+        {
+          "rank": 1,
+          "token": "someone",
+          "token_pos": 42,
+          "word_score_logit": 0.00414993055164814,
+          "word_attn_weight": 0.020841503515839577
+        },
+        {
+          "rank": 2,
+          "token": "if",
+          "token_pos": 41,
+          "word_score_logit": 0.0026909704320132732,
+          "word_attn_weight": 0.02081112004816532
+        },
+        {
+          "rank": 3,
+          "token": "now",
+          "token_pos": 40,
+          "word_score_logit": 0.001909606158733368,
+          "word_attn_weight": 0.020794866606593132
+        },
+        {
+          "rank": 4,
+          "token": "'",
+          "token_pos": 39,
+          "word_score_logit": 8.892733603715897e-05,
+          "word_attn_weight": 0.0207570381462574
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "importance": 0.12356296181678772,
+      "sentence_text": "hi everyone i'm a commited christian that is battling with a problem",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "problem",
+          "token_pos": 11,
+          "word_score_logit": 0.016105499118566513,
+          "word_attn_weight": 0.08623309433460236
+        },
+        {
+          "rank": 1,
+          "token": "is",
+          "token_pos": 7,
+          "word_score_logit": -0.013408597558736801,
+          "word_attn_weight": 0.08372519165277481
+        },
+        {
+          "rank": 2,
+          "token": "christian",
+          "token_pos": 5,
+          "word_score_logit": -0.013620585203170776,
+          "word_attn_weight": 0.08370745182037354
+        },
+        {
+          "rank": 3,
+          "token": "that",
+          "token_pos": 6,
+          "word_score_logit": -0.014420833438634872,
+          "word_attn_weight": 0.08364048600196838
+        },
+        {
+          "rank": 4,
+          "token": "everyone",
+          "token_pos": 1,
+          "word_score_logit": -0.014441249892115593,
+          "word_attn_weight": 0.08363877981901169
+        }
+      ]
+    },
+    {
+      "sentence_id": 3,
+      "importance": 0.0797218456864357,
+      "sentence_text": "but then there is the bit which says that god <UNK> someone who is cold to him i e",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "e",
+          "token_pos": 18,
+          "word_score_logit": 0.0557435043156147,
+          "word_attn_weight": 0.05484357476234436
+        },
+        {
+          "rank": 1,
+          "token": "him",
+          "token_pos": 16,
+          "word_score_logit": 0.025881469249725342,
+          "word_attn_weight": 0.05323004350066185
+        },
+        {
+          "rank": 2,
+          "token": "someone",
+          "token_pos": 11,
+          "word_score_logit": 0.02575496956706047,
+          "word_attn_weight": 0.05322330817580223
+        },
+        {
+          "rank": 3,
+          "token": "cold",
+          "token_pos": 14,
+          "word_score_logit": 0.019420556724071503,
+          "word_attn_weight": 0.052887238562107086
+        },
+        {
+          "rank": 4,
+          "token": "who",
+          "token_pos": 12,
+          "word_score_logit": 0.018466133624315262,
+          "word_attn_weight": 0.052836786955595016
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 20,
+      "from_sentence_id": 4,
+      "token": "the",
+      "token_pos": 23,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.6018213033676147,
+          "sentence_text": "doesn't know him condemned so a lukewarm christian someone who knows and believes in god but doesn't make any attempt to live by the bible"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.17252790927886963,
+          "sentence_text": "now i am of the opinion that you a saved through faith alone not what you do as taught in romans but how can i square up in my mind the teachings of james in conjunction with the lukewarm christian being <UNK> out' can anyone help me this really bothers"
+        }
+      ]
+    },
+    {
+      "query_id": 21,
+      "from_sentence_id": 4,
+      "token": "by",
+      "token_pos": 22,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.558207631111145,
+          "sentence_text": "doesn't know him condemned so a lukewarm christian someone who knows and believes in god but doesn't make any attempt to live by the bible"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.1775294989347458,
+          "sentence_text": "i know that romans talks about how we are saved by our faith not our deeds yet hebrews and james say that faith without deeds is useless <UNK> you fools do you still think that just believing is enough ' now if someone is fully believing but there life is"
+        }
+      ]
+    },
+    {
+      "query_id": 22,
+      "from_sentence_id": 4,
+      "token": "to",
+      "token_pos": 20,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.6067311763763428,
+          "sentence_text": "doesn't know him condemned so a lukewarm christian someone who knows and believes in god but doesn't make any attempt to live by the bible"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.16385981440544128,
+          "sentence_text": "now i am of the opinion that you a saved through faith alone not what you do as taught in romans but how can i square up in my mind the teachings of james in conjunction with the lukewarm christian being <UNK> out' can anyone help me this really bothers"
+        }
+      ]
+    },
+    {
+      "query_id": 23,
+      "from_sentence_id": 4,
+      "token": "any",
+      "token_pos": 18,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.6401358842849731,
+          "sentence_text": "doesn't know him condemned so a lukewarm christian someone who knows and believes in god but doesn't make any attempt to live by the bible"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.15438637137413025,
+          "sentence_text": "i know that romans talks about how we are saved by our faith not our deeds yet hebrews and james say that faith without deeds is useless <UNK> you fools do you still think that just believing is enough ' now if someone is fully believing but there life is"
+        }
+      ]
+    },
+    {
+      "query_id": 24,
+      "from_sentence_id": 4,
+      "token": "in",
+      "token_pos": 13,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.7296209335327148,
+          "sentence_text": "doesn't know him condemned so a lukewarm christian someone who knows and believes in god but doesn't make any attempt to live by the bible"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.1272231638431549,
+          "sentence_text": "i know that romans talks about how we are saved by our faith not our deeds yet hebrews and james say that faith without deeds is useless <UNK> you fools do you still think that just believing is enough ' now if someone is fully believing but there life is"
+        }
+      ]
+    },
+    {
+      "query_id": 25,
+      "from_sentence_id": 5,
+      "token": "bothers",
+      "token_pos": 49,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.22634020447731018,
+          "sentence_text": "hi everyone i'm a commited christian that is battling with a problem"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 4,
+          "attn_weight": 0.20399153232574463,
+          "sentence_text": "doesn't know him condemned so a lukewarm christian someone who knows and believes in god but doesn't make any attempt to live by the bible"
+        }
+      ]
+    },
+    {
+      "query_id": 26,
+      "from_sentence_id": 5,
+      "token": "me",
+      "token_pos": 46,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.2476872205734253,
+          "sentence_text": "doesn't know him condemned so a lukewarm christian someone who knows and believes in god but doesn't make any attempt to live by the bible"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.21064122021198273,
+          "sentence_text": "now i am of the opinion that you a saved through faith alone not what you do as taught in romans but how can i square up in my mind the teachings of james in conjunction with the lukewarm christian being <UNK> out' can anyone help me this really bothers"
+        }
+      ]
+    },
+    {
+      "query_id": 27,
+      "from_sentence_id": 5,
+      "token": "anyone",
+      "token_pos": 44,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.3011888861656189,
+          "sentence_text": "doesn't know him condemned so a lukewarm christian someone who knows and believes in god but doesn't make any attempt to live by the bible"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.22673889994621277,
+          "sentence_text": "now i am of the opinion that you a saved through faith alone not what you do as taught in romans but how can i square up in my mind the teachings of james in conjunction with the lukewarm christian being <UNK> out' can anyone help me this really bothers"
+        }
+      ]
+    },
+    {
+      "query_id": 28,
+      "from_sentence_id": 5,
+      "token": "help",
+      "token_pos": 45,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.27176177501678467,
+          "sentence_text": "doesn't know him condemned so a lukewarm christian someone who knows and believes in god but doesn't make any attempt to live by the bible"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.22119557857513428,
+          "sentence_text": "now i am of the opinion that you a saved through faith alone not what you do as taught in romans but how can i square up in my mind the teachings of james in conjunction with the lukewarm christian being <UNK> out' can anyone help me this really bothers"
+        }
+      ]
+    },
+    {
+      "query_id": 29,
+      "from_sentence_id": 5,
+      "token": "this",
+      "token_pos": 47,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.250215083360672,
+          "sentence_text": "doesn't know him condemned so a lukewarm christian someone who knows and believes in god but doesn't make any attempt to live by the bible"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.2124483287334442,
+          "sentence_text": "now i am of the opinion that you a saved through faith alone not what you do as taught in romans but how can i square up in my mind the teachings of james in conjunction with the lukewarm christian being <UNK> out' can anyone help me this really bothers"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_7483"
+}

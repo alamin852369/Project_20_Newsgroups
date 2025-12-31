@@ -1,0 +1,823 @@
+{
+  "example_id": "test_2535",
+  "true_label_id": 0,
+  "pred_label_id": 13,
+  "true_label_name": "alt.atheism",
+  "pred_label_name": "sci.med",
+  "pred_confidence": 0.4847494065761566,
+  "metrics": {
+    "num_sents": 20,
+    "K": 5,
+    "stop_ratio": 0.28,
+    "unk_ratio": 0.04,
+    "num_ratio": 0.0,
+    "content_ratio": 0.68,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 2.8730907440185547,
+    "sentence_importance_entropy": 2.8925843238830566,
+    "sentence_importance_max": 0.15190616250038147,
+    "top_sentence_id": 5,
+    "query_mismatch_rate": 0.95,
+    "selected_quality_counts": {
+      "content_word": 68,
+      "stopword": 28,
+      "unk": 4
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.18000000000000002,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.10633431375026703,
+    "D_local_global_conflict": 0.95,
+    "E_overconfident_error": 0.4847494065761566
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "this is <UNK> in another indirect post via dan",
+      "<UNK> if you have some many types of happen again may predict reaction there are several problems here",
+      "first you are discussing only experimental procedures",
+      "observational procedures are also useful",
+      "the main criterion is attempting to verify an idea by using it to make prediction about as yet <UNK> observations",
+      "the observations could be the result of an experiment or they could be <UNK> of activity occuring <UNK> in nature or they could even be observations of the lasting results of events long past",
+      "all that matters is that the observations be new",
+      "this is what prediction is about in science it is not about predicting the future except in this very restricted sense",
+      "secondly <UNK> can also take many forms",
+      "it is really just the requirement that independent observers be able to verify the results",
+      "the observation of a fossil is <UNK> since any qualified observer may look at it this is why the <UNK> are <UNK> in a museum",
+      "also there is the implicit prediction that future fossil finds will correspond to the current one",
+      "new <UNK> are found often enough that this is tested regularly",
+      "many times a new fossil actually <UNK> some conclusion made on the basis of previous <UNK>",
+      "unfortunately for you the models that were <UNK> have alway been peripheral to the model of evolution we now have",
+      "for instance the front legs of <UNK> rex turned out to have tremendous muscles rather than being <UNK> endowed as previously believed",
+      "so in fact <UNK> science findings are <UNK> in the necessary sense",
+      "just becuase you cannot go out and repeat the original event does not make it impossible to make valid observations",
+      "this is not to say that biologists would not go <UNK> <UNK> if extra terrestrial life were discovered that could make the determination of the process of <UNK> relatively easy",
+      "<UNK> <UNK> com formerly <UNK> <UNK> or stanley <UNK> <UNK> ncr com"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "via",
+          "token_pos": 7,
+          "quality": "content_word",
+          "word_score_logit": 0.018517788499593735,
+          "word_attn_weight": 0.1141013652086258
+        },
+        {
+          "token": "dan",
+          "token_pos": 8,
+          "quality": "content_word",
+          "word_score_logit": 0.01751500740647316,
+          "word_attn_weight": 0.11398700624704361
+        },
+        {
+          "token": "post",
+          "token_pos": 6,
+          "quality": "content_word",
+          "word_score_logit": 0.005119329318404198,
+          "word_attn_weight": 0.11258278042078018
+        },
+        {
+          "token": "indirect",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": -0.01263236254453659,
+          "word_attn_weight": 0.11060187220573425
+        },
+        {
+          "token": "is",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": -0.01589067280292511,
+          "word_attn_weight": 0.1102420911192894
+        }
+      ],
+      [
+        {
+          "token": "predict",
+          "token_pos": 11,
+          "quality": "content_word",
+          "word_score_logit": 0.03733418136835098,
+          "word_attn_weight": 0.05721813440322876
+        },
+        {
+          "token": "types",
+          "token_pos": 6,
+          "quality": "content_word",
+          "word_score_logit": 0.030538273975253105,
+          "word_attn_weight": 0.056830599904060364
+        },
+        {
+          "token": "may",
+          "token_pos": 10,
+          "quality": "content_word",
+          "word_score_logit": 0.029354123398661613,
+          "word_attn_weight": 0.05676334723830223
+        },
+        {
+          "token": "reaction",
+          "token_pos": 12,
+          "quality": "content_word",
+          "word_score_logit": 0.020982835441827774,
+          "word_attn_weight": 0.056290145963430405
+        },
+        {
+          "token": "of",
+          "token_pos": 7,
+          "quality": "stopword",
+          "word_score_logit": 0.020341476425528526,
+          "word_attn_weight": 0.0562540628015995
+        }
+      ],
+      [
+        {
+          "token": "experimental",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.03821863234043121,
+          "word_attn_weight": 0.14820466935634613
+        },
+        {
+          "token": "procedures",
+          "token_pos": 6,
+          "quality": "content_word",
+          "word_score_logit": 0.027342895045876503,
+          "word_attn_weight": 0.14660155773162842
+        },
+        {
+          "token": "first",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": 0.010915689170360565,
+          "word_attn_weight": 0.1442129909992218
+        },
+        {
+          "token": "you",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": -0.0005356632173061371,
+          "word_attn_weight": 0.14257097244262695
+        },
+        {
+          "token": "are",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": -0.01410500705242157,
+          "word_attn_weight": 0.1406494379043579
+        }
+      ],
+      [
+        {
+          "token": "also",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.019625119864940643,
+          "word_attn_weight": 0.2018018215894699
+        },
+        {
+          "token": "are",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.016906915232539177,
+          "word_attn_weight": 0.20125402510166168
+        },
+        {
+          "token": "procedures",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.010064125061035156,
+          "word_attn_weight": 0.19988159835338593
+        },
+        {
+          "token": "useful",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.005080353002995253,
+          "word_attn_weight": 0.198887899518013
+        },
+        {
+          "token": "observational",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": 0.0014877719804644585,
+          "word_attn_weight": 0.19817467033863068
+        }
+      ],
+      [
+        {
+          "token": "observations",
+          "token_pos": 19,
+          "quality": "content_word",
+          "word_score_logit": 0.04862447828054428,
+          "word_attn_weight": 0.051633793860673904
+        },
+        {
+          "token": "prediction",
+          "token_pos": 14,
+          "quality": "content_word",
+          "word_score_logit": 0.04623962566256523,
+          "word_attn_weight": 0.051510803401470184
+        },
+        {
+          "token": "using",
+          "token_pos": 10,
+          "quality": "content_word",
+          "word_score_logit": 0.04162923991680145,
+          "word_attn_weight": 0.05127386376261711
+        },
+        {
+          "token": "as",
+          "token_pos": 16,
+          "quality": "stopword",
+          "word_score_logit": 0.038956452161073685,
+          "word_attn_weight": 0.05113700032234192
+        },
+        {
+          "token": "<UNK>",
+          "token_pos": 18,
+          "quality": "unk",
+          "word_score_logit": 0.03699938952922821,
+          "word_attn_weight": 0.0510370247066021
+        }
+      ],
+      [
+        {
+          "token": "observations",
+          "token_pos": 25,
+          "quality": "content_word",
+          "word_score_logit": 0.06164141371846199,
+          "word_attn_weight": 0.030640915036201477
+        },
+        {
+          "token": "the",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.04509931430220604,
+          "word_attn_weight": 0.03013821877539158
+        },
+        {
+          "token": "observations",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.03887404873967171,
+          "word_attn_weight": 0.0299511831253767
+        },
+        {
+          "token": "of",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": 0.03462362289428711,
+          "word_attn_weight": 0.029824148863554
+        },
+        {
+          "token": "result",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.0339915007352829,
+          "word_attn_weight": 0.029805302619934082
+        }
+      ],
+      [
+        {
+          "token": "the",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.049948450177907944,
+          "word_attn_weight": 0.11343464255332947
+        },
+        {
+          "token": "observations",
+          "token_pos": 6,
+          "quality": "content_word",
+          "word_score_logit": 0.03576319292187691,
+          "word_attn_weight": 0.11183690279722214
+        },
+        {
+          "token": "new",
+          "token_pos": 8,
+          "quality": "content_word",
+          "word_score_logit": 0.03397075831890106,
+          "word_attn_weight": 0.11163661628961563
+        },
+        {
+          "token": "that",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": 0.03343711048364639,
+          "word_attn_weight": 0.11157706379890442
+        },
+        {
+          "token": "is",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": 0.03034057281911373,
+          "word_attn_weight": 0.11123208701610565
+        }
+      ],
+      [
+        {
+          "token": "restricted",
+          "token_pos": 19,
+          "quality": "content_word",
+          "word_score_logit": 0.03752721846103668,
+          "word_attn_weight": 0.048929937183856964
+        },
+        {
+          "token": "sense",
+          "token_pos": 20,
+          "quality": "content_word",
+          "word_score_logit": 0.033792201429605484,
+          "word_attn_weight": 0.04874752461910248
+        },
+        {
+          "token": "prediction",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.0317530557513237,
+          "word_attn_weight": 0.04864822328090668
+        },
+        {
+          "token": "in",
+          "token_pos": 16,
+          "quality": "stopword",
+          "word_score_logit": 0.030051741749048233,
+          "word_attn_weight": 0.04856552556157112
+        },
+        {
+          "token": "except",
+          "token_pos": 15,
+          "quality": "content_word",
+          "word_score_logit": 0.02943187579512596,
+          "word_attn_weight": 0.04853542894124985
+        }
+      ],
+      [
+        {
+          "token": "forms",
+          "token_pos": 6,
+          "quality": "content_word",
+          "word_score_logit": 0.037366028875112534,
+          "word_attn_weight": 0.14684469997882843
+        },
+        {
+          "token": "also",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.016266901046037674,
+          "word_attn_weight": 0.14377886056900024
+        },
+        {
+          "token": "can",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.013492085970938206,
+          "word_attn_weight": 0.14338044822216034
+        },
+        {
+          "token": "take",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.0128758754581213,
+          "word_attn_weight": 0.1432921290397644
+        },
+        {
+          "token": "many",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.009615771472454071,
+          "word_attn_weight": 0.14282575249671936
+        }
+      ],
+      [
+        {
+          "token": "independent",
+          "token_pos": 7,
+          "quality": "content_word",
+          "word_score_logit": 0.03868168592453003,
+          "word_attn_weight": 0.0685456320643425
+        },
+        {
+          "token": "that",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": 0.03066781349480152,
+          "word_attn_weight": 0.067998506128788
+        },
+        {
+          "token": "results",
+          "token_pos": 14,
+          "quality": "content_word",
+          "word_score_logit": 0.027740593999624252,
+          "word_attn_weight": 0.06779974699020386
+        },
+        {
+          "token": "the",
+          "token_pos": 13,
+          "quality": "stopword",
+          "word_score_logit": 0.02635771408677101,
+          "word_attn_weight": 0.06770606338977814
+        },
+        {
+          "token": "verify",
+          "token_pos": 12,
+          "quality": "content_word",
+          "word_score_logit": 0.026205722242593765,
+          "word_attn_weight": 0.06769576668739319
+        }
+      ],
+      [
+        {
+          "token": "observation",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.06786493957042694,
+          "word_attn_weight": 0.041530169546604156
+        },
+        {
+          "token": "the",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.06677624583244324,
+          "word_attn_weight": 0.041484981775283813
+        },
+        {
+          "token": "fossil",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.05751354619860649,
+          "word_attn_weight": 0.041102491319179535
+        },
+        {
+          "token": "qualified",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": 0.04831581935286522,
+          "word_attn_weight": 0.040726177394390106
+        },
+        {
+          "token": "any",
+          "token_pos": 8,
+          "quality": "content_word",
+          "word_score_logit": 0.0477752722799778,
+          "word_attn_weight": 0.04070416837930679
+        }
+      ],
+      [
+        {
+          "token": "correspond",
+          "token_pos": 11,
+          "quality": "content_word",
+          "word_score_logit": 0.0873010903596878,
+          "word_attn_weight": 0.06591488420963287
+        },
+        {
+          "token": "fossil",
+          "token_pos": 8,
+          "quality": "content_word",
+          "word_score_logit": 0.06889648735523224,
+          "word_attn_weight": 0.06471285223960876
+        },
+        {
+          "token": "will",
+          "token_pos": 10,
+          "quality": "stopword",
+          "word_score_logit": 0.06719587743282318,
+          "word_attn_weight": 0.06460288166999817
+        },
+        {
+          "token": "the",
+          "token_pos": 13,
+          "quality": "stopword",
+          "word_score_logit": 0.06236528977751732,
+          "word_attn_weight": 0.0642915740609169
+        },
+        {
+          "token": "current",
+          "token_pos": 14,
+          "quality": "content_word",
+          "word_score_logit": 0.06176408752799034,
+          "word_attn_weight": 0.06425292789936066
+        }
+      ],
+      [
+        {
+          "token": "regularly",
+          "token_pos": 10,
+          "quality": "content_word",
+          "word_score_logit": 0.042671818286180496,
+          "word_attn_weight": 0.0927898958325386
+        },
+        {
+          "token": "often",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.03343265503644943,
+          "word_attn_weight": 0.09193654358386993
+        },
+        {
+          "token": "new",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": 0.025835378095507622,
+          "word_attn_weight": 0.09124071896076202
+        },
+        {
+          "token": "tested",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": 0.025016169995069504,
+          "word_attn_weight": 0.09116600453853607
+        },
+        {
+          "token": "that",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": 0.02405756525695324,
+          "word_attn_weight": 0.09107865393161774
+        }
+      ],
+      [
+        {
+          "token": "fossil",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.05823381245136261,
+          "word_attn_weight": 0.06541024148464203
+        },
+        {
+          "token": "actually",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.04331943392753601,
+          "word_attn_weight": 0.06444192677736282
+        },
+        {
+          "token": "new",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.025186773389577866,
+          "word_attn_weight": 0.06328395009040833
+        },
+        {
+          "token": "<UNK>",
+          "token_pos": 6,
+          "quality": "unk",
+          "word_score_logit": 0.020277608186006546,
+          "word_attn_weight": 0.06297404319047928
+        },
+        {
+          "token": "times",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.015144800767302513,
+          "word_attn_weight": 0.06265164166688919
+        }
+      ],
+      [
+        {
+          "token": "of",
+          "token_pos": 15,
+          "quality": "stopword",
+          "word_score_logit": 0.03510136157274246,
+          "word_attn_weight": 0.05175594612956047
+        },
+        {
+          "token": "model",
+          "token_pos": 14,
+          "quality": "content_word",
+          "word_score_logit": 0.028856702148914337,
+          "word_attn_weight": 0.051433756947517395
+        },
+        {
+          "token": "that",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.020612487569451332,
+          "word_attn_weight": 0.05101146548986435
+        },
+        {
+          "token": "the",
+          "token_pos": 13,
+          "quality": "stopword",
+          "word_score_logit": 0.017912760376930237,
+          "word_attn_weight": 0.05087393522262573
+        },
+        {
+          "token": "evolution",
+          "token_pos": 16,
+          "quality": "content_word",
+          "word_score_logit": 0.01603146642446518,
+          "word_attn_weight": 0.05077831447124481
+        }
+      ],
+      [
+        {
+          "token": "previously",
+          "token_pos": 20,
+          "quality": "content_word",
+          "word_score_logit": 0.06405338644981384,
+          "word_attn_weight": 0.04715428128838539
+        },
+        {
+          "token": "the",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.05612017959356308,
+          "word_attn_weight": 0.04678167775273323
+        },
+        {
+          "token": "rex",
+          "token_pos": 7,
+          "quality": "content_word",
+          "word_score_logit": 0.05554534122347832,
+          "word_attn_weight": 0.04675479233264923
+        },
+        {
+          "token": "instance",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.05283508449792862,
+          "word_attn_weight": 0.04662824794650078
+        },
+        {
+          "token": "as",
+          "token_pos": 19,
+          "quality": "stopword",
+          "word_score_logit": 0.04142865538597107,
+          "word_attn_weight": 0.04609940946102142
+        }
+      ],
+      [
+        {
+          "token": "science",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.037311092019081116,
+          "word_attn_weight": 0.08564124256372452
+        },
+        {
+          "token": "in",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.028698356822133064,
+          "word_attn_weight": 0.08490680903196335
+        },
+        {
+          "token": "fact",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.024101795628666878,
+          "word_attn_weight": 0.08451742678880692
+        },
+        {
+          "token": "sense",
+          "token_pos": 11,
+          "quality": "content_word",
+          "word_score_logit": 0.015536416321992874,
+          "word_attn_weight": 0.08379659056663513
+        },
+        {
+          "token": "<UNK>",
+          "token_pos": 3,
+          "quality": "unk",
+          "word_score_logit": 0.014410601928830147,
+          "word_attn_weight": 0.08370230346918106
+        }
+      ],
+      [
+        {
+          "token": "the",
+          "token_pos": 8,
+          "quality": "stopword",
+          "word_score_logit": 0.04653610661625862,
+          "word_attn_weight": 0.051745567470788956
+        },
+        {
+          "token": "observations",
+          "token_pos": 19,
+          "quality": "content_word",
+          "word_score_logit": 0.04594215750694275,
+          "word_attn_weight": 0.05171484500169754
+        },
+        {
+          "token": "valid",
+          "token_pos": 18,
+          "quality": "content_word",
+          "word_score_logit": 0.037882186472415924,
+          "word_attn_weight": 0.051299694925546646
+        },
+        {
+          "token": "original",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": 0.030061494559049606,
+          "word_attn_weight": 0.050900064408779144
+        },
+        {
+          "token": "make",
+          "token_pos": 17,
+          "quality": "content_word",
+          "word_score_logit": 0.026994843035936356,
+          "word_attn_weight": 0.050744205713272095
+        }
+      ],
+      [
+        {
+          "token": "terrestrial",
+          "token_pos": 14,
+          "quality": "content_word",
+          "word_score_logit": 0.0743086040019989,
+          "word_attn_weight": 0.035210397094488144
+        },
+        {
+          "token": "make",
+          "token_pos": 20,
+          "quality": "content_word",
+          "word_score_logit": 0.04164286330342293,
+          "word_attn_weight": 0.03407880291342735
+        },
+        {
+          "token": "of",
+          "token_pos": 23,
+          "quality": "stopword",
+          "word_score_logit": 0.040894802659749985,
+          "word_attn_weight": 0.03405332192778587
+        },
+        {
+          "token": "discovered",
+          "token_pos": 17,
+          "quality": "content_word",
+          "word_score_logit": 0.03956621512770653,
+          "word_attn_weight": 0.03400810807943344
+        },
+        {
+          "token": "life",
+          "token_pos": 15,
+          "quality": "content_word",
+          "word_score_logit": 0.03903189301490784,
+          "word_attn_weight": 0.03398994356393814
+        }
+      ],
+      [
+        {
+          "token": "formerly",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.08443735539913177,
+          "word_attn_weight": 0.08868531137704849
+        },
+        {
+          "token": "com",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.04692292585968971,
+          "word_attn_weight": 0.08541996777057648
+        },
+        {
+          "token": "or",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": 0.046673644334077835,
+          "word_attn_weight": 0.08539868146181107
+        },
+        {
+          "token": "<UNK>",
+          "token_pos": 4,
+          "quality": "unk",
+          "word_score_logit": 0.03626145049929619,
+          "word_attn_weight": 0.08451409637928009
+        },
+        {
+          "token": "com",
+          "token_pos": 11,
+          "quality": "content_word",
+          "word_score_logit": 0.03338800370693207,
+          "word_attn_weight": 0.08427159488201141
+        }
+      ]
+    ],
+    "top_sentence_id": 5,
+    "sentence_importance_distribution": [
+      0.038642801344394684,
+      0.032625164836645126,
+      0.0673193708062172,
+      0.06745918095111847,
+      0.04348600283265114,
+      0.15190616250038147,
+      0.03805339336395264,
+      0.03463809937238693,
+      0.0312348622828722,
+      0.04509112983942032,
+      0.05697818100452423,
+      0.04888586327433586,
+      0.040602829307317734,
+      0.037718359380960464,
+      0.05552354454994202,
+      0.044510673731565475,
+      0.056022435426712036,
+      0.028633128851652145,
+      0.055126044899225235,
+      0.02554282546043396
+    ]
+  }
+}

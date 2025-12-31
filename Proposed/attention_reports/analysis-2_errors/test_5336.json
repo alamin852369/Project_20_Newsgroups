@@ -1,0 +1,381 @@
+{
+  "true_label_id": 3,
+  "pred_label_id": 2,
+  "true_label_name": "comp.sys.ibm.pc.hardware",
+  "pred_label_name": "comp.os.ms-windows.misc",
+  "pred_confidence": 0.9567729234695435,
+  "num_sents": 4,
+  "top_sentences": [
+    {
+      "sentence_id": 2,
+      "importance": 0.44075027108192444,
+      "sentence_text": "rtfm on the capture command <UNK> <UNK> and the sections of the windows 3 1 manual which cover network printing",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "3",
+          "token_pos": 13,
+          "word_score_logit": 0.10949493944644928,
+          "word_attn_weight": 0.052634790539741516
+        },
+        {
+          "rank": 1,
+          "token": "windows",
+          "token_pos": 12,
+          "word_score_logit": 0.10169250518083572,
+          "word_attn_weight": 0.052225708961486816
+        },
+        {
+          "rank": 2,
+          "token": "1",
+          "token_pos": 14,
+          "word_score_logit": 0.08982353657484055,
+          "word_attn_weight": 0.05160950869321823
+        },
+        {
+          "rank": 3,
+          "token": "command",
+          "token_pos": 4,
+          "word_score_logit": 0.08792471140623093,
+          "word_attn_weight": 0.051511600613594055
+        },
+        {
+          "rank": 4,
+          "token": "the",
+          "token_pos": 2,
+          "word_score_logit": 0.085149846971035,
+          "word_attn_weight": 0.05136886239051819
+        }
+      ]
+    },
+    {
+      "sentence_id": 3,
+      "importance": 0.22512221336364746,
+      "sentence_text": "if you haven't bought <UNK> products yet <UNK> your question and look for information about how well various competitors do printing",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "yet",
+          "token_pos": 6,
+          "word_score_logit": 0.039406176656484604,
+          "word_attn_weight": 0.0491696260869503
+        },
+        {
+          "rank": 1,
+          "token": "information",
+          "token_pos": 13,
+          "word_score_logit": 0.03879249840974808,
+          "word_attn_weight": 0.049139462411403656
+        },
+        {
+          "rank": 2,
+          "token": "do",
+          "token_pos": 19,
+          "word_score_logit": 0.03297214210033417,
+          "word_attn_weight": 0.0488542802631855
+        },
+        {
+          "rank": 3,
+          "token": "printing",
+          "token_pos": 20,
+          "word_score_logit": 0.031758930534124374,
+          "word_attn_weight": 0.04879504442214966
+        },
+        {
+          "rank": 4,
+          "token": "<UNK>",
+          "token_pos": 7,
+          "word_score_logit": 0.020828086882829666,
+          "word_attn_weight": 0.048264581710100174
+        }
+      ]
+    },
+    {
+      "sentence_id": 0,
+      "importance": 0.17367802560329437,
+      "sentence_text": "this is a fundamental aspect of <UNK> business they wouldn't be where they are if they didn't live up to their novell does printing <UNK>",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "does",
+          "token_pos": 22,
+          "word_score_logit": 0.05997437238693237,
+          "word_attn_weight": 0.04210464283823967
+        },
+        {
+          "rank": 1,
+          "token": "novell",
+          "token_pos": 21,
+          "word_score_logit": 0.051988329738378525,
+          "word_attn_weight": 0.04176973178982735
+        },
+        {
+          "rank": 2,
+          "token": "printing",
+          "token_pos": 23,
+          "word_score_logit": 0.04279518499970436,
+          "word_attn_weight": 0.041387494653463364
+        },
+        {
+          "rank": 3,
+          "token": "<UNK>",
+          "token_pos": 24,
+          "word_score_logit": 0.03909112513065338,
+          "word_attn_weight": 0.04123447462916374
+        },
+        {
+          "rank": 4,
+          "token": "where",
+          "token_pos": 11,
+          "word_score_logit": 0.030624911189079285,
+          "word_attn_weight": 0.04088685289025307
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "importance": 0.1604495346546173,
+      "sentence_text": "we run 6 printers of varying types off our novell network i'm sure there are places with hundreds",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "network",
+          "token_pos": 10,
+          "word_score_logit": 0.07779262959957123,
+          "word_attn_weight": 0.057577457278966904
+        },
+        {
+          "rank": 1,
+          "token": "printers",
+          "token_pos": 3,
+          "word_score_logit": 0.06480768322944641,
+          "word_attn_weight": 0.05683464929461479
+        },
+        {
+          "rank": 2,
+          "token": "run",
+          "token_pos": 1,
+          "word_score_logit": 0.055561088025569916,
+          "word_attn_weight": 0.05631154403090477
+        },
+        {
+          "rank": 3,
+          "token": "i'm",
+          "token_pos": 11,
+          "word_score_logit": 0.05398909002542496,
+          "word_attn_weight": 0.05622309073805809
+        },
+        {
+          "rank": 4,
+          "token": "varying",
+          "token_pos": 5,
+          "word_score_logit": 0.05310193449258804,
+          "word_attn_weight": 0.056173235177993774
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 10,
+      "from_sentence_id": 2,
+      "token": "3",
+      "token_pos": 13,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.5201690196990967,
+          "sentence_text": "rtfm on the capture command <UNK> <UNK> and the sections of the windows 3 1 manual which cover network printing"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.22960637509822845,
+          "sentence_text": "if you haven't bought <UNK> products yet <UNK> your question and look for information about how well various competitors do printing"
+        }
+      ]
+    },
+    {
+      "query_id": 11,
+      "from_sentence_id": 2,
+      "token": "windows",
+      "token_pos": 12,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.5031973123550415,
+          "sentence_text": "rtfm on the capture command <UNK> <UNK> and the sections of the windows 3 1 manual which cover network printing"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.20709311962127686,
+          "sentence_text": "if you haven't bought <UNK> products yet <UNK> your question and look for information about how well various competitors do printing"
+        }
+      ]
+    },
+    {
+      "query_id": 12,
+      "from_sentence_id": 2,
+      "token": "1",
+      "token_pos": 14,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.42810386419296265,
+          "sentence_text": "rtfm on the capture command <UNK> <UNK> and the sections of the windows 3 1 manual which cover network printing"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.26223957538604736,
+          "sentence_text": "if you haven't bought <UNK> products yet <UNK> your question and look for information about how well various competitors do printing"
+        }
+      ]
+    },
+    {
+      "query_id": 13,
+      "from_sentence_id": 2,
+      "token": "command",
+      "token_pos": 4,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.46195173263549805,
+          "sentence_text": "rtfm on the capture command <UNK> <UNK> and the sections of the windows 3 1 manual which cover network printing"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.2016439437866211,
+          "sentence_text": "this is a fundamental aspect of <UNK> business they wouldn't be where they are if they didn't live up to their novell does printing <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 14,
+      "from_sentence_id": 2,
+      "token": "the",
+      "token_pos": 2,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.342700332403183,
+          "sentence_text": "rtfm on the capture command <UNK> <UNK> and the sections of the windows 3 1 manual which cover network printing"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.25262385606765747,
+          "sentence_text": "this is a fundamental aspect of <UNK> business they wouldn't be where they are if they didn't live up to their novell does printing <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 15,
+      "from_sentence_id": 3,
+      "token": "yet",
+      "token_pos": 6,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.4000677764415741,
+          "sentence_text": "rtfm on the capture command <UNK> <UNK> and the sections of the windows 3 1 manual which cover network printing"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.23824912309646606,
+          "sentence_text": "if you haven't bought <UNK> products yet <UNK> your question and look for information about how well various competitors do printing"
+        }
+      ]
+    },
+    {
+      "query_id": 16,
+      "from_sentence_id": 3,
+      "token": "information",
+      "token_pos": 13,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.4354735314846039,
+          "sentence_text": "rtfm on the capture command <UNK> <UNK> and the sections of the windows 3 1 manual which cover network printing"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.22217601537704468,
+          "sentence_text": "if you haven't bought <UNK> products yet <UNK> your question and look for information about how well various competitors do printing"
+        }
+      ]
+    },
+    {
+      "query_id": 17,
+      "from_sentence_id": 3,
+      "token": "do",
+      "token_pos": 19,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.41897016763687134,
+          "sentence_text": "rtfm on the capture command <UNK> <UNK> and the sections of the windows 3 1 manual which cover network printing"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.22969074547290802,
+          "sentence_text": "if you haven't bought <UNK> products yet <UNK> your question and look for information about how well various competitors do printing"
+        }
+      ]
+    },
+    {
+      "query_id": 18,
+      "from_sentence_id": 3,
+      "token": "printing",
+      "token_pos": 20,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.42313557863235474,
+          "sentence_text": "rtfm on the capture command <UNK> <UNK> and the sections of the windows 3 1 manual which cover network printing"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.24380764365196228,
+          "sentence_text": "if you haven't bought <UNK> products yet <UNK> your question and look for information about how well various competitors do printing"
+        }
+      ]
+    },
+    {
+      "query_id": 19,
+      "from_sentence_id": 3,
+      "token": "<UNK>",
+      "token_pos": 7,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.35482800006866455,
+          "sentence_text": "rtfm on the capture command <UNK> <UNK> and the sections of the windows 3 1 manual which cover network printing"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.2457205355167389,
+          "sentence_text": "if you haven't bought <UNK> products yet <UNK> your question and look for information about how well various competitors do printing"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_5336"
+}

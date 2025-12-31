@@ -1,0 +1,120 @@
+{
+  "example_id": "test_3194",
+  "true_label_id": 19,
+  "pred_label_id": 16,
+  "true_label_name": "talk.religion.misc",
+  "pred_label_name": "talk.politics.guns",
+  "pred_confidence": 0.989470362663269,
+  "metrics": {
+    "num_sents": 2,
+    "K": 5,
+    "stop_ratio": 0.4,
+    "unk_ratio": 0.0,
+    "num_ratio": 0.0,
+    "content_ratio": 0.6,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 0.5812852382659912,
+    "sentence_importance_entropy": 0.5874942541122437,
+    "sentence_importance_max": 0.7256945371627808,
+    "top_sentence_id": 1,
+    "query_mismatch_rate": 0.5,
+    "selected_quality_counts": {
+      "content_word": 6,
+      "stopword": 4
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.24,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.6904873251914977,
+    "D_local_global_conflict": 0.5,
+    "E_overconfident_error": 0.989470362663269
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "what makes you say that the guns were illegal",
+      "i understand that the bd's had a valid class iii federal firearms permit which would allow them to have pretty much anything short of a <UNK> legally"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "say",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.05384787544608116,
+          "word_attn_weight": 0.11347302794456482
+        },
+        {
+          "token": "that",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": 0.051719434559345245,
+          "word_attn_weight": 0.11323176324367523
+        },
+        {
+          "token": "the",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.05084455758333206,
+          "word_attn_weight": 0.11313274502754211
+        },
+        {
+          "token": "you",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.04740672931075096,
+          "word_attn_weight": 0.11274448037147522
+        },
+        {
+          "token": "makes",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.045254193246364594,
+          "word_attn_weight": 0.11250205338001251
+        }
+      ],
+      [
+        {
+          "token": "class",
+          "token_pos": 8,
+          "quality": "content_word",
+          "word_score_logit": 0.09159998595714569,
+          "word_attn_weight": 0.03843216225504875
+        },
+        {
+          "token": "iii",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": 0.08522076904773712,
+          "word_attn_weight": 0.03818777576088905
+        },
+        {
+          "token": "federal",
+          "token_pos": 10,
+          "quality": "content_word",
+          "word_score_logit": 0.08221153914928436,
+          "word_attn_weight": 0.03807303309440613
+        },
+        {
+          "token": "firearms",
+          "token_pos": 11,
+          "quality": "content_word",
+          "word_score_logit": 0.07780929654836655,
+          "word_attn_weight": 0.037905797362327576
+        },
+        {
+          "token": "to",
+          "token_pos": 17,
+          "quality": "stopword",
+          "word_score_logit": 0.06660434603691101,
+          "word_attn_weight": 0.03748343139886856
+        }
+      ]
+    ],
+    "top_sentence_id": 1,
+    "sentence_importance_distribution": [
+      0.27430546283721924,
+      0.7256945371627808
+    ]
+  }
+}

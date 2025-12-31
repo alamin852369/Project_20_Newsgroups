@@ -1,0 +1,423 @@
+{
+  "true_label_id": 3,
+  "pred_label_id": 2,
+  "true_label_name": "comp.sys.ibm.pc.hardware",
+  "pred_label_name": "comp.os.ms-windows.misc",
+  "pred_confidence": 0.9484518766403198,
+  "num_sents": 5,
+  "top_sentences": [
+    {
+      "sentence_id": 0,
+      "importance": 0.2954018712043762,
+      "sentence_text": "i've got a 386dx 40 4mb and i'm using windows 3 1",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "windows",
+          "token_pos": 9,
+          "word_score_logit": 0.1262519210577011,
+          "word_attn_weight": 0.09065580368041992
+        },
+        {
+          "rank": 1,
+          "token": "3",
+          "token_pos": 10,
+          "word_score_logit": 0.09390529245138168,
+          "word_attn_weight": 0.08777032047510147
+        },
+        {
+          "rank": 2,
+          "token": "1",
+          "token_pos": 11,
+          "word_score_logit": 0.0753709226846695,
+          "word_attn_weight": 0.08615852892398834
+        },
+        {
+          "rank": 3,
+          "token": "i'm",
+          "token_pos": 7,
+          "word_score_logit": 0.049301184713840485,
+          "word_attn_weight": 0.08394142240285873
+        },
+        {
+          "rank": 4,
+          "token": "using",
+          "token_pos": 8,
+          "word_score_logit": 0.04898475110530853,
+          "word_attn_weight": 0.0839148685336113
+        }
+      ]
+    },
+    {
+      "sentence_id": 2,
+      "importance": 0.21632523834705353,
+      "sentence_text": "then i turned this virtual memory swapfile off and windows became quite faster but now having less memory free",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "windows",
+          "token_pos": 9,
+          "word_score_logit": 0.08954986184835434,
+          "word_attn_weight": 0.05628931149840355
+        },
+        {
+          "rank": 1,
+          "token": "became",
+          "token_pos": 10,
+          "word_score_logit": 0.0560588501393795,
+          "word_attn_weight": 0.05443534627556801
+        },
+        {
+          "rank": 2,
+          "token": "i",
+          "token_pos": 1,
+          "word_score_logit": 0.039886899292469025,
+          "word_attn_weight": 0.05356209725141525
+        },
+        {
+          "rank": 3,
+          "token": "then",
+          "token_pos": 0,
+          "word_score_logit": 0.03401186317205429,
+          "word_attn_weight": 0.053248342126607895
+        },
+        {
+          "rank": 4,
+          "token": "virtual",
+          "token_pos": 4,
+          "word_score_logit": 0.030933964997529984,
+          "word_attn_weight": 0.05308470129966736
+        }
+      ]
+    },
+    {
+      "sentence_id": 3,
+      "importance": 0.18582192063331604,
+      "sentence_text": "and so i'm still wondering why windows is reading everything from virtual memory when the <UNK> is sufficient",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "windows",
+          "token_pos": 6,
+          "word_score_logit": 0.10847043246030807,
+          "word_attn_weight": 0.060269761830568314
+        },
+        {
+          "rank": 1,
+          "token": "wondering",
+          "token_pos": 4,
+          "word_score_logit": 0.06890624761581421,
+          "word_attn_weight": 0.057931795716285706
+        },
+        {
+          "rank": 2,
+          "token": "still",
+          "token_pos": 3,
+          "word_score_logit": 0.05688575655221939,
+          "word_attn_weight": 0.0572395958006382
+        },
+        {
+          "rank": 3,
+          "token": "is",
+          "token_pos": 7,
+          "word_score_logit": 0.05362393334507942,
+          "word_attn_weight": 0.05705318972468376
+        },
+        {
+          "rank": 4,
+          "token": "so",
+          "token_pos": 1,
+          "word_score_logit": 0.04877462610602379,
+          "word_attn_weight": 0.056777194142341614
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "importance": 0.16010622680187225,
+      "sentence_text": "sometimes i wondered why windows worked endlessly on my hd when i was doing nothing <UNK> having lunch or something like that",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "windows",
+          "token_pos": 4,
+          "word_score_logit": 0.08633837848901749,
+          "word_attn_weight": 0.049242764711380005
+        },
+        {
+          "rank": 1,
+          "token": "wondered",
+          "token_pos": 2,
+          "word_score_logit": 0.05064032971858978,
+          "word_attn_weight": 0.047515902668237686
+        },
+        {
+          "rank": 2,
+          "token": "hd",
+          "token_pos": 9,
+          "word_score_logit": 0.04559747874736786,
+          "word_attn_weight": 0.04727688804268837
+        },
+        {
+          "rank": 3,
+          "token": "i",
+          "token_pos": 1,
+          "word_score_logit": 0.045210063457489014,
+          "word_attn_weight": 0.04725857451558113
+        },
+        {
+          "rank": 4,
+          "token": "sometimes",
+          "token_pos": 0,
+          "word_score_logit": 0.041384853422641754,
+          "word_attn_weight": 0.047078147530555725
+        }
+      ]
+    },
+    {
+      "sentence_id": 4,
+      "importance": 0.14234483242034912,
+      "sentence_text": "any common sense explanation is really appreciated",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "explanation",
+          "token_pos": 3,
+          "word_score_logit": 0.04414193332195282,
+          "word_attn_weight": 0.14487121999263763
+        },
+        {
+          "rank": 1,
+          "token": "sense",
+          "token_pos": 2,
+          "word_score_logit": 0.04326565936207771,
+          "word_attn_weight": 0.14474432170391083
+        },
+        {
+          "rank": 2,
+          "token": "is",
+          "token_pos": 4,
+          "word_score_logit": 0.03307099640369415,
+          "word_attn_weight": 0.14327619969844818
+        },
+        {
+          "rank": 3,
+          "token": "common",
+          "token_pos": 1,
+          "word_score_logit": 0.03231150284409523,
+          "word_attn_weight": 0.1431674212217331
+        },
+        {
+          "rank": 4,
+          "token": "any",
+          "token_pos": 0,
+          "word_score_logit": 0.03193400800228119,
+          "word_attn_weight": 0.1431133896112442
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "windows",
+      "token_pos": 9,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.42906540632247925,
+          "sentence_text": "i've got a 386dx 40 4mb and i'm using windows 3 1"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.19866937398910522,
+          "sentence_text": "then i turned this virtual memory swapfile off and windows became quite faster but now having less memory free"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "3",
+      "token_pos": 10,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.37997227907180786,
+          "sentence_text": "i've got a 386dx 40 4mb and i'm using windows 3 1"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.2180088460445404,
+          "sentence_text": "then i turned this virtual memory swapfile off and windows became quite faster but now having less memory free"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "1",
+      "token_pos": 11,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.32719120383262634,
+          "sentence_text": "i've got a 386dx 40 4mb and i'm using windows 3 1"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.22159630060195923,
+          "sentence_text": "then i turned this virtual memory swapfile off and windows became quite faster but now having less memory free"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "i'm",
+      "token_pos": 7,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.27248141169548035,
+          "sentence_text": "i've got a 386dx 40 4mb and i'm using windows 3 1"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.21125352382659912,
+          "sentence_text": "then i turned this virtual memory swapfile off and windows became quite faster but now having less memory free"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "using",
+      "token_pos": 8,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.2979065179824829,
+          "sentence_text": "i've got a 386dx 40 4mb and i'm using windows 3 1"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.2148505300283432,
+          "sentence_text": "then i turned this virtual memory swapfile off and windows became quite faster but now having less memory free"
+        }
+      ]
+    },
+    {
+      "query_id": 10,
+      "from_sentence_id": 2,
+      "token": "windows",
+      "token_pos": 9,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.4295937120914459,
+          "sentence_text": "i've got a 386dx 40 4mb and i'm using windows 3 1"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.2025996744632721,
+          "sentence_text": "then i turned this virtual memory swapfile off and windows became quite faster but now having less memory free"
+        }
+      ]
+    },
+    {
+      "query_id": 11,
+      "from_sentence_id": 2,
+      "token": "became",
+      "token_pos": 10,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.4182260036468506,
+          "sentence_text": "i've got a 386dx 40 4mb and i'm using windows 3 1"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.2219988852739334,
+          "sentence_text": "then i turned this virtual memory swapfile off and windows became quite faster but now having less memory free"
+        }
+      ]
+    },
+    {
+      "query_id": 12,
+      "from_sentence_id": 2,
+      "token": "i",
+      "token_pos": 1,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.2303023636341095,
+          "sentence_text": "i've got a 386dx 40 4mb and i'm using windows 3 1"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.21437405049800873,
+          "sentence_text": "then i turned this virtual memory swapfile off and windows became quite faster but now having less memory free"
+        }
+      ]
+    },
+    {
+      "query_id": 13,
+      "from_sentence_id": 2,
+      "token": "then",
+      "token_pos": 0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.22434696555137634,
+          "sentence_text": "any common sense explanation is really appreciated"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.20729640126228333,
+          "sentence_text": "and so i'm still wondering why windows is reading everything from virtual memory when the <UNK> is sufficient"
+        }
+      ]
+    },
+    {
+      "query_id": 14,
+      "from_sentence_id": 2,
+      "token": "virtual",
+      "token_pos": 4,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.24733185768127441,
+          "sentence_text": "i've got a 386dx 40 4mb and i'm using windows 3 1"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.2116236686706543,
+          "sentence_text": "then i turned this virtual memory swapfile off and windows became quite faster but now having less memory free"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_5424"
+}

@@ -1,0 +1,965 @@
+{
+  "true_label_id": 6,
+  "pred_label_id": 6,
+  "true_label_name": "misc.forsale",
+  "pred_label_name": "misc.forsale",
+  "pred_confidence": 0.7049015760421753,
+  "num_sents": 5,
+  "sentence_summaries": [
+    {
+      "sentence_id": 0,
+      "sentence_text": "i said what a silly boy i was now i have zillions of messages like does that include shipping is it scsi what rom version is it will it work on a <UNK> <UNK> 9000 ok the deal is this if you live in the twin cities email me and",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "is",
+          "token_pos": 19,
+          "word_score_logit": 0.05206101015210152,
+          "word_attn_weight": 0.02115519531071186
+        },
+        {
+          "rank": 1,
+          "token": "of",
+          "token_pos": 12,
+          "word_score_logit": 0.046297743916511536,
+          "word_attn_weight": 0.021033622324466705
+        },
+        {
+          "rank": 2,
+          "token": "like",
+          "token_pos": 14,
+          "word_score_logit": 0.04433479160070419,
+          "word_attn_weight": 0.020992374047636986
+        },
+        {
+          "rank": 3,
+          "token": "does",
+          "token_pos": 15,
+          "word_score_logit": 0.03923961520195007,
+          "word_attn_weight": 0.020885687321424484
+        },
+        {
+          "rank": 4,
+          "token": "shipping",
+          "token_pos": 18,
+          "word_score_logit": 0.03748643398284912,
+          "word_attn_weight": 0.02084910124540329
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "sentence_text": "else min order 20 2 drives shipping",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "else",
+          "token_pos": 0,
+          "word_score_logit": 0.024944016709923744,
+          "word_attn_weight": 0.14456476271152496
+        },
+        {
+          "rank": 1,
+          "token": "20",
+          "token_pos": 3,
+          "word_score_logit": 0.02352137863636017,
+          "word_attn_weight": 0.14435924589633942
+        },
+        {
+          "rank": 2,
+          "token": "order",
+          "token_pos": 2,
+          "word_score_logit": 0.015086122788488865,
+          "word_attn_weight": 0.14314666390419006
+        },
+        {
+          "rank": 3,
+          "token": "shipping",
+          "token_pos": 6,
+          "word_score_logit": 0.014848185703158379,
+          "word_attn_weight": 0.14311259984970093
+        },
+        {
+          "rank": 4,
+          "token": "2",
+          "token_pos": 4,
+          "word_score_logit": 0.01446455903351307,
+          "word_attn_weight": 0.143057718873024
+        }
+      ]
+    },
+    {
+      "sentence_id": 2,
+      "sentence_text": "no guarantees they are good for any purpose at all they look <UNK> clean no technical negotiations",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "no",
+          "token_pos": 14,
+          "word_score_logit": 0.05973837524652481,
+          "word_attn_weight": 0.060792434960603714
+        },
+        {
+          "rank": 1,
+          "token": "any",
+          "token_pos": 6,
+          "word_score_logit": 0.05238690599799156,
+          "word_attn_weight": 0.06034715846180916
+        },
+        {
+          "rank": 2,
+          "token": "all",
+          "token_pos": 9,
+          "word_score_logit": 0.04769128933548927,
+          "word_attn_weight": 0.06006445363163948
+        },
+        {
+          "rank": 3,
+          "token": "clean",
+          "token_pos": 13,
+          "word_score_logit": 0.044182151556015015,
+          "word_attn_weight": 0.05985404923558235
+        },
+        {
+          "rank": 4,
+          "token": "at",
+          "token_pos": 8,
+          "word_score_logit": 0.04163920879364014,
+          "word_attn_weight": 0.05970203876495361
+        }
+      ]
+    },
+    {
+      "sentence_id": 3,
+      "sentence_text": "they are model 525 <UNK> part <UNK> 639 revision d",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "d",
+          "token_pos": 9,
+          "word_score_logit": 0.048818349838256836,
+          "word_attn_weight": 0.10381954908370972
+        },
+        {
+          "rank": 1,
+          "token": "they",
+          "token_pos": 0,
+          "word_score_logit": 0.019230302423238754,
+          "word_attn_weight": 0.10079272836446762
+        },
+        {
+          "rank": 2,
+          "token": "525",
+          "token_pos": 3,
+          "word_score_logit": 0.018648745492100716,
+          "word_attn_weight": 0.10073412954807281
+        },
+        {
+          "rank": 3,
+          "token": "revision",
+          "token_pos": 8,
+          "word_score_logit": 0.01125445868819952,
+          "word_attn_weight": 0.09999202936887741
+        },
+        {
+          "rank": 4,
+          "token": "model",
+          "token_pos": 2,
+          "word_score_logit": 0.009942013770341873,
+          "word_attn_weight": 0.09986087679862976
+        }
+      ]
+    },
+    {
+      "sentence_id": 4,
+      "sentence_text": "17 pin floppy style connector on the back else they go in the bin life is too short for extended negotiations over 10 items cheers mike",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "the",
+          "token_pos": 6,
+          "word_score_logit": 0.08342558890581131,
+          "word_attn_weight": 0.040076225996017456
+        },
+        {
+          "rank": 1,
+          "token": "the",
+          "token_pos": 12,
+          "word_score_logit": 0.07617022842168808,
+          "word_attn_weight": 0.03978651016950607
+        },
+        {
+          "rank": 2,
+          "token": "in",
+          "token_pos": 11,
+          "word_score_logit": 0.07202290743589401,
+          "word_attn_weight": 0.03962184488773346
+        },
+        {
+          "rank": 3,
+          "token": "else",
+          "token_pos": 8,
+          "word_score_logit": 0.07091628015041351,
+          "word_attn_weight": 0.03957802429795265
+        },
+        {
+          "rank": 4,
+          "token": "back",
+          "token_pos": 7,
+          "word_score_logit": 0.07021743804216385,
+          "word_attn_weight": 0.03955037146806717
+        }
+      ]
+    }
+  ],
+  "query_summaries": [
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "is",
+      "token_pos": 19,
+      "word_score_logit": 0.05206101015210152,
+      "word_attn_weight": 0.02115519531071186,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.2809750437736511,
+          "sentence_text": "they are model 525 <UNK> part <UNK> 639 revision d"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.2018333375453949,
+          "sentence_text": "i said what a silly boy i was now i have zillions of messages like does that include shipping is it scsi what rom version is it will it work on a <UNK> <UNK> 9000 ok the deal is this if you live in the twin cities email me and"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.19931820034980774,
+          "sentence_text": "17 pin floppy style connector on the back else they go in the bin life is too short for extended negotiations over 10 items cheers mike"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "of",
+      "token_pos": 12,
+      "word_score_logit": 0.046297743916511536,
+      "word_attn_weight": 0.021033622324466705,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.2566794753074646,
+          "sentence_text": "they are model 525 <UNK> part <UNK> 639 revision d"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.20715562999248505,
+          "sentence_text": "i said what a silly boy i was now i have zillions of messages like does that include shipping is it scsi what rom version is it will it work on a <UNK> <UNK> 9000 ok the deal is this if you live in the twin cities email me and"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.18963220715522766,
+          "sentence_text": "17 pin floppy style connector on the back else they go in the bin life is too short for extended negotiations over 10 items cheers mike"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "like",
+      "token_pos": 14,
+      "word_score_logit": 0.04433479160070419,
+      "word_attn_weight": 0.020992374047636986,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.26891687512397766,
+          "sentence_text": "they are model 525 <UNK> part <UNK> 639 revision d"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.20251280069351196,
+          "sentence_text": "i said what a silly boy i was now i have zillions of messages like does that include shipping is it scsi what rom version is it will it work on a <UNK> <UNK> 9000 ok the deal is this if you live in the twin cities email me and"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.20061559975147247,
+          "sentence_text": "17 pin floppy style connector on the back else they go in the bin life is too short for extended negotiations over 10 items cheers mike"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "does",
+      "token_pos": 15,
+      "word_score_logit": 0.03923961520195007,
+      "word_attn_weight": 0.020885687321424484,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.2560098171234131,
+          "sentence_text": "they are model 525 <UNK> part <UNK> 639 revision d"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 4,
+          "attn_weight": 0.20541369915008545,
+          "sentence_text": "17 pin floppy style connector on the back else they go in the bin life is too short for extended negotiations over 10 items cheers mike"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.20292599499225616,
+          "sentence_text": "i said what a silly boy i was now i have zillions of messages like does that include shipping is it scsi what rom version is it will it work on a <UNK> <UNK> 9000 ok the deal is this if you live in the twin cities email me and"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "shipping",
+      "token_pos": 18,
+      "word_score_logit": 0.03748643398284912,
+      "word_attn_weight": 0.02084910124540329,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.2556094527244568,
+          "sentence_text": "they are model 525 <UNK> part <UNK> 639 revision d"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 4,
+          "attn_weight": 0.22346150875091553,
+          "sentence_text": "17 pin floppy style connector on the back else they go in the bin life is too short for extended negotiations over 10 items cheers mike"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.1941446214914322,
+          "sentence_text": "i said what a silly boy i was now i have zillions of messages like does that include shipping is it scsi what rom version is it will it work on a <UNK> <UNK> 9000 ok the deal is this if you live in the twin cities email me and"
+        }
+      ]
+    },
+    {
+      "query_id": 5,
+      "from_sentence_id": 1,
+      "token": "else",
+      "token_pos": 0,
+      "word_score_logit": 0.024944016709923744,
+      "word_attn_weight": 0.14456476271152496,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.23976865410804749,
+          "sentence_text": "17 pin floppy style connector on the back else they go in the bin life is too short for extended negotiations over 10 items cheers mike"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.2205180525779724,
+          "sentence_text": "they are model 525 <UNK> part <UNK> 639 revision d"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.19149082899093628,
+          "sentence_text": "i said what a silly boy i was now i have zillions of messages like does that include shipping is it scsi what rom version is it will it work on a <UNK> <UNK> 9000 ok the deal is this if you live in the twin cities email me and"
+        }
+      ]
+    },
+    {
+      "query_id": 6,
+      "from_sentence_id": 1,
+      "token": "20",
+      "token_pos": 3,
+      "word_score_logit": 0.02352137863636017,
+      "word_attn_weight": 0.14435924589633942,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.27007102966308594,
+          "sentence_text": "17 pin floppy style connector on the back else they go in the bin life is too short for extended negotiations over 10 items cheers mike"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.1955210268497467,
+          "sentence_text": "they are model 525 <UNK> part <UNK> 639 revision d"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.18296533823013306,
+          "sentence_text": "else min order 20 2 drives shipping"
+        }
+      ]
+    },
+    {
+      "query_id": 7,
+      "from_sentence_id": 1,
+      "token": "order",
+      "token_pos": 2,
+      "word_score_logit": 0.015086122788488865,
+      "word_attn_weight": 0.14314666390419006,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.24433748424053192,
+          "sentence_text": "17 pin floppy style connector on the back else they go in the bin life is too short for extended negotiations over 10 items cheers mike"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.20798665285110474,
+          "sentence_text": "they are model 525 <UNK> part <UNK> 639 revision d"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.1884448528289795,
+          "sentence_text": "i said what a silly boy i was now i have zillions of messages like does that include shipping is it scsi what rom version is it will it work on a <UNK> <UNK> 9000 ok the deal is this if you live in the twin cities email me and"
+        }
+      ]
+    },
+    {
+      "query_id": 8,
+      "from_sentence_id": 1,
+      "token": "shipping",
+      "token_pos": 6,
+      "word_score_logit": 0.014848185703158379,
+      "word_attn_weight": 0.14311259984970093,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.25781482458114624,
+          "sentence_text": "17 pin floppy style connector on the back else they go in the bin life is too short for extended negotiations over 10 items cheers mike"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.198073148727417,
+          "sentence_text": "they are model 525 <UNK> part <UNK> 639 revision d"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.19524815678596497,
+          "sentence_text": "else min order 20 2 drives shipping"
+        }
+      ]
+    },
+    {
+      "query_id": 9,
+      "from_sentence_id": 1,
+      "token": "2",
+      "token_pos": 4,
+      "word_score_logit": 0.01446455903351307,
+      "word_attn_weight": 0.143057718873024,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.260315477848053,
+          "sentence_text": "17 pin floppy style connector on the back else they go in the bin life is too short for extended negotiations over 10 items cheers mike"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.21397778391838074,
+          "sentence_text": "else min order 20 2 drives shipping"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.1802762895822525,
+          "sentence_text": "i said what a silly boy i was now i have zillions of messages like does that include shipping is it scsi what rom version is it will it work on a <UNK> <UNK> 9000 ok the deal is this if you live in the twin cities email me and"
+        }
+      ]
+    },
+    {
+      "query_id": 10,
+      "from_sentence_id": 2,
+      "token": "no",
+      "token_pos": 14,
+      "word_score_logit": 0.05973837524652481,
+      "word_attn_weight": 0.060792434960603714,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.23119844496250153,
+          "sentence_text": "17 pin floppy style connector on the back else they go in the bin life is too short for extended negotiations over 10 items cheers mike"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.21318797767162323,
+          "sentence_text": "they are model 525 <UNK> part <UNK> 639 revision d"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.20484505593776703,
+          "sentence_text": "no guarantees they are good for any purpose at all they look <UNK> clean no technical negotiations"
+        }
+      ]
+    },
+    {
+      "query_id": 11,
+      "from_sentence_id": 2,
+      "token": "any",
+      "token_pos": 6,
+      "word_score_logit": 0.05238690599799156,
+      "word_attn_weight": 0.06034715846180916,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.25007936358451843,
+          "sentence_text": "17 pin floppy style connector on the back else they go in the bin life is too short for extended negotiations over 10 items cheers mike"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.213852658867836,
+          "sentence_text": "no guarantees they are good for any purpose at all they look <UNK> clean no technical negotiations"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.21208760142326355,
+          "sentence_text": "they are model 525 <UNK> part <UNK> 639 revision d"
+        }
+      ]
+    },
+    {
+      "query_id": 12,
+      "from_sentence_id": 2,
+      "token": "all",
+      "token_pos": 9,
+      "word_score_logit": 0.04769128933548927,
+      "word_attn_weight": 0.06006445363163948,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.2834087610244751,
+          "sentence_text": "17 pin floppy style connector on the back else they go in the bin life is too short for extended negotiations over 10 items cheers mike"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.2097407728433609,
+          "sentence_text": "they are model 525 <UNK> part <UNK> 639 revision d"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.20803721249103546,
+          "sentence_text": "no guarantees they are good for any purpose at all they look <UNK> clean no technical negotiations"
+        }
+      ]
+    },
+    {
+      "query_id": 13,
+      "from_sentence_id": 2,
+      "token": "clean",
+      "token_pos": 13,
+      "word_score_logit": 0.044182151556015015,
+      "word_attn_weight": 0.05985404923558235,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.26374417543411255,
+          "sentence_text": "17 pin floppy style connector on the back else they go in the bin life is too short for extended negotiations over 10 items cheers mike"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.21015344560146332,
+          "sentence_text": "they are model 525 <UNK> part <UNK> 639 revision d"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.19582070410251617,
+          "sentence_text": "no guarantees they are good for any purpose at all they look <UNK> clean no technical negotiations"
+        }
+      ]
+    },
+    {
+      "query_id": 14,
+      "from_sentence_id": 2,
+      "token": "at",
+      "token_pos": 8,
+      "word_score_logit": 0.04163920879364014,
+      "word_attn_weight": 0.05970203876495361,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.2731584310531616,
+          "sentence_text": "17 pin floppy style connector on the back else they go in the bin life is too short for extended negotiations over 10 items cheers mike"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.21722620725631714,
+          "sentence_text": "they are model 525 <UNK> part <UNK> 639 revision d"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.21315418183803558,
+          "sentence_text": "no guarantees they are good for any purpose at all they look <UNK> clean no technical negotiations"
+        }
+      ]
+    },
+    {
+      "query_id": 15,
+      "from_sentence_id": 3,
+      "token": "d",
+      "token_pos": 9,
+      "word_score_logit": 0.048818349838256836,
+      "word_attn_weight": 0.10381954908370972,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.2331255078315735,
+          "sentence_text": "they are model 525 <UNK> part <UNK> 639 revision d"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 4,
+          "attn_weight": 0.21420270204544067,
+          "sentence_text": "17 pin floppy style connector on the back else they go in the bin life is too short for extended negotiations over 10 items cheers mike"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.21309731900691986,
+          "sentence_text": "no guarantees they are good for any purpose at all they look <UNK> clean no technical negotiations"
+        }
+      ]
+    },
+    {
+      "query_id": 16,
+      "from_sentence_id": 3,
+      "token": "they",
+      "token_pos": 0,
+      "word_score_logit": 0.019230302423238754,
+      "word_attn_weight": 0.10079272836446762,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.24647115170955658,
+          "sentence_text": "they are model 525 <UNK> part <UNK> 639 revision d"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 4,
+          "attn_weight": 0.23040789365768433,
+          "sentence_text": "17 pin floppy style connector on the back else they go in the bin life is too short for extended negotiations over 10 items cheers mike"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.19078418612480164,
+          "sentence_text": "i said what a silly boy i was now i have zillions of messages like does that include shipping is it scsi what rom version is it will it work on a <UNK> <UNK> 9000 ok the deal is this if you live in the twin cities email me and"
+        }
+      ]
+    },
+    {
+      "query_id": 17,
+      "from_sentence_id": 3,
+      "token": "525",
+      "token_pos": 3,
+      "word_score_logit": 0.018648745492100716,
+      "word_attn_weight": 0.10073412954807281,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.2526211142539978,
+          "sentence_text": "they are model 525 <UNK> part <UNK> 639 revision d"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 4,
+          "attn_weight": 0.22364775836467743,
+          "sentence_text": "17 pin floppy style connector on the back else they go in the bin life is too short for extended negotiations over 10 items cheers mike"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.19356417655944824,
+          "sentence_text": "i said what a silly boy i was now i have zillions of messages like does that include shipping is it scsi what rom version is it will it work on a <UNK> <UNK> 9000 ok the deal is this if you live in the twin cities email me and"
+        }
+      ]
+    },
+    {
+      "query_id": 18,
+      "from_sentence_id": 3,
+      "token": "revision",
+      "token_pos": 8,
+      "word_score_logit": 0.01125445868819952,
+      "word_attn_weight": 0.09999202936887741,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.2615776062011719,
+          "sentence_text": "they are model 525 <UNK> part <UNK> 639 revision d"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.21087156236171722,
+          "sentence_text": "i said what a silly boy i was now i have zillions of messages like does that include shipping is it scsi what rom version is it will it work on a <UNK> <UNK> 9000 ok the deal is this if you live in the twin cities email me and"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.20501822233200073,
+          "sentence_text": "no guarantees they are good for any purpose at all they look <UNK> clean no technical negotiations"
+        }
+      ]
+    },
+    {
+      "query_id": 19,
+      "from_sentence_id": 3,
+      "token": "model",
+      "token_pos": 2,
+      "word_score_logit": 0.009942013770341873,
+      "word_attn_weight": 0.09986087679862976,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.25609153509140015,
+          "sentence_text": "they are model 525 <UNK> part <UNK> 639 revision d"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 4,
+          "attn_weight": 0.239253968000412,
+          "sentence_text": "17 pin floppy style connector on the back else they go in the bin life is too short for extended negotiations over 10 items cheers mike"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.18725650012493134,
+          "sentence_text": "i said what a silly boy i was now i have zillions of messages like does that include shipping is it scsi what rom version is it will it work on a <UNK> <UNK> 9000 ok the deal is this if you live in the twin cities email me and"
+        }
+      ]
+    },
+    {
+      "query_id": 20,
+      "from_sentence_id": 4,
+      "token": "the",
+      "token_pos": 6,
+      "word_score_logit": 0.08342558890581131,
+      "word_attn_weight": 0.040076225996017456,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.3943431079387665,
+          "sentence_text": "17 pin floppy style connector on the back else they go in the bin life is too short for extended negotiations over 10 items cheers mike"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.1748623251914978,
+          "sentence_text": "they are model 525 <UNK> part <UNK> 639 revision d"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.16622868180274963,
+          "sentence_text": "no guarantees they are good for any purpose at all they look <UNK> clean no technical negotiations"
+        }
+      ]
+    },
+    {
+      "query_id": 21,
+      "from_sentence_id": 4,
+      "token": "the",
+      "token_pos": 12,
+      "word_score_logit": 0.07617022842168808,
+      "word_attn_weight": 0.03978651016950607,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.34658169746398926,
+          "sentence_text": "17 pin floppy style connector on the back else they go in the bin life is too short for extended negotiations over 10 items cheers mike"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.1984112709760666,
+          "sentence_text": "no guarantees they are good for any purpose at all they look <UNK> clean no technical negotiations"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.16069678962230682,
+          "sentence_text": "they are model 525 <UNK> part <UNK> 639 revision d"
+        }
+      ]
+    },
+    {
+      "query_id": 22,
+      "from_sentence_id": 4,
+      "token": "in",
+      "token_pos": 11,
+      "word_score_logit": 0.07202290743589401,
+      "word_attn_weight": 0.03962184488773346,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.3365999460220337,
+          "sentence_text": "17 pin floppy style connector on the back else they go in the bin life is too short for extended negotiations over 10 items cheers mike"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.19306142628192902,
+          "sentence_text": "no guarantees they are good for any purpose at all they look <UNK> clean no technical negotiations"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.16937768459320068,
+          "sentence_text": "they are model 525 <UNK> part <UNK> 639 revision d"
+        }
+      ]
+    },
+    {
+      "query_id": 23,
+      "from_sentence_id": 4,
+      "token": "else",
+      "token_pos": 8,
+      "word_score_logit": 0.07091628015041351,
+      "word_attn_weight": 0.03957802429795265,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.35349947214126587,
+          "sentence_text": "17 pin floppy style connector on the back else they go in the bin life is too short for extended negotiations over 10 items cheers mike"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.1847001016139984,
+          "sentence_text": "they are model 525 <UNK> part <UNK> 639 revision d"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.17348186671733856,
+          "sentence_text": "no guarantees they are good for any purpose at all they look <UNK> clean no technical negotiations"
+        }
+      ]
+    },
+    {
+      "query_id": 24,
+      "from_sentence_id": 4,
+      "token": "back",
+      "token_pos": 7,
+      "word_score_logit": 0.07021743804216385,
+      "word_attn_weight": 0.03955037146806717,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.3631775975227356,
+          "sentence_text": "17 pin floppy style connector on the back else they go in the bin life is too short for extended negotiations over 10 items cheers mike"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.1803213655948639,
+          "sentence_text": "they are model 525 <UNK> part <UNK> 639 revision d"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.16868749260902405,
+          "sentence_text": "no guarantees they are good for any purpose at all they look <UNK> clean no technical negotiations"
+        }
+      ]
+    }
+  ],
+  "sentence_importance_from_cross_attn": {
+    "definition": "mean cross-attn over queries",
+    "values": [
+      {
+        "sentence_id": 0,
+        "importance": 0.1828748881816864
+      },
+      {
+        "sentence_id": 1,
+        "importance": 0.15490466356277466
+      },
+      {
+        "sentence_id": 2,
+        "importance": 0.18345008790493011
+      },
+      {
+        "sentence_id": 3,
+        "importance": 0.2200533002614975
+      },
+      {
+        "sentence_id": 4,
+        "importance": 0.25871706008911133
+      }
+    ],
+    "ranked": [
+      {
+        "sentence_id": 4,
+        "importance": 0.25871706008911133
+      },
+      {
+        "sentence_id": 3,
+        "importance": 0.2200533002614975
+      },
+      {
+        "sentence_id": 2,
+        "importance": 0.18345008790493011
+      },
+      {
+        "sentence_id": 0,
+        "importance": 0.1828748881816864
+      },
+      {
+        "sentence_id": 1,
+        "importance": 0.15490466356277466
+      }
+    ]
+  },
+  "example_id": "test-19"
+}

@@ -1,0 +1,80 @@
+{
+  "example_id": "test_4499",
+  "true_label_id": 12,
+  "pred_label_id": 14,
+  "true_label_name": "sci.electronics",
+  "pred_label_name": "sci.space",
+  "pred_confidence": 0.9963933825492859,
+  "metrics": {
+    "num_sents": 1,
+    "K": 5,
+    "stop_ratio": 0.0,
+    "unk_ratio": 0.0,
+    "num_ratio": 0.0,
+    "content_ratio": 1.0,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 0.0,
+    "sentence_importance_entropy": -0.0,
+    "sentence_importance_max": 1.0,
+    "top_sentence_id": 0,
+    "query_mismatch_rate": 0.0,
+    "selected_quality_counts": {
+      "content_word": 5
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.0,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 1.0,
+    "D_local_global_conflict": 0.0,
+    "E_overconfident_error": 0.9963933825492859
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "from article <UNK> <UNK> <UNK> <UNK> jpl nasa gov by eldred <UNK> jpl nasa gov dan eldred"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "nasa",
+          "token_pos": 13,
+          "quality": "content_word",
+          "word_score_logit": 0.15981626510620117,
+          "word_attn_weight": 0.0643300786614418
+        },
+        {
+          "token": "jpl",
+          "token_pos": 12,
+          "quality": "content_word",
+          "word_score_logit": 0.14344152808189392,
+          "word_attn_weight": 0.06328526139259338
+        },
+        {
+          "token": "dan",
+          "token_pos": 15,
+          "quality": "content_word",
+          "word_score_logit": 0.12989309430122375,
+          "word_attn_weight": 0.062433626502752304
+        },
+        {
+          "token": "eldred",
+          "token_pos": 16,
+          "quality": "content_word",
+          "word_score_logit": 0.11508357524871826,
+          "word_attn_weight": 0.06151583418250084
+        },
+        {
+          "token": "eldred",
+          "token_pos": 10,
+          "quality": "content_word",
+          "word_score_logit": 0.11258158832788467,
+          "word_attn_weight": 0.06136211380362511
+        }
+      ]
+    ],
+    "top_sentence_id": 0,
+    "sentence_importance_distribution": [
+      1.0
+    ]
+  }
+}

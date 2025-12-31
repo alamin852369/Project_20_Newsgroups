@@ -1,0 +1,381 @@
+{
+  "true_label_id": 4,
+  "pred_label_id": 3,
+  "true_label_name": "comp.sys.mac.hardware",
+  "pred_label_name": "comp.sys.ibm.pc.hardware",
+  "pred_confidence": 0.7217546105384827,
+  "num_sents": 4,
+  "top_sentences": [
+    {
+      "sentence_id": 2,
+      "importance": 0.297530859708786,
+      "sentence_text": "the tape backup is a scsi",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "backup",
+          "token_pos": 2,
+          "word_score_logit": 0.09330783784389496,
+          "word_attn_weight": 0.17378570139408112
+        },
+        {
+          "rank": 1,
+          "token": "the",
+          "token_pos": 0,
+          "word_score_logit": 0.05645117163658142,
+          "word_attn_weight": 0.16749714314937592
+        },
+        {
+          "rank": 2,
+          "token": "is",
+          "token_pos": 3,
+          "word_score_logit": 0.054538533091545105,
+          "word_attn_weight": 0.16717709600925446
+        },
+        {
+          "rank": 3,
+          "token": "scsi",
+          "token_pos": 5,
+          "word_score_logit": 0.04063403233885765,
+          "word_attn_weight": 0.16486866772174835
+        },
+        {
+          "rank": 4,
+          "token": "tape",
+          "token_pos": 1,
+          "word_score_logit": 0.03428829833865166,
+          "word_attn_weight": 0.16382575035095215
+        }
+      ]
+    },
+    {
+      "sentence_id": 3,
+      "importance": 0.2815958261489868,
+      "sentence_text": "will norton utilities be sufficient to interface the two",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "interface",
+          "token_pos": 6,
+          "word_score_logit": 0.10682282596826553,
+          "word_attn_weight": 0.11579299718141556
+        },
+        {
+          "rank": 1,
+          "token": "the",
+          "token_pos": 7,
+          "word_score_logit": 0.09460022300481796,
+          "word_attn_weight": 0.11438631266355515
+        },
+        {
+          "rank": 2,
+          "token": "utilities",
+          "token_pos": 2,
+          "word_score_logit": 0.07859943807125092,
+          "word_attn_weight": 0.1125706136226654
+        },
+        {
+          "rank": 3,
+          "token": "two",
+          "token_pos": 8,
+          "word_score_logit": 0.07391469180583954,
+          "word_attn_weight": 0.11204448342323303
+        },
+        {
+          "rank": 4,
+          "token": "sufficient",
+          "token_pos": 4,
+          "word_score_logit": 0.06932821869850159,
+          "word_attn_weight": 0.11153177171945572
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "importance": 0.248380646109581,
+      "sentence_text": "what do i need to interface my se 30 to the tape backup",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "backup",
+          "token_pos": 12,
+          "word_score_logit": 0.07835735380649567,
+          "word_attn_weight": 0.07975250482559204
+        },
+        {
+          "rank": 1,
+          "token": "the",
+          "token_pos": 10,
+          "word_score_logit": 0.06133675575256348,
+          "word_attn_weight": 0.07840654999017715
+        },
+        {
+          "rank": 2,
+          "token": "interface",
+          "token_pos": 5,
+          "word_score_logit": 0.061181146651506424,
+          "word_attn_weight": 0.07839435338973999
+        },
+        {
+          "rank": 3,
+          "token": "my",
+          "token_pos": 6,
+          "word_score_logit": 0.05459613725543022,
+          "word_attn_weight": 0.07787982374429703
+        },
+        {
+          "rank": 4,
+          "token": "30",
+          "token_pos": 8,
+          "word_score_logit": 0.05399434641003609,
+          "word_attn_weight": 0.07783297449350357
+        }
+      ]
+    },
+    {
+      "sentence_id": 0,
+      "importance": 0.17249266803264618,
+      "sentence_text": "i have access to a dec <UNK> dec dat tape backup",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "backup",
+          "token_pos": 10,
+          "word_score_logit": 0.10076881945133209,
+          "word_attn_weight": 0.09837328642606735
+        },
+        {
+          "rank": 1,
+          "token": "tape",
+          "token_pos": 9,
+          "word_score_logit": 0.059289805591106415,
+          "word_attn_weight": 0.0943763256072998
+        },
+        {
+          "rank": 2,
+          "token": "to",
+          "token_pos": 3,
+          "word_score_logit": 0.026415901258587837,
+          "word_attn_weight": 0.09132424741983414
+        },
+        {
+          "rank": 3,
+          "token": "access",
+          "token_pos": 2,
+          "word_score_logit": 0.023100875318050385,
+          "word_attn_weight": 0.09102201461791992
+        },
+        {
+          "rank": 4,
+          "token": "<UNK>",
+          "token_pos": 6,
+          "word_score_logit": 0.011028168722987175,
+          "word_attn_weight": 0.0899297297000885
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 10,
+      "from_sentence_id": 2,
+      "token": "backup",
+      "token_pos": 2,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.35691091418266296,
+          "sentence_text": "the tape backup is a scsi"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.2769731283187866,
+          "sentence_text": "what do i need to interface my se 30 to the tape backup"
+        }
+      ]
+    },
+    {
+      "query_id": 11,
+      "from_sentence_id": 2,
+      "token": "the",
+      "token_pos": 0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.3273584544658661,
+          "sentence_text": "the tape backup is a scsi"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.26305919885635376,
+          "sentence_text": "what do i need to interface my se 30 to the tape backup"
+        }
+      ]
+    },
+    {
+      "query_id": 12,
+      "from_sentence_id": 2,
+      "token": "is",
+      "token_pos": 3,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.30965906381607056,
+          "sentence_text": "the tape backup is a scsi"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.2700403928756714,
+          "sentence_text": "will norton utilities be sufficient to interface the two"
+        }
+      ]
+    },
+    {
+      "query_id": 13,
+      "from_sentence_id": 2,
+      "token": "scsi",
+      "token_pos": 5,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.3508813977241516,
+          "sentence_text": "the tape backup is a scsi"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.2986059784889221,
+          "sentence_text": "will norton utilities be sufficient to interface the two"
+        }
+      ]
+    },
+    {
+      "query_id": 14,
+      "from_sentence_id": 2,
+      "token": "tape",
+      "token_pos": 1,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.3333497643470764,
+          "sentence_text": "the tape backup is a scsi"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.2804110646247864,
+          "sentence_text": "what do i need to interface my se 30 to the tape backup"
+        }
+      ]
+    },
+    {
+      "query_id": 15,
+      "from_sentence_id": 3,
+      "token": "interface",
+      "token_pos": 6,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.3605218231678009,
+          "sentence_text": "will norton utilities be sufficient to interface the two"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.23165097832679749,
+          "sentence_text": "the tape backup is a scsi"
+        }
+      ]
+    },
+    {
+      "query_id": 16,
+      "from_sentence_id": 3,
+      "token": "the",
+      "token_pos": 7,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.32647958397865295,
+          "sentence_text": "will norton utilities be sufficient to interface the two"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.2475837618112564,
+          "sentence_text": "the tape backup is a scsi"
+        }
+      ]
+    },
+    {
+      "query_id": 17,
+      "from_sentence_id": 3,
+      "token": "utilities",
+      "token_pos": 2,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.31302401423454285,
+          "sentence_text": "the tape backup is a scsi"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.2934412956237793,
+          "sentence_text": "will norton utilities be sufficient to interface the two"
+        }
+      ]
+    },
+    {
+      "query_id": 18,
+      "from_sentence_id": 3,
+      "token": "two",
+      "token_pos": 8,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.3045133948326111,
+          "sentence_text": "will norton utilities be sufficient to interface the two"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.24685314297676086,
+          "sentence_text": "the tape backup is a scsi"
+        }
+      ]
+    },
+    {
+      "query_id": 19,
+      "from_sentence_id": 3,
+      "token": "sufficient",
+      "token_pos": 4,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.2999856770038605,
+          "sentence_text": "will norton utilities be sufficient to interface the two"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.23480097949504852,
+          "sentence_text": "the tape backup is a scsi"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_6020"
+}

@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "analysis_id": "analysis-3",
+    "created_at": "2025-12-31T13:19:33.201769",
+    "split": "test",
+    "model_checkpoint": "best_model_by_val_loss.pt",
+    "glove_coverage": 0.8259883992266152,
+    "train_topk": 5,
+    "topk_sweep": [
+      1,
+      3,
+      5,
+      10,
+      20,
+      50
+    ],
+    "limits": {
+      "MAX_EXAMPLES_FOR_SWEEP": null,
+      "MAX_EXAMPLES_FOR_STATS": null
+    },
+    "files": {
+      "topk_sensitivity_csv": "analysis-3_topk_sensitivity.csv",
+      "attention_stats_csv": "analysis-3_attention_stats.csv",
+      "accuracy_vs_topk_png": "analysis-3_accuracy_vs_topk.png",
+      "word_entropy_hist_png": "analysis-3_entropy_word_correct_incorrect.png",
+      "cross_entropy_hist_png": "analysis-3_entropy_cross_correct_incorrect.png",
+      "sentence_max_hist_png": "analysis-3_sentence_importance_max_correct_incorrect.png"
+    }
+  },
+  "baseline": {
+    "baseline_topk": 5,
+    "accuracy": 0.6488316516197558,
+    "num_examples": 7532
+  },
+  "topk_sensitivity": [
+    {
+      "topk": 1,
+      "num_examples": 7532,
+      "accuracy": 0.6483005841741901,
+      "agreement_with_baseline": 0.9907063197026023,
+      "avg_pred_confidence": 0.7447327311470733
+    },
+    {
+      "topk": 3,
+      "num_examples": 7532,
+      "accuracy": 0.6492299522039299,
+      "agreement_with_baseline": 0.9970791290493892,
+      "avg_pred_confidence": 0.7455728771961312
+    },
+    {
+      "topk": 5,
+      "num_examples": 7532,
+      "accuracy": 0.6488316516197558,
+      "agreement_with_baseline": 1.0,
+      "avg_pred_confidence": 0.7459843180246702
+    },
+    {
+      "topk": 10,
+      "num_examples": 7532,
+      "accuracy": 0.6485661178969729,
+      "agreement_with_baseline": 0.9949548592671269,
+      "avg_pred_confidence": 0.7466081491633418
+    },
+    {
+      "topk": 20,
+      "num_examples": 7532,
+      "accuracy": 0.6488316516197558,
+      "agreement_with_baseline": 0.9901752522570366,
+      "avg_pred_confidence": 0.7475419837112953
+    },
+    {
+      "topk": 50,
+      "num_examples": 7532,
+      "accuracy": 0.6488316516197558,
+      "agreement_with_baseline": 0.983271375464684,
+      "avg_pred_confidence": 0.7485848450622721
+    }
+  ],
+  "attention_statistics_summary": [
+    {
+      "metric": "word_entropy",
+      "n_correct": 4887,
+      "mean_correct": 2.440310298911145,
+      "std_correct": 0.5059184330131589,
+      "n_incorrect": 2645,
+      "mean_incorrect": 2.1200701075702564,
+      "std_incorrect": 0.8485901488368489
+    },
+    {
+      "metric": "cross_entropy",
+      "n_correct": 4887,
+      "mean_correct": 1.5953931922648041,
+      "std_correct": 0.711677421346305,
+      "n_incorrect": 2645,
+      "mean_incorrect": 1.2819407538697682,
+      "std_incorrect": 0.8478953084469358
+    },
+    {
+      "metric": "sentence_importance_entropy",
+      "n_correct": 4887,
+      "mean_correct": 1.6464502756150925,
+      "std_correct": 0.7241661675934703,
+      "n_incorrect": 2645,
+      "mean_incorrect": 1.3135850196637369,
+      "std_incorrect": 0.8656580480229705
+    },
+    {
+      "metric": "sentence_importance_max",
+      "n_correct": 4887,
+      "mean_correct": 0.3921011435380615,
+      "std_correct": 0.21388253747859218,
+      "n_incorrect": 2645,
+      "mean_incorrect": 0.47289862833593205,
+      "std_incorrect": 0.2891787869585949
+    }
+  ],
+  "interpretation_notes": {
+    "how_to_use_in_report": [
+      "If accuracy drops when TOPK is very small (e.g., 1), it suggests aggressive filtering removes useful evidence.",
+      "If accuracy drops when TOPK is very large (e.g., 50), it suggests filtering helps reduce noise / distractor words.",
+      "Lower attention entropy often indicates more peaked attention; compare correct vs incorrect to see whether over-peaked attention correlates with failures.",
+      "Higher max sentence-importance mass can indicate the model over-relies on a single sentence; if this is higher for incorrect cases, it supports a negative impact claim."
+    ]
+  }
+}

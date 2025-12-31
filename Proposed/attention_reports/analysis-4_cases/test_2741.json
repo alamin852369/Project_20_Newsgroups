@@ -1,0 +1,120 @@
+{
+  "example_id": "test_2741",
+  "true_label_id": 15,
+  "pred_label_id": 14,
+  "true_label_name": "soc.religion.christian",
+  "pred_label_name": "sci.space",
+  "pred_confidence": 0.33671945333480835,
+  "metrics": {
+    "num_sents": 2,
+    "K": 5,
+    "stop_ratio": 0.8,
+    "unk_ratio": 0.0,
+    "num_ratio": 0.0,
+    "content_ratio": 0.2,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 0.5649206638336182,
+    "sentence_importance_entropy": 0.5710036754608154,
+    "sentence_importance_max": 0.7419534921646118,
+    "top_sentence_id": 0,
+    "query_mismatch_rate": 0.5,
+    "selected_quality_counts": {
+      "stopword": 8,
+      "content_word": 2
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.48,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.7051667094230651,
+    "D_local_global_conflict": 0.5,
+    "E_overconfident_error": 0.33671945333480835
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "the <UNK> ceremony for knights <UNK> is almost as secretive as that for the mafia",
+      "what are the phases of <UNK> and why the <UNK>"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "the",
+          "token_pos": 13,
+          "quality": "stopword",
+          "word_score_logit": 0.025191105902194977,
+          "word_attn_weight": 0.06951000541448593
+        },
+        {
+          "token": "for",
+          "token_pos": 12,
+          "quality": "stopword",
+          "word_score_logit": 0.01416813489049673,
+          "word_attn_weight": 0.06874801218509674
+        },
+        {
+          "token": "as",
+          "token_pos": 10,
+          "quality": "stopword",
+          "word_score_logit": 0.014124741777777672,
+          "word_attn_weight": 0.06874502450227737
+        },
+        {
+          "token": "mafia",
+          "token_pos": 14,
+          "quality": "content_word",
+          "word_score_logit": 0.009381869807839394,
+          "word_attn_weight": 0.06841974705457687
+        },
+        {
+          "token": "that",
+          "token_pos": 11,
+          "quality": "stopword",
+          "word_score_logit": 0.0010432153940200806,
+          "word_attn_weight": 0.06785159558057785
+        }
+      ],
+      [
+        {
+          "token": "phases",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.021538682281970978,
+          "word_attn_weight": 0.10119658708572388
+        },
+        {
+          "token": "the",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.0200190432369709,
+          "word_attn_weight": 0.10104293376207352
+        },
+        {
+          "token": "what",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.015178305096924305,
+          "word_attn_weight": 0.10055498033761978
+        },
+        {
+          "token": "the",
+          "token_pos": 8,
+          "quality": "stopword",
+          "word_score_logit": 0.014221412129700184,
+          "word_attn_weight": 0.10045881569385529
+        },
+        {
+          "token": "why",
+          "token_pos": 7,
+          "quality": "stopword",
+          "word_score_logit": 0.01409781351685524,
+          "word_attn_weight": 0.10044639557600021
+        }
+      ]
+    ],
+    "top_sentence_id": 0,
+    "sentence_importance_distribution": [
+      0.7419534921646118,
+      0.25804653763771057
+    ]
+  }
+}

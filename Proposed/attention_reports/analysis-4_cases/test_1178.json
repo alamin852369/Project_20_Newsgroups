@@ -1,0 +1,81 @@
+{
+  "example_id": "test_1178",
+  "true_label_id": 17,
+  "pred_label_id": 15,
+  "true_label_name": "talk.politics.mideast",
+  "pred_label_name": "soc.religion.christian",
+  "pred_confidence": 0.733282744884491,
+  "metrics": {
+    "num_sents": 1,
+    "K": 5,
+    "stop_ratio": 0.8,
+    "unk_ratio": 0.0,
+    "num_ratio": 0.0,
+    "content_ratio": 0.2,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 0.0,
+    "sentence_importance_entropy": -0.0,
+    "sentence_importance_max": 1.0,
+    "top_sentence_id": 0,
+    "query_mismatch_rate": 0.0,
+    "selected_quality_counts": {
+      "content_word": 1,
+      "stopword": 4
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.48,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 1.0,
+    "D_local_global_conflict": 0.0,
+    "E_overconfident_error": 0.733282744884491
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "society is impossible without some shared set of <UNK> sense of what is god and what is bad action and basic foundation of something universal"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "sense",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": 0.04267814755439758,
+          "word_attn_weight": 0.041848260909318924
+        },
+        {
+          "token": "of",
+          "token_pos": 10,
+          "quality": "stopword",
+          "word_score_logit": 0.03355471044778824,
+          "word_attn_weight": 0.04146819934248924
+        },
+        {
+          "token": "of",
+          "token_pos": 7,
+          "quality": "stopword",
+          "word_score_logit": 0.026933597400784492,
+          "word_attn_weight": 0.04119453951716423
+        },
+        {
+          "token": "is",
+          "token_pos": 12,
+          "quality": "stopword",
+          "word_score_logit": 0.025721341371536255,
+          "word_attn_weight": 0.041144631803035736
+        },
+        {
+          "token": "what",
+          "token_pos": 11,
+          "quality": "stopword",
+          "word_score_logit": 0.023179158568382263,
+          "word_attn_weight": 0.04104016721248627
+        }
+      ]
+    ],
+    "top_sentence_id": 0,
+    "sentence_importance_distribution": [
+      1.0
+    ]
+  }
+}

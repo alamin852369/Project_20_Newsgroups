@@ -1,0 +1,423 @@
+{
+  "true_label_id": 19,
+  "pred_label_id": 15,
+  "true_label_name": "talk.religion.misc",
+  "pred_label_name": "soc.religion.christian",
+  "pred_confidence": 0.8625094890594482,
+  "num_sents": 20,
+  "top_sentences": [
+    {
+      "sentence_id": 16,
+      "importance": 0.19696380198001862,
+      "sentence_text": "in the case of communion paul's mention at least this is probably true of the <UNK> also implies an ongoing ritual liturgy in which these words operate to bind christians to the original command to his disciples as a continuing commandment to the christian community",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "the",
+          "token_pos": 42,
+          "word_score_logit": 0.003256324678659439,
+          "word_attn_weight": 0.023336833342909813
+        },
+        {
+          "rank": 1,
+          "token": "command",
+          "token_pos": 33,
+          "word_score_logit": 0.00043280888348817825,
+          "word_attn_weight": 0.02327103354036808
+        },
+        {
+          "rank": 2,
+          "token": "christian",
+          "token_pos": 43,
+          "word_score_logit": -0.009546535089612007,
+          "word_attn_weight": 0.023039959371089935
+        },
+        {
+          "rank": 3,
+          "token": "to",
+          "token_pos": 41,
+          "word_score_logit": -0.00997122935950756,
+          "word_attn_weight": 0.023030174896121025
+        },
+        {
+          "rank": 4,
+          "token": "original",
+          "token_pos": 32,
+          "word_score_logit": -0.010966567322611809,
+          "word_attn_weight": 0.023007264360785484
+        }
+      ]
+    },
+    {
+      "sentence_id": 9,
+      "importance": 0.11651059985160828,
+      "sentence_text": "that is not because i reject tradition but because my primary audience in this essay is protestants who deny tradition a <UNK> value in favor of the witness of scripture",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "witness",
+          "token_pos": 27,
+          "word_score_logit": 0.006234869360923767,
+          "word_attn_weight": 0.034667957574129105
+        },
+        {
+          "rank": 1,
+          "token": "in",
+          "token_pos": 23,
+          "word_score_logit": -0.00047877244651317596,
+          "word_attn_weight": 0.03443598747253418
+        },
+        {
+          "rank": 2,
+          "token": "is",
+          "token_pos": 1,
+          "word_score_logit": -0.0032458174973726273,
+          "word_attn_weight": 0.034340836107730865
+        },
+        {
+          "rank": 3,
+          "token": "of",
+          "token_pos": 25,
+          "word_score_logit": -0.004189228639006615,
+          "word_attn_weight": 0.034308452159166336
+        },
+        {
+          "rank": 4,
+          "token": "the",
+          "token_pos": 26,
+          "word_score_logit": -0.005753545090556145,
+          "word_attn_weight": 0.03425482660531998
+        }
+      ]
+    },
+    {
+      "sentence_id": 13,
+      "importance": 0.09781338274478912,
+      "sentence_text": "earlier in john than my quote above we read john 13 34 i give you a new commandment love one another this is the only place in the nt where christians are given an explicit commandment with the context commenting on its imperative mode <UNK> by jesus",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "above",
+          "token_pos": 6,
+          "word_score_logit": 0.01730291172862053,
+          "word_attn_weight": 0.022412888705730438
+        },
+        {
+          "rank": 1,
+          "token": "mode",
+          "token_pos": 43,
+          "word_score_logit": 0.015301032923161983,
+          "word_attn_weight": 0.022368066012859344
+        },
+        {
+          "rank": 2,
+          "token": "nt",
+          "token_pos": 28,
+          "word_score_logit": 0.008456388488411903,
+          "word_attn_weight": 0.02221548743546009
+        },
+        {
+          "rank": 3,
+          "token": "john",
+          "token_pos": 2,
+          "word_score_logit": 0.0016299616545438766,
+          "word_attn_weight": 0.02206435240805149
+        },
+        {
+          "rank": 4,
+          "token": "in",
+          "token_pos": 1,
+          "word_score_logit": -0.0006397925317287445,
+          "word_attn_weight": 0.022014327347278595
+        }
+      ]
+    },
+    {
+      "sentence_id": 8,
+      "importance": 0.06560865044593811,
+      "sentence_text": "i am going to set aside for this essay one major direction in which christians have looked for these commands namely christian tradition",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "commands",
+          "token_pos": 19,
+          "word_score_logit": -0.007495449855923653,
+          "word_attn_weight": 0.04511658474802971
+        },
+        {
+          "rank": 1,
+          "token": "i",
+          "token_pos": 0,
+          "word_score_logit": -0.013387016952037811,
+          "word_attn_weight": 0.04485156014561653
+        },
+        {
+          "rank": 2,
+          "token": "tradition",
+          "token_pos": 22,
+          "word_score_logit": -0.016437267884612083,
+          "word_attn_weight": 0.04471495747566223
+        },
+        {
+          "rank": 3,
+          "token": "christian",
+          "token_pos": 21,
+          "word_score_logit": -0.01687195710837841,
+          "word_attn_weight": 0.044695522636175156
+        },
+        {
+          "rank": 4,
+          "token": "these",
+          "token_pos": 18,
+          "word_score_logit": -0.018950462341308594,
+          "word_attn_weight": 0.04460272192955017
+        }
+      ]
+    },
+    {
+      "sentence_id": 18,
+      "importance": 0.0650087520480156,
+      "sentence_text": "i take it as a clear inference at the very least the <UNK> notion that all christians are called to love one another in jesus' command directed at the disciples",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "command",
+          "token_pos": 25,
+          "word_score_logit": 0.047534625977277756,
+          "word_attn_weight": 0.03550177067518234
+        },
+        {
+          "rank": 1,
+          "token": "in",
+          "token_pos": 23,
+          "word_score_logit": 0.012540509924292564,
+          "word_attn_weight": 0.03428090363740921
+        },
+        {
+          "rank": 2,
+          "token": "the",
+          "token_pos": 28,
+          "word_score_logit": 0.008899841457605362,
+          "word_attn_weight": 0.034156326204538345
+        },
+        {
+          "rank": 3,
+          "token": "at",
+          "token_pos": 27,
+          "word_score_logit": 0.006890464574098587,
+          "word_attn_weight": 0.034087762236595154
+        },
+        {
+          "rank": 4,
+          "token": "directed",
+          "token_pos": 26,
+          "word_score_logit": 0.004288035444915295,
+          "word_attn_weight": 0.033999163657426834
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 80,
+      "from_sentence_id": 16,
+      "token": "the",
+      "token_pos": 42,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.26693230867385864,
+          "sentence_text": "in the case of communion paul's mention at least this is probably true of the <UNK> also implies an ongoing ritual liturgy in which these words operate to bind christians to the original command to his disciples as a continuing commandment to the christian community"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.1393372118473053,
+          "sentence_text": "that is not because i reject tradition but because my primary audience in this essay is protestants who deny tradition a <UNK> value in favor of the witness of scripture"
+        }
+      ]
+    },
+    {
+      "query_id": 81,
+      "from_sentence_id": 16,
+      "token": "command",
+      "token_pos": 33,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.38248348236083984,
+          "sentence_text": "in the case of communion paul's mention at least this is probably true of the <UNK> also implies an ongoing ritual liturgy in which these words operate to bind christians to the original command to his disciples as a continuing commandment to the christian community"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.17429763078689575,
+          "sentence_text": "that is not because i reject tradition but because my primary audience in this essay is protestants who deny tradition a <UNK> value in favor of the witness of scripture"
+        }
+      ]
+    },
+    {
+      "query_id": 82,
+      "from_sentence_id": 16,
+      "token": "christian",
+      "token_pos": 43,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.3036068379878998,
+          "sentence_text": "in the case of communion paul's mention at least this is probably true of the <UNK> also implies an ongoing ritual liturgy in which these words operate to bind christians to the original command to his disciples as a continuing commandment to the christian community"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.14550501108169556,
+          "sentence_text": "that is not because i reject tradition but because my primary audience in this essay is protestants who deny tradition a <UNK> value in favor of the witness of scripture"
+        }
+      ]
+    },
+    {
+      "query_id": 83,
+      "from_sentence_id": 16,
+      "token": "to",
+      "token_pos": 41,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.2461295872926712,
+          "sentence_text": "in the case of communion paul's mention at least this is probably true of the <UNK> also implies an ongoing ritual liturgy in which these words operate to bind christians to the original command to his disciples as a continuing commandment to the christian community"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.14595097303390503,
+          "sentence_text": "that is not because i reject tradition but because my primary audience in this essay is protestants who deny tradition a <UNK> value in favor of the witness of scripture"
+        }
+      ]
+    },
+    {
+      "query_id": 84,
+      "from_sentence_id": 16,
+      "token": "original",
+      "token_pos": 32,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.24155840277671814,
+          "sentence_text": "in the case of communion paul's mention at least this is probably true of the <UNK> also implies an ongoing ritual liturgy in which these words operate to bind christians to the original command to his disciples as a continuing commandment to the christian community"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.1847507208585739,
+          "sentence_text": "that is not because i reject tradition but because my primary audience in this essay is protestants who deny tradition a <UNK> value in favor of the witness of scripture"
+        }
+      ]
+    },
+    {
+      "query_id": 45,
+      "from_sentence_id": 9,
+      "token": "witness",
+      "token_pos": 27,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.30453237891197205,
+          "sentence_text": "in the case of communion paul's mention at least this is probably true of the <UNK> also implies an ongoing ritual liturgy in which these words operate to bind christians to the original command to his disciples as a continuing commandment to the christian community"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.1746014803647995,
+          "sentence_text": "that is not because i reject tradition but because my primary audience in this essay is protestants who deny tradition a <UNK> value in favor of the witness of scripture"
+        }
+      ]
+    },
+    {
+      "query_id": 46,
+      "from_sentence_id": 9,
+      "token": "in",
+      "token_pos": 23,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.27457115054130554,
+          "sentence_text": "in the case of communion paul's mention at least this is probably true of the <UNK> also implies an ongoing ritual liturgy in which these words operate to bind christians to the original command to his disciples as a continuing commandment to the christian community"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.1847209930419922,
+          "sentence_text": "that is not because i reject tradition but because my primary audience in this essay is protestants who deny tradition a <UNK> value in favor of the witness of scripture"
+        }
+      ]
+    },
+    {
+      "query_id": 47,
+      "from_sentence_id": 9,
+      "token": "is",
+      "token_pos": 1,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.17701394855976105,
+          "sentence_text": "in the case of communion paul's mention at least this is probably true of the <UNK> also implies an ongoing ritual liturgy in which these words operate to bind christians to the original command to his disciples as a continuing commandment to the christian community"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.1753164827823639,
+          "sentence_text": "that is not because i reject tradition but because my primary audience in this essay is protestants who deny tradition a <UNK> value in favor of the witness of scripture"
+        }
+      ]
+    },
+    {
+      "query_id": 48,
+      "from_sentence_id": 9,
+      "token": "of",
+      "token_pos": 25,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.2920481860637665,
+          "sentence_text": "in the case of communion paul's mention at least this is probably true of the <UNK> also implies an ongoing ritual liturgy in which these words operate to bind christians to the original command to his disciples as a continuing commandment to the christian community"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.19040603935718536,
+          "sentence_text": "that is not because i reject tradition but because my primary audience in this essay is protestants who deny tradition a <UNK> value in favor of the witness of scripture"
+        }
+      ]
+    },
+    {
+      "query_id": 49,
+      "from_sentence_id": 9,
+      "token": "the",
+      "token_pos": 26,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.30020079016685486,
+          "sentence_text": "in the case of communion paul's mention at least this is probably true of the <UNK> also implies an ongoing ritual liturgy in which these words operate to bind christians to the original command to his disciples as a continuing commandment to the christian community"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.17881199717521667,
+          "sentence_text": "that is not because i reject tradition but because my primary audience in this essay is protestants who deny tradition a <UNK> value in favor of the witness of scripture"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_3472"
+}

@@ -1,0 +1,1343 @@
+{
+  "true_label_id": 1,
+  "pred_label_id": 1,
+  "true_label_name": "comp.graphics",
+  "pred_label_name": "comp.graphics",
+  "pred_confidence": 0.9522613286972046,
+  "num_sents": 7,
+  "sentence_summaries": [
+    {
+      "sentence_id": 0,
+      "sentence_text": "well i have lots of experience with scanning in images and altering them",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "altering",
+          "token_pos": 11,
+          "word_score_logit": 0.02144135907292366,
+          "word_attn_weight": 0.07935642451047897
+        },
+        {
+          "rank": 1,
+          "token": "in",
+          "token_pos": 8,
+          "word_score_logit": 0.013716772198677063,
+          "word_attn_weight": 0.07874578982591629
+        },
+        {
+          "rank": 2,
+          "token": "and",
+          "token_pos": 10,
+          "word_score_logit": 0.013403644785284996,
+          "word_attn_weight": 0.07872114330530167
+        },
+        {
+          "rank": 3,
+          "token": "of",
+          "token_pos": 4,
+          "word_score_logit": -0.0013276059180498123,
+          "word_attn_weight": 0.07756997644901276
+        },
+        {
+          "rank": 4,
+          "token": "them",
+          "token_pos": 12,
+          "word_score_logit": -0.008363399654626846,
+          "word_attn_weight": 0.0770261287689209
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "sentence_text": "as for changing them back into negatives is that really possible",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "changing",
+          "token_pos": 2,
+          "word_score_logit": 0.03884243220090866,
+          "word_attn_weight": 0.09386935085058212
+        },
+        {
+          "rank": 1,
+          "token": "them",
+          "token_pos": 3,
+          "word_score_logit": 0.019705384969711304,
+          "word_attn_weight": 0.09209004044532776
+        },
+        {
+          "rank": 2,
+          "token": "possible",
+          "token_pos": 10,
+          "word_score_logit": 0.017826443538069725,
+          "word_attn_weight": 0.09191717207431793
+        },
+        {
+          "rank": 3,
+          "token": "as",
+          "token_pos": 0,
+          "word_score_logit": 0.014851031824946404,
+          "word_attn_weight": 0.09164409339427948
+        },
+        {
+          "rank": 4,
+          "token": "back",
+          "token_pos": 4,
+          "word_score_logit": 0.014072312042117119,
+          "word_attn_weight": 0.09157275408506393
+        }
+      ]
+    },
+    {
+      "sentence_id": 2,
+      "sentence_text": "stuff deleted jennifer <UNK> the oh so bitter woman of utter <UNK> but cheerful <UNK> i use aldus <UNK> on the pc and i can turn a colour or black and white image into a negative or turn a negative into a colour or black and white image",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "pc",
+          "token_pos": 21,
+          "word_score_logit": 0.05914586782455444,
+          "word_attn_weight": 0.021881984546780586
+        },
+        {
+          "rank": 1,
+          "token": "and",
+          "token_pos": 22,
+          "word_score_logit": 0.05757550895214081,
+          "word_attn_weight": 0.021847648546099663
+        },
+        {
+          "rank": 2,
+          "token": "into",
+          "token_pos": 33,
+          "word_score_logit": 0.04753817617893219,
+          "word_attn_weight": 0.0216294527053833
+        },
+        {
+          "rank": 3,
+          "token": "aldus",
+          "token_pos": 17,
+          "word_score_logit": 0.04491396248340607,
+          "word_attn_weight": 0.021572766825556755
+        },
+        {
+          "rank": 4,
+          "token": "use",
+          "token_pos": 16,
+          "word_score_logit": 0.04378123581409454,
+          "word_attn_weight": 0.021548345685005188
+        }
+      ]
+    },
+    {
+      "sentence_id": 3,
+      "sentence_text": "i don't know how it does it but it works well",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "know",
+          "token_pos": 2,
+          "word_score_logit": 0.014393772929906845,
+          "word_attn_weight": 0.09229952841997147
+        },
+        {
+          "rank": 1,
+          "token": "i",
+          "token_pos": 0,
+          "word_score_logit": 0.011053748428821564,
+          "word_attn_weight": 0.09199175983667374
+        },
+        {
+          "rank": 2,
+          "token": "don't",
+          "token_pos": 1,
+          "word_score_logit": 0.007737291976809502,
+          "word_attn_weight": 0.09168718010187149
+        },
+        {
+          "rank": 3,
+          "token": "well",
+          "token_pos": 10,
+          "word_score_logit": 0.007384646218270063,
+          "word_attn_weight": 0.09165485203266144
+        },
+        {
+          "rank": 4,
+          "token": "does",
+          "token_pos": 5,
+          "word_score_logit": 0.005989192519336939,
+          "word_attn_weight": 0.0915270447731018
+        }
+      ]
+    },
+    {
+      "sentence_id": 4,
+      "sentence_text": "to test it i scanned a negative and used aldus to create a positive",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "scanned",
+          "token_pos": 4,
+          "word_score_logit": 0.048520173877477646,
+          "word_attn_weight": 0.07491523772478104
+        },
+        {
+          "rank": 1,
+          "token": "it",
+          "token_pos": 2,
+          "word_score_logit": 0.024409230798482895,
+          "word_attn_weight": 0.07313056290149689
+        },
+        {
+          "rank": 2,
+          "token": "i",
+          "token_pos": 3,
+          "word_score_logit": 0.023565461859107018,
+          "word_attn_weight": 0.07306887954473495
+        },
+        {
+          "rank": 3,
+          "token": "used",
+          "token_pos": 8,
+          "word_score_logit": 0.012863244861364365,
+          "word_attn_weight": 0.0722910538315773
+        },
+        {
+          "rank": 4,
+          "token": "a",
+          "token_pos": 5,
+          "word_score_logit": 0.009091912768781185,
+          "word_attn_weight": 0.07201893627643585
+        }
+      ]
+    },
+    {
+      "sentence_id": 5,
+      "sentence_text": "it looked better than the print that the film developers gave me",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "gave",
+          "token_pos": 10,
+          "word_score_logit": 0.03813175857067108,
+          "word_attn_weight": 0.0861615464091301
+        },
+        {
+          "rank": 1,
+          "token": "me",
+          "token_pos": 11,
+          "word_score_logit": 0.023054206743836403,
+          "word_attn_weight": 0.08487218618392944
+        },
+        {
+          "rank": 2,
+          "token": "looked",
+          "token_pos": 1,
+          "word_score_logit": 0.014938531443476677,
+          "word_attn_weight": 0.08418617397546768
+        },
+        {
+          "rank": 3,
+          "token": "better",
+          "token_pos": 2,
+          "word_score_logit": 0.009814457036554813,
+          "word_attn_weight": 0.08375590294599533
+        },
+        {
+          "rank": 4,
+          "token": "the",
+          "token_pos": 4,
+          "word_score_logit": 0.006584160961210728,
+          "word_attn_weight": 0.08348578214645386
+        }
+      ]
+    },
+    {
+      "sentence_id": 6,
+      "sentence_text": "<UNK>",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "<UNK>",
+          "token_pos": 0,
+          "word_score_logit": 0.0027645998634397984,
+          "word_attn_weight": 1.0
+        },
+        {
+          "rank": 1,
+          "token": "<PAD>",
+          "token_pos": 3,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 2,
+          "token": "<PAD>",
+          "token_pos": 1,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 3,
+          "token": "<PAD>",
+          "token_pos": 4,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 4,
+          "token": "<PAD>",
+          "token_pos": 2,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    }
+  ],
+  "query_summaries": [
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "altering",
+      "token_pos": 11,
+      "word_score_logit": 0.02144135907292366,
+      "word_attn_weight": 0.07935642451047897,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.3946262300014496,
+          "sentence_text": "well i have lots of experience with scanning in images and altering them"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.3003905415534973,
+          "sentence_text": "stuff deleted jennifer <UNK> the oh so bitter woman of utter <UNK> but cheerful <UNK> i use aldus <UNK> on the pc and i can turn a colour or black and white image into a negative or turn a negative into a colour or black and white image"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.1040000170469284,
+          "sentence_text": "to test it i scanned a negative and used aldus to create a positive"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "in",
+      "token_pos": 8,
+      "word_score_logit": 0.013716772198677063,
+      "word_attn_weight": 0.07874578982591629,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.3868146538734436,
+          "sentence_text": "well i have lots of experience with scanning in images and altering them"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.28784361481666565,
+          "sentence_text": "stuff deleted jennifer <UNK> the oh so bitter woman of utter <UNK> but cheerful <UNK> i use aldus <UNK> on the pc and i can turn a colour or black and white image into a negative or turn a negative into a colour or black and white image"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.11153645068407059,
+          "sentence_text": "to test it i scanned a negative and used aldus to create a positive"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "and",
+      "token_pos": 10,
+      "word_score_logit": 0.013403644785284996,
+      "word_attn_weight": 0.07872114330530167,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.3666529059410095,
+          "sentence_text": "well i have lots of experience with scanning in images and altering them"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.2928403317928314,
+          "sentence_text": "stuff deleted jennifer <UNK> the oh so bitter woman of utter <UNK> but cheerful <UNK> i use aldus <UNK> on the pc and i can turn a colour or black and white image into a negative or turn a negative into a colour or black and white image"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.11052241921424866,
+          "sentence_text": "to test it i scanned a negative and used aldus to create a positive"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "of",
+      "token_pos": 4,
+      "word_score_logit": -0.0013276059180498123,
+      "word_attn_weight": 0.07756997644901276,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.31540775299072266,
+          "sentence_text": "well i have lots of experience with scanning in images and altering them"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.2478916198015213,
+          "sentence_text": "stuff deleted jennifer <UNK> the oh so bitter woman of utter <UNK> but cheerful <UNK> i use aldus <UNK> on the pc and i can turn a colour or black and white image into a negative or turn a negative into a colour or black and white image"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.13436976075172424,
+          "sentence_text": "to test it i scanned a negative and used aldus to create a positive"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "them",
+      "token_pos": 12,
+      "word_score_logit": -0.008363399654626846,
+      "word_attn_weight": 0.0770261287689209,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.3772667646408081,
+          "sentence_text": "well i have lots of experience with scanning in images and altering them"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.26643794775009155,
+          "sentence_text": "stuff deleted jennifer <UNK> the oh so bitter woman of utter <UNK> but cheerful <UNK> i use aldus <UNK> on the pc and i can turn a colour or black and white image into a negative or turn a negative into a colour or black and white image"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.11203031986951828,
+          "sentence_text": "to test it i scanned a negative and used aldus to create a positive"
+        }
+      ]
+    },
+    {
+      "query_id": 5,
+      "from_sentence_id": 1,
+      "token": "changing",
+      "token_pos": 2,
+      "word_score_logit": 0.03884243220090866,
+      "word_attn_weight": 0.09386935085058212,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.2704241871833801,
+          "sentence_text": "well i have lots of experience with scanning in images and altering them"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.20769909024238586,
+          "sentence_text": "stuff deleted jennifer <UNK> the oh so bitter woman of utter <UNK> but cheerful <UNK> i use aldus <UNK> on the pc and i can turn a colour or black and white image into a negative or turn a negative into a colour or black and white image"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.13882628083229065,
+          "sentence_text": "to test it i scanned a negative and used aldus to create a positive"
+        }
+      ]
+    },
+    {
+      "query_id": 6,
+      "from_sentence_id": 1,
+      "token": "them",
+      "token_pos": 3,
+      "word_score_logit": 0.019705384969711304,
+      "word_attn_weight": 0.09209004044532776,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.28129976987838745,
+          "sentence_text": "well i have lots of experience with scanning in images and altering them"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.19895470142364502,
+          "sentence_text": "stuff deleted jennifer <UNK> the oh so bitter woman of utter <UNK> but cheerful <UNK> i use aldus <UNK> on the pc and i can turn a colour or black and white image into a negative or turn a negative into a colour or black and white image"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.1383187472820282,
+          "sentence_text": "to test it i scanned a negative and used aldus to create a positive"
+        }
+      ]
+    },
+    {
+      "query_id": 7,
+      "from_sentence_id": 1,
+      "token": "possible",
+      "token_pos": 10,
+      "word_score_logit": 0.017826443538069725,
+      "word_attn_weight": 0.09191717207431793,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.24935799837112427,
+          "sentence_text": "well i have lots of experience with scanning in images and altering them"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.1895391196012497,
+          "sentence_text": "stuff deleted jennifer <UNK> the oh so bitter woman of utter <UNK> but cheerful <UNK> i use aldus <UNK> on the pc and i can turn a colour or black and white image into a negative or turn a negative into a colour or black and white image"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.14231900870800018,
+          "sentence_text": "to test it i scanned a negative and used aldus to create a positive"
+        }
+      ]
+    },
+    {
+      "query_id": 8,
+      "from_sentence_id": 1,
+      "token": "as",
+      "token_pos": 0,
+      "word_score_logit": 0.014851031824946404,
+      "word_attn_weight": 0.09164409339427948,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.21007761359214783,
+          "sentence_text": "well i have lots of experience with scanning in images and altering them"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.1899934709072113,
+          "sentence_text": "stuff deleted jennifer <UNK> the oh so bitter woman of utter <UNK> but cheerful <UNK> i use aldus <UNK> on the pc and i can turn a colour or black and white image into a negative or turn a negative into a colour or black and white image"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.14409253001213074,
+          "sentence_text": "to test it i scanned a negative and used aldus to create a positive"
+        }
+      ]
+    },
+    {
+      "query_id": 9,
+      "from_sentence_id": 1,
+      "token": "back",
+      "token_pos": 4,
+      "word_score_logit": 0.014072312042117119,
+      "word_attn_weight": 0.09157275408506393,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.2637196183204651,
+          "sentence_text": "well i have lots of experience with scanning in images and altering them"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.18244461715221405,
+          "sentence_text": "stuff deleted jennifer <UNK> the oh so bitter woman of utter <UNK> but cheerful <UNK> i use aldus <UNK> on the pc and i can turn a colour or black and white image into a negative or turn a negative into a colour or black and white image"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.1377985030412674,
+          "sentence_text": "to test it i scanned a negative and used aldus to create a positive"
+        }
+      ]
+    },
+    {
+      "query_id": 10,
+      "from_sentence_id": 2,
+      "token": "pc",
+      "token_pos": 21,
+      "word_score_logit": 0.05914586782455444,
+      "word_attn_weight": 0.021881984546780586,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.2907288372516632,
+          "sentence_text": "well i have lots of experience with scanning in images and altering them"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.22598299384117126,
+          "sentence_text": "stuff deleted jennifer <UNK> the oh so bitter woman of utter <UNK> but cheerful <UNK> i use aldus <UNK> on the pc and i can turn a colour or black and white image into a negative or turn a negative into a colour or black and white image"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.12664347887039185,
+          "sentence_text": "to test it i scanned a negative and used aldus to create a positive"
+        }
+      ]
+    },
+    {
+      "query_id": 11,
+      "from_sentence_id": 2,
+      "token": "and",
+      "token_pos": 22,
+      "word_score_logit": 0.05757550895214081,
+      "word_attn_weight": 0.021847648546099663,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.3121020197868347,
+          "sentence_text": "stuff deleted jennifer <UNK> the oh so bitter woman of utter <UNK> but cheerful <UNK> i use aldus <UNK> on the pc and i can turn a colour or black and white image into a negative or turn a negative into a colour or black and white image"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.3050163686275482,
+          "sentence_text": "well i have lots of experience with scanning in images and altering them"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.11881472170352936,
+          "sentence_text": "to test it i scanned a negative and used aldus to create a positive"
+        }
+      ]
+    },
+    {
+      "query_id": 12,
+      "from_sentence_id": 2,
+      "token": "into",
+      "token_pos": 33,
+      "word_score_logit": 0.04753817617893219,
+      "word_attn_weight": 0.0216294527053833,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.3339300751686096,
+          "sentence_text": "stuff deleted jennifer <UNK> the oh so bitter woman of utter <UNK> but cheerful <UNK> i use aldus <UNK> on the pc and i can turn a colour or black and white image into a negative or turn a negative into a colour or black and white image"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.3077855706214905,
+          "sentence_text": "well i have lots of experience with scanning in images and altering them"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.11673040688037872,
+          "sentence_text": "to test it i scanned a negative and used aldus to create a positive"
+        }
+      ]
+    },
+    {
+      "query_id": 13,
+      "from_sentence_id": 2,
+      "token": "aldus",
+      "token_pos": 17,
+      "word_score_logit": 0.04491396248340607,
+      "word_attn_weight": 0.021572766825556755,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.23581382632255554,
+          "sentence_text": "stuff deleted jennifer <UNK> the oh so bitter woman of utter <UNK> but cheerful <UNK> i use aldus <UNK> on the pc and i can turn a colour or black and white image into a negative or turn a negative into a colour or black and white image"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.1757262945175171,
+          "sentence_text": "well i have lots of experience with scanning in images and altering them"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.1354501098394394,
+          "sentence_text": "to test it i scanned a negative and used aldus to create a positive"
+        }
+      ]
+    },
+    {
+      "query_id": 14,
+      "from_sentence_id": 2,
+      "token": "use",
+      "token_pos": 16,
+      "word_score_logit": 0.04378123581409454,
+      "word_attn_weight": 0.021548345685005188,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.2981572449207306,
+          "sentence_text": "stuff deleted jennifer <UNK> the oh so bitter woman of utter <UNK> but cheerful <UNK> i use aldus <UNK> on the pc and i can turn a colour or black and white image into a negative or turn a negative into a colour or black and white image"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.21057111024856567,
+          "sentence_text": "well i have lots of experience with scanning in images and altering them"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.13451749086380005,
+          "sentence_text": "to test it i scanned a negative and used aldus to create a positive"
+        }
+      ]
+    },
+    {
+      "query_id": 15,
+      "from_sentence_id": 3,
+      "token": "know",
+      "token_pos": 2,
+      "word_score_logit": 0.014393772929906845,
+      "word_attn_weight": 0.09229952841997147,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.3639628291130066,
+          "sentence_text": "well i have lots of experience with scanning in images and altering them"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.20253360271453857,
+          "sentence_text": "stuff deleted jennifer <UNK> the oh so bitter woman of utter <UNK> but cheerful <UNK> i use aldus <UNK> on the pc and i can turn a colour or black and white image into a negative or turn a negative into a colour or black and white image"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.1277463287115097,
+          "sentence_text": "to test it i scanned a negative and used aldus to create a positive"
+        }
+      ]
+    },
+    {
+      "query_id": 16,
+      "from_sentence_id": 3,
+      "token": "i",
+      "token_pos": 0,
+      "word_score_logit": 0.011053748428821564,
+      "word_attn_weight": 0.09199175983667374,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.32276827096939087,
+          "sentence_text": "well i have lots of experience with scanning in images and altering them"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.19844353199005127,
+          "sentence_text": "stuff deleted jennifer <UNK> the oh so bitter woman of utter <UNK> but cheerful <UNK> i use aldus <UNK> on the pc and i can turn a colour or black and white image into a negative or turn a negative into a colour or black and white image"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.13506893813610077,
+          "sentence_text": "to test it i scanned a negative and used aldus to create a positive"
+        }
+      ]
+    },
+    {
+      "query_id": 17,
+      "from_sentence_id": 3,
+      "token": "don't",
+      "token_pos": 1,
+      "word_score_logit": 0.007737291976809502,
+      "word_attn_weight": 0.09168718010187149,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.31713563203811646,
+          "sentence_text": "well i have lots of experience with scanning in images and altering them"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.19872772693634033,
+          "sentence_text": "stuff deleted jennifer <UNK> the oh so bitter woman of utter <UNK> but cheerful <UNK> i use aldus <UNK> on the pc and i can turn a colour or black and white image into a negative or turn a negative into a colour or black and white image"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.13575541973114014,
+          "sentence_text": "to test it i scanned a negative and used aldus to create a positive"
+        }
+      ]
+    },
+    {
+      "query_id": 18,
+      "from_sentence_id": 3,
+      "token": "well",
+      "token_pos": 10,
+      "word_score_logit": 0.007384646218270063,
+      "word_attn_weight": 0.09165485203266144,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.25007176399230957,
+          "sentence_text": "well i have lots of experience with scanning in images and altering them"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.18241864442825317,
+          "sentence_text": "stuff deleted jennifer <UNK> the oh so bitter woman of utter <UNK> but cheerful <UNK> i use aldus <UNK> on the pc and i can turn a colour or black and white image into a negative or turn a negative into a colour or black and white image"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.14000585675239563,
+          "sentence_text": "to test it i scanned a negative and used aldus to create a positive"
+        }
+      ]
+    },
+    {
+      "query_id": 19,
+      "from_sentence_id": 3,
+      "token": "does",
+      "token_pos": 5,
+      "word_score_logit": 0.005989192519336939,
+      "word_attn_weight": 0.0915270447731018,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.355728417634964,
+          "sentence_text": "well i have lots of experience with scanning in images and altering them"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.20159514248371124,
+          "sentence_text": "stuff deleted jennifer <UNK> the oh so bitter woman of utter <UNK> but cheerful <UNK> i use aldus <UNK> on the pc and i can turn a colour or black and white image into a negative or turn a negative into a colour or black and white image"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.1302022784948349,
+          "sentence_text": "to test it i scanned a negative and used aldus to create a positive"
+        }
+      ]
+    },
+    {
+      "query_id": 20,
+      "from_sentence_id": 4,
+      "token": "scanned",
+      "token_pos": 4,
+      "word_score_logit": 0.048520173877477646,
+      "word_attn_weight": 0.07491523772478104,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.38011229038238525,
+          "sentence_text": "well i have lots of experience with scanning in images and altering them"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.24045929312705994,
+          "sentence_text": "stuff deleted jennifer <UNK> the oh so bitter woman of utter <UNK> but cheerful <UNK> i use aldus <UNK> on the pc and i can turn a colour or black and white image into a negative or turn a negative into a colour or black and white image"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.12328413873910904,
+          "sentence_text": "to test it i scanned a negative and used aldus to create a positive"
+        }
+      ]
+    },
+    {
+      "query_id": 21,
+      "from_sentence_id": 4,
+      "token": "it",
+      "token_pos": 2,
+      "word_score_logit": 0.024409230798482895,
+      "word_attn_weight": 0.07313056290149689,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.2995234429836273,
+          "sentence_text": "well i have lots of experience with scanning in images and altering them"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.22553014755249023,
+          "sentence_text": "stuff deleted jennifer <UNK> the oh so bitter woman of utter <UNK> but cheerful <UNK> i use aldus <UNK> on the pc and i can turn a colour or black and white image into a negative or turn a negative into a colour or black and white image"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.14026156067848206,
+          "sentence_text": "to test it i scanned a negative and used aldus to create a positive"
+        }
+      ]
+    },
+    {
+      "query_id": 22,
+      "from_sentence_id": 4,
+      "token": "i",
+      "token_pos": 3,
+      "word_score_logit": 0.023565461859107018,
+      "word_attn_weight": 0.07306887954473495,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.3083389401435852,
+          "sentence_text": "well i have lots of experience with scanning in images and altering them"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.2343648076057434,
+          "sentence_text": "stuff deleted jennifer <UNK> the oh so bitter woman of utter <UNK> but cheerful <UNK> i use aldus <UNK> on the pc and i can turn a colour or black and white image into a negative or turn a negative into a colour or black and white image"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.1376243531703949,
+          "sentence_text": "to test it i scanned a negative and used aldus to create a positive"
+        }
+      ]
+    },
+    {
+      "query_id": 23,
+      "from_sentence_id": 4,
+      "token": "used",
+      "token_pos": 8,
+      "word_score_logit": 0.012863244861364365,
+      "word_attn_weight": 0.0722910538315773,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.26778745651245117,
+          "sentence_text": "well i have lots of experience with scanning in images and altering them"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.21877986192703247,
+          "sentence_text": "stuff deleted jennifer <UNK> the oh so bitter woman of utter <UNK> but cheerful <UNK> i use aldus <UNK> on the pc and i can turn a colour or black and white image into a negative or turn a negative into a colour or black and white image"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.14622758328914642,
+          "sentence_text": "to test it i scanned a negative and used aldus to create a positive"
+        }
+      ]
+    },
+    {
+      "query_id": 24,
+      "from_sentence_id": 4,
+      "token": "a",
+      "token_pos": 5,
+      "word_score_logit": 0.009091912768781185,
+      "word_attn_weight": 0.07201893627643585,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.3132364749908447,
+          "sentence_text": "well i have lots of experience with scanning in images and altering them"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.24902960658073425,
+          "sentence_text": "stuff deleted jennifer <UNK> the oh so bitter woman of utter <UNK> but cheerful <UNK> i use aldus <UNK> on the pc and i can turn a colour or black and white image into a negative or turn a negative into a colour or black and white image"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.13766755163669586,
+          "sentence_text": "to test it i scanned a negative and used aldus to create a positive"
+        }
+      ]
+    },
+    {
+      "query_id": 25,
+      "from_sentence_id": 5,
+      "token": "gave",
+      "token_pos": 10,
+      "word_score_logit": 0.03813175857067108,
+      "word_attn_weight": 0.0861615464091301,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.34556904435157776,
+          "sentence_text": "well i have lots of experience with scanning in images and altering them"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.2056519240140915,
+          "sentence_text": "stuff deleted jennifer <UNK> the oh so bitter woman of utter <UNK> but cheerful <UNK> i use aldus <UNK> on the pc and i can turn a colour or black and white image into a negative or turn a negative into a colour or black and white image"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.12532058358192444,
+          "sentence_text": "to test it i scanned a negative and used aldus to create a positive"
+        }
+      ]
+    },
+    {
+      "query_id": 26,
+      "from_sentence_id": 5,
+      "token": "me",
+      "token_pos": 11,
+      "word_score_logit": 0.023054206743836403,
+      "word_attn_weight": 0.08487218618392944,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.2728307247161865,
+          "sentence_text": "well i have lots of experience with scanning in images and altering them"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.19485408067703247,
+          "sentence_text": "stuff deleted jennifer <UNK> the oh so bitter woman of utter <UNK> but cheerful <UNK> i use aldus <UNK> on the pc and i can turn a colour or black and white image into a negative or turn a negative into a colour or black and white image"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.1381952464580536,
+          "sentence_text": "to test it i scanned a negative and used aldus to create a positive"
+        }
+      ]
+    },
+    {
+      "query_id": 27,
+      "from_sentence_id": 5,
+      "token": "looked",
+      "token_pos": 1,
+      "word_score_logit": 0.014938531443476677,
+      "word_attn_weight": 0.08418617397546768,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.33017343282699585,
+          "sentence_text": "well i have lots of experience with scanning in images and altering them"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.1622633934020996,
+          "sentence_text": "stuff deleted jennifer <UNK> the oh so bitter woman of utter <UNK> but cheerful <UNK> i use aldus <UNK> on the pc and i can turn a colour or black and white image into a negative or turn a negative into a colour or black and white image"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 5,
+          "attn_weight": 0.1402055323123932,
+          "sentence_text": "it looked better than the print that the film developers gave me"
+        }
+      ]
+    },
+    {
+      "query_id": 28,
+      "from_sentence_id": 5,
+      "token": "better",
+      "token_pos": 2,
+      "word_score_logit": 0.009814457036554813,
+      "word_attn_weight": 0.08375590294599533,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.3148121237754822,
+          "sentence_text": "well i have lots of experience with scanning in images and altering them"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.16175518929958344,
+          "sentence_text": "stuff deleted jennifer <UNK> the oh so bitter woman of utter <UNK> but cheerful <UNK> i use aldus <UNK> on the pc and i can turn a colour or black and white image into a negative or turn a negative into a colour or black and white image"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 5,
+          "attn_weight": 0.1392749845981598,
+          "sentence_text": "it looked better than the print that the film developers gave me"
+        }
+      ]
+    },
+    {
+      "query_id": 29,
+      "from_sentence_id": 5,
+      "token": "the",
+      "token_pos": 4,
+      "word_score_logit": 0.006584160961210728,
+      "word_attn_weight": 0.08348578214645386,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.32591456174850464,
+          "sentence_text": "well i have lots of experience with scanning in images and altering them"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.1782265156507492,
+          "sentence_text": "stuff deleted jennifer <UNK> the oh so bitter woman of utter <UNK> but cheerful <UNK> i use aldus <UNK> on the pc and i can turn a colour or black and white image into a negative or turn a negative into a colour or black and white image"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.13458985090255737,
+          "sentence_text": "to test it i scanned a negative and used aldus to create a positive"
+        }
+      ]
+    },
+    {
+      "query_id": 30,
+      "from_sentence_id": 6,
+      "token": "<UNK>",
+      "token_pos": 0,
+      "word_score_logit": 0.0027645998634397984,
+      "word_attn_weight": 1.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.20060542225837708,
+          "sentence_text": "well i have lots of experience with scanning in images and altering them"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.17160910367965698,
+          "sentence_text": "stuff deleted jennifer <UNK> the oh so bitter woman of utter <UNK> but cheerful <UNK> i use aldus <UNK> on the pc and i can turn a colour or black and white image into a negative or turn a negative into a colour or black and white image"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.14404425024986267,
+          "sentence_text": "to test it i scanned a negative and used aldus to create a positive"
+        }
+      ]
+    },
+    {
+      "query_id": 31,
+      "from_sentence_id": 6,
+      "token": "<PAD>",
+      "token_pos": 3,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.19496826827526093,
+          "sentence_text": "well i have lots of experience with scanning in images and altering them"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.1709049642086029,
+          "sentence_text": "stuff deleted jennifer <UNK> the oh so bitter woman of utter <UNK> but cheerful <UNK> i use aldus <UNK> on the pc and i can turn a colour or black and white image into a negative or turn a negative into a colour or black and white image"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.144732266664505,
+          "sentence_text": "to test it i scanned a negative and used aldus to create a positive"
+        }
+      ]
+    },
+    {
+      "query_id": 32,
+      "from_sentence_id": 6,
+      "token": "<PAD>",
+      "token_pos": 1,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.19496826827526093,
+          "sentence_text": "well i have lots of experience with scanning in images and altering them"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.1709049642086029,
+          "sentence_text": "stuff deleted jennifer <UNK> the oh so bitter woman of utter <UNK> but cheerful <UNK> i use aldus <UNK> on the pc and i can turn a colour or black and white image into a negative or turn a negative into a colour or black and white image"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.144732266664505,
+          "sentence_text": "to test it i scanned a negative and used aldus to create a positive"
+        }
+      ]
+    },
+    {
+      "query_id": 33,
+      "from_sentence_id": 6,
+      "token": "<PAD>",
+      "token_pos": 4,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.19496826827526093,
+          "sentence_text": "well i have lots of experience with scanning in images and altering them"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.1709049642086029,
+          "sentence_text": "stuff deleted jennifer <UNK> the oh so bitter woman of utter <UNK> but cheerful <UNK> i use aldus <UNK> on the pc and i can turn a colour or black and white image into a negative or turn a negative into a colour or black and white image"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.144732266664505,
+          "sentence_text": "to test it i scanned a negative and used aldus to create a positive"
+        }
+      ]
+    },
+    {
+      "query_id": 34,
+      "from_sentence_id": 6,
+      "token": "<PAD>",
+      "token_pos": 2,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.19496826827526093,
+          "sentence_text": "well i have lots of experience with scanning in images and altering them"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.1709049642086029,
+          "sentence_text": "stuff deleted jennifer <UNK> the oh so bitter woman of utter <UNK> but cheerful <UNK> i use aldus <UNK> on the pc and i can turn a colour or black and white image into a negative or turn a negative into a colour or black and white image"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.144732266664505,
+          "sentence_text": "to test it i scanned a negative and used aldus to create a positive"
+        }
+      ]
+    }
+  ],
+  "sentence_importance_from_cross_attn": {
+    "definition": "mean cross-attn over queries",
+    "values": [
+      {
+        "sentence_id": 0,
+        "importance": 0.2901119589805603
+      },
+      {
+        "sentence_id": 1,
+        "importance": 0.08258366584777832
+      },
+      {
+        "sentence_id": 2,
+        "importance": 0.219425231218338
+      },
+      {
+        "sentence_id": 3,
+        "importance": 0.08092986792325974
+      },
+      {
+        "sentence_id": 4,
+        "importance": 0.13258624076843262
+      },
+      {
+        "sentence_id": 5,
+        "importance": 0.10949559509754181
+      },
+      {
+        "sentence_id": 6,
+        "importance": 0.08486738055944443
+      }
+    ],
+    "ranked": [
+      {
+        "sentence_id": 0,
+        "importance": 0.2901119589805603
+      },
+      {
+        "sentence_id": 2,
+        "importance": 0.219425231218338
+      },
+      {
+        "sentence_id": 4,
+        "importance": 0.13258624076843262
+      },
+      {
+        "sentence_id": 5,
+        "importance": 0.10949559509754181
+      },
+      {
+        "sentence_id": 6,
+        "importance": 0.08486738055944443
+      },
+      {
+        "sentence_id": 1,
+        "importance": 0.08258366584777832
+      },
+      {
+        "sentence_id": 3,
+        "importance": 0.08092986792325974
+      }
+    ]
+  },
+  "example_id": "test-10"
+}

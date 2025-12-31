@@ -1,0 +1,357 @@
+{
+  "example_id": "test_5575",
+  "true_label_id": 1,
+  "pred_label_id": 14,
+  "true_label_name": "comp.graphics",
+  "pred_label_name": "sci.space",
+  "pred_confidence": 0.9951862692832947,
+  "metrics": {
+    "num_sents": 8,
+    "K": 5,
+    "stop_ratio": 0.3,
+    "unk_ratio": 0.025,
+    "num_ratio": 0.075,
+    "content_ratio": 0.55,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 1.6786987781524658,
+    "sentence_importance_entropy": 1.7326102256774902,
+    "sentence_importance_max": 0.4392170011997223,
+    "top_sentence_id": 6,
+    "query_mismatch_rate": 0.875,
+    "selected_quality_counts": {
+      "content_word": 22,
+      "short_word": 2,
+      "number": 3,
+      "unk": 1,
+      "stopword": 12
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.195,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.30745190083980556,
+    "D_local_global_conflict": 0.875,
+    "E_overconfident_error": 0.9951862692832947
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "i have a copy of 'the earth from <UNK> on my wall that i purchased from space shots inc",
+      "la ca 800 272 <UNK>",
+      "as printed on the poster the image was created by tom van <UNK> and the <UNK> project",
+      "the image is copyrighted so i doubt that you'll find it legally in the public domain",
+      "part of the proceeds from the sale of the image go to the <UNK> project an environmental education thing and the cost is nominal so crack a 20 and buy one",
+      "also i don't think it's always safe to assume that just because the government <UNK> a project any products will be provided for free",
+      "many government agencies nasa noaa and some private groups national geographic provided assistance to the <UNK> project",
+      "this collaboration seems to be mostly oriented to <UNK> the public rather than pure research"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "space",
+          "token_pos": 16,
+          "quality": "content_word",
+          "word_score_logit": 0.1333177387714386,
+          "word_attn_weight": 0.058107972145080566
+        },
+        {
+          "token": "shots",
+          "token_pos": 17,
+          "quality": "content_word",
+          "word_score_logit": 0.06388428807258606,
+          "word_attn_weight": 0.05421021580696106
+        },
+        {
+          "token": "purchased",
+          "token_pos": 14,
+          "quality": "content_word",
+          "word_score_logit": 0.05989827960729599,
+          "word_attn_weight": 0.053994566202163696
+        },
+        {
+          "token": "wall",
+          "token_pos": 11,
+          "quality": "content_word",
+          "word_score_logit": 0.049634747207164764,
+          "word_attn_weight": 0.05344322323799133
+        },
+        {
+          "token": "inc",
+          "token_pos": 18,
+          "quality": "content_word",
+          "word_score_logit": 0.0493956133723259,
+          "word_attn_weight": 0.05343044549226761
+        }
+      ],
+      [
+        {
+          "token": "la",
+          "token_pos": 0,
+          "quality": "short_word",
+          "word_score_logit": 0.03887845575809479,
+          "word_attn_weight": 0.2063819020986557
+        },
+        {
+          "token": "ca",
+          "token_pos": 1,
+          "quality": "short_word",
+          "word_score_logit": 0.021738341078162193,
+          "word_attn_weight": 0.20287464559078217
+        },
+        {
+          "token": "800",
+          "token_pos": 2,
+          "quality": "number",
+          "word_score_logit": -0.00287056528031826,
+          "word_attn_weight": 0.1979430466890335
+        },
+        {
+          "token": "<UNK>",
+          "token_pos": 4,
+          "quality": "unk",
+          "word_score_logit": -0.003973981365561485,
+          "word_attn_weight": 0.19772475957870483
+        },
+        {
+          "token": "272",
+          "token_pos": 3,
+          "quality": "number",
+          "word_score_logit": -0.01746264472603798,
+          "word_attn_weight": 0.1950756162405014
+        }
+      ],
+      [
+        {
+          "token": "tom",
+          "token_pos": 10,
+          "quality": "content_word",
+          "word_score_logit": 0.03285137563943863,
+          "word_attn_weight": 0.06110665202140808
+        },
+        {
+          "token": "was",
+          "token_pos": 7,
+          "quality": "stopword",
+          "word_score_logit": 0.01530323177576065,
+          "word_attn_weight": 0.06004370376467705
+        },
+        {
+          "token": "as",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.011928973719477654,
+          "word_attn_weight": 0.05984144285321236
+        },
+        {
+          "token": "the",
+          "token_pos": 14,
+          "quality": "stopword",
+          "word_score_logit": 0.01136849820613861,
+          "word_attn_weight": 0.0598079115152359
+        },
+        {
+          "token": "and",
+          "token_pos": 13,
+          "quality": "stopword",
+          "word_score_logit": 0.011094732210040092,
+          "word_attn_weight": 0.059791531413793564
+        }
+      ],
+      [
+        {
+          "token": "domain",
+          "token_pos": 15,
+          "quality": "content_word",
+          "word_score_logit": 0.0559038370847702,
+          "word_attn_weight": 0.06666529923677444
+        },
+        {
+          "token": "find",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": 0.006804879754781723,
+          "word_attn_weight": 0.06347116082906723
+        },
+        {
+          "token": "doubt",
+          "token_pos": 6,
+          "quality": "content_word",
+          "word_score_logit": 0.005946977995336056,
+          "word_attn_weight": 0.0634167343378067
+        },
+        {
+          "token": "in",
+          "token_pos": 12,
+          "quality": "stopword",
+          "word_score_logit": 0.00044745858758687973,
+          "word_attn_weight": 0.0630689263343811
+        },
+        {
+          "token": "it",
+          "token_pos": 10,
+          "quality": "stopword",
+          "word_score_logit": 0.00020045507699251175,
+          "word_attn_weight": 0.06305334717035294
+        }
+      ],
+      [
+        {
+          "token": "one",
+          "token_pos": 30,
+          "quality": "content_word",
+          "word_score_logit": 0.07345055043697357,
+          "word_attn_weight": 0.03412614390254021
+        },
+        {
+          "token": "buy",
+          "token_pos": 29,
+          "quality": "content_word",
+          "word_score_logit": 0.067764513194561,
+          "word_attn_weight": 0.0339326485991478
+        },
+        {
+          "token": "nominal",
+          "token_pos": 23,
+          "quality": "content_word",
+          "word_score_logit": 0.06408626586198807,
+          "word_attn_weight": 0.03380806744098663
+        },
+        {
+          "token": "is",
+          "token_pos": 22,
+          "quality": "stopword",
+          "word_score_logit": 0.0481669083237648,
+          "word_attn_weight": 0.033274125307798386
+        },
+        {
+          "token": "20",
+          "token_pos": 27,
+          "quality": "number",
+          "word_score_logit": 0.04663092643022537,
+          "word_attn_weight": 0.03322305530309677
+        }
+      ],
+      [
+        {
+          "token": "provided",
+          "token_pos": 21,
+          "quality": "content_word",
+          "word_score_logit": 0.04898328334093094,
+          "word_attn_weight": 0.043238621205091476
+        },
+        {
+          "token": "free",
+          "token_pos": 23,
+          "quality": "content_word",
+          "word_score_logit": 0.04683948680758476,
+          "word_attn_weight": 0.04314602538943291
+        },
+        {
+          "token": "will",
+          "token_pos": 19,
+          "quality": "stopword",
+          "word_score_logit": 0.04235740005970001,
+          "word_attn_weight": 0.04295307397842407
+        },
+        {
+          "token": "be",
+          "token_pos": 20,
+          "quality": "stopword",
+          "word_score_logit": 0.03484652563929558,
+          "word_attn_weight": 0.042631667107343674
+        },
+        {
+          "token": "for",
+          "token_pos": 22,
+          "quality": "stopword",
+          "word_score_logit": 0.02936292067170143,
+          "word_attn_weight": 0.04239853098988533
+        }
+      ],
+      [
+        {
+          "token": "nasa",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.13195466995239258,
+          "word_attn_weight": 0.0627627894282341
+        },
+        {
+          "token": "noaa",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.13082242012023926,
+          "word_attn_weight": 0.06269177049398422
+        },
+        {
+          "token": "national",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": 0.10260377079248428,
+          "word_attn_weight": 0.060947418212890625
+        },
+        {
+          "token": "groups",
+          "token_pos": 8,
+          "quality": "content_word",
+          "word_score_logit": 0.10142190009355545,
+          "word_attn_weight": 0.06087542697787285
+        },
+        {
+          "token": "geographic",
+          "token_pos": 10,
+          "quality": "content_word",
+          "word_score_logit": 0.09425617009401321,
+          "word_attn_weight": 0.060440775007009506
+        }
+      ],
+      [
+        {
+          "token": "pure",
+          "token_pos": 13,
+          "quality": "content_word",
+          "word_score_logit": 0.02402232214808464,
+          "word_attn_weight": 0.06872133910655975
+        },
+        {
+          "token": "research",
+          "token_pos": 14,
+          "quality": "content_word",
+          "word_score_logit": 0.0226503424346447,
+          "word_attn_weight": 0.06862712651491165
+        },
+        {
+          "token": "be",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": 0.020316902548074722,
+          "word_attn_weight": 0.06846717745065689
+        },
+        {
+          "token": "seems",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.019164005294442177,
+          "word_attn_weight": 0.06838827580213547
+        },
+        {
+          "token": "to",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": 0.007752046920359135,
+          "word_attn_weight": 0.06761227548122406
+        }
+      ]
+    ],
+    "top_sentence_id": 6,
+    "sentence_importance_distribution": [
+      0.07536903768777847,
+      0.046110134571790695,
+      0.07419051229953766,
+      0.0675012469291687,
+      0.16146107017993927,
+      0.07497069984674454,
+      0.4392170011997223,
+      0.06118033081293106
+    ]
+  }
+}

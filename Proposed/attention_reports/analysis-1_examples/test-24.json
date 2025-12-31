@@ -1,0 +1,776 @@
+{
+  "true_label_id": 14,
+  "pred_label_id": 14,
+  "true_label_name": "sci.space",
+  "pred_label_name": "sci.space",
+  "pred_confidence": 0.9576935172080994,
+  "num_sents": 4,
+  "sentence_summaries": [
+    {
+      "sentence_id": 0,
+      "sentence_text": "why not design the solar arrays to be detachable",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "solar",
+          "token_pos": 4,
+          "word_score_logit": 0.10123367607593536,
+          "word_attn_weight": 0.116884745657444
+        },
+        {
+          "rank": 1,
+          "token": "arrays",
+          "token_pos": 5,
+          "word_score_logit": 0.08769352734088898,
+          "word_attn_weight": 0.11531277745962143
+        },
+        {
+          "rank": 2,
+          "token": "to",
+          "token_pos": 6,
+          "word_score_logit": 0.08413618057966232,
+          "word_attn_weight": 0.1149032935500145
+        },
+        {
+          "rank": 3,
+          "token": "be",
+          "token_pos": 7,
+          "word_score_logit": 0.06241796910762787,
+          "word_attn_weight": 0.11243470758199692
+        },
+        {
+          "rank": 4,
+          "token": "the",
+          "token_pos": 3,
+          "word_score_logit": 0.05928691849112511,
+          "word_attn_weight": 0.11208322644233704
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "sentence_text": "if the shuttle is going to <UNK> the hst what bother are some arrays",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "shuttle",
+          "token_pos": 2,
+          "word_score_logit": 0.1156110018491745,
+          "word_attn_weight": 0.07677630335092545
+        },
+        {
+          "rank": 1,
+          "token": "is",
+          "token_pos": 3,
+          "word_score_logit": 0.06389114260673523,
+          "word_attn_weight": 0.07290638238191605
+        },
+        {
+          "rank": 2,
+          "token": "the",
+          "token_pos": 1,
+          "word_score_logit": 0.06113743036985397,
+          "word_attn_weight": 0.07270590215921402
+        },
+        {
+          "rank": 3,
+          "token": "to",
+          "token_pos": 5,
+          "word_score_logit": 0.0539599172770977,
+          "word_attn_weight": 0.07218591868877411
+        },
+        {
+          "rank": 4,
+          "token": "the",
+          "token_pos": 7,
+          "word_score_logit": 0.051385074853897095,
+          "word_attn_weight": 0.07200029492378235
+        }
+      ]
+    },
+    {
+      "sentence_id": 2,
+      "sentence_text": "just fit them with a quick release",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "release",
+          "token_pos": 6,
+          "word_score_logit": 0.008445750921964645,
+          "word_attn_weight": 0.1455722153186798
+        },
+        {
+          "rank": 1,
+          "token": "just",
+          "token_pos": 0,
+          "word_score_logit": -0.005596913397312164,
+          "word_attn_weight": 0.14354227483272552
+        },
+        {
+          "rank": 2,
+          "token": "quick",
+          "token_pos": 5,
+          "word_score_logit": -0.009272146970033646,
+          "word_attn_weight": 0.14301568269729614
+        },
+        {
+          "rank": 3,
+          "token": "fit",
+          "token_pos": 1,
+          "word_score_logit": -0.012226838618516922,
+          "word_attn_weight": 0.14259375631809235
+        },
+        {
+          "rank": 4,
+          "token": "with",
+          "token_pos": 3,
+          "word_score_logit": -0.01424822025001049,
+          "word_attn_weight": 0.14230580627918243
+        }
+      ]
+    },
+    {
+      "sentence_id": 3,
+      "sentence_text": "one space walk or use the second <UNK> to remove the arrays",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "use",
+          "token_pos": 4,
+          "word_score_logit": 0.14736652374267578,
+          "word_attn_weight": 0.08865190297365189
+        },
+        {
+          "rank": 1,
+          "token": "space",
+          "token_pos": 1,
+          "word_score_logit": 0.12444793432950974,
+          "word_attn_weight": 0.08664322644472122
+        },
+        {
+          "rank": 2,
+          "token": "the",
+          "token_pos": 5,
+          "word_score_logit": 0.10931698232889175,
+          "word_attn_weight": 0.08534210175275803
+        },
+        {
+          "rank": 3,
+          "token": "second",
+          "token_pos": 6,
+          "word_score_logit": 0.09935547411441803,
+          "word_attn_weight": 0.08449618518352509
+        },
+        {
+          "rank": 4,
+          "token": "or",
+          "token_pos": 3,
+          "word_score_logit": 0.09247787296772003,
+          "word_attn_weight": 0.0839170515537262
+        }
+      ]
+    }
+  ],
+  "query_summaries": [
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "solar",
+      "token_pos": 4,
+      "word_score_logit": 0.10123367607593536,
+      "word_attn_weight": 0.116884745657444,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.49027517437934875,
+          "sentence_text": "why not design the solar arrays to be detachable"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.31402188539505005,
+          "sentence_text": "one space walk or use the second <UNK> to remove the arrays"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.14875547587871552,
+          "sentence_text": "if the shuttle is going to <UNK> the hst what bother are some arrays"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "arrays",
+      "token_pos": 5,
+      "word_score_logit": 0.08769352734088898,
+      "word_attn_weight": 0.11531277745962143,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.40965157747268677,
+          "sentence_text": "one space walk or use the second <UNK> to remove the arrays"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.38513022661209106,
+          "sentence_text": "why not design the solar arrays to be detachable"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.1605113446712494,
+          "sentence_text": "if the shuttle is going to <UNK> the hst what bother are some arrays"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "to",
+      "token_pos": 6,
+      "word_score_logit": 0.08413618057966232,
+      "word_attn_weight": 0.1149032935500145,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.40197286009788513,
+          "sentence_text": "one space walk or use the second <UNK> to remove the arrays"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.3597576916217804,
+          "sentence_text": "why not design the solar arrays to be detachable"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.18518279492855072,
+          "sentence_text": "if the shuttle is going to <UNK> the hst what bother are some arrays"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "be",
+      "token_pos": 7,
+      "word_score_logit": 0.06241796910762787,
+      "word_attn_weight": 0.11243470758199692,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.3723335266113281,
+          "sentence_text": "why not design the solar arrays to be detachable"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.3702242970466614,
+          "sentence_text": "one space walk or use the second <UNK> to remove the arrays"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.19564537703990936,
+          "sentence_text": "if the shuttle is going to <UNK> the hst what bother are some arrays"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "the",
+      "token_pos": 3,
+      "word_score_logit": 0.05928691849112511,
+      "word_attn_weight": 0.11208322644233704,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.49941736459732056,
+          "sentence_text": "why not design the solar arrays to be detachable"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.2682727873325348,
+          "sentence_text": "one space walk or use the second <UNK> to remove the arrays"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.17404446005821228,
+          "sentence_text": "if the shuttle is going to <UNK> the hst what bother are some arrays"
+        }
+      ]
+    },
+    {
+      "query_id": 5,
+      "from_sentence_id": 1,
+      "token": "shuttle",
+      "token_pos": 2,
+      "word_score_logit": 0.1156110018491745,
+      "word_attn_weight": 0.07677630335092545,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.43148696422576904,
+          "sentence_text": "one space walk or use the second <UNK> to remove the arrays"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.4141428470611572,
+          "sentence_text": "why not design the solar arrays to be detachable"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.12321433424949646,
+          "sentence_text": "if the shuttle is going to <UNK> the hst what bother are some arrays"
+        }
+      ]
+    },
+    {
+      "query_id": 6,
+      "from_sentence_id": 1,
+      "token": "is",
+      "token_pos": 3,
+      "word_score_logit": 0.06389114260673523,
+      "word_attn_weight": 0.07290638238191605,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.4556557238101959,
+          "sentence_text": "one space walk or use the second <UNK> to remove the arrays"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.3098068833351135,
+          "sentence_text": "why not design the solar arrays to be detachable"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.18329939246177673,
+          "sentence_text": "if the shuttle is going to <UNK> the hst what bother are some arrays"
+        }
+      ]
+    },
+    {
+      "query_id": 7,
+      "from_sentence_id": 1,
+      "token": "the",
+      "token_pos": 1,
+      "word_score_logit": 0.06113743036985397,
+      "word_attn_weight": 0.07270590215921402,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.4624558687210083,
+          "sentence_text": "why not design the solar arrays to be detachable"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.3034207224845886,
+          "sentence_text": "one space walk or use the second <UNK> to remove the arrays"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.17451126873493195,
+          "sentence_text": "if the shuttle is going to <UNK> the hst what bother are some arrays"
+        }
+      ]
+    },
+    {
+      "query_id": 8,
+      "from_sentence_id": 1,
+      "token": "to",
+      "token_pos": 5,
+      "word_score_logit": 0.0539599172770977,
+      "word_attn_weight": 0.07218591868877411,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.40494203567504883,
+          "sentence_text": "one space walk or use the second <UNK> to remove the arrays"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.32448384165763855,
+          "sentence_text": "why not design the solar arrays to be detachable"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.2043309211730957,
+          "sentence_text": "if the shuttle is going to <UNK> the hst what bother are some arrays"
+        }
+      ]
+    },
+    {
+      "query_id": 9,
+      "from_sentence_id": 1,
+      "token": "the",
+      "token_pos": 7,
+      "word_score_logit": 0.051385074853897095,
+      "word_attn_weight": 0.07200029492378235,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.3935251832008362,
+          "sentence_text": "one space walk or use the second <UNK> to remove the arrays"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.3549472689628601,
+          "sentence_text": "why not design the solar arrays to be detachable"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.19280901551246643,
+          "sentence_text": "if the shuttle is going to <UNK> the hst what bother are some arrays"
+        }
+      ]
+    },
+    {
+      "query_id": 10,
+      "from_sentence_id": 2,
+      "token": "release",
+      "token_pos": 6,
+      "word_score_logit": 0.008445750921964645,
+      "word_attn_weight": 0.1455722153186798,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.3228874206542969,
+          "sentence_text": "one space walk or use the second <UNK> to remove the arrays"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.25547003746032715,
+          "sentence_text": "if the shuttle is going to <UNK> the hst what bother are some arrays"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.23002265393733978,
+          "sentence_text": "why not design the solar arrays to be detachable"
+        }
+      ]
+    },
+    {
+      "query_id": 11,
+      "from_sentence_id": 2,
+      "token": "just",
+      "token_pos": 0,
+      "word_score_logit": -0.005596913397312164,
+      "word_attn_weight": 0.14354227483272552,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.3347011208534241,
+          "sentence_text": "one space walk or use the second <UNK> to remove the arrays"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.28896626830101013,
+          "sentence_text": "why not design the solar arrays to be detachable"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.2453460395336151,
+          "sentence_text": "if the shuttle is going to <UNK> the hst what bother are some arrays"
+        }
+      ]
+    },
+    {
+      "query_id": 12,
+      "from_sentence_id": 2,
+      "token": "quick",
+      "token_pos": 5,
+      "word_score_logit": -0.009272146970033646,
+      "word_attn_weight": 0.14301568269729614,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.3074847161769867,
+          "sentence_text": "one space walk or use the second <UNK> to remove the arrays"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.29267680644989014,
+          "sentence_text": "why not design the solar arrays to be detachable"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.25179851055145264,
+          "sentence_text": "if the shuttle is going to <UNK> the hst what bother are some arrays"
+        }
+      ]
+    },
+    {
+      "query_id": 13,
+      "from_sentence_id": 2,
+      "token": "fit",
+      "token_pos": 1,
+      "word_score_logit": -0.012226838618516922,
+      "word_attn_weight": 0.14259375631809235,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.314018577337265,
+          "sentence_text": "why not design the solar arrays to be detachable"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.27217012643814087,
+          "sentence_text": "one space walk or use the second <UNK> to remove the arrays"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.2415970265865326,
+          "sentence_text": "if the shuttle is going to <UNK> the hst what bother are some arrays"
+        }
+      ]
+    },
+    {
+      "query_id": 14,
+      "from_sentence_id": 2,
+      "token": "with",
+      "token_pos": 3,
+      "word_score_logit": -0.01424822025001049,
+      "word_attn_weight": 0.14230580627918243,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.3276258111000061,
+          "sentence_text": "one space walk or use the second <UNK> to remove the arrays"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.2842435836791992,
+          "sentence_text": "why not design the solar arrays to be detachable"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.24893400073051453,
+          "sentence_text": "if the shuttle is going to <UNK> the hst what bother are some arrays"
+        }
+      ]
+    },
+    {
+      "query_id": 15,
+      "from_sentence_id": 3,
+      "token": "use",
+      "token_pos": 4,
+      "word_score_logit": 0.14736652374267578,
+      "word_attn_weight": 0.08865190297365189,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.539354681968689,
+          "sentence_text": "one space walk or use the second <UNK> to remove the arrays"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.22577893733978271,
+          "sentence_text": "why not design the solar arrays to be detachable"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.17938801646232605,
+          "sentence_text": "if the shuttle is going to <UNK> the hst what bother are some arrays"
+        }
+      ]
+    },
+    {
+      "query_id": 16,
+      "from_sentence_id": 3,
+      "token": "space",
+      "token_pos": 1,
+      "word_score_logit": 0.12444793432950974,
+      "word_attn_weight": 0.08664322644472122,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.5050069093704224,
+          "sentence_text": "one space walk or use the second <UNK> to remove the arrays"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.3066408038139343,
+          "sentence_text": "why not design the solar arrays to be detachable"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.1473717838525772,
+          "sentence_text": "if the shuttle is going to <UNK> the hst what bother are some arrays"
+        }
+      ]
+    },
+    {
+      "query_id": 17,
+      "from_sentence_id": 3,
+      "token": "the",
+      "token_pos": 5,
+      "word_score_logit": 0.10931698232889175,
+      "word_attn_weight": 0.08534210175275803,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.5170388221740723,
+          "sentence_text": "one space walk or use the second <UNK> to remove the arrays"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.2278057038784027,
+          "sentence_text": "why not design the solar arrays to be detachable"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.19259066879749298,
+          "sentence_text": "if the shuttle is going to <UNK> the hst what bother are some arrays"
+        }
+      ]
+    },
+    {
+      "query_id": 18,
+      "from_sentence_id": 3,
+      "token": "second",
+      "token_pos": 6,
+      "word_score_logit": 0.09935547411441803,
+      "word_attn_weight": 0.08449618518352509,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.47957485914230347,
+          "sentence_text": "one space walk or use the second <UNK> to remove the arrays"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.23400236666202545,
+          "sentence_text": "why not design the solar arrays to be detachable"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.20949113368988037,
+          "sentence_text": "if the shuttle is going to <UNK> the hst what bother are some arrays"
+        }
+      ]
+    },
+    {
+      "query_id": 19,
+      "from_sentence_id": 3,
+      "token": "or",
+      "token_pos": 3,
+      "word_score_logit": 0.09247787296772003,
+      "word_attn_weight": 0.0839170515537262,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.4923597574234009,
+          "sentence_text": "one space walk or use the second <UNK> to remove the arrays"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.2363608181476593,
+          "sentence_text": "why not design the solar arrays to be detachable"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.20266269147396088,
+          "sentence_text": "if the shuttle is going to <UNK> the hst what bother are some arrays"
+        }
+      ]
+    }
+  ],
+  "sentence_importance_from_cross_attn": {
+    "definition": "mean cross-attn over queries",
+    "values": [
+      {
+        "sentence_id": 0,
+        "importance": 0.33066338300704956
+      },
+      {
+        "sentence_id": 1,
+        "importance": 0.19584770500659943
+      },
+      {
+        "sentence_id": 2,
+        "importance": 0.08092000335454941
+      },
+      {
+        "sentence_id": 3,
+        "importance": 0.3925689160823822
+      }
+    ],
+    "ranked": [
+      {
+        "sentence_id": 3,
+        "importance": 0.3925689160823822
+      },
+      {
+        "sentence_id": 0,
+        "importance": 0.33066338300704956
+      },
+      {
+        "sentence_id": 1,
+        "importance": 0.19584770500659943
+      },
+      {
+        "sentence_id": 2,
+        "importance": 0.08092000335454941
+      }
+    ]
+  },
+  "example_id": "test-24"
+}

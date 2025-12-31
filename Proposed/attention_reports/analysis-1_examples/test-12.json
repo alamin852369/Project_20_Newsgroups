@@ -1,0 +1,338 @@
+{
+  "true_label_id": 5,
+  "pred_label_id": 5,
+  "true_label_name": "comp.windows.x",
+  "pred_label_name": "comp.windows.x",
+  "pred_confidence": 0.8657539486885071,
+  "num_sents": 2,
+  "sentence_summaries": [
+    {
+      "sentence_id": 0,
+      "sentence_text": "most graphics systems i have seen have drawing routines that also specify a color for drawing like <UNK> x y color or <UNK> x1 y1 x2 y2 color or <UNK> x1 y1 x2 y2 color with x i have to do something like xsetforeground current color <UNK> d w x",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "x2",
+          "token_pos": 32,
+          "word_score_logit": 0.20706260204315186,
+          "word_attn_weight": 0.02285340428352356
+        },
+        {
+          "rank": 1,
+          "token": "x",
+          "token_pos": 36,
+          "word_score_logit": 0.1897832155227661,
+          "word_attn_weight": 0.02246190421283245
+        },
+        {
+          "rank": 2,
+          "token": "y2",
+          "token_pos": 33,
+          "word_score_logit": 0.18474483489990234,
+          "word_attn_weight": 0.02234901860356331
+        },
+        {
+          "rank": 3,
+          "token": "x2",
+          "token_pos": 25,
+          "word_score_logit": 0.17471355199813843,
+          "word_attn_weight": 0.02212594822049141
+        },
+        {
+          "rank": 4,
+          "token": "x",
+          "token_pos": 49,
+          "word_score_logit": 0.1727437973022461,
+          "word_attn_weight": 0.022082410752773285
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "sentence_text": "why did x designers decide to not associate the color with the object being drawn and instead associate it with the display it is being drawn on",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "x",
+          "token_pos": 2,
+          "word_score_logit": 0.13253891468048096,
+          "word_attn_weight": 0.03998161852359772
+        },
+        {
+          "rank": 1,
+          "token": "not",
+          "token_pos": 6,
+          "word_score_logit": 0.10810568183660507,
+          "word_attn_weight": 0.03901657834649086
+        },
+        {
+          "rank": 2,
+          "token": "associate",
+          "token_pos": 7,
+          "word_score_logit": 0.09746881574392319,
+          "word_attn_weight": 0.0386037603020668
+        },
+        {
+          "rank": 3,
+          "token": "to",
+          "token_pos": 5,
+          "word_score_logit": 0.09601161628961563,
+          "word_attn_weight": 0.03854754939675331
+        },
+        {
+          "rank": 4,
+          "token": "designers",
+          "token_pos": 3,
+          "word_score_logit": 0.09387501329183578,
+          "word_attn_weight": 0.03846527636051178
+        }
+      ]
+    }
+  ],
+  "query_summaries": [
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "x2",
+      "token_pos": 32,
+      "word_score_logit": 0.20706260204315186,
+      "word_attn_weight": 0.02285340428352356,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.7163591384887695,
+          "sentence_text": "most graphics systems i have seen have drawing routines that also specify a color for drawing like <UNK> x y color or <UNK> x1 y1 x2 y2 color or <UNK> x1 y1 x2 y2 color with x i have to do something like xsetforeground current color <UNK> d w x"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.2836408317089081,
+          "sentence_text": "why did x designers decide to not associate the color with the object being drawn and instead associate it with the display it is being drawn on"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "x",
+      "token_pos": 36,
+      "word_score_logit": 0.1897832155227661,
+      "word_attn_weight": 0.02246190421283245,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.7337303161621094,
+          "sentence_text": "most graphics systems i have seen have drawing routines that also specify a color for drawing like <UNK> x y color or <UNK> x1 y1 x2 y2 color or <UNK> x1 y1 x2 y2 color with x i have to do something like xsetforeground current color <UNK> d w x"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.26626965403556824,
+          "sentence_text": "why did x designers decide to not associate the color with the object being drawn and instead associate it with the display it is being drawn on"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "y2",
+      "token_pos": 33,
+      "word_score_logit": 0.18474483489990234,
+      "word_attn_weight": 0.02234901860356331,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.7136824727058411,
+          "sentence_text": "most graphics systems i have seen have drawing routines that also specify a color for drawing like <UNK> x y color or <UNK> x1 y1 x2 y2 color or <UNK> x1 y1 x2 y2 color with x i have to do something like xsetforeground current color <UNK> d w x"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.28631749749183655,
+          "sentence_text": "why did x designers decide to not associate the color with the object being drawn and instead associate it with the display it is being drawn on"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "x2",
+      "token_pos": 25,
+      "word_score_logit": 0.17471355199813843,
+      "word_attn_weight": 0.02212594822049141,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.7142699956893921,
+          "sentence_text": "most graphics systems i have seen have drawing routines that also specify a color for drawing like <UNK> x y color or <UNK> x1 y1 x2 y2 color or <UNK> x1 y1 x2 y2 color with x i have to do something like xsetforeground current color <UNK> d w x"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.2857300639152527,
+          "sentence_text": "why did x designers decide to not associate the color with the object being drawn and instead associate it with the display it is being drawn on"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "x",
+      "token_pos": 49,
+      "word_score_logit": 0.1727437973022461,
+      "word_attn_weight": 0.022082410752773285,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6736232042312622,
+          "sentence_text": "most graphics systems i have seen have drawing routines that also specify a color for drawing like <UNK> x y color or <UNK> x1 y1 x2 y2 color or <UNK> x1 y1 x2 y2 color with x i have to do something like xsetforeground current color <UNK> d w x"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.3263768255710602,
+          "sentence_text": "why did x designers decide to not associate the color with the object being drawn and instead associate it with the display it is being drawn on"
+        }
+      ]
+    },
+    {
+      "query_id": 5,
+      "from_sentence_id": 1,
+      "token": "x",
+      "token_pos": 2,
+      "word_score_logit": 0.13253891468048096,
+      "word_attn_weight": 0.03998161852359772,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.7843132019042969,
+          "sentence_text": "most graphics systems i have seen have drawing routines that also specify a color for drawing like <UNK> x y color or <UNK> x1 y1 x2 y2 color or <UNK> x1 y1 x2 y2 color with x i have to do something like xsetforeground current color <UNK> d w x"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.21568679809570312,
+          "sentence_text": "why did x designers decide to not associate the color with the object being drawn and instead associate it with the display it is being drawn on"
+        }
+      ]
+    },
+    {
+      "query_id": 6,
+      "from_sentence_id": 1,
+      "token": "not",
+      "token_pos": 6,
+      "word_score_logit": 0.10810568183660507,
+      "word_attn_weight": 0.03901657834649086,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6536812782287598,
+          "sentence_text": "most graphics systems i have seen have drawing routines that also specify a color for drawing like <UNK> x y color or <UNK> x1 y1 x2 y2 color or <UNK> x1 y1 x2 y2 color with x i have to do something like xsetforeground current color <UNK> d w x"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.34631872177124023,
+          "sentence_text": "why did x designers decide to not associate the color with the object being drawn and instead associate it with the display it is being drawn on"
+        }
+      ]
+    },
+    {
+      "query_id": 7,
+      "from_sentence_id": 1,
+      "token": "associate",
+      "token_pos": 7,
+      "word_score_logit": 0.09746881574392319,
+      "word_attn_weight": 0.0386037603020668,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.669978141784668,
+          "sentence_text": "most graphics systems i have seen have drawing routines that also specify a color for drawing like <UNK> x y color or <UNK> x1 y1 x2 y2 color or <UNK> x1 y1 x2 y2 color with x i have to do something like xsetforeground current color <UNK> d w x"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.3300219178199768,
+          "sentence_text": "why did x designers decide to not associate the color with the object being drawn and instead associate it with the display it is being drawn on"
+        }
+      ]
+    },
+    {
+      "query_id": 8,
+      "from_sentence_id": 1,
+      "token": "to",
+      "token_pos": 5,
+      "word_score_logit": 0.09601161628961563,
+      "word_attn_weight": 0.03854754939675331,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6640123128890991,
+          "sentence_text": "most graphics systems i have seen have drawing routines that also specify a color for drawing like <UNK> x y color or <UNK> x1 y1 x2 y2 color or <UNK> x1 y1 x2 y2 color with x i have to do something like xsetforeground current color <UNK> d w x"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.3359876871109009,
+          "sentence_text": "why did x designers decide to not associate the color with the object being drawn and instead associate it with the display it is being drawn on"
+        }
+      ]
+    },
+    {
+      "query_id": 9,
+      "from_sentence_id": 1,
+      "token": "designers",
+      "token_pos": 3,
+      "word_score_logit": 0.09387501329183578,
+      "word_attn_weight": 0.03846527636051178,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6739298105239868,
+          "sentence_text": "most graphics systems i have seen have drawing routines that also specify a color for drawing like <UNK> x y color or <UNK> x1 y1 x2 y2 color or <UNK> x1 y1 x2 y2 color with x i have to do something like xsetforeground current color <UNK> d w x"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.3260701894760132,
+          "sentence_text": "why did x designers decide to not associate the color with the object being drawn and instead associate it with the display it is being drawn on"
+        }
+      ]
+    }
+  ],
+  "sentence_importance_from_cross_attn": {
+    "definition": "mean cross-attn over queries",
+    "values": [
+      {
+        "sentence_id": 0,
+        "importance": 0.699757993221283
+      },
+      {
+        "sentence_id": 1,
+        "importance": 0.30024203658103943
+      }
+    ],
+    "ranked": [
+      {
+        "sentence_id": 0,
+        "importance": 0.699757993221283
+      },
+      {
+        "sentence_id": 1,
+        "importance": 0.30024203658103943
+      }
+    ]
+  },
+  "example_id": "test-12"
+}

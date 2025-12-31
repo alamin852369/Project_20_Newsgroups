@@ -1,0 +1,1059 @@
+{
+  "meta": {
+    "analysis_id": "analysis-4",
+    "created_at": "2025-12-31T13:20:01.046626",
+    "split": "test",
+    "model_checkpoint": "best_model_by_val_loss.pt",
+    "glove_coverage": 0.8259883992266152,
+    "train_topk": 5,
+    "settings": {
+      "TOP_CASES_PER_MODE": 25,
+      "MAX_SCAN_EXAMPLES": null
+    },
+    "files": {
+      "cases_dir": "analysis-4_cases",
+      "plots_dir": "analysis-4_plots"
+    }
+  },
+  "failure_mode_definitions": {
+    "A_context_poor_topk": "Top-K word selection dominated by stopwords or UNK or numbers, leading to low-information evidence passed to cross-attention.",
+    "B_word_selection_mismatch": "High word-attention token is not selected in top-K, causing evidence loss before cross-attention.",
+    "C_cross_attention_collapse": "Cross-attention concentrates on a single sentence, making decisions brittle.",
+    "D_local_global_conflict": "Queries attend away from their origin sentence, causing misalignment of local and global signals.",
+    "E_overconfident_error": "Wrong predictions with high confidence, indicating shortcut patterns and weak calibration."
+  },
+  "mode_score_summary_over_misclassifications": {
+    "A_context_poor_topk": {
+      "num_misclassified_scanned": 2645,
+      "mean_score": 0.20494603415212656,
+      "std_score": 0.09333114688734177,
+      "p90_score": 0.32,
+      "p99_score": 0.42
+    },
+    "B_word_selection_mismatch": {
+      "num_misclassified_scanned": 2645,
+      "mean_score": 0.0,
+      "std_score": 0.0,
+      "p90_score": 0.0,
+      "p99_score": 0.0
+    },
+    "C_cross_attention_collapse": {
+      "num_misclassified_scanned": 2645,
+      "mean_score": 0.42295048960412385,
+      "std_score": 0.3121725570090714,
+      "p90_score": 1.0,
+      "p99_score": 1.0
+    },
+    "D_local_global_conflict": {
+      "num_misclassified_scanned": 2645,
+      "mean_score": 0.5793840264974773,
+      "std_score": 0.31369988339855537,
+      "p90_score": 0.9,
+      "p99_score": 0.95
+    },
+    "E_overconfident_error": {
+      "num_misclassified_scanned": 2645,
+      "mean_score": 0.5698702785885401,
+      "std_score": 0.21851925093856028,
+      "p90_score": 0.898029339313507,
+      "p99_score": 0.9888339972496033
+    }
+  },
+  "selected_cases_index": [
+    {
+      "example_id": "test_4686",
+      "true_label_name": "rec.sport.baseball",
+      "pred_label_name": "talk.religion.misc",
+      "pred_confidence": 0.30298760533332825,
+      "primary_mode_hint": "C_cross_attention_collapse",
+      "file": "analysis-4_cases/test_4686.json"
+    },
+    {
+      "example_id": "test_7019",
+      "true_label_name": "rec.motorcycles",
+      "pred_label_name": "alt.atheism",
+      "pred_confidence": 0.8799318671226501,
+      "primary_mode_hint": "C_cross_attention_collapse",
+      "file": "analysis-4_cases/test_7019.json"
+    },
+    {
+      "example_id": "test_2244",
+      "true_label_name": "talk.politics.mideast",
+      "pred_label_name": "alt.atheism",
+      "pred_confidence": 0.4826512336730957,
+      "primary_mode_hint": "C_cross_attention_collapse",
+      "file": "analysis-4_cases/test_2244.json"
+    },
+    {
+      "example_id": "test_1100",
+      "true_label_name": "soc.religion.christian",
+      "pred_label_name": "talk.politics.mideast",
+      "pred_confidence": 0.6449980139732361,
+      "primary_mode_hint": "C_cross_attention_collapse",
+      "file": "analysis-4_cases/test_1100.json"
+    },
+    {
+      "example_id": "test_1178",
+      "true_label_name": "talk.politics.mideast",
+      "pred_label_name": "soc.religion.christian",
+      "pred_confidence": 0.733282744884491,
+      "primary_mode_hint": "C_cross_attention_collapse",
+      "file": "analysis-4_cases/test_1178.json"
+    },
+    {
+      "example_id": "test_1759",
+      "true_label_name": "sci.crypt",
+      "pred_label_name": "talk.politics.guns",
+      "pred_confidence": 0.632908821105957,
+      "primary_mode_hint": "C_cross_attention_collapse",
+      "file": "analysis-4_cases/test_1759.json"
+    },
+    {
+      "example_id": "test_1842",
+      "true_label_name": "alt.atheism",
+      "pred_label_name": "soc.religion.christian",
+      "pred_confidence": 0.6578426361083984,
+      "primary_mode_hint": "C_cross_attention_collapse",
+      "file": "analysis-4_cases/test_1842.json"
+    },
+    {
+      "example_id": "test_2057",
+      "true_label_name": "alt.atheism",
+      "pred_label_name": "talk.politics.mideast",
+      "pred_confidence": 0.5172889232635498,
+      "primary_mode_hint": "D_local_global_conflict",
+      "file": "analysis-4_cases/test_2057.json"
+    },
+    {
+      "example_id": "test_2163",
+      "true_label_name": "alt.atheism",
+      "pred_label_name": "talk.politics.mideast",
+      "pred_confidence": 0.6650234460830688,
+      "primary_mode_hint": "D_local_global_conflict",
+      "file": "analysis-4_cases/test_2163.json"
+    },
+    {
+      "example_id": "test_2741",
+      "true_label_name": "soc.religion.christian",
+      "pred_label_name": "sci.space",
+      "pred_confidence": 0.33671945333480835,
+      "primary_mode_hint": "C_cross_attention_collapse",
+      "file": "analysis-4_cases/test_2741.json"
+    },
+    {
+      "example_id": "test_2914",
+      "true_label_name": "sci.med",
+      "pred_label_name": "comp.graphics",
+      "pred_confidence": 0.8411402702331543,
+      "primary_mode_hint": "C_cross_attention_collapse",
+      "file": "analysis-4_cases/test_2914.json"
+    },
+    {
+      "example_id": "test_2929",
+      "true_label_name": "talk.religion.misc",
+      "pred_label_name": "soc.religion.christian",
+      "pred_confidence": 0.5809860825538635,
+      "primary_mode_hint": "C_cross_attention_collapse",
+      "file": "analysis-4_cases/test_2929.json"
+    },
+    {
+      "example_id": "test_4048",
+      "true_label_name": "talk.religion.misc",
+      "pred_label_name": "soc.religion.christian",
+      "pred_confidence": 0.6548322439193726,
+      "primary_mode_hint": "E_overconfident_error",
+      "file": "analysis-4_cases/test_4048.json"
+    },
+    {
+      "example_id": "test_4191",
+      "true_label_name": "alt.atheism",
+      "pred_label_name": "soc.religion.christian",
+      "pred_confidence": 0.664557933807373,
+      "primary_mode_hint": "C_cross_attention_collapse",
+      "file": "analysis-4_cases/test_4191.json"
+    },
+    {
+      "example_id": "test_4522",
+      "true_label_name": "comp.os.ms-windows.misc",
+      "pred_label_name": "rec.motorcycles",
+      "pred_confidence": 0.519821286201477,
+      "primary_mode_hint": "C_cross_attention_collapse",
+      "file": "analysis-4_cases/test_4522.json"
+    },
+    {
+      "example_id": "test_4637",
+      "true_label_name": "comp.windows.x",
+      "pred_label_name": "comp.graphics",
+      "pred_confidence": 0.9199528098106384,
+      "primary_mode_hint": "C_cross_attention_collapse",
+      "file": "analysis-4_cases/test_4637.json"
+    },
+    {
+      "example_id": "test_5471",
+      "true_label_name": "sci.electronics",
+      "pred_label_name": "comp.sys.ibm.pc.hardware",
+      "pred_confidence": 0.5402219891548157,
+      "primary_mode_hint": "C_cross_attention_collapse",
+      "file": "analysis-4_cases/test_5471.json"
+    },
+    {
+      "example_id": "test_5904",
+      "true_label_name": "sci.crypt",
+      "pred_label_name": "sci.space",
+      "pred_confidence": 0.3618524670600891,
+      "primary_mode_hint": "C_cross_attention_collapse",
+      "file": "analysis-4_cases/test_5904.json"
+    },
+    {
+      "example_id": "test_6855",
+      "true_label_name": "talk.politics.misc",
+      "pred_label_name": "rec.motorcycles",
+      "pred_confidence": 0.6873152256011963,
+      "primary_mode_hint": "D_local_global_conflict",
+      "file": "analysis-4_cases/test_6855.json"
+    },
+    {
+      "example_id": "test_41",
+      "true_label_name": "comp.os.ms-windows.misc",
+      "pred_label_name": "talk.politics.mideast",
+      "pred_confidence": 0.557101309299469,
+      "primary_mode_hint": "E_overconfident_error",
+      "file": "analysis-4_cases/test_41.json"
+    },
+    {
+      "example_id": "test_4963",
+      "true_label_name": "alt.atheism",
+      "pred_label_name": "soc.religion.christian",
+      "pred_confidence": 0.7539698481559753,
+      "primary_mode_hint": "E_overconfident_error",
+      "file": "analysis-4_cases/test_4963.json"
+    },
+    {
+      "example_id": "test_3826",
+      "true_label_name": "talk.politics.misc",
+      "pred_label_name": "sci.space",
+      "pred_confidence": 0.6716050505638123,
+      "primary_mode_hint": "D_local_global_conflict",
+      "file": "analysis-4_cases/test_3826.json"
+    },
+    {
+      "example_id": "test_139",
+      "true_label_name": "sci.electronics",
+      "pred_label_name": "misc.forsale",
+      "pred_confidence": 0.9739100933074951,
+      "primary_mode_hint": "E_overconfident_error",
+      "file": "analysis-4_cases/test_139.json"
+    },
+    {
+      "example_id": "test_7050",
+      "true_label_name": "rec.sport.hockey",
+      "pred_label_name": "sci.space",
+      "pred_confidence": 0.6051723957061768,
+      "primary_mode_hint": "E_overconfident_error",
+      "file": "analysis-4_cases/test_7050.json"
+    },
+    {
+      "example_id": "test_1193",
+      "true_label_name": "sci.med",
+      "pred_label_name": "rec.motorcycles",
+      "pred_confidence": 0.38489386439323425,
+      "primary_mode_hint": "C_cross_attention_collapse",
+      "file": "analysis-4_cases/test_1193.json"
+    },
+    {
+      "example_id": "test_4",
+      "true_label_name": "talk.religion.misc",
+      "pred_label_name": "soc.religion.christian",
+      "pred_confidence": 0.5147189497947693,
+      "primary_mode_hint": "C_cross_attention_collapse",
+      "file": "analysis-4_cases/test_4.json"
+    },
+    {
+      "example_id": "test_6",
+      "true_label_name": "soc.religion.christian",
+      "pred_label_name": "talk.politics.misc",
+      "pred_confidence": 0.3224535882472992,
+      "primary_mode_hint": "C_cross_attention_collapse",
+      "file": "analysis-4_cases/test_6.json"
+    },
+    {
+      "example_id": "test_7",
+      "true_label_name": "soc.religion.christian",
+      "pred_label_name": "comp.graphics",
+      "pred_confidence": 0.45319193601608276,
+      "primary_mode_hint": "D_local_global_conflict",
+      "file": "analysis-4_cases/test_7.json"
+    },
+    {
+      "example_id": "test_14",
+      "true_label_name": "alt.atheism",
+      "pred_label_name": "soc.religion.christian",
+      "pred_confidence": 0.8068578243255615,
+      "primary_mode_hint": "D_local_global_conflict",
+      "file": "analysis-4_cases/test_14.json"
+    },
+    {
+      "example_id": "test_15",
+      "true_label_name": "comp.os.ms-windows.misc",
+      "pred_label_name": "comp.sys.ibm.pc.hardware",
+      "pred_confidence": 0.9025008082389832,
+      "primary_mode_hint": "D_local_global_conflict",
+      "file": "analysis-4_cases/test_15.json"
+    },
+    {
+      "example_id": "test_16",
+      "true_label_name": "comp.sys.mac.hardware",
+      "pred_label_name": "comp.os.ms-windows.misc",
+      "pred_confidence": 0.4272906184196472,
+      "primary_mode_hint": "D_local_global_conflict",
+      "file": "analysis-4_cases/test_16.json"
+    },
+    {
+      "example_id": "test_17",
+      "true_label_name": "comp.graphics",
+      "pred_label_name": "sci.electronics",
+      "pred_confidence": 0.6024962067604065,
+      "primary_mode_hint": "D_local_global_conflict",
+      "file": "analysis-4_cases/test_17.json"
+    },
+    {
+      "example_id": "test_20",
+      "true_label_name": "comp.graphics",
+      "pred_label_name": "sci.med",
+      "pred_confidence": 0.7531351447105408,
+      "primary_mode_hint": "D_local_global_conflict",
+      "file": "analysis-4_cases/test_20.json"
+    },
+    {
+      "example_id": "test_27",
+      "true_label_name": "rec.autos",
+      "pred_label_name": "rec.motorcycles",
+      "pred_confidence": 0.46647900342941284,
+      "primary_mode_hint": "D_local_global_conflict",
+      "file": "analysis-4_cases/test_27.json"
+    },
+    {
+      "example_id": "test_29",
+      "true_label_name": "comp.sys.ibm.pc.hardware",
+      "pred_label_name": "rec.autos",
+      "pred_confidence": 0.4537023603916168,
+      "primary_mode_hint": "C_cross_attention_collapse",
+      "file": "analysis-4_cases/test_29.json"
+    },
+    {
+      "example_id": "test_35",
+      "true_label_name": "comp.graphics",
+      "pred_label_name": "sci.med",
+      "pred_confidence": 0.5597334504127502,
+      "primary_mode_hint": "D_local_global_conflict",
+      "file": "analysis-4_cases/test_35.json"
+    },
+    {
+      "example_id": "test_37",
+      "true_label_name": "comp.sys.mac.hardware",
+      "pred_label_name": "misc.forsale",
+      "pred_confidence": 0.6945294141769409,
+      "primary_mode_hint": "E_overconfident_error",
+      "file": "analysis-4_cases/test_37.json"
+    },
+    {
+      "example_id": "test_38",
+      "true_label_name": "misc.forsale",
+      "pred_label_name": "comp.sys.mac.hardware",
+      "pred_confidence": 0.3795231580734253,
+      "primary_mode_hint": "D_local_global_conflict",
+      "file": "analysis-4_cases/test_38.json"
+    },
+    {
+      "example_id": "test_47",
+      "true_label_name": "comp.sys.ibm.pc.hardware",
+      "pred_label_name": "rec.motorcycles",
+      "pred_confidence": 0.2856251299381256,
+      "primary_mode_hint": "C_cross_attention_collapse",
+      "file": "analysis-4_cases/test_47.json"
+    },
+    {
+      "example_id": "test_48",
+      "true_label_name": "sci.crypt",
+      "pred_label_name": "alt.atheism",
+      "pred_confidence": 0.5031703114509583,
+      "primary_mode_hint": "D_local_global_conflict",
+      "file": "analysis-4_cases/test_48.json"
+    },
+    {
+      "example_id": "test_49",
+      "true_label_name": "alt.atheism",
+      "pred_label_name": "sci.crypt",
+      "pred_confidence": 0.9912691116333008,
+      "primary_mode_hint": "E_overconfident_error",
+      "file": "analysis-4_cases/test_49.json"
+    },
+    {
+      "example_id": "test_55",
+      "true_label_name": "comp.os.ms-windows.misc",
+      "pred_label_name": "rec.sport.hockey",
+      "pred_confidence": 0.8471018075942993,
+      "primary_mode_hint": "E_overconfident_error",
+      "file": "analysis-4_cases/test_55.json"
+    },
+    {
+      "example_id": "test_60",
+      "true_label_name": "rec.motorcycles",
+      "pred_label_name": "sci.med",
+      "pred_confidence": 0.5699158906936646,
+      "primary_mode_hint": "D_local_global_conflict",
+      "file": "analysis-4_cases/test_60.json"
+    },
+    {
+      "example_id": "test_62",
+      "true_label_name": "talk.politics.mideast",
+      "pred_label_name": "rec.motorcycles",
+      "pred_confidence": 0.6506763696670532,
+      "primary_mode_hint": "E_overconfident_error",
+      "file": "analysis-4_cases/test_62.json"
+    },
+    {
+      "example_id": "test_63",
+      "true_label_name": "talk.religion.misc",
+      "pred_label_name": "talk.politics.mideast",
+      "pred_confidence": 0.23640243709087372,
+      "primary_mode_hint": "D_local_global_conflict",
+      "file": "analysis-4_cases/test_63.json"
+    },
+    {
+      "example_id": "test_65",
+      "true_label_name": "talk.politics.misc",
+      "pred_label_name": "talk.politics.guns",
+      "pred_confidence": 0.5296522378921509,
+      "primary_mode_hint": "D_local_global_conflict",
+      "file": "analysis-4_cases/test_65.json"
+    },
+    {
+      "example_id": "test_66",
+      "true_label_name": "talk.politics.misc",
+      "pred_label_name": "alt.atheism",
+      "pred_confidence": 0.5809664130210876,
+      "primary_mode_hint": "D_local_global_conflict",
+      "file": "analysis-4_cases/test_66.json"
+    },
+    {
+      "example_id": "test_67",
+      "true_label_name": "sci.med",
+      "pred_label_name": "comp.sys.mac.hardware",
+      "pred_confidence": 0.45492225885391235,
+      "primary_mode_hint": "D_local_global_conflict",
+      "file": "analysis-4_cases/test_67.json"
+    },
+    {
+      "example_id": "test_68",
+      "true_label_name": "alt.atheism",
+      "pred_label_name": "rec.sport.hockey",
+      "pred_confidence": 0.4687155485153198,
+      "primary_mode_hint": "C_cross_attention_collapse",
+      "file": "analysis-4_cases/test_68.json"
+    },
+    {
+      "example_id": "test_78",
+      "true_label_name": "talk.politics.misc",
+      "pred_label_name": "sci.electronics",
+      "pred_confidence": 0.5941072702407837,
+      "primary_mode_hint": "C_cross_attention_collapse",
+      "file": "analysis-4_cases/test_78.json"
+    },
+    {
+      "example_id": "test_83",
+      "true_label_name": "comp.sys.mac.hardware",
+      "pred_label_name": "comp.sys.ibm.pc.hardware",
+      "pred_confidence": 0.747171938419342,
+      "primary_mode_hint": "C_cross_attention_collapse",
+      "file": "analysis-4_cases/test_83.json"
+    },
+    {
+      "example_id": "test_87",
+      "true_label_name": "soc.religion.christian",
+      "pred_label_name": "talk.politics.mideast",
+      "pred_confidence": 0.27885565161705017,
+      "primary_mode_hint": "C_cross_attention_collapse",
+      "file": "analysis-4_cases/test_87.json"
+    },
+    {
+      "example_id": "test_101",
+      "true_label_name": "rec.sport.hockey",
+      "pred_label_name": "rec.motorcycles",
+      "pred_confidence": 0.3266422748565674,
+      "primary_mode_hint": "C_cross_attention_collapse",
+      "file": "analysis-4_cases/test_101.json"
+    },
+    {
+      "example_id": "test_147",
+      "true_label_name": "sci.electronics",
+      "pred_label_name": "talk.politics.mideast",
+      "pred_confidence": 0.27885565161705017,
+      "primary_mode_hint": "C_cross_attention_collapse",
+      "file": "analysis-4_cases/test_147.json"
+    },
+    {
+      "example_id": "test_160",
+      "true_label_name": "sci.crypt",
+      "pred_label_name": "soc.religion.christian",
+      "pred_confidence": 0.3846215009689331,
+      "primary_mode_hint": "C_cross_attention_collapse",
+      "file": "analysis-4_cases/test_160.json"
+    },
+    {
+      "example_id": "test_188",
+      "true_label_name": "alt.atheism",
+      "pred_label_name": "talk.politics.misc",
+      "pred_confidence": 0.43325504660606384,
+      "primary_mode_hint": "C_cross_attention_collapse",
+      "file": "analysis-4_cases/test_188.json"
+    },
+    {
+      "example_id": "test_209",
+      "true_label_name": "soc.religion.christian",
+      "pred_label_name": "talk.religion.misc",
+      "pred_confidence": 0.444705069065094,
+      "primary_mode_hint": "C_cross_attention_collapse",
+      "file": "analysis-4_cases/test_209.json"
+    },
+    {
+      "example_id": "test_213",
+      "true_label_name": "alt.atheism",
+      "pred_label_name": "talk.politics.mideast",
+      "pred_confidence": 0.27885565161705017,
+      "primary_mode_hint": "C_cross_attention_collapse",
+      "file": "analysis-4_cases/test_213.json"
+    },
+    {
+      "example_id": "test_226",
+      "true_label_name": "rec.autos",
+      "pred_label_name": "talk.politics.mideast",
+      "pred_confidence": 0.27885565161705017,
+      "primary_mode_hint": "C_cross_attention_collapse",
+      "file": "analysis-4_cases/test_226.json"
+    },
+    {
+      "example_id": "test_233",
+      "true_label_name": "talk.politics.mideast",
+      "pred_label_name": "rec.motorcycles",
+      "pred_confidence": 0.4577346444129944,
+      "primary_mode_hint": "C_cross_attention_collapse",
+      "file": "analysis-4_cases/test_233.json"
+    },
+    {
+      "example_id": "test_259",
+      "true_label_name": "sci.crypt",
+      "pred_label_name": "talk.politics.mideast",
+      "pred_confidence": 0.27885565161705017,
+      "primary_mode_hint": "C_cross_attention_collapse",
+      "file": "analysis-4_cases/test_259.json"
+    },
+    {
+      "example_id": "test_318",
+      "true_label_name": "rec.sport.baseball",
+      "pred_label_name": "comp.graphics",
+      "pred_confidence": 0.7413010001182556,
+      "primary_mode_hint": "C_cross_attention_collapse",
+      "file": "analysis-4_cases/test_318.json"
+    },
+    {
+      "example_id": "test_320",
+      "true_label_name": "soc.religion.christian",
+      "pred_label_name": "talk.politics.mideast",
+      "pred_confidence": 0.27885565161705017,
+      "primary_mode_hint": "C_cross_attention_collapse",
+      "file": "analysis-4_cases/test_320.json"
+    },
+    {
+      "example_id": "test_338",
+      "true_label_name": "sci.space",
+      "pred_label_name": "sci.electronics",
+      "pred_confidence": 0.5333763957023621,
+      "primary_mode_hint": "C_cross_attention_collapse",
+      "file": "analysis-4_cases/test_338.json"
+    },
+    {
+      "example_id": "test_356",
+      "true_label_name": "rec.motorcycles",
+      "pred_label_name": "talk.politics.mideast",
+      "pred_confidence": 0.27885565161705017,
+      "primary_mode_hint": "C_cross_attention_collapse",
+      "file": "analysis-4_cases/test_356.json"
+    },
+    {
+      "example_id": "test_372",
+      "true_label_name": "comp.sys.mac.hardware",
+      "pred_label_name": "comp.sys.ibm.pc.hardware",
+      "pred_confidence": 0.5305923223495483,
+      "primary_mode_hint": "C_cross_attention_collapse",
+      "file": "analysis-4_cases/test_372.json"
+    },
+    {
+      "example_id": "test_388",
+      "true_label_name": "rec.autos",
+      "pred_label_name": "talk.politics.mideast",
+      "pred_confidence": 0.27885565161705017,
+      "primary_mode_hint": "C_cross_attention_collapse",
+      "file": "analysis-4_cases/test_388.json"
+    },
+    {
+      "example_id": "test_439",
+      "true_label_name": "rec.sport.baseball",
+      "pred_label_name": "rec.sport.hockey",
+      "pred_confidence": 0.5653505325317383,
+      "primary_mode_hint": "C_cross_attention_collapse",
+      "file": "analysis-4_cases/test_439.json"
+    },
+    {
+      "example_id": "test_482",
+      "true_label_name": "talk.politics.guns",
+      "pred_label_name": "sci.space",
+      "pred_confidence": 0.7097013592720032,
+      "primary_mode_hint": "C_cross_attention_collapse",
+      "file": "analysis-4_cases/test_482.json"
+    },
+    {
+      "example_id": "test_497",
+      "true_label_name": "talk.religion.misc",
+      "pred_label_name": "rec.autos",
+      "pred_confidence": 0.24569100141525269,
+      "primary_mode_hint": "C_cross_attention_collapse",
+      "file": "analysis-4_cases/test_497.json"
+    },
+    {
+      "example_id": "test_502",
+      "true_label_name": "rec.sport.baseball",
+      "pred_label_name": "talk.politics.mideast",
+      "pred_confidence": 0.27885565161705017,
+      "primary_mode_hint": "C_cross_attention_collapse",
+      "file": "analysis-4_cases/test_502.json"
+    },
+    {
+      "example_id": "test_514",
+      "true_label_name": "rec.sport.baseball",
+      "pred_label_name": "talk.politics.mideast",
+      "pred_confidence": 0.27885565161705017,
+      "primary_mode_hint": "C_cross_attention_collapse",
+      "file": "analysis-4_cases/test_514.json"
+    },
+    {
+      "example_id": "test_2046",
+      "true_label_name": "alt.atheism",
+      "pred_label_name": "talk.politics.mideast",
+      "pred_confidence": 0.655626118183136,
+      "primary_mode_hint": "D_local_global_conflict",
+      "file": "analysis-4_cases/test_2046.json"
+    },
+    {
+      "example_id": "test_7074",
+      "true_label_name": "talk.religion.misc",
+      "pred_label_name": "soc.religion.christian",
+      "pred_confidence": 0.7261973023414612,
+      "primary_mode_hint": "D_local_global_conflict",
+      "file": "analysis-4_cases/test_7074.json"
+    },
+    {
+      "example_id": "test_7099",
+      "true_label_name": "comp.windows.x",
+      "pred_label_name": "comp.os.ms-windows.misc",
+      "pred_confidence": 0.690405011177063,
+      "primary_mode_hint": "D_local_global_conflict",
+      "file": "analysis-4_cases/test_7099.json"
+    },
+    {
+      "example_id": "test_1958",
+      "true_label_name": "misc.forsale",
+      "pred_label_name": "comp.graphics",
+      "pred_confidence": 0.4084692895412445,
+      "primary_mode_hint": "D_local_global_conflict",
+      "file": "analysis-4_cases/test_1958.json"
+    },
+    {
+      "example_id": "test_706",
+      "true_label_name": "talk.religion.misc",
+      "pred_label_name": "soc.religion.christian",
+      "pred_confidence": 0.7857728004455566,
+      "primary_mode_hint": "D_local_global_conflict",
+      "file": "analysis-4_cases/test_706.json"
+    },
+    {
+      "example_id": "test_2857",
+      "true_label_name": "alt.atheism",
+      "pred_label_name": "soc.religion.christian",
+      "pred_confidence": 0.5036174058914185,
+      "primary_mode_hint": "D_local_global_conflict",
+      "file": "analysis-4_cases/test_2857.json"
+    },
+    {
+      "example_id": "test_6917",
+      "true_label_name": "comp.windows.x",
+      "pred_label_name": "comp.graphics",
+      "pred_confidence": 0.5162506699562073,
+      "primary_mode_hint": "D_local_global_conflict",
+      "file": "analysis-4_cases/test_6917.json"
+    },
+    {
+      "example_id": "test_2320",
+      "true_label_name": "soc.religion.christian",
+      "pred_label_name": "alt.atheism",
+      "pred_confidence": 0.5591040253639221,
+      "primary_mode_hint": "D_local_global_conflict",
+      "file": "analysis-4_cases/test_2320.json"
+    },
+    {
+      "example_id": "test_238",
+      "true_label_name": "alt.atheism",
+      "pred_label_name": "sci.med",
+      "pred_confidence": 0.4032547175884247,
+      "primary_mode_hint": "D_local_global_conflict",
+      "file": "analysis-4_cases/test_238.json"
+    },
+    {
+      "example_id": "test_503",
+      "true_label_name": "talk.religion.misc",
+      "pred_label_name": "soc.religion.christian",
+      "pred_confidence": 0.7801032066345215,
+      "primary_mode_hint": "D_local_global_conflict",
+      "file": "analysis-4_cases/test_503.json"
+    },
+    {
+      "example_id": "test_692",
+      "true_label_name": "talk.politics.misc",
+      "pred_label_name": "talk.politics.guns",
+      "pred_confidence": 0.9630438685417175,
+      "primary_mode_hint": "E_overconfident_error",
+      "file": "analysis-4_cases/test_692.json"
+    },
+    {
+      "example_id": "test_904",
+      "true_label_name": "talk.religion.misc",
+      "pred_label_name": "soc.religion.christian",
+      "pred_confidence": 0.810435950756073,
+      "primary_mode_hint": "D_local_global_conflict",
+      "file": "analysis-4_cases/test_904.json"
+    },
+    {
+      "example_id": "test_1115",
+      "true_label_name": "sci.med",
+      "pred_label_name": "talk.politics.misc",
+      "pred_confidence": 0.48148250579833984,
+      "primary_mode_hint": "D_local_global_conflict",
+      "file": "analysis-4_cases/test_1115.json"
+    },
+    {
+      "example_id": "test_1203",
+      "true_label_name": "alt.atheism",
+      "pred_label_name": "soc.religion.christian",
+      "pred_confidence": 0.5402593016624451,
+      "primary_mode_hint": "D_local_global_conflict",
+      "file": "analysis-4_cases/test_1203.json"
+    },
+    {
+      "example_id": "test_1217",
+      "true_label_name": "sci.electronics",
+      "pred_label_name": "rec.motorcycles",
+      "pred_confidence": 0.9696601033210754,
+      "primary_mode_hint": "E_overconfident_error",
+      "file": "analysis-4_cases/test_1217.json"
+    },
+    {
+      "example_id": "test_1539",
+      "true_label_name": "talk.religion.misc",
+      "pred_label_name": "soc.religion.christian",
+      "pred_confidence": 0.5769844651222229,
+      "primary_mode_hint": "D_local_global_conflict",
+      "file": "analysis-4_cases/test_1539.json"
+    },
+    {
+      "example_id": "test_1595",
+      "true_label_name": "talk.politics.mideast",
+      "pred_label_name": "talk.politics.misc",
+      "pred_confidence": 0.49033764004707336,
+      "primary_mode_hint": "D_local_global_conflict",
+      "file": "analysis-4_cases/test_1595.json"
+    },
+    {
+      "example_id": "test_1672",
+      "true_label_name": "talk.religion.misc",
+      "pred_label_name": "soc.religion.christian",
+      "pred_confidence": 0.49276426434516907,
+      "primary_mode_hint": "D_local_global_conflict",
+      "file": "analysis-4_cases/test_1672.json"
+    },
+    {
+      "example_id": "test_1861",
+      "true_label_name": "alt.atheism",
+      "pred_label_name": "soc.religion.christian",
+      "pred_confidence": 0.6556836366653442,
+      "primary_mode_hint": "D_local_global_conflict",
+      "file": "analysis-4_cases/test_1861.json"
+    },
+    {
+      "example_id": "test_2225",
+      "true_label_name": "talk.politics.misc",
+      "pred_label_name": "talk.politics.mideast",
+      "pred_confidence": 0.5815074443817139,
+      "primary_mode_hint": "D_local_global_conflict",
+      "file": "analysis-4_cases/test_2225.json"
+    },
+    {
+      "example_id": "test_2226",
+      "true_label_name": "talk.religion.misc",
+      "pred_label_name": "soc.religion.christian",
+      "pred_confidence": 0.772896409034729,
+      "primary_mode_hint": "D_local_global_conflict",
+      "file": "analysis-4_cases/test_2226.json"
+    },
+    {
+      "example_id": "test_2535",
+      "true_label_name": "alt.atheism",
+      "pred_label_name": "sci.med",
+      "pred_confidence": 0.4847494065761566,
+      "primary_mode_hint": "D_local_global_conflict",
+      "file": "analysis-4_cases/test_2535.json"
+    },
+    {
+      "example_id": "test_2552",
+      "true_label_name": "talk.religion.misc",
+      "pred_label_name": "soc.religion.christian",
+      "pred_confidence": 0.6830120086669922,
+      "primary_mode_hint": "D_local_global_conflict",
+      "file": "analysis-4_cases/test_2552.json"
+    },
+    {
+      "example_id": "test_2873",
+      "true_label_name": "talk.religion.misc",
+      "pred_label_name": "alt.atheism",
+      "pred_confidence": 0.6259826421737671,
+      "primary_mode_hint": "D_local_global_conflict",
+      "file": "analysis-4_cases/test_2873.json"
+    },
+    {
+      "example_id": "test_3294",
+      "true_label_name": "talk.religion.misc",
+      "pred_label_name": "soc.religion.christian",
+      "pred_confidence": 0.8117063045501709,
+      "primary_mode_hint": "D_local_global_conflict",
+      "file": "analysis-4_cases/test_3294.json"
+    },
+    {
+      "example_id": "test_6918",
+      "true_label_name": "talk.politics.mideast",
+      "pred_label_name": "rec.sport.baseball",
+      "pred_confidence": 0.9985427856445312,
+      "primary_mode_hint": "C_cross_attention_collapse",
+      "file": "analysis-4_cases/test_6918.json"
+    },
+    {
+      "example_id": "test_1137",
+      "true_label_name": "rec.sport.baseball",
+      "pred_label_name": "rec.sport.hockey",
+      "pred_confidence": 0.9983283877372742,
+      "primary_mode_hint": "E_overconfident_error",
+      "file": "analysis-4_cases/test_1137.json"
+    },
+    {
+      "example_id": "test_3610",
+      "true_label_name": "comp.os.ms-windows.misc",
+      "pred_label_name": "sci.space",
+      "pred_confidence": 0.9971306920051575,
+      "primary_mode_hint": "E_overconfident_error",
+      "file": "analysis-4_cases/test_3610.json"
+    },
+    {
+      "example_id": "test_6246",
+      "true_label_name": "sci.electronics",
+      "pred_label_name": "sci.med",
+      "pred_confidence": 0.9967251420021057,
+      "primary_mode_hint": "E_overconfident_error",
+      "file": "analysis-4_cases/test_6246.json"
+    },
+    {
+      "example_id": "test_5560",
+      "true_label_name": "talk.politics.guns",
+      "pred_label_name": "sci.space",
+      "pred_confidence": 0.996619462966919,
+      "primary_mode_hint": "E_overconfident_error",
+      "file": "analysis-4_cases/test_5560.json"
+    },
+    {
+      "example_id": "test_3963",
+      "true_label_name": "rec.sport.baseball",
+      "pred_label_name": "rec.sport.hockey",
+      "pred_confidence": 0.9965517520904541,
+      "primary_mode_hint": "E_overconfident_error",
+      "file": "analysis-4_cases/test_3963.json"
+    },
+    {
+      "example_id": "test_4499",
+      "true_label_name": "sci.electronics",
+      "pred_label_name": "sci.space",
+      "pred_confidence": 0.9963933825492859,
+      "primary_mode_hint": "C_cross_attention_collapse",
+      "file": "analysis-4_cases/test_4499.json"
+    },
+    {
+      "example_id": "test_7224",
+      "true_label_name": "talk.religion.misc",
+      "pred_label_name": "sci.med",
+      "pred_confidence": 0.9959412813186646,
+      "primary_mode_hint": "E_overconfident_error",
+      "file": "analysis-4_cases/test_7224.json"
+    },
+    {
+      "example_id": "test_1335",
+      "true_label_name": "talk.politics.guns",
+      "pred_label_name": "talk.politics.mideast",
+      "pred_confidence": 0.9953688383102417,
+      "primary_mode_hint": "E_overconfident_error",
+      "file": "analysis-4_cases/test_1335.json"
+    },
+    {
+      "example_id": "test_5575",
+      "true_label_name": "comp.graphics",
+      "pred_label_name": "sci.space",
+      "pred_confidence": 0.9951862692832947,
+      "primary_mode_hint": "E_overconfident_error",
+      "file": "analysis-4_cases/test_5575.json"
+    },
+    {
+      "example_id": "test_2185",
+      "true_label_name": "sci.space",
+      "pred_label_name": "misc.forsale",
+      "pred_confidence": 0.99497389793396,
+      "primary_mode_hint": "E_overconfident_error",
+      "file": "analysis-4_cases/test_2185.json"
+    },
+    {
+      "example_id": "test_5709",
+      "true_label_name": "talk.politics.misc",
+      "pred_label_name": "rec.sport.baseball",
+      "pred_confidence": 0.9947758913040161,
+      "primary_mode_hint": "E_overconfident_error",
+      "file": "analysis-4_cases/test_5709.json"
+    },
+    {
+      "example_id": "test_450",
+      "true_label_name": "sci.electronics",
+      "pred_label_name": "sci.med",
+      "pred_confidence": 0.9944090247154236,
+      "primary_mode_hint": "E_overconfident_error",
+      "file": "analysis-4_cases/test_450.json"
+    },
+    {
+      "example_id": "test_7386",
+      "true_label_name": "rec.sport.baseball",
+      "pred_label_name": "sci.med",
+      "pred_confidence": 0.9932511448860168,
+      "primary_mode_hint": "C_cross_attention_collapse",
+      "file": "analysis-4_cases/test_7386.json"
+    },
+    {
+      "example_id": "test_1970",
+      "true_label_name": "comp.os.ms-windows.misc",
+      "pred_label_name": "comp.graphics",
+      "pred_confidence": 0.9927753210067749,
+      "primary_mode_hint": "E_overconfident_error",
+      "file": "analysis-4_cases/test_1970.json"
+    },
+    {
+      "example_id": "test_7051",
+      "true_label_name": "comp.os.ms-windows.misc",
+      "pred_label_name": "sci.space",
+      "pred_confidence": 0.9925646781921387,
+      "primary_mode_hint": "E_overconfident_error",
+      "file": "analysis-4_cases/test_7051.json"
+    },
+    {
+      "example_id": "test_2323",
+      "true_label_name": "comp.graphics",
+      "pred_label_name": "misc.forsale",
+      "pred_confidence": 0.9920805096626282,
+      "primary_mode_hint": "E_overconfident_error",
+      "file": "analysis-4_cases/test_2323.json"
+    },
+    {
+      "example_id": "test_2490",
+      "true_label_name": "talk.religion.misc",
+      "pred_label_name": "talk.politics.guns",
+      "pred_confidence": 0.9918123483657837,
+      "primary_mode_hint": "E_overconfident_error",
+      "file": "analysis-4_cases/test_2490.json"
+    },
+    {
+      "example_id": "test_7395",
+      "true_label_name": "rec.sport.baseball",
+      "pred_label_name": "sci.med",
+      "pred_confidence": 0.9909893870353699,
+      "primary_mode_hint": "E_overconfident_error",
+      "file": "analysis-4_cases/test_7395.json"
+    },
+    {
+      "example_id": "test_2408",
+      "true_label_name": "talk.politics.misc",
+      "pred_label_name": "talk.politics.guns",
+      "pred_confidence": 0.9901324510574341,
+      "primary_mode_hint": "E_overconfident_error",
+      "file": "analysis-4_cases/test_2408.json"
+    },
+    {
+      "example_id": "test_5693",
+      "true_label_name": "talk.religion.misc",
+      "pred_label_name": "sci.space",
+      "pred_confidence": 0.9900197982788086,
+      "primary_mode_hint": "E_overconfident_error",
+      "file": "analysis-4_cases/test_5693.json"
+    },
+    {
+      "example_id": "test_800",
+      "true_label_name": "rec.motorcycles",
+      "pred_label_name": "sci.med",
+      "pred_confidence": 0.9896106719970703,
+      "primary_mode_hint": "E_overconfident_error",
+      "file": "analysis-4_cases/test_800.json"
+    },
+    {
+      "example_id": "test_4946",
+      "true_label_name": "talk.politics.misc",
+      "pred_label_name": "talk.politics.guns",
+      "pred_confidence": 0.989508867263794,
+      "primary_mode_hint": "E_overconfident_error",
+      "file": "analysis-4_cases/test_4946.json"
+    },
+    {
+      "example_id": "test_3194",
+      "true_label_name": "talk.religion.misc",
+      "pred_label_name": "talk.politics.guns",
+      "pred_confidence": 0.989470362663269,
+      "primary_mode_hint": "E_overconfident_error",
+      "file": "analysis-4_cases/test_3194.json"
+    }
+  ],
+  "proposed_architectural_or_training_fixes": {
+    "A_context_poor_topk": [
+      "Add stopword or low-information penalty in word scorer or add IDF prior features.",
+      "Replace hard top-K with differentiable sparse attention like entmax or sparsemax.",
+      "Use hybrid selection: top-K plus always keep rare or content tokens."
+    ],
+    "B_word_selection_mismatch": [
+      "Add consistency loss aligning soft word attention and hard top-K selection.",
+      "Use Gumbel-Softmax straight-through sampling for discrete selection alignment.",
+      "Make K dynamic based on sentence length or attention entropy."
+    ],
+    "C_cross_attention_collapse": [
+      "Add entropy regularization on sentence-importance distribution to avoid collapse.",
+      "Use multi-head cross-attention and encourage head diversity.",
+      "Add residual connection from global pooled doc vector to reduce brittle single-sentence reliance."
+    ],
+    "D_local_global_conflict": [
+      "Add diagonal or locality bias so queries attend somewhat to origin sentence.",
+      "Use sentence position embeddings or discourse features to stabilize alignment.",
+      "Two-stage cross-attention: local neighborhood then global."
+    ],
+    "E_overconfident_error": [
+      "Use temperature scaling for calibration after training.",
+      "Use label smoothing or focal loss to reduce overconfident mistakes.",
+      "Down-weight cross-attended features when attention entropy collapses."
+    ]
+  }
+}

@@ -1,0 +1,339 @@
+{
+  "true_label_id": 4,
+  "pred_label_id": 3,
+  "true_label_name": "comp.sys.mac.hardware",
+  "pred_label_name": "comp.sys.ibm.pc.hardware",
+  "pred_confidence": 0.6949782371520996,
+  "num_sents": 3,
+  "top_sentences": [
+    {
+      "sentence_id": 1,
+      "importance": 0.4036998450756073,
+      "sentence_text": "we're thinking about investing in one of these cards for our lone pc at work",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "one",
+          "token_pos": 5,
+          "word_score_logit": 0.027627885341644287,
+          "word_attn_weight": 0.06879676133394241
+        },
+        {
+          "rank": 1,
+          "token": "in",
+          "token_pos": 4,
+          "word_score_logit": 0.02178681083023548,
+          "word_attn_weight": 0.06839608401060104
+        },
+        {
+          "rank": 2,
+          "token": "pc",
+          "token_pos": 12,
+          "word_score_logit": 0.018020015209913254,
+          "word_attn_weight": 0.06813893467187881
+        },
+        {
+          "rank": 3,
+          "token": "of",
+          "token_pos": 6,
+          "word_score_logit": 0.013960604555904865,
+          "word_attn_weight": 0.06786289811134338
+        },
+        {
+          "rank": 4,
+          "token": "at",
+          "token_pos": 13,
+          "word_score_logit": 0.01394703146070242,
+          "word_attn_weight": 0.06786196678876877
+        }
+      ]
+    },
+    {
+      "sentence_id": 0,
+      "importance": 0.3242954909801483,
+      "sentence_text": "anyone have any experiences to report using phonenet pc",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "anyone",
+          "token_pos": 0,
+          "word_score_logit": 0.036204107105731964,
+          "word_attn_weight": 0.11397857964038849
+        },
+        {
+          "rank": 1,
+          "token": "pc",
+          "token_pos": 8,
+          "word_score_logit": 0.03563523292541504,
+          "word_attn_weight": 0.11391375958919525
+        },
+        {
+          "rank": 2,
+          "token": "any",
+          "token_pos": 2,
+          "word_score_logit": 0.034350696951150894,
+          "word_attn_weight": 0.11376751959323883
+        },
+        {
+          "rank": 3,
+          "token": "using",
+          "token_pos": 6,
+          "word_score_logit": 0.022613735869526863,
+          "word_attn_weight": 0.11244003474712372
+        },
+        {
+          "rank": 4,
+          "token": "have",
+          "token_pos": 1,
+          "word_score_logit": 0.02014380507171154,
+          "word_attn_weight": 0.11216266453266144
+        }
+      ]
+    },
+    {
+      "sentence_id": 2,
+      "importance": 0.2720046639442444,
+      "sentence_text": "ken <UNK> <UNK> cup portal com",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "ken",
+          "token_pos": 0,
+          "word_score_logit": 0.05340952053666115,
+          "word_attn_weight": 0.17228329181671143
+        },
+        {
+          "rank": 1,
+          "token": "com",
+          "token_pos": 5,
+          "word_score_logit": 0.050882723182439804,
+          "word_attn_weight": 0.17184852063655853
+        },
+        {
+          "rank": 2,
+          "token": "portal",
+          "token_pos": 4,
+          "word_score_logit": 0.01997211202979088,
+          "word_attn_weight": 0.16661782562732697
+        },
+        {
+          "rank": 3,
+          "token": "cup",
+          "token_pos": 3,
+          "word_score_logit": 0.003928239457309246,
+          "word_attn_weight": 0.16396595537662506
+        },
+        {
+          "rank": 4,
+          "token": "<UNK>",
+          "token_pos": 1,
+          "word_score_logit": 0.0002611312083899975,
+          "word_attn_weight": 0.16336578130722046
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 5,
+      "from_sentence_id": 1,
+      "token": "one",
+      "token_pos": 5,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.35377249121665955,
+          "sentence_text": "we're thinking about investing in one of these cards for our lone pc at work"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.33290839195251465,
+          "sentence_text": "anyone have any experiences to report using phonenet pc"
+        }
+      ]
+    },
+    {
+      "query_id": 6,
+      "from_sentence_id": 1,
+      "token": "in",
+      "token_pos": 4,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.37684088945388794,
+          "sentence_text": "we're thinking about investing in one of these cards for our lone pc at work"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.33278149366378784,
+          "sentence_text": "anyone have any experiences to report using phonenet pc"
+        }
+      ]
+    },
+    {
+      "query_id": 7,
+      "from_sentence_id": 1,
+      "token": "pc",
+      "token_pos": 12,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.41574206948280334,
+          "sentence_text": "we're thinking about investing in one of these cards for our lone pc at work"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.32051724195480347,
+          "sentence_text": "anyone have any experiences to report using phonenet pc"
+        }
+      ]
+    },
+    {
+      "query_id": 8,
+      "from_sentence_id": 1,
+      "token": "of",
+      "token_pos": 6,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.3619037866592407,
+          "sentence_text": "we're thinking about investing in one of these cards for our lone pc at work"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.33419069647789,
+          "sentence_text": "anyone have any experiences to report using phonenet pc"
+        }
+      ]
+    },
+    {
+      "query_id": 9,
+      "from_sentence_id": 1,
+      "token": "at",
+      "token_pos": 13,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.4598277509212494,
+          "sentence_text": "we're thinking about investing in one of these cards for our lone pc at work"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.31673991680145264,
+          "sentence_text": "anyone have any experiences to report using phonenet pc"
+        }
+      ]
+    },
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "anyone",
+      "token_pos": 0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.43895208835601807,
+          "sentence_text": "we're thinking about investing in one of these cards for our lone pc at work"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.3299180269241333,
+          "sentence_text": "anyone have any experiences to report using phonenet pc"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "pc",
+      "token_pos": 8,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.4216594696044922,
+          "sentence_text": "we're thinking about investing in one of these cards for our lone pc at work"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.32485929131507874,
+          "sentence_text": "anyone have any experiences to report using phonenet pc"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "any",
+      "token_pos": 2,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.42134690284729004,
+          "sentence_text": "we're thinking about investing in one of these cards for our lone pc at work"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.3440415859222412,
+          "sentence_text": "anyone have any experiences to report using phonenet pc"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "using",
+      "token_pos": 6,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.4245508313179016,
+          "sentence_text": "we're thinking about investing in one of these cards for our lone pc at work"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.34985101222991943,
+          "sentence_text": "anyone have any experiences to report using phonenet pc"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "have",
+      "token_pos": 1,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.4174540340900421,
+          "sentence_text": "we're thinking about investing in one of these cards for our lone pc at work"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.33974766731262207,
+          "sentence_text": "anyone have any experiences to report using phonenet pc"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_5139"
+}

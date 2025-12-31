@@ -1,0 +1,423 @@
+{
+  "true_label_id": 3,
+  "pred_label_id": 12,
+  "true_label_name": "comp.sys.ibm.pc.hardware",
+  "pred_label_name": "sci.electronics",
+  "pred_confidence": 0.9324813485145569,
+  "num_sents": 6,
+  "top_sentences": [
+    {
+      "sentence_id": 0,
+      "importance": 0.2742445766925812,
+      "sentence_text": "es a couple other problems with the 486dx 50 1 system manufacturers had major problems solving the electromagnetic interference problems with 486dx 50 systems",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "systems",
+          "token_pos": 23,
+          "word_score_logit": 0.09687215834856033,
+          "word_attn_weight": 0.0435725599527359
+        },
+        {
+          "rank": 1,
+          "token": "system",
+          "token_pos": 10,
+          "word_score_logit": 0.07692781835794449,
+          "word_attn_weight": 0.04271214082837105
+        },
+        {
+          "rank": 2,
+          "token": "had",
+          "token_pos": 12,
+          "word_score_logit": 0.07550632953643799,
+          "word_attn_weight": 0.0426514707505703
+        },
+        {
+          "rank": 3,
+          "token": "manufacturers",
+          "token_pos": 11,
+          "word_score_logit": 0.07369700819253922,
+          "word_attn_weight": 0.04257436841726303
+        },
+        {
+          "rank": 4,
+          "token": "problems",
+          "token_pos": 14,
+          "word_score_logit": 0.0716392919421196,
+          "word_attn_weight": 0.042486850172281265
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "importance": 0.21750859916210175,
+      "sentence_text": "getting an fcc b home use certification required additional shielding in the system",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "b",
+          "token_pos": 3,
+          "word_score_logit": 0.10739022493362427,
+          "word_attn_weight": 0.07916607707738876
+        },
+        {
+          "rank": 1,
+          "token": "system",
+          "token_pos": 12,
+          "word_score_logit": 0.10505402088165283,
+          "word_attn_weight": 0.07898135483264923
+        },
+        {
+          "rank": 2,
+          "token": "use",
+          "token_pos": 5,
+          "word_score_logit": 0.09985476732254028,
+          "word_attn_weight": 0.07857176661491394
+        },
+        {
+          "rank": 3,
+          "token": "required",
+          "token_pos": 7,
+          "word_score_logit": 0.09695353358983994,
+          "word_attn_weight": 0.07834414392709732
+        },
+        {
+          "rank": 4,
+          "token": "home",
+          "token_pos": 4,
+          "word_score_logit": 0.09378957748413086,
+          "word_attn_weight": 0.0780966579914093
+        }
+      ]
+    },
+    {
+      "sentence_id": 2,
+      "importance": 0.2084563970565796,
+      "sentence_text": "2 heat a lot of people seem to be installing heat sinks and or cooling fans on their 486dx2 66 chips",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "cooling",
+          "token_pos": 14,
+          "word_score_logit": 0.1272253394126892,
+          "word_attn_weight": 0.05170399695634842
+        },
+        {
+          "rank": 1,
+          "token": "or",
+          "token_pos": 13,
+          "word_score_logit": 0.09619224071502686,
+          "word_attn_weight": 0.05012410506606102
+        },
+        {
+          "rank": 2,
+          "token": "fans",
+          "token_pos": 15,
+          "word_score_logit": 0.09252531081438065,
+          "word_attn_weight": 0.04994063824415207
+        },
+        {
+          "rank": 3,
+          "token": "and",
+          "token_pos": 12,
+          "word_score_logit": 0.0809646025300026,
+          "word_attn_weight": 0.04936661571264267
+        },
+        {
+          "rank": 4,
+          "token": "heat",
+          "token_pos": 10,
+          "word_score_logit": 0.07596735656261444,
+          "word_attn_weight": 0.04912053421139717
+        }
+      ]
+    },
+    {
+      "sentence_id": 4,
+      "importance": 0.13279271125793457,
+      "sentence_text": "and heat is the enemy of system reliability",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "reliability",
+          "token_pos": 7,
+          "word_score_logit": 0.04849055036902428,
+          "word_attn_weight": 0.12719514966011047
+        },
+        {
+          "rank": 1,
+          "token": "heat",
+          "token_pos": 1,
+          "word_score_logit": 0.0464664101600647,
+          "word_attn_weight": 0.12693794071674347
+        },
+        {
+          "rank": 2,
+          "token": "is",
+          "token_pos": 2,
+          "word_score_logit": 0.04528352990746498,
+          "word_attn_weight": 0.12678788602352142
+        },
+        {
+          "rank": 3,
+          "token": "the",
+          "token_pos": 3,
+          "word_score_logit": 0.03769659996032715,
+          "word_attn_weight": 0.12582959234714508
+        },
+        {
+          "rank": 4,
+          "token": "and",
+          "token_pos": 0,
+          "word_score_logit": 0.03188295662403107,
+          "word_attn_weight": 0.12510018050670624
+        }
+      ]
+    },
+    {
+      "sentence_id": 3,
+      "importance": 0.12370454519987106,
+      "sentence_text": "i would guess that the 486dx 50 ran temperatures inside the case even hotter",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "temperatures",
+          "token_pos": 8,
+          "word_score_logit": 0.06686314940452576,
+          "word_attn_weight": 0.0744631439447403
+        },
+        {
+          "rank": 1,
+          "token": "inside",
+          "token_pos": 9,
+          "word_score_logit": 0.04860716685652733,
+          "word_attn_weight": 0.07311607897281647
+        },
+        {
+          "rank": 2,
+          "token": "ran",
+          "token_pos": 7,
+          "word_score_logit": 0.04599504917860031,
+          "word_attn_weight": 0.07292534410953522
+        },
+        {
+          "rank": 3,
+          "token": "the",
+          "token_pos": 10,
+          "word_score_logit": 0.03408828750252724,
+          "word_attn_weight": 0.072062186896801
+        },
+        {
+          "rank": 4,
+          "token": "hotter",
+          "token_pos": 13,
+          "word_score_logit": 0.024553479626774788,
+          "word_attn_weight": 0.07137835770845413
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "systems",
+      "token_pos": 23,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.297399640083313,
+          "sentence_text": "es a couple other problems with the 486dx 50 1 system manufacturers had major problems solving the electromagnetic interference problems with 486dx 50 systems"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.217205211520195,
+          "sentence_text": "2 heat a lot of people seem to be installing heat sinks and or cooling fans on their 486dx2 66 chips"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "system",
+      "token_pos": 10,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.40694940090179443,
+          "sentence_text": "es a couple other problems with the 486dx 50 1 system manufacturers had major problems solving the electromagnetic interference problems with 486dx 50 systems"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.23413854837417603,
+          "sentence_text": "2 heat a lot of people seem to be installing heat sinks and or cooling fans on their 486dx2 66 chips"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "had",
+      "token_pos": 12,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.39746713638305664,
+          "sentence_text": "es a couple other problems with the 486dx 50 1 system manufacturers had major problems solving the electromagnetic interference problems with 486dx 50 systems"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.2358705997467041,
+          "sentence_text": "2 heat a lot of people seem to be installing heat sinks and or cooling fans on their 486dx2 66 chips"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "manufacturers",
+      "token_pos": 11,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.44114449620246887,
+          "sentence_text": "es a couple other problems with the 486dx 50 1 system manufacturers had major problems solving the electromagnetic interference problems with 486dx 50 systems"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.2453787922859192,
+          "sentence_text": "2 heat a lot of people seem to be installing heat sinks and or cooling fans on their 486dx2 66 chips"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "problems",
+      "token_pos": 14,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.391728937625885,
+          "sentence_text": "es a couple other problems with the 486dx 50 1 system manufacturers had major problems solving the electromagnetic interference problems with 486dx 50 systems"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.2334090769290924,
+          "sentence_text": "2 heat a lot of people seem to be installing heat sinks and or cooling fans on their 486dx2 66 chips"
+        }
+      ]
+    },
+    {
+      "query_id": 5,
+      "from_sentence_id": 1,
+      "token": "b",
+      "token_pos": 3,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.24479225277900696,
+          "sentence_text": "es a couple other problems with the 486dx 50 1 system manufacturers had major problems solving the electromagnetic interference problems with 486dx 50 systems"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.23105064034461975,
+          "sentence_text": "getting an fcc b home use certification required additional shielding in the system"
+        }
+      ]
+    },
+    {
+      "query_id": 6,
+      "from_sentence_id": 1,
+      "token": "system",
+      "token_pos": 12,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.26446905732154846,
+          "sentence_text": "es a couple other problems with the 486dx 50 1 system manufacturers had major problems solving the electromagnetic interference problems with 486dx 50 systems"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.2315388321876526,
+          "sentence_text": "getting an fcc b home use certification required additional shielding in the system"
+        }
+      ]
+    },
+    {
+      "query_id": 7,
+      "from_sentence_id": 1,
+      "token": "use",
+      "token_pos": 5,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.24401798844337463,
+          "sentence_text": "es a couple other problems with the 486dx 50 1 system manufacturers had major problems solving the electromagnetic interference problems with 486dx 50 systems"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.21059924364089966,
+          "sentence_text": "getting an fcc b home use certification required additional shielding in the system"
+        }
+      ]
+    },
+    {
+      "query_id": 8,
+      "from_sentence_id": 1,
+      "token": "required",
+      "token_pos": 7,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.2523561716079712,
+          "sentence_text": "es a couple other problems with the 486dx 50 1 system manufacturers had major problems solving the electromagnetic interference problems with 486dx 50 systems"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.224863201379776,
+          "sentence_text": "getting an fcc b home use certification required additional shielding in the system"
+        }
+      ]
+    },
+    {
+      "query_id": 9,
+      "from_sentence_id": 1,
+      "token": "home",
+      "token_pos": 4,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.2286522537469864,
+          "sentence_text": "es a couple other problems with the 486dx 50 1 system manufacturers had major problems solving the electromagnetic interference problems with 486dx 50 systems"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.22330616414546967,
+          "sentence_text": "getting an fcc b home use certification required additional shielding in the system"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_5332"
+}

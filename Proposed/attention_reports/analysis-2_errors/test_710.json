@@ -1,0 +1,381 @@
+{
+  "true_label_id": 19,
+  "pred_label_id": 0,
+  "true_label_name": "talk.religion.misc",
+  "pred_label_name": "alt.atheism",
+  "pred_confidence": 0.814195454120636,
+  "num_sents": 4,
+  "top_sentences": [
+    {
+      "sentence_id": 0,
+      "importance": 0.2612379789352417,
+      "sentence_text": "in other words the right of might",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "other",
+          "token_pos": 1,
+          "word_score_logit": 0.04825508967041969,
+          "word_attn_weight": 0.14395634829998016
+        },
+        {
+          "rank": 1,
+          "token": "the",
+          "token_pos": 3,
+          "word_score_logit": 0.0467599481344223,
+          "word_attn_weight": 0.14374126493930817
+        },
+        {
+          "rank": 2,
+          "token": "right",
+          "token_pos": 4,
+          "word_score_logit": 0.045564547181129456,
+          "word_attn_weight": 0.14356954395771027
+        },
+        {
+          "rank": 3,
+          "token": "in",
+          "token_pos": 0,
+          "word_score_logit": 0.03989013656973839,
+          "word_attn_weight": 0.14275717735290527
+        },
+        {
+          "rank": 4,
+          "token": "words",
+          "token_pos": 2,
+          "word_score_logit": 0.03975583240389824,
+          "word_attn_weight": 0.1427379995584488
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "importance": 0.2612379789352417,
+      "sentence_text": "in other words the right of might",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "other",
+          "token_pos": 1,
+          "word_score_logit": 0.04825508967041969,
+          "word_attn_weight": 0.14395634829998016
+        },
+        {
+          "rank": 1,
+          "token": "the",
+          "token_pos": 3,
+          "word_score_logit": 0.0467599481344223,
+          "word_attn_weight": 0.14374126493930817
+        },
+        {
+          "rank": 2,
+          "token": "right",
+          "token_pos": 4,
+          "word_score_logit": 0.045564547181129456,
+          "word_attn_weight": 0.14356954395771027
+        },
+        {
+          "rank": 3,
+          "token": "in",
+          "token_pos": 0,
+          "word_score_logit": 0.03989013656973839,
+          "word_attn_weight": 0.14275717735290527
+        },
+        {
+          "rank": 4,
+          "token": "words",
+          "token_pos": 2,
+          "word_score_logit": 0.03975583240389824,
+          "word_attn_weight": 0.1427379995584488
+        }
+      ]
+    },
+    {
+      "sentence_id": 2,
+      "importance": 0.25363942980766296,
+      "sentence_text": "in other words he can do it he did it and your in no position to argue about it",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "other",
+          "token_pos": 1,
+          "word_score_logit": 0.04093273729085922,
+          "word_attn_weight": 0.05396273359656334
+        },
+        {
+          "rank": 1,
+          "token": "no",
+          "token_pos": 13,
+          "word_score_logit": 0.034003257751464844,
+          "word_attn_weight": 0.053590092808008194
+        },
+        {
+          "rank": 2,
+          "token": "in",
+          "token_pos": 0,
+          "word_score_logit": 0.03162933886051178,
+          "word_attn_weight": 0.05346302315592766
+        },
+        {
+          "rank": 3,
+          "token": "he",
+          "token_pos": 3,
+          "word_score_logit": 0.030543465167284012,
+          "word_attn_weight": 0.05340500548481941
+        },
+        {
+          "rank": 4,
+          "token": "words",
+          "token_pos": 2,
+          "word_score_logit": 0.02918277308344841,
+          "word_attn_weight": 0.053332384675741196
+        }
+      ]
+    },
+    {
+      "sentence_id": 3,
+      "importance": 0.22388462722301483,
+      "sentence_text": "in other words you better do what this god wants you to do or else",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "other",
+          "token_pos": 1,
+          "word_score_logit": 0.028942132368683815,
+          "word_attn_weight": 0.06781646609306335
+        },
+        {
+          "rank": 1,
+          "token": "words",
+          "token_pos": 2,
+          "word_score_logit": 0.024059761315584183,
+          "word_attn_weight": 0.06748616695404053
+        },
+        {
+          "rank": 2,
+          "token": "else",
+          "token_pos": 14,
+          "word_score_logit": 0.021936532109975815,
+          "word_attn_weight": 0.06734303385019302
+        },
+        {
+          "rank": 3,
+          "token": "or",
+          "token_pos": 13,
+          "word_score_logit": 0.021222766488790512,
+          "word_attn_weight": 0.06729497760534286
+        },
+        {
+          "rank": 4,
+          "token": "do",
+          "token_pos": 5,
+          "word_score_logit": 0.0196882002055645,
+          "word_attn_weight": 0.06719178706407547
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "other",
+      "token_pos": 1,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.2718976140022278,
+          "sentence_text": "in other words the right of might"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.2718976140022278,
+          "sentence_text": "in other words the right of might"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "the",
+      "token_pos": 3,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.2890971302986145,
+          "sentence_text": "in other words the right of might"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.2890971302986145,
+          "sentence_text": "in other words the right of might"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "right",
+      "token_pos": 4,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.2809890806674957,
+          "sentence_text": "in other words the right of might"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.2809890806674957,
+          "sentence_text": "in other words the right of might"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "in",
+      "token_pos": 0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.2748221457004547,
+          "sentence_text": "in other words the right of might"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.2748221457004547,
+          "sentence_text": "in other words the right of might"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "words",
+      "token_pos": 2,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.2596263289451599,
+          "sentence_text": "in other words the right of might"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.2596263289451599,
+          "sentence_text": "in other words the right of might"
+        }
+      ]
+    },
+    {
+      "query_id": 5,
+      "from_sentence_id": 1,
+      "token": "other",
+      "token_pos": 1,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.2718976140022278,
+          "sentence_text": "in other words the right of might"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.2718976140022278,
+          "sentence_text": "in other words the right of might"
+        }
+      ]
+    },
+    {
+      "query_id": 6,
+      "from_sentence_id": 1,
+      "token": "the",
+      "token_pos": 3,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.2890971302986145,
+          "sentence_text": "in other words the right of might"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.2890971302986145,
+          "sentence_text": "in other words the right of might"
+        }
+      ]
+    },
+    {
+      "query_id": 7,
+      "from_sentence_id": 1,
+      "token": "right",
+      "token_pos": 4,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.2809890806674957,
+          "sentence_text": "in other words the right of might"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.2809890806674957,
+          "sentence_text": "in other words the right of might"
+        }
+      ]
+    },
+    {
+      "query_id": 8,
+      "from_sentence_id": 1,
+      "token": "in",
+      "token_pos": 0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.2748221457004547,
+          "sentence_text": "in other words the right of might"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.2748221457004547,
+          "sentence_text": "in other words the right of might"
+        }
+      ]
+    },
+    {
+      "query_id": 9,
+      "from_sentence_id": 1,
+      "token": "words",
+      "token_pos": 2,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.2596263289451599,
+          "sentence_text": "in other words the right of might"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.2596263289451599,
+          "sentence_text": "in other words the right of might"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_710"
+}

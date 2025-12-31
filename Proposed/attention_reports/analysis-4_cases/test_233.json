@@ -1,0 +1,81 @@
+{
+  "example_id": "test_233",
+  "true_label_id": 17,
+  "pred_label_id": 8,
+  "true_label_name": "talk.politics.mideast",
+  "pred_label_name": "rec.motorcycles",
+  "pred_confidence": 0.4577346444129944,
+  "metrics": {
+    "num_sents": 1,
+    "K": 5,
+    "stop_ratio": 0.6,
+    "unk_ratio": 0.0,
+    "num_ratio": 0.0,
+    "content_ratio": 0.4,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 0.0,
+    "sentence_importance_entropy": -0.0,
+    "sentence_importance_max": 1.0,
+    "top_sentence_id": 0,
+    "query_mismatch_rate": 0.0,
+    "selected_quality_counts": {
+      "stopword": 3,
+      "content_word": 2
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.36,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 1.0,
+    "D_local_global_conflict": 0.0,
+    "E_overconfident_error": 0.4577346444129944
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "what say you and nick go somewhere else with this <UNK> yard crap"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "what",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.027833783999085426,
+          "word_attn_weight": 0.0786350816488266
+        },
+        {
+          "token": "with",
+          "token_pos": 8,
+          "quality": "stopword",
+          "word_score_logit": 0.020187009125947952,
+          "word_attn_weight": 0.07803606986999512
+        },
+        {
+          "token": "say",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.019061889499425888,
+          "word_attn_weight": 0.07794831693172455
+        },
+        {
+          "token": "else",
+          "token_pos": 7,
+          "quality": "stopword",
+          "word_score_logit": 0.012803338468074799,
+          "word_attn_weight": 0.07746199518442154
+        },
+        {
+          "token": "yard",
+          "token_pos": 11,
+          "quality": "content_word",
+          "word_score_logit": 0.009324578568339348,
+          "word_attn_weight": 0.0771929994225502
+        }
+      ]
+    ],
+    "top_sentence_id": 0,
+    "sentence_importance_distribution": [
+      1.0
+    ]
+  }
+}

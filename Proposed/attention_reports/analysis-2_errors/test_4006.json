@@ -1,0 +1,297 @@
+{
+  "true_label_id": 3,
+  "pred_label_id": 2,
+  "true_label_name": "comp.sys.ibm.pc.hardware",
+  "pred_label_name": "comp.os.ms-windows.misc",
+  "pred_confidence": 0.983355700969696,
+  "num_sents": 2,
+  "top_sentences": [
+    {
+      "sentence_id": 0,
+      "importance": 0.676636815071106,
+      "sentence_text": "did you ever notice that 99 of all the problems are from people that run windows",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "windows",
+          "token_pos": 15,
+          "word_score_logit": 0.10310684144496918,
+          "word_attn_weight": 0.06663960963487625
+        },
+        {
+          "rank": 1,
+          "token": "99",
+          "token_pos": 5,
+          "word_score_logit": 0.07341588288545609,
+          "word_attn_weight": 0.06469010561704636
+        },
+        {
+          "rank": 2,
+          "token": "notice",
+          "token_pos": 3,
+          "word_score_logit": 0.05718376114964485,
+          "word_attn_weight": 0.063648521900177
+        },
+        {
+          "rank": 3,
+          "token": "that",
+          "token_pos": 4,
+          "word_score_logit": 0.05072519928216934,
+          "word_attn_weight": 0.06323876231908798
+        },
+        {
+          "rank": 4,
+          "token": "did",
+          "token_pos": 0,
+          "word_score_logit": 0.045235924422740936,
+          "word_attn_weight": 0.06289258599281311
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "importance": 0.3233632445335388,
+      "sentence_text": "thanks ms",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "ms",
+          "token_pos": 1,
+          "word_score_logit": 0.04493516683578491,
+          "word_attn_weight": 0.5075250864028931
+        },
+        {
+          "rank": 1,
+          "token": "thanks",
+          "token_pos": 0,
+          "word_score_logit": 0.014832544140517712,
+          "word_attn_weight": 0.49247491359710693
+        },
+        {
+          "rank": 2,
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 3,
+          "token": "<PAD/OUT>",
+          "token_pos": 3,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 4,
+          "token": "<PAD/OUT>",
+          "token_pos": 2,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "windows",
+      "token_pos": 15,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5973508358001709,
+          "sentence_text": "did you ever notice that 99 of all the problems are from people that run windows"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.4026491641998291,
+          "sentence_text": "thanks ms"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "99",
+      "token_pos": 5,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6935181021690369,
+          "sentence_text": "did you ever notice that 99 of all the problems are from people that run windows"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.3064819574356079,
+          "sentence_text": "thanks ms"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "notice",
+      "token_pos": 3,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.7295395135879517,
+          "sentence_text": "did you ever notice that 99 of all the problems are from people that run windows"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.27046042680740356,
+          "sentence_text": "thanks ms"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "that",
+      "token_pos": 4,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6700209975242615,
+          "sentence_text": "did you ever notice that 99 of all the problems are from people that run windows"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.3299790024757385,
+          "sentence_text": "thanks ms"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "did",
+      "token_pos": 0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.7864144444465637,
+          "sentence_text": "did you ever notice that 99 of all the problems are from people that run windows"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.2135855257511139,
+          "sentence_text": "thanks ms"
+        }
+      ]
+    },
+    {
+      "query_id": 5,
+      "from_sentence_id": 1,
+      "token": "ms",
+      "token_pos": 1,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.7665815949440002,
+          "sentence_text": "did you ever notice that 99 of all the problems are from people that run windows"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.23341839015483856,
+          "sentence_text": "thanks ms"
+        }
+      ]
+    },
+    {
+      "query_id": 6,
+      "from_sentence_id": 1,
+      "token": "thanks",
+      "token_pos": 0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6610976457595825,
+          "sentence_text": "did you ever notice that 99 of all the problems are from people that run windows"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.3389023542404175,
+          "sentence_text": "thanks ms"
+        }
+      ]
+    },
+    {
+      "query_id": 7,
+      "from_sentence_id": 1,
+      "token": "<PAD/OUT>",
+      "token_pos": 4,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6206148266792297,
+          "sentence_text": "did you ever notice that 99 of all the problems are from people that run windows"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.37938517332077026,
+          "sentence_text": "thanks ms"
+        }
+      ]
+    },
+    {
+      "query_id": 8,
+      "from_sentence_id": 1,
+      "token": "<PAD/OUT>",
+      "token_pos": 3,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6206148266792297,
+          "sentence_text": "did you ever notice that 99 of all the problems are from people that run windows"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.37938517332077026,
+          "sentence_text": "thanks ms"
+        }
+      ]
+    },
+    {
+      "query_id": 9,
+      "from_sentence_id": 1,
+      "token": "<PAD/OUT>",
+      "token_pos": 2,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6206148266792297,
+          "sentence_text": "did you ever notice that 99 of all the problems are from people that run windows"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.37938517332077026,
+          "sentence_text": "thanks ms"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_4006"
+}

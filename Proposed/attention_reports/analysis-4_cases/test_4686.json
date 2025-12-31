@@ -1,0 +1,80 @@
+{
+  "example_id": "test_4686",
+  "true_label_id": 9,
+  "pred_label_id": 19,
+  "true_label_name": "rec.sport.baseball",
+  "pred_label_name": "talk.religion.misc",
+  "pred_confidence": 0.30298760533332825,
+  "metrics": {
+    "num_sents": 1,
+    "K": 5,
+    "stop_ratio": 1.0,
+    "unk_ratio": 0.0,
+    "num_ratio": 0.0,
+    "content_ratio": 0.0,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 0.0,
+    "sentence_importance_entropy": -0.0,
+    "sentence_importance_max": 1.0,
+    "top_sentence_id": 0,
+    "query_mismatch_rate": 0.0,
+    "selected_quality_counts": {
+      "stopword": 5
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.6,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 1.0,
+    "D_local_global_conflict": 0.0,
+    "E_overconfident_error": 0.30298760533332825
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "as will i and the ultimate <UNK>"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "as",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.01588810794055462,
+          "word_attn_weight": 0.14434921741485596
+        },
+        {
+          "token": "the",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": 0.009460792876780033,
+          "word_attn_weight": 0.14342442154884338
+        },
+        {
+          "token": "and",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": 0.008802817203104496,
+          "word_attn_weight": 0.14333008229732513
+        },
+        {
+          "token": "will",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.00695856474339962,
+          "word_attn_weight": 0.14306598901748657
+        },
+        {
+          "token": "i",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.0067322514951229095,
+          "word_attn_weight": 0.14303362369537354
+        }
+      ]
+    ],
+    "top_sentence_id": 0,
+    "sentence_importance_distribution": [
+      1.0
+    ]
+  }
+}

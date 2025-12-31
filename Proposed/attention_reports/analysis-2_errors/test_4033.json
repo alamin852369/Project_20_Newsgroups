@@ -1,0 +1,381 @@
+{
+  "true_label_id": 4,
+  "pred_label_id": 12,
+  "true_label_name": "comp.sys.mac.hardware",
+  "pred_label_name": "sci.electronics",
+  "pred_confidence": 0.9248893857002258,
+  "num_sents": 4,
+  "top_sentences": [
+    {
+      "sentence_id": 1,
+      "importance": 0.4158553183078766,
+      "sentence_text": "i was wondering if anyone might have some schematic or at least some ideas on how to make some sort of simple appletalk repeater",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "repeater",
+          "token_pos": 23,
+          "word_score_logit": 0.07140953093767166,
+          "word_attn_weight": 0.043566782027482986
+        },
+        {
+          "rank": 1,
+          "token": "might",
+          "token_pos": 5,
+          "word_score_logit": 0.05894029885530472,
+          "word_attn_weight": 0.04302690923213959
+        },
+        {
+          "rank": 2,
+          "token": "anyone",
+          "token_pos": 4,
+          "word_score_logit": 0.056802522391080856,
+          "word_attn_weight": 0.042935024946928024
+        },
+        {
+          "rank": 3,
+          "token": "have",
+          "token_pos": 6,
+          "word_score_logit": 0.047186899930238724,
+          "word_attn_weight": 0.04252415895462036
+        },
+        {
+          "rank": 4,
+          "token": "wondering",
+          "token_pos": 2,
+          "word_score_logit": 0.04695013165473938,
+          "word_attn_weight": 0.04251408949494362
+        }
+      ]
+    },
+    {
+      "sentence_id": 2,
+      "importance": 0.278007835149765,
+      "sentence_text": "i'm not so interested in making actual zones and zone names just a way to isolate different branches of the network",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "zone",
+          "token_pos": 9,
+          "word_score_logit": 0.07574575394392014,
+          "word_attn_weight": 0.050189804285764694
+        },
+        {
+          "rank": 1,
+          "token": "names",
+          "token_pos": 10,
+          "word_score_logit": 0.07336430251598358,
+          "word_attn_weight": 0.050070423632860184
+        },
+        {
+          "rank": 2,
+          "token": "and",
+          "token_pos": 8,
+          "word_score_logit": 0.054556261748075485,
+          "word_attn_weight": 0.04913749545812607
+        },
+        {
+          "rank": 3,
+          "token": "zones",
+          "token_pos": 7,
+          "word_score_logit": 0.04628843814134598,
+          "word_attn_weight": 0.048732906579971313
+        },
+        {
+          "rank": 4,
+          "token": "actual",
+          "token_pos": 6,
+          "word_score_logit": 0.03525141626596451,
+          "word_attn_weight": 0.04819800332188606
+        }
+      ]
+    },
+    {
+      "sentence_id": 0,
+      "importance": 0.21870486438274384,
+      "sentence_text": "i have a small network running in my dorm at school and i am kind of worried about the length of the wires and the way that i have run it",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "running",
+          "token_pos": 5,
+          "word_score_logit": 0.08615687489509583,
+          "word_attn_weight": 0.033558521419763565
+        },
+        {
+          "rank": 1,
+          "token": "in",
+          "token_pos": 6,
+          "word_score_logit": 0.08205243200063705,
+          "word_attn_weight": 0.03342106565833092
+        },
+        {
+          "rank": 2,
+          "token": "dorm",
+          "token_pos": 8,
+          "word_score_logit": 0.0720440223813057,
+          "word_attn_weight": 0.03308824077248573
+        },
+        {
+          "rank": 3,
+          "token": "network",
+          "token_pos": 4,
+          "word_score_logit": 0.06607016175985336,
+          "word_attn_weight": 0.0328911654651165
+        },
+        {
+          "rank": 4,
+          "token": "at",
+          "token_pos": 9,
+          "word_score_logit": 0.06365414708852768,
+          "word_attn_weight": 0.03281179815530777
+        }
+      ]
+    },
+    {
+      "sentence_id": 3,
+      "importance": 0.08743201196193695,
+      "sentence_text": "does anyone have any ideas on what could be done",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "anyone",
+          "token_pos": 1,
+          "word_score_logit": 0.02511487901210785,
+          "word_attn_weight": 0.10140914469957352
+        },
+        {
+          "rank": 1,
+          "token": "does",
+          "token_pos": 0,
+          "word_score_logit": 0.02479376085102558,
+          "word_attn_weight": 0.10137658566236496
+        },
+        {
+          "rank": 2,
+          "token": "any",
+          "token_pos": 3,
+          "word_score_logit": 0.01785622537136078,
+          "word_attn_weight": 0.10067571699619293
+        },
+        {
+          "rank": 3,
+          "token": "could",
+          "token_pos": 7,
+          "word_score_logit": 0.016863953322172165,
+          "word_attn_weight": 0.10057585686445236
+        },
+        {
+          "rank": 4,
+          "token": "be",
+          "token_pos": 8,
+          "word_score_logit": 0.014909159392118454,
+          "word_attn_weight": 0.10037945210933685
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 5,
+      "from_sentence_id": 1,
+      "token": "repeater",
+      "token_pos": 23,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.5495738983154297,
+          "sentence_text": "i was wondering if anyone might have some schematic or at least some ideas on how to make some sort of simple appletalk repeater"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.26592257618904114,
+          "sentence_text": "i have a small network running in my dorm at school and i am kind of worried about the length of the wires and the way that i have run it"
+        }
+      ]
+    },
+    {
+      "query_id": 6,
+      "from_sentence_id": 1,
+      "token": "might",
+      "token_pos": 5,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.5209420919418335,
+          "sentence_text": "i was wondering if anyone might have some schematic or at least some ideas on how to make some sort of simple appletalk repeater"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.24511884152889252,
+          "sentence_text": "i have a small network running in my dorm at school and i am kind of worried about the length of the wires and the way that i have run it"
+        }
+      ]
+    },
+    {
+      "query_id": 7,
+      "from_sentence_id": 1,
+      "token": "anyone",
+      "token_pos": 4,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.5249009132385254,
+          "sentence_text": "i was wondering if anyone might have some schematic or at least some ideas on how to make some sort of simple appletalk repeater"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.2450229674577713,
+          "sentence_text": "i have a small network running in my dorm at school and i am kind of worried about the length of the wires and the way that i have run it"
+        }
+      ]
+    },
+    {
+      "query_id": 8,
+      "from_sentence_id": 1,
+      "token": "have",
+      "token_pos": 6,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.5112755298614502,
+          "sentence_text": "i was wondering if anyone might have some schematic or at least some ideas on how to make some sort of simple appletalk repeater"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.25380739569664,
+          "sentence_text": "i have a small network running in my dorm at school and i am kind of worried about the length of the wires and the way that i have run it"
+        }
+      ]
+    },
+    {
+      "query_id": 9,
+      "from_sentence_id": 1,
+      "token": "wondering",
+      "token_pos": 2,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.5075712203979492,
+          "sentence_text": "i was wondering if anyone might have some schematic or at least some ideas on how to make some sort of simple appletalk repeater"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.2592179775238037,
+          "sentence_text": "i have a small network running in my dorm at school and i am kind of worried about the length of the wires and the way that i have run it"
+        }
+      ]
+    },
+    {
+      "query_id": 10,
+      "from_sentence_id": 2,
+      "token": "zone",
+      "token_pos": 9,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.4538517892360687,
+          "sentence_text": "i'm not so interested in making actual zones and zone names just a way to isolate different branches of the network"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.3225044310092926,
+          "sentence_text": "i was wondering if anyone might have some schematic or at least some ideas on how to make some sort of simple appletalk repeater"
+        }
+      ]
+    },
+    {
+      "query_id": 11,
+      "from_sentence_id": 2,
+      "token": "names",
+      "token_pos": 10,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.4604358971118927,
+          "sentence_text": "i'm not so interested in making actual zones and zone names just a way to isolate different branches of the network"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.3340805768966675,
+          "sentence_text": "i was wondering if anyone might have some schematic or at least some ideas on how to make some sort of simple appletalk repeater"
+        }
+      ]
+    },
+    {
+      "query_id": 12,
+      "from_sentence_id": 2,
+      "token": "and",
+      "token_pos": 8,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.4201259911060333,
+          "sentence_text": "i'm not so interested in making actual zones and zone names just a way to isolate different branches of the network"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.31221574544906616,
+          "sentence_text": "i was wondering if anyone might have some schematic or at least some ideas on how to make some sort of simple appletalk repeater"
+        }
+      ]
+    },
+    {
+      "query_id": 13,
+      "from_sentence_id": 2,
+      "token": "zones",
+      "token_pos": 7,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.4530157744884491,
+          "sentence_text": "i'm not so interested in making actual zones and zone names just a way to isolate different branches of the network"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.3270711898803711,
+          "sentence_text": "i was wondering if anyone might have some schematic or at least some ideas on how to make some sort of simple appletalk repeater"
+        }
+      ]
+    },
+    {
+      "query_id": 14,
+      "from_sentence_id": 2,
+      "token": "actual",
+      "token_pos": 6,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.37009191513061523,
+          "sentence_text": "i'm not so interested in making actual zones and zone names just a way to isolate different branches of the network"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.33525025844573975,
+          "sentence_text": "i was wondering if anyone might have some schematic or at least some ideas on how to make some sort of simple appletalk repeater"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_4033"
+}

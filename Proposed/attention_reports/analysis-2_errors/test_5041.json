@@ -1,0 +1,297 @@
+{
+  "true_label_id": 10,
+  "pred_label_id": 9,
+  "true_label_name": "rec.sport.hockey",
+  "pred_label_name": "rec.sport.baseball",
+  "pred_confidence": 0.17801272869110107,
+  "num_sents": 2,
+  "top_sentences": [
+    {
+      "sentence_id": 0,
+      "importance": 0.6040520071983337,
+      "sentence_text": "roger shut up",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "roger",
+          "token_pos": 0,
+          "word_score_logit": 0.0322452187538147,
+          "word_attn_weight": 0.33959731459617615
+        },
+        {
+          "rank": 1,
+          "token": "up",
+          "token_pos": 2,
+          "word_score_logit": 0.014304164797067642,
+          "word_attn_weight": 0.3335588872432709
+        },
+        {
+          "rank": 2,
+          "token": "shut",
+          "token_pos": 1,
+          "word_score_logit": -0.006033102050423622,
+          "word_attn_weight": 0.3268437683582306
+        },
+        {
+          "rank": 3,
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 4,
+          "token": "<PAD/OUT>",
+          "token_pos": 3,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "importance": 0.39594799280166626,
+      "sentence_text": "thank you",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "thank",
+          "token_pos": 0,
+          "word_score_logit": 0.01151201780885458,
+          "word_attn_weight": 0.5041844844818115
+        },
+        {
+          "rank": 1,
+          "token": "you",
+          "token_pos": 1,
+          "word_score_logit": -0.005226251669228077,
+          "word_attn_weight": 0.49581554532051086
+        },
+        {
+          "rank": 2,
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 3,
+          "token": "<PAD/OUT>",
+          "token_pos": 3,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 4,
+          "token": "<PAD/OUT>",
+          "token_pos": 2,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "roger",
+      "token_pos": 0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6536641120910645,
+          "sentence_text": "roger shut up"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.34633582830429077,
+          "sentence_text": "thank you"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "up",
+      "token_pos": 2,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.635683000087738,
+          "sentence_text": "roger shut up"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.36431699991226196,
+          "sentence_text": "thank you"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "shut",
+      "token_pos": 1,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6695573925971985,
+          "sentence_text": "roger shut up"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.3304425776004791,
+          "sentence_text": "thank you"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "<PAD/OUT>",
+      "token_pos": 4,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5737467408180237,
+          "sentence_text": "roger shut up"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.4262532591819763,
+          "sentence_text": "thank you"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "<PAD/OUT>",
+      "token_pos": 3,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5737467408180237,
+          "sentence_text": "roger shut up"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.4262532591819763,
+          "sentence_text": "thank you"
+        }
+      ]
+    },
+    {
+      "query_id": 5,
+      "from_sentence_id": 1,
+      "token": "thank",
+      "token_pos": 0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6037846803665161,
+          "sentence_text": "roger shut up"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.3962152600288391,
+          "sentence_text": "thank you"
+        }
+      ]
+    },
+    {
+      "query_id": 6,
+      "from_sentence_id": 1,
+      "token": "you",
+      "token_pos": 1,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6090970635414124,
+          "sentence_text": "roger shut up"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.39090293645858765,
+          "sentence_text": "thank you"
+        }
+      ]
+    },
+    {
+      "query_id": 7,
+      "from_sentence_id": 1,
+      "token": "<PAD/OUT>",
+      "token_pos": 4,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5737467408180237,
+          "sentence_text": "roger shut up"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.4262532591819763,
+          "sentence_text": "thank you"
+        }
+      ]
+    },
+    {
+      "query_id": 8,
+      "from_sentence_id": 1,
+      "token": "<PAD/OUT>",
+      "token_pos": 3,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5737467408180237,
+          "sentence_text": "roger shut up"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.4262532591819763,
+          "sentence_text": "thank you"
+        }
+      ]
+    },
+    {
+      "query_id": 9,
+      "from_sentence_id": 1,
+      "token": "<PAD/OUT>",
+      "token_pos": 2,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5737467408180237,
+          "sentence_text": "roger shut up"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.4262532591819763,
+          "sentence_text": "thank you"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_5041"
+}

@@ -1,0 +1,120 @@
+{
+  "example_id": "test_29",
+  "true_label_id": 3,
+  "pred_label_id": 7,
+  "true_label_name": "comp.sys.ibm.pc.hardware",
+  "pred_label_name": "rec.autos",
+  "pred_confidence": 0.4537023603916168,
+  "metrics": {
+    "num_sents": 2,
+    "K": 5,
+    "stop_ratio": 0.1,
+    "unk_ratio": 0.0,
+    "num_ratio": 0.0,
+    "content_ratio": 0.9,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 0.6866388916969299,
+    "sentence_importance_entropy": 0.6886491775512695,
+    "sentence_importance_max": 0.5473881959915161,
+    "top_sentence_id": 1,
+    "query_mismatch_rate": 0.5,
+    "selected_quality_counts": {
+      "content_word": 9,
+      "stopword": 1
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.06,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.5454419016838074,
+    "D_local_global_conflict": 0.5,
+    "E_overconfident_error": 0.4537023603916168
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "i don't know about canada but i have heard from people doing translation work in <UNK> new <UNK> that they like them and have had good response on service",
+      "another is seriously considering buying one"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "service",
+          "token_pos": 28,
+          "quality": "content_word",
+          "word_score_logit": 0.05601651221513748,
+          "word_attn_weight": 0.03680809959769249
+        },
+        {
+          "token": "had",
+          "token_pos": 24,
+          "quality": "content_word",
+          "word_score_logit": 0.015050516463816166,
+          "word_attn_weight": 0.03533068671822548
+        },
+        {
+          "token": "have",
+          "token_pos": 23,
+          "quality": "content_word",
+          "word_score_logit": 0.011538494378328323,
+          "word_attn_weight": 0.03520682454109192
+        },
+        {
+          "token": "response",
+          "token_pos": 26,
+          "quality": "content_word",
+          "word_score_logit": 0.008493000641465187,
+          "word_attn_weight": 0.03509976714849472
+        },
+        {
+          "token": "new",
+          "token_pos": 16,
+          "quality": "content_word",
+          "word_score_logit": 0.008409125730395317,
+          "word_attn_weight": 0.035096824169158936
+        }
+      ],
+      [
+        {
+          "token": "one",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.018170204013586044,
+          "word_attn_weight": 0.17160435020923615
+        },
+        {
+          "token": "another",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": 0.009560579434037209,
+          "word_attn_weight": 0.17013323307037354
+        },
+        {
+          "token": "is",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.004476170055568218,
+          "word_attn_weight": 0.16927041113376617
+        },
+        {
+          "token": "buying",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": -0.0275738425552845,
+          "word_attn_weight": 0.16393131017684937
+        },
+        {
+          "token": "seriously",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": -0.03296089172363281,
+          "word_attn_weight": 0.163050577044487
+        }
+      ]
+    ],
+    "top_sentence_id": 1,
+    "sentence_importance_distribution": [
+      0.4526118338108063,
+      0.5473881959915161
+    ]
+  }
+}

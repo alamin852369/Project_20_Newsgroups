@@ -1,0 +1,965 @@
+{
+  "true_label_id": 1,
+  "pred_label_id": 12,
+  "true_label_name": "comp.graphics",
+  "pred_label_name": "sci.electronics",
+  "pred_confidence": 0.6024962067604065,
+  "num_sents": 5,
+  "sentence_summaries": [
+    {
+      "sentence_id": 0,
+      "sentence_text": "hello i'm interested in those devices too",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "devices",
+          "token_pos": 5,
+          "word_score_logit": 0.06919185817241669,
+          "word_attn_weight": 0.14944541454315186
+        },
+        {
+          "rank": 1,
+          "token": "too",
+          "token_pos": 6,
+          "word_score_logit": 0.035375308245420456,
+          "word_attn_weight": 0.14447619020938873
+        },
+        {
+          "rank": 2,
+          "token": "in",
+          "token_pos": 3,
+          "word_score_logit": 0.030906494706869125,
+          "word_attn_weight": 0.1438319981098175
+        },
+        {
+          "rank": 3,
+          "token": "i'm",
+          "token_pos": 1,
+          "word_score_logit": 0.015513129532337189,
+          "word_attn_weight": 0.14163488149642944
+        },
+        {
+          "rank": 4,
+          "token": "interested",
+          "token_pos": 2,
+          "word_score_logit": 0.013107484206557274,
+          "word_attn_weight": 0.14129456877708435
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "sentence_text": "could also send me your suggestions",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "also",
+          "token_pos": 1,
+          "word_score_logit": 0.04579881578683853,
+          "word_attn_weight": 0.1712052822113037
+        },
+        {
+          "rank": 1,
+          "token": "could",
+          "token_pos": 0,
+          "word_score_logit": 0.04059220850467682,
+          "word_attn_weight": 0.1703161895275116
+        },
+        {
+          "rank": 2,
+          "token": "send",
+          "token_pos": 2,
+          "word_score_logit": 0.03348518908023834,
+          "word_attn_weight": 0.16911005973815918
+        },
+        {
+          "rank": 3,
+          "token": "me",
+          "token_pos": 3,
+          "word_score_logit": 0.00765082985162735,
+          "word_attn_weight": 0.16479714214801788
+        },
+        {
+          "rank": 4,
+          "token": "your",
+          "token_pos": 4,
+          "word_score_logit": -0.005424413830041885,
+          "word_attn_weight": 0.16265641152858734
+        }
+      ]
+    },
+    {
+      "sentence_id": 2,
+      "sentence_text": "thank in advance",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "advance",
+          "token_pos": 2,
+          "word_score_logit": 0.016753410920500755,
+          "word_attn_weight": 0.3350585997104645
+        },
+        {
+          "rank": 1,
+          "token": "in",
+          "token_pos": 1,
+          "word_score_logit": 0.01123557984828949,
+          "word_attn_weight": 0.3332148790359497
+        },
+        {
+          "rank": 2,
+          "token": "thank",
+          "token_pos": 0,
+          "word_score_logit": 0.0067587923258543015,
+          "word_attn_weight": 0.3317264914512634
+        },
+        {
+          "rank": 3,
+          "token": "<PAD>",
+          "token_pos": 4,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 4,
+          "token": "<PAD>",
+          "token_pos": 3,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    },
+    {
+      "sentence_id": 3,
+      "sentence_text": "regards",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "regards",
+          "token_pos": 0,
+          "word_score_logit": -0.01618078351020813,
+          "word_attn_weight": 1.0
+        },
+        {
+          "rank": 1,
+          "token": "<PAD>",
+          "token_pos": 3,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 2,
+          "token": "<PAD>",
+          "token_pos": 1,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 3,
+          "token": "<PAD>",
+          "token_pos": 4,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 4,
+          "token": "<PAD>",
+          "token_pos": 2,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    },
+    {
+      "sentence_id": 4,
+      "sentence_text": "<UNK>",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "<UNK>",
+          "token_pos": 0,
+          "word_score_logit": 0.0027645998634397984,
+          "word_attn_weight": 1.0
+        },
+        {
+          "rank": 1,
+          "token": "<PAD>",
+          "token_pos": 3,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 2,
+          "token": "<PAD>",
+          "token_pos": 1,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 3,
+          "token": "<PAD>",
+          "token_pos": 4,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 4,
+          "token": "<PAD>",
+          "token_pos": 2,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    }
+  ],
+  "query_summaries": [
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "devices",
+      "token_pos": 5,
+      "word_score_logit": 0.06919185817241669,
+      "word_attn_weight": 0.14944541454315186,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.45318031311035156,
+          "sentence_text": "hello i'm interested in those devices too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 4,
+          "attn_weight": 0.16946931183338165,
+          "sentence_text": "<UNK>"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.144016832113266,
+          "sentence_text": "regards"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "too",
+      "token_pos": 6,
+      "word_score_logit": 0.035375308245420456,
+      "word_attn_weight": 0.14447619020938873,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.32863229513168335,
+          "sentence_text": "hello i'm interested in those devices too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.20059455931186676,
+          "sentence_text": "regards"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.1929260492324829,
+          "sentence_text": "<UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "in",
+      "token_pos": 3,
+      "word_score_logit": 0.030906494706869125,
+      "word_attn_weight": 0.1438319981098175,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.3717435598373413,
+          "sentence_text": "hello i'm interested in those devices too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 4,
+          "attn_weight": 0.18893790245056152,
+          "sentence_text": "<UNK>"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.18218305706977844,
+          "sentence_text": "regards"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "i'm",
+      "token_pos": 1,
+      "word_score_logit": 0.015513129532337189,
+      "word_attn_weight": 0.14163488149642944,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.3670835494995117,
+          "sentence_text": "hello i'm interested in those devices too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 4,
+          "attn_weight": 0.1890033334493637,
+          "sentence_text": "<UNK>"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.16518253087997437,
+          "sentence_text": "regards"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "interested",
+      "token_pos": 2,
+      "word_score_logit": 0.013107484206557274,
+      "word_attn_weight": 0.14129456877708435,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.3701501488685608,
+          "sentence_text": "hello i'm interested in those devices too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 4,
+          "attn_weight": 0.1907636821269989,
+          "sentence_text": "<UNK>"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 3,
+          "attn_weight": 0.16293218731880188,
+          "sentence_text": "regards"
+        }
+      ]
+    },
+    {
+      "query_id": 5,
+      "from_sentence_id": 1,
+      "token": "also",
+      "token_pos": 1,
+      "word_score_logit": 0.04579881578683853,
+      "word_attn_weight": 0.1712052822113037,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.27976977825164795,
+          "sentence_text": "hello i'm interested in those devices too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.207645982503891,
+          "sentence_text": "regards"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.20374202728271484,
+          "sentence_text": "<UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 6,
+      "from_sentence_id": 1,
+      "token": "could",
+      "token_pos": 0,
+      "word_score_logit": 0.04059220850467682,
+      "word_attn_weight": 0.1703161895275116,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.2954626679420471,
+          "sentence_text": "hello i'm interested in those devices too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.2104913294315338,
+          "sentence_text": "regards"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.2006109207868576,
+          "sentence_text": "<UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 7,
+      "from_sentence_id": 1,
+      "token": "send",
+      "token_pos": 2,
+      "word_score_logit": 0.03348518908023834,
+      "word_attn_weight": 0.16911005973815918,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.2817685306072235,
+          "sentence_text": "hello i'm interested in those devices too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.20906072854995728,
+          "sentence_text": "regards"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.2040000557899475,
+          "sentence_text": "<UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 8,
+      "from_sentence_id": 1,
+      "token": "me",
+      "token_pos": 3,
+      "word_score_logit": 0.00765082985162735,
+      "word_attn_weight": 0.16479714214801788,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.2545998692512512,
+          "sentence_text": "hello i'm interested in those devices too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.20914076268672943,
+          "sentence_text": "regards"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.20590521395206451,
+          "sentence_text": "<UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 9,
+      "from_sentence_id": 1,
+      "token": "your",
+      "token_pos": 4,
+      "word_score_logit": -0.005424413830041885,
+      "word_attn_weight": 0.16265641152858734,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.2706136107444763,
+          "sentence_text": "hello i'm interested in those devices too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.21291813254356384,
+          "sentence_text": "regards"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.20555362105369568,
+          "sentence_text": "<UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 10,
+      "from_sentence_id": 2,
+      "token": "advance",
+      "token_pos": 2,
+      "word_score_logit": 0.016753410920500755,
+      "word_attn_weight": 0.3350585997104645,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.23340736329555511,
+          "sentence_text": "hello i'm interested in those devices too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.2111700475215912,
+          "sentence_text": "regards"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.20236408710479736,
+          "sentence_text": "<UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 11,
+      "from_sentence_id": 2,
+      "token": "in",
+      "token_pos": 1,
+      "word_score_logit": 0.01123557984828949,
+      "word_attn_weight": 0.3332148790359497,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.24049127101898193,
+          "sentence_text": "hello i'm interested in those devices too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.2222456932067871,
+          "sentence_text": "regards"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.20216156542301178,
+          "sentence_text": "<UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 12,
+      "from_sentence_id": 2,
+      "token": "thank",
+      "token_pos": 0,
+      "word_score_logit": 0.0067587923258543015,
+      "word_attn_weight": 0.3317264914512634,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.24759745597839355,
+          "sentence_text": "hello i'm interested in those devices too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.22302128374576569,
+          "sentence_text": "regards"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.20238913595676422,
+          "sentence_text": "<UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 13,
+      "from_sentence_id": 2,
+      "token": "<PAD>",
+      "token_pos": 4,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.23082515597343445,
+          "sentence_text": "hello i'm interested in those devices too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.20972293615341187,
+          "sentence_text": "regards"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.2024693489074707,
+          "sentence_text": "<UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 14,
+      "from_sentence_id": 2,
+      "token": "<PAD>",
+      "token_pos": 3,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.23082515597343445,
+          "sentence_text": "hello i'm interested in those devices too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.20972293615341187,
+          "sentence_text": "regards"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.2024693489074707,
+          "sentence_text": "<UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 15,
+      "from_sentence_id": 3,
+      "token": "regards",
+      "token_pos": 0,
+      "word_score_logit": -0.01618078351020813,
+      "word_attn_weight": 1.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.2679993808269501,
+          "sentence_text": "regards"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.20581868290901184,
+          "sentence_text": "hello i'm interested in those devices too"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.19425231218338013,
+          "sentence_text": "<UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 16,
+      "from_sentence_id": 3,
+      "token": "<PAD>",
+      "token_pos": 3,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.23082515597343445,
+          "sentence_text": "hello i'm interested in those devices too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.20972293615341187,
+          "sentence_text": "regards"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.2024693489074707,
+          "sentence_text": "<UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 17,
+      "from_sentence_id": 3,
+      "token": "<PAD>",
+      "token_pos": 1,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.23082515597343445,
+          "sentence_text": "hello i'm interested in those devices too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.20972293615341187,
+          "sentence_text": "regards"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.2024693489074707,
+          "sentence_text": "<UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 18,
+      "from_sentence_id": 3,
+      "token": "<PAD>",
+      "token_pos": 4,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.23082515597343445,
+          "sentence_text": "hello i'm interested in those devices too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.20972293615341187,
+          "sentence_text": "regards"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.2024693489074707,
+          "sentence_text": "<UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 19,
+      "from_sentence_id": 3,
+      "token": "<PAD>",
+      "token_pos": 2,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.23082515597343445,
+          "sentence_text": "hello i'm interested in those devices too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.20972293615341187,
+          "sentence_text": "regards"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.2024693489074707,
+          "sentence_text": "<UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 20,
+      "from_sentence_id": 4,
+      "token": "<UNK>",
+      "token_pos": 0,
+      "word_score_logit": 0.0027645998634397984,
+      "word_attn_weight": 1.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.23497505486011505,
+          "sentence_text": "hello i'm interested in those devices too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.20786812901496887,
+          "sentence_text": "regards"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.2027783989906311,
+          "sentence_text": "<UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 21,
+      "from_sentence_id": 4,
+      "token": "<PAD>",
+      "token_pos": 3,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.23082515597343445,
+          "sentence_text": "hello i'm interested in those devices too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.20972293615341187,
+          "sentence_text": "regards"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.2024693489074707,
+          "sentence_text": "<UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 22,
+      "from_sentence_id": 4,
+      "token": "<PAD>",
+      "token_pos": 1,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.23082515597343445,
+          "sentence_text": "hello i'm interested in those devices too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.20972293615341187,
+          "sentence_text": "regards"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.2024693489074707,
+          "sentence_text": "<UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 23,
+      "from_sentence_id": 4,
+      "token": "<PAD>",
+      "token_pos": 4,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.23082515597343445,
+          "sentence_text": "hello i'm interested in those devices too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.20972293615341187,
+          "sentence_text": "regards"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.2024693489074707,
+          "sentence_text": "<UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 24,
+      "from_sentence_id": 4,
+      "token": "<PAD>",
+      "token_pos": 2,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.23082515597343445,
+          "sentence_text": "hello i'm interested in those devices too"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.20972293615341187,
+          "sentence_text": "regards"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.2024693489074707,
+          "sentence_text": "<UNK>"
+        }
+      ]
+    }
+  ],
+  "sentence_importance_from_cross_attn": {
+    "definition": "mean cross-attn over queries",
+    "values": [
+      {
+        "sentence_id": 0,
+        "importance": 0.26974180340766907
+      },
+      {
+        "sentence_id": 1,
+        "importance": 0.17035996913909912
+      },
+      {
+        "sentence_id": 2,
+        "importance": 0.1553681343793869
+      },
+      {
+        "sentence_id": 3,
+        "importance": 0.20534801483154297
+      },
+      {
+        "sentence_id": 4,
+        "importance": 0.19918204843997955
+      }
+    ],
+    "ranked": [
+      {
+        "sentence_id": 0,
+        "importance": 0.26974180340766907
+      },
+      {
+        "sentence_id": 3,
+        "importance": 0.20534801483154297
+      },
+      {
+        "sentence_id": 4,
+        "importance": 0.19918204843997955
+      },
+      {
+        "sentence_id": 1,
+        "importance": 0.17035996913909912
+      },
+      {
+        "sentence_id": 2,
+        "importance": 0.1553681343793869
+      }
+    ]
+  },
+  "example_id": "test-18"
+}

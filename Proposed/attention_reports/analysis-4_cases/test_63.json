@@ -1,0 +1,201 @@
+{
+  "example_id": "test_63",
+  "true_label_id": 19,
+  "pred_label_id": 17,
+  "true_label_name": "talk.religion.misc",
+  "pred_label_name": "talk.politics.mideast",
+  "pred_confidence": 0.23640243709087372,
+  "metrics": {
+    "num_sents": 4,
+    "K": 5,
+    "stop_ratio": 0.1,
+    "unk_ratio": 0.1,
+    "num_ratio": 0.0,
+    "content_ratio": 0.6,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 1.307592749595642,
+    "sentence_importance_entropy": 1.3344683647155762,
+    "sentence_importance_max": 0.30078259110450745,
+    "top_sentence_id": 2,
+    "query_mismatch_rate": 0.45,
+    "selected_quality_counts": {
+      "short_word": 1,
+      "content_word": 12,
+      "other": 3,
+      "stopword": 2,
+      "unk": 2
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.09,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.24365414083003997,
+    "D_local_global_conflict": 0.45,
+    "E_overconfident_error": 0.23640243709087372
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "douglas c",
+      "<UNK> you can't play electro magnetic golf northwestern university acns according to the rules of <UNK> this university is too commie <UNK>",
+      "huxley brave new world lib <UNK> to have these views",
+      "<UNK> casbah acns nwu edu"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "c",
+          "token_pos": 1,
+          "quality": "short_word",
+          "word_score_logit": 0.07656409591436386,
+          "word_attn_weight": 0.509329617023468
+        },
+        {
+          "token": "douglas",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": 0.03924122825264931,
+          "word_attn_weight": 0.490670382976532
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 3,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 2,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ],
+      [
+        {
+          "token": "magnetic",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.1010514423251152,
+          "word_attn_weight": 0.049421053379774094
+        },
+        {
+          "token": "golf",
+          "token_pos": 6,
+          "quality": "content_word",
+          "word_score_logit": 0.07655569165945053,
+          "word_attn_weight": 0.04822515696287155
+        },
+        {
+          "token": "electro",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.0685739517211914,
+          "word_attn_weight": 0.047841768711805344
+        },
+        {
+          "token": "play",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.05947708338499069,
+          "word_attn_weight": 0.04740852862596512
+        },
+        {
+          "token": "northwestern",
+          "token_pos": 7,
+          "quality": "content_word",
+          "word_score_logit": 0.051999546587467194,
+          "word_attn_weight": 0.047055356204509735
+        }
+      ],
+      [
+        {
+          "token": "have",
+          "token_pos": 7,
+          "quality": "content_word",
+          "word_score_logit": 0.02767947129905224,
+          "word_attn_weight": 0.10487663745880127
+        },
+        {
+          "token": "to",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": 0.019292624667286873,
+          "word_attn_weight": 0.10400072485208511
+        },
+        {
+          "token": "these",
+          "token_pos": 8,
+          "quality": "stopword",
+          "word_score_logit": 0.016327735036611557,
+          "word_attn_weight": 0.10369283705949783
+        },
+        {
+          "token": "<UNK>",
+          "token_pos": 5,
+          "quality": "unk",
+          "word_score_logit": 0.009215563535690308,
+          "word_attn_weight": 0.10295797139406204
+        },
+        {
+          "token": "views",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": -0.01601053588092327,
+          "word_attn_weight": 0.10039322823286057
+        }
+      ],
+      [
+        {
+          "token": "edu",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.09642098098993301,
+          "word_attn_weight": 0.21096433699131012
+        },
+        {
+          "token": "casbah",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.058028317987918854,
+          "word_attn_weight": 0.20301836729049683
+        },
+        {
+          "token": "<UNK>",
+          "token_pos": 0,
+          "quality": "unk",
+          "word_score_logit": 0.032429538667201996,
+          "word_attn_weight": 0.19788730144500732
+        },
+        {
+          "token": "acns",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.0140307005494833,
+          "word_attn_weight": 0.19427970051765442
+        },
+        {
+          "token": "nwu",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.011818159371614456,
+          "word_attn_weight": 0.1938503086566925
+        }
+      ]
+    ],
+    "top_sentence_id": 2,
+    "sentence_importance_distribution": [
+      0.12130638211965561,
+      0.28068700432777405,
+      0.30078259110450745,
+      0.2972240447998047
+    ]
+  }
+}

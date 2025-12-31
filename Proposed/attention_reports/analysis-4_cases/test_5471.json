@@ -1,0 +1,120 @@
+{
+  "example_id": "test_5471",
+  "true_label_id": 12,
+  "pred_label_id": 3,
+  "true_label_name": "sci.electronics",
+  "pred_label_name": "comp.sys.ibm.pc.hardware",
+  "pred_confidence": 0.5402219891548157,
+  "metrics": {
+    "num_sents": 2,
+    "K": 5,
+    "stop_ratio": 0.8,
+    "unk_ratio": 0.0,
+    "num_ratio": 0.0,
+    "content_ratio": 0.2,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 0.6507309675216675,
+    "sentence_importance_entropy": 0.6525636911392212,
+    "sentence_importance_max": 0.6414769887924194,
+    "top_sentence_id": 1,
+    "query_mismatch_rate": 0.5,
+    "selected_quality_counts": {
+      "content_word": 2,
+      "stopword": 8
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.48,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.6185211539268494,
+    "D_local_global_conflict": 0.5,
+    "E_overconfident_error": 0.5402219891548157
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "wonder if anyone would know where or if i could find the schematic for the old <UNK> <UNK> sp computer",
+      "or even a pin out on the expansion bus"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "anyone",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.05406215414404869,
+          "word_attn_weight": 0.051475949585437775
+        },
+        {
+          "token": "or",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": 0.05005541443824768,
+          "word_attn_weight": 0.05127010866999626
+        },
+        {
+          "token": "the",
+          "token_pos": 11,
+          "quality": "stopword",
+          "word_score_logit": 0.046932999044656754,
+          "word_attn_weight": 0.051110271364450455
+        },
+        {
+          "token": "the",
+          "token_pos": 14,
+          "quality": "stopword",
+          "word_score_logit": 0.04324432462453842,
+          "word_attn_weight": 0.05092209205031395
+        },
+        {
+          "token": "if",
+          "token_pos": 7,
+          "quality": "stopword",
+          "word_score_logit": 0.04135057330131531,
+          "word_attn_weight": 0.050825752317905426
+        }
+      ],
+      [
+        {
+          "token": "the",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": 0.05249401926994324,
+          "word_attn_weight": 0.11324360966682434
+        },
+        {
+          "token": "or",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.050984159111976624,
+          "word_attn_weight": 0.11307275295257568
+        },
+        {
+          "token": "even",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.04662330076098442,
+          "word_attn_weight": 0.11258073151111603
+        },
+        {
+          "token": "out",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": 0.04432748630642891,
+          "word_attn_weight": 0.11232256144285202
+        },
+        {
+          "token": "on",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.039988648146390915,
+          "word_attn_weight": 0.1118362694978714
+        }
+      ]
+    ],
+    "top_sentence_id": 1,
+    "sentence_importance_distribution": [
+      0.3585229814052582,
+      0.6414769887924194
+    ]
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "example_id": "test_2057",
+  "true_label_id": 0,
+  "pred_label_id": 17,
+  "true_label_name": "alt.atheism",
+  "pred_label_name": "talk.politics.mideast",
+  "pred_confidence": 0.5172889232635498,
+  "metrics": {
+    "num_sents": 4,
+    "K": 5,
+    "stop_ratio": 0.8,
+    "unk_ratio": 0.0,
+    "num_ratio": 0.0,
+    "content_ratio": 0.15,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 1.3732187747955322,
+    "sentence_importance_entropy": 1.374187707901001,
+    "sentence_importance_max": 0.3101029694080353,
+    "top_sentence_id": 3,
+    "query_mismatch_rate": 0.75,
+    "selected_quality_counts": {
+      "stopword": 16,
+      "content_word": 3,
+      "other": 1
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.48,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.2422345370054245,
+    "D_local_global_conflict": 0.75,
+    "E_overconfident_error": 0.5172889232635498
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "what i mean is what i said",
+      "what i want does not automatically translate into what i think is right that is it does not translate that way for me",
+      "if you reply that i think it is ok to kill you because that is what i decided then what that means is that for you what i want does translate into what i think is right",
+      "it just doesn't translate that way for me"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "what",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.015230121091008186,
+          "word_attn_weight": 0.14373058080673218
+        },
+        {
+          "token": "is",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": 0.014009891077876091,
+          "word_attn_weight": 0.14355529844760895
+        },
+        {
+          "token": "mean",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.01193931419402361,
+          "word_attn_weight": 0.14325837790966034
+        },
+        {
+          "token": "what",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": 0.00946100801229477,
+          "word_attn_weight": 0.14290377497673035
+        },
+        {
+          "token": "i",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.007038816809654236,
+          "word_attn_weight": 0.1425580531358719
+        }
+      ],
+      [
+        {
+          "token": "does",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": 0.037761904299259186,
+          "word_attn_weight": 0.04480002075433731
+        },
+        {
+          "token": "automatically",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.03553174436092377,
+          "word_attn_weight": 0.044700220227241516
+        },
+        {
+          "token": "what",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.03418933227658272,
+          "word_attn_weight": 0.04464025795459747
+        },
+        {
+          "token": "not",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": 0.03291171044111252,
+          "word_attn_weight": 0.04458325728774071
+        },
+        {
+          "token": "i",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.027379613369703293,
+          "word_attn_weight": 0.04433729872107506
+        }
+      ],
+      [
+        {
+          "token": "does",
+          "token_pos": 29,
+          "quality": "stopword",
+          "word_score_logit": 0.016169128939509392,
+          "word_attn_weight": 0.027696600183844566
+        },
+        {
+          "token": "if",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.01454032864421606,
+          "word_attn_weight": 0.027651526033878326
+        },
+        {
+          "token": "what",
+          "token_pos": 26,
+          "quality": "stopword",
+          "word_score_logit": 0.007910013198852539,
+          "word_attn_weight": 0.027468791231513023
+        },
+        {
+          "token": "you",
+          "token_pos": 25,
+          "quality": "stopword",
+          "word_score_logit": 0.0076081594452261925,
+          "word_attn_weight": 0.027460500597953796
+        },
+        {
+          "token": "right",
+          "token_pos": 36,
+          "quality": "content_word",
+          "word_score_logit": 0.003201400861144066,
+          "word_attn_weight": 0.027339758351445198
+        }
+      ],
+      [
+        {
+          "token": "me",
+          "token_pos": 7,
+          "quality": "stopword",
+          "word_score_logit": 0.012495078146457672,
+          "word_attn_weight": 0.12695716321468353
+        },
+        {
+          "token": "for",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": 0.004851320758461952,
+          "word_attn_weight": 0.12599043548107147
+        },
+        {
+          "token": "just",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.0009047305211424828,
+          "word_attn_weight": 0.12549418210983276
+        },
+        {
+          "token": "it",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.0007555978372693062,
+          "word_attn_weight": 0.1254754662513733
+        },
+        {
+          "token": "doesn't",
+          "token_pos": 2,
+          "quality": "other",
+          "word_score_logit": -0.0010007182136178017,
+          "word_attn_weight": 0.125255286693573
+        }
+      ]
+    ],
+    "top_sentence_id": 3,
+    "sentence_importance_distribution": [
+      0.201146200299263,
+      0.2505045235157013,
+      0.23824627697467804,
+      0.3101029694080353
+    ]
+  }
+}

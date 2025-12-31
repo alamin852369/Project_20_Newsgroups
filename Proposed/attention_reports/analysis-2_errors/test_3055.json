@@ -1,0 +1,423 @@
+{
+  "true_label_id": 19,
+  "pred_label_id": 0,
+  "true_label_name": "talk.religion.misc",
+  "pred_label_name": "alt.atheism",
+  "pred_confidence": 0.7900992035865784,
+  "num_sents": 6,
+  "top_sentences": [
+    {
+      "sentence_id": 0,
+      "importance": 0.2780338525772095,
+      "sentence_text": "i'm for the moment interested in this notion of the <UNK> of <UNK> established by <UNK>",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "the",
+          "token_pos": 2,
+          "word_score_logit": 0.022308899089694023,
+          "word_attn_weight": 0.06386470794677734
+        },
+        {
+          "rank": 1,
+          "token": "of",
+          "token_pos": 8,
+          "word_score_logit": 0.018814437091350555,
+          "word_attn_weight": 0.06364192813634872
+        },
+        {
+          "rank": 2,
+          "token": "in",
+          "token_pos": 5,
+          "word_score_logit": 0.013769126497209072,
+          "word_attn_weight": 0.06332164257764816
+        },
+        {
+          "rank": 3,
+          "token": "for",
+          "token_pos": 1,
+          "word_score_logit": 0.010406143963336945,
+          "word_attn_weight": 0.06310904771089554
+        },
+        {
+          "rank": 4,
+          "token": "the",
+          "token_pos": 9,
+          "word_score_logit": 0.0097121587023139,
+          "word_attn_weight": 0.06306526809930801
+        }
+      ]
+    },
+    {
+      "sentence_id": 2,
+      "importance": 0.19727575778961182,
+      "sentence_text": "what i don't understand is that it also clearly shows the <UNK> system where any leap to any transcendental direction is equal",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "any",
+          "token_pos": 17,
+          "word_score_logit": 0.0577402263879776,
+          "word_attn_weight": 0.04706522822380066
+        },
+        {
+          "rank": 1,
+          "token": "transcendental",
+          "token_pos": 18,
+          "word_score_logit": 0.04633937031030655,
+          "word_attn_weight": 0.046531688421964645
+        },
+        {
+          "rank": 2,
+          "token": "any",
+          "token_pos": 14,
+          "word_score_logit": 0.043414488434791565,
+          "word_attn_weight": 0.04639579355716705
+        },
+        {
+          "rank": 3,
+          "token": "direction",
+          "token_pos": 19,
+          "word_score_logit": 0.04238126426935196,
+          "word_attn_weight": 0.04634787514805794
+        },
+        {
+          "rank": 4,
+          "token": "leap",
+          "token_pos": 15,
+          "word_score_logit": 0.042365286499261856,
+          "word_attn_weight": 0.04634713754057884
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "importance": 0.17572642862796783,
+      "sentence_text": "it clearly points out a possible solution to transcendental values",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "transcendental",
+          "token_pos": 8,
+          "word_score_logit": 0.018892839550971985,
+          "word_attn_weight": 0.10235469788312912
+        },
+        {
+          "rank": 1,
+          "token": "to",
+          "token_pos": 7,
+          "word_score_logit": 0.008354973047971725,
+          "word_attn_weight": 0.10128176212310791
+        },
+        {
+          "rank": 2,
+          "token": "possible",
+          "token_pos": 5,
+          "word_score_logit": -0.00015853391960263252,
+          "word_attn_weight": 0.10042315721511841
+        },
+        {
+          "rank": 3,
+          "token": "values",
+          "token_pos": 9,
+          "word_score_logit": -0.00039253849536180496,
+          "word_attn_weight": 0.10039966553449631
+        },
+        {
+          "rank": 4,
+          "token": "it",
+          "token_pos": 0,
+          "word_score_logit": -0.0015336871147155762,
+          "word_attn_weight": 0.10028515756130219
+        }
+      ]
+    },
+    {
+      "sentence_id": 5,
+      "importance": 0.13290901482105255,
+      "sentence_text": "cheers kent",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "kent",
+          "token_pos": 1,
+          "word_score_logit": 0.07067804783582687,
+          "word_attn_weight": 0.5017491579055786
+        },
+        {
+          "rank": 1,
+          "token": "cheers",
+          "token_pos": 0,
+          "word_score_logit": 0.06368133425712585,
+          "word_attn_weight": 0.498250812292099
+        },
+        {
+          "rank": 2,
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 3,
+          "token": "<PAD/OUT>",
+          "token_pos": 3,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 4,
+          "token": "<PAD/OUT>",
+          "token_pos": 2,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    },
+    {
+      "sentence_id": 3,
+      "importance": 0.12340040504932404,
+      "sentence_text": "in other words i might not jump off the cliff mentioned above but at the same time i will decide to what direction i will go",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "cliff",
+          "token_pos": 9,
+          "word_score_logit": 0.10429111123085022,
+          "word_attn_weight": 0.04117502272129059
+        },
+        {
+          "rank": 1,
+          "token": "the",
+          "token_pos": 8,
+          "word_score_logit": 0.08821634203195572,
+          "word_attn_weight": 0.04051843658089638
+        },
+        {
+          "rank": 2,
+          "token": "mentioned",
+          "token_pos": 10,
+          "word_score_logit": 0.07033304870128632,
+          "word_attn_weight": 0.03980027511715889
+        },
+        {
+          "rank": 3,
+          "token": "off",
+          "token_pos": 7,
+          "word_score_logit": 0.06837786734104156,
+          "word_attn_weight": 0.03972253203392029
+        },
+        {
+          "rank": 4,
+          "token": "above",
+          "token_pos": 11,
+          "word_score_logit": 0.05603484809398651,
+          "word_attn_weight": 0.039235249161720276
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "the",
+      "token_pos": 2,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.3281795382499695,
+          "sentence_text": "i'm for the moment interested in this notion of the <UNK> of <UNK> established by <UNK>"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.21358348429203033,
+          "sentence_text": "what i don't understand is that it also clearly shows the <UNK> system where any leap to any transcendental direction is equal"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "of",
+      "token_pos": 8,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.328283429145813,
+          "sentence_text": "i'm for the moment interested in this notion of the <UNK> of <UNK> established by <UNK>"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.2115723192691803,
+          "sentence_text": "what i don't understand is that it also clearly shows the <UNK> system where any leap to any transcendental direction is equal"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "in",
+      "token_pos": 5,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.31677061319351196,
+          "sentence_text": "i'm for the moment interested in this notion of the <UNK> of <UNK> established by <UNK>"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.2209460437297821,
+          "sentence_text": "what i don't understand is that it also clearly shows the <UNK> system where any leap to any transcendental direction is equal"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "for",
+      "token_pos": 1,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.26102733612060547,
+          "sentence_text": "i'm for the moment interested in this notion of the <UNK> of <UNK> established by <UNK>"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.20822501182556152,
+          "sentence_text": "it clearly points out a possible solution to transcendental values"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "the",
+      "token_pos": 9,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.3388645052909851,
+          "sentence_text": "i'm for the moment interested in this notion of the <UNK> of <UNK> established by <UNK>"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.20515727996826172,
+          "sentence_text": "what i don't understand is that it also clearly shows the <UNK> system where any leap to any transcendental direction is equal"
+        }
+      ]
+    },
+    {
+      "query_id": 10,
+      "from_sentence_id": 2,
+      "token": "any",
+      "token_pos": 17,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.287073016166687,
+          "sentence_text": "i'm for the moment interested in this notion of the <UNK> of <UNK> established by <UNK>"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.2316422462463379,
+          "sentence_text": "what i don't understand is that it also clearly shows the <UNK> system where any leap to any transcendental direction is equal"
+        }
+      ]
+    },
+    {
+      "query_id": 11,
+      "from_sentence_id": 2,
+      "token": "transcendental",
+      "token_pos": 18,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.26906225085258484,
+          "sentence_text": "it clearly points out a possible solution to transcendental values"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.24018728733062744,
+          "sentence_text": "i'm for the moment interested in this notion of the <UNK> of <UNK> established by <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 12,
+      "from_sentence_id": 2,
+      "token": "any",
+      "token_pos": 14,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.3129996359348297,
+          "sentence_text": "i'm for the moment interested in this notion of the <UNK> of <UNK> established by <UNK>"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.23180721700191498,
+          "sentence_text": "what i don't understand is that it also clearly shows the <UNK> system where any leap to any transcendental direction is equal"
+        }
+      ]
+    },
+    {
+      "query_id": 13,
+      "from_sentence_id": 2,
+      "token": "direction",
+      "token_pos": 19,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.3637780249118805,
+          "sentence_text": "i'm for the moment interested in this notion of the <UNK> of <UNK> established by <UNK>"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.2127106487751007,
+          "sentence_text": "what i don't understand is that it also clearly shows the <UNK> system where any leap to any transcendental direction is equal"
+        }
+      ]
+    },
+    {
+      "query_id": 14,
+      "from_sentence_id": 2,
+      "token": "leap",
+      "token_pos": 15,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.3376789391040802,
+          "sentence_text": "i'm for the moment interested in this notion of the <UNK> of <UNK> established by <UNK>"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.2347515970468521,
+          "sentence_text": "what i don't understand is that it also clearly shows the <UNK> system where any leap to any transcendental direction is equal"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_3055"
+}

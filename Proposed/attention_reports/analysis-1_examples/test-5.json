@@ -1,0 +1,149 @@
+{
+  "true_label_id": 19,
+  "pred_label_id": 15,
+  "true_label_name": "talk.religion.misc",
+  "pred_label_name": "soc.religion.christian",
+  "pred_confidence": 0.5147189497947693,
+  "num_sents": 1,
+  "sentence_summaries": [
+    {
+      "sentence_id": 0,
+      "sentence_text": "i've just spent two solid months arguing that no such thing as an objective moral system exists",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "exists",
+          "token_pos": 16,
+          "word_score_logit": 0.04538174346089363,
+          "word_attn_weight": 0.061165302991867065
+        },
+        {
+          "rank": 1,
+          "token": "system",
+          "token_pos": 15,
+          "word_score_logit": 0.04511134698987007,
+          "word_attn_weight": 0.06114876642823219
+        },
+        {
+          "rank": 2,
+          "token": "an",
+          "token_pos": 12,
+          "word_score_logit": 0.02611701935529709,
+          "word_attn_weight": 0.059998247772455215
+        },
+        {
+          "rank": 3,
+          "token": "as",
+          "token_pos": 11,
+          "word_score_logit": 0.025169314816594124,
+          "word_attn_weight": 0.05994141474366188
+        },
+        {
+          "rank": 4,
+          "token": "thing",
+          "token_pos": 10,
+          "word_score_logit": 0.01794344000518322,
+          "word_attn_weight": 0.059509847313165665
+        }
+      ]
+    }
+  ],
+  "query_summaries": [
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "exists",
+      "token_pos": 16,
+      "word_score_logit": 0.04538174346089363,
+      "word_attn_weight": 0.061165302991867065,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 1.0,
+          "sentence_text": "i've just spent two solid months arguing that no such thing as an objective moral system exists"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "system",
+      "token_pos": 15,
+      "word_score_logit": 0.04511134698987007,
+      "word_attn_weight": 0.06114876642823219,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 1.0,
+          "sentence_text": "i've just spent two solid months arguing that no such thing as an objective moral system exists"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "an",
+      "token_pos": 12,
+      "word_score_logit": 0.02611701935529709,
+      "word_attn_weight": 0.059998247772455215,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 1.0,
+          "sentence_text": "i've just spent two solid months arguing that no such thing as an objective moral system exists"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "as",
+      "token_pos": 11,
+      "word_score_logit": 0.025169314816594124,
+      "word_attn_weight": 0.05994141474366188,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 1.0,
+          "sentence_text": "i've just spent two solid months arguing that no such thing as an objective moral system exists"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "thing",
+      "token_pos": 10,
+      "word_score_logit": 0.01794344000518322,
+      "word_attn_weight": 0.059509847313165665,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 1.0,
+          "sentence_text": "i've just spent two solid months arguing that no such thing as an objective moral system exists"
+        }
+      ]
+    }
+  ],
+  "sentence_importance_from_cross_attn": {
+    "definition": "mean cross-attn over queries",
+    "values": [
+      {
+        "sentence_id": 0,
+        "importance": 1.0
+      }
+    ],
+    "ranked": [
+      {
+        "sentence_id": 0,
+        "importance": 1.0
+      }
+    ]
+  },
+  "example_id": "test-5"
+}

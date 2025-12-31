@@ -1,0 +1,354 @@
+{
+  "example_id": "test_2408",
+  "true_label_id": 18,
+  "pred_label_id": 16,
+  "true_label_name": "talk.politics.misc",
+  "pred_label_name": "talk.politics.guns",
+  "pred_confidence": 0.9901324510574341,
+  "metrics": {
+    "num_sents": 8,
+    "K": 5,
+    "stop_ratio": 0.6,
+    "unk_ratio": 0.0,
+    "num_ratio": 0.0,
+    "content_ratio": 0.4,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 1.8895877599716187,
+    "sentence_importance_entropy": 1.9154155254364014,
+    "sentence_importance_max": 0.3216365873813629,
+    "top_sentence_id": 4,
+    "query_mismatch_rate": 0.875,
+    "selected_quality_counts": {
+      "content_word": 16,
+      "stopword": 24
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.36,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.22514561116695403,
+    "D_local_global_conflict": 0.875,
+    "E_overconfident_error": 0.9901324510574341
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "can people please stop the 'i think know the batf fbi are completely responsible but they'll cover it up so that the investigation will show that <UNK> is <UNK> bs",
+      "in an investigation of this size with the feds state and civilians involved in the investigation it would be <UNK> impossible to cover up",
+      "the place has burned to the ground",
+      "the fbi and company have the whole area <UNK> off and have already arrested reporters for being at the site and taking pictures",
+      "all your going to get in terms of a story is what the fbi atf and the texas rangers decide to release",
+      "and with republicans like <UNK> <UNK> calling for investigations this isn't going to be handled with kid gloves",
+      "when the <UNK> cops dropped their bomb on move and managed to burn down an entire neighborhood many people said the same thing",
+      "dead men and rubble tell no tales that the police dont want them to tell"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "fbi",
+          "token_pos": 10,
+          "quality": "content_word",
+          "word_score_logit": 0.06228996440768242,
+          "word_attn_weight": 0.034768376499414444
+        },
+        {
+          "token": "the",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": 0.060927338898181915,
+          "word_attn_weight": 0.03472103551030159
+        },
+        {
+          "token": "can",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.05639999732375145,
+          "word_attn_weight": 0.034564193338155746
+        },
+        {
+          "token": "think",
+          "token_pos": 6,
+          "quality": "content_word",
+          "word_score_logit": 0.05512737110257149,
+          "word_attn_weight": 0.034520234912633896
+        },
+        {
+          "token": "know",
+          "token_pos": 7,
+          "quality": "content_word",
+          "word_score_logit": 0.050214268267154694,
+          "word_attn_weight": 0.03435105085372925
+        }
+      ],
+      [
+        {
+          "token": "investigation",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.020247144624590874,
+          "word_attn_weight": 0.04281477630138397
+        },
+        {
+          "token": "size",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.01741860620677471,
+          "word_attn_weight": 0.042693842202425
+        },
+        {
+          "token": "an",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.017212092876434326,
+          "word_attn_weight": 0.04268502816557884
+        },
+        {
+          "token": "in",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.015102445147931576,
+          "word_attn_weight": 0.04259507358074188
+        },
+        {
+          "token": "up",
+          "token_pos": 23,
+          "quality": "stopword",
+          "word_score_logit": 0.0124607402831316,
+          "word_attn_weight": 0.04248269647359848
+        }
+      ],
+      [
+        {
+          "token": "ground",
+          "token_pos": 6,
+          "quality": "content_word",
+          "word_score_logit": 0.046639762818813324,
+          "word_attn_weight": 0.14562362432479858
+        },
+        {
+          "token": "has",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.033460184931755066,
+          "word_attn_weight": 0.143716961145401
+        },
+        {
+          "token": "the",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.03339804708957672,
+          "word_attn_weight": 0.1437080353498459
+        },
+        {
+          "token": "the",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.028785252943634987,
+          "word_attn_weight": 0.14304666221141815
+        },
+        {
+          "token": "to",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": 0.022682975977659225,
+          "word_attn_weight": 0.14217640459537506
+        }
+      ],
+      [
+        {
+          "token": "the",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.07366261631250381,
+          "word_attn_weight": 0.04556870460510254
+        },
+        {
+          "token": "fbi",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.06864000111818314,
+          "word_attn_weight": 0.0453404039144516
+        },
+        {
+          "token": "have",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.06362365186214447,
+          "word_attn_weight": 0.04511353000998497
+        },
+        {
+          "token": "company",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.05221561715006828,
+          "word_attn_weight": 0.04460180178284645
+        },
+        {
+          "token": "the",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.05197637900710106,
+          "word_attn_weight": 0.044591132551431656
+        }
+      ],
+      [
+        {
+          "token": "texas",
+          "token_pos": 17,
+          "quality": "content_word",
+          "word_score_logit": 0.16648274660110474,
+          "word_attn_weight": 0.04839789494872093
+        },
+        {
+          "token": "the",
+          "token_pos": 16,
+          "quality": "stopword",
+          "word_score_logit": 0.14832177758216858,
+          "word_attn_weight": 0.047526873648166656
+        },
+        {
+          "token": "the",
+          "token_pos": 12,
+          "quality": "stopword",
+          "word_score_logit": 0.14307168126106262,
+          "word_attn_weight": 0.04727800562977791
+        },
+        {
+          "token": "and",
+          "token_pos": 15,
+          "quality": "stopword",
+          "word_score_logit": 0.14296987652778625,
+          "word_attn_weight": 0.047273196280002594
+        },
+        {
+          "token": "of",
+          "token_pos": 7,
+          "quality": "stopword",
+          "word_score_logit": 0.13738441467285156,
+          "word_attn_weight": 0.04700988903641701
+        }
+      ],
+      [
+        {
+          "token": "investigations",
+          "token_pos": 8,
+          "quality": "content_word",
+          "word_score_logit": 0.08455599099397659,
+          "word_attn_weight": 0.05792739614844322
+        },
+        {
+          "token": "for",
+          "token_pos": 7,
+          "quality": "stopword",
+          "word_score_logit": 0.05713363364338875,
+          "word_attn_weight": 0.05636047199368477
+        },
+        {
+          "token": "be",
+          "token_pos": 13,
+          "quality": "stopword",
+          "word_score_logit": 0.04976624995470047,
+          "word_attn_weight": 0.05594676733016968
+        },
+        {
+          "token": "gloves",
+          "token_pos": 17,
+          "quality": "content_word",
+          "word_score_logit": 0.04909251630306244,
+          "word_attn_weight": 0.05590909346938133
+        },
+        {
+          "token": "this",
+          "token_pos": 9,
+          "quality": "stopword",
+          "word_score_logit": 0.04738616198301315,
+          "word_attn_weight": 0.05581377074122429
+        }
+      ],
+      [
+        {
+          "token": "an",
+          "token_pos": 14,
+          "quality": "stopword",
+          "word_score_logit": 0.0573519691824913,
+          "word_attn_weight": 0.04545518010854721
+        },
+        {
+          "token": "down",
+          "token_pos": 13,
+          "quality": "stopword",
+          "word_score_logit": 0.03869086876511574,
+          "word_attn_weight": 0.044614799320697784
+        },
+        {
+          "token": "burn",
+          "token_pos": 12,
+          "quality": "content_word",
+          "word_score_logit": 0.037762656807899475,
+          "word_attn_weight": 0.044573407620191574
+        },
+        {
+          "token": "to",
+          "token_pos": 11,
+          "quality": "stopword",
+          "word_score_logit": 0.03466293215751648,
+          "word_attn_weight": 0.04443545639514923
+        },
+        {
+          "token": "entire",
+          "token_pos": 15,
+          "quality": "content_word",
+          "word_score_logit": 0.03266328573226929,
+          "word_attn_weight": 0.04434669017791748
+        }
+      ],
+      [
+        {
+          "token": "dont",
+          "token_pos": 10,
+          "quality": "content_word",
+          "word_score_logit": 0.04334734380245209,
+          "word_attn_weight": 0.06823981553316116
+        },
+        {
+          "token": "that",
+          "token_pos": 7,
+          "quality": "stopword",
+          "word_score_logit": 0.032171063125133514,
+          "word_attn_weight": 0.0674813911318779
+        },
+        {
+          "token": "the",
+          "token_pos": 8,
+          "quality": "stopword",
+          "word_score_logit": 0.030233290046453476,
+          "word_attn_weight": 0.06735076010227203
+        },
+        {
+          "token": "and",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.02998054213821888,
+          "word_attn_weight": 0.06733373552560806
+        },
+        {
+          "token": "no",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.02864326909184456,
+          "word_attn_weight": 0.06724374741315842
+        }
+      ]
+    ],
+    "top_sentence_id": 4,
+    "sentence_importance_distribution": [
+      0.11345802992582321,
+      0.1513737291097641,
+      0.07172943651676178,
+      0.1175442487001419,
+      0.3216365873813629,
+      0.08810306340456009,
+      0.08154534548521042,
+      0.05460958555340767
+    ]
+  }
+}

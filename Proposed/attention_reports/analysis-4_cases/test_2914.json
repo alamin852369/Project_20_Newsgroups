@@ -1,0 +1,81 @@
+{
+  "example_id": "test_2914",
+  "true_label_id": 13,
+  "pred_label_id": 1,
+  "true_label_name": "sci.med",
+  "pred_label_name": "comp.graphics",
+  "pred_confidence": 0.8411402702331543,
+  "metrics": {
+    "num_sents": 1,
+    "K": 5,
+    "stop_ratio": 0.8,
+    "unk_ratio": 0.0,
+    "num_ratio": 0.0,
+    "content_ratio": 0.2,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 0.0,
+    "sentence_importance_entropy": -0.0,
+    "sentence_importance_max": 1.0,
+    "top_sentence_id": 0,
+    "query_mismatch_rate": 0.0,
+    "selected_quality_counts": {
+      "content_word": 1,
+      "stopword": 4
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.48,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 1.0,
+    "D_local_global_conflict": 0.0,
+    "E_overconfident_error": 0.8411402702331543
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "this is not flame or abuse nor do i want to start another thread this is after all supposed to be about image processing"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "nor",
+          "token_pos": 6,
+          "quality": "content_word",
+          "word_score_logit": 0.043732691556215286,
+          "word_attn_weight": 0.04372294247150421
+        },
+        {
+          "token": "or",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": 0.02536666952073574,
+          "word_attn_weight": 0.04292725399136543
+        },
+        {
+          "token": "do",
+          "token_pos": 7,
+          "quality": "stopword",
+          "word_score_logit": 0.021952752023935318,
+          "word_attn_weight": 0.042780954390764236
+        },
+        {
+          "token": "is",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.01261936966329813,
+          "word_attn_weight": 0.04238352179527283
+        },
+        {
+          "token": "this",
+          "token_pos": 14,
+          "quality": "stopword",
+          "word_score_logit": 0.010767890140414238,
+          "word_attn_weight": 0.042305123060941696
+        }
+      ]
+    ],
+    "top_sentence_id": 0,
+    "sentence_importance_distribution": [
+      1.0
+    ]
+  }
+}

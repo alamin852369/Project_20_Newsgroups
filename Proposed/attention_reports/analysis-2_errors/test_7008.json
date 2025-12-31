@@ -1,0 +1,423 @@
+{
+  "true_label_id": 7,
+  "pred_label_id": 8,
+  "true_label_name": "rec.autos",
+  "pred_label_name": "rec.motorcycles",
+  "pred_confidence": 0.9726626873016357,
+  "num_sents": 5,
+  "top_sentences": [
+    {
+      "sentence_id": 2,
+      "importance": 0.3694353699684143,
+      "sentence_text": "<UNK> recently i had a little accident on my bike and not as bad as john's",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "and",
+          "token_pos": 10,
+          "word_score_logit": 0.07713217288255692,
+          "word_attn_weight": 0.06508708745241165
+        },
+        {
+          "rank": 1,
+          "token": "as",
+          "token_pos": 12,
+          "word_score_logit": 0.0689287930727005,
+          "word_attn_weight": 0.0645553395152092
+        },
+        {
+          "rank": 2,
+          "token": "not",
+          "token_pos": 11,
+          "word_score_logit": 0.06806899607181549,
+          "word_attn_weight": 0.0644998624920845
+        },
+        {
+          "rank": 3,
+          "token": "accident",
+          "token_pos": 6,
+          "word_score_logit": 0.0534018836915493,
+          "word_attn_weight": 0.06356073915958405
+        },
+        {
+          "rank": 4,
+          "token": "as",
+          "token_pos": 14,
+          "word_score_logit": 0.04836609214544296,
+          "word_attn_weight": 0.06324146687984467
+        }
+      ]
+    },
+    {
+      "sentence_id": 3,
+      "importance": 0.30238810181617737,
+      "sentence_text": "but after the accident it made me <UNK> i should have worn a helmet my mom always <UNK> i should",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "helmet",
+          "token_pos": 13,
+          "word_score_logit": 0.09757234901189804,
+          "word_attn_weight": 0.052315931767225266
+        },
+        {
+          "rank": 1,
+          "token": "worn",
+          "token_pos": 11,
+          "word_score_logit": 0.08963306248188019,
+          "word_attn_weight": 0.051902227103710175
+        },
+        {
+          "rank": 2,
+          "token": "have",
+          "token_pos": 10,
+          "word_score_logit": 0.07205181568861008,
+          "word_attn_weight": 0.050997696816921234
+        },
+        {
+          "rank": 3,
+          "token": "a",
+          "token_pos": 12,
+          "word_score_logit": 0.0710580050945282,
+          "word_attn_weight": 0.05094704031944275
+        },
+        {
+          "rank": 4,
+          "token": "my",
+          "token_pos": 14,
+          "word_score_logit": 0.06695428490638733,
+          "word_attn_weight": 0.05073839798569679
+        }
+      ]
+    },
+    {
+      "sentence_id": 0,
+      "importance": 0.15296649932861328,
+      "sentence_text": "i of course car safety is important",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "safety",
+          "token_pos": 4,
+          "word_score_logit": 0.09543988853693008,
+          "word_attn_weight": 0.1516643613576889
+        },
+        {
+          "rank": 1,
+          "token": "is",
+          "token_pos": 5,
+          "word_score_logit": 0.05838653817772865,
+          "word_attn_weight": 0.14614753425121307
+        },
+        {
+          "rank": 2,
+          "token": "car",
+          "token_pos": 3,
+          "word_score_logit": 0.04589211568236351,
+          "word_attn_weight": 0.1443328708410263
+        },
+        {
+          "rank": 3,
+          "token": "i",
+          "token_pos": 0,
+          "word_score_logit": 0.019672513008117676,
+          "word_attn_weight": 0.14059770107269287
+        },
+        {
+          "rank": 4,
+          "token": "important",
+          "token_pos": 6,
+          "word_score_logit": 0.018033411353826523,
+          "word_attn_weight": 0.14036743342876434
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "importance": 0.11681662499904633,
+      "sentence_text": "i for one used to think that these guys are going way ott with their <UNK> sorry del button dont work and side impact bars and crash zones and the list goes on just <UNK> make the car <UNK> and all its penalties",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "zones",
+          "token_pos": 27,
+          "word_score_logit": 0.08148860931396484,
+          "word_attn_weight": 0.02463335171341896
+        },
+        {
+          "rank": 1,
+          "token": "car",
+          "token_pos": 37,
+          "word_score_logit": 0.07190772145986557,
+          "word_attn_weight": 0.024398470297455788
+        },
+        {
+          "rank": 2,
+          "token": "and",
+          "token_pos": 28,
+          "word_score_logit": 0.06679508090019226,
+          "word_attn_weight": 0.02427404746413231
+        },
+        {
+          "rank": 3,
+          "token": "the",
+          "token_pos": 29,
+          "word_score_logit": 0.06298558413982391,
+          "word_attn_weight": 0.024181749671697617
+        },
+        {
+          "rank": 4,
+          "token": "<UNK>",
+          "token_pos": 38,
+          "word_score_logit": 0.0615403838455677,
+          "word_attn_weight": 0.024146828800439835
+        }
+      ]
+    },
+    {
+      "sentence_id": 4,
+      "importance": 0.05839337781071663,
+      "sentence_text": "i was more concerned about my hair style",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "style",
+          "token_pos": 7,
+          "word_score_logit": 0.040827278047800064,
+          "word_attn_weight": 0.12774622440338135
+        },
+        {
+          "rank": 1,
+          "token": "hair",
+          "token_pos": 6,
+          "word_score_logit": 0.03159758448600769,
+          "word_attn_weight": 0.1265725940465927
+        },
+        {
+          "rank": 2,
+          "token": "was",
+          "token_pos": 1,
+          "word_score_logit": 0.026064321398735046,
+          "word_attn_weight": 0.12587416172027588
+        },
+        {
+          "rank": 3,
+          "token": "my",
+          "token_pos": 5,
+          "word_score_logit": 0.016562417149543762,
+          "word_attn_weight": 0.12468378245830536
+        },
+        {
+          "rank": 4,
+          "token": "more",
+          "token_pos": 2,
+          "word_score_logit": 0.013602150604128838,
+          "word_attn_weight": 0.12431523203849792
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 10,
+      "from_sentence_id": 2,
+      "token": "and",
+      "token_pos": 10,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.3597791790962219,
+          "sentence_text": "<UNK> recently i had a little accident on my bike and not as bad as john's"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.3028576076030731,
+          "sentence_text": "but after the accident it made me <UNK> i should have worn a helmet my mom always <UNK> i should"
+        }
+      ]
+    },
+    {
+      "query_id": 11,
+      "from_sentence_id": 2,
+      "token": "as",
+      "token_pos": 12,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.33502286672592163,
+          "sentence_text": "<UNK> recently i had a little accident on my bike and not as bad as john's"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.28899630904197693,
+          "sentence_text": "but after the accident it made me <UNK> i should have worn a helmet my mom always <UNK> i should"
+        }
+      ]
+    },
+    {
+      "query_id": 12,
+      "from_sentence_id": 2,
+      "token": "not",
+      "token_pos": 11,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.3427056670188904,
+          "sentence_text": "<UNK> recently i had a little accident on my bike and not as bad as john's"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.2924765944480896,
+          "sentence_text": "but after the accident it made me <UNK> i should have worn a helmet my mom always <UNK> i should"
+        }
+      ]
+    },
+    {
+      "query_id": 13,
+      "from_sentence_id": 2,
+      "token": "accident",
+      "token_pos": 6,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.46167129278182983,
+          "sentence_text": "<UNK> recently i had a little accident on my bike and not as bad as john's"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.3148331046104431,
+          "sentence_text": "but after the accident it made me <UNK> i should have worn a helmet my mom always <UNK> i should"
+        }
+      ]
+    },
+    {
+      "query_id": 14,
+      "from_sentence_id": 2,
+      "token": "as",
+      "token_pos": 14,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.29113125801086426,
+          "sentence_text": "<UNK> recently i had a little accident on my bike and not as bad as john's"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.26738399267196655,
+          "sentence_text": "but after the accident it made me <UNK> i should have worn a helmet my mom always <UNK> i should"
+        }
+      ]
+    },
+    {
+      "query_id": 15,
+      "from_sentence_id": 3,
+      "token": "helmet",
+      "token_pos": 13,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.39804238080978394,
+          "sentence_text": "<UNK> recently i had a little accident on my bike and not as bad as john's"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.37178823351860046,
+          "sentence_text": "but after the accident it made me <UNK> i should have worn a helmet my mom always <UNK> i should"
+        }
+      ]
+    },
+    {
+      "query_id": 16,
+      "from_sentence_id": 3,
+      "token": "worn",
+      "token_pos": 11,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.4024236798286438,
+          "sentence_text": "<UNK> recently i had a little accident on my bike and not as bad as john's"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.36363959312438965,
+          "sentence_text": "but after the accident it made me <UNK> i should have worn a helmet my mom always <UNK> i should"
+        }
+      ]
+    },
+    {
+      "query_id": 17,
+      "from_sentence_id": 3,
+      "token": "have",
+      "token_pos": 10,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.39649099111557007,
+          "sentence_text": "<UNK> recently i had a little accident on my bike and not as bad as john's"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.34516575932502747,
+          "sentence_text": "but after the accident it made me <UNK> i should have worn a helmet my mom always <UNK> i should"
+        }
+      ]
+    },
+    {
+      "query_id": 18,
+      "from_sentence_id": 3,
+      "token": "a",
+      "token_pos": 12,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.3658300042152405,
+          "sentence_text": "<UNK> recently i had a little accident on my bike and not as bad as john's"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.3364247679710388,
+          "sentence_text": "but after the accident it made me <UNK> i should have worn a helmet my mom always <UNK> i should"
+        }
+      ]
+    },
+    {
+      "query_id": 19,
+      "from_sentence_id": 3,
+      "token": "my",
+      "token_pos": 14,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.3984212279319763,
+          "sentence_text": "<UNK> recently i had a little accident on my bike and not as bad as john's"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.3045142889022827,
+          "sentence_text": "but after the accident it made me <UNK> i should have worn a helmet my mom always <UNK> i should"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_7008"
+}

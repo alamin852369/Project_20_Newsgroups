@@ -1,0 +1,200 @@
+{
+  "example_id": "test_7395",
+  "true_label_id": 9,
+  "pred_label_id": 13,
+  "true_label_name": "rec.sport.baseball",
+  "pred_label_name": "sci.med",
+  "pred_confidence": 0.9909893870353699,
+  "metrics": {
+    "num_sents": 4,
+    "K": 5,
+    "stop_ratio": 0.25,
+    "unk_ratio": 0.1,
+    "num_ratio": 0.0,
+    "content_ratio": 0.3,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 1.2850035429000854,
+    "sentence_importance_entropy": 1.3129385709762573,
+    "sentence_importance_max": 0.3970418870449066,
+    "top_sentence_id": 1,
+    "query_mismatch_rate": 0.7,
+    "selected_quality_counts": {
+      "content_word": 6,
+      "stopword": 5,
+      "other": 7,
+      "unk": 2
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.18,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.31534160673618317,
+    "D_local_global_conflict": 0.7,
+    "E_overconfident_error": 0.9909893870353699
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "you sure",
+      "this maybe a chronic syndrome",
+      "if it persists we may have to <UNK> you to the cub crazy <UNK> in north chicago",
+      "<UNK>"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "sure",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.011189996264874935,
+          "word_attn_weight": 0.5007447004318237
+        },
+        {
+          "token": "you",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.008211204782128334,
+          "word_attn_weight": 0.49925529956817627
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 3,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 2,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ],
+      [
+        {
+          "token": "maybe",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.016965245828032494,
+          "word_attn_weight": 0.20308052003383636
+        },
+        {
+          "token": "chronic",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.011054959148168564,
+          "word_attn_weight": 0.20188379287719727
+        },
+        {
+          "token": "this",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.010840851813554764,
+          "word_attn_weight": 0.2018405646085739
+        },
+        {
+          "token": "a",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": -0.002178579568862915,
+          "word_attn_weight": 0.19922974705696106
+        },
+        {
+          "token": "syndrome",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": -0.02895750105381012,
+          "word_attn_weight": 0.19396540522575378
+        }
+      ],
+      [
+        {
+          "token": "the",
+          "token_pos": 10,
+          "quality": "stopword",
+          "word_score_logit": 0.08471033722162247,
+          "word_attn_weight": 0.06174718588590622
+        },
+        {
+          "token": "to",
+          "token_pos": 9,
+          "quality": "stopword",
+          "word_score_logit": 0.06839501857757568,
+          "word_attn_weight": 0.06074792891740799
+        },
+        {
+          "token": "<UNK>",
+          "token_pos": 7,
+          "quality": "unk",
+          "word_score_logit": 0.05754042789340019,
+          "word_attn_weight": 0.060092102736234665
+        },
+        {
+          "token": "cub",
+          "token_pos": 11,
+          "quality": "content_word",
+          "word_score_logit": 0.05476906895637512,
+          "word_attn_weight": 0.05992579832673073
+        },
+        {
+          "token": "have",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.05410992354154587,
+          "word_attn_weight": 0.05988631024956703
+        }
+      ],
+      [
+        {
+          "token": "<UNK>",
+          "token_pos": 0,
+          "quality": "unk",
+          "word_score_logit": 0.0027645998634397984,
+          "word_attn_weight": 1.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 3,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 1,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 2,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    ],
+    "top_sentence_id": 1,
+    "sentence_importance_distribution": [
+      0.14006324112415314,
+      0.3970418870449066,
+      0.270239919424057,
+      0.19265496730804443
+    ]
+  }
+}

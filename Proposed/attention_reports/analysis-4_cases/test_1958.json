@@ -1,0 +1,318 @@
+{
+  "example_id": "test_1958",
+  "true_label_id": 6,
+  "pred_label_id": 1,
+  "true_label_name": "misc.forsale",
+  "pred_label_name": "comp.graphics",
+  "pred_confidence": 0.4084692895412445,
+  "metrics": {
+    "num_sents": 7,
+    "K": 5,
+    "stop_ratio": 0.2571428571428571,
+    "unk_ratio": 0.0,
+    "num_ratio": 0.08571428571428572,
+    "content_ratio": 0.4857142857142857,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 1.8711299896240234,
+    "sentence_importance_entropy": 1.8977758884429932,
+    "sentence_importance_max": 0.21477481722831726,
+    "top_sentence_id": 0,
+    "query_mismatch_rate": 0.9714285714285714,
+    "selected_quality_counts": {
+      "content_word": 17,
+      "other": 3,
+      "number": 3,
+      "stopword": 9,
+      "short_word": 3
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.16285714285714284,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.15034237205982207,
+    "D_local_global_conflict": 0.9714285714285714,
+    "E_overconfident_error": 0.4084692895412445
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "i have the following ibm hardware forsale ati <UNK> this is a great card it supports 1024x768 256 colors 800x600 32k colors and 640x480 16 million colors",
+      "i found that it also speed up windows considerably",
+      "i'm asking 100 o b o",
+      "for this card",
+      "i also have 2 2400 baud modems",
+      "i have docs for both but i don't have the original boxes",
+      "both work fine and i'd like to get 25 each or 40 for both"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "colors",
+          "token_pos": 26,
+          "quality": "content_word",
+          "word_score_logit": 0.049760568886995316,
+          "word_attn_weight": 0.03935344144701958
+        },
+        {
+          "token": "640x480",
+          "token_pos": 23,
+          "quality": "other",
+          "word_score_logit": 0.02899938076734543,
+          "word_attn_weight": 0.03854484111070633
+        },
+        {
+          "token": "million",
+          "token_pos": 25,
+          "quality": "content_word",
+          "word_score_logit": 0.025911910459399223,
+          "word_attn_weight": 0.03842601552605629
+        },
+        {
+          "token": "16",
+          "token_pos": 24,
+          "quality": "number",
+          "word_score_logit": 0.022980041801929474,
+          "word_attn_weight": 0.038313522934913635
+        },
+        {
+          "token": "colors",
+          "token_pos": 18,
+          "quality": "content_word",
+          "word_score_logit": 0.022492915391921997,
+          "word_attn_weight": 0.03829486295580864
+        }
+      ],
+      [
+        {
+          "token": "windows",
+          "token_pos": 7,
+          "quality": "content_word",
+          "word_score_logit": 0.13301289081573486,
+          "word_attn_weight": 0.12083420157432556
+        },
+        {
+          "token": "considerably",
+          "token_pos": 8,
+          "quality": "content_word",
+          "word_score_logit": 0.08644160628318787,
+          "word_attn_weight": 0.11533582955598831
+        },
+        {
+          "token": "speed",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.0482480525970459,
+          "word_attn_weight": 0.11101379990577698
+        },
+        {
+          "token": "up",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": 0.04431559890508652,
+          "word_attn_weight": 0.11057810485363007
+        },
+        {
+          "token": "found",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.0342569574713707,
+          "word_attn_weight": 0.1094714105129242
+        }
+      ],
+      [
+        {
+          "token": "b",
+          "token_pos": 4,
+          "quality": "short_word",
+          "word_score_logit": 0.05173639953136444,
+          "word_attn_weight": 0.17369943857192993
+        },
+        {
+          "token": "o",
+          "token_pos": 5,
+          "quality": "short_word",
+          "word_score_logit": 0.01526250783354044,
+          "word_attn_weight": 0.16747809946537018
+        },
+        {
+          "token": "o",
+          "token_pos": 3,
+          "quality": "short_word",
+          "word_score_logit": 0.011054722592234612,
+          "word_attn_weight": 0.16677486896514893
+        },
+        {
+          "token": "100",
+          "token_pos": 2,
+          "quality": "number",
+          "word_score_logit": -0.0006554033607244492,
+          "word_attn_weight": 0.16483329236507416
+        },
+        {
+          "token": "asking",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": -0.002917341887950897,
+          "word_attn_weight": 0.16446086764335632
+        }
+      ],
+      [
+        {
+          "token": "card",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.027464263141155243,
+          "word_attn_weight": 0.33612480759620667
+        },
+        {
+          "token": "this",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.018340419977903366,
+          "word_attn_weight": 0.3330720067024231
+        },
+        {
+          "token": "for",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.011505200527608395,
+          "word_attn_weight": 0.33080315589904785
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 3,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ],
+      [
+        {
+          "token": "modems",
+          "token_pos": 6,
+          "quality": "content_word",
+          "word_score_logit": 0.05205497518181801,
+          "word_attn_weight": 0.1466672420501709
+        },
+        {
+          "token": "also",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.0393710620701313,
+          "word_attn_weight": 0.14481867849826813
+        },
+        {
+          "token": "2",
+          "token_pos": 3,
+          "quality": "number",
+          "word_score_logit": 0.025735516101121902,
+          "word_attn_weight": 0.1428573876619339
+        },
+        {
+          "token": "i",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.025592852383852005,
+          "word_attn_weight": 0.1428370177745819
+        },
+        {
+          "token": "have",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.019728871062397957,
+          "word_attn_weight": 0.14200188219547272
+        }
+      ],
+      [
+        {
+          "token": "the",
+          "token_pos": 9,
+          "quality": "stopword",
+          "word_score_logit": 0.05106299743056297,
+          "word_attn_weight": 0.08553709834814072
+        },
+        {
+          "token": "both",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.04746196046471596,
+          "word_attn_weight": 0.08522962778806686
+        },
+        {
+          "token": "have",
+          "token_pos": 8,
+          "quality": "content_word",
+          "word_score_logit": 0.04087594896554947,
+          "word_attn_weight": 0.08467014878988266
+        },
+        {
+          "token": "for",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": 0.03597509115934372,
+          "word_attn_weight": 0.08425620943307877
+        },
+        {
+          "token": "but",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.03565223515033722,
+          "word_attn_weight": 0.0842290148139
+        }
+      ],
+      [
+        {
+          "token": "both",
+          "token_pos": 13,
+          "quality": "content_word",
+          "word_score_logit": 0.029802443459630013,
+          "word_attn_weight": 0.07251235097646713
+        },
+        {
+          "token": "like",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.023044317960739136,
+          "word_attn_weight": 0.07202395796775818
+        },
+        {
+          "token": "and",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": 0.02172253467142582,
+          "word_attn_weight": 0.07192882150411606
+        },
+        {
+          "token": "or",
+          "token_pos": 10,
+          "quality": "stopword",
+          "word_score_logit": 0.020907923579216003,
+          "word_attn_weight": 0.07187024503946304
+        },
+        {
+          "token": "each",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": 0.020443305373191833,
+          "word_attn_weight": 0.07183686643838882
+        }
+      ]
+    ],
+    "top_sentence_id": 0,
+    "sentence_importance_distribution": [
+      0.21477481722831726,
+      0.19251053035259247,
+      0.07394047826528549,
+      0.1173289567232132,
+      0.13537515699863434,
+      0.14546550810337067,
+      0.12060456722974777
+    ]
+  }
+}

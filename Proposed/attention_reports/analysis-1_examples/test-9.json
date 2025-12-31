@@ -1,0 +1,338 @@
+{
+  "true_label_id": 5,
+  "pred_label_id": 5,
+  "true_label_name": "comp.windows.x",
+  "pred_label_name": "comp.windows.x",
+  "pred_confidence": 0.9797675609588623,
+  "num_sents": 2,
+  "sentence_summaries": [
+    {
+      "sentence_id": 0,
+      "sentence_text": "hi we have a requirement for dynamically closing and opening different display servers within an x application in a manner such that at any time there is only one display associated with the client",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "x",
+          "token_pos": 15,
+          "word_score_logit": 0.14336633682250977,
+          "word_attn_weight": 0.03158651664853096
+        },
+        {
+          "rank": 1,
+          "token": "in",
+          "token_pos": 17,
+          "word_score_logit": 0.10956204682588577,
+          "word_attn_weight": 0.030536603182554245
+        },
+        {
+          "rank": 2,
+          "token": "application",
+          "token_pos": 16,
+          "word_score_logit": 0.10813840478658676,
+          "word_attn_weight": 0.03049316070973873
+        },
+        {
+          "rank": 3,
+          "token": "any",
+          "token_pos": 23,
+          "word_score_logit": 0.09913661330938339,
+          "word_attn_weight": 0.030219899490475655
+        },
+        {
+          "rank": 4,
+          "token": "there",
+          "token_pos": 25,
+          "word_score_logit": 0.09464122354984283,
+          "word_attn_weight": 0.030084354802966118
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "sentence_text": "<UNK> a proper cleanup is done during the transition should we anticipate any problems",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "cleanup",
+          "token_pos": 3,
+          "word_score_logit": 0.09515178948640823,
+          "word_attn_weight": 0.07647895067930222
+        },
+        {
+          "rank": 1,
+          "token": "proper",
+          "token_pos": 2,
+          "word_score_logit": 0.06184641271829605,
+          "word_attn_weight": 0.07397373765707016
+        },
+        {
+          "rank": 2,
+          "token": "a",
+          "token_pos": 1,
+          "word_score_logit": 0.029391780495643616,
+          "word_attn_weight": 0.07161148637533188
+        },
+        {
+          "rank": 3,
+          "token": "is",
+          "token_pos": 4,
+          "word_score_logit": 0.02928791008889675,
+          "word_attn_weight": 0.07160405069589615
+        },
+        {
+          "rank": 4,
+          "token": "<UNK>",
+          "token_pos": 0,
+          "word_score_logit": 0.028301741927862167,
+          "word_attn_weight": 0.07153347134590149
+        }
+      ]
+    }
+  ],
+  "query_summaries": [
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "x",
+      "token_pos": 15,
+      "word_score_logit": 0.14336633682250977,
+      "word_attn_weight": 0.03158651664853096,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.9860556721687317,
+          "sentence_text": "hi we have a requirement for dynamically closing and opening different display servers within an x application in a manner such that at any time there is only one display associated with the client"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.01394432783126831,
+          "sentence_text": "<UNK> a proper cleanup is done during the transition should we anticipate any problems"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "in",
+      "token_pos": 17,
+      "word_score_logit": 0.10956204682588577,
+      "word_attn_weight": 0.030536603182554245,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.9850949048995972,
+          "sentence_text": "hi we have a requirement for dynamically closing and opening different display servers within an x application in a manner such that at any time there is only one display associated with the client"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.014905065298080444,
+          "sentence_text": "<UNK> a proper cleanup is done during the transition should we anticipate any problems"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "application",
+      "token_pos": 16,
+      "word_score_logit": 0.10813840478658676,
+      "word_attn_weight": 0.03049316070973873,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.9904698729515076,
+          "sentence_text": "hi we have a requirement for dynamically closing and opening different display servers within an x application in a manner such that at any time there is only one display associated with the client"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.00953015685081482,
+          "sentence_text": "<UNK> a proper cleanup is done during the transition should we anticipate any problems"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "any",
+      "token_pos": 23,
+      "word_score_logit": 0.09913661330938339,
+      "word_attn_weight": 0.030219899490475655,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.9564833641052246,
+          "sentence_text": "hi we have a requirement for dynamically closing and opening different display servers within an x application in a manner such that at any time there is only one display associated with the client"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.0435166135430336,
+          "sentence_text": "<UNK> a proper cleanup is done during the transition should we anticipate any problems"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "there",
+      "token_pos": 25,
+      "word_score_logit": 0.09464122354984283,
+      "word_attn_weight": 0.030084354802966118,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.9426376819610596,
+          "sentence_text": "hi we have a requirement for dynamically closing and opening different display servers within an x application in a manner such that at any time there is only one display associated with the client"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.057362332940101624,
+          "sentence_text": "<UNK> a proper cleanup is done during the transition should we anticipate any problems"
+        }
+      ]
+    },
+    {
+      "query_id": 5,
+      "from_sentence_id": 1,
+      "token": "cleanup",
+      "token_pos": 3,
+      "word_score_logit": 0.09515178948640823,
+      "word_attn_weight": 0.07647895067930222,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5774699449539185,
+          "sentence_text": "hi we have a requirement for dynamically closing and opening different display servers within an x application in a manner such that at any time there is only one display associated with the client"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.4225301146507263,
+          "sentence_text": "<UNK> a proper cleanup is done during the transition should we anticipate any problems"
+        }
+      ]
+    },
+    {
+      "query_id": 6,
+      "from_sentence_id": 1,
+      "token": "proper",
+      "token_pos": 2,
+      "word_score_logit": 0.06184641271829605,
+      "word_attn_weight": 0.07397373765707016,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.679108738899231,
+          "sentence_text": "hi we have a requirement for dynamically closing and opening different display servers within an x application in a manner such that at any time there is only one display associated with the client"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.32089123129844666,
+          "sentence_text": "<UNK> a proper cleanup is done during the transition should we anticipate any problems"
+        }
+      ]
+    },
+    {
+      "query_id": 7,
+      "from_sentence_id": 1,
+      "token": "a",
+      "token_pos": 1,
+      "word_score_logit": 0.029391780495643616,
+      "word_attn_weight": 0.07161148637533188,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5576167702674866,
+          "sentence_text": "hi we have a requirement for dynamically closing and opening different display servers within an x application in a manner such that at any time there is only one display associated with the client"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.4423832297325134,
+          "sentence_text": "<UNK> a proper cleanup is done during the transition should we anticipate any problems"
+        }
+      ]
+    },
+    {
+      "query_id": 8,
+      "from_sentence_id": 1,
+      "token": "is",
+      "token_pos": 4,
+      "word_score_logit": 0.02928791008889675,
+      "word_attn_weight": 0.07160405069589615,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.7317042946815491,
+          "sentence_text": "hi we have a requirement for dynamically closing and opening different display servers within an x application in a manner such that at any time there is only one display associated with the client"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.2682957649230957,
+          "sentence_text": "<UNK> a proper cleanup is done during the transition should we anticipate any problems"
+        }
+      ]
+    },
+    {
+      "query_id": 9,
+      "from_sentence_id": 1,
+      "token": "<UNK>",
+      "token_pos": 0,
+      "word_score_logit": 0.028301741927862167,
+      "word_attn_weight": 0.07153347134590149,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5368200540542603,
+          "sentence_text": "hi we have a requirement for dynamically closing and opening different display servers within an x application in a manner such that at any time there is only one display associated with the client"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.46317994594573975,
+          "sentence_text": "<UNK> a proper cleanup is done during the transition should we anticipate any problems"
+        }
+      ]
+    }
+  ],
+  "sentence_importance_from_cross_attn": {
+    "definition": "mean cross-attn over queries",
+    "values": [
+      {
+        "sentence_id": 0,
+        "importance": 0.7943460941314697
+      },
+      {
+        "sentence_id": 1,
+        "importance": 0.20565389096736908
+      }
+    ],
+    "ranked": [
+      {
+        "sentence_id": 0,
+        "importance": 0.7943460941314697
+      },
+      {
+        "sentence_id": 1,
+        "importance": 0.20565389096736908
+      }
+    ]
+  },
+  "example_id": "test-9"
+}

@@ -1,0 +1,200 @@
+{
+  "example_id": "test_3963",
+  "true_label_id": 9,
+  "pred_label_id": 10,
+  "true_label_name": "rec.sport.baseball",
+  "pred_label_name": "rec.sport.hockey",
+  "pred_confidence": 0.9965517520904541,
+  "metrics": {
+    "num_sents": 4,
+    "K": 5,
+    "stop_ratio": 0.4,
+    "unk_ratio": 0.0,
+    "num_ratio": 0.05,
+    "content_ratio": 0.5,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 0.9906226992607117,
+    "sentence_importance_entropy": 1.1060614585876465,
+    "sentence_importance_max": 0.5994281768798828,
+    "top_sentence_id": 0,
+    "query_mismatch_rate": 0.6,
+    "selected_quality_counts": {
+      "content_word": 10,
+      "stopword": 8,
+      "other": 1,
+      "number": 1
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.245,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.49838743209838865,
+    "D_local_global_conflict": 0.6,
+    "E_overconfident_error": 0.9965517520904541
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "since roger is a canadian who probably knows nothing about baseball i am gonna try to explain it to him in terms of hockey",
+      "according to his logic",
+      "i can say that since 1988 bob errey is better than wayne gretzky hey errey contributed to 2 cups while good old wayne has won nothing",
+      "i think the kings should trade gretzky for errey what do you think roger"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "roger",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.15996992588043213,
+          "word_attn_weight": 0.04473968222737312
+        },
+        {
+          "token": "baseball",
+          "token_pos": 10,
+          "quality": "content_word",
+          "word_score_logit": 0.15900611877441406,
+          "word_attn_weight": 0.04469658434391022
+        },
+        {
+          "token": "since",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": 0.15516561269760132,
+          "word_attn_weight": 0.044525254517793655
+        },
+        {
+          "token": "a",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": 0.13518524169921875,
+          "word_attn_weight": 0.04364445060491562
+        },
+        {
+          "token": "is",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.13134144246578217,
+          "word_attn_weight": 0.04347701370716095
+        }
+      ],
+      [
+        {
+          "token": "his",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.030138207599520683,
+          "word_attn_weight": 0.25211817026138306
+        },
+        {
+          "token": "logic",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.0228388924151659,
+          "word_attn_weight": 0.2502845823764801
+        },
+        {
+          "token": "according",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": 0.02121073752641678,
+          "word_attn_weight": 0.2498774230480194
+        },
+        {
+          "token": "to",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.01253880001604557,
+          "word_attn_weight": 0.24771985411643982
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ],
+      [
+        {
+          "token": "since",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.13500484824180603,
+          "word_attn_weight": 0.04195617884397507
+        },
+        {
+          "token": "1988",
+          "token_pos": 5,
+          "quality": "number",
+          "word_score_logit": 0.12979665398597717,
+          "word_attn_weight": 0.04173823073506355
+        },
+        {
+          "token": "bob",
+          "token_pos": 6,
+          "quality": "content_word",
+          "word_score_logit": 0.12436264008283615,
+          "word_attn_weight": 0.04151204228401184
+        },
+        {
+          "token": "wayne",
+          "token_pos": 11,
+          "quality": "content_word",
+          "word_score_logit": 0.1195254772901535,
+          "word_attn_weight": 0.04131172597408295
+        },
+        {
+          "token": "that",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": 0.11762090772390366,
+          "word_attn_weight": 0.0412331186234951
+        }
+      ],
+      [
+        {
+          "token": "the",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.10214421898126602,
+          "word_attn_weight": 0.07830487936735153
+        },
+        {
+          "token": "think",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.07707733660936356,
+          "word_attn_weight": 0.07636640965938568
+        },
+        {
+          "token": "i",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.07511994987726212,
+          "word_attn_weight": 0.07621708512306213
+        },
+        {
+          "token": "kings",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.06497828662395477,
+          "word_attn_weight": 0.07544802129268646
+        },
+        {
+          "token": "should",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": 0.02715614251792431,
+          "word_attn_weight": 0.07264770567417145
+        }
+      ]
+    ],
+    "top_sentence_id": 0,
+    "sentence_importance_distribution": [
+      0.5994281768798828,
+      0.10048671066761017,
+      0.16111020743846893,
+      0.13897494971752167
+    ]
+  }
+}

@@ -1,0 +1,277 @@
+{
+  "example_id": "test_27",
+  "true_label_id": 7,
+  "pred_label_id": 8,
+  "true_label_name": "rec.autos",
+  "pred_label_name": "rec.motorcycles",
+  "pred_confidence": 0.46647900342941284,
+  "metrics": {
+    "num_sents": 6,
+    "K": 5,
+    "stop_ratio": 0.36666666666666664,
+    "unk_ratio": 0.0,
+    "num_ratio": 0.03333333333333333,
+    "content_ratio": 0.6,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 1.4889534711837769,
+    "sentence_importance_entropy": 1.5290337800979614,
+    "sentence_importance_max": 0.35180121660232544,
+    "top_sentence_id": 0,
+    "query_mismatch_rate": 0.9,
+    "selected_quality_counts": {
+      "content_word": 18,
+      "stopword": 11,
+      "number": 1
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.2233333333333333,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.24626085162162778,
+    "D_local_global_conflict": 0.9,
+    "E_overconfident_error": 0.46647900342941284
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "i have a 90 eagle talon and i wanted a pair of <UNK> headlight covers",
+      "actually they are turning signal covers since the <UNK> that year had pop up lights",
+      "i went to a auto shop and bought the tail light <UNK> for 45 but they did not have the turning signal covers in stock",
+      "i asked how much it would be and he told me it would cost me another 40",
+      "i thought this was a bit high for two small pieces of plastic",
+      "can anyone find me a cheaper pair or even a used one"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "covers",
+          "token_pos": 14,
+          "quality": "content_word",
+          "word_score_logit": 0.060455068945884705,
+          "word_attn_weight": 0.06984323263168335
+        },
+        {
+          "token": "have",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.039346661418676376,
+          "word_attn_weight": 0.06838440895080566
+        },
+        {
+          "token": "headlight",
+          "token_pos": 13,
+          "quality": "content_word",
+          "word_score_logit": 0.03754524886608124,
+          "word_attn_weight": 0.06826132535934448
+        },
+        {
+          "token": "eagle",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.03145235776901245,
+          "word_attn_weight": 0.06784667819738388
+        },
+        {
+          "token": "a",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.02766253985464573,
+          "word_attn_weight": 0.06759004294872284
+        }
+      ],
+      [
+        {
+          "token": "lights",
+          "token_pos": 14,
+          "quality": "content_word",
+          "word_score_logit": 0.06119978800415993,
+          "word_attn_weight": 0.06963233649730682
+        },
+        {
+          "token": "signal",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.03981804475188255,
+          "word_attn_weight": 0.06815928965806961
+        },
+        {
+          "token": "covers",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.03312517702579498,
+          "word_attn_weight": 0.06770462542772293
+        },
+        {
+          "token": "since",
+          "token_pos": 6,
+          "quality": "content_word",
+          "word_score_logit": 0.03153209388256073,
+          "word_attn_weight": 0.06759685277938843
+        },
+        {
+          "token": "actually",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": 0.026305539533495903,
+          "word_attn_weight": 0.06724447757005692
+        }
+      ],
+      [
+        {
+          "token": "tail",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": 0.07698170095682144,
+          "word_attn_weight": 0.041262656450271606
+        },
+        {
+          "token": "45",
+          "token_pos": 13,
+          "quality": "number",
+          "word_score_logit": 0.074439637362957,
+          "word_attn_weight": 0.04115789383649826
+        },
+        {
+          "token": "for",
+          "token_pos": 12,
+          "quality": "stopword",
+          "word_score_logit": 0.0731174573302269,
+          "word_attn_weight": 0.04110351577401161
+        },
+        {
+          "token": "but",
+          "token_pos": 14,
+          "quality": "stopword",
+          "word_score_logit": 0.07226461172103882,
+          "word_attn_weight": 0.04106847569346428
+        },
+        {
+          "token": "they",
+          "token_pos": 15,
+          "quality": "stopword",
+          "word_score_logit": 0.07061007618904114,
+          "word_attn_weight": 0.04100057855248451
+        }
+      ],
+      [
+        {
+          "token": "he",
+          "token_pos": 8,
+          "quality": "stopword",
+          "word_score_logit": 0.034174010157585144,
+          "word_attn_weight": 0.06031664088368416
+        },
+        {
+          "token": "another",
+          "token_pos": 15,
+          "quality": "content_word",
+          "word_score_logit": 0.02361215278506279,
+          "word_attn_weight": 0.0596829392015934
+        },
+        {
+          "token": "and",
+          "token_pos": 7,
+          "quality": "stopword",
+          "word_score_logit": 0.02339673414826393,
+          "word_attn_weight": 0.05967008322477341
+        },
+        {
+          "token": "be",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": 0.01599629782140255,
+          "word_attn_weight": 0.059230126440525055
+        },
+        {
+          "token": "me",
+          "token_pos": 14,
+          "quality": "stopword",
+          "word_score_logit": 0.014547067694365978,
+          "word_attn_weight": 0.05914435163140297
+        }
+      ],
+      [
+        {
+          "token": "two",
+          "token_pos": 8,
+          "quality": "content_word",
+          "word_score_logit": 0.038651298731565475,
+          "word_attn_weight": 0.07866691797971725
+        },
+        {
+          "token": "high",
+          "token_pos": 6,
+          "quality": "content_word",
+          "word_score_logit": 0.038060322403907776,
+          "word_attn_weight": 0.07862044870853424
+        },
+        {
+          "token": "for",
+          "token_pos": 7,
+          "quality": "stopword",
+          "word_score_logit": 0.02817857265472412,
+          "word_attn_weight": 0.07784736156463623
+        },
+        {
+          "token": "was",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": 0.02258748561143875,
+          "word_attn_weight": 0.07741332799196243
+        },
+        {
+          "token": "small",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": 0.017649540677666664,
+          "word_attn_weight": 0.07703200727701187
+        }
+      ],
+      [
+        {
+          "token": "used",
+          "token_pos": 10,
+          "quality": "content_word",
+          "word_score_logit": 0.07823758572340012,
+          "word_attn_weight": 0.08694382756948471
+        },
+        {
+          "token": "one",
+          "token_pos": 11,
+          "quality": "content_word",
+          "word_score_logit": 0.05715759098529816,
+          "word_attn_weight": 0.0851302295923233
+        },
+        {
+          "token": "or",
+          "token_pos": 7,
+          "quality": "stopword",
+          "word_score_logit": 0.05663570389151573,
+          "word_attn_weight": 0.08508581668138504
+        },
+        {
+          "token": "pair",
+          "token_pos": 6,
+          "quality": "content_word",
+          "word_score_logit": 0.052320756018161774,
+          "word_attn_weight": 0.0847194641828537
+        },
+        {
+          "token": "even",
+          "token_pos": 8,
+          "quality": "content_word",
+          "word_score_logit": 0.05210832878947258,
+          "word_attn_weight": 0.08470147103071213
+        }
+      ]
+    ],
+    "top_sentence_id": 0,
+    "sentence_importance_distribution": [
+      0.35180121660232544,
+      0.1097935289144516,
+      0.32809892296791077,
+      0.0532020702958107,
+      0.0923469141125679,
+      0.06475730240345001
+    ]
+  }
+}

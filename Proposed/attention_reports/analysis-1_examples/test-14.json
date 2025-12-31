@@ -1,0 +1,776 @@
+{
+  "true_label_id": 8,
+  "pred_label_id": 8,
+  "true_label_name": "rec.motorcycles",
+  "pred_label_name": "rec.motorcycles",
+  "pred_confidence": 0.46629729866981506,
+  "num_sents": 4,
+  "sentence_summaries": [
+    {
+      "sentence_id": 0,
+      "sentence_text": "accusation",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "accusation",
+          "token_pos": 0,
+          "word_score_logit": -0.035040292888879776,
+          "word_attn_weight": 1.0
+        },
+        {
+          "rank": 1,
+          "token": "<PAD>",
+          "token_pos": 3,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 2,
+          "token": "<PAD>",
+          "token_pos": 1,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 3,
+          "token": "<PAD>",
+          "token_pos": 4,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 4,
+          "token": "<PAD>",
+          "token_pos": 2,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "sentence_text": "i thought it was a recommendation",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "was",
+          "token_pos": 3,
+          "word_score_logit": 0.012756021693348885,
+          "word_attn_weight": 0.16851717233657837
+        },
+        {
+          "rank": 1,
+          "token": "i",
+          "token_pos": 0,
+          "word_score_logit": 0.008241464383900166,
+          "word_attn_weight": 0.16775810718536377
+        },
+        {
+          "rank": 2,
+          "token": "thought",
+          "token_pos": 1,
+          "word_score_logit": 0.006389646325260401,
+          "word_attn_weight": 0.1674477458000183
+        },
+        {
+          "rank": 3,
+          "token": "a",
+          "token_pos": 4,
+          "word_score_logit": 0.0038328925147652626,
+          "word_attn_weight": 0.16702014207839966
+        },
+        {
+          "rank": 4,
+          "token": "it",
+          "token_pos": 2,
+          "word_score_logit": -0.005747988820075989,
+          "word_attn_weight": 0.16542759537696838
+        }
+      ]
+    },
+    {
+      "sentence_id": 2,
+      "sentence_text": "i mean i did grow up there i oughta know",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "know",
+          "token_pos": 9,
+          "word_score_logit": 0.018118474632501602,
+          "word_attn_weight": 0.10180559754371643
+        },
+        {
+          "rank": 1,
+          "token": "mean",
+          "token_pos": 1,
+          "word_score_logit": 0.011486425064504147,
+          "word_attn_weight": 0.10113264620304108
+        },
+        {
+          "rank": 2,
+          "token": "i",
+          "token_pos": 0,
+          "word_score_logit": 0.006516220048069954,
+          "word_attn_weight": 0.10063125193119049
+        },
+        {
+          "rank": 3,
+          "token": "did",
+          "token_pos": 3,
+          "word_score_logit": 0.005784633569419384,
+          "word_attn_weight": 0.10055765509605408
+        },
+        {
+          "rank": 4,
+          "token": "there",
+          "token_pos": 6,
+          "word_score_logit": 0.0036136386916041374,
+          "word_attn_weight": 0.10033958405256271
+        }
+      ]
+    },
+    {
+      "sentence_id": 3,
+      "sentence_text": "bring the truck and about 10 pounds of <UNK> and we'll talk",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "and",
+          "token_pos": 3,
+          "word_score_logit": 0.034755222499370575,
+          "word_attn_weight": 0.08497695624828339
+        },
+        {
+          "rank": 1,
+          "token": "of",
+          "token_pos": 7,
+          "word_score_logit": 0.031115902587771416,
+          "word_attn_weight": 0.08466826379299164
+        },
+        {
+          "rank": 2,
+          "token": "pounds",
+          "token_pos": 6,
+          "word_score_logit": 0.02467370219528675,
+          "word_attn_weight": 0.08412456512451172
+        },
+        {
+          "rank": 3,
+          "token": "and",
+          "token_pos": 9,
+          "word_score_logit": 0.01974661648273468,
+          "word_attn_weight": 0.08371110260486603
+        },
+        {
+          "rank": 4,
+          "token": "we'll",
+          "token_pos": 10,
+          "word_score_logit": 0.017612360417842865,
+          "word_attn_weight": 0.08353262394666672
+        }
+      ]
+    }
+  ],
+  "query_summaries": [
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "accusation",
+      "token_pos": 0,
+      "word_score_logit": -0.035040292888879776,
+      "word_attn_weight": 1.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.4891831874847412,
+          "sentence_text": "accusation"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.183424174785614,
+          "sentence_text": "i thought it was a recommendation"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.18149517476558685,
+          "sentence_text": "i mean i did grow up there i oughta know"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "<PAD>",
+      "token_pos": 3,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.31048494577407837,
+          "sentence_text": "bring the truck and about 10 pounds of <UNK> and we'll talk"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.24255947768688202,
+          "sentence_text": "accusation"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.23454302549362183,
+          "sentence_text": "i thought it was a recommendation"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "<PAD>",
+      "token_pos": 1,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.31048494577407837,
+          "sentence_text": "bring the truck and about 10 pounds of <UNK> and we'll talk"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.24255947768688202,
+          "sentence_text": "accusation"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.23454302549362183,
+          "sentence_text": "i thought it was a recommendation"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "<PAD>",
+      "token_pos": 4,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.31048494577407837,
+          "sentence_text": "bring the truck and about 10 pounds of <UNK> and we'll talk"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.24255947768688202,
+          "sentence_text": "accusation"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.23454302549362183,
+          "sentence_text": "i thought it was a recommendation"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "<PAD>",
+      "token_pos": 2,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.31048494577407837,
+          "sentence_text": "bring the truck and about 10 pounds of <UNK> and we'll talk"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.24255947768688202,
+          "sentence_text": "accusation"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.23454302549362183,
+          "sentence_text": "i thought it was a recommendation"
+        }
+      ]
+    },
+    {
+      "query_id": 5,
+      "from_sentence_id": 1,
+      "token": "was",
+      "token_pos": 3,
+      "word_score_logit": 0.012756021693348885,
+      "word_attn_weight": 0.16851717233657837,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.38348352909088135,
+          "sentence_text": "bring the truck and about 10 pounds of <UNK> and we'll talk"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.22175630927085876,
+          "sentence_text": "accusation"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.2165483832359314,
+          "sentence_text": "i thought it was a recommendation"
+        }
+      ]
+    },
+    {
+      "query_id": 6,
+      "from_sentence_id": 1,
+      "token": "i",
+      "token_pos": 0,
+      "word_score_logit": 0.008241464383900166,
+      "word_attn_weight": 0.16775810718536377,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.43860357999801636,
+          "sentence_text": "bring the truck and about 10 pounds of <UNK> and we'll talk"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.20392528176307678,
+          "sentence_text": "i thought it was a recommendation"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.19847916066646576,
+          "sentence_text": "accusation"
+        }
+      ]
+    },
+    {
+      "query_id": 7,
+      "from_sentence_id": 1,
+      "token": "thought",
+      "token_pos": 1,
+      "word_score_logit": 0.006389646325260401,
+      "word_attn_weight": 0.1674477458000183,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.4253498911857605,
+          "sentence_text": "bring the truck and about 10 pounds of <UNK> and we'll talk"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.21906200051307678,
+          "sentence_text": "accusation"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.200901061296463,
+          "sentence_text": "i thought it was a recommendation"
+        }
+      ]
+    },
+    {
+      "query_id": 8,
+      "from_sentence_id": 1,
+      "token": "a",
+      "token_pos": 4,
+      "word_score_logit": 0.0038328925147652626,
+      "word_attn_weight": 0.16702014207839966,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.35721200704574585,
+          "sentence_text": "bring the truck and about 10 pounds of <UNK> and we'll talk"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.24154484272003174,
+          "sentence_text": "accusation"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.2185945212841034,
+          "sentence_text": "i thought it was a recommendation"
+        }
+      ]
+    },
+    {
+      "query_id": 9,
+      "from_sentence_id": 1,
+      "token": "it",
+      "token_pos": 2,
+      "word_score_logit": -0.005747988820075989,
+      "word_attn_weight": 0.16542759537696838,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.3734622001647949,
+          "sentence_text": "bring the truck and about 10 pounds of <UNK> and we'll talk"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.2246359884738922,
+          "sentence_text": "accusation"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.21963973343372345,
+          "sentence_text": "i thought it was a recommendation"
+        }
+      ]
+    },
+    {
+      "query_id": 10,
+      "from_sentence_id": 2,
+      "token": "know",
+      "token_pos": 9,
+      "word_score_logit": 0.018118474632501602,
+      "word_attn_weight": 0.10180559754371643,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.40358442068099976,
+          "sentence_text": "bring the truck and about 10 pounds of <UNK> and we'll talk"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.21367481350898743,
+          "sentence_text": "accusation"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.21131160855293274,
+          "sentence_text": "i thought it was a recommendation"
+        }
+      ]
+    },
+    {
+      "query_id": 11,
+      "from_sentence_id": 2,
+      "token": "mean",
+      "token_pos": 1,
+      "word_score_logit": 0.011486425064504147,
+      "word_attn_weight": 0.10113264620304108,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.4385562539100647,
+          "sentence_text": "bring the truck and about 10 pounds of <UNK> and we'll talk"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.24825643002986908,
+          "sentence_text": "accusation"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.18129780888557434,
+          "sentence_text": "i thought it was a recommendation"
+        }
+      ]
+    },
+    {
+      "query_id": 12,
+      "from_sentence_id": 2,
+      "token": "i",
+      "token_pos": 0,
+      "word_score_logit": 0.006516220048069954,
+      "word_attn_weight": 0.10063125193119049,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.4664718508720398,
+          "sentence_text": "bring the truck and about 10 pounds of <UNK> and we'll talk"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.20494329929351807,
+          "sentence_text": "accusation"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.18858128786087036,
+          "sentence_text": "i thought it was a recommendation"
+        }
+      ]
+    },
+    {
+      "query_id": 13,
+      "from_sentence_id": 2,
+      "token": "did",
+      "token_pos": 3,
+      "word_score_logit": 0.005784633569419384,
+      "word_attn_weight": 0.10055765509605408,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.45508402585983276,
+          "sentence_text": "bring the truck and about 10 pounds of <UNK> and we'll talk"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.22391867637634277,
+          "sentence_text": "accusation"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.18461796641349792,
+          "sentence_text": "i thought it was a recommendation"
+        }
+      ]
+    },
+    {
+      "query_id": 14,
+      "from_sentence_id": 2,
+      "token": "there",
+      "token_pos": 6,
+      "word_score_logit": 0.0036136386916041374,
+      "word_attn_weight": 0.10033958405256271,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.4743468761444092,
+          "sentence_text": "bring the truck and about 10 pounds of <UNK> and we'll talk"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.21564970910549164,
+          "sentence_text": "accusation"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.1799018234014511,
+          "sentence_text": "i thought it was a recommendation"
+        }
+      ]
+    },
+    {
+      "query_id": 15,
+      "from_sentence_id": 3,
+      "token": "and",
+      "token_pos": 3,
+      "word_score_logit": 0.034755222499370575,
+      "word_attn_weight": 0.08497695624828339,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.5603561401367188,
+          "sentence_text": "bring the truck and about 10 pounds of <UNK> and we'll talk"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.17530949413776398,
+          "sentence_text": "i thought it was a recommendation"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 0,
+          "attn_weight": 0.13609763979911804,
+          "sentence_text": "accusation"
+        }
+      ]
+    },
+    {
+      "query_id": 16,
+      "from_sentence_id": 3,
+      "token": "of",
+      "token_pos": 7,
+      "word_score_logit": 0.031115902587771416,
+      "word_attn_weight": 0.08466826379299164,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.37867072224617004,
+          "sentence_text": "bring the truck and about 10 pounds of <UNK> and we'll talk"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.26584702730178833,
+          "sentence_text": "accusation"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.1979152411222458,
+          "sentence_text": "i thought it was a recommendation"
+        }
+      ]
+    },
+    {
+      "query_id": 17,
+      "from_sentence_id": 3,
+      "token": "pounds",
+      "token_pos": 6,
+      "word_score_logit": 0.02467370219528675,
+      "word_attn_weight": 0.08412456512451172,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.496137797832489,
+          "sentence_text": "bring the truck and about 10 pounds of <UNK> and we'll talk"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.194529190659523,
+          "sentence_text": "i thought it was a recommendation"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.1555863618850708,
+          "sentence_text": "i mean i did grow up there i oughta know"
+        }
+      ]
+    },
+    {
+      "query_id": 18,
+      "from_sentence_id": 3,
+      "token": "and",
+      "token_pos": 9,
+      "word_score_logit": 0.01974661648273468,
+      "word_attn_weight": 0.08371110260486603,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.3457340598106384,
+          "sentence_text": "bring the truck and about 10 pounds of <UNK> and we'll talk"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.27291595935821533,
+          "sentence_text": "accusation"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.2079300433397293,
+          "sentence_text": "i thought it was a recommendation"
+        }
+      ]
+    },
+    {
+      "query_id": 19,
+      "from_sentence_id": 3,
+      "token": "we'll",
+      "token_pos": 10,
+      "word_score_logit": 0.017612360417842865,
+      "word_attn_weight": 0.08353262394666672,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.3338152766227722,
+          "sentence_text": "bring the truck and about 10 pounds of <UNK> and we'll talk"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.2815433442592621,
+          "sentence_text": "accusation"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 1,
+          "attn_weight": 0.20950956642627716,
+          "sentence_text": "i thought it was a recommendation"
+        }
+      ]
+    }
+  ],
+  "sentence_importance_from_cross_attn": {
+    "definition": "mean cross-attn over queries",
+    "values": [
+      {
+        "sentence_id": 0,
+        "importance": 0.23907463252544403
+      },
+      {
+        "sentence_id": 1,
+        "importance": 0.20560546219348907
+      },
+      {
+        "sentence_id": 2,
+        "importance": 0.16938459873199463
+      },
+      {
+        "sentence_id": 3,
+        "importance": 0.38593530654907227
+      }
+    ],
+    "ranked": [
+      {
+        "sentence_id": 3,
+        "importance": 0.38593530654907227
+      },
+      {
+        "sentence_id": 0,
+        "importance": 0.23907463252544403
+      },
+      {
+        "sentence_id": 1,
+        "importance": 0.20560546219348907
+      },
+      {
+        "sentence_id": 2,
+        "importance": 0.16938459873199463
+      }
+    ]
+  },
+  "example_id": "test-14"
+}

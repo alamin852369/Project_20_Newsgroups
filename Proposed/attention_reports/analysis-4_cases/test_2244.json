@@ -1,0 +1,120 @@
+{
+  "example_id": "test_2244",
+  "true_label_id": 17,
+  "pred_label_id": 0,
+  "true_label_name": "talk.politics.mideast",
+  "pred_label_name": "alt.atheism",
+  "pred_confidence": 0.4826512336730957,
+  "metrics": {
+    "num_sents": 2,
+    "K": 5,
+    "stop_ratio": 0.9,
+    "unk_ratio": 0.0,
+    "num_ratio": 0.0,
+    "content_ratio": 0.1,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 0.6246213316917419,
+    "sentence_importance_entropy": 0.6362054944038391,
+    "sentence_importance_max": 0.6671113967895508,
+    "top_sentence_id": 1,
+    "query_mismatch_rate": 0.5,
+    "selected_quality_counts": {
+      "stopword": 9,
+      "content_word": 1
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.54,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.6397368788719177,
+    "D_local_global_conflict": 0.5,
+    "E_overconfident_error": 0.4826512336730957
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "are you pretending not knowing it",
+      "here is why those who are not obedient to we west must be evil"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "are",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.0068205976858735085,
+          "word_attn_weight": 0.16958963871002197
+        },
+        {
+          "token": "knowing",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": -0.0034191086888313293,
+          "word_attn_weight": 0.1678619533777237
+        },
+        {
+          "token": "you",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": -0.0068766167387366295,
+          "word_attn_weight": 0.16728255152702332
+        },
+        {
+          "token": "not",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": -0.008624590933322906,
+          "word_attn_weight": 0.16699041426181793
+        },
+        {
+          "token": "it",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": -0.016086816787719727,
+          "word_attn_weight": 0.16574892401695251
+        }
+      ],
+      [
+        {
+          "token": "is",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.010165037587285042,
+          "word_attn_weight": 0.07358574122190475
+        },
+        {
+          "token": "why",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.0016650278121232986,
+          "word_attn_weight": 0.0729629173874855
+        },
+        {
+          "token": "here",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": -0.0026902388781309128,
+          "word_attn_weight": 0.07264583557844162
+        },
+        {
+          "token": "be",
+          "token_pos": 12,
+          "quality": "stopword",
+          "word_score_logit": -0.01186458021402359,
+          "word_attn_weight": 0.07198240607976913
+        },
+        {
+          "token": "we",
+          "token_pos": 9,
+          "quality": "stopword",
+          "word_score_logit": -0.014317134395241737,
+          "word_attn_weight": 0.07180608063936234
+        }
+      ]
+    ],
+    "top_sentence_id": 1,
+    "sentence_importance_distribution": [
+      0.3328886032104492,
+      0.6671113967895508
+    ]
+  }
+}

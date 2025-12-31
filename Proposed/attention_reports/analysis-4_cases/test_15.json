@@ -1,0 +1,513 @@
+{
+  "example_id": "test_15",
+  "true_label_id": 2,
+  "pred_label_id": 3,
+  "true_label_name": "comp.os.ms-windows.misc",
+  "pred_label_name": "comp.sys.ibm.pc.hardware",
+  "pred_confidence": 0.9025008082389832,
+  "metrics": {
+    "num_sents": 12,
+    "K": 5,
+    "stop_ratio": 0.3,
+    "unk_ratio": 0.0,
+    "num_ratio": 0.06666666666666667,
+    "content_ratio": 0.6,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 2.324838399887085,
+    "sentence_importance_entropy": 2.367633104324341,
+    "sentence_importance_max": 0.18238145112991333,
+    "top_sentence_id": 3,
+    "query_mismatch_rate": 0.9166666666666666,
+    "selected_quality_counts": {
+      "short_word": 1,
+      "content_word": 36,
+      "stopword": 18,
+      "number": 4,
+      "other": 1
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.18666666666666665,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.12766701579093934,
+    "D_local_global_conflict": 0.9166666666666666,
+    "E_overconfident_error": 0.9025008082389832
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "from article <UNK> <UNK> world std com by <UNK> world std com christopher f <UNK> good question",
+      "answer the eisa bus does move 32 bits rather than <UNK> 8 16 but it still moves it at about the speed as the isa bus",
+      "i think that's either 8 or 10 mhz",
+      "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz",
+      "so on a 33mhz cpu the local bus is moving 32bit data at 33 mhz and the eisa is moving 32bit data at 8 or 10 mhz",
+      "so the local bus should be 3 to 4 times faster than eisa on a 33 mhz cpu",
+      "eisa should be about two maybe 3 times as fast as isa",
+      "that's a very good question",
+      "the eisa bus does have more advantages over the isa bus than just it's width",
+      "for example more better interrupts and bus mastering",
+      "but these other factors do not impact a video card very much",
+      "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "f",
+          "token_pos": 13,
+          "quality": "short_word",
+          "word_score_logit": 0.07673747092485428,
+          "word_attn_weight": 0.06315812468528748
+        },
+        {
+          "token": "com",
+          "token_pos": 11,
+          "quality": "content_word",
+          "word_score_logit": 0.06671217083930969,
+          "word_attn_weight": 0.0625281110405922
+        },
+        {
+          "token": "christopher",
+          "token_pos": 12,
+          "quality": "content_word",
+          "word_score_logit": 0.06398291885852814,
+          "word_attn_weight": 0.062357690185308456
+        },
+        {
+          "token": "com",
+          "token_pos": 6,
+          "quality": "content_word",
+          "word_score_logit": 0.026056187227368355,
+          "word_attn_weight": 0.060036949813365936
+        },
+        {
+          "token": "std",
+          "token_pos": 10,
+          "quality": "content_word",
+          "word_score_logit": 0.023252028971910477,
+          "word_attn_weight": 0.05986883118748665
+        }
+      ],
+      [
+        {
+          "token": "answer",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": 0.05041498690843582,
+          "word_attn_weight": 0.04033011943101883
+        },
+        {
+          "token": "does",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": 0.03740178793668747,
+          "word_attn_weight": 0.039808694273233414
+        },
+        {
+          "token": "as",
+          "token_pos": 22,
+          "quality": "stopword",
+          "word_score_logit": 0.02875143475830555,
+          "word_attn_weight": 0.03946581855416298
+        },
+        {
+          "token": "the",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.028459545224905014,
+          "word_attn_weight": 0.03945430368185043
+        },
+        {
+          "token": "speed",
+          "token_pos": 21,
+          "quality": "content_word",
+          "word_score_logit": 0.025438755750656128,
+          "word_attn_weight": 0.03933529928326607
+        }
+      ],
+      [
+        {
+          "token": "mhz",
+          "token_pos": 7,
+          "quality": "content_word",
+          "word_score_logit": 0.07961338758468628,
+          "word_attn_weight": 0.1301046907901764
+        },
+        {
+          "token": "or",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.048536017537117004,
+          "word_attn_weight": 0.1261235624551773
+        },
+        {
+          "token": "10",
+          "token_pos": 6,
+          "quality": "number",
+          "word_score_logit": 0.04094266891479492,
+          "word_attn_weight": 0.12516948580741882
+        },
+        {
+          "token": "8",
+          "token_pos": 4,
+          "quality": "number",
+          "word_score_logit": 0.040718771517276764,
+          "word_attn_weight": 0.1251414567232132
+        },
+        {
+          "token": "either",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.03896913677453995,
+          "word_attn_weight": 0.12492270767688751
+        }
+      ],
+      [
+        {
+          "token": "also",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.09182105958461761,
+          "word_attn_weight": 0.04323902726173401
+        },
+        {
+          "token": "data",
+          "token_pos": 15,
+          "quality": "content_word",
+          "word_score_logit": 0.0909358561038971,
+          "word_attn_weight": 0.0432007722556591
+        },
+        {
+          "token": "mhz",
+          "token_pos": 23,
+          "quality": "content_word",
+          "word_score_logit": 0.07771926373243332,
+          "word_attn_weight": 0.04263355955481529
+        },
+        {
+          "token": "speed",
+          "token_pos": 19,
+          "quality": "content_word",
+          "word_score_logit": 0.07315536588430405,
+          "word_attn_weight": 0.042439427226781845
+        },
+        {
+          "token": "up",
+          "token_pos": 20,
+          "quality": "stopword",
+          "word_score_logit": 0.07021293044090271,
+          "word_attn_weight": 0.042314738035202026
+        }
+      ],
+      [
+        {
+          "token": "data",
+          "token_pos": 11,
+          "quality": "content_word",
+          "word_score_logit": 0.10012634843587875,
+          "word_attn_weight": 0.0388195775449276
+        },
+        {
+          "token": "mhz",
+          "token_pos": 26,
+          "quality": "content_word",
+          "word_score_logit": 0.086852066218853,
+          "word_attn_weight": 0.038307685405015945
+        },
+        {
+          "token": "mhz",
+          "token_pos": 14,
+          "quality": "content_word",
+          "word_score_logit": 0.08536171913146973,
+          "word_attn_weight": 0.038250632584095
+        },
+        {
+          "token": "cpu",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.07456882297992706,
+          "word_attn_weight": 0.037840016186237335
+        },
+        {
+          "token": "33",
+          "token_pos": 13,
+          "quality": "number",
+          "word_score_logit": 0.06814903020858765,
+          "word_attn_weight": 0.03759787231683731
+        }
+      ],
+      [
+        {
+          "token": "faster",
+          "token_pos": 10,
+          "quality": "content_word",
+          "word_score_logit": 0.06283334642648697,
+          "word_attn_weight": 0.0570736862719059
+        },
+        {
+          "token": "mhz",
+          "token_pos": 16,
+          "quality": "content_word",
+          "word_score_logit": 0.05770452320575714,
+          "word_attn_weight": 0.05678171291947365
+        },
+        {
+          "token": "times",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": 0.04967882111668587,
+          "word_attn_weight": 0.05632782354950905
+        },
+        {
+          "token": "than",
+          "token_pos": 11,
+          "quality": "stopword",
+          "word_score_logit": 0.04499075561761856,
+          "word_attn_weight": 0.05606437101960182
+        },
+        {
+          "token": "3",
+          "token_pos": 6,
+          "quality": "number",
+          "word_score_logit": 0.043447982519865036,
+          "word_attn_weight": 0.055977944284677505
+        }
+      ],
+      [
+        {
+          "token": "isa",
+          "token_pos": 11,
+          "quality": "content_word",
+          "word_score_logit": 0.016261398792266846,
+          "word_attn_weight": 0.08615901321172714
+        },
+        {
+          "token": "as",
+          "token_pos": 10,
+          "quality": "stopword",
+          "word_score_logit": 0.006388756446540356,
+          "word_attn_weight": 0.08531257510185242
+        },
+        {
+          "token": "fast",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": -0.007425573654472828,
+          "word_attn_weight": 0.08414214104413986
+        },
+        {
+          "token": "times",
+          "token_pos": 7,
+          "quality": "content_word",
+          "word_score_logit": -0.01328522153198719,
+          "word_attn_weight": 0.08365054428577423
+        },
+        {
+          "token": "be",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": -0.018616359680891037,
+          "word_attn_weight": 0.08320577442646027
+        }
+      ],
+      [
+        {
+          "token": "question",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": -0.0022288840264081955,
+          "word_attn_weight": 0.20159770548343658
+        },
+        {
+          "token": "good",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": -0.004995536059141159,
+          "word_attn_weight": 0.20104071497917175
+        },
+        {
+          "token": "very",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": -0.010300884023308754,
+          "word_attn_weight": 0.19997696578502655
+        },
+        {
+          "token": "a",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": -0.016115780919790268,
+          "word_attn_weight": 0.19881749153137207
+        },
+        {
+          "token": "that's",
+          "token_pos": 0,
+          "quality": "other",
+          "word_score_logit": -0.017376067116856575,
+          "word_attn_weight": 0.19856707751750946
+        }
+      ],
+      [
+        {
+          "token": "width",
+          "token_pos": 14,
+          "quality": "content_word",
+          "word_score_logit": 0.053514204919338226,
+          "word_attn_weight": 0.07116179168224335
+        },
+        {
+          "token": "does",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": 0.010294821113348007,
+          "word_attn_weight": 0.06815173476934433
+        },
+        {
+          "token": "the",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.009800836443901062,
+          "word_attn_weight": 0.06811808049678802
+        },
+        {
+          "token": "just",
+          "token_pos": 12,
+          "quality": "stopword",
+          "word_score_logit": 0.0007706647738814354,
+          "word_attn_weight": 0.06750573217868805
+        },
+        {
+          "token": "bus",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": -0.004824979230761528,
+          "word_attn_weight": 0.06712904572486877
+        }
+      ],
+      [
+        {
+          "token": "example",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.026728080585598946,
+          "word_attn_weight": 0.12718714773654938
+        },
+        {
+          "token": "bus",
+          "token_pos": 6,
+          "quality": "content_word",
+          "word_score_logit": 0.024061404168605804,
+          "word_attn_weight": 0.12684842944145203
+        },
+        {
+          "token": "better",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.012587529607117176,
+          "word_attn_weight": 0.1254013031721115
+        },
+        {
+          "token": "more",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.00974368117749691,
+          "word_attn_weight": 0.12504519522190094
+        },
+        {
+          "token": "and",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.009703246876597404,
+          "word_attn_weight": 0.12504012882709503
+        }
+      ],
+      [
+        {
+          "token": "factors",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.045938730239868164,
+          "word_attn_weight": 0.08557222038507462
+        },
+        {
+          "token": "card",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": 0.03715024143457413,
+          "word_attn_weight": 0.08482346683740616
+        },
+        {
+          "token": "other",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.03464441001415253,
+          "word_attn_weight": 0.08461117744445801
+        },
+        {
+          "token": "these",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.023152897134423256,
+          "word_attn_weight": 0.08364443480968475
+        },
+        {
+          "token": "but",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.021945694461464882,
+          "word_attn_weight": 0.08354351669549942
+        }
+      ],
+      [
+        {
+          "token": "multiple",
+          "token_pos": 8,
+          "quality": "content_word",
+          "word_score_logit": 0.08985692262649536,
+          "word_attn_weight": 0.05917314067482948
+        },
+        {
+          "token": "with",
+          "token_pos": 7,
+          "quality": "stopword",
+          "word_score_logit": 0.07875482738018036,
+          "word_attn_weight": 0.05851982906460762
+        },
+        {
+          "token": "file",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.06078161671757698,
+          "word_attn_weight": 0.0574774332344532
+        },
+        {
+          "token": "servers",
+          "token_pos": 6,
+          "quality": "content_word",
+          "word_score_logit": 0.05099384859204292,
+          "word_attn_weight": 0.05691760405898094
+        },
+        {
+          "token": "they",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.04540197178721428,
+          "word_attn_weight": 0.056600216776132584
+        }
+      ]
+    ],
+    "top_sentence_id": 3,
+    "sentence_importance_distribution": [
+      0.042387574911117554,
+      0.07451102137565613,
+      0.05595933273434639,
+      0.18238145112991333,
+      0.09294161945581436,
+      0.08962243795394897,
+      0.052384525537490845,
+      0.0345223993062973,
+      0.10368926078081131,
+      0.055942367762327194,
+      0.06701987981796265,
+      0.14863818883895874
+    ]
+  }
+}

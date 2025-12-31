@@ -1,0 +1,825 @@
+{
+  "example_id": "test_904",
+  "true_label_id": 19,
+  "pred_label_id": 15,
+  "true_label_name": "talk.religion.misc",
+  "pred_label_name": "soc.religion.christian",
+  "pred_confidence": 0.810435950756073,
+  "metrics": {
+    "num_sents": 20,
+    "K": 5,
+    "stop_ratio": 0.4,
+    "unk_ratio": 0.0,
+    "num_ratio": 0.01,
+    "content_ratio": 0.43,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 2.5207366943359375,
+    "sentence_importance_entropy": 2.591244697570801,
+    "sentence_importance_max": 0.196571484208107,
+    "top_sentence_id": 16,
+    "query_mismatch_rate": 0.95,
+    "selected_quality_counts": {
+      "content_word": 43,
+      "stopword": 40,
+      "number": 1,
+      "short_word": 9,
+      "other": 7
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.241,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.13760003894567488,
+    "D_local_global_conflict": 0.95,
+    "E_overconfident_error": 0.810435950756073
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "rick i think we can safely say 1 robert is not the only person who understands the bible and 2 the leadership of the lds church <UNK> never has",
+      "let's consider some personal interpretations and see how much trust we should put in orthodox mormonism which could never be confused with orthodox christianity",
+      "in one of his attacks on christians the mormon apostle bruce r",
+      "mcconkie said they <UNK> around in darkness in trying to identify <UNK> and jehovah and to show their relationship to the promised messiah he also said christians are wrong to believe that jehovah is the supreme deity god the father and that christ came into mortality as his only begotten",
+      "mcconkie then stated what mormons believe today to be the truth about the matter",
+      "he said that <UNK> is the father and jehovah is the son being thus aware of how far astray the religious <UNK> have gone in defining their three in one god it comes as no surprise to learn that they <UNK> around in the same darkness in trying to identify",
+      "some <UNK> even believe that jehovah is the supreme deity whose son came into mortality as the only begotten",
+      "as with their concept that god is a spirit this misinformation about the gods of heaven is untrue",
+      "the fact is and it too is <UNK> by holy <UNK> that <UNK> is the father and that jehovah is the son who was born into mortality as the lord jesus christ the promised messiah",
+      "promised messiah p",
+      "100 notice that mcconkie said the christians are as wrong about their three in one god and their belief that god is a spirit as they are in their understanding of who <UNK> and jehovah are",
+      "before examining mcconkie's attack and its validity we shall read a few more statements by mcconkie and other mormon sources concerning the words <UNK> and jehovah mcconkie stated the chief designation of christ that has been preserved for us in the old testament as that ancient work is now published",
+      "promised messiah p",
+      "367 <UNK> plural word though it is is also used as the <UNK> name title of god the eternal father a usage that <UNK> his supremacy and omnipotence he being god above all gods",
+      "mormon doctrine p",
+      "224 agreeing with mcconkie on the question of who <UNK> and jehovah are the apostle james e",
+      "<UNK> stated <UNK> as understood and used in the restored church of jesus christ is the name title of god the eternal father whose <UNK> son in the spirit is jehovah the only begotten in the flesh jesus christ",
+      "jesus the christ p",
+      "38 a doctrinal <UNK> by the first presidency and the twelve apostles of the mormon church states that god the eternal father is designate d by the <UNK> name title <UNK> articles of faith p",
+      "466 christ in his <UNK> <UNK> or <UNK> state was known as jehovah articles of faith p"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "rick",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": 0.037628792226314545,
+          "word_attn_weight": 0.03655014932155609
+        },
+        {
+          "token": "robert",
+          "token_pos": 8,
+          "quality": "content_word",
+          "word_score_logit": 0.01741918735206127,
+          "word_attn_weight": 0.03581890091300011
+        },
+        {
+          "token": "is",
+          "token_pos": 9,
+          "quality": "stopword",
+          "word_score_logit": 0.006351463496685028,
+          "word_attn_weight": 0.03542465344071388
+        },
+        {
+          "token": "safely",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.004929078742861748,
+          "word_attn_weight": 0.03537429869174957
+        },
+        {
+          "token": "1",
+          "token_pos": 7,
+          "quality": "number",
+          "word_score_logit": 0.0037561990320682526,
+          "word_attn_weight": 0.03533283621072769
+        }
+      ],
+      [
+        {
+          "token": "be",
+          "token_pos": 19,
+          "quality": "stopword",
+          "word_score_logit": 0.0014351513236761093,
+          "word_attn_weight": 0.043297041207551956
+        },
+        {
+          "token": "confused",
+          "token_pos": 20,
+          "quality": "content_word",
+          "word_score_logit": -0.008052063174545765,
+          "word_attn_weight": 0.04288821667432785
+        },
+        {
+          "token": "in",
+          "token_pos": 13,
+          "quality": "stopword",
+          "word_score_logit": -0.009457619860768318,
+          "word_attn_weight": 0.04282797500491142
+        },
+        {
+          "token": "never",
+          "token_pos": 18,
+          "quality": "content_word",
+          "word_score_logit": -0.010304588824510574,
+          "word_attn_weight": 0.04279171675443649
+        },
+        {
+          "token": "could",
+          "token_pos": 17,
+          "quality": "stopword",
+          "word_score_logit": -0.016010958701372147,
+          "word_attn_weight": 0.042548228055238724
+        }
+      ],
+      [
+        {
+          "token": "r",
+          "token_pos": 11,
+          "quality": "short_word",
+          "word_score_logit": 0.04835240915417671,
+          "word_attn_weight": 0.08970261365175247
+        },
+        {
+          "token": "bruce",
+          "token_pos": 10,
+          "quality": "content_word",
+          "word_score_logit": 0.010217929258942604,
+          "word_attn_weight": 0.08634626120328903
+        },
+        {
+          "token": "the",
+          "token_pos": 7,
+          "quality": "stopword",
+          "word_score_logit": -0.01887357234954834,
+          "word_attn_weight": 0.08387049287557602
+        },
+        {
+          "token": "in",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": -0.019043387845158577,
+          "word_attn_weight": 0.0838562548160553
+        },
+        {
+          "token": "his",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": -0.021670255810022354,
+          "word_attn_weight": 0.08363626897335052
+        }
+      ],
+      [
+        {
+          "token": "begotten",
+          "token_pos": 49,
+          "quality": "content_word",
+          "word_score_logit": 0.031810566782951355,
+          "word_attn_weight": 0.021465349942445755
+        },
+        {
+          "token": "his",
+          "token_pos": 47,
+          "quality": "stopword",
+          "word_score_logit": 0.03166942298412323,
+          "word_attn_weight": 0.021462321281433105
+        },
+        {
+          "token": "as",
+          "token_pos": 46,
+          "quality": "stopword",
+          "word_score_logit": 0.018225010484457016,
+          "word_attn_weight": 0.021175704896450043
+        },
+        {
+          "token": "mcconkie",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": 0.01641637086868286,
+          "word_attn_weight": 0.021137438714504242
+        },
+        {
+          "token": "came",
+          "token_pos": 43,
+          "quality": "content_word",
+          "word_score_logit": 0.010316100902855396,
+          "word_attn_weight": 0.021008886396884918
+        }
+      ],
+      [
+        {
+          "token": "mcconkie",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": 0.06912869960069656,
+          "word_attn_weight": 0.07556980103254318
+        },
+        {
+          "token": "then",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.05831242352724075,
+          "word_attn_weight": 0.07475682348012924
+        },
+        {
+          "token": "stated",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.04838717728853226,
+          "word_attn_weight": 0.07401850819587708
+        },
+        {
+          "token": "what",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": 0.037751853466033936,
+          "word_attn_weight": 0.07323547452688217
+        },
+        {
+          "token": "mormons",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.022236844524741173,
+          "word_attn_weight": 0.07210799306631088
+        }
+      ],
+      [
+        {
+          "token": "identify",
+          "token_pos": 49,
+          "quality": "content_word",
+          "word_score_logit": 0.043130092322826385,
+          "word_attn_weight": 0.020773112773895264
+        },
+        {
+          "token": "the",
+          "token_pos": 43,
+          "quality": "stopword",
+          "word_score_logit": 0.036597684025764465,
+          "word_attn_weight": 0.02063785493373871
+        },
+        {
+          "token": "in",
+          "token_pos": 42,
+          "quality": "stopword",
+          "word_score_logit": 0.03449968248605728,
+          "word_attn_weight": 0.020594602450728416
+        },
+        {
+          "token": "same",
+          "token_pos": 44,
+          "quality": "content_word",
+          "word_score_logit": 0.0325600728392601,
+          "word_attn_weight": 0.020554695278406143
+        },
+        {
+          "token": "darkness",
+          "token_pos": 45,
+          "quality": "content_word",
+          "word_score_logit": 0.03109750710427761,
+          "word_attn_weight": 0.020524654537439346
+        }
+      ],
+      [
+        {
+          "token": "begotten",
+          "token_pos": 18,
+          "quality": "content_word",
+          "word_score_logit": 0.030705910176038742,
+          "word_attn_weight": 0.05414256453514099
+        },
+        {
+          "token": "even",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.02621297538280487,
+          "word_attn_weight": 0.0538998506963253
+        },
+        {
+          "token": "is",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": 0.018531540408730507,
+          "word_attn_weight": 0.05348740890622139
+        },
+        {
+          "token": "believe",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.01802048459649086,
+          "word_attn_weight": 0.05346008017659187
+        },
+        {
+          "token": "the",
+          "token_pos": 7,
+          "quality": "stopword",
+          "word_score_logit": 0.014827363193035126,
+          "word_attn_weight": 0.05328964442014694
+        }
+      ],
+      [
+        {
+          "token": "the",
+          "token_pos": 12,
+          "quality": "stopword",
+          "word_score_logit": 0.007241696119308472,
+          "word_attn_weight": 0.05670654773712158
+        },
+        {
+          "token": "is",
+          "token_pos": 16,
+          "quality": "stopword",
+          "word_score_logit": 0.005679182708263397,
+          "word_attn_weight": 0.056618012487888336
+        },
+        {
+          "token": "about",
+          "token_pos": 11,
+          "quality": "stopword",
+          "word_score_logit": 0.0022047366946935654,
+          "word_attn_weight": 0.056421637535095215
+        },
+        {
+          "token": "of",
+          "token_pos": 14,
+          "quality": "stopword",
+          "word_score_logit": 0.0008209175430238247,
+          "word_attn_weight": 0.05634361505508423
+        },
+        {
+          "token": "that",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": -0.004004297778010368,
+          "word_attn_weight": 0.05607239902019501
+        }
+      ],
+      [
+        {
+          "token": "messiah",
+          "token_pos": 34,
+          "quality": "content_word",
+          "word_score_logit": -0.007794754579663277,
+          "word_attn_weight": 0.02996242046356201
+        },
+        {
+          "token": "the",
+          "token_pos": 32,
+          "quality": "stopword",
+          "word_score_logit": -0.023360269144177437,
+          "word_attn_weight": 0.02949965000152588
+        },
+        {
+          "token": "the",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": -0.027879148721694946,
+          "word_attn_weight": 0.029366645961999893
+        },
+        {
+          "token": "is",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": -0.032056115567684174,
+          "word_attn_weight": 0.029244238510727882
+        },
+        {
+          "token": "fact",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": -0.035326652228832245,
+          "word_attn_weight": 0.029148750007152557
+        }
+      ],
+      [
+        {
+          "token": "p",
+          "token_pos": 2,
+          "quality": "short_word",
+          "word_score_logit": 0.08164508640766144,
+          "word_attn_weight": 0.3524559438228607
+        },
+        {
+          "token": "messiah",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.007901925593614578,
+          "word_attn_weight": 0.32739993929862976
+        },
+        {
+          "token": "promised",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": -0.014509176835417747,
+          "word_attn_weight": 0.3201441466808319
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 3,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ],
+      [
+        {
+          "token": "as",
+          "token_pos": 24,
+          "quality": "stopword",
+          "word_score_logit": 0.027757547795772552,
+          "word_attn_weight": 0.028831390663981438
+        },
+        {
+          "token": "mcconkie",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.02218567579984665,
+          "word_attn_weight": 0.02867119386792183
+        },
+        {
+          "token": "their",
+          "token_pos": 28,
+          "quality": "stopword",
+          "word_score_logit": 0.02019008994102478,
+          "word_attn_weight": 0.02861403301358223
+        },
+        {
+          "token": "in",
+          "token_pos": 27,
+          "quality": "stopword",
+          "word_score_logit": 0.018420293927192688,
+          "word_attn_weight": 0.02856343612074852
+        },
+        {
+          "token": "they",
+          "token_pos": 25,
+          "quality": "stopword",
+          "word_score_logit": 0.015386012382805347,
+          "word_attn_weight": 0.0284768994897604
+        }
+      ],
+      [
+        {
+          "token": "stated",
+          "token_pos": 27,
+          "quality": "content_word",
+          "word_score_logit": 0.023493994027376175,
+          "word_attn_weight": 0.021060533821582794
+        },
+        {
+          "token": "mcconkie",
+          "token_pos": 26,
+          "quality": "content_word",
+          "word_score_logit": 0.011514353565871716,
+          "word_attn_weight": 0.02080974169075489
+        },
+        {
+          "token": "and",
+          "token_pos": 16,
+          "quality": "stopword",
+          "word_score_logit": 0.008919678628444672,
+          "word_attn_weight": 0.020755816251039505
+        },
+        {
+          "token": "designation",
+          "token_pos": 30,
+          "quality": "content_word",
+          "word_score_logit": 0.007823020219802856,
+          "word_attn_weight": 0.020733065903186798
+        },
+        {
+          "token": "in",
+          "token_pos": 39,
+          "quality": "stopword",
+          "word_score_logit": 0.007245000451803207,
+          "word_attn_weight": 0.020721087232232094
+        }
+      ],
+      [
+        {
+          "token": "p",
+          "token_pos": 2,
+          "quality": "short_word",
+          "word_score_logit": 0.08164508640766144,
+          "word_attn_weight": 0.3524559438228607
+        },
+        {
+          "token": "messiah",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.007901925593614578,
+          "word_attn_weight": 0.32739993929862976
+        },
+        {
+          "token": "promised",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": -0.014509176835417747,
+          "word_attn_weight": 0.3201441466808319
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 3,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ],
+      [
+        {
+          "token": "usage",
+          "token_pos": 21,
+          "quality": "content_word",
+          "word_score_logit": 0.06739737838506699,
+          "word_attn_weight": 0.031092753633856773
+        },
+        {
+          "token": "plural",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.05533337593078613,
+          "word_attn_weight": 0.030719904229044914
+        },
+        {
+          "token": "he",
+          "token_pos": 28,
+          "quality": "stopword",
+          "word_score_logit": 0.04464295879006386,
+          "word_attn_weight": 0.030393244698643684
+        },
+        {
+          "token": "used",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": 0.036202602088451385,
+          "word_attn_weight": 0.030137794092297554
+        },
+        {
+          "token": "his",
+          "token_pos": 24,
+          "quality": "stopword",
+          "word_score_logit": 0.035912588238716125,
+          "word_attn_weight": 0.030129054561257362
+        }
+      ],
+      [
+        {
+          "token": "p",
+          "token_pos": 2,
+          "quality": "short_word",
+          "word_score_logit": 0.08760195225477219,
+          "word_attn_weight": 0.3503856062889099
+        },
+        {
+          "token": "doctrine",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.013561607338488102,
+          "word_attn_weight": 0.3253800570964813
+        },
+        {
+          "token": "mormon",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": 0.010034007951617241,
+          "word_attn_weight": 0.3242343068122864
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 3,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ],
+      [
+        {
+          "token": "e",
+          "token_pos": 16,
+          "quality": "short_word",
+          "word_score_logit": 0.0541071854531765,
+          "word_attn_weight": 0.06287458539009094
+        },
+        {
+          "token": "james",
+          "token_pos": 15,
+          "quality": "content_word",
+          "word_score_logit": 0.04074081405997276,
+          "word_attn_weight": 0.06203977018594742
+        },
+        {
+          "token": "mcconkie",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.03540331870317459,
+          "word_attn_weight": 0.06170951947569847
+        },
+        {
+          "token": "on",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": 0.00755966454744339,
+          "word_attn_weight": 0.0600150004029274
+        },
+        {
+          "token": "the",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.0031584445387125015,
+          "word_attn_weight": 0.05975143983960152
+        }
+      ],
+      [
+        {
+          "token": "in",
+          "token_pos": 34,
+          "quality": "stopword",
+          "word_score_logit": -0.004586327821016312,
+          "word_attn_weight": 0.026573477312922478
+        },
+        {
+          "token": "name",
+          "token_pos": 16,
+          "quality": "content_word",
+          "word_score_logit": -0.0054008811712265015,
+          "word_attn_weight": 0.02655184082686901
+        },
+        {
+          "token": "is",
+          "token_pos": 29,
+          "quality": "stopword",
+          "word_score_logit": -0.008505396544933319,
+          "word_attn_weight": 0.026469536125659943
+        },
+        {
+          "token": "jesus",
+          "token_pos": 37,
+          "quality": "content_word",
+          "word_score_logit": -0.015811391174793243,
+          "word_attn_weight": 0.026276856660842896
+        },
+        {
+          "token": "used",
+          "token_pos": 6,
+          "quality": "content_word",
+          "word_score_logit": -0.01595652475953102,
+          "word_attn_weight": 0.02627304196357727
+        }
+      ],
+      [
+        {
+          "token": "p",
+          "token_pos": 3,
+          "quality": "short_word",
+          "word_score_logit": 0.0841822400689125,
+          "word_attn_weight": 0.2674494683742523
+        },
+        {
+          "token": "the",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.01270771212875843,
+          "word_attn_weight": 0.24900078773498535
+        },
+        {
+          "token": "christ",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": -0.01527596078813076,
+          "word_attn_weight": 0.24212943017482758
+        },
+        {
+          "token": "jesus",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": -0.018208898603916168,
+          "word_attn_weight": 0.24142031371593475
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ],
+      [
+        {
+          "token": "p",
+          "token_pos": 34,
+          "quality": "short_word",
+          "word_score_logit": 0.08555258065462112,
+          "word_attn_weight": 0.03176581487059593
+        },
+        {
+          "token": "name",
+          "token_pos": 28,
+          "quality": "content_word",
+          "word_score_logit": 0.07306279242038727,
+          "word_attn_weight": 0.03137153387069702
+        },
+        {
+          "token": "designate",
+          "token_pos": 23,
+          "quality": "content_word",
+          "word_score_logit": 0.07262413948774338,
+          "word_attn_weight": 0.0313577763736248
+        },
+        {
+          "token": "is",
+          "token_pos": 22,
+          "quality": "stopword",
+          "word_score_logit": 0.062098145484924316,
+          "word_attn_weight": 0.031029433012008667
+        },
+        {
+          "token": "d",
+          "token_pos": 24,
+          "quality": "short_word",
+          "word_score_logit": 0.06201682239770889,
+          "word_attn_weight": 0.03102691099047661
+        }
+      ],
+      [
+        {
+          "token": "p",
+          "token_pos": 16,
+          "quality": "short_word",
+          "word_score_logit": 0.09076874703168869,
+          "word_attn_weight": 0.06446092575788498
+        },
+        {
+          "token": "known",
+          "token_pos": 10,
+          "quality": "content_word",
+          "word_score_logit": 0.02998446859419346,
+          "word_attn_weight": 0.06065942347049713
+        },
+        {
+          "token": "as",
+          "token_pos": 11,
+          "quality": "stopword",
+          "word_score_logit": 0.023741642013192177,
+          "word_attn_weight": 0.060281913727521896
+        },
+        {
+          "token": "was",
+          "token_pos": 9,
+          "quality": "stopword",
+          "word_score_logit": 0.02180110663175583,
+          "word_attn_weight": 0.060165051370859146
+        },
+        {
+          "token": "or",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": 0.013664641417562962,
+          "word_attn_weight": 0.05967750772833824
+        }
+      ]
+    ],
+    "top_sentence_id": 16,
+    "sentence_importance_distribution": [
+      0.03411567956209183,
+      0.12693633139133453,
+      0.04244595393538475,
+      0.09334279596805573,
+      0.008997288532555103,
+      0.012932633981108665,
+      0.022593004629015923,
+      0.03028925135731697,
+      0.13668808341026306,
+      0.007727880496531725,
+      0.03285909444093704,
+      0.058113209903240204,
+      0.007727880496531725,
+      0.034885358065366745,
+      0.01244625449180603,
+      0.023042133077979088,
+      0.196571484208107,
+      0.020113632082939148,
+      0.06998075544834137,
+      0.028191303834319115
+    ]
+  }
+}

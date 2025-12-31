@@ -1,0 +1,159 @@
+{
+  "example_id": "test_4963",
+  "true_label_id": 0,
+  "pred_label_id": 15,
+  "true_label_name": "alt.atheism",
+  "pred_label_name": "soc.religion.christian",
+  "pred_confidence": 0.7539698481559753,
+  "metrics": {
+    "num_sents": 3,
+    "K": 5,
+    "stop_ratio": 0.7333333333333333,
+    "unk_ratio": 0.0,
+    "num_ratio": 0.0,
+    "content_ratio": 0.26666666666666666,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 0.7185839414596558,
+    "sentence_importance_entropy": 0.7942925691604614,
+    "sentence_importance_max": 0.7127405405044556,
+    "top_sentence_id": 2,
+    "query_mismatch_rate": 0.6666666666666666,
+    "selected_quality_counts": {
+      "content_word": 4,
+      "stopword": 11
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.43999999999999995,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.6400598645210266,
+    "D_local_global_conflict": 0.6666666666666666,
+    "E_overconfident_error": 0.7539698481559753
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "what would you accept as sources",
+      "this very thing has been written in lots of books",
+      "you could start with erich <UNK> the dogma of christ"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "sources",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.03990824893116951,
+          "word_attn_weight": 0.17141324281692505
+        },
+        {
+          "token": "as",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": 0.018825717270374298,
+          "word_attn_weight": 0.1678372472524643
+        },
+        {
+          "token": "what",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.01327753160148859,
+          "word_attn_weight": 0.1669086217880249
+        },
+        {
+          "token": "would",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.005173454526811838,
+          "word_attn_weight": 0.16556145250797272
+        },
+        {
+          "token": "you",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.0022598616778850555,
+          "word_attn_weight": 0.1650797724723816
+        }
+      ],
+      [
+        {
+          "token": "has",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.014314801432192326,
+          "word_attn_weight": 0.1014755442738533
+        },
+        {
+          "token": "in",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": 0.010791294276714325,
+          "word_attn_weight": 0.10111862421035767
+        },
+        {
+          "token": "of",
+          "token_pos": 8,
+          "quality": "stopword",
+          "word_score_logit": 0.010741565376520157,
+          "word_attn_weight": 0.10111360251903534
+        },
+        {
+          "token": "been",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": 0.0069349356926977634,
+          "word_attn_weight": 0.10072942078113556
+        },
+        {
+          "token": "written",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.0038192165084183216,
+          "word_attn_weight": 0.10041606426239014
+        }
+      ],
+      [
+        {
+          "token": "could",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": -0.002761613577604294,
+          "word_attn_weight": 0.10316668450832367
+        },
+        {
+          "token": "start",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": -0.009412314742803574,
+          "word_attn_weight": 0.10248283296823502
+        },
+        {
+          "token": "with",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": -0.009979330003261566,
+          "word_attn_weight": 0.1024247333407402
+        },
+        {
+          "token": "you",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": -0.014108175411820412,
+          "word_attn_weight": 0.10200271755456924
+        },
+        {
+          "token": "of",
+          "token_pos": 8,
+          "quality": "stopword",
+          "word_score_logit": -0.025122594088315964,
+          "word_attn_weight": 0.10088538378477097
+        }
+      ]
+    ],
+    "top_sentence_id": 2,
+    "sentence_importance_distribution": [
+      0.16898661851882935,
+      0.11827290058135986,
+      0.7127405405044556
+    ]
+  }
+}

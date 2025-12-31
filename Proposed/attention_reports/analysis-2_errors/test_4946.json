@@ -1,0 +1,423 @@
+{
+  "true_label_id": 18,
+  "pred_label_id": 16,
+  "true_label_name": "talk.politics.misc",
+  "pred_label_name": "talk.politics.guns",
+  "pred_confidence": 0.989508867263794,
+  "num_sents": 20,
+  "top_sentences": [
+    {
+      "sentence_id": 10,
+      "importance": 0.20575782656669617,
+      "sentence_text": "at <UNK> on february 28 agents of the bureau of alcohol tobacco and firearms batf launched a full scale high profile assault on the branch <UNK> compound",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "assault",
+          "token_pos": 21,
+          "word_score_logit": 0.15001723170280457,
+          "word_attn_weight": 0.03980518877506256
+        },
+        {
+          "rank": 1,
+          "token": "the",
+          "token_pos": 23,
+          "word_score_logit": 0.10821346193552017,
+          "word_attn_weight": 0.03817548602819443
+        },
+        {
+          "rank": 2,
+          "token": "high",
+          "token_pos": 19,
+          "word_score_logit": 0.10591255873441696,
+          "word_attn_weight": 0.03808774799108505
+        },
+        {
+          "rank": 3,
+          "token": "profile",
+          "token_pos": 20,
+          "word_score_logit": 0.10408015549182892,
+          "word_attn_weight": 0.03801801800727844
+        },
+        {
+          "rank": 4,
+          "token": "on",
+          "token_pos": 22,
+          "word_score_logit": 0.10321208089590073,
+          "word_attn_weight": 0.037985026836395264
+        }
+      ]
+    },
+    {
+      "sentence_id": 19,
+      "importance": 0.14028167724609375,
+      "sentence_text": "but had the assault been a success the liberal media would have praised the batf by showing the footage of batf agents <UNK> away a bunch of gun wielding religious nuts",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "the",
+          "token_pos": 17,
+          "word_score_logit": 0.08410825580358505,
+          "word_attn_weight": 0.03372438624501228
+        },
+        {
+          "rank": 1,
+          "token": "a",
+          "token_pos": 24,
+          "word_score_logit": 0.07518861442804337,
+          "word_attn_weight": 0.03342491388320923
+        },
+        {
+          "rank": 2,
+          "token": "bunch",
+          "token_pos": 25,
+          "word_score_logit": 0.05941701680421829,
+          "word_attn_weight": 0.032901883125305176
+        },
+        {
+          "rank": 3,
+          "token": "of",
+          "token_pos": 26,
+          "word_score_logit": 0.059088658541440964,
+          "word_attn_weight": 0.032891083508729935
+        },
+        {
+          "rank": 4,
+          "token": "have",
+          "token_pos": 11,
+          "word_score_logit": 0.05887674540281296,
+          "word_attn_weight": 0.03288411349058151
+        }
+      ]
+    },
+    {
+      "sentence_id": 13,
+      "importance": 0.08799362927675247,
+      "sentence_text": "at the onset of the no <UNK> raid <UNK> of heavily armed batf agents made their way inside the compound without identifying themselves or state that they had a warrant until long after the shooting began",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "the",
+          "token_pos": 18,
+          "word_score_logit": 0.09714006632566452,
+          "word_attn_weight": 0.02872215025126934
+        },
+        {
+          "rank": 1,
+          "token": "compound",
+          "token_pos": 19,
+          "word_score_logit": 0.09392984956502914,
+          "word_attn_weight": 0.028630094602704048
+        },
+        {
+          "rank": 2,
+          "token": "their",
+          "token_pos": 15,
+          "word_score_logit": 0.08775963634252548,
+          "word_attn_weight": 0.02845398336648941
+        },
+        {
+          "rank": 3,
+          "token": "inside",
+          "token_pos": 17,
+          "word_score_logit": 0.08698687702417374,
+          "word_attn_weight": 0.028432006016373634
+        },
+        {
+          "rank": 4,
+          "token": "onset",
+          "token_pos": 2,
+          "word_score_logit": 0.08392489701509476,
+          "word_attn_weight": 0.028345080092549324
+        }
+      ]
+    },
+    {
+      "sentence_id": 11,
+      "importance": 0.0870828703045845,
+      "sentence_text": "this raid was much more than an assault on a group suspected of possessing illegal weapons",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "much",
+          "token_pos": 3,
+          "word_score_logit": 0.07139619439840317,
+          "word_attn_weight": 0.06471617519855499
+        },
+        {
+          "rank": 1,
+          "token": "was",
+          "token_pos": 2,
+          "word_score_logit": 0.06313768029212952,
+          "word_attn_weight": 0.06418391317129135
+        },
+        {
+          "rank": 2,
+          "token": "more",
+          "token_pos": 4,
+          "word_score_logit": 0.05698150396347046,
+          "word_attn_weight": 0.06379000097513199
+        },
+        {
+          "rank": 3,
+          "token": "raid",
+          "token_pos": 1,
+          "word_score_logit": 0.05327529460191727,
+          "word_attn_weight": 0.06355401873588562
+        },
+        {
+          "rank": 4,
+          "token": "than",
+          "token_pos": 5,
+          "word_score_logit": 0.05226007103919983,
+          "word_attn_weight": 0.06348953396081924
+        }
+      ]
+    },
+    {
+      "sentence_id": 5,
+      "importance": 0.05609680712223053,
+      "sentence_text": "from the onset of the april 19 tear gas attacks by federal agents president clinton already started passing the buck by saying talk to the attorney general or the fbi",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "attorney",
+          "token_pos": 25,
+          "word_score_logit": 0.08747365325689316,
+          "word_attn_weight": 0.03468397259712219
+        },
+        {
+          "rank": 1,
+          "token": "the",
+          "token_pos": 24,
+          "word_score_logit": 0.08103438466787338,
+          "word_attn_weight": 0.03446134924888611
+        },
+        {
+          "rank": 2,
+          "token": "or",
+          "token_pos": 27,
+          "word_score_logit": 0.0792175754904747,
+          "word_attn_weight": 0.034398797899484634
+        },
+        {
+          "rank": 3,
+          "token": "the",
+          "token_pos": 28,
+          "word_score_logit": 0.07669547945261002,
+          "word_attn_weight": 0.03431215137243271
+        },
+        {
+          "rank": 4,
+          "token": "the",
+          "token_pos": 18,
+          "word_score_logit": 0.07333959639072418,
+          "word_attn_weight": 0.03419719636440277
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 50,
+      "from_sentence_id": 10,
+      "token": "assault",
+      "token_pos": 21,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 10,
+          "attn_weight": 0.3657142221927643,
+          "sentence_text": "at <UNK> on february 28 agents of the bureau of alcohol tobacco and firearms batf launched a full scale high profile assault on the branch <UNK> compound"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 19,
+          "attn_weight": 0.18169602751731873,
+          "sentence_text": "but had the assault been a success the liberal media would have praised the batf by showing the footage of batf agents <UNK> away a bunch of gun wielding religious nuts"
+        }
+      ]
+    },
+    {
+      "query_id": 51,
+      "from_sentence_id": 10,
+      "token": "the",
+      "token_pos": 23,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 10,
+          "attn_weight": 0.3585943579673767,
+          "sentence_text": "at <UNK> on february 28 agents of the bureau of alcohol tobacco and firearms batf launched a full scale high profile assault on the branch <UNK> compound"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 19,
+          "attn_weight": 0.17103740572929382,
+          "sentence_text": "but had the assault been a success the liberal media would have praised the batf by showing the footage of batf agents <UNK> away a bunch of gun wielding religious nuts"
+        }
+      ]
+    },
+    {
+      "query_id": 52,
+      "from_sentence_id": 10,
+      "token": "high",
+      "token_pos": 19,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 10,
+          "attn_weight": 0.4945526123046875,
+          "sentence_text": "at <UNK> on february 28 agents of the bureau of alcohol tobacco and firearms batf launched a full scale high profile assault on the branch <UNK> compound"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 19,
+          "attn_weight": 0.15643540024757385,
+          "sentence_text": "but had the assault been a success the liberal media would have praised the batf by showing the footage of batf agents <UNK> away a bunch of gun wielding religious nuts"
+        }
+      ]
+    },
+    {
+      "query_id": 53,
+      "from_sentence_id": 10,
+      "token": "profile",
+      "token_pos": 20,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 10,
+          "attn_weight": 0.4293377995491028,
+          "sentence_text": "at <UNK> on february 28 agents of the bureau of alcohol tobacco and firearms batf launched a full scale high profile assault on the branch <UNK> compound"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 19,
+          "attn_weight": 0.1614483743906021,
+          "sentence_text": "but had the assault been a success the liberal media would have praised the batf by showing the footage of batf agents <UNK> away a bunch of gun wielding religious nuts"
+        }
+      ]
+    },
+    {
+      "query_id": 54,
+      "from_sentence_id": 10,
+      "token": "on",
+      "token_pos": 22,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 10,
+          "attn_weight": 0.3780840039253235,
+          "sentence_text": "at <UNK> on february 28 agents of the bureau of alcohol tobacco and firearms batf launched a full scale high profile assault on the branch <UNK> compound"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 19,
+          "attn_weight": 0.16693931818008423,
+          "sentence_text": "but had the assault been a success the liberal media would have praised the batf by showing the footage of batf agents <UNK> away a bunch of gun wielding religious nuts"
+        }
+      ]
+    },
+    {
+      "query_id": 95,
+      "from_sentence_id": 19,
+      "token": "the",
+      "token_pos": 17,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 10,
+          "attn_weight": 0.3266826272010803,
+          "sentence_text": "at <UNK> on february 28 agents of the bureau of alcohol tobacco and firearms batf launched a full scale high profile assault on the branch <UNK> compound"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 19,
+          "attn_weight": 0.18036006391048431,
+          "sentence_text": "but had the assault been a success the liberal media would have praised the batf by showing the footage of batf agents <UNK> away a bunch of gun wielding religious nuts"
+        }
+      ]
+    },
+    {
+      "query_id": 96,
+      "from_sentence_id": 19,
+      "token": "a",
+      "token_pos": 24,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 10,
+          "attn_weight": 0.3027857840061188,
+          "sentence_text": "at <UNK> on february 28 agents of the bureau of alcohol tobacco and firearms batf launched a full scale high profile assault on the branch <UNK> compound"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 19,
+          "attn_weight": 0.17931881546974182,
+          "sentence_text": "but had the assault been a success the liberal media would have praised the batf by showing the footage of batf agents <UNK> away a bunch of gun wielding religious nuts"
+        }
+      ]
+    },
+    {
+      "query_id": 97,
+      "from_sentence_id": 19,
+      "token": "bunch",
+      "token_pos": 25,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 10,
+          "attn_weight": 0.2842508554458618,
+          "sentence_text": "at <UNK> on february 28 agents of the bureau of alcohol tobacco and firearms batf launched a full scale high profile assault on the branch <UNK> compound"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 19,
+          "attn_weight": 0.17719393968582153,
+          "sentence_text": "but had the assault been a success the liberal media would have praised the batf by showing the footage of batf agents <UNK> away a bunch of gun wielding religious nuts"
+        }
+      ]
+    },
+    {
+      "query_id": 98,
+      "from_sentence_id": 19,
+      "token": "of",
+      "token_pos": 26,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 10,
+          "attn_weight": 0.23929990828037262,
+          "sentence_text": "at <UNK> on february 28 agents of the bureau of alcohol tobacco and firearms batf launched a full scale high profile assault on the branch <UNK> compound"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 19,
+          "attn_weight": 0.18610046803951263,
+          "sentence_text": "but had the assault been a success the liberal media would have praised the batf by showing the footage of batf agents <UNK> away a bunch of gun wielding religious nuts"
+        }
+      ]
+    },
+    {
+      "query_id": 99,
+      "from_sentence_id": 19,
+      "token": "have",
+      "token_pos": 11,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 10,
+          "attn_weight": 0.2766548693180084,
+          "sentence_text": "at <UNK> on february 28 agents of the bureau of alcohol tobacco and firearms batf launched a full scale high profile assault on the branch <UNK> compound"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 19,
+          "attn_weight": 0.18846459686756134,
+          "sentence_text": "but had the assault been a success the liberal media would have praised the batf by showing the footage of batf agents <UNK> away a bunch of gun wielding religious nuts"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_4946"
+}

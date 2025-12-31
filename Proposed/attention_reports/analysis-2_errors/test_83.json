@@ -1,0 +1,125 @@
+{
+  "true_label_id": 4,
+  "pred_label_id": 3,
+  "true_label_name": "comp.sys.mac.hardware",
+  "pred_label_name": "comp.sys.ibm.pc.hardware",
+  "pred_confidence": 0.7472265362739563,
+  "num_sents": 1,
+  "top_sentences": [
+    {
+      "sentence_id": 0,
+      "importance": 1.0,
+      "sentence_text": "those <UNK> indicate a hardware failure of some type during system startup",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "type",
+          "token_pos": 8,
+          "word_score_logit": 0.057907503098249435,
+          "word_attn_weight": 0.0854732021689415
+        },
+        {
+          "rank": 1,
+          "token": "system",
+          "token_pos": 10,
+          "word_score_logit": 0.05742723494768143,
+          "word_attn_weight": 0.08543215692043304
+        },
+        {
+          "rank": 2,
+          "token": "startup",
+          "token_pos": 11,
+          "word_score_logit": 0.050936441868543625,
+          "word_attn_weight": 0.08487943559885025
+        },
+        {
+          "rank": 3,
+          "token": "indicate",
+          "token_pos": 2,
+          "word_score_logit": 0.041124723851680756,
+          "word_attn_weight": 0.08405069261789322
+        },
+        {
+          "rank": 4,
+          "token": "of",
+          "token_pos": 6,
+          "word_score_logit": 0.04012526944279671,
+          "word_attn_weight": 0.08396673202514648
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "type",
+      "token_pos": 8,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 1.0,
+          "sentence_text": "those <UNK> indicate a hardware failure of some type during system startup"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "system",
+      "token_pos": 10,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 1.0,
+          "sentence_text": "those <UNK> indicate a hardware failure of some type during system startup"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "startup",
+      "token_pos": 11,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 1.0,
+          "sentence_text": "those <UNK> indicate a hardware failure of some type during system startup"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "indicate",
+      "token_pos": 2,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 1.0,
+          "sentence_text": "those <UNK> indicate a hardware failure of some type during system startup"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "of",
+      "token_pos": 6,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 1.0,
+          "sentence_text": "those <UNK> indicate a hardware failure of some type during system startup"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_83"
+}

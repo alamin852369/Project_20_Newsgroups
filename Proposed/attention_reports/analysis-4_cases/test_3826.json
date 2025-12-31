@@ -1,0 +1,238 @@
+{
+  "example_id": "test_3826",
+  "true_label_id": 18,
+  "pred_label_id": 14,
+  "true_label_name": "talk.politics.misc",
+  "pred_label_name": "sci.space",
+  "pred_confidence": 0.6716050505638123,
+  "metrics": {
+    "num_sents": 5,
+    "K": 5,
+    "stop_ratio": 0.72,
+    "unk_ratio": 0.0,
+    "num_ratio": 0.0,
+    "content_ratio": 0.24,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 1.470331072807312,
+    "sentence_importance_entropy": 1.5005345344543457,
+    "sentence_importance_max": 0.3504587411880493,
+    "top_sentence_id": 2,
+    "query_mismatch_rate": 0.72,
+    "selected_quality_counts": {
+      "stopword": 18,
+      "content_word": 6,
+      "other": 1
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.432,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.24532111883163452,
+    "D_local_global_conflict": 0.72,
+    "E_overconfident_error": 0.6716050505638123
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "no cramer it does not",
+      "in this instance you are telling <UNK> to yourself as well as everyone else",
+      "haven't you ever been to a cafe or restaurant and been <UNK> stuffed full of goodies and yet when one more item just a little different with a new texture and a new taste was presented you somehow found the space for it",
+      "maybe you haven't so what",
+      "it is a widely reported <UNK> and i reckon the same applies to sex"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "no",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.04339713603258133,
+          "word_attn_weight": 0.20434971153736115
+        },
+        {
+          "token": "does",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": 0.02365957573056221,
+          "word_attn_weight": 0.2003558874130249
+        },
+        {
+          "token": "cramer",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.022975489497184753,
+          "word_attn_weight": 0.20021888613700867
+        },
+        {
+          "token": "not",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": 0.014572054147720337,
+          "word_attn_weight": 0.19854339957237244
+        },
+        {
+          "token": "it",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.004390234127640724,
+          "word_attn_weight": 0.19653213024139404
+        }
+      ],
+      [
+        {
+          "token": "instance",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.03062114119529724,
+          "word_attn_weight": 0.07345245033502579
+        },
+        {
+          "token": "as",
+          "token_pos": 9,
+          "quality": "stopword",
+          "word_score_logit": 0.01908644661307335,
+          "word_attn_weight": 0.07261007279157639
+        },
+        {
+          "token": "in",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.015969369560480118,
+          "word_attn_weight": 0.07238408923149109
+        },
+        {
+          "token": "you",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": 0.013518736697733402,
+          "word_attn_weight": 0.07220692187547684
+        },
+        {
+          "token": "as",
+          "token_pos": 11,
+          "quality": "stopword",
+          "word_score_logit": 0.012912441045045853,
+          "word_attn_weight": 0.07216314971446991
+        }
+      ],
+      [
+        {
+          "token": "space",
+          "token_pos": 40,
+          "quality": "content_word",
+          "word_score_logit": 0.09670863300561905,
+          "word_attn_weight": 0.025634683668613434
+        },
+        {
+          "token": "for",
+          "token_pos": 41,
+          "quality": "stopword",
+          "word_score_logit": 0.059281330555677414,
+          "word_attn_weight": 0.02469298057258129
+        },
+        {
+          "token": "it",
+          "token_pos": 42,
+          "quality": "stopword",
+          "word_score_logit": 0.05477962642908096,
+          "word_attn_weight": 0.024582069367170334
+        },
+        {
+          "token": "the",
+          "token_pos": 39,
+          "quality": "stopword",
+          "word_score_logit": 0.03776053339242935,
+          "word_attn_weight": 0.024167247116565704
+        },
+        {
+          "token": "and",
+          "token_pos": 30,
+          "quality": "stopword",
+          "word_score_logit": 0.03404806926846504,
+          "word_attn_weight": 0.02407769113779068
+        }
+      ],
+      [
+        {
+          "token": "maybe",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": 0.007744665257632732,
+          "word_attn_weight": 0.20200058817863464
+        },
+        {
+          "token": "what",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": 0.001674031838774681,
+          "word_attn_weight": 0.2007780373096466
+        },
+        {
+          "token": "so",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": -0.0030454546213150024,
+          "word_attn_weight": 0.1998327076435089
+        },
+        {
+          "token": "you",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": -0.007427947595715523,
+          "word_attn_weight": 0.1989588439464569
+        },
+        {
+          "token": "haven't",
+          "token_pos": 2,
+          "quality": "other",
+          "word_score_logit": -0.01009027287364006,
+          "word_attn_weight": 0.1984298676252365
+        }
+      ],
+      [
+        {
+          "token": "reported",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.021002352237701416,
+          "word_attn_weight": 0.07348499447107315
+        },
+        {
+          "token": "widely",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.006080469116568565,
+          "word_attn_weight": 0.07239660620689392
+        },
+        {
+          "token": "i",
+          "token_pos": 7,
+          "quality": "stopword",
+          "word_score_logit": 0.006003618240356445,
+          "word_attn_weight": 0.07239104062318802
+        },
+        {
+          "token": "and",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": 0.004625461995601654,
+          "word_attn_weight": 0.07229133695363998
+        },
+        {
+          "token": "is",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.0029382677748799324,
+          "word_attn_weight": 0.0721694752573967
+        }
+      ]
+    ],
+    "top_sentence_id": 2,
+    "sentence_importance_distribution": [
+      0.1222090870141983,
+      0.13969214260578156,
+      0.3504587411880493,
+      0.11292428523302078,
+      0.274715781211853
+    ]
+  }
+}

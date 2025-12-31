@@ -1,0 +1,239 @@
+{
+  "example_id": "test_17",
+  "true_label_id": 1,
+  "pred_label_id": 12,
+  "true_label_name": "comp.graphics",
+  "pred_label_name": "sci.electronics",
+  "pred_confidence": 0.6024962067604065,
+  "metrics": {
+    "num_sents": 5,
+    "K": 5,
+    "stop_ratio": 0.24,
+    "unk_ratio": 0.04,
+    "num_ratio": 0.0,
+    "content_ratio": 0.28,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 1.5804829597473145,
+    "sentence_importance_entropy": 1.5907025337219238,
+    "sentence_importance_max": 0.26974180340766907,
+    "top_sentence_id": 0,
+    "query_mismatch_rate": 0.76,
+    "selected_quality_counts": {
+      "content_word": 7,
+      "stopword": 6,
+      "other": 11,
+      "unk": 1
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.156,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.18881926238536834,
+    "D_local_global_conflict": 0.76,
+    "E_overconfident_error": 0.6024962067604065
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "hello i'm interested in those devices too",
+      "could also send me your suggestions",
+      "thank in advance",
+      "regards",
+      "<UNK>"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "devices",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.06919185817241669,
+          "word_attn_weight": 0.14944541454315186
+        },
+        {
+          "token": "too",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": 0.035375308245420456,
+          "word_attn_weight": 0.14447619020938873
+        },
+        {
+          "token": "in",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": 0.030906494706869125,
+          "word_attn_weight": 0.1438319981098175
+        },
+        {
+          "token": "i'm",
+          "token_pos": 1,
+          "quality": "other",
+          "word_score_logit": 0.015513129532337189,
+          "word_attn_weight": 0.14163488149642944
+        },
+        {
+          "token": "interested",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.013107484206557274,
+          "word_attn_weight": 0.14129456877708435
+        }
+      ],
+      [
+        {
+          "token": "also",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.04579881578683853,
+          "word_attn_weight": 0.1712052822113037
+        },
+        {
+          "token": "could",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.04059220850467682,
+          "word_attn_weight": 0.1703161895275116
+        },
+        {
+          "token": "send",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.03348518908023834,
+          "word_attn_weight": 0.16911005973815918
+        },
+        {
+          "token": "me",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": 0.00765082985162735,
+          "word_attn_weight": 0.16479714214801788
+        },
+        {
+          "token": "your",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": -0.005424413830041885,
+          "word_attn_weight": 0.16265641152858734
+        }
+      ],
+      [
+        {
+          "token": "advance",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.016753410920500755,
+          "word_attn_weight": 0.3350585997104645
+        },
+        {
+          "token": "in",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.01123557984828949,
+          "word_attn_weight": 0.3332148790359497
+        },
+        {
+          "token": "thank",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": 0.0067587923258543015,
+          "word_attn_weight": 0.3317264914512634
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 3,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ],
+      [
+        {
+          "token": "regards",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": -0.01618078351020813,
+          "word_attn_weight": 1.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 3,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 1,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 2,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ],
+      [
+        {
+          "token": "<UNK>",
+          "token_pos": 0,
+          "quality": "unk",
+          "word_score_logit": 0.0027645998634397984,
+          "word_attn_weight": 1.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 3,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 1,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 2,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    ],
+    "top_sentence_id": 0,
+    "sentence_importance_distribution": [
+      0.26974180340766907,
+      0.17035996913909912,
+      0.1553681343793869,
+      0.20534801483154297,
+      0.19918204843997955
+    ]
+  }
+}

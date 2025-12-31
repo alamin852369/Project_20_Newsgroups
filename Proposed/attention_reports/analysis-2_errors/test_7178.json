@@ -1,0 +1,125 @@
+{
+  "true_label_id": 7,
+  "pred_label_id": 8,
+  "true_label_name": "rec.autos",
+  "pred_label_name": "rec.motorcycles",
+  "pred_confidence": 0.9593319892883301,
+  "num_sents": 1,
+  "top_sentences": [
+    {
+      "sentence_id": 0,
+      "importance": 1.0,
+      "sentence_text": "not to inject a non automotive note to this thread but the bmw opposed twin used in motorcycles for a long time is and always has been known as a boxer",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "automotive",
+          "token_pos": 5,
+          "word_score_logit": 0.11554969102144241,
+          "word_attn_weight": 0.03417360410094261
+        },
+        {
+          "rank": 1,
+          "token": "note",
+          "token_pos": 6,
+          "word_score_logit": 0.1056181788444519,
+          "word_attn_weight": 0.03383588790893555
+        },
+        {
+          "rank": 2,
+          "token": "bmw",
+          "token_pos": 12,
+          "word_score_logit": 0.08738673478364944,
+          "word_attn_weight": 0.033224597573280334
+        },
+        {
+          "rank": 3,
+          "token": "used",
+          "token_pos": 15,
+          "word_score_logit": 0.08524609357118607,
+          "word_attn_weight": 0.03315355256199837
+        },
+        {
+          "rank": 4,
+          "token": "a",
+          "token_pos": 19,
+          "word_score_logit": 0.07446188479661942,
+          "word_attn_weight": 0.03279794007539749
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "automotive",
+      "token_pos": 5,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 1.0,
+          "sentence_text": "not to inject a non automotive note to this thread but the bmw opposed twin used in motorcycles for a long time is and always has been known as a boxer"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "note",
+      "token_pos": 6,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 1.0,
+          "sentence_text": "not to inject a non automotive note to this thread but the bmw opposed twin used in motorcycles for a long time is and always has been known as a boxer"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "bmw",
+      "token_pos": 12,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 1.0,
+          "sentence_text": "not to inject a non automotive note to this thread but the bmw opposed twin used in motorcycles for a long time is and always has been known as a boxer"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "used",
+      "token_pos": 15,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 1.0,
+          "sentence_text": "not to inject a non automotive note to this thread but the bmw opposed twin used in motorcycles for a long time is and always has been known as a boxer"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "a",
+      "token_pos": 19,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 1.0,
+          "sentence_text": "not to inject a non automotive note to this thread but the bmw opposed twin used in motorcycles for a long time is and always has been known as a boxer"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_7178"
+}

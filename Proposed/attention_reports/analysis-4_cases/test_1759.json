@@ -1,0 +1,81 @@
+{
+  "example_id": "test_1759",
+  "true_label_id": 11,
+  "pred_label_id": 16,
+  "true_label_name": "sci.crypt",
+  "pred_label_name": "talk.politics.guns",
+  "pred_confidence": 0.632908821105957,
+  "metrics": {
+    "num_sents": 1,
+    "K": 5,
+    "stop_ratio": 0.8,
+    "unk_ratio": 0.0,
+    "num_ratio": 0.0,
+    "content_ratio": 0.2,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 0.0,
+    "sentence_importance_entropy": -0.0,
+    "sentence_importance_max": 1.0,
+    "top_sentence_id": 0,
+    "query_mismatch_rate": 0.0,
+    "selected_quality_counts": {
+      "stopword": 4,
+      "content_word": 1
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.48,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 1.0,
+    "D_local_global_conflict": 0.0,
+    "E_overconfident_error": 0.632908821105957
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "you would be arrested as an international arms <UNK>"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "be",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.018342100083827972,
+          "word_attn_weight": 0.11280547082424164
+        },
+        {
+          "token": "would",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.010945777408778667,
+          "word_attn_weight": 0.11197420209646225
+        },
+        {
+          "token": "as",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": 0.010037343949079514,
+          "word_attn_weight": 0.11187252402305603
+        },
+        {
+          "token": "you",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.009773549623787403,
+          "word_attn_weight": 0.11184301227331161
+        },
+        {
+          "token": "arrested",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.0007363399490714073,
+          "word_attn_weight": 0.11083681881427765
+        }
+      ]
+    ],
+    "top_sentence_id": 0,
+    "sentence_importance_distribution": [
+      1.0
+    ]
+  }
+}

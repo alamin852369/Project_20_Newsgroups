@@ -1,0 +1,297 @@
+{
+  "true_label_id": 0,
+  "pred_label_id": 17,
+  "true_label_name": "alt.atheism",
+  "pred_label_name": "talk.politics.mideast",
+  "pred_confidence": 0.1648767739534378,
+  "num_sents": 2,
+  "top_sentences": [
+    {
+      "sentence_id": 1,
+      "importance": 0.5034722685813904,
+      "sentence_text": "<UNK>",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "<UNK>",
+          "token_pos": 0,
+          "word_score_logit": 0.0027644140645861626,
+          "word_attn_weight": 1.0
+        },
+        {
+          "rank": 1,
+          "token": "<PAD/OUT>",
+          "token_pos": 3,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 2,
+          "token": "<PAD/OUT>",
+          "token_pos": 1,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 3,
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 4,
+          "token": "<PAD/OUT>",
+          "token_pos": 2,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    },
+    {
+      "sentence_id": 0,
+      "importance": 0.4965277314186096,
+      "sentence_text": "it is still <UNK>",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "is",
+          "token_pos": 1,
+          "word_score_logit": 0.012118539772927761,
+          "word_attn_weight": 0.25214505195617676
+        },
+        {
+          "rank": 1,
+          "token": "still",
+          "token_pos": 2,
+          "word_score_logit": 0.0040741246193647385,
+          "word_attn_weight": 0.25012484192848206
+        },
+        {
+          "rank": 2,
+          "token": "it",
+          "token_pos": 0,
+          "word_score_logit": 0.003051132895052433,
+          "word_attn_weight": 0.24986906349658966
+        },
+        {
+          "rank": 3,
+          "token": "<UNK>",
+          "token_pos": 3,
+          "word_score_logit": -0.005017533898353577,
+          "word_attn_weight": 0.2478610724210739
+        },
+        {
+          "rank": 4,
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 5,
+      "from_sentence_id": 1,
+      "token": "<UNK>",
+      "token_pos": 0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.5026002526283264,
+          "sentence_text": "<UNK>"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.49739977717399597,
+          "sentence_text": "it is still <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 6,
+      "from_sentence_id": 1,
+      "token": "<PAD/OUT>",
+      "token_pos": 3,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.5028085708618164,
+          "sentence_text": "<UNK>"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.4971914291381836,
+          "sentence_text": "it is still <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 7,
+      "from_sentence_id": 1,
+      "token": "<PAD/OUT>",
+      "token_pos": 1,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.5028085708618164,
+          "sentence_text": "<UNK>"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.4971914291381836,
+          "sentence_text": "it is still <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 8,
+      "from_sentence_id": 1,
+      "token": "<PAD/OUT>",
+      "token_pos": 4,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.5028085708618164,
+          "sentence_text": "<UNK>"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.4971914291381836,
+          "sentence_text": "it is still <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 9,
+      "from_sentence_id": 1,
+      "token": "<PAD/OUT>",
+      "token_pos": 2,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.5028085708618164,
+          "sentence_text": "<UNK>"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.4971914291381836,
+          "sentence_text": "it is still <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "is",
+      "token_pos": 1,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.5047760009765625,
+          "sentence_text": "<UNK>"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.4952239394187927,
+          "sentence_text": "it is still <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "still",
+      "token_pos": 2,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.5064899325370789,
+          "sentence_text": "<UNK>"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.49351003766059875,
+          "sentence_text": "it is still <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "it",
+      "token_pos": 0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.5034549832344055,
+          "sentence_text": "<UNK>"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.49654507637023926,
+          "sentence_text": "it is still <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "<UNK>",
+      "token_pos": 3,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.5033586621284485,
+          "sentence_text": "<UNK>"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.4966413378715515,
+          "sentence_text": "it is still <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "<PAD/OUT>",
+      "token_pos": 4,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.5028085708618164,
+          "sentence_text": "<UNK>"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.4971914291381836,
+          "sentence_text": "it is still <UNK>"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_183"
+}

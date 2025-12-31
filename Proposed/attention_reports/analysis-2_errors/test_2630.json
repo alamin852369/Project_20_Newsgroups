@@ -1,0 +1,339 @@
+{
+  "true_label_id": 19,
+  "pred_label_id": 15,
+  "true_label_name": "talk.religion.misc",
+  "pred_label_name": "soc.religion.christian",
+  "pred_confidence": 0.84588623046875,
+  "num_sents": 3,
+  "top_sentences": [
+    {
+      "sentence_id": 2,
+      "importance": 0.5023843050003052,
+      "sentence_text": "if a child always submitted to your will in a <UNK> fashion would you praise him and suspect that he's the second coming of christ or would you seek professional help about his emotional development",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "his",
+          "token_pos": 32,
+          "word_score_logit": 0.02669408917427063,
+          "word_attn_weight": 0.030158383771777153
+        },
+        {
+          "rank": 1,
+          "token": "seek",
+          "token_pos": 28,
+          "word_score_logit": 0.00788370706140995,
+          "word_attn_weight": 0.029596395790576935
+        },
+        {
+          "rank": 2,
+          "token": "professional",
+          "token_pos": 29,
+          "word_score_logit": 0.004787702113389969,
+          "word_attn_weight": 0.02950490638613701
+        },
+        {
+          "rank": 3,
+          "token": "about",
+          "token_pos": 31,
+          "word_score_logit": -0.00686133187264204,
+          "word_attn_weight": 0.029163196682929993
+        },
+        {
+          "rank": 4,
+          "token": "suspect",
+          "token_pos": 17,
+          "word_score_logit": -0.009268559515476227,
+          "word_attn_weight": 0.029093079268932343
+        }
+      ]
+    },
+    {
+      "sentence_id": 0,
+      "importance": 0.30375251173973083,
+      "sentence_text": "that's not showing the signs of his innate sin that's testing the limits of his <UNK> independence",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "the",
+          "token_pos": 11,
+          "word_score_logit": 0.048049550503492355,
+          "word_attn_weight": 0.06186242401599884
+        },
+        {
+          "rank": 1,
+          "token": "limits",
+          "token_pos": 12,
+          "word_score_logit": 0.03922811895608902,
+          "word_attn_weight": 0.06131910905241966
+        },
+        {
+          "rank": 2,
+          "token": "his",
+          "token_pos": 14,
+          "word_score_logit": 0.036246053874492645,
+          "word_attn_weight": 0.06113652139902115
+        },
+        {
+          "rank": 3,
+          "token": "of",
+          "token_pos": 13,
+          "word_score_logit": 0.035857584327459335,
+          "word_attn_weight": 0.06111277639865875
+        },
+        {
+          "rank": 4,
+          "token": "testing",
+          "token_pos": 10,
+          "word_score_logit": 0.020524606108665466,
+          "word_attn_weight": 0.06018288433551788
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "importance": 0.1938631534576416,
+      "sentence_text": "a two year old will continually test you to see just how much he can get away with just as a pet dog will",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "two",
+          "token_pos": 1,
+          "word_score_logit": 0.027826227247714996,
+          "word_attn_weight": 0.0425879992544651
+        },
+        {
+          "rank": 1,
+          "token": "a",
+          "token_pos": 0,
+          "word_score_logit": 0.026626549661159515,
+          "word_attn_weight": 0.042536940425634384
+        },
+        {
+          "rank": 2,
+          "token": "dog",
+          "token_pos": 22,
+          "word_score_logit": 0.025825228542089462,
+          "word_attn_weight": 0.04250286519527435
+        },
+        {
+          "rank": 3,
+          "token": "he",
+          "token_pos": 13,
+          "word_score_logit": 0.02518634684383869,
+          "word_attn_weight": 0.04247571900486946
+        },
+        {
+          "rank": 4,
+          "token": "see",
+          "token_pos": 9,
+          "word_score_logit": 0.01767156273126602,
+          "word_attn_weight": 0.042157720774412155
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 10,
+      "from_sentence_id": 2,
+      "token": "his",
+      "token_pos": 32,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.6138879060745239,
+          "sentence_text": "if a child always submitted to your will in a <UNK> fashion would you praise him and suspect that he's the second coming of christ or would you seek professional help about his emotional development"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.2708519697189331,
+          "sentence_text": "that's not showing the signs of his innate sin that's testing the limits of his <UNK> independence"
+        }
+      ]
+    },
+    {
+      "query_id": 11,
+      "from_sentence_id": 2,
+      "token": "seek",
+      "token_pos": 28,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.6261885166168213,
+          "sentence_text": "if a child always submitted to your will in a <UNK> fashion would you praise him and suspect that he's the second coming of christ or would you seek professional help about his emotional development"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.2651591897010803,
+          "sentence_text": "that's not showing the signs of his innate sin that's testing the limits of his <UNK> independence"
+        }
+      ]
+    },
+    {
+      "query_id": 12,
+      "from_sentence_id": 2,
+      "token": "professional",
+      "token_pos": 29,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.43701624870300293,
+          "sentence_text": "if a child always submitted to your will in a <UNK> fashion would you praise him and suspect that he's the second coming of christ or would you seek professional help about his emotional development"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.3103870451450348,
+          "sentence_text": "that's not showing the signs of his innate sin that's testing the limits of his <UNK> independence"
+        }
+      ]
+    },
+    {
+      "query_id": 13,
+      "from_sentence_id": 2,
+      "token": "about",
+      "token_pos": 31,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.6225178241729736,
+          "sentence_text": "if a child always submitted to your will in a <UNK> fashion would you praise him and suspect that he's the second coming of christ or would you seek professional help about his emotional development"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.26912349462509155,
+          "sentence_text": "that's not showing the signs of his innate sin that's testing the limits of his <UNK> independence"
+        }
+      ]
+    },
+    {
+      "query_id": 14,
+      "from_sentence_id": 2,
+      "token": "suspect",
+      "token_pos": 17,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.9068124294281006,
+          "sentence_text": "if a child always submitted to your will in a <UNK> fashion would you praise him and suspect that he's the second coming of christ or would you seek professional help about his emotional development"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.08280922472476959,
+          "sentence_text": "that's not showing the signs of his innate sin that's testing the limits of his <UNK> independence"
+        }
+      ]
+    },
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "the",
+      "token_pos": 11,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.5905316472053528,
+          "sentence_text": "if a child always submitted to your will in a <UNK> fashion would you praise him and suspect that he's the second coming of christ or would you seek professional help about his emotional development"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.3050273358821869,
+          "sentence_text": "that's not showing the signs of his innate sin that's testing the limits of his <UNK> independence"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "limits",
+      "token_pos": 12,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.5881281495094299,
+          "sentence_text": "if a child always submitted to your will in a <UNK> fashion would you praise him and suspect that he's the second coming of christ or would you seek professional help about his emotional development"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.31069719791412354,
+          "sentence_text": "that's not showing the signs of his innate sin that's testing the limits of his <UNK> independence"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "his",
+      "token_pos": 14,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.6051310896873474,
+          "sentence_text": "if a child always submitted to your will in a <UNK> fashion would you praise him and suspect that he's the second coming of christ or would you seek professional help about his emotional development"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.2893224060535431,
+          "sentence_text": "that's not showing the signs of his innate sin that's testing the limits of his <UNK> independence"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "of",
+      "token_pos": 13,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.6571754217147827,
+          "sentence_text": "if a child always submitted to your will in a <UNK> fashion would you praise him and suspect that he's the second coming of christ or would you seek professional help about his emotional development"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.26738452911376953,
+          "sentence_text": "that's not showing the signs of his innate sin that's testing the limits of his <UNK> independence"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "testing",
+      "token_pos": 10,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.4193592369556427,
+          "sentence_text": "if a child always submitted to your will in a <UNK> fashion would you praise him and suspect that he's the second coming of christ or would you seek professional help about his emotional development"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.365475058555603,
+          "sentence_text": "that's not showing the signs of his innate sin that's testing the limits of his <UNK> independence"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_2630"
+}

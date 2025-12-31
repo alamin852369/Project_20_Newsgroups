@@ -1,0 +1,159 @@
+{
+  "example_id": "test_2163",
+  "true_label_id": 0,
+  "pred_label_id": 17,
+  "true_label_name": "alt.atheism",
+  "pred_label_name": "talk.politics.mideast",
+  "pred_confidence": 0.6650234460830688,
+  "metrics": {
+    "num_sents": 3,
+    "K": 5,
+    "stop_ratio": 0.8,
+    "unk_ratio": 0.0,
+    "num_ratio": 0.0,
+    "content_ratio": 0.2,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 1.0986124277114868,
+    "sentence_importance_entropy": 1.0986123085021973,
+    "sentence_importance_max": 0.3333333432674408,
+    "top_sentence_id": 0,
+    "query_mismatch_rate": 0.6666666666666666,
+    "selected_quality_counts": {
+      "stopword": 12,
+      "content_word": 3
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.48,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.31361087858676906,
+    "D_local_global_conflict": 0.6666666666666666,
+    "E_overconfident_error": 0.6650234460830688
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "but in this case i said i hoped that bcci was not an islamic bank",
+      "but in this case i said i hoped that bcci was not an islamic bank",
+      "but in this case i said i hoped that bcci was not an islamic bank"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "was",
+          "token_pos": 10,
+          "quality": "stopword",
+          "word_score_logit": 0.017712123692035675,
+          "word_attn_weight": 0.06884797662496567
+        },
+        {
+          "token": "not",
+          "token_pos": 11,
+          "quality": "stopword",
+          "word_score_logit": 0.012049534358084202,
+          "word_attn_weight": 0.06845922023057938
+        },
+        {
+          "token": "an",
+          "token_pos": 12,
+          "quality": "stopword",
+          "word_score_logit": 0.006453625857830048,
+          "word_attn_weight": 0.0680771991610527
+        },
+        {
+          "token": "in",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.005738835781812668,
+          "word_attn_weight": 0.06802855432033539
+        },
+        {
+          "token": "case",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": -0.0001573413610458374,
+          "word_attn_weight": 0.06762862950563431
+        }
+      ],
+      [
+        {
+          "token": "was",
+          "token_pos": 10,
+          "quality": "stopword",
+          "word_score_logit": 0.017712123692035675,
+          "word_attn_weight": 0.06884797662496567
+        },
+        {
+          "token": "not",
+          "token_pos": 11,
+          "quality": "stopword",
+          "word_score_logit": 0.012049534358084202,
+          "word_attn_weight": 0.06845922023057938
+        },
+        {
+          "token": "an",
+          "token_pos": 12,
+          "quality": "stopword",
+          "word_score_logit": 0.006453625857830048,
+          "word_attn_weight": 0.0680771991610527
+        },
+        {
+          "token": "in",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.005738835781812668,
+          "word_attn_weight": 0.06802855432033539
+        },
+        {
+          "token": "case",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": -0.0001573413610458374,
+          "word_attn_weight": 0.06762862950563431
+        }
+      ],
+      [
+        {
+          "token": "was",
+          "token_pos": 10,
+          "quality": "stopword",
+          "word_score_logit": 0.017712123692035675,
+          "word_attn_weight": 0.06884797662496567
+        },
+        {
+          "token": "not",
+          "token_pos": 11,
+          "quality": "stopword",
+          "word_score_logit": 0.012049534358084202,
+          "word_attn_weight": 0.06845922023057938
+        },
+        {
+          "token": "an",
+          "token_pos": 12,
+          "quality": "stopword",
+          "word_score_logit": 0.006453625857830048,
+          "word_attn_weight": 0.0680771991610527
+        },
+        {
+          "token": "in",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": 0.005738835781812668,
+          "word_attn_weight": 0.06802855432033539
+        },
+        {
+          "token": "case",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": -0.0001573413610458374,
+          "word_attn_weight": 0.06762862950563431
+        }
+      ]
+    ],
+    "top_sentence_id": 0,
+    "sentence_importance_distribution": [
+      0.3333333432674408,
+      0.3333333432674408,
+      0.3333333432674408
+    ]
+  }
+}

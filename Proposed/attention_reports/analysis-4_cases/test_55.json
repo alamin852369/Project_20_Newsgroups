@@ -1,0 +1,240 @@
+{
+  "example_id": "test_55",
+  "true_label_id": 2,
+  "pred_label_id": 10,
+  "true_label_name": "comp.os.ms-windows.misc",
+  "pred_label_name": "rec.sport.hockey",
+  "pred_confidence": 0.8471018075942993,
+  "metrics": {
+    "num_sents": 5,
+    "K": 5,
+    "stop_ratio": 0.16,
+    "unk_ratio": 0.04,
+    "num_ratio": 0.0,
+    "content_ratio": 0.56,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 1.5515371561050415,
+    "sentence_importance_entropy": 1.574241280555725,
+    "sentence_importance_max": 0.28127747774124146,
+    "top_sentence_id": 3,
+    "query_mismatch_rate": 0.56,
+    "selected_quality_counts": {
+      "content_word": 14,
+      "other": 5,
+      "stopword": 4,
+      "unk": 1,
+      "short_word": 1
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.108,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.196894234418869,
+    "D_local_global_conflict": 0.56,
+    "E_overconfident_error": 0.8471018075942993
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "hmmm",
+      "i gave two examples which matched your objective criteria and your response was some subjective <UNK> about them being <UNK>",
+      "you never did counter the fact that those examples fit your objective criteria",
+      "one wonders who's playing semantic games here",
+      "rick <UNK> uucp uunet uw <UNK> microsoft <UNK>"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "hmmm",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": -0.03954325616359711,
+          "word_attn_weight": 1.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 3,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 1,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 2,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ],
+      [
+        {
+          "token": "gave",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.031531922519207,
+          "word_attn_weight": 0.051557835191488266
+        },
+        {
+          "token": "matched",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.02991855889558792,
+          "word_attn_weight": 0.05147472023963928
+        },
+        {
+          "token": "which",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": 0.029745686799287796,
+          "word_attn_weight": 0.05146582052111626
+        },
+        {
+          "token": "two",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.018107185140252113,
+          "word_attn_weight": 0.05087031051516533
+        },
+        {
+          "token": "examples",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.01764317788183689,
+          "word_attn_weight": 0.05084671080112457
+        }
+      ],
+      [
+        {
+          "token": "the",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": 0.017689138650894165,
+          "word_attn_weight": 0.07880178838968277
+        },
+        {
+          "token": "never",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.006219959352165461,
+          "word_attn_weight": 0.07790315896272659
+        },
+        {
+          "token": "did",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.005209450609982014,
+          "word_attn_weight": 0.07782448083162308
+        },
+        {
+          "token": "fact",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.004700334742665291,
+          "word_attn_weight": 0.07778487354516983
+        },
+        {
+          "token": "you",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.003543389029800892,
+          "word_attn_weight": 0.07769492268562317
+        }
+      ],
+      [
+        {
+          "token": "playing",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.08398821204900742,
+          "word_attn_weight": 0.14917254447937012
+        },
+        {
+          "token": "one",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": 0.06996585428714752,
+          "word_attn_weight": 0.14709538221359253
+        },
+        {
+          "token": "who's",
+          "token_pos": 2,
+          "quality": "other",
+          "word_score_logit": 0.06911370158195496,
+          "word_attn_weight": 0.14697007834911346
+        },
+        {
+          "token": "wonders",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.05628097057342529,
+          "word_attn_weight": 0.14509610831737518
+        },
+        {
+          "token": "games",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.01695331558585167,
+          "word_attn_weight": 0.13950058817863464
+        }
+      ],
+      [
+        {
+          "token": "uunet",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.07866109907627106,
+          "word_attn_weight": 0.13088425993919373
+        },
+        {
+          "token": "rick",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": 0.056693218648433685,
+          "word_attn_weight": 0.1280403584241867
+        },
+        {
+          "token": "<UNK>",
+          "token_pos": 7,
+          "quality": "unk",
+          "word_score_logit": 0.05232580006122589,
+          "word_attn_weight": 0.12748238444328308
+        },
+        {
+          "token": "uw",
+          "token_pos": 4,
+          "quality": "short_word",
+          "word_score_logit": 0.046642400324344635,
+          "word_attn_weight": 0.12675990164279938
+        },
+        {
+          "token": "microsoft",
+          "token_pos": 6,
+          "quality": "content_word",
+          "word_score_logit": 0.03912879154086113,
+          "word_attn_weight": 0.12581104040145874
+        }
+      ]
+    ],
+    "top_sentence_id": 3,
+    "sentence_importance_distribution": [
+      0.11675182729959488,
+      0.20175351202487946,
+      0.20539043843746185,
+      0.28127747774124146,
+      0.19482678174972534
+    ]
+  }
+}

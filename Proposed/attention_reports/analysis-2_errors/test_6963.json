@@ -1,0 +1,297 @@
+{
+  "true_label_id": 0,
+  "pred_label_id": 15,
+  "true_label_name": "alt.atheism",
+  "pred_label_name": "soc.religion.christian",
+  "pred_confidence": 0.8851279616355896,
+  "num_sents": 2,
+  "top_sentences": [
+    {
+      "sentence_id": 1,
+      "importance": 0.7270878553390503,
+      "sentence_text": "<UNK> questioning of the <UNK> afterlife as a reason why many joined the early xian church do you mean <UNK> <UNK> the <UNK>",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "the",
+          "token_pos": 21,
+          "word_score_logit": 0.022927016019821167,
+          "word_attn_weight": 0.04537853226065636
+        },
+        {
+          "rank": 1,
+          "token": "xian",
+          "token_pos": 14,
+          "word_score_logit": 0.010904130525887012,
+          "word_attn_weight": 0.044836219400167465
+        },
+        {
+          "rank": 2,
+          "token": "do",
+          "token_pos": 16,
+          "word_score_logit": 0.010735765099525452,
+          "word_attn_weight": 0.04482867196202278
+        },
+        {
+          "rank": 3,
+          "token": "<UNK>",
+          "token_pos": 20,
+          "word_score_logit": 0.007336883805692196,
+          "word_attn_weight": 0.044676560908555984
+        },
+        {
+          "rank": 4,
+          "token": "mean",
+          "token_pos": 18,
+          "word_score_logit": 0.002413209993392229,
+          "word_attn_weight": 0.044457126408815384
+        }
+      ]
+    },
+    {
+      "sentence_id": 0,
+      "importance": 0.2729121744632721,
+      "sentence_text": "re",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "re",
+          "token_pos": 0,
+          "word_score_logit": 0.014610742218792439,
+          "word_attn_weight": 1.0
+        },
+        {
+          "rank": 1,
+          "token": "<PAD/OUT>",
+          "token_pos": 3,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 2,
+          "token": "<PAD/OUT>",
+          "token_pos": 1,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 3,
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 4,
+          "token": "<PAD/OUT>",
+          "token_pos": 2,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 5,
+      "from_sentence_id": 1,
+      "token": "the",
+      "token_pos": 21,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.7984755039215088,
+          "sentence_text": "<UNK> questioning of the <UNK> afterlife as a reason why many joined the early xian church do you mean <UNK> <UNK> the <UNK>"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.20152443647384644,
+          "sentence_text": "re"
+        }
+      ]
+    },
+    {
+      "query_id": 6,
+      "from_sentence_id": 1,
+      "token": "xian",
+      "token_pos": 14,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.8851242065429688,
+          "sentence_text": "<UNK> questioning of the <UNK> afterlife as a reason why many joined the early xian church do you mean <UNK> <UNK> the <UNK>"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.11487581580877304,
+          "sentence_text": "re"
+        }
+      ]
+    },
+    {
+      "query_id": 7,
+      "from_sentence_id": 1,
+      "token": "do",
+      "token_pos": 16,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.892751932144165,
+          "sentence_text": "<UNK> questioning of the <UNK> afterlife as a reason why many joined the early xian church do you mean <UNK> <UNK> the <UNK>"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.10724806040525436,
+          "sentence_text": "re"
+        }
+      ]
+    },
+    {
+      "query_id": 8,
+      "from_sentence_id": 1,
+      "token": "<UNK>",
+      "token_pos": 20,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.7626219987869263,
+          "sentence_text": "<UNK> questioning of the <UNK> afterlife as a reason why many joined the early xian church do you mean <UNK> <UNK> the <UNK>"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.23737800121307373,
+          "sentence_text": "re"
+        }
+      ]
+    },
+    {
+      "query_id": 9,
+      "from_sentence_id": 1,
+      "token": "mean",
+      "token_pos": 18,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.8608830571174622,
+          "sentence_text": "<UNK> questioning of the <UNK> afterlife as a reason why many joined the early xian church do you mean <UNK> <UNK> the <UNK>"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.13911694288253784,
+          "sentence_text": "re"
+        }
+      ]
+    },
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "re",
+      "token_pos": 0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.6364201307296753,
+          "sentence_text": "<UNK> questioning of the <UNK> afterlife as a reason why many joined the early xian church do you mean <UNK> <UNK> the <UNK>"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.3635798692703247,
+          "sentence_text": "re"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "<PAD/OUT>",
+      "token_pos": 3,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.6086503267288208,
+          "sentence_text": "<UNK> questioning of the <UNK> afterlife as a reason why many joined the early xian church do you mean <UNK> <UNK> the <UNK>"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.3913496732711792,
+          "sentence_text": "re"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "<PAD/OUT>",
+      "token_pos": 1,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.6086503267288208,
+          "sentence_text": "<UNK> questioning of the <UNK> afterlife as a reason why many joined the early xian church do you mean <UNK> <UNK> the <UNK>"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.3913496732711792,
+          "sentence_text": "re"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "<PAD/OUT>",
+      "token_pos": 4,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.6086503267288208,
+          "sentence_text": "<UNK> questioning of the <UNK> afterlife as a reason why many joined the early xian church do you mean <UNK> <UNK> the <UNK>"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.3913496732711792,
+          "sentence_text": "re"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "<PAD/OUT>",
+      "token_pos": 2,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.6086503267288208,
+          "sentence_text": "<UNK> questioning of the <UNK> afterlife as a reason why many joined the early xian church do you mean <UNK> <UNK> the <UNK>"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.3913496732711792,
+          "sentence_text": "re"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_6963"
+}

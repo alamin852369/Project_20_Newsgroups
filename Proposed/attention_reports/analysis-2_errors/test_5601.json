@@ -1,0 +1,339 @@
+{
+  "true_label_id": 5,
+  "pred_label_id": 1,
+  "true_label_name": "comp.windows.x",
+  "pred_label_name": "comp.graphics",
+  "pred_confidence": 0.9655279517173767,
+  "num_sents": 3,
+  "top_sentences": [
+    {
+      "sentence_id": 0,
+      "importance": 0.46802735328674316,
+      "sentence_text": "i am looking for utilities for converting gifs jpegs ps etc to xpm format",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "to",
+          "token_pos": 11,
+          "word_score_logit": 0.01440852228552103,
+          "word_attn_weight": 0.07457402348518372
+        },
+        {
+          "rank": 1,
+          "token": "xpm",
+          "token_pos": 12,
+          "word_score_logit": 0.0030259578488767147,
+          "word_attn_weight": 0.0737299919128418
+        },
+        {
+          "rank": 2,
+          "token": "utilities",
+          "token_pos": 4,
+          "word_score_logit": -0.0045113638043403625,
+          "word_attn_weight": 0.07317634671926498
+        },
+        {
+          "rank": 3,
+          "token": "format",
+          "token_pos": 13,
+          "word_score_logit": -0.00484680850058794,
+          "word_attn_weight": 0.07315181195735931
+        },
+        {
+          "rank": 4,
+          "token": "etc",
+          "token_pos": 10,
+          "word_score_logit": -0.012186909094452858,
+          "word_attn_weight": 0.0726168304681778
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "importance": 0.2914237082004547,
+      "sentence_text": "any information appreciated",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "information",
+          "token_pos": 1,
+          "word_score_logit": 0.04257187619805336,
+          "word_attn_weight": 0.33515313267707825
+        },
+        {
+          "rank": 1,
+          "token": "any",
+          "token_pos": 0,
+          "word_score_logit": 0.03867078572511673,
+          "word_attn_weight": 0.3338482081890106
+        },
+        {
+          "rank": 2,
+          "token": "appreciated",
+          "token_pos": 2,
+          "word_score_logit": 0.030098654329776764,
+          "word_attn_weight": 0.33099862933158875
+        },
+        {
+          "rank": 3,
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 4,
+          "token": "<PAD/OUT>",
+          "token_pos": 3,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    },
+    {
+      "sentence_id": 2,
+      "importance": 0.24054895341396332,
+      "sentence_text": "thanks",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "thanks",
+          "token_pos": 0,
+          "word_score_logit": 0.015355919487774372,
+          "word_attn_weight": 1.0
+        },
+        {
+          "rank": 1,
+          "token": "<PAD/OUT>",
+          "token_pos": 3,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 2,
+          "token": "<PAD/OUT>",
+          "token_pos": 1,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 3,
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 4,
+          "token": "<PAD/OUT>",
+          "token_pos": 2,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "to",
+      "token_pos": 11,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5286183953285217,
+          "sentence_text": "i am looking for utilities for converting gifs jpegs ps etc to xpm format"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.2574051022529602,
+          "sentence_text": "any information appreciated"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "xpm",
+      "token_pos": 12,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.48450350761413574,
+          "sentence_text": "i am looking for utilities for converting gifs jpegs ps etc to xpm format"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.2704540193080902,
+          "sentence_text": "any information appreciated"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "utilities",
+      "token_pos": 4,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.3823685050010681,
+          "sentence_text": "thanks"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.3134170174598694,
+          "sentence_text": "i am looking for utilities for converting gifs jpegs ps etc to xpm format"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "format",
+      "token_pos": 13,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.4961445927619934,
+          "sentence_text": "i am looking for utilities for converting gifs jpegs ps etc to xpm format"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.27073150873184204,
+          "sentence_text": "any information appreciated"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "etc",
+      "token_pos": 10,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5002658367156982,
+          "sentence_text": "i am looking for utilities for converting gifs jpegs ps etc to xpm format"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.274081289768219,
+          "sentence_text": "any information appreciated"
+        }
+      ]
+    },
+    {
+      "query_id": 5,
+      "from_sentence_id": 1,
+      "token": "information",
+      "token_pos": 1,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5985957980155945,
+          "sentence_text": "i am looking for utilities for converting gifs jpegs ps etc to xpm format"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.24738427996635437,
+          "sentence_text": "any information appreciated"
+        }
+      ]
+    },
+    {
+      "query_id": 6,
+      "from_sentence_id": 1,
+      "token": "any",
+      "token_pos": 0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5472322702407837,
+          "sentence_text": "i am looking for utilities for converting gifs jpegs ps etc to xpm format"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.27104490995407104,
+          "sentence_text": "any information appreciated"
+        }
+      ]
+    },
+    {
+      "query_id": 7,
+      "from_sentence_id": 1,
+      "token": "appreciated",
+      "token_pos": 2,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5367748737335205,
+          "sentence_text": "i am looking for utilities for converting gifs jpegs ps etc to xpm format"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.27455419301986694,
+          "sentence_text": "any information appreciated"
+        }
+      ]
+    },
+    {
+      "query_id": 8,
+      "from_sentence_id": 1,
+      "token": "<PAD/OUT>",
+      "token_pos": 4,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.4229326844215393,
+          "sentence_text": "i am looking for utilities for converting gifs jpegs ps etc to xpm format"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.3168036639690399,
+          "sentence_text": "any information appreciated"
+        }
+      ]
+    },
+    {
+      "query_id": 9,
+      "from_sentence_id": 1,
+      "token": "<PAD/OUT>",
+      "token_pos": 3,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.4229326844215393,
+          "sentence_text": "i am looking for utilities for converting gifs jpegs ps etc to xpm format"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.3168036639690399,
+          "sentence_text": "any information appreciated"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_5601"
+}

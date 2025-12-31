@@ -1,0 +1,423 @@
+{
+  "true_label_id": 19,
+  "pred_label_id": 15,
+  "true_label_name": "talk.religion.misc",
+  "pred_label_name": "soc.religion.christian",
+  "pred_confidence": 0.8614222407341003,
+  "num_sents": 20,
+  "top_sentences": [
+    {
+      "sentence_id": 16,
+      "importance": 0.1782146841287613,
+      "sentence_text": "the important thing is that in every way whether from false motives or true christ is preached",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "preached",
+          "token_pos": 16,
+          "word_score_logit": 0.006199714727699757,
+          "word_attn_weight": 0.06031637266278267
+        },
+        {
+          "rank": 1,
+          "token": "is",
+          "token_pos": 15,
+          "word_score_logit": 0.0007964964024722576,
+          "word_attn_weight": 0.059991348534822464
+        },
+        {
+          "rank": 2,
+          "token": "motives",
+          "token_pos": 11,
+          "word_score_logit": -0.000715944916009903,
+          "word_attn_weight": 0.059900686144828796
+        },
+        {
+          "rank": 3,
+          "token": "true",
+          "token_pos": 13,
+          "word_score_logit": -0.00803952943533659,
+          "word_attn_weight": 0.05946360155940056
+        },
+        {
+          "rank": 4,
+          "token": "whether",
+          "token_pos": 8,
+          "word_score_logit": -0.009570786729454994,
+          "word_attn_weight": 0.059372611343860626
+        }
+      ]
+    },
+    {
+      "sentence_id": 7,
+      "importance": 0.11824098229408264,
+      "sentence_text": "that said it doesn't hurt to try to see what the prophecies are ahead of time for those outside the church",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "the",
+          "token_pos": 19,
+          "word_score_logit": -0.001382528804242611,
+          "word_attn_weight": 0.04930876940488815
+        },
+        {
+          "rank": 1,
+          "token": "outside",
+          "token_pos": 18,
+          "word_score_logit": -0.010961150750517845,
+          "word_attn_weight": 0.04883871227502823
+        },
+        {
+          "rank": 2,
+          "token": "see",
+          "token_pos": 8,
+          "word_score_logit": -0.01275668852031231,
+          "word_attn_weight": 0.0487510971724987
+        },
+        {
+          "rank": 3,
+          "token": "church",
+          "token_pos": 20,
+          "word_score_logit": -0.017901016399264336,
+          "word_attn_weight": 0.04850095137953758
+        },
+        {
+          "rank": 4,
+          "token": "that",
+          "token_pos": 0,
+          "word_score_logit": -0.018542850390076637,
+          "word_attn_weight": 0.04846983402967453
+        }
+      ]
+    },
+    {
+      "sentence_id": 2,
+      "importance": 0.10992851108312607,
+      "sentence_text": "are you the spokesman for most people that you don't recognize the biblical commentary used",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "used",
+          "token_pos": 14,
+          "word_score_logit": 0.004388750530779362,
+          "word_attn_weight": 0.06839997321367264
+        },
+        {
+          "rank": 1,
+          "token": "most",
+          "token_pos": 5,
+          "word_score_logit": -0.00136638805270195,
+          "word_attn_weight": 0.0680074468255043
+        },
+        {
+          "rank": 2,
+          "token": "you",
+          "token_pos": 8,
+          "word_score_logit": -0.0035124290734529495,
+          "word_attn_weight": 0.0678616613149643
+        },
+        {
+          "rank": 3,
+          "token": "that",
+          "token_pos": 7,
+          "word_score_logit": -0.006294164806604385,
+          "word_attn_weight": 0.06767315417528152
+        },
+        {
+          "rank": 4,
+          "token": "are",
+          "token_pos": 0,
+          "word_score_logit": -0.010554289445281029,
+          "word_attn_weight": 0.0673854649066925
+        }
+      ]
+    },
+    {
+      "sentence_id": 6,
+      "importance": 0.09503405541181564,
+      "sentence_text": "please note that the first part of revelation makes it clear that the address is to those in the church",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "note",
+          "token_pos": 1,
+          "word_score_logit": 0.01609816960990429,
+          "word_attn_weight": 0.05142918601632118
+        },
+        {
+          "rank": 1,
+          "token": "address",
+          "token_pos": 13,
+          "word_score_logit": 0.008135605603456497,
+          "word_attn_weight": 0.05102130025625229
+        },
+        {
+          "rank": 2,
+          "token": "is",
+          "token_pos": 14,
+          "word_score_logit": 0.0051288120448589325,
+          "word_attn_weight": 0.05086812376976013
+        },
+        {
+          "rank": 3,
+          "token": "in",
+          "token_pos": 17,
+          "word_score_logit": 0.0042977966368198395,
+          "word_attn_weight": 0.05082586780190468
+        },
+        {
+          "rank": 4,
+          "token": "please",
+          "token_pos": 0,
+          "word_score_logit": 0.004231248050928116,
+          "word_attn_weight": 0.05082248896360397
+        }
+      ]
+    },
+    {
+      "sentence_id": 11,
+      "importance": 0.06856301426887512,
+      "sentence_text": "very glad you asked since i goofed it should be <UNK> 1 14 19 here from <UNK> because of my chains most of the brothers in the lord have been encouraged to speak the word of god more <UNK> and <UNK>",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "speak",
+          "token_pos": 32,
+          "word_score_logit": 0.06613578647375107,
+          "word_attn_weight": 0.026285598054528236
+        },
+        {
+          "rank": 1,
+          "token": "word",
+          "token_pos": 34,
+          "word_score_logit": 0.05490446090698242,
+          "word_attn_weight": 0.025992026552557945
+        },
+        {
+          "rank": 2,
+          "token": "the",
+          "token_pos": 33,
+          "word_score_logit": 0.05139007791876793,
+          "word_attn_weight": 0.025900840759277344
+        },
+        {
+          "rank": 3,
+          "token": "to",
+          "token_pos": 31,
+          "word_score_logit": 0.04591086879372597,
+          "word_attn_weight": 0.025759313255548477
+        },
+        {
+          "rank": 4,
+          "token": "of",
+          "token_pos": 35,
+          "word_score_logit": 0.03896860033273697,
+          "word_attn_weight": 0.025581104680895805
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 80,
+      "from_sentence_id": 16,
+      "token": "preached",
+      "token_pos": 16,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.24441421031951904,
+          "sentence_text": "the important thing is that in every way whether from false motives or true christ is preached"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 7,
+          "attn_weight": 0.1311962604522705,
+          "sentence_text": "that said it doesn't hurt to try to see what the prophecies are ahead of time for those outside the church"
+        }
+      ]
+    },
+    {
+      "query_id": 81,
+      "from_sentence_id": 16,
+      "token": "is",
+      "token_pos": 15,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.21457485854625702,
+          "sentence_text": "the important thing is that in every way whether from false motives or true christ is preached"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 7,
+          "attn_weight": 0.13339734077453613,
+          "sentence_text": "that said it doesn't hurt to try to see what the prophecies are ahead of time for those outside the church"
+        }
+      ]
+    },
+    {
+      "query_id": 82,
+      "from_sentence_id": 16,
+      "token": "motives",
+      "token_pos": 11,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.5624669790267944,
+          "sentence_text": "the important thing is that in every way whether from false motives or true christ is preached"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.10893222689628601,
+          "sentence_text": "are you the spokesman for most people that you don't recognize the biblical commentary used"
+        }
+      ]
+    },
+    {
+      "query_id": 83,
+      "from_sentence_id": 16,
+      "token": "true",
+      "token_pos": 13,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.5126282572746277,
+          "sentence_text": "the important thing is that in every way whether from false motives or true christ is preached"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.1176488921046257,
+          "sentence_text": "are you the spokesman for most people that you don't recognize the biblical commentary used"
+        }
+      ]
+    },
+    {
+      "query_id": 84,
+      "from_sentence_id": 16,
+      "token": "whether",
+      "token_pos": 8,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.5179522037506104,
+          "sentence_text": "the important thing is that in every way whether from false motives or true christ is preached"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.12017013132572174,
+          "sentence_text": "are you the spokesman for most people that you don't recognize the biblical commentary used"
+        }
+      ]
+    },
+    {
+      "query_id": 35,
+      "from_sentence_id": 7,
+      "token": "the",
+      "token_pos": 19,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.23649908602237701,
+          "sentence_text": "the important thing is that in every way whether from false motives or true christ is preached"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 7,
+          "attn_weight": 0.1430557370185852,
+          "sentence_text": "that said it doesn't hurt to try to see what the prophecies are ahead of time for those outside the church"
+        }
+      ]
+    },
+    {
+      "query_id": 36,
+      "from_sentence_id": 7,
+      "token": "outside",
+      "token_pos": 18,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.2641303539276123,
+          "sentence_text": "the important thing is that in every way whether from false motives or true christ is preached"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 7,
+          "attn_weight": 0.1545686274766922,
+          "sentence_text": "that said it doesn't hurt to try to see what the prophecies are ahead of time for those outside the church"
+        }
+      ]
+    },
+    {
+      "query_id": 37,
+      "from_sentence_id": 7,
+      "token": "see",
+      "token_pos": 8,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.43402764201164246,
+          "sentence_text": "the important thing is that in every way whether from false motives or true christ is preached"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.12531328201293945,
+          "sentence_text": "are you the spokesman for most people that you don't recognize the biblical commentary used"
+        }
+      ]
+    },
+    {
+      "query_id": 38,
+      "from_sentence_id": 7,
+      "token": "church",
+      "token_pos": 20,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.27772021293640137,
+          "sentence_text": "the important thing is that in every way whether from false motives or true christ is preached"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 7,
+          "attn_weight": 0.14392146468162537,
+          "sentence_text": "that said it doesn't hurt to try to see what the prophecies are ahead of time for those outside the church"
+        }
+      ]
+    },
+    {
+      "query_id": 39,
+      "from_sentence_id": 7,
+      "token": "that",
+      "token_pos": 0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 16,
+          "attn_weight": 0.46574270725250244,
+          "sentence_text": "the important thing is that in every way whether from false motives or true christ is preached"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.11324595659971237,
+          "sentence_text": "are you the spokesman for most people that you don't recognize the biblical commentary used"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_4929"
+}

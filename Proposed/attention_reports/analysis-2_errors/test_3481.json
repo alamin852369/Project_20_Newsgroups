@@ -1,0 +1,297 @@
+{
+  "true_label_id": 4,
+  "pred_label_id": 12,
+  "true_label_name": "comp.sys.mac.hardware",
+  "pred_label_name": "sci.electronics",
+  "pred_confidence": 0.977644145488739,
+  "num_sents": 2,
+  "top_sentences": [
+    {
+      "sentence_id": 0,
+      "importance": 0.5864201188087463,
+      "sentence_text": "ae is in dallas try 214 241 <UNK> or 214 241 <UNK>",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "214",
+          "token_pos": 9,
+          "word_score_logit": 0.06093344837427139,
+          "word_attn_weight": 0.08552032709121704
+        },
+        {
+          "rank": 1,
+          "token": "214",
+          "token_pos": 5,
+          "word_score_logit": 0.05846545100212097,
+          "word_attn_weight": 0.08530952781438828
+        },
+        {
+          "rank": 2,
+          "token": "241",
+          "token_pos": 6,
+          "word_score_logit": 0.05601958930492401,
+          "word_attn_weight": 0.08510112017393112
+        },
+        {
+          "rank": 3,
+          "token": "241",
+          "token_pos": 10,
+          "word_score_logit": 0.05252353101968765,
+          "word_attn_weight": 0.08480411767959595
+        },
+        {
+          "rank": 4,
+          "token": "dallas",
+          "token_pos": 3,
+          "word_score_logit": 0.05140586942434311,
+          "word_attn_weight": 0.08470939099788666
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "importance": 0.41357991099357605,
+      "sentence_text": "tech support may be on their own line but one of these should get you started",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "may",
+          "token_pos": 2,
+          "word_score_logit": 0.061626262962818146,
+          "word_attn_weight": 0.06448643654584885
+        },
+        {
+          "rank": 1,
+          "token": "tech",
+          "token_pos": 0,
+          "word_score_logit": 0.057429295033216476,
+          "word_attn_weight": 0.06421635299921036
+        },
+        {
+          "rank": 2,
+          "token": "be",
+          "token_pos": 3,
+          "word_score_logit": 0.04982569441199303,
+          "word_attn_weight": 0.06372993439435959
+        },
+        {
+          "rank": 3,
+          "token": "line",
+          "token_pos": 7,
+          "word_score_logit": 0.04274272918701172,
+          "word_attn_weight": 0.0632801279425621
+        },
+        {
+          "rank": 4,
+          "token": "one",
+          "token_pos": 9,
+          "word_score_logit": 0.04083779454231262,
+          "word_attn_weight": 0.06315969675779343
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "214",
+      "token_pos": 9,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5791599154472351,
+          "sentence_text": "ae is in dallas try 214 241 <UNK> or 214 241 <UNK>"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.4208400845527649,
+          "sentence_text": "tech support may be on their own line but one of these should get you started"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "214",
+      "token_pos": 5,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5788806676864624,
+          "sentence_text": "ae is in dallas try 214 241 <UNK> or 214 241 <UNK>"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.4211193025112152,
+          "sentence_text": "tech support may be on their own line but one of these should get you started"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "241",
+      "token_pos": 6,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5781044960021973,
+          "sentence_text": "ae is in dallas try 214 241 <UNK> or 214 241 <UNK>"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.42189550399780273,
+          "sentence_text": "tech support may be on their own line but one of these should get you started"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "241",
+      "token_pos": 10,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5694572925567627,
+          "sentence_text": "ae is in dallas try 214 241 <UNK> or 214 241 <UNK>"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.4305427074432373,
+          "sentence_text": "tech support may be on their own line but one of these should get you started"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "dallas",
+      "token_pos": 3,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6051959991455078,
+          "sentence_text": "ae is in dallas try 214 241 <UNK> or 214 241 <UNK>"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.3948040008544922,
+          "sentence_text": "tech support may be on their own line but one of these should get you started"
+        }
+      ]
+    },
+    {
+      "query_id": 5,
+      "from_sentence_id": 1,
+      "token": "may",
+      "token_pos": 2,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5885148644447327,
+          "sentence_text": "ae is in dallas try 214 241 <UNK> or 214 241 <UNK>"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.41148513555526733,
+          "sentence_text": "tech support may be on their own line but one of these should get you started"
+        }
+      ]
+    },
+    {
+      "query_id": 6,
+      "from_sentence_id": 1,
+      "token": "tech",
+      "token_pos": 0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6171687841415405,
+          "sentence_text": "ae is in dallas try 214 241 <UNK> or 214 241 <UNK>"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.38283124566078186,
+          "sentence_text": "tech support may be on their own line but one of these should get you started"
+        }
+      ]
+    },
+    {
+      "query_id": 7,
+      "from_sentence_id": 1,
+      "token": "be",
+      "token_pos": 3,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5726501941680908,
+          "sentence_text": "ae is in dallas try 214 241 <UNK> or 214 241 <UNK>"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.42734986543655396,
+          "sentence_text": "tech support may be on their own line but one of these should get you started"
+        }
+      ]
+    },
+    {
+      "query_id": 8,
+      "from_sentence_id": 1,
+      "token": "line",
+      "token_pos": 7,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.595562756061554,
+          "sentence_text": "ae is in dallas try 214 241 <UNK> or 214 241 <UNK>"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.40443718433380127,
+          "sentence_text": "tech support may be on their own line but one of these should get you started"
+        }
+      ]
+    },
+    {
+      "query_id": 9,
+      "from_sentence_id": 1,
+      "token": "one",
+      "token_pos": 9,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5795058608055115,
+          "sentence_text": "ae is in dallas try 214 241 <UNK> or 214 241 <UNK>"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.4204941391944885,
+          "sentence_text": "tech support may be on their own line but one of these should get you started"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_3481"
+}

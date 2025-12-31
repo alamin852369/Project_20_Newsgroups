@@ -1,0 +1,317 @@
+{
+  "example_id": "test_48",
+  "true_label_id": 11,
+  "pred_label_id": 0,
+  "true_label_name": "sci.crypt",
+  "pred_label_name": "alt.atheism",
+  "pred_confidence": 0.5031703114509583,
+  "metrics": {
+    "num_sents": 7,
+    "K": 5,
+    "stop_ratio": 0.2857142857142857,
+    "unk_ratio": 0.0,
+    "num_ratio": 0.02857142857142857,
+    "content_ratio": 0.45714285714285713,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 1.8619768619537354,
+    "sentence_importance_entropy": 1.8753647804260254,
+    "sentence_importance_max": 0.22227701544761658,
+    "top_sentence_id": 0,
+    "query_mismatch_rate": 0.7428571428571429,
+    "selected_quality_counts": {
+      "content_word": 16,
+      "stopword": 10,
+      "number": 1,
+      "other": 8
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.17428571428571427,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.1555939108133316,
+    "D_local_global_conflict": 0.7428571428571429,
+    "E_overconfident_error": 0.5031703114509583
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "i have seen various references to <UNK> <UNK> recently",
+      "could anyone tell me what it is",
+      "from context i would guess that it means encrypting each block 3 times with a different key each time but i'd like to be sure",
+      "replies by email preferred our news is unreliable",
+      "could people replying to the above question post their responses here as well as i'm sure others including myself would like to hear them",
+      "thanks",
+      "jon"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "references",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.02006441168487072,
+          "word_attn_weight": 0.11306384205818176
+        },
+        {
+          "token": "to",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.008539083413779736,
+          "word_attn_weight": 0.1117682233452797
+        },
+        {
+          "token": "recently",
+          "token_pos": 8,
+          "quality": "content_word",
+          "word_score_logit": 0.007570801768451929,
+          "word_attn_weight": 0.11166006326675415
+        },
+        {
+          "token": "various",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.0033432976342737675,
+          "word_attn_weight": 0.11118900030851364
+        },
+        {
+          "token": "i",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.00203599501401186,
+          "word_attn_weight": 0.11104373633861542
+        }
+      ],
+      [
+        {
+          "token": "anyone",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.05197853222489357,
+          "word_attn_weight": 0.14716844260692596
+        },
+        {
+          "token": "could",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.03219151496887207,
+          "word_attn_weight": 0.14428502321243286
+        },
+        {
+          "token": "tell",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.02928856387734413,
+          "word_attn_weight": 0.14386679232120514
+        },
+        {
+          "token": "me",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": 0.01656467095017433,
+          "word_attn_weight": 0.14204785227775574
+        },
+        {
+          "token": "what",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": 0.013191466219723225,
+          "word_attn_weight": 0.14156949520111084
+        }
+      ],
+      [
+        {
+          "token": "each",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": 0.07095222175121307,
+          "word_attn_weight": 0.0416732057929039
+        },
+        {
+          "token": "3",
+          "token_pos": 11,
+          "quality": "number",
+          "word_score_logit": 0.06388229876756668,
+          "word_attn_weight": 0.04137961566448212
+        },
+        {
+          "token": "with",
+          "token_pos": 13,
+          "quality": "stopword",
+          "word_score_logit": 0.0624639168381691,
+          "word_attn_weight": 0.04132096841931343
+        },
+        {
+          "token": "block",
+          "token_pos": 10,
+          "quality": "content_word",
+          "word_score_logit": 0.05849781632423401,
+          "word_attn_weight": 0.04115740954875946
+        },
+        {
+          "token": "times",
+          "token_pos": 12,
+          "quality": "content_word",
+          "word_score_logit": 0.057555489242076874,
+          "word_attn_weight": 0.041118644177913666
+        }
+      ],
+      [
+        {
+          "token": "preferred",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.0580744631588459,
+          "word_attn_weight": 0.13060444593429565
+        },
+        {
+          "token": "our",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": 0.02886381559073925,
+          "word_attn_weight": 0.126844584941864
+        },
+        {
+          "token": "news",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.026891279965639114,
+          "word_attn_weight": 0.1265946328639984
+        },
+        {
+          "token": "email",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.023003194481134415,
+          "word_attn_weight": 0.12610337138175964
+        },
+        {
+          "token": "unreliable",
+          "token_pos": 7,
+          "quality": "content_word",
+          "word_score_logit": 0.013872208073735237,
+          "word_attn_weight": 0.12495715916156769
+        }
+      ],
+      [
+        {
+          "token": "above",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.027230843901634216,
+          "word_attn_weight": 0.04288302734494209
+        },
+        {
+          "token": "hear",
+          "token_pos": 22,
+          "quality": "content_word",
+          "word_score_logit": 0.02433990314602852,
+          "word_attn_weight": 0.042759232223033905
+        },
+        {
+          "token": "to",
+          "token_pos": 21,
+          "quality": "stopword",
+          "word_score_logit": 0.019714809954166412,
+          "word_attn_weight": 0.04256192222237587
+        },
+        {
+          "token": "the",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": 0.018916906788945198,
+          "word_attn_weight": 0.042527977377176285
+        },
+        {
+          "token": "could",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.01485862210392952,
+          "word_attn_weight": 0.0423557385802269
+        }
+      ],
+      [
+        {
+          "token": "thanks",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": 0.015355927869677544,
+          "word_attn_weight": 1.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 3,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 1,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 2,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ],
+      [
+        {
+          "token": "jon",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": 0.035963501781225204,
+          "word_attn_weight": 1.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 3,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 1,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 2,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    ],
+    "top_sentence_id": 0,
+    "sentence_importance_distribution": [
+      0.22227701544761658,
+      0.09603871405124664,
+      0.1987404078245163,
+      0.11018966883420944,
+      0.19096511602401733,
+      0.08684075623750687,
+      0.09494833648204803
+    ]
+  }
+}

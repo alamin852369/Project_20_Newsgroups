@@ -1,0 +1,339 @@
+{
+  "true_label_id": 3,
+  "pred_label_id": 2,
+  "true_label_name": "comp.sys.ibm.pc.hardware",
+  "pred_label_name": "comp.os.ms-windows.misc",
+  "pred_confidence": 0.9582794904708862,
+  "num_sents": 3,
+  "top_sentences": [
+    {
+      "sentence_id": 0,
+      "importance": 0.46306872367858887,
+      "sentence_text": "build 59 causes 2 exceptions when i exit windows",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "windows",
+          "token_pos": 8,
+          "word_score_logit": 0.1136028990149498,
+          "word_attn_weight": 0.11998933553695679
+        },
+        {
+          "rank": 1,
+          "token": "exit",
+          "token_pos": 7,
+          "word_score_logit": 0.05390806868672371,
+          "word_attn_weight": 0.11303619295358658
+        },
+        {
+          "rank": 2,
+          "token": "exceptions",
+          "token_pos": 4,
+          "word_score_logit": 0.05164989084005356,
+          "word_attn_weight": 0.11278122663497925
+        },
+        {
+          "rank": 3,
+          "token": "i",
+          "token_pos": 6,
+          "word_score_logit": 0.04123698174953461,
+          "word_attn_weight": 0.11161293834447861
+        },
+        {
+          "rank": 4,
+          "token": "when",
+          "token_pos": 5,
+          "word_score_logit": 0.025866679847240448,
+          "word_attn_weight": 0.1099105253815651
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "importance": 0.32398489117622375,
+      "sentence_text": "in fact i have had this happen on all builds after 44 which shipped with my gateway system",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "system",
+          "token_pos": 17,
+          "word_score_logit": 0.07880338281393051,
+          "word_attn_weight": 0.05936877802014351
+        },
+        {
+          "rank": 1,
+          "token": "gateway",
+          "token_pos": 16,
+          "word_score_logit": 0.04091104120016098,
+          "word_attn_weight": 0.05716124549508095
+        },
+        {
+          "rank": 2,
+          "token": "in",
+          "token_pos": 0,
+          "word_score_logit": 0.03000785782933235,
+          "word_attn_weight": 0.05654139071702957
+        },
+        {
+          "rank": 3,
+          "token": "fact",
+          "token_pos": 1,
+          "word_score_logit": 0.02853512018918991,
+          "word_attn_weight": 0.056458182632923126
+        },
+        {
+          "rank": 4,
+          "token": "had",
+          "token_pos": 4,
+          "word_score_logit": 0.022307105362415314,
+          "word_attn_weight": 0.05610765144228935
+        }
+      ]
+    },
+    {
+      "sentence_id": 2,
+      "importance": 0.21294641494750977,
+      "sentence_text": "am i doing something wrong or is this problem commonly overlooked",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "commonly",
+          "token_pos": 9,
+          "word_score_logit": 0.062294308096170425,
+          "word_attn_weight": 0.09580230712890625
+        },
+        {
+          "rank": 1,
+          "token": "overlooked",
+          "token_pos": 10,
+          "word_score_logit": 0.042412009090185165,
+          "word_attn_weight": 0.09391634911298752
+        },
+        {
+          "rank": 2,
+          "token": "problem",
+          "token_pos": 8,
+          "word_score_logit": 0.03133925050497055,
+          "word_attn_weight": 0.0928821712732315
+        },
+        {
+          "rank": 3,
+          "token": "or",
+          "token_pos": 5,
+          "word_score_logit": 0.012786416336894035,
+          "word_attn_weight": 0.09117483347654343
+        },
+        {
+          "rank": 4,
+          "token": "is",
+          "token_pos": 6,
+          "word_score_logit": 0.006162884645164013,
+          "word_attn_weight": 0.09057293087244034
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "windows",
+      "token_pos": 8,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.4981568455696106,
+          "sentence_text": "build 59 causes 2 exceptions when i exit windows"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.2574806809425354,
+          "sentence_text": "am i doing something wrong or is this problem commonly overlooked"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "exit",
+      "token_pos": 7,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.42294570803642273,
+          "sentence_text": "am i doing something wrong or is this problem commonly overlooked"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.3646189570426941,
+          "sentence_text": "build 59 causes 2 exceptions when i exit windows"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "exceptions",
+      "token_pos": 4,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.4147340655326843,
+          "sentence_text": "build 59 causes 2 exceptions when i exit windows"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.3072602152824402,
+          "sentence_text": "am i doing something wrong or is this problem commonly overlooked"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "i",
+      "token_pos": 6,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.42613857984542847,
+          "sentence_text": "build 59 causes 2 exceptions when i exit windows"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.3063908517360687,
+          "sentence_text": "am i doing something wrong or is this problem commonly overlooked"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "when",
+      "token_pos": 5,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.4244581162929535,
+          "sentence_text": "build 59 causes 2 exceptions when i exit windows"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.3138945698738098,
+          "sentence_text": "am i doing something wrong or is this problem commonly overlooked"
+        }
+      ]
+    },
+    {
+      "query_id": 5,
+      "from_sentence_id": 1,
+      "token": "system",
+      "token_pos": 17,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.5004714727401733,
+          "sentence_text": "build 59 causes 2 exceptions when i exit windows"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.381098210811615,
+          "sentence_text": "in fact i have had this happen on all builds after 44 which shipped with my gateway system"
+        }
+      ]
+    },
+    {
+      "query_id": 6,
+      "from_sentence_id": 1,
+      "token": "gateway",
+      "token_pos": 16,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.48882856965065,
+          "sentence_text": "build 59 causes 2 exceptions when i exit windows"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.34619593620300293,
+          "sentence_text": "in fact i have had this happen on all builds after 44 which shipped with my gateway system"
+        }
+      ]
+    },
+    {
+      "query_id": 7,
+      "from_sentence_id": 1,
+      "token": "in",
+      "token_pos": 0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.4522075653076172,
+          "sentence_text": "build 59 causes 2 exceptions when i exit windows"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.37956327199935913,
+          "sentence_text": "in fact i have had this happen on all builds after 44 which shipped with my gateway system"
+        }
+      ]
+    },
+    {
+      "query_id": 8,
+      "from_sentence_id": 1,
+      "token": "fact",
+      "token_pos": 1,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.46162527799606323,
+          "sentence_text": "build 59 causes 2 exceptions when i exit windows"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.3786870539188385,
+          "sentence_text": "in fact i have had this happen on all builds after 44 which shipped with my gateway system"
+        }
+      ]
+    },
+    {
+      "query_id": 9,
+      "from_sentence_id": 1,
+      "token": "had",
+      "token_pos": 4,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.4403229057788849,
+          "sentence_text": "build 59 causes 2 exceptions when i exit windows"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.3878026008605957,
+          "sentence_text": "in fact i have had this happen on all builds after 44 which shipped with my gateway system"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_6281"
+}

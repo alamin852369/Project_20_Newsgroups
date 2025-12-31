@@ -1,0 +1,381 @@
+{
+  "true_label_id": 3,
+  "pred_label_id": 12,
+  "true_label_name": "comp.sys.ibm.pc.hardware",
+  "pred_label_name": "sci.electronics",
+  "pred_confidence": 0.9008697271347046,
+  "num_sents": 4,
+  "top_sentences": [
+    {
+      "sentence_id": 1,
+      "importance": 0.32654762268066406,
+      "sentence_text": "in addition to the facts that a the modems i had ordered two wouldn't work as documented and b the tech person had no clue as to how it should work it also turned out that c one of the two modems they sent was clearly used but the techs",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "c",
+          "token_pos": 36,
+          "word_score_logit": 0.10834162682294846,
+          "word_attn_weight": 0.021186131983995438
+        },
+        {
+          "rank": 1,
+          "token": "b",
+          "token_pos": 18,
+          "word_score_logit": 0.09088438004255295,
+          "word_attn_weight": 0.020819490775465965
+        },
+        {
+          "rank": 2,
+          "token": "tech",
+          "token_pos": 20,
+          "word_score_logit": 0.09030849486589432,
+          "word_attn_weight": 0.020807502791285515
+        },
+        {
+          "rank": 3,
+          "token": "one",
+          "token_pos": 37,
+          "word_score_logit": 0.07882507145404816,
+          "word_attn_weight": 0.020569927990436554
+        },
+        {
+          "rank": 4,
+          "token": "of",
+          "token_pos": 38,
+          "word_score_logit": 0.07555492222309113,
+          "word_attn_weight": 0.02050277218222618
+        }
+      ]
+    },
+    {
+      "sentence_id": 2,
+      "importance": 0.26650333404541016,
+      "sentence_text": "that they are incompetent is one thing but that they sell used stuff as new and won't even apologize for it is another",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "used",
+          "token_pos": 11,
+          "word_score_logit": 0.06155071407556534,
+          "word_attn_weight": 0.04551824554800987
+        },
+        {
+          "rank": 1,
+          "token": "that",
+          "token_pos": 0,
+          "word_score_logit": 0.03485845774412155,
+          "word_attn_weight": 0.044319335371255875
+        },
+        {
+          "rank": 2,
+          "token": "they",
+          "token_pos": 1,
+          "word_score_logit": 0.033397674560546875,
+          "word_attn_weight": 0.044254641979932785
+        },
+        {
+          "rank": 3,
+          "token": "and",
+          "token_pos": 15,
+          "word_score_logit": 0.032065801322460175,
+          "word_attn_weight": 0.044195737689733505
+        },
+        {
+          "rank": 4,
+          "token": "as",
+          "token_pos": 13,
+          "word_score_logit": 0.03186469525098801,
+          "word_attn_weight": 0.044186852872371674
+        }
+      ]
+    },
+    {
+      "sentence_id": 0,
+      "importance": 0.22828960418701172,
+      "sentence_text": "i posted almost the same bad experience with midwest micro but our news program only sent one paragraph out of the middle",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "sent",
+          "token_pos": 15,
+          "word_score_logit": 0.05500583350658417,
+          "word_attn_weight": 0.047083258628845215
+        },
+        {
+          "rank": 1,
+          "token": "micro",
+          "token_pos": 9,
+          "word_score_logit": 0.053857069462537766,
+          "word_attn_weight": 0.047029200941324234
+        },
+        {
+          "rank": 2,
+          "token": "only",
+          "token_pos": 14,
+          "word_score_logit": 0.05208154395222664,
+          "word_attn_weight": 0.04694577306509018
+        },
+        {
+          "rank": 3,
+          "token": "one",
+          "token_pos": 16,
+          "word_score_logit": 0.04713035747408867,
+          "word_attn_weight": 0.04671391099691391
+        },
+        {
+          "rank": 4,
+          "token": "news",
+          "token_pos": 12,
+          "word_score_logit": 0.038724690675735474,
+          "word_attn_weight": 0.04632289335131645
+        }
+      ]
+    },
+    {
+      "sentence_id": 3,
+      "importance": 0.17865943908691406,
+      "sentence_text": "stay away from these crooks",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "stay",
+          "token_pos": 0,
+          "word_score_logit": 0.01645916886627674,
+          "word_attn_weight": 0.20277149975299835
+        },
+        {
+          "rank": 1,
+          "token": "from",
+          "token_pos": 2,
+          "word_score_logit": 0.014255525544285774,
+          "word_attn_weight": 0.20232515037059784
+        },
+        {
+          "rank": 2,
+          "token": "away",
+          "token_pos": 1,
+          "word_score_logit": 0.010657679289579391,
+          "word_attn_weight": 0.20159852504730225
+        },
+        {
+          "rank": 3,
+          "token": "these",
+          "token_pos": 3,
+          "word_score_logit": 0.00022179679945111275,
+          "word_attn_weight": 0.19950561225414276
+        },
+        {
+          "rank": 4,
+          "token": "crooks",
+          "token_pos": 4,
+          "word_score_logit": -0.02879837527871132,
+          "word_attn_weight": 0.19379912316799164
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 5,
+      "from_sentence_id": 1,
+      "token": "c",
+      "token_pos": 36,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.41001224517822266,
+          "sentence_text": "in addition to the facts that a the modems i had ordered two wouldn't work as documented and b the tech person had no clue as to how it should work it also turned out that c one of the two modems they sent was clearly used but the techs"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.2651608884334564,
+          "sentence_text": "that they are incompetent is one thing but that they sell used stuff as new and won't even apologize for it is another"
+        }
+      ]
+    },
+    {
+      "query_id": 6,
+      "from_sentence_id": 1,
+      "token": "b",
+      "token_pos": 18,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.3876296281814575,
+          "sentence_text": "in addition to the facts that a the modems i had ordered two wouldn't work as documented and b the tech person had no clue as to how it should work it also turned out that c one of the two modems they sent was clearly used but the techs"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.272157222032547,
+          "sentence_text": "that they are incompetent is one thing but that they sell used stuff as new and won't even apologize for it is another"
+        }
+      ]
+    },
+    {
+      "query_id": 7,
+      "from_sentence_id": 1,
+      "token": "tech",
+      "token_pos": 20,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.44687697291374207,
+          "sentence_text": "in addition to the facts that a the modems i had ordered two wouldn't work as documented and b the tech person had no clue as to how it should work it also turned out that c one of the two modems they sent was clearly used but the techs"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.27525389194488525,
+          "sentence_text": "that they are incompetent is one thing but that they sell used stuff as new and won't even apologize for it is another"
+        }
+      ]
+    },
+    {
+      "query_id": 8,
+      "from_sentence_id": 1,
+      "token": "one",
+      "token_pos": 37,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.41849756240844727,
+          "sentence_text": "in addition to the facts that a the modems i had ordered two wouldn't work as documented and b the tech person had no clue as to how it should work it also turned out that c one of the two modems they sent was clearly used but the techs"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.2658872604370117,
+          "sentence_text": "that they are incompetent is one thing but that they sell used stuff as new and won't even apologize for it is another"
+        }
+      ]
+    },
+    {
+      "query_id": 9,
+      "from_sentence_id": 1,
+      "token": "of",
+      "token_pos": 38,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.4264572560787201,
+          "sentence_text": "in addition to the facts that a the modems i had ordered two wouldn't work as documented and b the tech person had no clue as to how it should work it also turned out that c one of the two modems they sent was clearly used but the techs"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.2643973231315613,
+          "sentence_text": "that they are incompetent is one thing but that they sell used stuff as new and won't even apologize for it is another"
+        }
+      ]
+    },
+    {
+      "query_id": 10,
+      "from_sentence_id": 2,
+      "token": "used",
+      "token_pos": 11,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.33047765493392944,
+          "sentence_text": "in addition to the facts that a the modems i had ordered two wouldn't work as documented and b the tech person had no clue as to how it should work it also turned out that c one of the two modems they sent was clearly used but the techs"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.327409029006958,
+          "sentence_text": "that they are incompetent is one thing but that they sell used stuff as new and won't even apologize for it is another"
+        }
+      ]
+    },
+    {
+      "query_id": 11,
+      "from_sentence_id": 2,
+      "token": "that",
+      "token_pos": 0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.292987197637558,
+          "sentence_text": "in addition to the facts that a the modems i had ordered two wouldn't work as documented and b the tech person had no clue as to how it should work it also turned out that c one of the two modems they sent was clearly used but the techs"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.2701122760772705,
+          "sentence_text": "that they are incompetent is one thing but that they sell used stuff as new and won't even apologize for it is another"
+        }
+      ]
+    },
+    {
+      "query_id": 12,
+      "from_sentence_id": 2,
+      "token": "they",
+      "token_pos": 1,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.2977910339832306,
+          "sentence_text": "in addition to the facts that a the modems i had ordered two wouldn't work as documented and b the tech person had no clue as to how it should work it also turned out that c one of the two modems they sent was clearly used but the techs"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.27439069747924805,
+          "sentence_text": "that they are incompetent is one thing but that they sell used stuff as new and won't even apologize for it is another"
+        }
+      ]
+    },
+    {
+      "query_id": 13,
+      "from_sentence_id": 2,
+      "token": "and",
+      "token_pos": 15,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.28647178411483765,
+          "sentence_text": "that they are incompetent is one thing but that they sell used stuff as new and won't even apologize for it is another"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.2606711983680725,
+          "sentence_text": "in addition to the facts that a the modems i had ordered two wouldn't work as documented and b the tech person had no clue as to how it should work it also turned out that c one of the two modems they sent was clearly used but the techs"
+        }
+      ]
+    },
+    {
+      "query_id": 14,
+      "from_sentence_id": 2,
+      "token": "as",
+      "token_pos": 13,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.2904103994369507,
+          "sentence_text": "that they are incompetent is one thing but that they sell used stuff as new and won't even apologize for it is another"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.2743007242679596,
+          "sentence_text": "in addition to the facts that a the modems i had ordered two wouldn't work as documented and b the tech person had no clue as to how it should work it also turned out that c one of the two modems they sent was clearly used but the techs"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_4769"
+}

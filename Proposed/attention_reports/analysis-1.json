@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "analysis_id": "analysis-1",
+    "created_at": "2025-12-31T13:18:30.699542",
+    "split": "test",
+    "glove_coverage": 0.8259883992266152,
+    "TOPK": 5
+  },
+  "examples": [
+    {
+      "example_id": "test-1",
+      "true": "rec.autos",
+      "pred": "rec.autos",
+      "confidence": 0.4610237181186676
+    },
+    {
+      "example_id": "test-2",
+      "true": "comp.windows.x",
+      "pred": "comp.windows.x",
+      "confidence": 0.645324170589447
+    },
+    {
+      "example_id": "test-3",
+      "true": "alt.atheism",
+      "pred": "alt.atheism",
+      "confidence": 0.8416219353675842
+    },
+    {
+      "example_id": "test-4",
+      "true": "talk.politics.mideast",
+      "pred": "talk.politics.mideast",
+      "confidence": 0.8309516310691833
+    },
+    {
+      "example_id": "test-5",
+      "true": "talk.religion.misc",
+      "pred": "soc.religion.christian",
+      "confidence": 0.5147189497947693
+    },
+    {
+      "example_id": "test-6",
+      "true": "sci.med",
+      "pred": "sci.med",
+      "confidence": 0.9970927238464355
+    },
+    {
+      "example_id": "test-7",
+      "true": "soc.religion.christian",
+      "pred": "talk.politics.misc",
+      "confidence": 0.3224535882472992
+    },
+    {
+      "example_id": "test-8",
+      "true": "soc.religion.christian",
+      "pred": "comp.graphics",
+      "confidence": 0.45319193601608276
+    },
+    {
+      "example_id": "test-9",
+      "true": "comp.windows.x",
+      "pred": "comp.windows.x",
+      "confidence": 0.9797675609588623
+    },
+    {
+      "example_id": "test-10",
+      "true": "comp.graphics",
+      "pred": "comp.graphics",
+      "confidence": 0.9522613286972046
+    },
+    {
+      "example_id": "test-11",
+      "true": "comp.os.ms-windows.misc",
+      "pred": "comp.os.ms-windows.misc",
+      "confidence": 0.9449604749679565
+    },
+    {
+      "example_id": "test-12",
+      "true": "comp.windows.x",
+      "pred": "comp.windows.x",
+      "confidence": 0.8657539486885071
+    },
+    {
+      "example_id": "test-13",
+      "true": "talk.politics.mideast",
+      "pred": "talk.politics.mideast",
+      "confidence": 0.9947874546051025
+    },
+    {
+      "example_id": "test-14",
+      "true": "rec.motorcycles",
+      "pred": "rec.motorcycles",
+      "confidence": 0.46629729866981506
+    },
+    {
+      "example_id": "test-15",
+      "true": "alt.atheism",
+      "pred": "soc.religion.christian",
+      "confidence": 0.8068578243255615
+    },
+    {
+      "example_id": "test-16",
+      "true": "comp.os.ms-windows.misc",
+      "pred": "comp.sys.ibm.pc.hardware",
+      "confidence": 0.9025008082389832
+    },
+    {
+      "example_id": "test-17",
+      "true": "comp.sys.mac.hardware",
+      "pred": "comp.os.ms-windows.misc",
+      "confidence": 0.4272906184196472
+    },
+    {
+      "example_id": "test-18",
+      "true": "comp.graphics",
+      "pred": "sci.electronics",
+      "confidence": 0.6024962067604065
+    },
+    {
+      "example_id": "test-19",
+      "true": "misc.forsale",
+      "pred": "misc.forsale",
+      "confidence": 0.7049015760421753
+    },
+    {
+      "example_id": "test-20",
+      "true": "talk.politics.guns",
+      "pred": "talk.politics.guns",
+      "confidence": 0.9575928449630737
+    },
+    {
+      "example_id": "test-21",
+      "true": "comp.graphics",
+      "pred": "sci.med",
+      "confidence": 0.7531351447105408
+    },
+    {
+      "example_id": "test-22",
+      "true": "misc.forsale",
+      "pred": "misc.forsale",
+      "confidence": 0.9627501964569092
+    },
+    {
+      "example_id": "test-23",
+      "true": "talk.politics.mideast",
+      "pred": "talk.politics.mideast",
+      "confidence": 0.955694854259491
+    },
+    {
+      "example_id": "test-24",
+      "true": "sci.space",
+      "pred": "sci.space",
+      "confidence": 0.9576935172080994
+    },
+    {
+      "example_id": "test-25",
+      "true": "comp.sys.ibm.pc.hardware",
+      "pred": "comp.sys.ibm.pc.hardware",
+      "confidence": 0.8716356158256531
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "example_id": "test_6",
+  "true_label_id": 15,
+  "pred_label_id": 18,
+  "true_label_name": "soc.religion.christian",
+  "pred_label_name": "talk.politics.misc",
+  "pred_confidence": 0.3224535882472992,
+  "metrics": {
+    "num_sents": 2,
+    "K": 5,
+    "stop_ratio": 0.3,
+    "unk_ratio": 0.0,
+    "num_ratio": 0.2,
+    "content_ratio": 0.3,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 0.6927107572555542,
+    "sentence_importance_entropy": 0.6929993629455566,
+    "sentence_importance_max": 0.5085963010787964,
+    "top_sentence_id": 0,
+    "query_mismatch_rate": 0.2,
+    "selected_quality_counts": {
+      "stopword": 3,
+      "content_word": 3,
+      "number": 2,
+      "other": 2
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.2,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.5174175381660462,
+    "D_local_global_conflict": 0.2,
+    "E_overconfident_error": 0.3224535882472992
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "dishonest money <UNK> away but he who <UNK> money little by little makes it grow",
+      "proverbs 13 11"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "he",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.011081637814640999,
+          "word_attn_weight": 0.06864377111196518
+        },
+        {
+          "token": "makes",
+          "token_pos": 12,
+          "quality": "content_word",
+          "word_score_logit": 0.000622074119746685,
+          "word_attn_weight": 0.06792952865362167
+        },
+        {
+          "token": "it",
+          "token_pos": 13,
+          "quality": "stopword",
+          "word_score_logit": -0.0004963474348187447,
+          "word_attn_weight": 0.06785359978675842
+        },
+        {
+          "token": "but",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": -0.0015030428767204285,
+          "word_attn_weight": 0.06778533011674881
+        },
+        {
+          "token": "grow",
+          "token_pos": 14,
+          "quality": "content_word",
+          "word_score_logit": -0.010216863825917244,
+          "word_attn_weight": 0.06719722598791122
+        }
+      ],
+      [
+        {
+          "token": "13",
+          "token_pos": 1,
+          "quality": "number",
+          "word_score_logit": 0.030048616230487823,
+          "word_attn_weight": 0.3399813771247864
+        },
+        {
+          "token": "11",
+          "token_pos": 2,
+          "quality": "number",
+          "word_score_logit": 0.026786968111991882,
+          "word_attn_weight": 0.33887428045272827
+        },
+        {
+          "token": "proverbs",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": -0.026951611042022705,
+          "word_attn_weight": 0.32114431262016296
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 3,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    ],
+    "top_sentence_id": 0,
+    "sentence_importance_distribution": [
+      0.5085963010787964,
+      0.4914036691188812
+    ]
+  }
+}

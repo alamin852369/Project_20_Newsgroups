@@ -1,0 +1,1154 @@
+{
+  "true_label_id": 17,
+  "pred_label_id": 17,
+  "true_label_name": "talk.politics.mideast",
+  "pred_label_name": "talk.politics.mideast",
+  "pred_confidence": 0.9947874546051025,
+  "num_sents": 6,
+  "sentence_summaries": [
+    {
+      "sentence_id": 0,
+      "sentence_text": "you know that putting something like this out on the newsgroup is only going to generate flames not discussion",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "the",
+          "token_pos": 9,
+          "word_score_logit": 0.02928762137889862,
+          "word_attn_weight": 0.054067421704530716
+        },
+        {
+          "rank": 1,
+          "token": "newsgroup",
+          "token_pos": 10,
+          "word_score_logit": 0.01956683024764061,
+          "word_attn_weight": 0.05354439094662666
+        },
+        {
+          "rank": 2,
+          "token": "flames",
+          "token_pos": 16,
+          "word_score_logit": 0.014163793995976448,
+          "word_attn_weight": 0.05325586721301079
+        },
+        {
+          "rank": 3,
+          "token": "not",
+          "token_pos": 17,
+          "word_score_logit": 0.013485236093401909,
+          "word_attn_weight": 0.0532197430729866
+        },
+        {
+          "rank": 4,
+          "token": "on",
+          "token_pos": 8,
+          "word_score_logit": 0.012015440501272678,
+          "word_attn_weight": 0.053141575306653976
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "sentence_text": "try adding some substance to the issue of <UNK> you mentioned",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "substance",
+          "token_pos": 3,
+          "word_score_logit": 0.0417478121817112,
+          "word_attn_weight": 0.09301955997943878
+        },
+        {
+          "rank": 1,
+          "token": "mentioned",
+          "token_pos": 10,
+          "word_score_logit": 0.02853293903172016,
+          "word_attn_weight": 0.09179840236902237
+        },
+        {
+          "rank": 2,
+          "token": "of",
+          "token_pos": 7,
+          "word_score_logit": 0.028293773531913757,
+          "word_attn_weight": 0.09177645295858383
+        },
+        {
+          "rank": 3,
+          "token": "the",
+          "token_pos": 5,
+          "word_score_logit": 0.02354189194738865,
+          "word_attn_weight": 0.09134137630462646
+        },
+        {
+          "rank": 4,
+          "token": "adding",
+          "token_pos": 1,
+          "word_score_logit": 0.02132200449705124,
+          "word_attn_weight": 0.0911388248205185
+        }
+      ]
+    },
+    {
+      "sentence_id": 2,
+      "sentence_text": "what is it you feel that israel has offered as a gesture",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "is",
+          "token_pos": 1,
+          "word_score_logit": -0.01384037360548973,
+          "word_attn_weight": 0.08789761364459991
+        },
+        {
+          "rank": 1,
+          "token": "what",
+          "token_pos": 0,
+          "word_score_logit": -0.01609186828136444,
+          "word_attn_weight": 0.08769993484020233
+        },
+        {
+          "rank": 2,
+          "token": "it",
+          "token_pos": 2,
+          "word_score_logit": -0.024890724569559097,
+          "word_attn_weight": 0.08693166077136993
+        },
+        {
+          "rank": 3,
+          "token": "feel",
+          "token_pos": 4,
+          "word_score_logit": -0.028859414160251617,
+          "word_attn_weight": 0.0865873396396637
+        },
+        {
+          "rank": 4,
+          "token": "that",
+          "token_pos": 5,
+          "word_score_logit": -0.03265942260622978,
+          "word_attn_weight": 0.08625893294811249
+        }
+      ]
+    },
+    {
+      "sentence_id": 3,
+      "sentence_text": "what would you realistically expect to see presented by the arabs palestinians in the way of gesture",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "what",
+          "token_pos": 0,
+          "word_score_logit": -0.012787170708179474,
+          "word_attn_weight": 0.06309877336025238
+        },
+        {
+          "rank": 1,
+          "token": "would",
+          "token_pos": 1,
+          "word_score_logit": -0.014342758804559708,
+          "word_attn_weight": 0.06300069391727448
+        },
+        {
+          "rank": 2,
+          "token": "realistically",
+          "token_pos": 3,
+          "word_score_logit": -0.028071943670511246,
+          "word_attn_weight": 0.06214165315032005
+        },
+        {
+          "rank": 3,
+          "token": "you",
+          "token_pos": 2,
+          "word_score_logit": -0.029569100588560104,
+          "word_attn_weight": 0.062048688530921936
+        },
+        {
+          "rank": 4,
+          "token": "the",
+          "token_pos": 9,
+          "word_score_logit": -0.034797705709934235,
+          "word_attn_weight": 0.061725109815597534
+        }
+      ]
+    },
+    {
+      "sentence_id": 4,
+      "sentence_text": "what are the rules that have been bent by arab actions",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "what",
+          "token_pos": 0,
+          "word_score_logit": 0.009494347497820854,
+          "word_attn_weight": 0.09449102729558945
+        },
+        {
+          "rank": 1,
+          "token": "that",
+          "token_pos": 4,
+          "word_score_logit": -0.0022321809083223343,
+          "word_attn_weight": 0.09338945150375366
+        },
+        {
+          "rank": 2,
+          "token": "have",
+          "token_pos": 5,
+          "word_score_logit": -0.006371811032295227,
+          "word_attn_weight": 0.09300364553928375
+        },
+        {
+          "rank": 3,
+          "token": "the",
+          "token_pos": 2,
+          "word_score_logit": -0.006494276225566864,
+          "word_attn_weight": 0.09299225360155106
+        },
+        {
+          "rank": 4,
+          "token": "are",
+          "token_pos": 1,
+          "word_score_logit": -0.00752401165664196,
+          "word_attn_weight": 0.09289655089378357
+        }
+      ]
+    },
+    {
+      "sentence_id": 5,
+      "sentence_text": "it would seem that the israeli <UNK> were seen by the other side as an example of changing the rules",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "seem",
+          "token_pos": 2,
+          "word_score_logit": 0.022084970027208328,
+          "word_attn_weight": 0.05455788969993591
+        },
+        {
+          "rank": 1,
+          "token": "the",
+          "token_pos": 4,
+          "word_score_logit": 0.016615575179457664,
+          "word_attn_weight": 0.05426030233502388
+        },
+        {
+          "rank": 2,
+          "token": "that",
+          "token_pos": 3,
+          "word_score_logit": 0.013490068726241589,
+          "word_attn_weight": 0.05409098044037819
+        },
+        {
+          "rank": 3,
+          "token": "would",
+          "token_pos": 1,
+          "word_score_logit": 0.01025756262242794,
+          "word_attn_weight": 0.053916413336992264
+        },
+        {
+          "rank": 4,
+          "token": "it",
+          "token_pos": 0,
+          "word_score_logit": 0.003773012198507786,
+          "word_attn_weight": 0.05356791988015175
+        }
+      ]
+    }
+  ],
+  "query_summaries": [
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "the",
+      "token_pos": 9,
+      "word_score_logit": 0.02928762137889862,
+      "word_attn_weight": 0.054067421704530716,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.41745835542678833,
+          "sentence_text": "what would you realistically expect to see presented by the arabs palestinians in the way of gesture"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.25459617376327515,
+          "sentence_text": "it would seem that the israeli <UNK> were seen by the other side as an example of changing the rules"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.13955195248126984,
+          "sentence_text": "what are the rules that have been bent by arab actions"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "newsgroup",
+      "token_pos": 10,
+      "word_score_logit": 0.01956683024764061,
+      "word_attn_weight": 0.05354439094662666,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.4264718294143677,
+          "sentence_text": "what would you realistically expect to see presented by the arabs palestinians in the way of gesture"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.29068225622177124,
+          "sentence_text": "it would seem that the israeli <UNK> were seen by the other side as an example of changing the rules"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.12689155340194702,
+          "sentence_text": "what are the rules that have been bent by arab actions"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "flames",
+      "token_pos": 16,
+      "word_score_logit": 0.014163793995976448,
+      "word_attn_weight": 0.05325586721301079,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.4220544099807739,
+          "sentence_text": "what would you realistically expect to see presented by the arabs palestinians in the way of gesture"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.18041320145130157,
+          "sentence_text": "it would seem that the israeli <UNK> were seen by the other side as an example of changing the rules"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.15002715587615967,
+          "sentence_text": "what are the rules that have been bent by arab actions"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "not",
+      "token_pos": 17,
+      "word_score_logit": 0.013485236093401909,
+      "word_attn_weight": 0.0532197430729866,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.368174284696579,
+          "sentence_text": "what would you realistically expect to see presented by the arabs palestinians in the way of gesture"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.25915583968162537,
+          "sentence_text": "it would seem that the israeli <UNK> were seen by the other side as an example of changing the rules"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.15070320665836334,
+          "sentence_text": "what are the rules that have been bent by arab actions"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "on",
+      "token_pos": 8,
+      "word_score_logit": 0.012015440501272678,
+      "word_attn_weight": 0.053141575306653976,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.36852461099624634,
+          "sentence_text": "what would you realistically expect to see presented by the arabs palestinians in the way of gesture"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.24199393391609192,
+          "sentence_text": "it would seem that the israeli <UNK> were seen by the other side as an example of changing the rules"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.15160511434078217,
+          "sentence_text": "what are the rules that have been bent by arab actions"
+        }
+      ]
+    },
+    {
+      "query_id": 5,
+      "from_sentence_id": 1,
+      "token": "substance",
+      "token_pos": 3,
+      "word_score_logit": 0.0417478121817112,
+      "word_attn_weight": 0.09301955997943878,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.39254093170166016,
+          "sentence_text": "what would you realistically expect to see presented by the arabs palestinians in the way of gesture"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.25681084394454956,
+          "sentence_text": "it would seem that the israeli <UNK> were seen by the other side as an example of changing the rules"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.14849014580249786,
+          "sentence_text": "what are the rules that have been bent by arab actions"
+        }
+      ]
+    },
+    {
+      "query_id": 6,
+      "from_sentence_id": 1,
+      "token": "mentioned",
+      "token_pos": 10,
+      "word_score_logit": 0.02853293903172016,
+      "word_attn_weight": 0.09179840236902237,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.35770225524902344,
+          "sentence_text": "what would you realistically expect to see presented by the arabs palestinians in the way of gesture"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.291374146938324,
+          "sentence_text": "it would seem that the israeli <UNK> were seen by the other side as an example of changing the rules"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.14767543971538544,
+          "sentence_text": "what are the rules that have been bent by arab actions"
+        }
+      ]
+    },
+    {
+      "query_id": 7,
+      "from_sentence_id": 1,
+      "token": "of",
+      "token_pos": 7,
+      "word_score_logit": 0.028293773531913757,
+      "word_attn_weight": 0.09177645295858383,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.4023343324661255,
+          "sentence_text": "what would you realistically expect to see presented by the arabs palestinians in the way of gesture"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.28819581866264343,
+          "sentence_text": "it would seem that the israeli <UNK> were seen by the other side as an example of changing the rules"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.13699224591255188,
+          "sentence_text": "what are the rules that have been bent by arab actions"
+        }
+      ]
+    },
+    {
+      "query_id": 8,
+      "from_sentence_id": 1,
+      "token": "the",
+      "token_pos": 5,
+      "word_score_logit": 0.02354189194738865,
+      "word_attn_weight": 0.09134137630462646,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.3645726442337036,
+          "sentence_text": "what would you realistically expect to see presented by the arabs palestinians in the way of gesture"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.3173614740371704,
+          "sentence_text": "it would seem that the israeli <UNK> were seen by the other side as an example of changing the rules"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.1408483237028122,
+          "sentence_text": "what are the rules that have been bent by arab actions"
+        }
+      ]
+    },
+    {
+      "query_id": 9,
+      "from_sentence_id": 1,
+      "token": "adding",
+      "token_pos": 1,
+      "word_score_logit": 0.02132200449705124,
+      "word_attn_weight": 0.0911388248205185,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.3139752745628357,
+          "sentence_text": "what would you realistically expect to see presented by the arabs palestinians in the way of gesture"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 5,
+          "attn_weight": 0.2862805724143982,
+          "sentence_text": "it would seem that the israeli <UNK> were seen by the other side as an example of changing the rules"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.15662935376167297,
+          "sentence_text": "what are the rules that have been bent by arab actions"
+        }
+      ]
+    },
+    {
+      "query_id": 10,
+      "from_sentence_id": 2,
+      "token": "is",
+      "token_pos": 1,
+      "word_score_logit": -0.01384037360548973,
+      "word_attn_weight": 0.08789761364459991,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.5705457329750061,
+          "sentence_text": "what would you realistically expect to see presented by the arabs palestinians in the way of gesture"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.1917722225189209,
+          "sentence_text": "what is it you feel that israel has offered as a gesture"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.12340310961008072,
+          "sentence_text": "what are the rules that have been bent by arab actions"
+        }
+      ]
+    },
+    {
+      "query_id": 11,
+      "from_sentence_id": 2,
+      "token": "what",
+      "token_pos": 0,
+      "word_score_logit": -0.01609186828136444,
+      "word_attn_weight": 0.08769993484020233,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.5690844655036926,
+          "sentence_text": "what would you realistically expect to see presented by the arabs palestinians in the way of gesture"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.19405271112918854,
+          "sentence_text": "what is it you feel that israel has offered as a gesture"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.12432703375816345,
+          "sentence_text": "what are the rules that have been bent by arab actions"
+        }
+      ]
+    },
+    {
+      "query_id": 12,
+      "from_sentence_id": 2,
+      "token": "it",
+      "token_pos": 2,
+      "word_score_logit": -0.024890724569559097,
+      "word_attn_weight": 0.08693166077136993,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.5546155571937561,
+          "sentence_text": "what would you realistically expect to see presented by the arabs palestinians in the way of gesture"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.19235751032829285,
+          "sentence_text": "what is it you feel that israel has offered as a gesture"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.12693074345588684,
+          "sentence_text": "what are the rules that have been bent by arab actions"
+        }
+      ]
+    },
+    {
+      "query_id": 13,
+      "from_sentence_id": 2,
+      "token": "feel",
+      "token_pos": 4,
+      "word_score_logit": -0.028859414160251617,
+      "word_attn_weight": 0.0865873396396637,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.5843529105186462,
+          "sentence_text": "what would you realistically expect to see presented by the arabs palestinians in the way of gesture"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.19019725918769836,
+          "sentence_text": "what is it you feel that israel has offered as a gesture"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.12082713097333908,
+          "sentence_text": "what are the rules that have been bent by arab actions"
+        }
+      ]
+    },
+    {
+      "query_id": 14,
+      "from_sentence_id": 2,
+      "token": "that",
+      "token_pos": 5,
+      "word_score_logit": -0.03265942260622978,
+      "word_attn_weight": 0.08625893294811249,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.6618280410766602,
+          "sentence_text": "what would you realistically expect to see presented by the arabs palestinians in the way of gesture"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.16614478826522827,
+          "sentence_text": "what is it you feel that israel has offered as a gesture"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.10266266763210297,
+          "sentence_text": "what are the rules that have been bent by arab actions"
+        }
+      ]
+    },
+    {
+      "query_id": 15,
+      "from_sentence_id": 3,
+      "token": "what",
+      "token_pos": 0,
+      "word_score_logit": -0.012787170708179474,
+      "word_attn_weight": 0.06309877336025238,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.6047565937042236,
+          "sentence_text": "what would you realistically expect to see presented by the arabs palestinians in the way of gesture"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.20495864748954773,
+          "sentence_text": "what is it you feel that israel has offered as a gesture"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.11218686401844025,
+          "sentence_text": "what are the rules that have been bent by arab actions"
+        }
+      ]
+    },
+    {
+      "query_id": 16,
+      "from_sentence_id": 3,
+      "token": "would",
+      "token_pos": 1,
+      "word_score_logit": -0.014342758804559708,
+      "word_attn_weight": 0.06300069391727448,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.6329551935195923,
+          "sentence_text": "what would you realistically expect to see presented by the arabs palestinians in the way of gesture"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.18977634608745575,
+          "sentence_text": "what is it you feel that israel has offered as a gesture"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.10675618052482605,
+          "sentence_text": "what are the rules that have been bent by arab actions"
+        }
+      ]
+    },
+    {
+      "query_id": 17,
+      "from_sentence_id": 3,
+      "token": "realistically",
+      "token_pos": 3,
+      "word_score_logit": -0.028071943670511246,
+      "word_attn_weight": 0.06214165315032005,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.5871288776397705,
+          "sentence_text": "what would you realistically expect to see presented by the arabs palestinians in the way of gesture"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.21298018097877502,
+          "sentence_text": "what is it you feel that israel has offered as a gesture"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.11302587389945984,
+          "sentence_text": "what are the rules that have been bent by arab actions"
+        }
+      ]
+    },
+    {
+      "query_id": 18,
+      "from_sentence_id": 3,
+      "token": "you",
+      "token_pos": 2,
+      "word_score_logit": -0.029569100588560104,
+      "word_attn_weight": 0.062048688530921936,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.5802441835403442,
+          "sentence_text": "what would you realistically expect to see presented by the arabs palestinians in the way of gesture"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.20836272835731506,
+          "sentence_text": "what is it you feel that israel has offered as a gesture"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.11791433393955231,
+          "sentence_text": "what are the rules that have been bent by arab actions"
+        }
+      ]
+    },
+    {
+      "query_id": 19,
+      "from_sentence_id": 3,
+      "token": "the",
+      "token_pos": 9,
+      "word_score_logit": -0.034797705709934235,
+      "word_attn_weight": 0.061725109815597534,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.8229200839996338,
+          "sentence_text": "what would you realistically expect to see presented by the arabs palestinians in the way of gesture"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.09910966455936432,
+          "sentence_text": "what is it you feel that israel has offered as a gesture"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.056833475828170776,
+          "sentence_text": "what are the rules that have been bent by arab actions"
+        }
+      ]
+    },
+    {
+      "query_id": 20,
+      "from_sentence_id": 4,
+      "token": "what",
+      "token_pos": 0,
+      "word_score_logit": 0.009494347497820854,
+      "word_attn_weight": 0.09449102729558945,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.5415560603141785,
+          "sentence_text": "what would you realistically expect to see presented by the arabs palestinians in the way of gesture"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.17485013604164124,
+          "sentence_text": "what is it you feel that israel has offered as a gesture"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.137549489736557,
+          "sentence_text": "what are the rules that have been bent by arab actions"
+        }
+      ]
+    },
+    {
+      "query_id": 21,
+      "from_sentence_id": 4,
+      "token": "that",
+      "token_pos": 4,
+      "word_score_logit": -0.0022321809083223343,
+      "word_attn_weight": 0.09338945150375366,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.6299787759780884,
+          "sentence_text": "what would you realistically expect to see presented by the arabs palestinians in the way of gesture"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.1499882936477661,
+          "sentence_text": "what is it you feel that israel has offered as a gesture"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.116145059466362,
+          "sentence_text": "what are the rules that have been bent by arab actions"
+        }
+      ]
+    },
+    {
+      "query_id": 22,
+      "from_sentence_id": 4,
+      "token": "have",
+      "token_pos": 5,
+      "word_score_logit": -0.006371811032295227,
+      "word_attn_weight": 0.09300364553928375,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.6039519309997559,
+          "sentence_text": "what would you realistically expect to see presented by the arabs palestinians in the way of gesture"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.15132580697536469,
+          "sentence_text": "what is it you feel that israel has offered as a gesture"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.12242694944143295,
+          "sentence_text": "what are the rules that have been bent by arab actions"
+        }
+      ]
+    },
+    {
+      "query_id": 23,
+      "from_sentence_id": 4,
+      "token": "the",
+      "token_pos": 2,
+      "word_score_logit": -0.006494276225566864,
+      "word_attn_weight": 0.09299225360155106,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.6470968127250671,
+          "sentence_text": "what would you realistically expect to see presented by the arabs palestinians in the way of gesture"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.14300422370433807,
+          "sentence_text": "what is it you feel that israel has offered as a gesture"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.11287029832601547,
+          "sentence_text": "what are the rules that have been bent by arab actions"
+        }
+      ]
+    },
+    {
+      "query_id": 24,
+      "from_sentence_id": 4,
+      "token": "are",
+      "token_pos": 1,
+      "word_score_logit": -0.00752401165664196,
+      "word_attn_weight": 0.09289655089378357,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.5454967617988586,
+          "sentence_text": "what would you realistically expect to see presented by the arabs palestinians in the way of gesture"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.17911747097969055,
+          "sentence_text": "what is it you feel that israel has offered as a gesture"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.13592274487018585,
+          "sentence_text": "what are the rules that have been bent by arab actions"
+        }
+      ]
+    },
+    {
+      "query_id": 25,
+      "from_sentence_id": 5,
+      "token": "seem",
+      "token_pos": 2,
+      "word_score_logit": 0.022084970027208328,
+      "word_attn_weight": 0.05455788969993591,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.6756324768066406,
+          "sentence_text": "what would you realistically expect to see presented by the arabs palestinians in the way of gesture"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.13949112594127655,
+          "sentence_text": "what is it you feel that israel has offered as a gesture"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.10309303551912308,
+          "sentence_text": "what are the rules that have been bent by arab actions"
+        }
+      ]
+    },
+    {
+      "query_id": 26,
+      "from_sentence_id": 5,
+      "token": "the",
+      "token_pos": 4,
+      "word_score_logit": 0.016615575179457664,
+      "word_attn_weight": 0.05426030233502388,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.7328137159347534,
+          "sentence_text": "what would you realistically expect to see presented by the arabs palestinians in the way of gesture"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.11202142387628555,
+          "sentence_text": "what is it you feel that israel has offered as a gesture"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.08577880263328552,
+          "sentence_text": "what are the rules that have been bent by arab actions"
+        }
+      ]
+    },
+    {
+      "query_id": 27,
+      "from_sentence_id": 5,
+      "token": "that",
+      "token_pos": 3,
+      "word_score_logit": 0.013490068726241589,
+      "word_attn_weight": 0.05409098044037819,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.6953896880149841,
+          "sentence_text": "what would you realistically expect to see presented by the arabs palestinians in the way of gesture"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.14184024930000305,
+          "sentence_text": "what is it you feel that israel has offered as a gesture"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.09691562503576279,
+          "sentence_text": "what are the rules that have been bent by arab actions"
+        }
+      ]
+    },
+    {
+      "query_id": 28,
+      "from_sentence_id": 5,
+      "token": "would",
+      "token_pos": 1,
+      "word_score_logit": 0.01025756262242794,
+      "word_attn_weight": 0.053916413336992264,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.6584420800209045,
+          "sentence_text": "what would you realistically expect to see presented by the arabs palestinians in the way of gesture"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.1470855176448822,
+          "sentence_text": "what is it you feel that israel has offered as a gesture"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.108173668384552,
+          "sentence_text": "what are the rules that have been bent by arab actions"
+        }
+      ]
+    },
+    {
+      "query_id": 29,
+      "from_sentence_id": 5,
+      "token": "it",
+      "token_pos": 0,
+      "word_score_logit": 0.003773012198507786,
+      "word_attn_weight": 0.05356791988015175,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.590793251991272,
+          "sentence_text": "what would you realistically expect to see presented by the arabs palestinians in the way of gesture"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.17548230290412903,
+          "sentence_text": "what is it you feel that israel has offered as a gesture"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.12295114994049072,
+          "sentence_text": "what are the rules that have been bent by arab actions"
+        }
+      ]
+    }
+  ],
+  "sentence_importance_from_cross_attn": {
+    "definition": "mean cross-attn over queries",
+    "values": [
+      {
+        "sentence_id": 0,
+        "importance": 0.031893856823444366
+      },
+      {
+        "sentence_id": 1,
+        "importance": 0.02940325438976288
+      },
+      {
+        "sentence_id": 2,
+        "importance": 0.15100368857383728
+      },
+      {
+        "sentence_id": 3,
+        "importance": 0.5441130995750427
+      },
+      {
+        "sentence_id": 4,
+        "importance": 0.12320363521575928
+      },
+      {
+        "sentence_id": 5,
+        "importance": 0.12038253992795944
+      }
+    ],
+    "ranked": [
+      {
+        "sentence_id": 3,
+        "importance": 0.5441130995750427
+      },
+      {
+        "sentence_id": 2,
+        "importance": 0.15100368857383728
+      },
+      {
+        "sentence_id": 4,
+        "importance": 0.12320363521575928
+      },
+      {
+        "sentence_id": 5,
+        "importance": 0.12038253992795944
+      },
+      {
+        "sentence_id": 0,
+        "importance": 0.031893856823444366
+      },
+      {
+        "sentence_id": 1,
+        "importance": 0.02940325438976288
+      }
+    ]
+  },
+  "example_id": "test-13"
+}

@@ -1,0 +1,82 @@
+{
+  "example_id": "test_160",
+  "true_label_id": 11,
+  "pred_label_id": 15,
+  "true_label_name": "sci.crypt",
+  "pred_label_name": "soc.religion.christian",
+  "pred_confidence": 0.3846215009689331,
+  "metrics": {
+    "num_sents": 1,
+    "K": 5,
+    "stop_ratio": 0.6,
+    "unk_ratio": 0.0,
+    "num_ratio": 0.0,
+    "content_ratio": 0.2,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 0.0,
+    "sentence_importance_entropy": -0.0,
+    "sentence_importance_max": 1.0,
+    "top_sentence_id": 0,
+    "query_mismatch_rate": 0.0,
+    "selected_quality_counts": {
+      "content_word": 1,
+      "stopword": 3,
+      "other": 1
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.36,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 1.0,
+    "D_local_global_conflict": 0.0,
+    "E_overconfident_error": 0.3846215009689331
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "but whether i would"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "whether",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.025386348366737366,
+          "word_attn_weight": 0.25205835700035095
+        },
+        {
+          "token": "i",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.016328223049640656,
+          "word_attn_weight": 0.24978546798229218
+        },
+        {
+          "token": "but",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.015680531039834023,
+          "word_attn_weight": 0.24962376058101654
+        },
+        {
+          "token": "would",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": 0.01129886694252491,
+          "word_attn_weight": 0.24853238463401794
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    ],
+    "top_sentence_id": 0,
+    "sentence_importance_distribution": [
+      1.0
+    ]
+  }
+}

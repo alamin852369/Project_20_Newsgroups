@@ -1,0 +1,395 @@
+{
+  "example_id": "test_5693",
+  "true_label_id": 19,
+  "pred_label_id": 14,
+  "true_label_name": "talk.religion.misc",
+  "pred_label_name": "sci.space",
+  "pred_confidence": 0.9900197982788086,
+  "metrics": {
+    "num_sents": 9,
+    "K": 5,
+    "stop_ratio": 0.2222222222222222,
+    "unk_ratio": 0.0,
+    "num_ratio": 0.0,
+    "content_ratio": 0.6444444444444445,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 1.9505629539489746,
+    "sentence_importance_entropy": 1.998600721359253,
+    "sentence_importance_max": 0.23489539325237274,
+    "top_sentence_id": 5,
+    "query_mismatch_rate": 0.7777777777777778,
+    "selected_quality_counts": {
+      "stopword": 10,
+      "other": 5,
+      "content_word": 29,
+      "short_word": 1
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.13333333333333333,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.1644267752766609,
+    "D_local_global_conflict": 0.7777777777777778,
+    "E_overconfident_error": 0.9900197982788086
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "no",
+      "<UNK> paradox is resolved by showing that integration or an infinite series of decreasing terms can sum to a finite result",
+      "well suppose a probe emitting radiation at a constant frequency was sent towards a black hole",
+      "as it got closer to the event horizon the red shift would keep increasing",
+      "the period would get longer and longer but it would never stop",
+      "an observer would not observe the probe actually reaching the event horizon",
+      "the detected energy from the probe would keep decreasing but it wouldn't vanish",
+      "exp t never quite reaches zero",
+      "i guess the above probably doesn't make things any more clear but hopefully you will get the general idea maybe"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "no",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.037013184279203415,
+          "word_attn_weight": 1.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 3,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 1,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 2,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ],
+      [
+        {
+          "token": "series",
+          "token_pos": 11,
+          "quality": "content_word",
+          "word_score_logit": 0.08783870190382004,
+          "word_attn_weight": 0.05078654736280441
+        },
+        {
+          "token": "finite",
+          "token_pos": 19,
+          "quality": "content_word",
+          "word_score_logit": 0.07807696610689163,
+          "word_attn_weight": 0.05029319226741791
+        },
+        {
+          "token": "result",
+          "token_pos": 20,
+          "quality": "content_word",
+          "word_score_logit": 0.06000174954533577,
+          "word_attn_weight": 0.049392297863960266
+        },
+        {
+          "token": "infinite",
+          "token_pos": 10,
+          "quality": "content_word",
+          "word_score_logit": 0.04930539429187775,
+          "word_attn_weight": 0.04886679723858833
+        },
+        {
+          "token": "a",
+          "token_pos": 18,
+          "quality": "stopword",
+          "word_score_logit": 0.045020438730716705,
+          "word_attn_weight": 0.0486578531563282
+        }
+      ],
+      [
+        {
+          "token": "frequency",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": 0.11762461066246033,
+          "word_attn_weight": 0.06656568497419357
+        },
+        {
+          "token": "constant",
+          "token_pos": 8,
+          "quality": "content_word",
+          "word_score_logit": 0.10333801805973053,
+          "word_attn_weight": 0.06562145054340363
+        },
+        {
+          "token": "was",
+          "token_pos": 10,
+          "quality": "stopword",
+          "word_score_logit": 0.09923522174358368,
+          "word_attn_weight": 0.06535277515649796
+        },
+        {
+          "token": "sent",
+          "token_pos": 11,
+          "quality": "content_word",
+          "word_score_logit": 0.08334287256002426,
+          "word_attn_weight": 0.06432237476110458
+        },
+        {
+          "token": "probe",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.0711086317896843,
+          "word_attn_weight": 0.06354023516178131
+        }
+      ],
+      [
+        {
+          "token": "horizon",
+          "token_pos": 7,
+          "quality": "content_word",
+          "word_score_logit": 0.06410384178161621,
+          "word_attn_weight": 0.07371506094932556
+        },
+        {
+          "token": "the",
+          "token_pos": 8,
+          "quality": "stopword",
+          "word_score_logit": 0.06364060938358307,
+          "word_attn_weight": 0.07368092983961105
+        },
+        {
+          "token": "red",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": 0.06335844099521637,
+          "word_attn_weight": 0.07366014271974564
+        },
+        {
+          "token": "shift",
+          "token_pos": 10,
+          "quality": "content_word",
+          "word_score_logit": 0.05028102174401283,
+          "word_attn_weight": 0.07270312309265137
+        },
+        {
+          "token": "closer",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.03373768925666809,
+          "word_attn_weight": 0.07151026278734207
+        }
+      ],
+      [
+        {
+          "token": "the",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.04391884431242943,
+          "word_attn_weight": 0.08640742301940918
+        },
+        {
+          "token": "period",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.02316555567085743,
+          "word_attn_weight": 0.08463265746831894
+        },
+        {
+          "token": "longer",
+          "token_pos": 6,
+          "quality": "content_word",
+          "word_score_logit": 0.01943485252559185,
+          "word_attn_weight": 0.08431751281023026
+        },
+        {
+          "token": "longer",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.014689112082123756,
+          "word_attn_weight": 0.08391831815242767
+        },
+        {
+          "token": "and",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.009290236048400402,
+          "word_attn_weight": 0.08346646279096603
+        }
+      ],
+      [
+        {
+          "token": "horizon",
+          "token_pos": 11,
+          "quality": "content_word",
+          "word_score_logit": 0.05043596029281616,
+          "word_attn_weight": 0.08555519580841064
+        },
+        {
+          "token": "probe",
+          "token_pos": 6,
+          "quality": "content_word",
+          "word_score_logit": 0.047114767134189606,
+          "word_attn_weight": 0.08527152240276337
+        },
+        {
+          "token": "an",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.044393669813871384,
+          "word_attn_weight": 0.08503980189561844
+        },
+        {
+          "token": "observe",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.03403661400079727,
+          "word_attn_weight": 0.0841635912656784
+        },
+        {
+          "token": "the",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.028424717485904694,
+          "word_attn_weight": 0.08369258791208267
+        }
+      ],
+      [
+        {
+          "token": "energy",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.06886923313140869,
+          "word_attn_weight": 0.07884862273931503
+        },
+        {
+          "token": "from",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": 0.06823771446943283,
+          "word_attn_weight": 0.07879885286092758
+        },
+        {
+          "token": "detected",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.06449703872203827,
+          "word_attn_weight": 0.07850464433431625
+        },
+        {
+          "token": "probe",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.055479496717453,
+          "word_attn_weight": 0.07779989391565323
+        },
+        {
+          "token": "wouldn't",
+          "token_pos": 11,
+          "quality": "other",
+          "word_score_logit": 0.05060826241970062,
+          "word_attn_weight": 0.07742183655500412
+        }
+      ],
+      [
+        {
+          "token": "zero",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.07317308336496353,
+          "word_attn_weight": 0.1719435602426529
+        },
+        {
+          "token": "t",
+          "token_pos": 1,
+          "quality": "short_word",
+          "word_score_logit": 0.05927908793091774,
+          "word_attn_weight": 0.16957111656665802
+        },
+        {
+          "token": "reaches",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.05444585904479027,
+          "word_attn_weight": 0.1687535047531128
+        },
+        {
+          "token": "never",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.03742985799908638,
+          "word_attn_weight": 0.16590629518032074
+        },
+        {
+          "token": "quite",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.014219466596841812,
+          "word_attn_weight": 0.16209988296031952
+        }
+      ],
+      [
+        {
+          "token": "the",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.038062166422605515,
+          "word_attn_weight": 0.05122151970863342
+        },
+        {
+          "token": "above",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.03627592325210571,
+          "word_attn_weight": 0.051130104809999466
+        },
+        {
+          "token": "any",
+          "token_pos": 8,
+          "quality": "content_word",
+          "word_score_logit": 0.03080347739160061,
+          "word_attn_weight": 0.050851065665483475
+        },
+        {
+          "token": "clear",
+          "token_pos": 10,
+          "quality": "content_word",
+          "word_score_logit": 0.02676496095955372,
+          "word_attn_weight": 0.050646115094423294
+        },
+        {
+          "token": "guess",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.025513285771012306,
+          "word_attn_weight": 0.05058276653289795
+        }
+      ]
+    ],
+    "top_sentence_id": 5,
+    "sentence_importance_distribution": [
+      0.04003923386335373,
+      0.14618797600269318,
+      0.12260228395462036,
+      0.09881910681724548,
+      0.07286537438631058,
+      0.23489539325237274,
+      0.2103348672389984,
+      0.031148649752140045,
+      0.043107159435749054
+    ]
+  }
+}

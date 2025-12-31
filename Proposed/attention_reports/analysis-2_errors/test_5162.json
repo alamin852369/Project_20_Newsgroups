@@ -1,0 +1,423 @@
+{
+  "true_label_id": 18,
+  "pred_label_id": 16,
+  "true_label_name": "talk.politics.misc",
+  "pred_label_name": "talk.politics.guns",
+  "pred_confidence": 0.986381471157074,
+  "num_sents": 8,
+  "top_sentences": [
+    {
+      "sentence_id": 4,
+      "importance": 0.4031868577003479,
+      "sentence_text": "the paranoid assertion that the batf fired first in an unprovoked assault assumes that the batf were on a death wish",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "assault",
+          "token_pos": 11,
+          "word_score_logit": 0.0727323442697525,
+          "word_attn_weight": 0.05018271133303642
+        },
+        {
+          "rank": 1,
+          "token": "the",
+          "token_pos": 0,
+          "word_score_logit": 0.054986096918582916,
+          "word_attn_weight": 0.04930001124739647
+        },
+        {
+          "rank": 2,
+          "token": "fired",
+          "token_pos": 6,
+          "word_score_logit": 0.048095569014549255,
+          "word_attn_weight": 0.04896147549152374
+        },
+        {
+          "rank": 3,
+          "token": "that",
+          "token_pos": 3,
+          "word_score_logit": 0.04664253816008568,
+          "word_attn_weight": 0.04889038950204849
+        },
+        {
+          "rank": 4,
+          "token": "the",
+          "token_pos": 4,
+          "word_score_logit": 0.04559505730867386,
+          "word_attn_weight": 0.04883920028805733
+        }
+      ]
+    },
+    {
+      "sentence_id": 2,
+      "importance": 0.17716555297374725,
+      "sentence_text": "there are laws to control the ownership of guns and the batf had good reason to beleive that they were being violated",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "the",
+          "token_pos": 5,
+          "word_score_logit": 0.129094660282135,
+          "word_attn_weight": 0.04839538037776947
+        },
+        {
+          "rank": 1,
+          "token": "ownership",
+          "token_pos": 6,
+          "word_score_logit": 0.1275421380996704,
+          "word_attn_weight": 0.04832030460238457
+        },
+        {
+          "rank": 2,
+          "token": "of",
+          "token_pos": 7,
+          "word_score_logit": 0.12239011377096176,
+          "word_attn_weight": 0.04807199537754059
+        },
+        {
+          "rank": 3,
+          "token": "control",
+          "token_pos": 4,
+          "word_score_logit": 0.11403850466012955,
+          "word_attn_weight": 0.04767218604683876
+        },
+        {
+          "rank": 4,
+          "token": "guns",
+          "token_pos": 8,
+          "word_score_logit": 0.08656901121139526,
+          "word_attn_weight": 0.046380482614040375
+        }
+      ]
+    },
+    {
+      "sentence_id": 0,
+      "importance": 0.16925357282161713,
+      "sentence_text": "the above conveniently ignores the murder of four batf agents by the branch davidians in an unprovoked <UNK>",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "the",
+          "token_pos": 11,
+          "word_score_logit": 0.08295076340436935,
+          "word_attn_weight": 0.05832674354314804
+        },
+        {
+          "rank": 1,
+          "token": "branch",
+          "token_pos": 12,
+          "word_score_logit": 0.062444981187582016,
+          "word_attn_weight": 0.05714288726449013
+        },
+        {
+          "rank": 2,
+          "token": "agents",
+          "token_pos": 9,
+          "word_score_logit": 0.055044472217559814,
+          "word_attn_weight": 0.056721556931734085
+        },
+        {
+          "rank": 3,
+          "token": "the",
+          "token_pos": 4,
+          "word_score_logit": 0.05338286608457565,
+          "word_attn_weight": 0.056627389043569565
+        },
+        {
+          "rank": 4,
+          "token": "the",
+          "token_pos": 0,
+          "word_score_logit": 0.05123881250619888,
+          "word_attn_weight": 0.05650610476732254
+        }
+      ]
+    },
+    {
+      "sentence_id": 3,
+      "importance": 0.05809987708926201,
+      "sentence_text": "they set out to obtain a legal warrant and attempted to serve it only to be met with gunfire when they <UNK> the <UNK>",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "gunfire",
+          "token_pos": 18,
+          "word_score_logit": 0.0546322800219059,
+          "word_attn_weight": 0.042859457433223724
+        },
+        {
+          "rank": 1,
+          "token": "with",
+          "token_pos": 17,
+          "word_score_logit": 0.052776165306568146,
+          "word_attn_weight": 0.04277998208999634
+        },
+        {
+          "rank": 2,
+          "token": "attempted",
+          "token_pos": 9,
+          "word_score_logit": 0.049500346183776855,
+          "word_attn_weight": 0.042640067636966705
+        },
+        {
+          "rank": 3,
+          "token": "be",
+          "token_pos": 15,
+          "word_score_logit": 0.04635516554117203,
+          "word_attn_weight": 0.04250616580247879
+        },
+        {
+          "rank": 4,
+          "token": "a",
+          "token_pos": 5,
+          "word_score_logit": 0.04242968186736107,
+          "word_attn_weight": 0.042339637875556946
+        }
+      ]
+    },
+    {
+      "sentence_id": 6,
+      "importance": 0.05473877117037773,
+      "sentence_text": "the stupidity was the attempt to serve a <UNK> on the place by <UNK> <UNK> and unprotected police",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "unprotected",
+          "token_pos": 16,
+          "word_score_logit": 0.030860327184200287,
+          "word_attn_weight": 0.05737656354904175
+        },
+        {
+          "rank": 1,
+          "token": "police",
+          "token_pos": 17,
+          "word_score_logit": 0.025411302223801613,
+          "word_attn_weight": 0.05706477165222168
+        },
+        {
+          "rank": 2,
+          "token": "and",
+          "token_pos": 15,
+          "word_score_logit": 0.017673684284090996,
+          "word_attn_weight": 0.05662492662668228
+        },
+        {
+          "rank": 3,
+          "token": "the",
+          "token_pos": 0,
+          "word_score_logit": 0.010501518845558167,
+          "word_attn_weight": 0.05622025579214096
+        },
+        {
+          "rank": 4,
+          "token": "the",
+          "token_pos": 10,
+          "word_score_logit": 0.005515556316822767,
+          "word_attn_weight": 0.05594063922762871
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 20,
+      "from_sentence_id": 4,
+      "token": "assault",
+      "token_pos": 11,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.5451550483703613,
+          "sentence_text": "the paranoid assertion that the batf fired first in an unprovoked assault assumes that the batf were on a death wish"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.17107662558555603,
+          "sentence_text": "the above conveniently ignores the murder of four batf agents by the branch davidians in an unprovoked <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 21,
+      "from_sentence_id": 4,
+      "token": "the",
+      "token_pos": 0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.46052736043930054,
+          "sentence_text": "the paranoid assertion that the batf fired first in an unprovoked assault assumes that the batf were on a death wish"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.1871073842048645,
+          "sentence_text": "the above conveniently ignores the murder of four batf agents by the branch davidians in an unprovoked <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 22,
+      "from_sentence_id": 4,
+      "token": "fired",
+      "token_pos": 6,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.4624304175376892,
+          "sentence_text": "the paranoid assertion that the batf fired first in an unprovoked assault assumes that the batf were on a death wish"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.17505663633346558,
+          "sentence_text": "the above conveniently ignores the murder of four batf agents by the branch davidians in an unprovoked <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 23,
+      "from_sentence_id": 4,
+      "token": "that",
+      "token_pos": 3,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.4376554489135742,
+          "sentence_text": "the paranoid assertion that the batf fired first in an unprovoked assault assumes that the batf were on a death wish"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.1782974898815155,
+          "sentence_text": "the above conveniently ignores the murder of four batf agents by the branch davidians in an unprovoked <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 24,
+      "from_sentence_id": 4,
+      "token": "the",
+      "token_pos": 4,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.47377949953079224,
+          "sentence_text": "the paranoid assertion that the batf fired first in an unprovoked assault assumes that the batf were on a death wish"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.16902358829975128,
+          "sentence_text": "the above conveniently ignores the murder of four batf agents by the branch davidians in an unprovoked <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 10,
+      "from_sentence_id": 2,
+      "token": "the",
+      "token_pos": 5,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.49816665053367615,
+          "sentence_text": "the paranoid assertion that the batf fired first in an unprovoked assault assumes that the batf were on a death wish"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.2616592049598694,
+          "sentence_text": "there are laws to control the ownership of guns and the batf had good reason to beleive that they were being violated"
+        }
+      ]
+    },
+    {
+      "query_id": 11,
+      "from_sentence_id": 2,
+      "token": "ownership",
+      "token_pos": 6,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.5250120759010315,
+          "sentence_text": "the paranoid assertion that the batf fired first in an unprovoked assault assumes that the batf were on a death wish"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.26108747720718384,
+          "sentence_text": "there are laws to control the ownership of guns and the batf had good reason to beleive that they were being violated"
+        }
+      ]
+    },
+    {
+      "query_id": 12,
+      "from_sentence_id": 2,
+      "token": "of",
+      "token_pos": 7,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.5148293972015381,
+          "sentence_text": "the paranoid assertion that the batf fired first in an unprovoked assault assumes that the batf were on a death wish"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.2367289960384369,
+          "sentence_text": "there are laws to control the ownership of guns and the batf had good reason to beleive that they were being violated"
+        }
+      ]
+    },
+    {
+      "query_id": 13,
+      "from_sentence_id": 2,
+      "token": "control",
+      "token_pos": 4,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.4999331533908844,
+          "sentence_text": "the paranoid assertion that the batf fired first in an unprovoked assault assumes that the batf were on a death wish"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.262602835893631,
+          "sentence_text": "there are laws to control the ownership of guns and the batf had good reason to beleive that they were being violated"
+        }
+      ]
+    },
+    {
+      "query_id": 14,
+      "from_sentence_id": 2,
+      "token": "guns",
+      "token_pos": 8,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.537524402141571,
+          "sentence_text": "the paranoid assertion that the batf fired first in an unprovoked assault assumes that the batf were on a death wish"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.19857151806354523,
+          "sentence_text": "there are laws to control the ownership of guns and the batf had good reason to beleive that they were being violated"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_5162"
+}

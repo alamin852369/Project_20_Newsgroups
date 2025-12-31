@@ -1,0 +1,339 @@
+{
+  "true_label_id": 5,
+  "pred_label_id": 1,
+  "true_label_name": "comp.windows.x",
+  "pred_label_name": "comp.graphics",
+  "pred_confidence": 0.9815301299095154,
+  "num_sents": 3,
+  "top_sentences": [
+    {
+      "sentence_id": 0,
+      "importance": 0.6458794474601746,
+      "sentence_text": "<UNK> does not support raster primitives so a <UNK> would have to <UNK> on most popular image formats",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "does",
+          "token_pos": 1,
+          "word_score_logit": -0.009221246466040611,
+          "word_attn_weight": 0.05715951696038246
+        },
+        {
+          "rank": 1,
+          "token": "a",
+          "token_pos": 7,
+          "word_score_logit": -0.013675466179847717,
+          "word_attn_weight": 0.05690548196434975
+        },
+        {
+          "rank": 2,
+          "token": "so",
+          "token_pos": 6,
+          "word_score_logit": -0.014099903404712677,
+          "word_attn_weight": 0.05688133463263512
+        },
+        {
+          "rank": 3,
+          "token": "not",
+          "token_pos": 2,
+          "word_score_logit": -0.01628701388835907,
+          "word_attn_weight": 0.05675705894827843
+        },
+        {
+          "rank": 4,
+          "token": "formats",
+          "token_pos": 17,
+          "word_score_logit": -0.02371326833963394,
+          "word_attn_weight": 0.056337129324674606
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "importance": 0.19387952983379364,
+      "sentence_text": "this probably explains the lack of translators out there",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "of",
+          "token_pos": 5,
+          "word_score_logit": 0.044192615896463394,
+          "word_attn_weight": 0.11317820101976395
+        },
+        {
+          "rank": 1,
+          "token": "lack",
+          "token_pos": 4,
+          "word_score_logit": 0.03868447244167328,
+          "word_attn_weight": 0.11255650967359543
+        },
+        {
+          "rank": 2,
+          "token": "probably",
+          "token_pos": 1,
+          "word_score_logit": 0.03467752784490585,
+          "word_attn_weight": 0.11210640519857407
+        },
+        {
+          "rank": 3,
+          "token": "translators",
+          "token_pos": 6,
+          "word_score_logit": 0.033111874014139175,
+          "word_attn_weight": 0.11193102598190308
+        },
+        {
+          "rank": 4,
+          "token": "the",
+          "token_pos": 3,
+          "word_score_logit": 0.025441588833928108,
+          "word_attn_weight": 0.11107576638460159
+        }
+      ]
+    },
+    {
+      "sentence_id": 2,
+      "importance": 0.160241037607193,
+      "sentence_text": "what do you need to plot",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "what",
+          "token_pos": 0,
+          "word_score_logit": 0.01045549102127552,
+          "word_attn_weight": 0.1693120002746582
+        },
+        {
+          "rank": 1,
+          "token": "do",
+          "token_pos": 1,
+          "word_score_logit": 0.004620608873665333,
+          "word_attn_weight": 0.1683269739151001
+        },
+        {
+          "rank": 2,
+          "token": "to",
+          "token_pos": 4,
+          "word_score_logit": -0.005325231701135635,
+          "word_attn_weight": 0.1666611135005951
+        },
+        {
+          "rank": 3,
+          "token": "need",
+          "token_pos": 3,
+          "word_score_logit": -0.007438644766807556,
+          "word_attn_weight": 0.16630925238132477
+        },
+        {
+          "rank": 4,
+          "token": "you",
+          "token_pos": 2,
+          "word_score_logit": -0.012845506891608238,
+          "word_attn_weight": 0.16541247069835663
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "does",
+      "token_pos": 1,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.7153415083885193,
+          "sentence_text": "<UNK> does not support raster primitives so a <UNK> would have to <UNK> on most popular image formats"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.17538578808307648,
+          "sentence_text": "what do you need to plot"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "a",
+      "token_pos": 7,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.7364847660064697,
+          "sentence_text": "<UNK> does not support raster primitives so a <UNK> would have to <UNK> on most popular image formats"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.1477995365858078,
+          "sentence_text": "what do you need to plot"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "so",
+      "token_pos": 6,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.7506908178329468,
+          "sentence_text": "<UNK> does not support raster primitives so a <UNK> would have to <UNK> on most popular image formats"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.13539204001426697,
+          "sentence_text": "what do you need to plot"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "not",
+      "token_pos": 2,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6686630845069885,
+          "sentence_text": "<UNK> does not support raster primitives so a <UNK> would have to <UNK> on most popular image formats"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.20966678857803345,
+          "sentence_text": "what do you need to plot"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "formats",
+      "token_pos": 17,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6098260283470154,
+          "sentence_text": "<UNK> does not support raster primitives so a <UNK> would have to <UNK> on most popular image formats"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.20076918601989746,
+          "sentence_text": "this probably explains the lack of translators out there"
+        }
+      ]
+    },
+    {
+      "query_id": 5,
+      "from_sentence_id": 1,
+      "token": "of",
+      "token_pos": 5,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6687683463096619,
+          "sentence_text": "<UNK> does not support raster primitives so a <UNK> would have to <UNK> on most popular image formats"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.19877079129219055,
+          "sentence_text": "this probably explains the lack of translators out there"
+        }
+      ]
+    },
+    {
+      "query_id": 6,
+      "from_sentence_id": 1,
+      "token": "lack",
+      "token_pos": 4,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.61165851354599,
+          "sentence_text": "<UNK> does not support raster primitives so a <UNK> would have to <UNK> on most popular image formats"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.23169875144958496,
+          "sentence_text": "this probably explains the lack of translators out there"
+        }
+      ]
+    },
+    {
+      "query_id": 7,
+      "from_sentence_id": 1,
+      "token": "probably",
+      "token_pos": 1,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.625804603099823,
+          "sentence_text": "<UNK> does not support raster primitives so a <UNK> would have to <UNK> on most popular image formats"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.23574449121952057,
+          "sentence_text": "this probably explains the lack of translators out there"
+        }
+      ]
+    },
+    {
+      "query_id": 8,
+      "from_sentence_id": 1,
+      "token": "translators",
+      "token_pos": 6,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.7002004384994507,
+          "sentence_text": "<UNK> does not support raster primitives so a <UNK> would have to <UNK> on most popular image formats"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.182557612657547,
+          "sentence_text": "this probably explains the lack of translators out there"
+        }
+      ]
+    },
+    {
+      "query_id": 9,
+      "from_sentence_id": 1,
+      "token": "the",
+      "token_pos": 3,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.6415152549743652,
+          "sentence_text": "<UNK> does not support raster primitives so a <UNK> would have to <UNK> on most popular image formats"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.22764280438423157,
+          "sentence_text": "this probably explains the lack of translators out there"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_5721"
+}

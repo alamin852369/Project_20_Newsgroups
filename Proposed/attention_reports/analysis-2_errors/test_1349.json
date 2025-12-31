@@ -1,0 +1,381 @@
+{
+  "true_label_id": 4,
+  "pred_label_id": 3,
+  "true_label_name": "comp.sys.mac.hardware",
+  "pred_label_name": "comp.sys.ibm.pc.hardware",
+  "pred_confidence": 0.739605724811554,
+  "num_sents": 4,
+  "top_sentences": [
+    {
+      "sentence_id": 0,
+      "importance": 0.3303835093975067,
+      "sentence_text": "i have a northern telecom disk array dated 1987 that has two <UNK> drives units in it and i cannot get it formatted",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "array",
+          "token_pos": 6,
+          "word_score_logit": 0.0983467549085617,
+          "word_attn_weight": 0.045931126922369
+        },
+        {
+          "rank": 1,
+          "token": "disk",
+          "token_pos": 5,
+          "word_score_logit": 0.08390970528125763,
+          "word_attn_weight": 0.04527278244495392
+        },
+        {
+          "rank": 2,
+          "token": "units",
+          "token_pos": 14,
+          "word_score_logit": 0.07823050767183304,
+          "word_attn_weight": 0.045016393065452576
+        },
+        {
+          "rank": 3,
+          "token": "that",
+          "token_pos": 9,
+          "word_score_logit": 0.0722685307264328,
+          "word_attn_weight": 0.044748809188604355
+        },
+        {
+          "rank": 4,
+          "token": "has",
+          "token_pos": 10,
+          "word_score_logit": 0.07095057517290115,
+          "word_attn_weight": 0.04468987137079239
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "importance": 0.29179641604423523,
+      "sentence_text": "i set the scsi id on 1 and my software recognizes the unit but i cannot mount it or anything do i have to use both drives in the array",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "unit",
+          "token_pos": 12,
+          "word_score_logit": 0.08984113484621048,
+          "word_attn_weight": 0.03485186770558357
+        },
+        {
+          "rank": 1,
+          "token": "use",
+          "token_pos": 24,
+          "word_score_logit": 0.08816713094711304,
+          "word_attn_weight": 0.03479357808828354
+        },
+        {
+          "rank": 2,
+          "token": "the",
+          "token_pos": 11,
+          "word_score_logit": 0.06744556128978729,
+          "word_attn_weight": 0.03408001735806465
+        },
+        {
+          "rank": 3,
+          "token": "mount",
+          "token_pos": 16,
+          "word_score_logit": 0.06475485861301422,
+          "word_attn_weight": 0.03398844227194786
+        },
+        {
+          "rank": 4,
+          "token": "both",
+          "token_pos": 25,
+          "word_score_logit": 0.06254380196332932,
+          "word_attn_weight": 0.033913373947143555
+        }
+      ]
+    },
+    {
+      "sentence_id": 2,
+      "importance": 0.19515322148799896,
+      "sentence_text": "any help with these drives or possibly newer software than what i'm using <UNK> <UNK> 0 and 1 1 will be greatly appreciated",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "1",
+          "token_pos": 18,
+          "word_score_logit": 0.04775698482990265,
+          "word_attn_weight": 0.04438409581780434
+        },
+        {
+          "rank": 1,
+          "token": "any",
+          "token_pos": 0,
+          "word_score_logit": 0.04403176158666611,
+          "word_attn_weight": 0.044219061732292175
+        },
+        {
+          "rank": 2,
+          "token": "or",
+          "token_pos": 5,
+          "word_score_logit": 0.03874187543988228,
+          "word_attn_weight": 0.043985765427351
+        },
+        {
+          "rank": 3,
+          "token": "1",
+          "token_pos": 17,
+          "word_score_logit": 0.03714428097009659,
+          "word_attn_weight": 0.04391555115580559
+        },
+        {
+          "rank": 4,
+          "token": "with",
+          "token_pos": 2,
+          "word_score_logit": 0.03665664792060852,
+          "word_attn_weight": 0.04389413818717003
+        }
+      ]
+    },
+    {
+      "sentence_id": 3,
+      "importance": 0.18266688287258148,
+      "sentence_text": "grey",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "grey",
+          "token_pos": 0,
+          "word_score_logit": 0.027903318405151367,
+          "word_attn_weight": 1.0
+        },
+        {
+          "rank": 1,
+          "token": "<PAD/OUT>",
+          "token_pos": 3,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 2,
+          "token": "<PAD/OUT>",
+          "token_pos": 1,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 3,
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 4,
+          "token": "<PAD/OUT>",
+          "token_pos": 2,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "array",
+      "token_pos": 6,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.4249671399593353,
+          "sentence_text": "i have a northern telecom disk array dated 1987 that has two <UNK> drives units in it and i cannot get it formatted"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.3256821632385254,
+          "sentence_text": "i set the scsi id on 1 and my software recognizes the unit but i cannot mount it or anything do i have to use both drives in the array"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "disk",
+      "token_pos": 5,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.42763274908065796,
+          "sentence_text": "i have a northern telecom disk array dated 1987 that has two <UNK> drives units in it and i cannot get it formatted"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.32788264751434326,
+          "sentence_text": "i set the scsi id on 1 and my software recognizes the unit but i cannot mount it or anything do i have to use both drives in the array"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "units",
+      "token_pos": 14,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.3885296583175659,
+          "sentence_text": "i have a northern telecom disk array dated 1987 that has two <UNK> drives units in it and i cannot get it formatted"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.3106189966201782,
+          "sentence_text": "i set the scsi id on 1 and my software recognizes the unit but i cannot mount it or anything do i have to use both drives in the array"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "that",
+      "token_pos": 9,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.3710399866104126,
+          "sentence_text": "i have a northern telecom disk array dated 1987 that has two <UNK> drives units in it and i cannot get it formatted"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.3086911141872406,
+          "sentence_text": "i set the scsi id on 1 and my software recognizes the unit but i cannot mount it or anything do i have to use both drives in the array"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "has",
+      "token_pos": 10,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.36925727128982544,
+          "sentence_text": "i have a northern telecom disk array dated 1987 that has two <UNK> drives units in it and i cannot get it formatted"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.307209312915802,
+          "sentence_text": "i set the scsi id on 1 and my software recognizes the unit but i cannot mount it or anything do i have to use both drives in the array"
+        }
+      ]
+    },
+    {
+      "query_id": 5,
+      "from_sentence_id": 1,
+      "token": "unit",
+      "token_pos": 12,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.39006638526916504,
+          "sentence_text": "i have a northern telecom disk array dated 1987 that has two <UNK> drives units in it and i cannot get it formatted"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.31045275926589966,
+          "sentence_text": "i set the scsi id on 1 and my software recognizes the unit but i cannot mount it or anything do i have to use both drives in the array"
+        }
+      ]
+    },
+    {
+      "query_id": 6,
+      "from_sentence_id": 1,
+      "token": "use",
+      "token_pos": 24,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.3673081398010254,
+          "sentence_text": "i have a northern telecom disk array dated 1987 that has two <UNK> drives units in it and i cannot get it formatted"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.31112241744995117,
+          "sentence_text": "i set the scsi id on 1 and my software recognizes the unit but i cannot mount it or anything do i have to use both drives in the array"
+        }
+      ]
+    },
+    {
+      "query_id": 7,
+      "from_sentence_id": 1,
+      "token": "the",
+      "token_pos": 11,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.38522785902023315,
+          "sentence_text": "i have a northern telecom disk array dated 1987 that has two <UNK> drives units in it and i cannot get it formatted"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.3137887716293335,
+          "sentence_text": "i set the scsi id on 1 and my software recognizes the unit but i cannot mount it or anything do i have to use both drives in the array"
+        }
+      ]
+    },
+    {
+      "query_id": 8,
+      "from_sentence_id": 1,
+      "token": "mount",
+      "token_pos": 16,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.3597768545150757,
+          "sentence_text": "i have a northern telecom disk array dated 1987 that has two <UNK> drives units in it and i cannot get it formatted"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.3065142035484314,
+          "sentence_text": "i set the scsi id on 1 and my software recognizes the unit but i cannot mount it or anything do i have to use both drives in the array"
+        }
+      ]
+    },
+    {
+      "query_id": 9,
+      "from_sentence_id": 1,
+      "token": "both",
+      "token_pos": 25,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.3472370505332947,
+          "sentence_text": "i have a northern telecom disk array dated 1987 that has two <UNK> drives units in it and i cannot get it formatted"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.30113688111305237,
+          "sentence_text": "i set the scsi id on 1 and my software recognizes the unit but i cannot mount it or anything do i have to use both drives in the array"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_1349"
+}

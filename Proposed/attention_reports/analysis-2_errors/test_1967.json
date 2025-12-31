@@ -1,0 +1,339 @@
+{
+  "true_label_id": 7,
+  "pred_label_id": 8,
+  "true_label_name": "rec.autos",
+  "pred_label_name": "rec.motorcycles",
+  "pred_confidence": 0.9009215235710144,
+  "num_sents": 3,
+  "top_sentences": [
+    {
+      "sentence_id": 2,
+      "importance": 0.3682372570037842,
+      "sentence_text": "have you ever seen the mufflers on that thing it's amazing it moves which isn't to say it's not a good idea but i'm quite sure <UNK> screw it up the same way",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "have",
+          "token_pos": 0,
+          "word_score_logit": 0.048475928604602814,
+          "word_attn_weight": 0.03165694698691368
+        },
+        {
+          "rank": 1,
+          "token": "the",
+          "token_pos": 30,
+          "word_score_logit": 0.04595886543393135,
+          "word_attn_weight": 0.03157736733555794
+        },
+        {
+          "rank": 2,
+          "token": "the",
+          "token_pos": 4,
+          "word_score_logit": 0.04308167099952698,
+          "word_attn_weight": 0.031486641615629196
+        },
+        {
+          "rank": 3,
+          "token": "same",
+          "token_pos": 31,
+          "word_score_logit": 0.04048389568924904,
+          "word_attn_weight": 0.03140495344996452
+        },
+        {
+          "rank": 4,
+          "token": "seen",
+          "token_pos": 3,
+          "word_score_logit": 0.03636978194117546,
+          "word_attn_weight": 0.03127601370215416
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "importance": 0.3576909601688385,
+      "sentence_text": "you know <UNK> screw that up just like that almost great truck with the big <UNK> <UNK>",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "with",
+          "token_pos": 12,
+          "word_score_logit": 0.04874502122402191,
+          "word_attn_weight": 0.06094212830066681
+        },
+        {
+          "rank": 1,
+          "token": "the",
+          "token_pos": 13,
+          "word_score_logit": 0.04189236834645271,
+          "word_attn_weight": 0.06052594259381294
+        },
+        {
+          "rank": 2,
+          "token": "big",
+          "token_pos": 14,
+          "word_score_logit": 0.026295915246009827,
+          "word_attn_weight": 0.05958927422761917
+        },
+        {
+          "rank": 3,
+          "token": "great",
+          "token_pos": 10,
+          "word_score_logit": 0.019250433892011642,
+          "word_attn_weight": 0.059170912951231
+        },
+        {
+          "rank": 4,
+          "token": "that",
+          "token_pos": 8,
+          "word_score_logit": 0.019219212234020233,
+          "word_attn_weight": 0.059169065207242966
+        }
+      ]
+    },
+    {
+      "sentence_id": 0,
+      "importance": 0.2740718126296997,
+      "sentence_text": "gimme a break",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "break",
+          "token_pos": 2,
+          "word_score_logit": 0.02210880257189274,
+          "word_attn_weight": 0.3382219970226288
+        },
+        {
+          "rank": 1,
+          "token": "a",
+          "token_pos": 1,
+          "word_score_logit": 0.014677945524454117,
+          "word_attn_weight": 0.335718035697937
+        },
+        {
+          "rank": 2,
+          "token": "gimme",
+          "token_pos": 0,
+          "word_score_logit": -0.014512363821268082,
+          "word_attn_weight": 0.3260599970817566
+        },
+        {
+          "rank": 3,
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 4,
+          "token": "<PAD/OUT>",
+          "token_pos": 3,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 10,
+      "from_sentence_id": 2,
+      "token": "have",
+      "token_pos": 0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.404995322227478,
+          "sentence_text": "you know <UNK> screw that up just like that almost great truck with the big <UNK> <UNK>"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.37948179244995117,
+          "sentence_text": "have you ever seen the mufflers on that thing it's amazing it moves which isn't to say it's not a good idea but i'm quite sure <UNK> screw it up the same way"
+        }
+      ]
+    },
+    {
+      "query_id": 11,
+      "from_sentence_id": 2,
+      "token": "the",
+      "token_pos": 30,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.4015651345252991,
+          "sentence_text": "have you ever seen the mufflers on that thing it's amazing it moves which isn't to say it's not a good idea but i'm quite sure <UNK> screw it up the same way"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.3058093786239624,
+          "sentence_text": "you know <UNK> screw that up just like that almost great truck with the big <UNK> <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 12,
+      "from_sentence_id": 2,
+      "token": "the",
+      "token_pos": 4,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.45427843928337097,
+          "sentence_text": "you know <UNK> screw that up just like that almost great truck with the big <UNK> <UNK>"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.3723396360874176,
+          "sentence_text": "have you ever seen the mufflers on that thing it's amazing it moves which isn't to say it's not a good idea but i'm quite sure <UNK> screw it up the same way"
+        }
+      ]
+    },
+    {
+      "query_id": 13,
+      "from_sentence_id": 2,
+      "token": "same",
+      "token_pos": 31,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.3987959027290344,
+          "sentence_text": "have you ever seen the mufflers on that thing it's amazing it moves which isn't to say it's not a good idea but i'm quite sure <UNK> screw it up the same way"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.3044573664665222,
+          "sentence_text": "gimme a break"
+        }
+      ]
+    },
+    {
+      "query_id": 14,
+      "from_sentence_id": 2,
+      "token": "seen",
+      "token_pos": 3,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.4169011116027832,
+          "sentence_text": "you know <UNK> screw that up just like that almost great truck with the big <UNK> <UNK>"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.38497912883758545,
+          "sentence_text": "have you ever seen the mufflers on that thing it's amazing it moves which isn't to say it's not a good idea but i'm quite sure <UNK> screw it up the same way"
+        }
+      ]
+    },
+    {
+      "query_id": 5,
+      "from_sentence_id": 1,
+      "token": "with",
+      "token_pos": 12,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.38626372814178467,
+          "sentence_text": "you know <UNK> screw that up just like that almost great truck with the big <UNK> <UNK>"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.38252151012420654,
+          "sentence_text": "have you ever seen the mufflers on that thing it's amazing it moves which isn't to say it's not a good idea but i'm quite sure <UNK> screw it up the same way"
+        }
+      ]
+    },
+    {
+      "query_id": 6,
+      "from_sentence_id": 1,
+      "token": "the",
+      "token_pos": 13,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.3951787054538727,
+          "sentence_text": "have you ever seen the mufflers on that thing it's amazing it moves which isn't to say it's not a good idea but i'm quite sure <UNK> screw it up the same way"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.3649085760116577,
+          "sentence_text": "you know <UNK> screw that up just like that almost great truck with the big <UNK> <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 7,
+      "from_sentence_id": 1,
+      "token": "big",
+      "token_pos": 14,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 2,
+          "attn_weight": 0.3878393769264221,
+          "sentence_text": "have you ever seen the mufflers on that thing it's amazing it moves which isn't to say it's not a good idea but i'm quite sure <UNK> screw it up the same way"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.3634271025657654,
+          "sentence_text": "you know <UNK> screw that up just like that almost great truck with the big <UNK> <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 8,
+      "from_sentence_id": 1,
+      "token": "great",
+      "token_pos": 10,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.4152848422527313,
+          "sentence_text": "you know <UNK> screw that up just like that almost great truck with the big <UNK> <UNK>"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.35465341806411743,
+          "sentence_text": "have you ever seen the mufflers on that thing it's amazing it moves which isn't to say it's not a good idea but i'm quite sure <UNK> screw it up the same way"
+        }
+      ]
+    },
+    {
+      "query_id": 9,
+      "from_sentence_id": 1,
+      "token": "that",
+      "token_pos": 8,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 1,
+          "attn_weight": 0.37142643332481384,
+          "sentence_text": "you know <UNK> screw that up just like that almost great truck with the big <UNK> <UNK>"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.366979718208313,
+          "sentence_text": "have you ever seen the mufflers on that thing it's amazing it moves which isn't to say it's not a good idea but i'm quite sure <UNK> screw it up the same way"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_1967"
+}

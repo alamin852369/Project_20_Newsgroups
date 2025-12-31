@@ -1,0 +1,423 @@
+{
+  "true_label_id": 2,
+  "pred_label_id": 5,
+  "true_label_name": "comp.os.ms-windows.misc",
+  "pred_label_name": "comp.windows.x",
+  "pred_confidence": 0.17262603342533112,
+  "num_sents": 16,
+  "top_sentences": [
+    {
+      "sentence_id": 9,
+      "importance": 0.1186474934220314,
+      "sentence_text": "i don't pretend that msdos provides what all people need or that other oses including unix os 2 don't provide useful and or necessary features",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "2",
+          "token_pos": 17,
+          "word_score_logit": 0.11731340736150742,
+          "word_attn_weight": 0.04276842996478081
+        },
+        {
+          "rank": 1,
+          "token": "or",
+          "token_pos": 22,
+          "word_score_logit": 0.10751119256019592,
+          "word_attn_weight": 0.04235124960541725
+        },
+        {
+          "rank": 2,
+          "token": "os",
+          "token_pos": 16,
+          "word_score_logit": 0.10655706375837326,
+          "word_attn_weight": 0.04231086000800133
+        },
+        {
+          "rank": 3,
+          "token": "features",
+          "token_pos": 24,
+          "word_score_logit": 0.10551197081804276,
+          "word_attn_weight": 0.042266666889190674
+        },
+        {
+          "rank": 4,
+          "token": "necessary",
+          "token_pos": 23,
+          "word_score_logit": 0.10049005597829819,
+          "word_attn_weight": 0.04205494001507759
+        }
+      ]
+    },
+    {
+      "sentence_id": 10,
+      "importance": 0.08626371622085571,
+      "sentence_text": "i also don't push people to use msdos i even posted in comp os msdos misc that i suggest waiting before installing a new os esp if you have trouble support is always overloaded during release unless the sales are a total bomb",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "os",
+          "token_pos": 13,
+          "word_score_logit": 0.08014317601919174,
+          "word_attn_weight": 0.024674708023667336
+        },
+        {
+          "rank": 1,
+          "token": "use",
+          "token_pos": 6,
+          "word_score_logit": 0.07550973445177078,
+          "word_attn_weight": 0.02456064522266388
+        },
+        {
+          "rank": 2,
+          "token": "msdos",
+          "token_pos": 7,
+          "word_score_logit": 0.050380006432533264,
+          "word_attn_weight": 0.023951131850481033
+        },
+        {
+          "rank": 3,
+          "token": "even",
+          "token_pos": 9,
+          "word_score_logit": 0.04972081258893013,
+          "word_attn_weight": 0.02393534779548645
+        },
+        {
+          "rank": 4,
+          "token": "sales",
+          "token_pos": 38,
+          "word_score_logit": 0.04915126785635948,
+          "word_attn_weight": 0.023921718820929527
+        }
+      ]
+    },
+    {
+      "sentence_id": 0,
+      "importance": 0.08178793638944626,
+      "sentence_text": "it was 93 94 and actually another msdos team member posted it",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "team",
+          "token_pos": 8,
+          "word_score_logit": 0.105567567050457,
+          "word_attn_weight": 0.08699217438697815
+        },
+        {
+          "rank": 1,
+          "token": "was",
+          "token_pos": 1,
+          "word_score_logit": 0.0876096710562706,
+          "word_attn_weight": 0.08544392138719559
+        },
+        {
+          "rank": 2,
+          "token": "93",
+          "token_pos": 2,
+          "word_score_logit": 0.08602743595838547,
+          "word_attn_weight": 0.08530883491039276
+        },
+        {
+          "rank": 3,
+          "token": "msdos",
+          "token_pos": 7,
+          "word_score_logit": 0.0829055979847908,
+          "word_attn_weight": 0.08504293113946915
+        },
+        {
+          "rank": 4,
+          "token": "94",
+          "token_pos": 3,
+          "word_score_logit": 0.07554969191551208,
+          "word_attn_weight": 0.08441965281963348
+        }
+      ]
+    },
+    {
+      "sentence_id": 3,
+      "importance": 0.08157604187726974,
+      "sentence_text": "and i was told it was from a survey of registered users",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "users",
+          "token_pos": 11,
+          "word_score_logit": 0.06456971168518066,
+          "word_attn_weight": 0.08622260391712189
+        },
+        {
+          "rank": 1,
+          "token": "survey",
+          "token_pos": 8,
+          "word_score_logit": 0.04295100271701813,
+          "word_attn_weight": 0.08437858521938324
+        },
+        {
+          "rank": 2,
+          "token": "of",
+          "token_pos": 9,
+          "word_score_logit": 0.03639454394578934,
+          "word_attn_weight": 0.08382716774940491
+        },
+        {
+          "rank": 3,
+          "token": "was",
+          "token_pos": 5,
+          "word_score_logit": 0.03393513709306717,
+          "word_attn_weight": 0.08362125605344772
+        },
+        {
+          "rank": 4,
+          "token": "was",
+          "token_pos": 2,
+          "word_score_logit": 0.032121095806360245,
+          "word_attn_weight": 0.0834697037935257
+        }
+      ]
+    },
+    {
+      "sentence_id": 13,
+      "importance": 0.08130105584859848,
+      "sentence_text": "i just mean we all aren't cut out of the same dough with the same cookie cutter",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "of",
+          "token_pos": 8,
+          "word_score_logit": 0.050055645406246185,
+          "word_attn_weight": 0.060747381299734116
+        },
+        {
+          "rank": 1,
+          "token": "out",
+          "token_pos": 7,
+          "word_score_logit": 0.03854657709598541,
+          "word_attn_weight": 0.06005224585533142
+        },
+        {
+          "rank": 2,
+          "token": "the",
+          "token_pos": 9,
+          "word_score_logit": 0.034508030861616135,
+          "word_attn_weight": 0.05981020629405975
+        },
+        {
+          "rank": 3,
+          "token": "cutter",
+          "token_pos": 16,
+          "word_score_logit": 0.033450353890657425,
+          "word_attn_weight": 0.05974698066711426
+        },
+        {
+          "rank": 4,
+          "token": "the",
+          "token_pos": 13,
+          "word_score_logit": 0.030559351667761803,
+          "word_attn_weight": 0.05957450717687607
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 45,
+      "from_sentence_id": 9,
+      "token": "2",
+      "token_pos": 17,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 9,
+          "attn_weight": 0.18090932071208954,
+          "sentence_text": "i don't pretend that msdos provides what all people need or that other oses including unix os 2 don't provide useful and or necessary features"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 10,
+          "attn_weight": 0.11025705933570862,
+          "sentence_text": "i also don't push people to use msdos i even posted in comp os msdos misc that i suggest waiting before installing a new os esp if you have trouble support is always overloaded during release unless the sales are a total bomb"
+        }
+      ]
+    },
+    {
+      "query_id": 46,
+      "from_sentence_id": 9,
+      "token": "or",
+      "token_pos": 22,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 9,
+          "attn_weight": 0.1431586742401123,
+          "sentence_text": "i don't pretend that msdos provides what all people need or that other oses including unix os 2 don't provide useful and or necessary features"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 13,
+          "attn_weight": 0.08980412781238556,
+          "sentence_text": "i just mean we all aren't cut out of the same dough with the same cookie cutter"
+        }
+      ]
+    },
+    {
+      "query_id": 47,
+      "from_sentence_id": 9,
+      "token": "os",
+      "token_pos": 16,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 9,
+          "attn_weight": 0.2581459581851959,
+          "sentence_text": "i don't pretend that msdos provides what all people need or that other oses including unix os 2 don't provide useful and or necessary features"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 10,
+          "attn_weight": 0.14022257924079895,
+          "sentence_text": "i also don't push people to use msdos i even posted in comp os msdos misc that i suggest waiting before installing a new os esp if you have trouble support is always overloaded during release unless the sales are a total bomb"
+        }
+      ]
+    },
+    {
+      "query_id": 48,
+      "from_sentence_id": 9,
+      "token": "features",
+      "token_pos": 24,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 9,
+          "attn_weight": 0.10555107146501541,
+          "sentence_text": "i don't pretend that msdos provides what all people need or that other oses including unix os 2 don't provide useful and or necessary features"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 10,
+          "attn_weight": 0.10079892724752426,
+          "sentence_text": "i also don't push people to use msdos i even posted in comp os msdos misc that i suggest waiting before installing a new os esp if you have trouble support is always overloaded during release unless the sales are a total bomb"
+        }
+      ]
+    },
+    {
+      "query_id": 49,
+      "from_sentence_id": 9,
+      "token": "necessary",
+      "token_pos": 23,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 9,
+          "attn_weight": 0.12200188636779785,
+          "sentence_text": "i don't pretend that msdos provides what all people need or that other oses including unix os 2 don't provide useful and or necessary features"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 13,
+          "attn_weight": 0.08603985607624054,
+          "sentence_text": "i just mean we all aren't cut out of the same dough with the same cookie cutter"
+        }
+      ]
+    },
+    {
+      "query_id": 50,
+      "from_sentence_id": 10,
+      "token": "os",
+      "token_pos": 13,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 10,
+          "attn_weight": 0.22639431059360504,
+          "sentence_text": "i also don't push people to use msdos i even posted in comp os msdos misc that i suggest waiting before installing a new os esp if you have trouble support is always overloaded during release unless the sales are a total bomb"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.139140322804451,
+          "sentence_text": "i don't pretend that msdos provides what all people need or that other oses including unix os 2 don't provide useful and or necessary features"
+        }
+      ]
+    },
+    {
+      "query_id": 51,
+      "from_sentence_id": 10,
+      "token": "use",
+      "token_pos": 6,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 9,
+          "attn_weight": 0.15389195084571838,
+          "sentence_text": "i don't pretend that msdos provides what all people need or that other oses including unix os 2 don't provide useful and or necessary features"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 10,
+          "attn_weight": 0.12695619463920593,
+          "sentence_text": "i also don't push people to use msdos i even posted in comp os msdos misc that i suggest waiting before installing a new os esp if you have trouble support is always overloaded during release unless the sales are a total bomb"
+        }
+      ]
+    },
+    {
+      "query_id": 52,
+      "from_sentence_id": 10,
+      "token": "msdos",
+      "token_pos": 7,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 10,
+          "attn_weight": 0.12920166552066803,
+          "sentence_text": "i also don't push people to use msdos i even posted in comp os msdos misc that i suggest waiting before installing a new os esp if you have trouble support is always overloaded during release unless the sales are a total bomb"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.12179739773273468,
+          "sentence_text": "i don't pretend that msdos provides what all people need or that other oses including unix os 2 don't provide useful and or necessary features"
+        }
+      ]
+    },
+    {
+      "query_id": 53,
+      "from_sentence_id": 10,
+      "token": "even",
+      "token_pos": 9,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 10,
+          "attn_weight": 0.13580402731895447,
+          "sentence_text": "i also don't push people to use msdos i even posted in comp os msdos misc that i suggest waiting before installing a new os esp if you have trouble support is always overloaded during release unless the sales are a total bomb"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.12524932622909546,
+          "sentence_text": "i don't pretend that msdos provides what all people need or that other oses including unix os 2 don't provide useful and or necessary features"
+        }
+      ]
+    },
+    {
+      "query_id": 54,
+      "from_sentence_id": 10,
+      "token": "sales",
+      "token_pos": 38,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 10,
+          "attn_weight": 0.16292086243629456,
+          "sentence_text": "i also don't push people to use msdos i even posted in comp os msdos misc that i suggest waiting before installing a new os esp if you have trouble support is always overloaded during release unless the sales are a total bomb"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 0,
+          "attn_weight": 0.11082956194877625,
+          "sentence_text": "it was 93 94 and actually another msdos team member posted it"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_6072"
+}

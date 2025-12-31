@@ -1,0 +1,423 @@
+{
+  "true_label_id": 0,
+  "pred_label_id": 15,
+  "true_label_name": "alt.atheism",
+  "pred_label_name": "soc.religion.christian",
+  "pred_confidence": 0.8116335868835449,
+  "num_sents": 12,
+  "top_sentences": [
+    {
+      "sentence_id": 9,
+      "importance": 0.21093803644180298,
+      "sentence_text": "i have a picture of <UNK> with sammy by the way i find the idea of a <UNK> not believing in satan about as credible as a christian not believing in christ",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "not",
+          "token_pos": 28,
+          "word_score_logit": -0.014403555542230606,
+          "word_attn_weight": 0.03211386129260063
+        },
+        {
+          "rank": 1,
+          "token": "i",
+          "token_pos": 0,
+          "word_score_logit": -0.019355684518814087,
+          "word_attn_weight": 0.03195522353053093
+        },
+        {
+          "rank": 2,
+          "token": "i",
+          "token_pos": 11,
+          "word_score_logit": -0.02515091747045517,
+          "word_attn_weight": 0.03177057206630707
+        },
+        {
+          "rank": 3,
+          "token": "in",
+          "token_pos": 30,
+          "word_score_logit": -0.027363359928131104,
+          "word_attn_weight": 0.031700361520051956
+        },
+        {
+          "rank": 4,
+          "token": "not",
+          "token_pos": 18,
+          "word_score_logit": -0.029598448425531387,
+          "word_attn_weight": 0.03162958472967148
+        }
+      ]
+    },
+    {
+      "sentence_id": 2,
+      "importance": 0.16857686638832092,
+      "sentence_text": "when i refer to <UNK> i am referring to the <UNK> of rural satanic <UNK> and <UNK> which existed before the church of satan",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "refer",
+          "token_pos": 2,
+          "word_score_logit": 0.026736581698060036,
+          "word_attn_weight": 0.04432090371847153
+        },
+        {
+          "rank": 1,
+          "token": "i",
+          "token_pos": 1,
+          "word_score_logit": 0.015931755304336548,
+          "word_attn_weight": 0.04384460300207138
+        },
+        {
+          "rank": 2,
+          "token": "when",
+          "token_pos": 0,
+          "word_score_logit": 0.008328145369887352,
+          "word_attn_weight": 0.043512485921382904
+        },
+        {
+          "rank": 3,
+          "token": "i",
+          "token_pos": 5,
+          "word_score_logit": -0.0037256786599755287,
+          "word_attn_weight": 0.042991142719984055
+        },
+        {
+          "rank": 4,
+          "token": "to",
+          "token_pos": 3,
+          "word_score_logit": -0.009646432474255562,
+          "word_attn_weight": 0.04273735731840134
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "importance": 0.1499740034341812,
+      "sentence_text": "i read his satanic bible a few years ago for a social studies project as well as a book by arthur <UNK> called the cult of devil worship in america the latter included a very interesting interview with the black pope in which he did indeed say that satan was",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "he",
+          "token_pos": 43,
+          "word_score_logit": 0.04278165474534035,
+          "word_attn_weight": 0.021384302526712418
+        },
+        {
+          "rank": 1,
+          "token": "did",
+          "token_pos": 44,
+          "word_score_logit": 0.034269481897354126,
+          "word_attn_weight": 0.021203048527240753
+        },
+        {
+          "rank": 2,
+          "token": "in",
+          "token_pos": 41,
+          "word_score_logit": 0.029226668179035187,
+          "word_attn_weight": 0.021096395328640938
+        },
+        {
+          "rank": 3,
+          "token": "which",
+          "token_pos": 42,
+          "word_score_logit": 0.01848313957452774,
+          "word_attn_weight": 0.020870957523584366
+        },
+        {
+          "rank": 4,
+          "token": "was",
+          "token_pos": 49,
+          "word_score_logit": 0.014746640808880329,
+          "word_attn_weight": 0.020793117582798004
+        }
+      ]
+    },
+    {
+      "sentence_id": 4,
+      "importance": 0.1420099288225174,
+      "sentence_text": "<UNK> and <UNK> his creation the church of satan",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "his",
+          "token_pos": 3,
+          "word_score_logit": -0.00799621269106865,
+          "word_attn_weight": 0.11333240568637848
+        },
+        {
+          "rank": 1,
+          "token": "the",
+          "token_pos": 5,
+          "word_score_logit": -0.008905142545700073,
+          "word_attn_weight": 0.11322944611310959
+        },
+        {
+          "rank": 2,
+          "token": "of",
+          "token_pos": 7,
+          "word_score_logit": -0.018337039276957512,
+          "word_attn_weight": 0.11216649413108826
+        },
+        {
+          "rank": 3,
+          "token": "creation",
+          "token_pos": 4,
+          "word_score_logit": -0.024199072271585464,
+          "word_attn_weight": 0.11151088774204254
+        },
+        {
+          "rank": 4,
+          "token": "and",
+          "token_pos": 1,
+          "word_score_logit": -0.02536318078637123,
+          "word_attn_weight": 0.1113811582326889
+        }
+      ]
+    },
+    {
+      "sentence_id": 3,
+      "importance": 0.07289789617061615,
+      "sentence_text": "i don't consider <UNK> church to be at all orthodox nor do i consider its followers <UNK> <UNK> combined the philosophies of <UNK> crowley and reich slapped in some religious doctrine added a little touch of p t",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "p",
+          "token_pos": 36,
+          "word_score_logit": 0.1149866059422493,
+          "word_attn_weight": 0.029752690345048904
+        },
+        {
+          "rank": 1,
+          "token": "t",
+          "token_pos": 37,
+          "word_score_logit": 0.07160680741071701,
+          "word_attn_weight": 0.028489619493484497
+        },
+        {
+          "rank": 2,
+          "token": "of",
+          "token_pos": 35,
+          "word_score_logit": 0.0678931325674057,
+          "word_attn_weight": 0.0283840149641037
+        },
+        {
+          "rank": 3,
+          "token": "combined",
+          "token_pos": 18,
+          "word_score_logit": 0.04495461657643318,
+          "word_attn_weight": 0.02774033695459366
+        },
+        {
+          "rank": 4,
+          "token": "touch",
+          "token_pos": 34,
+          "word_score_logit": 0.04237371310591698,
+          "word_attn_weight": 0.02766883559525013
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 45,
+      "from_sentence_id": 9,
+      "token": "not",
+      "token_pos": 28,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 9,
+          "attn_weight": 0.37130025029182434,
+          "sentence_text": "i have a picture of <UNK> with sammy by the way i find the idea of a <UNK> not believing in satan about as credible as a christian not believing in christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.23296858370304108,
+          "sentence_text": "when i refer to <UNK> i am referring to the <UNK> of rural satanic <UNK> and <UNK> which existed before the church of satan"
+        }
+      ]
+    },
+    {
+      "query_id": 46,
+      "from_sentence_id": 9,
+      "token": "i",
+      "token_pos": 0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 9,
+          "attn_weight": 0.302981972694397,
+          "sentence_text": "i have a picture of <UNK> with sammy by the way i find the idea of a <UNK> not believing in satan about as credible as a christian not believing in christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.193475604057312,
+          "sentence_text": "when i refer to <UNK> i am referring to the <UNK> of rural satanic <UNK> and <UNK> which existed before the church of satan"
+        }
+      ]
+    },
+    {
+      "query_id": 47,
+      "from_sentence_id": 9,
+      "token": "i",
+      "token_pos": 11,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 9,
+          "attn_weight": 0.34802573919296265,
+          "sentence_text": "i have a picture of <UNK> with sammy by the way i find the idea of a <UNK> not believing in satan about as credible as a christian not believing in christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.21418890357017517,
+          "sentence_text": "when i refer to <UNK> i am referring to the <UNK> of rural satanic <UNK> and <UNK> which existed before the church of satan"
+        }
+      ]
+    },
+    {
+      "query_id": 48,
+      "from_sentence_id": 9,
+      "token": "in",
+      "token_pos": 30,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 9,
+          "attn_weight": 0.32665398716926575,
+          "sentence_text": "i have a picture of <UNK> with sammy by the way i find the idea of a <UNK> not believing in satan about as credible as a christian not believing in christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.22754928469657898,
+          "sentence_text": "when i refer to <UNK> i am referring to the <UNK> of rural satanic <UNK> and <UNK> which existed before the church of satan"
+        }
+      ]
+    },
+    {
+      "query_id": 49,
+      "from_sentence_id": 9,
+      "token": "not",
+      "token_pos": 18,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 9,
+          "attn_weight": 0.4087873697280884,
+          "sentence_text": "i have a picture of <UNK> with sammy by the way i find the idea of a <UNK> not believing in satan about as credible as a christian not believing in christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.22480729222297668,
+          "sentence_text": "when i refer to <UNK> i am referring to the <UNK> of rural satanic <UNK> and <UNK> which existed before the church of satan"
+        }
+      ]
+    },
+    {
+      "query_id": 10,
+      "from_sentence_id": 2,
+      "token": "refer",
+      "token_pos": 2,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 9,
+          "attn_weight": 0.36801671981811523,
+          "sentence_text": "i have a picture of <UNK> with sammy by the way i find the idea of a <UNK> not believing in satan about as credible as a christian not believing in christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.22512057423591614,
+          "sentence_text": "when i refer to <UNK> i am referring to the <UNK> of rural satanic <UNK> and <UNK> which existed before the church of satan"
+        }
+      ]
+    },
+    {
+      "query_id": 11,
+      "from_sentence_id": 2,
+      "token": "i",
+      "token_pos": 1,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 9,
+          "attn_weight": 0.33325082063674927,
+          "sentence_text": "i have a picture of <UNK> with sammy by the way i find the idea of a <UNK> not believing in satan about as credible as a christian not believing in christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.2202608734369278,
+          "sentence_text": "when i refer to <UNK> i am referring to the <UNK> of rural satanic <UNK> and <UNK> which existed before the church of satan"
+        }
+      ]
+    },
+    {
+      "query_id": 12,
+      "from_sentence_id": 2,
+      "token": "when",
+      "token_pos": 0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 9,
+          "attn_weight": 0.3482261896133423,
+          "sentence_text": "i have a picture of <UNK> with sammy by the way i find the idea of a <UNK> not believing in satan about as credible as a christian not believing in christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.22169317305088043,
+          "sentence_text": "when i refer to <UNK> i am referring to the <UNK> of rural satanic <UNK> and <UNK> which existed before the church of satan"
+        }
+      ]
+    },
+    {
+      "query_id": 13,
+      "from_sentence_id": 2,
+      "token": "i",
+      "token_pos": 5,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 9,
+          "attn_weight": 0.3414359390735626,
+          "sentence_text": "i have a picture of <UNK> with sammy by the way i find the idea of a <UNK> not believing in satan about as credible as a christian not believing in christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.2190098613500595,
+          "sentence_text": "when i refer to <UNK> i am referring to the <UNK> of rural satanic <UNK> and <UNK> which existed before the church of satan"
+        }
+      ]
+    },
+    {
+      "query_id": 14,
+      "from_sentence_id": 2,
+      "token": "to",
+      "token_pos": 3,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 9,
+          "attn_weight": 0.35893064737319946,
+          "sentence_text": "i have a picture of <UNK> with sammy by the way i find the idea of a <UNK> not believing in satan about as credible as a christian not believing in christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.2180481255054474,
+          "sentence_text": "when i refer to <UNK> i am referring to the <UNK> of rural satanic <UNK> and <UNK> which existed before the church of satan"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_4531"
+}

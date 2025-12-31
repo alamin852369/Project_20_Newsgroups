@@ -1,0 +1,125 @@
+{
+  "true_label_id": 7,
+  "pred_label_id": 8,
+  "true_label_name": "rec.autos",
+  "pred_label_name": "rec.motorcycles",
+  "pred_confidence": 0.9770077466964722,
+  "num_sents": 1,
+  "top_sentences": [
+    {
+      "sentence_id": 0,
+      "importance": 1.0,
+      "sentence_text": "a 180 degree v ya gotta love it",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "v",
+          "token_pos": 3,
+          "word_score_logit": 0.03509606793522835,
+          "word_attn_weight": 0.13179682195186615
+        },
+        {
+          "rank": 1,
+          "token": "degree",
+          "token_pos": 2,
+          "word_score_logit": 0.01502255816012621,
+          "word_attn_weight": 0.12917757034301758
+        },
+        {
+          "rank": 2,
+          "token": "a",
+          "token_pos": 0,
+          "word_score_logit": -0.009879525750875473,
+          "word_attn_weight": 0.1260005086660385
+        },
+        {
+          "rank": 3,
+          "token": "ya",
+          "token_pos": 4,
+          "word_score_logit": -0.01617348939180374,
+          "word_attn_weight": 0.12520994246006012
+        },
+        {
+          "rank": 4,
+          "token": "it",
+          "token_pos": 7,
+          "word_score_logit": -0.022470267489552498,
+          "word_attn_weight": 0.12442400306463242
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "v",
+      "token_pos": 3,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 1.0,
+          "sentence_text": "a 180 degree v ya gotta love it"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "degree",
+      "token_pos": 2,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 1.0,
+          "sentence_text": "a 180 degree v ya gotta love it"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "a",
+      "token_pos": 0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 1.0,
+          "sentence_text": "a 180 degree v ya gotta love it"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "ya",
+      "token_pos": 4,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 1.0,
+          "sentence_text": "a 180 degree v ya gotta love it"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "it",
+      "token_pos": 7,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 1.0,
+          "sentence_text": "a 180 degree v ya gotta love it"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_6635"
+}

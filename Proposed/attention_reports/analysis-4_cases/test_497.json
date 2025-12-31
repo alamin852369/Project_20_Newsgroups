@@ -1,0 +1,83 @@
+{
+  "example_id": "test_497",
+  "true_label_id": 19,
+  "pred_label_id": 7,
+  "true_label_name": "talk.religion.misc",
+  "pred_label_name": "rec.autos",
+  "pred_confidence": 0.24569100141525269,
+  "metrics": {
+    "num_sents": 1,
+    "K": 5,
+    "stop_ratio": 0.2,
+    "unk_ratio": 0.2,
+    "num_ratio": 0.0,
+    "content_ratio": 0.4,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 0.0,
+    "sentence_importance_entropy": -0.0,
+    "sentence_importance_max": 1.0,
+    "top_sentence_id": 0,
+    "query_mismatch_rate": 0.0,
+    "selected_quality_counts": {
+      "stopword": 1,
+      "unk": 1,
+      "content_word": 2,
+      "other": 1
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.18,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 1.0,
+    "D_local_global_conflict": 0.0,
+    "E_overconfident_error": 0.24569100141525269
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "stuff about <UNK> deleted"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "about",
+          "token_pos": 1,
+          "quality": "stopword",
+          "word_score_logit": -0.011500904336571693,
+          "word_attn_weight": 0.25136855244636536
+        },
+        {
+          "token": "<UNK>",
+          "token_pos": 2,
+          "quality": "unk",
+          "word_score_logit": -0.013796113431453705,
+          "word_attn_weight": 0.2507922649383545
+        },
+        {
+          "token": "stuff",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": -0.01945541612803936,
+          "word_attn_weight": 0.24937695264816284
+        },
+        {
+          "token": "deleted",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": -0.023130133748054504,
+          "word_attn_weight": 0.2484622299671173
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    ],
+    "top_sentence_id": 0,
+    "sentence_importance_distribution": [
+      1.0
+    ]
+  }
+}

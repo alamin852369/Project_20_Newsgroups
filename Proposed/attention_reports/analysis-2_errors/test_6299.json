@@ -1,0 +1,381 @@
+{
+  "true_label_id": 19,
+  "pred_label_id": 14,
+  "true_label_name": "talk.religion.misc",
+  "pred_label_name": "sci.space",
+  "pred_confidence": 0.18103401362895966,
+  "num_sents": 4,
+  "top_sentences": [
+    {
+      "sentence_id": 0,
+      "importance": 0.301753968000412,
+      "sentence_text": "wow this is news to me it started in <UNK> you know where paul of nt fame was from",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "nt",
+          "token_pos": 15,
+          "word_score_logit": 0.08962573111057281,
+          "word_attn_weight": 0.0560220442712307
+        },
+        {
+          "rank": 1,
+          "token": "fame",
+          "token_pos": 16,
+          "word_score_logit": 0.07003233581781387,
+          "word_attn_weight": 0.054935064166784286
+        },
+        {
+          "rank": 2,
+          "token": "was",
+          "token_pos": 17,
+          "word_score_logit": 0.05310671031475067,
+          "word_attn_weight": 0.054013077169656754
+        },
+        {
+          "rank": 3,
+          "token": "paul",
+          "token_pos": 13,
+          "word_score_logit": 0.047081902623176575,
+          "word_attn_weight": 0.053688641637563705
+        },
+        {
+          "rank": 4,
+          "token": "of",
+          "token_pos": 14,
+          "word_score_logit": 0.041962604969739914,
+          "word_attn_weight": 0.053414490073919296
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "importance": 0.2805022597312927,
+      "sentence_text": "not to be nasty but get a clue read the <UNK> of the <UNK> mysteries by <UNK>",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "clue",
+          "token_pos": 7,
+          "word_score_logit": 0.035205140709877014,
+          "word_attn_weight": 0.06060538813471794
+        },
+        {
+          "rank": 1,
+          "token": "the",
+          "token_pos": 9,
+          "word_score_logit": 0.025978652760386467,
+          "word_attn_weight": 0.06004878506064415
+        },
+        {
+          "rank": 2,
+          "token": "of",
+          "token_pos": 11,
+          "word_score_logit": 0.021757593378424644,
+          "word_attn_weight": 0.05979584902524948
+        },
+        {
+          "rank": 3,
+          "token": "a",
+          "token_pos": 6,
+          "word_score_logit": 0.01927122287452221,
+          "word_attn_weight": 0.05964735522866249
+        },
+        {
+          "rank": 4,
+          "token": "read",
+          "token_pos": 8,
+          "word_score_logit": 0.019138893112540245,
+          "word_attn_weight": 0.05963946878910065
+        }
+      ]
+    },
+    {
+      "sentence_id": 3,
+      "importance": 0.25048714876174927,
+      "sentence_text": "perhaps it might be worth a try",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "might",
+          "token_pos": 2,
+          "word_score_logit": 0.013598548248410225,
+          "word_attn_weight": 0.14529499411582947
+        },
+        {
+          "rank": 1,
+          "token": "be",
+          "token_pos": 3,
+          "word_score_logit": -0.0013958290219306946,
+          "word_attn_weight": 0.14313264191150665
+        },
+        {
+          "rank": 2,
+          "token": "perhaps",
+          "token_pos": 0,
+          "word_score_logit": -0.0017326995730400085,
+          "word_attn_weight": 0.14308443665504456
+        },
+        {
+          "rank": 3,
+          "token": "a",
+          "token_pos": 5,
+          "word_score_logit": -0.006447195075452328,
+          "word_attn_weight": 0.14241144061088562
+        },
+        {
+          "rank": 4,
+          "token": "worth",
+          "token_pos": 4,
+          "word_score_logit": -0.00808340311050415,
+          "word_attn_weight": 0.14217862486839294
+        }
+      ]
+    },
+    {
+      "sentence_id": 2,
+      "importance": 0.16725657880306244,
+      "sentence_text": "hey hasn't anyone read <UNK> p <UNK> works",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "p",
+          "token_pos": 5,
+          "word_score_logit": 0.07057482749223709,
+          "word_attn_weight": 0.13206177949905396
+        },
+        {
+          "rank": 1,
+          "token": "anyone",
+          "token_pos": 2,
+          "word_score_logit": 0.03289322182536125,
+          "word_attn_weight": 0.12717807292938232
+        },
+        {
+          "rank": 2,
+          "token": "read",
+          "token_pos": 3,
+          "word_score_logit": 0.013532415963709354,
+          "word_attn_weight": 0.12473949044942856
+        },
+        {
+          "rank": 3,
+          "token": "<UNK>",
+          "token_pos": 6,
+          "word_score_logit": 0.010004281997680664,
+          "word_attn_weight": 0.12430017441511154
+        },
+        {
+          "rank": 4,
+          "token": "works",
+          "token_pos": 7,
+          "word_score_logit": 0.006252581719309092,
+          "word_attn_weight": 0.12383470684289932
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "nt",
+      "token_pos": 15,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.3257097005844116,
+          "sentence_text": "wow this is news to me it started in <UNK> you know where paul of nt fame was from"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.26197779178619385,
+          "sentence_text": "not to be nasty but get a clue read the <UNK> of the <UNK> mysteries by <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "fame",
+      "token_pos": 16,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.33921247720718384,
+          "sentence_text": "wow this is news to me it started in <UNK> you know where paul of nt fame was from"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.28694096207618713,
+          "sentence_text": "not to be nasty but get a clue read the <UNK> of the <UNK> mysteries by <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "was",
+      "token_pos": 17,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.3203941285610199,
+          "sentence_text": "wow this is news to me it started in <UNK> you know where paul of nt fame was from"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.28970086574554443,
+          "sentence_text": "not to be nasty but get a clue read the <UNK> of the <UNK> mysteries by <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "paul",
+      "token_pos": 13,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.30429255962371826,
+          "sentence_text": "wow this is news to me it started in <UNK> you know where paul of nt fame was from"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.263855904340744,
+          "sentence_text": "not to be nasty but get a clue read the <UNK> of the <UNK> mysteries by <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "of",
+      "token_pos": 14,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.30548295378685,
+          "sentence_text": "wow this is news to me it started in <UNK> you know where paul of nt fame was from"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.2580362856388092,
+          "sentence_text": "not to be nasty but get a clue read the <UNK> of the <UNK> mysteries by <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 5,
+      "from_sentence_id": 1,
+      "token": "clue",
+      "token_pos": 7,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.3024887442588806,
+          "sentence_text": "wow this is news to me it started in <UNK> you know where paul of nt fame was from"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.2932209074497223,
+          "sentence_text": "not to be nasty but get a clue read the <UNK> of the <UNK> mysteries by <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 6,
+      "from_sentence_id": 1,
+      "token": "the",
+      "token_pos": 9,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.3103458881378174,
+          "sentence_text": "wow this is news to me it started in <UNK> you know where paul of nt fame was from"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.29744821786880493,
+          "sentence_text": "not to be nasty but get a clue read the <UNK> of the <UNK> mysteries by <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 7,
+      "from_sentence_id": 1,
+      "token": "of",
+      "token_pos": 11,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.31366991996765137,
+          "sentence_text": "wow this is news to me it started in <UNK> you know where paul of nt fame was from"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.298389732837677,
+          "sentence_text": "not to be nasty but get a clue read the <UNK> of the <UNK> mysteries by <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 8,
+      "from_sentence_id": 1,
+      "token": "a",
+      "token_pos": 6,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.2958214282989502,
+          "sentence_text": "wow this is news to me it started in <UNK> you know where paul of nt fame was from"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.2905685305595398,
+          "sentence_text": "not to be nasty but get a clue read the <UNK> of the <UNK> mysteries by <UNK>"
+        }
+      ]
+    },
+    {
+      "query_id": 9,
+      "from_sentence_id": 1,
+      "token": "read",
+      "token_pos": 8,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.3109002411365509,
+          "sentence_text": "wow this is news to me it started in <UNK> you know where paul of nt fame was from"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.2987157702445984,
+          "sentence_text": "not to be nasty but get a clue read the <UNK> of the <UNK> mysteries by <UNK>"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_6299"
+}

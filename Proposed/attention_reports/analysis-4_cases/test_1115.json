@@ -1,0 +1,825 @@
+{
+  "example_id": "test_1115",
+  "true_label_id": 13,
+  "pred_label_id": 18,
+  "true_label_name": "sci.med",
+  "pred_label_name": "talk.politics.misc",
+  "pred_confidence": 0.48148250579833984,
+  "metrics": {
+    "num_sents": 20,
+    "K": 5,
+    "stop_ratio": 0.33,
+    "unk_ratio": 0.0,
+    "num_ratio": 0.08,
+    "content_ratio": 0.54,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 2.8109240531921387,
+    "sentence_importance_entropy": 2.831963539123535,
+    "sentence_importance_max": 0.14513765275478363,
+    "top_sentence_id": 14,
+    "query_mismatch_rate": 0.95,
+    "selected_quality_counts": {
+      "stopword": 33,
+      "content_word": 54,
+      "short_word": 2,
+      "other": 3,
+      "number": 8
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.20600000000000002,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.10159635692834854,
+    "D_local_global_conflict": 0.95,
+    "E_overconfident_error": 0.48148250579833984
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "here is a press release from the american federation of state county and municipal employees",
+      "unions point to deadly <UNK> <UNK> other unions <UNK> workers memorial day to national desk labor writer contact janet <UNK> of the american federation of state county and municipal employees <UNK> <UNK> 202 429 <UNK> washington april 23 the american federation of state county and municipal employees <UNK> and other",
+      "this year <UNK> will focus its workers memorial day efforts an the dangerous environment in which corrections officers must work",
+      "earlier this month an <UNK> corrections officer robert <UNK> was killed by inmates who <UNK> the corrections facility in <UNK> ohio",
+      "the law and order agenda of the 1980s has resulted in a steady increase in the prison population for the past five years",
+      "on jn",
+      "1 1992 the prison population was 709 587",
+      "projections show a continued increase in the number of inmates with an expected prison population of 811 253 in 1994",
+      "the conditions which this <UNK> prison population has created for corrections officers is partially reflected in the number of assaults by inmates against staff",
+      "assaults against staff increased dramatically between 1987 and 1989 and remain high",
+      "in 1987 there were 808 assaults by inmates against staff compared to 9 961 such assaults in 1991",
+      "the increased number of inmates has brought on the dangerous combination of <UNK> and <UNK>",
+      "for example in ohio officer to <UNK> ratio is 1 to 8 4 the second worst ratio in the nation",
+      "the national average is 1 to 5 3",
+      "other health and safety issues facing corrections officers include aids hepatitis b <UNK> stress and chemical hazards",
+      "<UNK> has more than 50 000 members who work in the nation's federal state and local <UNK> facilities",
+      "correction officers are not alone in performing their jobs under life threatening conditions",
+      "every year 10 000 american workers die from job related injuries and tens of thousands more die from occupational disease",
+      "public employees do some of the nation's most dangerous jobs",
+      "<UNK> <UNK> include highway workers highway workers are often injured and frequently killed by moving traffic because work zones are not <UNK> or don't have proper lighting"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "from",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.04648570343852043,
+          "word_attn_weight": 0.06808027625083923
+        },
+        {
+          "token": "american",
+          "token_pos": 7,
+          "quality": "content_word",
+          "word_score_logit": 0.04281673580408096,
+          "word_attn_weight": 0.06783095002174377
+        },
+        {
+          "token": "county",
+          "token_pos": 11,
+          "quality": "content_word",
+          "word_score_logit": 0.039697516709566116,
+          "word_attn_weight": 0.0676197037100792
+        },
+        {
+          "token": "the",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": 0.03880171477794647,
+          "word_attn_weight": 0.067559152841568
+        },
+        {
+          "token": "of",
+          "token_pos": 9,
+          "quality": "stopword",
+          "word_score_logit": 0.03840824216604233,
+          "word_attn_weight": 0.06753257662057877
+        }
+      ],
+      [
+        {
+          "token": "contact",
+          "token_pos": 17,
+          "quality": "content_word",
+          "word_score_logit": 0.08761484175920486,
+          "word_attn_weight": 0.021613450720906258
+        },
+        {
+          "token": "of",
+          "token_pos": 20,
+          "quality": "stopword",
+          "word_score_logit": 0.05155962333083153,
+          "word_attn_weight": 0.020848052576184273
+        },
+        {
+          "token": "american",
+          "token_pos": 22,
+          "quality": "content_word",
+          "word_score_logit": 0.05150142312049866,
+          "word_attn_weight": 0.020846841856837273
+        },
+        {
+          "token": "janet",
+          "token_pos": 18,
+          "quality": "content_word",
+          "word_score_logit": 0.0471966378390789,
+          "word_attn_weight": 0.020757291465997696
+        },
+        {
+          "token": "the",
+          "token_pos": 21,
+          "quality": "stopword",
+          "word_score_logit": 0.04642347991466522,
+          "word_attn_weight": 0.02074125036597252
+        }
+      ],
+      [
+        {
+          "token": "corrections",
+          "token_pos": 16,
+          "quality": "content_word",
+          "word_score_logit": 0.06314404308795929,
+          "word_attn_weight": 0.053437747061252594
+        },
+        {
+          "token": "in",
+          "token_pos": 14,
+          "quality": "stopword",
+          "word_score_logit": 0.051123157143592834,
+          "word_attn_weight": 0.052799224853515625
+        },
+        {
+          "token": "which",
+          "token_pos": 15,
+          "quality": "stopword",
+          "word_score_logit": 0.04126247391104698,
+          "word_attn_weight": 0.05228114873170853
+        },
+        {
+          "token": "environment",
+          "token_pos": 13,
+          "quality": "content_word",
+          "word_score_logit": 0.021976644173264503,
+          "word_attn_weight": 0.051282525062561035
+        },
+        {
+          "token": "an",
+          "token_pos": 10,
+          "quality": "stopword",
+          "word_score_logit": 0.01586870104074478,
+          "word_attn_weight": 0.05097024515271187
+        }
+      ],
+      [
+        {
+          "token": "corrections",
+          "token_pos": 16,
+          "quality": "content_word",
+          "word_score_logit": 0.08056190609931946,
+          "word_attn_weight": 0.0497107096016407
+        },
+        {
+          "token": "the",
+          "token_pos": 15,
+          "quality": "stopword",
+          "word_score_logit": 0.07636171579360962,
+          "word_attn_weight": 0.04950235038995743
+        },
+        {
+          "token": "facility",
+          "token_pos": 17,
+          "quality": "content_word",
+          "word_score_logit": 0.07419077306985855,
+          "word_attn_weight": 0.04939500242471695
+        },
+        {
+          "token": "ohio",
+          "token_pos": 20,
+          "quality": "content_word",
+          "word_score_logit": 0.07053577154874802,
+          "word_attn_weight": 0.049214787781238556
+        },
+        {
+          "token": "corrections",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.06453957408666611,
+          "word_attn_weight": 0.04892057180404663
+        }
+      ],
+      [
+        {
+          "token": "in",
+          "token_pos": 14,
+          "quality": "stopword",
+          "word_score_logit": 0.04287926107645035,
+          "word_attn_weight": 0.045590560883283615
+        },
+        {
+          "token": "increase",
+          "token_pos": 13,
+          "quality": "content_word",
+          "word_score_logit": 0.03723031282424927,
+          "word_attn_weight": 0.04533374682068825
+        },
+        {
+          "token": "the",
+          "token_pos": 15,
+          "quality": "stopword",
+          "word_score_logit": 0.028011728078126907,
+          "word_attn_weight": 0.0449177548289299
+        },
+        {
+          "token": "steady",
+          "token_pos": 12,
+          "quality": "content_word",
+          "word_score_logit": 0.026579828932881355,
+          "word_attn_weight": 0.044853486120700836
+        },
+        {
+          "token": "the",
+          "token_pos": 19,
+          "quality": "stopword",
+          "word_score_logit": 0.012474097311496735,
+          "word_attn_weight": 0.04422523453831673
+        }
+      ],
+      [
+        {
+          "token": "jn",
+          "token_pos": 1,
+          "quality": "short_word",
+          "word_score_logit": -0.007482623681426048,
+          "word_attn_weight": 0.5000282526016235
+        },
+        {
+          "token": "on",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": -0.007595611736178398,
+          "word_attn_weight": 0.49997174739837646
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 4,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 3,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "token": "<PAD/OUT>",
+          "token_pos": 2,
+          "quality": "other",
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ],
+      [
+        {
+          "token": "587",
+          "token_pos": 7,
+          "quality": "number",
+          "word_score_logit": 0.03819010406732559,
+          "word_attn_weight": 0.12727969884872437
+        },
+        {
+          "token": "the",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.03125664219260216,
+          "word_attn_weight": 0.12640027701854706
+        },
+        {
+          "token": "1992",
+          "token_pos": 1,
+          "quality": "number",
+          "word_score_logit": 0.02735743671655655,
+          "word_attn_weight": 0.12590835988521576
+        },
+        {
+          "token": "709",
+          "token_pos": 6,
+          "quality": "number",
+          "word_score_logit": 0.026245344430208206,
+          "word_attn_weight": 0.12576842308044434
+        },
+        {
+          "token": "1",
+          "token_pos": 0,
+          "quality": "number",
+          "word_score_logit": 0.021128881722688675,
+          "word_attn_weight": 0.12512657046318054
+        }
+      ],
+      [
+        {
+          "token": "an",
+          "token_pos": 11,
+          "quality": "stopword",
+          "word_score_logit": 0.02273412048816681,
+          "word_attn_weight": 0.05125752091407776
+        },
+        {
+          "token": "expected",
+          "token_pos": 12,
+          "quality": "content_word",
+          "word_score_logit": 0.01942935213446617,
+          "word_attn_weight": 0.05108840763568878
+        },
+        {
+          "token": "with",
+          "token_pos": 10,
+          "quality": "stopword",
+          "word_score_logit": 0.013711431995034218,
+          "word_attn_weight": 0.05079711973667145
+        },
+        {
+          "token": "in",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.009540650993585587,
+          "word_attn_weight": 0.05058569833636284
+        },
+        {
+          "token": "increase",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.0074114128947257996,
+          "word_attn_weight": 0.05047810077667236
+        }
+      ],
+      [
+        {
+          "token": "corrections",
+          "token_pos": 10,
+          "quality": "content_word",
+          "word_score_logit": 0.06534717977046967,
+          "word_attn_weight": 0.04392151162028313
+        },
+        {
+          "token": "against",
+          "token_pos": 22,
+          "quality": "content_word",
+          "word_score_logit": 0.05549582466483116,
+          "word_attn_weight": 0.043490950018167496
+        },
+        {
+          "token": "staff",
+          "token_pos": 23,
+          "quality": "content_word",
+          "word_score_logit": 0.04707735404372215,
+          "word_attn_weight": 0.04312635958194733
+        },
+        {
+          "token": "for",
+          "token_pos": 9,
+          "quality": "stopword",
+          "word_score_logit": 0.03539571166038513,
+          "word_attn_weight": 0.04262550175189972
+        },
+        {
+          "token": "of",
+          "token_pos": 18,
+          "quality": "stopword",
+          "word_score_logit": 0.02747112326323986,
+          "word_attn_weight": 0.04228904843330383
+        }
+      ],
+      [
+        {
+          "token": "against",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.04680204018950462,
+          "word_attn_weight": 0.08654481917619705
+        },
+        {
+          "token": "high",
+          "token_pos": 11,
+          "quality": "content_word",
+          "word_score_logit": 0.03390761837363243,
+          "word_attn_weight": 0.08543603867292404
+        },
+        {
+          "token": "staff",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.026782400906085968,
+          "word_attn_weight": 0.08482944965362549
+        },
+        {
+          "token": "assaults",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": 0.026354927569627762,
+          "word_attn_weight": 0.08479319512844086
+        },
+        {
+          "token": "and",
+          "token_pos": 9,
+          "quality": "stopword",
+          "word_score_logit": 0.021873340010643005,
+          "word_attn_weight": 0.084414042532444
+        }
+      ],
+      [
+        {
+          "token": "against",
+          "token_pos": 8,
+          "quality": "content_word",
+          "word_score_logit": 0.048385847359895706,
+          "word_attn_weight": 0.057726867496967316
+        },
+        {
+          "token": "staff",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": 0.03999846428632736,
+          "word_attn_weight": 0.057244714349508286
+        },
+        {
+          "token": "9",
+          "token_pos": 12,
+          "quality": "number",
+          "word_score_logit": 0.03164437413215637,
+          "word_attn_weight": 0.05676848068833351
+        },
+        {
+          "token": "assaults",
+          "token_pos": 15,
+          "quality": "content_word",
+          "word_score_logit": 0.0313265286386013,
+          "word_attn_weight": 0.05675043910741806
+        },
+        {
+          "token": "such",
+          "token_pos": 14,
+          "quality": "content_word",
+          "word_score_logit": 0.027960341423749924,
+          "word_attn_weight": 0.0565597265958786
+        }
+      ],
+      [
+        {
+          "token": "combination",
+          "token_pos": 10,
+          "quality": "content_word",
+          "word_score_logit": 0.07149697840213776,
+          "word_attn_weight": 0.069920115172863
+        },
+        {
+          "token": "of",
+          "token_pos": 11,
+          "quality": "stopword",
+          "word_score_logit": 0.048447202891111374,
+          "word_attn_weight": 0.0683269053697586
+        },
+        {
+          "token": "and",
+          "token_pos": 13,
+          "quality": "stopword",
+          "word_score_logit": 0.028595786541700363,
+          "word_attn_weight": 0.0669838935136795
+        },
+        {
+          "token": "number",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.026834487915039062,
+          "word_attn_weight": 0.06686601787805557
+        },
+        {
+          "token": "of",
+          "token_pos": 3,
+          "quality": "stopword",
+          "word_score_logit": 0.026634378358721733,
+          "word_attn_weight": 0.0668526366353035
+        }
+      ],
+      [
+        {
+          "token": "ohio",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.06256568431854248,
+          "word_attn_weight": 0.052246905863285065
+        },
+        {
+          "token": "in",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.0553794801235199,
+          "word_attn_weight": 0.051872797310352325
+        },
+        {
+          "token": "example",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.04627945274114609,
+          "word_attn_weight": 0.05140289291739464
+        },
+        {
+          "token": "8",
+          "token_pos": 11,
+          "quality": "number",
+          "word_score_logit": 0.034187301993370056,
+          "word_attn_weight": 0.050785064697265625
+        },
+        {
+          "token": "in",
+          "token_pos": 17,
+          "quality": "stopword",
+          "word_score_logit": 0.026969710364937782,
+          "word_attn_weight": 0.05041984096169472
+        }
+      ],
+      [
+        {
+          "token": "the",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.05853390693664551,
+          "word_attn_weight": 0.1284310519695282
+        },
+        {
+          "token": "national",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.04696580022573471,
+          "word_attn_weight": 0.12695389986038208
+        },
+        {
+          "token": "5",
+          "token_pos": 6,
+          "quality": "number",
+          "word_score_logit": 0.03167831897735596,
+          "word_attn_weight": 0.1250278502702713
+        },
+        {
+          "token": "3",
+          "token_pos": 7,
+          "quality": "number",
+          "word_score_logit": 0.03152339160442352,
+          "word_attn_weight": 0.1250084936618805
+        },
+        {
+          "token": "average",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.031198281794786453,
+          "word_attn_weight": 0.12496785074472427
+        }
+      ],
+      [
+        {
+          "token": "corrections",
+          "token_pos": 6,
+          "quality": "content_word",
+          "word_score_logit": 0.11550247669219971,
+          "word_attn_weight": 0.062163807451725006
+        },
+        {
+          "token": "b",
+          "token_pos": 11,
+          "quality": "short_word",
+          "word_score_logit": 0.10669126361608505,
+          "word_attn_weight": 0.06161847710609436
+        },
+        {
+          "token": "safety",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.10070826858282089,
+          "word_attn_weight": 0.06125091016292572
+        },
+        {
+          "token": "hazards",
+          "token_pos": 16,
+          "quality": "content_word",
+          "word_score_logit": 0.08913454413414001,
+          "word_attn_weight": 0.06054610013961792
+        },
+        {
+          "token": "facing",
+          "token_pos": 5,
+          "quality": "content_word",
+          "word_score_logit": 0.08350905776023865,
+          "word_attn_weight": 0.06020645424723625
+        }
+      ],
+      [
+        {
+          "token": "federal",
+          "token_pos": 12,
+          "quality": "content_word",
+          "word_score_logit": 0.035671889781951904,
+          "word_attn_weight": 0.05710305646061897
+        },
+        {
+          "token": "local",
+          "token_pos": 15,
+          "quality": "content_word",
+          "word_score_logit": 0.03214665502309799,
+          "word_attn_weight": 0.05690211057662964
+        },
+        {
+          "token": "facilities",
+          "token_pos": 17,
+          "quality": "content_word",
+          "word_score_logit": 0.022988276556134224,
+          "word_attn_weight": 0.05638335645198822
+        },
+        {
+          "token": "and",
+          "token_pos": 14,
+          "quality": "stopword",
+          "word_score_logit": 0.021664245054125786,
+          "word_attn_weight": 0.05630875006318092
+        },
+        {
+          "token": "in",
+          "token_pos": 9,
+          "quality": "stopword",
+          "word_score_logit": 0.019689757376909256,
+          "word_attn_weight": 0.05619768425822258
+        }
+      ],
+      [
+        {
+          "token": "correction",
+          "token_pos": 0,
+          "quality": "content_word",
+          "word_score_logit": 0.04970903694629669,
+          "word_attn_weight": 0.0829368382692337
+        },
+        {
+          "token": "conditions",
+          "token_pos": 12,
+          "quality": "content_word",
+          "word_score_logit": 0.003331492654979229,
+          "word_attn_weight": 0.07917825877666473
+        },
+        {
+          "token": "threatening",
+          "token_pos": 11,
+          "quality": "content_word",
+          "word_score_logit": -0.009383941069245338,
+          "word_attn_weight": 0.07817785441875458
+        },
+        {
+          "token": "life",
+          "token_pos": 10,
+          "quality": "content_word",
+          "word_score_logit": -0.020545989274978638,
+          "word_attn_weight": 0.07731007039546967
+        },
+        {
+          "token": "officers",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": -0.021251073107123375,
+          "word_attn_weight": 0.07725558429956436
+        }
+      ],
+      [
+        {
+          "token": "injuries",
+          "token_pos": 10,
+          "quality": "content_word",
+          "word_score_logit": 0.06024668365716934,
+          "word_attn_weight": 0.05240369960665703
+        },
+        {
+          "token": "related",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": 0.043888725340366364,
+          "word_attn_weight": 0.051553454250097275
+        },
+        {
+          "token": "job",
+          "token_pos": 8,
+          "quality": "content_word",
+          "word_score_logit": 0.03231527656316757,
+          "word_attn_weight": 0.0509602390229702
+        },
+        {
+          "token": "from",
+          "token_pos": 7,
+          "quality": "stopword",
+          "word_score_logit": 0.0304179135710001,
+          "word_attn_weight": 0.05086364224553108
+        },
+        {
+          "token": "of",
+          "token_pos": 13,
+          "quality": "stopword",
+          "word_score_logit": 0.026312466710805893,
+          "word_attn_weight": 0.05065525323152542
+        }
+      ],
+      [
+        {
+          "token": "employees",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.02503403089940548,
+          "word_attn_weight": 0.10324784368276596
+        },
+        {
+          "token": "do",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.012889264151453972,
+          "word_attn_weight": 0.10200150310993195
+        },
+        {
+          "token": "of",
+          "token_pos": 4,
+          "quality": "stopword",
+          "word_score_logit": 0.012556198053061962,
+          "word_attn_weight": 0.10196753591299057
+        },
+        {
+          "token": "some",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.007966230623424053,
+          "word_attn_weight": 0.10150058567523956
+        },
+        {
+          "token": "the",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": -0.0010235877707600594,
+          "word_attn_weight": 0.10059219598770142
+        }
+      ],
+      [
+        {
+          "token": "lighting",
+          "token_pos": 26,
+          "quality": "content_word",
+          "word_score_logit": 0.06377734988927841,
+          "word_attn_weight": 0.03862711042165756
+        },
+        {
+          "token": "injured",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": 0.05788769572973251,
+          "word_attn_weight": 0.038400277495384216
+        },
+        {
+          "token": "often",
+          "token_pos": 8,
+          "quality": "content_word",
+          "word_score_logit": 0.056081246584653854,
+          "word_attn_weight": 0.03833097219467163
+        },
+        {
+          "token": "proper",
+          "token_pos": 25,
+          "quality": "content_word",
+          "word_score_logit": 0.04439621418714523,
+          "word_attn_weight": 0.03788568079471588
+        },
+        {
+          "token": "zones",
+          "token_pos": 18,
+          "quality": "content_word",
+          "word_score_logit": 0.044214364141225815,
+          "word_attn_weight": 0.037878792732954025
+        }
+      ]
+    ],
+    "top_sentence_id": 14,
+    "sentence_importance_distribution": [
+      0.04318169876933098,
+      0.06533785164356232,
+      0.05522559583187103,
+      0.033534981310367584,
+      0.048472292721271515,
+      0.013429993763566017,
+      0.03552045673131943,
+      0.06171299144625664,
+      0.048424117267131805,
+      0.05291270464658737,
+      0.09304185211658478,
+      0.044917818158864975,
+      0.016277657821774483,
+      0.016620101407170296,
+      0.14513765275478363,
+      0.04935590177774429,
+      0.028177224099636078,
+      0.09125553071498871,
+      0.03009139932692051,
+      0.02737225592136383
+    ]
+  }
+}

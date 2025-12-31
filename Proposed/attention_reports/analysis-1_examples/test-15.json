@@ -1,0 +1,3800 @@
+{
+  "true_label_id": 0,
+  "pred_label_id": 15,
+  "true_label_name": "alt.atheism",
+  "pred_label_name": "soc.religion.christian",
+  "pred_confidence": 0.8068578243255615,
+  "num_sents": 20,
+  "sentence_summaries": [
+    {
+      "sentence_id": 0,
+      "sentence_text": "probably because it is rape",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "probably",
+          "token_pos": 0,
+          "word_score_logit": 0.01604284904897213,
+          "word_attn_weight": 0.20298589766025543
+        },
+        {
+          "rank": 1,
+          "token": "is",
+          "token_pos": 3,
+          "word_score_logit": 0.006465211510658264,
+          "word_attn_weight": 0.2010510414838791
+        },
+        {
+          "rank": 2,
+          "token": "because",
+          "token_pos": 1,
+          "word_score_logit": 0.0060031833127141,
+          "word_attn_weight": 0.20095819234848022
+        },
+        {
+          "rank": 3,
+          "token": "it",
+          "token_pos": 2,
+          "word_score_logit": -0.001337345689535141,
+          "word_attn_weight": 0.19948844611644745
+        },
+        {
+          "rank": 4,
+          "token": "rape",
+          "token_pos": 4,
+          "word_score_logit": -0.021449508145451546,
+          "word_attn_weight": 0.19551637768745422
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "sentence_text": "so nothing",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "nothing",
+          "token_pos": 1,
+          "word_score_logit": 0.010244409553706646,
+          "word_attn_weight": 0.5008710622787476
+        },
+        {
+          "rank": 1,
+          "token": "so",
+          "token_pos": 0,
+          "word_score_logit": 0.006760133430361748,
+          "word_attn_weight": 0.49912893772125244
+        },
+        {
+          "rank": 2,
+          "token": "<PAD>",
+          "token_pos": 4,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 3,
+          "token": "<PAD>",
+          "token_pos": 3,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 4,
+          "token": "<PAD>",
+          "token_pos": 2,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    },
+    {
+      "sentence_id": 2,
+      "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "as",
+          "token_pos": 34,
+          "word_score_logit": 0.0503365583717823,
+          "word_attn_weight": 0.02678360976278782
+        },
+        {
+          "rank": 1,
+          "token": "as",
+          "token_pos": 36,
+          "word_score_logit": 0.043762195855379105,
+          "word_attn_weight": 0.026608100160956383
+        },
+        {
+          "rank": 2,
+          "token": "the",
+          "token_pos": 32,
+          "word_score_logit": 0.03559546172618866,
+          "word_attn_weight": 0.026391686871647835
+        },
+        {
+          "rank": 3,
+          "token": "overall",
+          "token_pos": 19,
+          "word_score_logit": 0.034961871802806854,
+          "word_attn_weight": 0.026374969631433487
+        },
+        {
+          "rank": 4,
+          "token": "well",
+          "token_pos": 35,
+          "word_score_logit": 0.032976701855659485,
+          "word_attn_weight": 0.026322662830352783
+        }
+      ]
+    },
+    {
+      "sentence_id": 3,
+      "sentence_text": "and since christians have failed to show us how there way of life is in any wy better than ours i do not see why the attempt to try it is necessary or even particularly attractive",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "or",
+          "token_pos": 32,
+          "word_score_logit": 0.022306304425001144,
+          "word_attn_weight": 0.029024306684732437
+        },
+        {
+          "rank": 1,
+          "token": "even",
+          "token_pos": 33,
+          "word_score_logit": 0.016836123540997505,
+          "word_attn_weight": 0.02886597439646721
+        },
+        {
+          "rank": 2,
+          "token": "attractive",
+          "token_pos": 35,
+          "word_score_logit": 0.012411613948643208,
+          "word_attn_weight": 0.028738535940647125
+        },
+        {
+          "rank": 3,
+          "token": "necessary",
+          "token_pos": 31,
+          "word_score_logit": 0.011299686506390572,
+          "word_attn_weight": 0.028706597164273262
+        },
+        {
+          "rank": 4,
+          "token": "is",
+          "token_pos": 30,
+          "word_score_logit": 0.007472580298781395,
+          "word_attn_weight": 0.028596945106983185
+        }
+      ]
+    },
+    {
+      "sentence_id": 4,
+      "sentence_text": "well we will <UNK> know for sure if we were told the truth or not but at the very least there is a bit more evidence pointing to the fact that say there was a military conflict in vietnam 25 years ago then there is a supernatural <UNK> who wants",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "supernatural",
+          "token_pos": 46,
+          "word_score_logit": 0.024623403325676918,
+          "word_attn_weight": 0.021027138456702232
+        },
+        {
+          "rank": 1,
+          "token": "evidence",
+          "token_pos": 25,
+          "word_score_logit": 0.00406152568757534,
+          "word_attn_weight": 0.02059919759631157
+        },
+        {
+          "rank": 2,
+          "token": "sure",
+          "token_pos": 6,
+          "word_score_logit": 0.00204409658908844,
+          "word_attn_weight": 0.02055767923593521
+        },
+        {
+          "rank": 3,
+          "token": "more",
+          "token_pos": 24,
+          "word_score_logit": 0.0017864089459180832,
+          "word_attn_weight": 0.020552385598421097
+        },
+        {
+          "rank": 4,
+          "token": "<UNK>",
+          "token_pos": 47,
+          "word_score_logit": 0.00021234527230262756,
+          "word_attn_weight": 0.020520057529211044
+        }
+      ]
+    },
+    {
+      "sentence_id": 5,
+      "sentence_text": "the fact that jesus warned against it means nothing",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "against",
+          "token_pos": 5,
+          "word_score_logit": 0.04049135744571686,
+          "word_attn_weight": 0.11490901559591293
+        },
+        {
+          "rank": 1,
+          "token": "means",
+          "token_pos": 7,
+          "word_score_logit": 0.02929123118519783,
+          "word_attn_weight": 0.11362919956445694
+        },
+        {
+          "rank": 2,
+          "token": "nothing",
+          "token_pos": 8,
+          "word_score_logit": 0.016138462349772453,
+          "word_attn_weight": 0.11214444786310196
+        },
+        {
+          "rank": 3,
+          "token": "it",
+          "token_pos": 6,
+          "word_score_logit": 0.013389911502599716,
+          "word_attn_weight": 0.11183664202690125
+        },
+        {
+          "rank": 4,
+          "token": "the",
+          "token_pos": 0,
+          "word_score_logit": 0.002067236229777336,
+          "word_attn_weight": 0.11057748645544052
+        }
+      ]
+    },
+    {
+      "sentence_id": 6,
+      "sentence_text": "i warn against it too",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "against",
+          "token_pos": 2,
+          "word_score_logit": 0.03305825963616371,
+          "word_attn_weight": 0.20406639575958252
+        },
+        {
+          "rank": 1,
+          "token": "warn",
+          "token_pos": 1,
+          "word_score_logit": 0.017216548323631287,
+          "word_attn_weight": 0.20085909962654114
+        },
+        {
+          "rank": 2,
+          "token": "it",
+          "token_pos": 3,
+          "word_score_logit": 0.007054489105939865,
+          "word_attn_weight": 0.1988283097743988
+        },
+        {
+          "rank": 3,
+          "token": "too",
+          "token_pos": 4,
+          "word_score_logit": 0.005852984264492989,
+          "word_attn_weight": 0.19858954846858978
+        },
+        {
+          "rank": 4,
+          "token": "i",
+          "token_pos": 0,
+          "word_score_logit": 0.0011441498063504696,
+          "word_attn_weight": 0.19765663146972656
+        }
+      ]
+    },
+    {
+      "sentence_id": 7,
+      "sentence_text": "big deal",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "big",
+          "token_pos": 0,
+          "word_score_logit": 0.006666848435997963,
+          "word_attn_weight": 0.502464234828949
+        },
+        {
+          "rank": 1,
+          "token": "deal",
+          "token_pos": 1,
+          "word_score_logit": -0.003190157003700733,
+          "word_attn_weight": 0.49753573536872864
+        },
+        {
+          "rank": 2,
+          "token": "<PAD>",
+          "token_pos": 4,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 3,
+          "token": "<PAD>",
+          "token_pos": 3,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 4,
+          "token": "<PAD>",
+          "token_pos": 2,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    },
+    {
+      "sentence_id": 8,
+      "sentence_text": "this is not true",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "true",
+          "token_pos": 3,
+          "word_score_logit": 0.018905503675341606,
+          "word_attn_weight": 0.2511606812477112
+        },
+        {
+          "rank": 1,
+          "token": "is",
+          "token_pos": 1,
+          "word_score_logit": 0.015541456639766693,
+          "word_attn_weight": 0.25031718611717224
+        },
+        {
+          "rank": 2,
+          "token": "not",
+          "token_pos": 2,
+          "word_score_logit": 0.01506221853196621,
+          "word_attn_weight": 0.25019726157188416
+        },
+        {
+          "rank": 3,
+          "token": "this",
+          "token_pos": 0,
+          "word_score_logit": 0.007550488226115704,
+          "word_attn_weight": 0.24832487106323242
+        },
+        {
+          "rank": 4,
+          "token": "<PAD>",
+          "token_pos": 4,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    },
+    {
+      "sentence_id": 9,
+      "sentence_text": "the first two choices here life and death are <UNK> documented and the last one is total <UNK> unless one uses the bible and that is totally circular",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "uses",
+          "token_pos": 20,
+          "word_score_logit": 0.07190179079771042,
+          "word_attn_weight": 0.03817007318139076
+        },
+        {
+          "rank": 1,
+          "token": "the",
+          "token_pos": 21,
+          "word_score_logit": 0.030130038037896156,
+          "word_attn_weight": 0.03660847991704941
+        },
+        {
+          "rank": 2,
+          "token": "circular",
+          "token_pos": 27,
+          "word_score_logit": 0.02146567963063717,
+          "word_attn_weight": 0.036292664706707
+        },
+        {
+          "rank": 3,
+          "token": "and",
+          "token_pos": 6,
+          "word_score_logit": 0.02098037488758564,
+          "word_attn_weight": 0.03627505525946617
+        },
+        {
+          "rank": 4,
+          "token": "one",
+          "token_pos": 14,
+          "word_score_logit": 0.01996714249253273,
+          "word_attn_weight": 0.03623832017183304
+        }
+      ]
+    },
+    {
+      "sentence_id": 10,
+      "sentence_text": "perhaps it be better to use the imagination or one's ignorance",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "use",
+          "token_pos": 5,
+          "word_score_logit": 0.07335378974676132,
+          "word_attn_weight": 0.096662737429142
+        },
+        {
+          "rank": 1,
+          "token": "the",
+          "token_pos": 6,
+          "word_score_logit": 0.03138657659292221,
+          "word_attn_weight": 0.09269001334905624
+        },
+        {
+          "rank": 2,
+          "token": "or",
+          "token_pos": 8,
+          "word_score_logit": 0.030508603900671005,
+          "word_attn_weight": 0.09260867536067963
+        },
+        {
+          "rank": 3,
+          "token": "one's",
+          "token_pos": 9,
+          "word_score_logit": 0.009362323209643364,
+          "word_attn_weight": 0.09067090600728989
+        },
+        {
+          "rank": 4,
+          "token": "to",
+          "token_pos": 4,
+          "word_score_logit": 0.008547613397240639,
+          "word_attn_weight": 0.09059706330299377
+        }
+      ]
+    },
+    {
+      "sentence_id": 11,
+      "sentence_text": "someone else will address this i'm sure and refer you to plenty of documentation",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "refer",
+          "token_pos": 8,
+          "word_score_logit": 0.06669527292251587,
+          "word_attn_weight": 0.07468236982822418
+        },
+        {
+          "rank": 1,
+          "token": "and",
+          "token_pos": 7,
+          "word_score_logit": 0.03810688108205795,
+          "word_attn_weight": 0.07257755100727081
+        },
+        {
+          "rank": 2,
+          "token": "address",
+          "token_pos": 3,
+          "word_score_logit": 0.03527970612049103,
+          "word_attn_weight": 0.07237264513969421
+        },
+        {
+          "rank": 3,
+          "token": "sure",
+          "token_pos": 6,
+          "word_score_logit": 0.029640238732099533,
+          "word_attn_weight": 0.07196565717458725
+        },
+        {
+          "rank": 4,
+          "token": "someone",
+          "token_pos": 0,
+          "word_score_logit": 0.026786530390381813,
+          "word_attn_weight": 0.07176057994365692
+        }
+      ]
+    },
+    {
+      "sentence_id": 12,
+      "sentence_text": "how is this",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "is",
+          "token_pos": 1,
+          "word_score_logit": 0.011941472999751568,
+          "word_attn_weight": 0.3349820375442505
+        },
+        {
+          "rank": 1,
+          "token": "how",
+          "token_pos": 0,
+          "word_score_logit": 0.006416602060198784,
+          "word_attn_weight": 0.3331364095211029
+        },
+        {
+          "rank": 2,
+          "token": "this",
+          "token_pos": 2,
+          "word_score_logit": 0.0026426217518746853,
+          "word_attn_weight": 0.3318815231323242
+        },
+        {
+          "rank": 3,
+          "token": "<PAD>",
+          "token_pos": 4,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 4,
+          "token": "<PAD>",
+          "token_pos": 3,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    },
+    {
+      "sentence_id": 13,
+      "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "old",
+          "token_pos": 12,
+          "word_score_logit": -0.0074396878480911255,
+          "word_attn_weight": 0.042939186096191406
+        },
+        {
+          "rank": 1,
+          "token": "the",
+          "token_pos": 11,
+          "word_score_logit": -0.007588889449834824,
+          "word_attn_weight": 0.04293278232216835
+        },
+        {
+          "rank": 2,
+          "token": "of",
+          "token_pos": 22,
+          "word_score_logit": -0.008546270430088043,
+          "word_attn_weight": 0.04289169982075691
+        },
+        {
+          "rank": 3,
+          "token": "interpret",
+          "token_pos": 10,
+          "word_score_logit": -0.008779827505350113,
+          "word_attn_weight": 0.04288168251514435
+        },
+        {
+          "rank": 4,
+          "token": "the",
+          "token_pos": 20,
+          "word_score_logit": -0.009984485805034637,
+          "word_attn_weight": 0.04283005744218826
+        }
+      ]
+    },
+    {
+      "sentence_id": 14,
+      "sentence_text": "every little reference to a stick or bit of wood is <UNK> interpreted as the cross",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "wood",
+          "token_pos": 9,
+          "word_score_logit": 0.054776012897491455,
+          "word_attn_weight": 0.06417015194892883
+        },
+        {
+          "rank": 1,
+          "token": "reference",
+          "token_pos": 2,
+          "word_score_logit": 0.051830824464559555,
+          "word_attn_weight": 0.06398143619298935
+        },
+        {
+          "rank": 2,
+          "token": "of",
+          "token_pos": 8,
+          "word_score_logit": 0.05058317258954048,
+          "word_attn_weight": 0.06390166282653809
+        },
+        {
+          "rank": 3,
+          "token": "bit",
+          "token_pos": 7,
+          "word_score_logit": 0.04237707704305649,
+          "word_attn_weight": 0.06337942183017731
+        },
+        {
+          "rank": 4,
+          "token": "or",
+          "token_pos": 6,
+          "word_score_logit": 0.03544931858778,
+          "word_attn_weight": 0.06294186413288116
+        }
+      ]
+    },
+    {
+      "sentence_id": 15,
+      "sentence_text": "what a miscarriage of <UNK>",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "of",
+          "token_pos": 3,
+          "word_score_logit": -0.0032937107607722282,
+          "word_attn_weight": 0.20341026782989502
+        },
+        {
+          "rank": 1,
+          "token": "what",
+          "token_pos": 0,
+          "word_score_logit": -0.00847519189119339,
+          "word_attn_weight": 0.20235902070999146
+        },
+        {
+          "rank": 2,
+          "token": "<UNK>",
+          "token_pos": 4,
+          "word_score_logit": -0.015622641891241074,
+          "word_attn_weight": 0.20091784000396729
+        },
+        {
+          "rank": 3,
+          "token": "a",
+          "token_pos": 1,
+          "word_score_logit": -0.021292442455887794,
+          "word_attn_weight": 0.1997818946838379
+        },
+        {
+          "rank": 4,
+          "token": "miscarriage",
+          "token_pos": 2,
+          "word_score_logit": -0.05308115482330322,
+          "word_attn_weight": 0.19353097677230835
+        }
+      ]
+    },
+    {
+      "sentence_id": 16,
+      "sentence_text": "well since we have skeptical hearts thank goodness there is no way to get into us",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "into",
+          "token_pos": 14,
+          "word_score_logit": 0.006717266980558634,
+          "word_attn_weight": 0.06413304060697556
+        },
+        {
+          "rank": 1,
+          "token": "no",
+          "token_pos": 10,
+          "word_score_logit": 0.002515227533876896,
+          "word_attn_weight": 0.06386411935091019
+        },
+        {
+          "rank": 2,
+          "token": "to",
+          "token_pos": 12,
+          "word_score_logit": -0.0012739989906549454,
+          "word_attn_weight": 0.06362257897853851
+        },
+        {
+          "rank": 3,
+          "token": "us",
+          "token_pos": 15,
+          "word_score_logit": -0.0020291879773139954,
+          "word_attn_weight": 0.06357454508543015
+        },
+        {
+          "rank": 4,
+          "token": "get",
+          "token_pos": 13,
+          "word_score_logit": -0.0028989864513278008,
+          "word_attn_weight": 0.06351927667856216
+        }
+      ]
+    },
+    {
+      "sentence_id": 17,
+      "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "knowledge",
+          "token_pos": 20,
+          "word_score_logit": 0.03294350951910019,
+          "word_attn_weight": 0.049483489245176315
+        },
+        {
+          "rank": 1,
+          "token": "exactly",
+          "token_pos": 8,
+          "word_score_logit": 0.030943583697080612,
+          "word_attn_weight": 0.049384623765945435
+        },
+        {
+          "rank": 2,
+          "token": "what",
+          "token_pos": 9,
+          "word_score_logit": 0.01878744177520275,
+          "word_attn_weight": 0.048787932842969894
+        },
+        {
+          "rank": 3,
+          "token": "without",
+          "token_pos": 19,
+          "word_score_logit": 0.016401730477809906,
+          "word_attn_weight": 0.04867167770862579
+        },
+        {
+          "rank": 4,
+          "token": "tend",
+          "token_pos": 11,
+          "word_score_logit": 0.011662349104881287,
+          "word_attn_weight": 0.04844154790043831
+        }
+      ]
+    },
+    {
+      "sentence_id": 18,
+      "sentence_text": "if i am lucky one day and i happen to be thinking of god at the same time my <UNK> go up then i may associate this as a sign of god it will feel right and i will trust without knowing",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "may",
+          "token_pos": 24,
+          "word_score_logit": 0.04749685153365135,
+          "word_attn_weight": 0.02483992651104927
+        },
+        {
+          "rank": 1,
+          "token": "associate",
+          "token_pos": 25,
+          "word_score_logit": 0.03856799751520157,
+          "word_attn_weight": 0.024619121104478836
+        },
+        {
+          "rank": 2,
+          "token": "knowing",
+          "token_pos": 41,
+          "word_score_logit": 0.03480628877878189,
+          "word_attn_weight": 0.02452668733894825
+        },
+        {
+          "rank": 3,
+          "token": "of",
+          "token_pos": 30,
+          "word_score_logit": 0.03438277542591095,
+          "word_attn_weight": 0.024516301229596138
+        },
+        {
+          "rank": 4,
+          "token": "without",
+          "token_pos": 40,
+          "word_score_logit": 0.03227946162223816,
+          "word_attn_weight": 0.024464791640639305
+        }
+      ]
+    },
+    {
+      "sentence_id": 19,
+      "sentence_text": "maybe",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "maybe",
+          "token_pos": 0,
+          "word_score_logit": 0.007909882813692093,
+          "word_attn_weight": 1.0
+        },
+        {
+          "rank": 1,
+          "token": "<PAD>",
+          "token_pos": 3,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 2,
+          "token": "<PAD>",
+          "token_pos": 1,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 3,
+          "token": "<PAD>",
+          "token_pos": 4,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        },
+        {
+          "rank": 4,
+          "token": "<PAD>",
+          "token_pos": 2,
+          "word_score_logit": -1000000000.0,
+          "word_attn_weight": 0.0
+        }
+      ]
+    }
+  ],
+  "query_summaries": [
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "probably",
+      "token_pos": 0,
+      "word_score_logit": 0.01604284904897213,
+      "word_attn_weight": 0.20298589766025543,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.1798231601715088,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.08999946713447571,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.08583231270313263,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "is",
+      "token_pos": 3,
+      "word_score_logit": 0.006465211510658264,
+      "word_attn_weight": 0.2010510414838791,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.1964297592639923,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.10755769163370132,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.08401387929916382,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "because",
+      "token_pos": 1,
+      "word_score_logit": 0.0060031833127141,
+      "word_attn_weight": 0.20095819234848022,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.2274191826581955,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.10953690111637115,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.08816898614168167,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "it",
+      "token_pos": 2,
+      "word_score_logit": -0.001337345689535141,
+      "word_attn_weight": 0.19948844611644745,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.18294885754585266,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.10054194182157516,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.0840662270784378,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "rape",
+      "token_pos": 4,
+      "word_score_logit": -0.021449508145451546,
+      "word_attn_weight": 0.19551637768745422,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.32187291979789734,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.14026331901550293,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.08406051248311996,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 5,
+      "from_sentence_id": 1,
+      "token": "nothing",
+      "token_pos": 1,
+      "word_score_logit": 0.010244409553706646,
+      "word_attn_weight": 0.5008710622787476,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.13263817131519318,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.07842275500297546,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.07713096588850021,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 6,
+      "from_sentence_id": 1,
+      "token": "so",
+      "token_pos": 0,
+      "word_score_logit": 0.006760133430361748,
+      "word_attn_weight": 0.49912893772125244,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.1314300298690796,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.0775921642780304,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.07715597003698349,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 7,
+      "from_sentence_id": 1,
+      "token": "<PAD>",
+      "token_pos": 4,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.07367226481437683,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.0612507238984108,
+          "sentence_text": "the first two choices here life and death are <UNK> documented and the last one is total <UNK> unless one uses the bible and that is totally circular"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.0611717514693737,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 8,
+      "from_sentence_id": 1,
+      "token": "<PAD>",
+      "token_pos": 3,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.07367226481437683,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.0612507238984108,
+          "sentence_text": "the first two choices here life and death are <UNK> documented and the last one is total <UNK> unless one uses the bible and that is totally circular"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.0611717514693737,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 9,
+      "from_sentence_id": 1,
+      "token": "<PAD>",
+      "token_pos": 2,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.07367226481437683,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.0612507238984108,
+          "sentence_text": "the first two choices here life and death are <UNK> documented and the last one is total <UNK> unless one uses the bible and that is totally circular"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.0611717514693737,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 10,
+      "from_sentence_id": 2,
+      "token": "as",
+      "token_pos": 34,
+      "word_score_logit": 0.0503365583717823,
+      "word_attn_weight": 0.02678360976278782,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.26575174927711487,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.11055159568786621,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.08811095356941223,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 11,
+      "from_sentence_id": 2,
+      "token": "as",
+      "token_pos": 36,
+      "word_score_logit": 0.043762195855379105,
+      "word_attn_weight": 0.026608100160956383,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.1977677047252655,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.10982844233512878,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.08249266445636749,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 12,
+      "from_sentence_id": 2,
+      "token": "the",
+      "token_pos": 32,
+      "word_score_logit": 0.03559546172618866,
+      "word_attn_weight": 0.026391686871647835,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.27636635303497314,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.10961639881134033,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.08778874576091766,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 13,
+      "from_sentence_id": 2,
+      "token": "overall",
+      "token_pos": 19,
+      "word_score_logit": 0.034961871802806854,
+      "word_attn_weight": 0.026374969631433487,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.5872659683227539,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.2016911655664444,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.05126308649778366,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 14,
+      "from_sentence_id": 2,
+      "token": "well",
+      "token_pos": 35,
+      "word_score_logit": 0.032976701855659485,
+      "word_attn_weight": 0.026322662830352783,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.196299746632576,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.09934917837381363,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.0838533416390419,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 15,
+      "from_sentence_id": 3,
+      "token": "or",
+      "token_pos": 32,
+      "word_score_logit": 0.022306304425001144,
+      "word_attn_weight": 0.029024306684732437,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.15076664090156555,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.08797509223222733,
+          "sentence_text": "the first two choices here life and death are <UNK> documented and the last one is total <UNK> unless one uses the bible and that is totally circular"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.08368033170700073,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 16,
+      "from_sentence_id": 3,
+      "token": "even",
+      "token_pos": 33,
+      "word_score_logit": 0.016836123540997505,
+      "word_attn_weight": 0.02886597439646721,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.1702176183462143,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.08900371193885803,
+          "sentence_text": "the first two choices here life and death are <UNK> documented and the last one is total <UNK> unless one uses the bible and that is totally circular"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.08667781949043274,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 17,
+      "from_sentence_id": 3,
+      "token": "attractive",
+      "token_pos": 35,
+      "word_score_logit": 0.012411613948643208,
+      "word_attn_weight": 0.028738535940647125,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.0644005611538887,
+          "sentence_text": "big deal"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.06170171871781349,
+          "sentence_text": "the first two choices here life and death are <UNK> documented and the last one is total <UNK> unless one uses the bible and that is totally circular"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 13,
+          "attn_weight": 0.05927366018295288,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        }
+      ]
+    },
+    {
+      "query_id": 18,
+      "from_sentence_id": 3,
+      "token": "necessary",
+      "token_pos": 31,
+      "word_score_logit": 0.011299686506390572,
+      "word_attn_weight": 0.028706597164273262,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.1676921397447586,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.08449666202068329,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 17,
+          "attn_weight": 0.08246461302042007,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        }
+      ]
+    },
+    {
+      "query_id": 19,
+      "from_sentence_id": 3,
+      "token": "is",
+      "token_pos": 30,
+      "word_score_logit": 0.007472580298781395,
+      "word_attn_weight": 0.028596945106983185,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.13496297597885132,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.07957296818494797,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 9,
+          "attn_weight": 0.0786774605512619,
+          "sentence_text": "the first two choices here life and death are <UNK> documented and the last one is total <UNK> unless one uses the bible and that is totally circular"
+        }
+      ]
+    },
+    {
+      "query_id": 20,
+      "from_sentence_id": 4,
+      "token": "supernatural",
+      "token_pos": 46,
+      "word_score_logit": 0.024623403325676918,
+      "word_attn_weight": 0.021027138456702232,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.37696731090545654,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.1462906450033188,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.08113488554954529,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 21,
+      "from_sentence_id": 4,
+      "token": "evidence",
+      "token_pos": 25,
+      "word_score_logit": 0.00406152568757534,
+      "word_attn_weight": 0.02059919759631157,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.6339361667633057,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.16856831312179565,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.05455543473362923,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 22,
+      "from_sentence_id": 4,
+      "token": "sure",
+      "token_pos": 6,
+      "word_score_logit": 0.00204409658908844,
+      "word_attn_weight": 0.02055767923593521,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.36581748723983765,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.14504177868366241,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.08179369568824768,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 23,
+      "from_sentence_id": 4,
+      "token": "more",
+      "token_pos": 24,
+      "word_score_logit": 0.0017864089459180832,
+      "word_attn_weight": 0.020552385598421097,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.5048986673355103,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.16502705216407776,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.07212872058153152,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 24,
+      "from_sentence_id": 4,
+      "token": "<UNK>",
+      "token_pos": 47,
+      "word_score_logit": 0.00021234527230262756,
+      "word_attn_weight": 0.020520057529211044,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.23665639758110046,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.10233768075704575,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.08604755997657776,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 25,
+      "from_sentence_id": 5,
+      "token": "against",
+      "token_pos": 5,
+      "word_score_logit": 0.04049135744571686,
+      "word_attn_weight": 0.11490901559591293,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.32951846718788147,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.12272293120622635,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.08512458205223083,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 26,
+      "from_sentence_id": 5,
+      "token": "means",
+      "token_pos": 7,
+      "word_score_logit": 0.02929123118519783,
+      "word_attn_weight": 0.11362919956445694,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.3105611801147461,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.12145909667015076,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.08780324459075928,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 27,
+      "from_sentence_id": 5,
+      "token": "nothing",
+      "token_pos": 8,
+      "word_score_logit": 0.016138462349772453,
+      "word_attn_weight": 0.11214444786310196,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.2109118551015854,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.10543210804462433,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.08468849956989288,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 28,
+      "from_sentence_id": 5,
+      "token": "it",
+      "token_pos": 6,
+      "word_score_logit": 0.013389911502599716,
+      "word_attn_weight": 0.11183664202690125,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.2483929842710495,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.11713910102844238,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.08668756484985352,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 29,
+      "from_sentence_id": 5,
+      "token": "the",
+      "token_pos": 0,
+      "word_score_logit": 0.002067236229777336,
+      "word_attn_weight": 0.11057748645544052,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.5847392082214355,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.2059430181980133,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.05216546356678009,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 30,
+      "from_sentence_id": 6,
+      "token": "against",
+      "token_pos": 2,
+      "word_score_logit": 0.03305825963616371,
+      "word_attn_weight": 0.20406639575958252,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.15884365141391754,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.08139826357364655,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 17,
+          "attn_weight": 0.08132199943065643,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        }
+      ]
+    },
+    {
+      "query_id": 31,
+      "from_sentence_id": 6,
+      "token": "warn",
+      "token_pos": 1,
+      "word_score_logit": 0.017216548323631287,
+      "word_attn_weight": 0.20085909962654114,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.26021963357925415,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.10602203756570816,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.09145201742649078,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 32,
+      "from_sentence_id": 6,
+      "token": "it",
+      "token_pos": 3,
+      "word_score_logit": 0.007054489105939865,
+      "word_attn_weight": 0.1988283097743988,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.12050709128379822,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.07624467462301254,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 9,
+          "attn_weight": 0.0752008855342865,
+          "sentence_text": "the first two choices here life and death are <UNK> documented and the last one is total <UNK> unless one uses the bible and that is totally circular"
+        }
+      ]
+    },
+    {
+      "query_id": 33,
+      "from_sentence_id": 6,
+      "token": "too",
+      "token_pos": 4,
+      "word_score_logit": 0.005852984264492989,
+      "word_attn_weight": 0.19858954846858978,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.11985968053340912,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.07521162927150726,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 17,
+          "attn_weight": 0.07361346483230591,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        }
+      ]
+    },
+    {
+      "query_id": 34,
+      "from_sentence_id": 6,
+      "token": "i",
+      "token_pos": 0,
+      "word_score_logit": 0.0011441498063504696,
+      "word_attn_weight": 0.19765663146972656,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.1651141494512558,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.08420737832784653,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.08386793732643127,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 35,
+      "from_sentence_id": 7,
+      "token": "big",
+      "token_pos": 0,
+      "word_score_logit": 0.006666848435997963,
+      "word_attn_weight": 0.502464234828949,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.07835271954536438,
+          "sentence_text": "big deal"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.06255374848842621,
+          "sentence_text": "the first two choices here life and death are <UNK> documented and the last one is total <UNK> unless one uses the bible and that is totally circular"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.060680605471134186,
+          "sentence_text": "well we will <UNK> know for sure if we were told the truth or not but at the very least there is a bit more evidence pointing to the fact that say there was a military conflict in vietnam 25 years ago then there is a supernatural <UNK> who wants"
+        }
+      ]
+    },
+    {
+      "query_id": 36,
+      "from_sentence_id": 7,
+      "token": "deal",
+      "token_pos": 1,
+      "word_score_logit": -0.003190157003700733,
+      "word_attn_weight": 0.49753573536872864,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 7,
+          "attn_weight": 0.06979547441005707,
+          "sentence_text": "big deal"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 15,
+          "attn_weight": 0.056102998554706573,
+          "sentence_text": "what a miscarriage of <UNK>"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 6,
+          "attn_weight": 0.05518410727381706,
+          "sentence_text": "i warn against it too"
+        }
+      ]
+    },
+    {
+      "query_id": 37,
+      "from_sentence_id": 7,
+      "token": "<PAD>",
+      "token_pos": 4,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.07367226481437683,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.0612507238984108,
+          "sentence_text": "the first two choices here life and death are <UNK> documented and the last one is total <UNK> unless one uses the bible and that is totally circular"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.0611717514693737,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 38,
+      "from_sentence_id": 7,
+      "token": "<PAD>",
+      "token_pos": 3,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.07367226481437683,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.0612507238984108,
+          "sentence_text": "the first two choices here life and death are <UNK> documented and the last one is total <UNK> unless one uses the bible and that is totally circular"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.0611717514693737,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 39,
+      "from_sentence_id": 7,
+      "token": "<PAD>",
+      "token_pos": 2,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.07367226481437683,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.0612507238984108,
+          "sentence_text": "the first two choices here life and death are <UNK> documented and the last one is total <UNK> unless one uses the bible and that is totally circular"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.0611717514693737,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 40,
+      "from_sentence_id": 8,
+      "token": "true",
+      "token_pos": 3,
+      "word_score_logit": 0.018905503675341606,
+      "word_attn_weight": 0.2511606812477112,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.17132866382598877,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.09503751993179321,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.08249588310718536,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 41,
+      "from_sentence_id": 8,
+      "token": "is",
+      "token_pos": 1,
+      "word_score_logit": 0.015541456639766693,
+      "word_attn_weight": 0.25031718611717224,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.14385178685188293,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.0887266993522644,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.07799392193555832,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 42,
+      "from_sentence_id": 8,
+      "token": "not",
+      "token_pos": 2,
+      "word_score_logit": 0.01506221853196621,
+      "word_attn_weight": 0.25019726157188416,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.15120214223861694,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.09156251698732376,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.07892513275146484,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 43,
+      "from_sentence_id": 8,
+      "token": "this",
+      "token_pos": 0,
+      "word_score_logit": 0.007550488226115704,
+      "word_attn_weight": 0.24832487106323242,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.15289875864982605,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.09240494668483734,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.07980108261108398,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 44,
+      "from_sentence_id": 8,
+      "token": "<PAD>",
+      "token_pos": 4,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.07367226481437683,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.0612507238984108,
+          "sentence_text": "the first two choices here life and death are <UNK> documented and the last one is total <UNK> unless one uses the bible and that is totally circular"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.0611717514693737,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 45,
+      "from_sentence_id": 9,
+      "token": "uses",
+      "token_pos": 20,
+      "word_score_logit": 0.07190179079771042,
+      "word_attn_weight": 0.03817007318139076,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.44219887256622314,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.172271728515625,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.07740721106529236,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 46,
+      "from_sentence_id": 9,
+      "token": "the",
+      "token_pos": 21,
+      "word_score_logit": 0.030130038037896156,
+      "word_attn_weight": 0.03660847991704941,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.5362669229507446,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.17826974391937256,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.0664370134472847,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 47,
+      "from_sentence_id": 9,
+      "token": "circular",
+      "token_pos": 27,
+      "word_score_logit": 0.02146567963063717,
+      "word_attn_weight": 0.036292664706707,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.1609811782836914,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.08466161787509918,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 9,
+          "attn_weight": 0.08289984613656998,
+          "sentence_text": "the first two choices here life and death are <UNK> documented and the last one is total <UNK> unless one uses the bible and that is totally circular"
+        }
+      ]
+    },
+    {
+      "query_id": 48,
+      "from_sentence_id": 9,
+      "token": "and",
+      "token_pos": 6,
+      "word_score_logit": 0.02098037488758564,
+      "word_attn_weight": 0.03627505525946617,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.34533101320266724,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.16800490021705627,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.07775107026100159,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 49,
+      "from_sentence_id": 9,
+      "token": "one",
+      "token_pos": 14,
+      "word_score_logit": 0.01996714249253273,
+      "word_attn_weight": 0.03623832017183304,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.34390294551849365,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.17123597860336304,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.07702814787626266,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 50,
+      "from_sentence_id": 10,
+      "token": "use",
+      "token_pos": 5,
+      "word_score_logit": 0.07335378974676132,
+      "word_attn_weight": 0.096662737429142,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.23902034759521484,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.10914779454469681,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.09186480939388275,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 51,
+      "from_sentence_id": 10,
+      "token": "the",
+      "token_pos": 6,
+      "word_score_logit": 0.03138657659292221,
+      "word_attn_weight": 0.09269001334905624,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.284103125333786,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.123602494597435,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.090755894780159,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 52,
+      "from_sentence_id": 10,
+      "token": "or",
+      "token_pos": 8,
+      "word_score_logit": 0.030508603900671005,
+      "word_attn_weight": 0.09260867536067963,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.28832003474235535,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.11189599335193634,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.09258931130170822,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 53,
+      "from_sentence_id": 10,
+      "token": "one's",
+      "token_pos": 9,
+      "word_score_logit": 0.009362323209643364,
+      "word_attn_weight": 0.09067090600728989,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.2840873897075653,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.11639335006475449,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.09160618484020233,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 54,
+      "from_sentence_id": 10,
+      "token": "to",
+      "token_pos": 4,
+      "word_score_logit": 0.008547613397240639,
+      "word_attn_weight": 0.09059706330299377,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.21852222084999084,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.11735270917415619,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.08564259111881256,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 55,
+      "from_sentence_id": 11,
+      "token": "refer",
+      "token_pos": 8,
+      "word_score_logit": 0.06669527292251587,
+      "word_attn_weight": 0.07468236982822418,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.22427821159362793,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.09461216628551483,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.09007219225168228,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 56,
+      "from_sentence_id": 11,
+      "token": "and",
+      "token_pos": 7,
+      "word_score_logit": 0.03810688108205795,
+      "word_attn_weight": 0.07257755100727081,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.14602261781692505,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.08093167096376419,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 9,
+          "attn_weight": 0.0787554383277893,
+          "sentence_text": "the first two choices here life and death are <UNK> documented and the last one is total <UNK> unless one uses the bible and that is totally circular"
+        }
+      ]
+    },
+    {
+      "query_id": 57,
+      "from_sentence_id": 11,
+      "token": "address",
+      "token_pos": 3,
+      "word_score_logit": 0.03527970612049103,
+      "word_attn_weight": 0.07237264513969421,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.1690026819705963,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.08503575623035431,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 9,
+          "attn_weight": 0.08270860463380814,
+          "sentence_text": "the first two choices here life and death are <UNK> documented and the last one is total <UNK> unless one uses the bible and that is totally circular"
+        }
+      ]
+    },
+    {
+      "query_id": 58,
+      "from_sentence_id": 11,
+      "token": "sure",
+      "token_pos": 6,
+      "word_score_logit": 0.029640238732099533,
+      "word_attn_weight": 0.07196565717458725,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.12622866034507751,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.08590735495090485,
+          "sentence_text": "the first two choices here life and death are <UNK> documented and the last one is total <UNK> unless one uses the bible and that is totally circular"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.0786699652671814,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 59,
+      "from_sentence_id": 11,
+      "token": "someone",
+      "token_pos": 0,
+      "word_score_logit": 0.026786530390381813,
+      "word_attn_weight": 0.07176057994365692,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.14154574275016785,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.07939464598894119,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 17,
+          "attn_weight": 0.07853437960147858,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        }
+      ]
+    },
+    {
+      "query_id": 60,
+      "from_sentence_id": 12,
+      "token": "is",
+      "token_pos": 1,
+      "word_score_logit": 0.011941472999751568,
+      "word_attn_weight": 0.3349820375442505,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.10224659740924835,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.07129278779029846,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 9,
+          "attn_weight": 0.07058354467153549,
+          "sentence_text": "the first two choices here life and death are <UNK> documented and the last one is total <UNK> unless one uses the bible and that is totally circular"
+        }
+      ]
+    },
+    {
+      "query_id": 61,
+      "from_sentence_id": 12,
+      "token": "how",
+      "token_pos": 0,
+      "word_score_logit": 0.006416602060198784,
+      "word_attn_weight": 0.3331364095211029,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.12034296989440918,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.07588668912649155,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 9,
+          "attn_weight": 0.07304388284683228,
+          "sentence_text": "the first two choices here life and death are <UNK> documented and the last one is total <UNK> unless one uses the bible and that is totally circular"
+        }
+      ]
+    },
+    {
+      "query_id": 62,
+      "from_sentence_id": 12,
+      "token": "this",
+      "token_pos": 2,
+      "word_score_logit": 0.0026426217518746853,
+      "word_attn_weight": 0.3318815231323242,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.10043688863515854,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 2,
+          "attn_weight": 0.07071271538734436,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 9,
+          "attn_weight": 0.07002879679203033,
+          "sentence_text": "the first two choices here life and death are <UNK> documented and the last one is total <UNK> unless one uses the bible and that is totally circular"
+        }
+      ]
+    },
+    {
+      "query_id": 63,
+      "from_sentence_id": 12,
+      "token": "<PAD>",
+      "token_pos": 4,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.07367226481437683,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.0612507238984108,
+          "sentence_text": "the first two choices here life and death are <UNK> documented and the last one is total <UNK> unless one uses the bible and that is totally circular"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.0611717514693737,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 64,
+      "from_sentence_id": 12,
+      "token": "<PAD>",
+      "token_pos": 3,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.07367226481437683,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.0612507238984108,
+          "sentence_text": "the first two choices here life and death are <UNK> documented and the last one is total <UNK> unless one uses the bible and that is totally circular"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.0611717514693737,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 65,
+      "from_sentence_id": 13,
+      "token": "old",
+      "token_pos": 12,
+      "word_score_logit": -0.0074396878480911255,
+      "word_attn_weight": 0.042939186096191406,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.6075252294540405,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.2460714876651764,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.036082252860069275,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 66,
+      "from_sentence_id": 13,
+      "token": "the",
+      "token_pos": 11,
+      "word_score_logit": -0.007588889449834824,
+      "word_attn_weight": 0.04293278232216835,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.6432920098304749,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.2392798662185669,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.03147939592599869,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 67,
+      "from_sentence_id": 13,
+      "token": "of",
+      "token_pos": 22,
+      "word_score_logit": -0.008546270430088043,
+      "word_attn_weight": 0.04289169982075691,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.537094235420227,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.1983174830675125,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.05896878242492676,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 68,
+      "from_sentence_id": 13,
+      "token": "interpret",
+      "token_pos": 10,
+      "word_score_logit": -0.008779827505350113,
+      "word_attn_weight": 0.04288168251514435,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.6981363296508789,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.2220454216003418,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.024830946698784828,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 69,
+      "from_sentence_id": 13,
+      "token": "the",
+      "token_pos": 20,
+      "word_score_logit": -0.009984485805034637,
+      "word_attn_weight": 0.04283005744218826,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.552308201789856,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.2003159075975418,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.056098077446222305,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 70,
+      "from_sentence_id": 14,
+      "token": "wood",
+      "token_pos": 9,
+      "word_score_logit": 0.054776012897491455,
+      "word_attn_weight": 0.06417015194892883,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.14104747772216797,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.0896437019109726,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.07683071494102478,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 71,
+      "from_sentence_id": 14,
+      "token": "reference",
+      "token_pos": 2,
+      "word_score_logit": 0.051830824464559555,
+      "word_attn_weight": 0.06398143619298935,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.2740868628025055,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.1301211714744568,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.0856643095612526,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 72,
+      "from_sentence_id": 14,
+      "token": "of",
+      "token_pos": 8,
+      "word_score_logit": 0.05058317258954048,
+      "word_attn_weight": 0.06390166282653809,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.2346828728914261,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.11508465558290482,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.08689476549625397,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 73,
+      "from_sentence_id": 14,
+      "token": "bit",
+      "token_pos": 7,
+      "word_score_logit": 0.04237707704305649,
+      "word_attn_weight": 0.06337942183017731,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.16711077094078064,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.08946835249662399,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.08460564911365509,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 74,
+      "from_sentence_id": 14,
+      "token": "or",
+      "token_pos": 6,
+      "word_score_logit": 0.03544931858778,
+      "word_attn_weight": 0.06294186413288116,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.19187778234481812,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.09673961997032166,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.08695928007364273,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 75,
+      "from_sentence_id": 15,
+      "token": "of",
+      "token_pos": 3,
+      "word_score_logit": -0.0032937107607722282,
+      "word_attn_weight": 0.20341026782989502,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.1850844919681549,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.09945166110992432,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.08419594168663025,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 76,
+      "from_sentence_id": 15,
+      "token": "what",
+      "token_pos": 0,
+      "word_score_logit": -0.00847519189119339,
+      "word_attn_weight": 0.20235902070999146,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.17908278107643127,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.09339964389801025,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.08605387806892395,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 77,
+      "from_sentence_id": 15,
+      "token": "<UNK>",
+      "token_pos": 4,
+      "word_score_logit": -0.015622641891241074,
+      "word_attn_weight": 0.20091784000396729,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.1380041241645813,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.08345632255077362,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.0776548981666565,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 78,
+      "from_sentence_id": 15,
+      "token": "a",
+      "token_pos": 1,
+      "word_score_logit": -0.021292442455887794,
+      "word_attn_weight": 0.1997818946838379,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.15002049505710602,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.08751756697893143,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.08143210411071777,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 79,
+      "from_sentence_id": 15,
+      "token": "miscarriage",
+      "token_pos": 2,
+      "word_score_logit": -0.05308115482330322,
+      "word_attn_weight": 0.19353097677230835,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.2045721709728241,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.11172885447740555,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.08637084811925888,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 80,
+      "from_sentence_id": 16,
+      "token": "into",
+      "token_pos": 14,
+      "word_score_logit": 0.006717266980558634,
+      "word_attn_weight": 0.06413304060697556,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.19607457518577576,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.10261475294828415,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.08379514515399933,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 81,
+      "from_sentence_id": 16,
+      "token": "no",
+      "token_pos": 10,
+      "word_score_logit": 0.002515227533876896,
+      "word_attn_weight": 0.06386411935091019,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.23725633323192596,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.11248563230037689,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.08634777367115021,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 82,
+      "from_sentence_id": 16,
+      "token": "to",
+      "token_pos": 12,
+      "word_score_logit": -0.0012739989906549454,
+      "word_attn_weight": 0.06362257897853851,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.20131875574588776,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.09994014352560043,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.08465857058763504,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 83,
+      "from_sentence_id": 16,
+      "token": "us",
+      "token_pos": 15,
+      "word_score_logit": -0.0020291879773139954,
+      "word_attn_weight": 0.06357454508543015,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.17449554800987244,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.09177835285663605,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.08238732814788818,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 84,
+      "from_sentence_id": 16,
+      "token": "get",
+      "token_pos": 13,
+      "word_score_logit": -0.0028989864513278008,
+      "word_attn_weight": 0.06351927667856216,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.16181445121765137,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.0854656919836998,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.08206191658973694,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 85,
+      "from_sentence_id": 17,
+      "token": "knowledge",
+      "token_pos": 20,
+      "word_score_logit": 0.03294350951910019,
+      "word_attn_weight": 0.049483489245176315,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.3507429361343384,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.1550758183002472,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.08363749086856842,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 86,
+      "from_sentence_id": 17,
+      "token": "exactly",
+      "token_pos": 8,
+      "word_score_logit": 0.030943583697080612,
+      "word_attn_weight": 0.049384623765945435,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.5691937208175659,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.20095808804035187,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.055458154529333115,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 87,
+      "from_sentence_id": 17,
+      "token": "what",
+      "token_pos": 9,
+      "word_score_logit": 0.01878744177520275,
+      "word_attn_weight": 0.048787932842969894,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.5581637024879456,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.21147871017456055,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.0542958527803421,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 88,
+      "from_sentence_id": 17,
+      "token": "without",
+      "token_pos": 19,
+      "word_score_logit": 0.016401730477809906,
+      "word_attn_weight": 0.04867167770862579,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.3348418176174164,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.14958873391151428,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.08402852714061737,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 89,
+      "from_sentence_id": 17,
+      "token": "tend",
+      "token_pos": 11,
+      "word_score_logit": 0.011662349104881287,
+      "word_attn_weight": 0.04844154790043831,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.5747689604759216,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.21662858128547668,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.05072726309299469,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 90,
+      "from_sentence_id": 18,
+      "token": "may",
+      "token_pos": 24,
+      "word_score_logit": 0.04749685153365135,
+      "word_attn_weight": 0.02483992651104927,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.45486557483673096,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.186695396900177,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.07146917283535004,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 91,
+      "from_sentence_id": 18,
+      "token": "associate",
+      "token_pos": 25,
+      "word_score_logit": 0.03856799751520157,
+      "word_attn_weight": 0.024619121104478836,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.5565816164016724,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.18786951899528503,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.06127072870731354,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 92,
+      "from_sentence_id": 18,
+      "token": "knowing",
+      "token_pos": 41,
+      "word_score_logit": 0.03480628877878189,
+      "word_attn_weight": 0.02452668733894825,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.1886833757162094,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.09397929161787033,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.08533208072185516,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 93,
+      "from_sentence_id": 18,
+      "token": "of",
+      "token_pos": 30,
+      "word_score_logit": 0.03438277542591095,
+      "word_attn_weight": 0.024516301229596138,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.49646589159965515,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.1736515313386917,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.07242348790168762,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 94,
+      "from_sentence_id": 18,
+      "token": "without",
+      "token_pos": 40,
+      "word_score_logit": 0.03227946162223816,
+      "word_attn_weight": 0.024464791640639305,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.20178477466106415,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 17,
+          "attn_weight": 0.09786984324455261,
+          "sentence_text": "here we have the <UNK> difference christians <UNK> exactly what we tend to despise or <UNK> trust belief faith without knowledge"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.08622022718191147,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 95,
+      "from_sentence_id": 19,
+      "token": "maybe",
+      "token_pos": 0,
+      "word_score_logit": 0.007909882813692093,
+      "word_attn_weight": 1.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.07811079919338226,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.06941358745098114,
+          "sentence_text": "the first two choices here life and death are <UNK> documented and the last one is total <UNK> unless one uses the bible and that is totally circular"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.0635695606470108,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 96,
+      "from_sentence_id": 19,
+      "token": "<PAD>",
+      "token_pos": 3,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.07367226481437683,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.0612507238984108,
+          "sentence_text": "the first two choices here life and death are <UNK> documented and the last one is total <UNK> unless one uses the bible and that is totally circular"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.0611717514693737,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 97,
+      "from_sentence_id": 19,
+      "token": "<PAD>",
+      "token_pos": 1,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.07367226481437683,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.0612507238984108,
+          "sentence_text": "the first two choices here life and death are <UNK> documented and the last one is total <UNK> unless one uses the bible and that is totally circular"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.0611717514693737,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 98,
+      "from_sentence_id": 19,
+      "token": "<PAD>",
+      "token_pos": 4,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.07367226481437683,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.0612507238984108,
+          "sentence_text": "the first two choices here life and death are <UNK> documented and the last one is total <UNK> unless one uses the bible and that is totally circular"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.0611717514693737,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    },
+    {
+      "query_id": 99,
+      "from_sentence_id": 19,
+      "token": "<PAD>",
+      "token_pos": 2,
+      "word_score_logit": -1000000000.0,
+      "word_attn_weight": 0.0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 13,
+          "attn_weight": 0.07367226481437683,
+          "sentence_text": "there is nothing more disgusting than christian attempts to manipulate interpret the old testament as being filled with signs for the coming of christ"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 9,
+          "attn_weight": 0.0612507238984108,
+          "sentence_text": "the first two choices here life and death are <UNK> documented and the last one is total <UNK> unless one uses the bible and that is totally circular"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 2,
+          "attn_weight": 0.0611717514693737,
+          "sentence_text": "it may work for some but not for others it doesn't give any insight into an overall god or overall truth of a religion it would seem to be dependent solely on the individual as well as individually created"
+        }
+      ]
+    }
+  ],
+  "sentence_importance_from_cross_attn": {
+    "definition": "mean cross-attn over queries",
+    "values": [
+      {
+        "sentence_id": 0,
+        "importance": 0.02691803313791752
+      },
+      {
+        "sentence_id": 1,
+        "importance": 0.022270869463682175
+      },
+      {
+        "sentence_id": 2,
+        "importance": 0.07454623281955719
+      },
+      {
+        "sentence_id": 3,
+        "importance": 0.03258737549185753
+      },
+      {
+        "sentence_id": 4,
+        "importance": 0.05180094763636589
+      },
+      {
+        "sentence_id": 5,
+        "importance": 0.04563967138528824
+      },
+      {
+        "sentence_id": 6,
+        "importance": 0.025288833305239677
+      },
+      {
+        "sentence_id": 7,
+        "importance": 0.030762605369091034
+      },
+      {
+        "sentence_id": 8,
+        "importance": 0.024692127481102943
+      },
+      {
+        "sentence_id": 9,
+        "importance": 0.05896027013659477
+      },
+      {
+        "sentence_id": 10,
+        "importance": 0.03721156343817711
+      },
+      {
+        "sentence_id": 11,
+        "importance": 0.024007363244891167
+      },
+      {
+        "sentence_id": 12,
+        "importance": 0.023514393717050552
+      },
+      {
+        "sentence_id": 13,
+        "importance": 0.2438456267118454
+      },
+      {
+        "sentence_id": 14,
+        "importance": 0.03497801348567009
+      },
+      {
+        "sentence_id": 15,
+        "importance": 0.031198127195239067
+      },
+      {
+        "sentence_id": 16,
+        "importance": 0.027017729356884956
+      },
+      {
+        "sentence_id": 17,
+        "importance": 0.10977339744567871
+      },
+      {
+        "sentence_id": 18,
+        "importance": 0.05612334609031677
+      },
+      {
+        "sentence_id": 19,
+        "importance": 0.018863443285226822
+      }
+    ],
+    "ranked": [
+      {
+        "sentence_id": 13,
+        "importance": 0.2438456267118454
+      },
+      {
+        "sentence_id": 17,
+        "importance": 0.10977339744567871
+      },
+      {
+        "sentence_id": 2,
+        "importance": 0.07454623281955719
+      },
+      {
+        "sentence_id": 9,
+        "importance": 0.05896027013659477
+      },
+      {
+        "sentence_id": 18,
+        "importance": 0.05612334609031677
+      },
+      {
+        "sentence_id": 4,
+        "importance": 0.05180094763636589
+      },
+      {
+        "sentence_id": 5,
+        "importance": 0.04563967138528824
+      },
+      {
+        "sentence_id": 10,
+        "importance": 0.03721156343817711
+      },
+      {
+        "sentence_id": 14,
+        "importance": 0.03497801348567009
+      },
+      {
+        "sentence_id": 3,
+        "importance": 0.03258737549185753
+      },
+      {
+        "sentence_id": 15,
+        "importance": 0.031198127195239067
+      },
+      {
+        "sentence_id": 7,
+        "importance": 0.030762605369091034
+      },
+      {
+        "sentence_id": 16,
+        "importance": 0.027017729356884956
+      },
+      {
+        "sentence_id": 0,
+        "importance": 0.02691803313791752
+      },
+      {
+        "sentence_id": 6,
+        "importance": 0.025288833305239677
+      },
+      {
+        "sentence_id": 8,
+        "importance": 0.024692127481102943
+      },
+      {
+        "sentence_id": 11,
+        "importance": 0.024007363244891167
+      },
+      {
+        "sentence_id": 12,
+        "importance": 0.023514393717050552
+      },
+      {
+        "sentence_id": 1,
+        "importance": 0.022270869463682175
+      },
+      {
+        "sentence_id": 19,
+        "importance": 0.018863443285226822
+      }
+    ]
+  },
+  "example_id": "test-15"
+}

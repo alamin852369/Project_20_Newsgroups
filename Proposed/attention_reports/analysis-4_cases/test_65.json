@@ -1,0 +1,238 @@
+{
+  "example_id": "test_65",
+  "true_label_id": 18,
+  "pred_label_id": 16,
+  "true_label_name": "talk.politics.misc",
+  "pred_label_name": "talk.politics.guns",
+  "pred_confidence": 0.5296522378921509,
+  "metrics": {
+    "num_sents": 5,
+    "K": 5,
+    "stop_ratio": 0.4,
+    "unk_ratio": 0.0,
+    "num_ratio": 0.0,
+    "content_ratio": 0.56,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 1.4325993061065674,
+    "sentence_importance_entropy": 1.460886001586914,
+    "sentence_importance_max": 0.37726444005966187,
+    "top_sentence_id": 2,
+    "query_mismatch_rate": 0.64,
+    "selected_quality_counts": {
+      "content_word": 14,
+      "stopword": 10,
+      "other": 1
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.24,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.27190790772438045,
+    "D_local_global_conflict": 0.64,
+    "E_overconfident_error": 0.5296522378921509
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "the white house office of the press secretary for immediate release april 19 1993 statement of president clinton i am deeply saddened by the loss of life in waco today",
+      "my thoughts and prayers are with the families of david koresh's victims",
+      "the law enforcement agencies involved in the waco siege recommended the course of action pursued today",
+      "the attorney general informed me of their analysis and judgment and recommended that we proceed with today's action given the risks of maintaining the previous policy indefinitely",
+      "i told the attorney general to do what she thought was right and i stand by that decision"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "waco",
+          "token_pos": 28,
+          "quality": "content_word",
+          "word_score_logit": 0.06725099682807922,
+          "word_attn_weight": 0.03656850382685661
+        },
+        {
+          "token": "in",
+          "token_pos": 27,
+          "quality": "stopword",
+          "word_score_logit": 0.04406661540269852,
+          "word_attn_weight": 0.03573044016957283
+        },
+        {
+          "token": "of",
+          "token_pos": 25,
+          "quality": "stopword",
+          "word_score_logit": 0.014912083745002747,
+          "word_attn_weight": 0.034703776240348816
+        },
+        {
+          "token": "life",
+          "token_pos": 26,
+          "quality": "content_word",
+          "word_score_logit": 0.014018970541656017,
+          "word_attn_weight": 0.03467279300093651
+        },
+        {
+          "token": "white",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.007274650037288666,
+          "word_attn_weight": 0.03443973511457443
+        }
+      ],
+      [
+        {
+          "token": "david",
+          "token_pos": 9,
+          "quality": "content_word",
+          "word_score_logit": 0.028070054948329926,
+          "word_attn_weight": 0.08543817698955536
+        },
+        {
+          "token": "the",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": 0.0278405100107193,
+          "word_attn_weight": 0.08541857451200485
+        },
+        {
+          "token": "koresh's",
+          "token_pos": 10,
+          "quality": "other",
+          "word_score_logit": 0.01745101436972618,
+          "word_attn_weight": 0.08453571051359177
+        },
+        {
+          "token": "of",
+          "token_pos": 8,
+          "quality": "stopword",
+          "word_score_logit": 0.011239598505198956,
+          "word_attn_weight": 0.0840122401714325
+        },
+        {
+          "token": "with",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.010532105341553688,
+          "word_attn_weight": 0.08395282924175262
+        }
+      ],
+      [
+        {
+          "token": "the",
+          "token_pos": 6,
+          "quality": "stopword",
+          "word_score_logit": 0.1026991754770279,
+          "word_attn_weight": 0.06645224988460541
+        },
+        {
+          "token": "waco",
+          "token_pos": 7,
+          "quality": "content_word",
+          "word_score_logit": 0.1006791740655899,
+          "word_attn_weight": 0.06631815433502197
+        },
+        {
+          "token": "in",
+          "token_pos": 5,
+          "quality": "stopword",
+          "word_score_logit": 0.09864982962608337,
+          "word_attn_weight": 0.06618370860815048
+        },
+        {
+          "token": "agencies",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.09115047007799149,
+          "word_attn_weight": 0.06568922847509384
+        },
+        {
+          "token": "involved",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.08241035789251328,
+          "word_attn_weight": 0.06511759757995605
+        }
+      ],
+      [
+        {
+          "token": "attorney",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.02012455463409424,
+          "word_attn_weight": 0.03868218511343002
+        },
+        {
+          "token": "the",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.013335202820599079,
+          "word_attn_weight": 0.03842044994235039
+        },
+        {
+          "token": "general",
+          "token_pos": 2,
+          "quality": "content_word",
+          "word_score_logit": 0.005135511979460716,
+          "word_attn_weight": 0.03810669854283333
+        },
+        {
+          "token": "action",
+          "token_pos": 17,
+          "quality": "content_word",
+          "word_score_logit": -0.0058936309069395065,
+          "word_attn_weight": 0.0376887209713459
+        },
+        {
+          "token": "informed",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": -0.007308749482035637,
+          "word_attn_weight": 0.037635426968336105
+        }
+      ],
+      [
+        {
+          "token": "attorney",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.029467757791280746,
+          "word_attn_weight": 0.05702674016356468
+        },
+        {
+          "token": "the",
+          "token_pos": 2,
+          "quality": "stopword",
+          "word_score_logit": 0.025086455047130585,
+          "word_attn_weight": 0.056777432560920715
+        },
+        {
+          "token": "i",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.016859911382198334,
+          "word_attn_weight": 0.05631227046251297
+        },
+        {
+          "token": "told",
+          "token_pos": 1,
+          "quality": "content_word",
+          "word_score_logit": 0.0132608562707901,
+          "word_attn_weight": 0.0561099648475647
+        },
+        {
+          "token": "right",
+          "token_pos": 11,
+          "quality": "content_word",
+          "word_score_logit": 0.01211436279118061,
+          "word_attn_weight": 0.056045666337013245
+        }
+      ]
+    ],
+    "top_sentence_id": 2,
+    "sentence_importance_distribution": [
+      0.2051669806241989,
+      0.11414504051208496,
+      0.37726444005966187,
+      0.23770463466644287,
+      0.0657188817858696
+    ]
+  }
+}

@@ -1,0 +1,2288 @@
+{
+  "true_label_id": 2,
+  "pred_label_id": 3,
+  "true_label_name": "comp.os.ms-windows.misc",
+  "pred_label_name": "comp.sys.ibm.pc.hardware",
+  "pred_confidence": 0.9025008082389832,
+  "num_sents": 12,
+  "sentence_summaries": [
+    {
+      "sentence_id": 0,
+      "sentence_text": "from article <UNK> <UNK> world std com by <UNK> world std com christopher f <UNK> good question",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "f",
+          "token_pos": 13,
+          "word_score_logit": 0.07673747092485428,
+          "word_attn_weight": 0.06315812468528748
+        },
+        {
+          "rank": 1,
+          "token": "com",
+          "token_pos": 11,
+          "word_score_logit": 0.06671217083930969,
+          "word_attn_weight": 0.0625281110405922
+        },
+        {
+          "rank": 2,
+          "token": "christopher",
+          "token_pos": 12,
+          "word_score_logit": 0.06398291885852814,
+          "word_attn_weight": 0.062357690185308456
+        },
+        {
+          "rank": 3,
+          "token": "com",
+          "token_pos": 6,
+          "word_score_logit": 0.026056187227368355,
+          "word_attn_weight": 0.060036949813365936
+        },
+        {
+          "rank": 4,
+          "token": "std",
+          "token_pos": 10,
+          "word_score_logit": 0.023252028971910477,
+          "word_attn_weight": 0.05986883118748665
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "sentence_text": "answer the eisa bus does move 32 bits rather than <UNK> 8 16 but it still moves it at about the speed as the isa bus",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "answer",
+          "token_pos": 0,
+          "word_score_logit": 0.05041498690843582,
+          "word_attn_weight": 0.04033011943101883
+        },
+        {
+          "rank": 1,
+          "token": "does",
+          "token_pos": 4,
+          "word_score_logit": 0.03740178793668747,
+          "word_attn_weight": 0.039808694273233414
+        },
+        {
+          "rank": 2,
+          "token": "as",
+          "token_pos": 22,
+          "word_score_logit": 0.02875143475830555,
+          "word_attn_weight": 0.03946581855416298
+        },
+        {
+          "rank": 3,
+          "token": "the",
+          "token_pos": 1,
+          "word_score_logit": 0.028459545224905014,
+          "word_attn_weight": 0.03945430368185043
+        },
+        {
+          "rank": 4,
+          "token": "speed",
+          "token_pos": 21,
+          "word_score_logit": 0.025438755750656128,
+          "word_attn_weight": 0.03933529928326607
+        }
+      ]
+    },
+    {
+      "sentence_id": 2,
+      "sentence_text": "i think that's either 8 or 10 mhz",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "mhz",
+          "token_pos": 7,
+          "word_score_logit": 0.07961338758468628,
+          "word_attn_weight": 0.1301046907901764
+        },
+        {
+          "rank": 1,
+          "token": "or",
+          "token_pos": 5,
+          "word_score_logit": 0.048536017537117004,
+          "word_attn_weight": 0.1261235624551773
+        },
+        {
+          "rank": 2,
+          "token": "10",
+          "token_pos": 6,
+          "word_score_logit": 0.04094266891479492,
+          "word_attn_weight": 0.12516948580741882
+        },
+        {
+          "rank": 3,
+          "token": "8",
+          "token_pos": 4,
+          "word_score_logit": 0.040718771517276764,
+          "word_attn_weight": 0.1251414567232132
+        },
+        {
+          "rank": 4,
+          "token": "either",
+          "token_pos": 3,
+          "word_score_logit": 0.03896913677453995,
+          "word_attn_weight": 0.12492270767688751
+        }
+      ]
+    },
+    {
+      "sentence_id": 3,
+      "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "also",
+          "token_pos": 4,
+          "word_score_logit": 0.09182105958461761,
+          "word_attn_weight": 0.04323902726173401
+        },
+        {
+          "rank": 1,
+          "token": "data",
+          "token_pos": 15,
+          "word_score_logit": 0.0909358561038971,
+          "word_attn_weight": 0.0432007722556591
+        },
+        {
+          "rank": 2,
+          "token": "mhz",
+          "token_pos": 23,
+          "word_score_logit": 0.07771926373243332,
+          "word_attn_weight": 0.04263355955481529
+        },
+        {
+          "rank": 3,
+          "token": "speed",
+          "token_pos": 19,
+          "word_score_logit": 0.07315536588430405,
+          "word_attn_weight": 0.042439427226781845
+        },
+        {
+          "rank": 4,
+          "token": "up",
+          "token_pos": 20,
+          "word_score_logit": 0.07021293044090271,
+          "word_attn_weight": 0.042314738035202026
+        }
+      ]
+    },
+    {
+      "sentence_id": 4,
+      "sentence_text": "so on a 33mhz cpu the local bus is moving 32bit data at 33 mhz and the eisa is moving 32bit data at 8 or 10 mhz",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "data",
+          "token_pos": 11,
+          "word_score_logit": 0.10012634843587875,
+          "word_attn_weight": 0.0388195775449276
+        },
+        {
+          "rank": 1,
+          "token": "mhz",
+          "token_pos": 26,
+          "word_score_logit": 0.086852066218853,
+          "word_attn_weight": 0.038307685405015945
+        },
+        {
+          "rank": 2,
+          "token": "mhz",
+          "token_pos": 14,
+          "word_score_logit": 0.08536171913146973,
+          "word_attn_weight": 0.038250632584095
+        },
+        {
+          "rank": 3,
+          "token": "cpu",
+          "token_pos": 4,
+          "word_score_logit": 0.07456882297992706,
+          "word_attn_weight": 0.037840016186237335
+        },
+        {
+          "rank": 4,
+          "token": "33",
+          "token_pos": 13,
+          "word_score_logit": 0.06814903020858765,
+          "word_attn_weight": 0.03759787231683731
+        }
+      ]
+    },
+    {
+      "sentence_id": 5,
+      "sentence_text": "so the local bus should be 3 to 4 times faster than eisa on a 33 mhz cpu",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "faster",
+          "token_pos": 10,
+          "word_score_logit": 0.06283334642648697,
+          "word_attn_weight": 0.0570736862719059
+        },
+        {
+          "rank": 1,
+          "token": "mhz",
+          "token_pos": 16,
+          "word_score_logit": 0.05770452320575714,
+          "word_attn_weight": 0.05678171291947365
+        },
+        {
+          "rank": 2,
+          "token": "times",
+          "token_pos": 9,
+          "word_score_logit": 0.04967882111668587,
+          "word_attn_weight": 0.05632782354950905
+        },
+        {
+          "rank": 3,
+          "token": "than",
+          "token_pos": 11,
+          "word_score_logit": 0.04499075561761856,
+          "word_attn_weight": 0.05606437101960182
+        },
+        {
+          "rank": 4,
+          "token": "3",
+          "token_pos": 6,
+          "word_score_logit": 0.043447982519865036,
+          "word_attn_weight": 0.055977944284677505
+        }
+      ]
+    },
+    {
+      "sentence_id": 6,
+      "sentence_text": "eisa should be about two maybe 3 times as fast as isa",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "isa",
+          "token_pos": 11,
+          "word_score_logit": 0.016261398792266846,
+          "word_attn_weight": 0.08615901321172714
+        },
+        {
+          "rank": 1,
+          "token": "as",
+          "token_pos": 10,
+          "word_score_logit": 0.006388756446540356,
+          "word_attn_weight": 0.08531257510185242
+        },
+        {
+          "rank": 2,
+          "token": "fast",
+          "token_pos": 9,
+          "word_score_logit": -0.007425573654472828,
+          "word_attn_weight": 0.08414214104413986
+        },
+        {
+          "rank": 3,
+          "token": "times",
+          "token_pos": 7,
+          "word_score_logit": -0.01328522153198719,
+          "word_attn_weight": 0.08365054428577423
+        },
+        {
+          "rank": 4,
+          "token": "be",
+          "token_pos": 2,
+          "word_score_logit": -0.018616359680891037,
+          "word_attn_weight": 0.08320577442646027
+        }
+      ]
+    },
+    {
+      "sentence_id": 7,
+      "sentence_text": "that's a very good question",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "question",
+          "token_pos": 4,
+          "word_score_logit": -0.0022288840264081955,
+          "word_attn_weight": 0.20159770548343658
+        },
+        {
+          "rank": 1,
+          "token": "good",
+          "token_pos": 3,
+          "word_score_logit": -0.004995536059141159,
+          "word_attn_weight": 0.20104071497917175
+        },
+        {
+          "rank": 2,
+          "token": "very",
+          "token_pos": 2,
+          "word_score_logit": -0.010300884023308754,
+          "word_attn_weight": 0.19997696578502655
+        },
+        {
+          "rank": 3,
+          "token": "a",
+          "token_pos": 1,
+          "word_score_logit": -0.016115780919790268,
+          "word_attn_weight": 0.19881749153137207
+        },
+        {
+          "rank": 4,
+          "token": "that's",
+          "token_pos": 0,
+          "word_score_logit": -0.017376067116856575,
+          "word_attn_weight": 0.19856707751750946
+        }
+      ]
+    },
+    {
+      "sentence_id": 8,
+      "sentence_text": "the eisa bus does have more advantages over the isa bus than just it's width",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "width",
+          "token_pos": 14,
+          "word_score_logit": 0.053514204919338226,
+          "word_attn_weight": 0.07116179168224335
+        },
+        {
+          "rank": 1,
+          "token": "does",
+          "token_pos": 3,
+          "word_score_logit": 0.010294821113348007,
+          "word_attn_weight": 0.06815173476934433
+        },
+        {
+          "rank": 2,
+          "token": "the",
+          "token_pos": 0,
+          "word_score_logit": 0.009800836443901062,
+          "word_attn_weight": 0.06811808049678802
+        },
+        {
+          "rank": 3,
+          "token": "just",
+          "token_pos": 12,
+          "word_score_logit": 0.0007706647738814354,
+          "word_attn_weight": 0.06750573217868805
+        },
+        {
+          "rank": 4,
+          "token": "bus",
+          "token_pos": 2,
+          "word_score_logit": -0.004824979230761528,
+          "word_attn_weight": 0.06712904572486877
+        }
+      ]
+    },
+    {
+      "sentence_id": 9,
+      "sentence_text": "for example more better interrupts and bus mastering",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "example",
+          "token_pos": 1,
+          "word_score_logit": 0.026728080585598946,
+          "word_attn_weight": 0.12718714773654938
+        },
+        {
+          "rank": 1,
+          "token": "bus",
+          "token_pos": 6,
+          "word_score_logit": 0.024061404168605804,
+          "word_attn_weight": 0.12684842944145203
+        },
+        {
+          "rank": 2,
+          "token": "better",
+          "token_pos": 3,
+          "word_score_logit": 0.012587529607117176,
+          "word_attn_weight": 0.1254013031721115
+        },
+        {
+          "rank": 3,
+          "token": "more",
+          "token_pos": 2,
+          "word_score_logit": 0.00974368117749691,
+          "word_attn_weight": 0.12504519522190094
+        },
+        {
+          "rank": 4,
+          "token": "and",
+          "token_pos": 5,
+          "word_score_logit": 0.009703246876597404,
+          "word_attn_weight": 0.12504012882709503
+        }
+      ]
+    },
+    {
+      "sentence_id": 10,
+      "sentence_text": "but these other factors do not impact a video card very much",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "factors",
+          "token_pos": 3,
+          "word_score_logit": 0.045938730239868164,
+          "word_attn_weight": 0.08557222038507462
+        },
+        {
+          "rank": 1,
+          "token": "card",
+          "token_pos": 9,
+          "word_score_logit": 0.03715024143457413,
+          "word_attn_weight": 0.08482346683740616
+        },
+        {
+          "rank": 2,
+          "token": "other",
+          "token_pos": 2,
+          "word_score_logit": 0.03464441001415253,
+          "word_attn_weight": 0.08461117744445801
+        },
+        {
+          "rank": 3,
+          "token": "these",
+          "token_pos": 1,
+          "word_score_logit": 0.023152897134423256,
+          "word_attn_weight": 0.08364443480968475
+        },
+        {
+          "rank": 4,
+          "token": "but",
+          "token_pos": 0,
+          "word_score_logit": 0.021945694461464882,
+          "word_attn_weight": 0.08354351669549942
+        }
+      ]
+    },
+    {
+      "sentence_id": 11,
+      "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "multiple",
+          "token_pos": 8,
+          "word_score_logit": 0.08985692262649536,
+          "word_attn_weight": 0.05917314067482948
+        },
+        {
+          "rank": 1,
+          "token": "with",
+          "token_pos": 7,
+          "word_score_logit": 0.07875482738018036,
+          "word_attn_weight": 0.05851982906460762
+        },
+        {
+          "rank": 2,
+          "token": "file",
+          "token_pos": 5,
+          "word_score_logit": 0.06078161671757698,
+          "word_attn_weight": 0.0574774332344532
+        },
+        {
+          "rank": 3,
+          "token": "servers",
+          "token_pos": 6,
+          "word_score_logit": 0.05099384859204292,
+          "word_attn_weight": 0.05691760405898094
+        },
+        {
+          "rank": 4,
+          "token": "they",
+          "token_pos": 0,
+          "word_score_logit": 0.04540197178721428,
+          "word_attn_weight": 0.056600216776132584
+        }
+      ]
+    }
+  ],
+  "query_summaries": [
+    {
+      "query_id": 0,
+      "from_sentence_id": 0,
+      "token": "f",
+      "token_pos": 13,
+      "word_score_logit": 0.07673747092485428,
+      "word_attn_weight": 0.06315812468528748,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.1659601330757141,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.11448513716459274,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 8,
+          "attn_weight": 0.11314879357814789,
+          "sentence_text": "the eisa bus does have more advantages over the isa bus than just it's width"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "from_sentence_id": 0,
+      "token": "com",
+      "token_pos": 11,
+      "word_score_logit": 0.06671217083930969,
+      "word_attn_weight": 0.0625281110405922,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.18578913807868958,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.12416575849056244,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 8,
+          "attn_weight": 0.1176941841840744,
+          "sentence_text": "the eisa bus does have more advantages over the isa bus than just it's width"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "from_sentence_id": 0,
+      "token": "christopher",
+      "token_pos": 12,
+      "word_score_logit": 0.06398291885852814,
+      "word_attn_weight": 0.062357690185308456,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.14345397055149078,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 8,
+          "attn_weight": 0.107303187251091,
+          "sentence_text": "the eisa bus does have more advantages over the isa bus than just it's width"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 10,
+          "attn_weight": 0.09931249916553497,
+          "sentence_text": "but these other factors do not impact a video card very much"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "from_sentence_id": 0,
+      "token": "com",
+      "token_pos": 6,
+      "word_score_logit": 0.026056187227368355,
+      "word_attn_weight": 0.060036949813365936,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.13821154832839966,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 8,
+          "attn_weight": 0.10664635896682739,
+          "sentence_text": "the eisa bus does have more advantages over the isa bus than just it's width"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 11,
+          "attn_weight": 0.10352262854576111,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "from_sentence_id": 0,
+      "token": "std",
+      "token_pos": 10,
+      "word_score_logit": 0.023252028971910477,
+      "word_attn_weight": 0.05986883118748665,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.17795489728450775,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.11015930026769638,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 8,
+          "attn_weight": 0.10825128853321075,
+          "sentence_text": "the eisa bus does have more advantages over the isa bus than just it's width"
+        }
+      ]
+    },
+    {
+      "query_id": 5,
+      "from_sentence_id": 1,
+      "token": "answer",
+      "token_pos": 0,
+      "word_score_logit": 0.05041498690843582,
+      "word_attn_weight": 0.04033011943101883,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.13870273530483246,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.12837371230125427,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 8,
+          "attn_weight": 0.10428573191165924,
+          "sentence_text": "the eisa bus does have more advantages over the isa bus than just it's width"
+        }
+      ]
+    },
+    {
+      "query_id": 6,
+      "from_sentence_id": 1,
+      "token": "does",
+      "token_pos": 4,
+      "word_score_logit": 0.03740178793668747,
+      "word_attn_weight": 0.039808694273233414,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.22764098644256592,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.1756291687488556,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 8,
+          "attn_weight": 0.11594171822071075,
+          "sentence_text": "the eisa bus does have more advantages over the isa bus than just it's width"
+        }
+      ]
+    },
+    {
+      "query_id": 7,
+      "from_sentence_id": 1,
+      "token": "as",
+      "token_pos": 22,
+      "word_score_logit": 0.02875143475830555,
+      "word_attn_weight": 0.03946581855416298,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.17508846521377563,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.15374289453029633,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 8,
+          "attn_weight": 0.1133560836315155,
+          "sentence_text": "the eisa bus does have more advantages over the isa bus than just it's width"
+        }
+      ]
+    },
+    {
+      "query_id": 8,
+      "from_sentence_id": 1,
+      "token": "the",
+      "token_pos": 1,
+      "word_score_logit": 0.028459545224905014,
+      "word_attn_weight": 0.03945430368185043,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.16312134265899658,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.1508704572916031,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 8,
+          "attn_weight": 0.10896549373865128,
+          "sentence_text": "the eisa bus does have more advantages over the isa bus than just it's width"
+        }
+      ]
+    },
+    {
+      "query_id": 9,
+      "from_sentence_id": 1,
+      "token": "speed",
+      "token_pos": 21,
+      "word_score_logit": 0.025438755750656128,
+      "word_attn_weight": 0.03933529928326607,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.22719091176986694,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.20016324520111084,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 8,
+          "attn_weight": 0.11313198506832123,
+          "sentence_text": "the eisa bus does have more advantages over the isa bus than just it's width"
+        }
+      ]
+    },
+    {
+      "query_id": 10,
+      "from_sentence_id": 2,
+      "token": "mhz",
+      "token_pos": 7,
+      "word_score_logit": 0.07961338758468628,
+      "word_attn_weight": 0.1301046907901764,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.25298869609832764,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.17910157144069672,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.10593818128108978,
+          "sentence_text": "so on a 33mhz cpu the local bus is moving 32bit data at 33 mhz and the eisa is moving 32bit data at 8 or 10 mhz"
+        }
+      ]
+    },
+    {
+      "query_id": 11,
+      "from_sentence_id": 2,
+      "token": "or",
+      "token_pos": 5,
+      "word_score_logit": 0.048536017537117004,
+      "word_attn_weight": 0.1261235624551773,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.18124663829803467,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.14777998626232147,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 8,
+          "attn_weight": 0.1057235598564148,
+          "sentence_text": "the eisa bus does have more advantages over the isa bus than just it's width"
+        }
+      ]
+    },
+    {
+      "query_id": 12,
+      "from_sentence_id": 2,
+      "token": "10",
+      "token_pos": 6,
+      "word_score_logit": 0.04094266891479492,
+      "word_attn_weight": 0.12516948580741882,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.17440344393253326,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.1430543065071106,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.10568369179964066,
+          "sentence_text": "so on a 33mhz cpu the local bus is moving 32bit data at 33 mhz and the eisa is moving 32bit data at 8 or 10 mhz"
+        }
+      ]
+    },
+    {
+      "query_id": 13,
+      "from_sentence_id": 2,
+      "token": "8",
+      "token_pos": 4,
+      "word_score_logit": 0.040718771517276764,
+      "word_attn_weight": 0.1251414567232132,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.16830331087112427,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.14637108147144318,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.10406023263931274,
+          "sentence_text": "so on a 33mhz cpu the local bus is moving 32bit data at 33 mhz and the eisa is moving 32bit data at 8 or 10 mhz"
+        }
+      ]
+    },
+    {
+      "query_id": 14,
+      "from_sentence_id": 2,
+      "token": "either",
+      "token_pos": 3,
+      "word_score_logit": 0.03896913677453995,
+      "word_attn_weight": 0.12492270767688751,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.16228890419006348,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.14205223321914673,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 8,
+          "attn_weight": 0.1056627482175827,
+          "sentence_text": "the eisa bus does have more advantages over the isa bus than just it's width"
+        }
+      ]
+    },
+    {
+      "query_id": 15,
+      "from_sentence_id": 3,
+      "token": "also",
+      "token_pos": 4,
+      "word_score_logit": 0.09182105958461761,
+      "word_attn_weight": 0.04323902726173401,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.27404266595840454,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.1971169412136078,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 8,
+          "attn_weight": 0.11080704629421234,
+          "sentence_text": "the eisa bus does have more advantages over the isa bus than just it's width"
+        }
+      ]
+    },
+    {
+      "query_id": 16,
+      "from_sentence_id": 3,
+      "token": "data",
+      "token_pos": 15,
+      "word_score_logit": 0.0909358561038971,
+      "word_attn_weight": 0.0432007722556591,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.3243480324745178,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.19667935371398926,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 8,
+          "attn_weight": 0.101570263504982,
+          "sentence_text": "the eisa bus does have more advantages over the isa bus than just it's width"
+        }
+      ]
+    },
+    {
+      "query_id": 17,
+      "from_sentence_id": 3,
+      "token": "mhz",
+      "token_pos": 23,
+      "word_score_logit": 0.07771926373243332,
+      "word_attn_weight": 0.04263355955481529,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.29883623123168945,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.20175084471702576,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 8,
+          "attn_weight": 0.10001843422651291,
+          "sentence_text": "the eisa bus does have more advantages over the isa bus than just it's width"
+        }
+      ]
+    },
+    {
+      "query_id": 18,
+      "from_sentence_id": 3,
+      "token": "speed",
+      "token_pos": 19,
+      "word_score_logit": 0.07315536588430405,
+      "word_attn_weight": 0.042439427226781845,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.34054017066955566,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.2360745072364807,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 8,
+          "attn_weight": 0.10349495708942413,
+          "sentence_text": "the eisa bus does have more advantages over the isa bus than just it's width"
+        }
+      ]
+    },
+    {
+      "query_id": 19,
+      "from_sentence_id": 3,
+      "token": "up",
+      "token_pos": 20,
+      "word_score_logit": 0.07021293044090271,
+      "word_attn_weight": 0.042314738035202026,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.2872583270072937,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.1923608034849167,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 8,
+          "attn_weight": 0.11150181293487549,
+          "sentence_text": "the eisa bus does have more advantages over the isa bus than just it's width"
+        }
+      ]
+    },
+    {
+      "query_id": 20,
+      "from_sentence_id": 4,
+      "token": "data",
+      "token_pos": 11,
+      "word_score_logit": 0.10012634843587875,
+      "word_attn_weight": 0.0388195775449276,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.29432255029678345,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.2054990828037262,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 8,
+          "attn_weight": 0.10046038031578064,
+          "sentence_text": "the eisa bus does have more advantages over the isa bus than just it's width"
+        }
+      ]
+    },
+    {
+      "query_id": 21,
+      "from_sentence_id": 4,
+      "token": "mhz",
+      "token_pos": 26,
+      "word_score_logit": 0.086852066218853,
+      "word_attn_weight": 0.038307685405015945,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.26064103841781616,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.18974894285202026,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.10777242481708527,
+          "sentence_text": "so on a 33mhz cpu the local bus is moving 32bit data at 33 mhz and the eisa is moving 32bit data at 8 or 10 mhz"
+        }
+      ]
+    },
+    {
+      "query_id": 22,
+      "from_sentence_id": 4,
+      "token": "mhz",
+      "token_pos": 14,
+      "word_score_logit": 0.08536171913146973,
+      "word_attn_weight": 0.038250632584095,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.29741764068603516,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.21324022114276886,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.0998084545135498,
+          "sentence_text": "so on a 33mhz cpu the local bus is moving 32bit data at 33 mhz and the eisa is moving 32bit data at 8 or 10 mhz"
+        }
+      ]
+    },
+    {
+      "query_id": 23,
+      "from_sentence_id": 4,
+      "token": "cpu",
+      "token_pos": 4,
+      "word_score_logit": 0.07456882297992706,
+      "word_attn_weight": 0.037840016186237335,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.30362752079963684,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.24443502724170685,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 8,
+          "attn_weight": 0.09558585286140442,
+          "sentence_text": "the eisa bus does have more advantages over the isa bus than just it's width"
+        }
+      ]
+    },
+    {
+      "query_id": 24,
+      "from_sentence_id": 4,
+      "token": "33",
+      "token_pos": 13,
+      "word_score_logit": 0.06814903020858765,
+      "word_attn_weight": 0.03759787231683731,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.2245565801858902,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.17866747081279755,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.1046944186091423,
+          "sentence_text": "so on a 33mhz cpu the local bus is moving 32bit data at 33 mhz and the eisa is moving 32bit data at 8 or 10 mhz"
+        }
+      ]
+    },
+    {
+      "query_id": 25,
+      "from_sentence_id": 5,
+      "token": "faster",
+      "token_pos": 10,
+      "word_score_logit": 0.06283334642648697,
+      "word_attn_weight": 0.0570736862719059,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.2221415638923645,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.18835221230983734,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 8,
+          "attn_weight": 0.10739903897047043,
+          "sentence_text": "the eisa bus does have more advantages over the isa bus than just it's width"
+        }
+      ]
+    },
+    {
+      "query_id": 26,
+      "from_sentence_id": 5,
+      "token": "mhz",
+      "token_pos": 16,
+      "word_score_logit": 0.05770452320575714,
+      "word_attn_weight": 0.05678171291947365,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.27793198823928833,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.1960703283548355,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 4,
+          "attn_weight": 0.10542640835046768,
+          "sentence_text": "so on a 33mhz cpu the local bus is moving 32bit data at 33 mhz and the eisa is moving 32bit data at 8 or 10 mhz"
+        }
+      ]
+    },
+    {
+      "query_id": 27,
+      "from_sentence_id": 5,
+      "token": "times",
+      "token_pos": 9,
+      "word_score_logit": 0.04967882111668587,
+      "word_attn_weight": 0.05632782354950905,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.19813132286071777,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.16262847185134888,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 8,
+          "attn_weight": 0.10583250224590302,
+          "sentence_text": "the eisa bus does have more advantages over the isa bus than just it's width"
+        }
+      ]
+    },
+    {
+      "query_id": 28,
+      "from_sentence_id": 5,
+      "token": "than",
+      "token_pos": 11,
+      "word_score_logit": 0.04499075561761856,
+      "word_attn_weight": 0.05606437101960182,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.20099878311157227,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.1638268679380417,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 8,
+          "attn_weight": 0.10607781261205673,
+          "sentence_text": "the eisa bus does have more advantages over the isa bus than just it's width"
+        }
+      ]
+    },
+    {
+      "query_id": 29,
+      "from_sentence_id": 5,
+      "token": "3",
+      "token_pos": 6,
+      "word_score_logit": 0.043447982519865036,
+      "word_attn_weight": 0.055977944284677505,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.17442160844802856,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.1610153168439865,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 8,
+          "attn_weight": 0.10602450370788574,
+          "sentence_text": "the eisa bus does have more advantages over the isa bus than just it's width"
+        }
+      ]
+    },
+    {
+      "query_id": 30,
+      "from_sentence_id": 6,
+      "token": "isa",
+      "token_pos": 11,
+      "word_score_logit": 0.016261398792266846,
+      "word_attn_weight": 0.08615901321172714,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.13869623839855194,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.13077321648597717,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 8,
+          "attn_weight": 0.10741214454174042,
+          "sentence_text": "the eisa bus does have more advantages over the isa bus than just it's width"
+        }
+      ]
+    },
+    {
+      "query_id": 31,
+      "from_sentence_id": 6,
+      "token": "as",
+      "token_pos": 10,
+      "word_score_logit": 0.006388756446540356,
+      "word_attn_weight": 0.08531257510185242,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.11345447599887848,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 8,
+          "attn_weight": 0.09913980215787888,
+          "sentence_text": "the eisa bus does have more advantages over the isa bus than just it's width"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 11,
+          "attn_weight": 0.09913089871406555,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        }
+      ]
+    },
+    {
+      "query_id": 32,
+      "from_sentence_id": 6,
+      "token": "fast",
+      "token_pos": 9,
+      "word_score_logit": -0.007425573654472828,
+      "word_attn_weight": 0.08414214104413986,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.12865149974822998,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.1161930188536644,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 8,
+          "attn_weight": 0.10444837063550949,
+          "sentence_text": "the eisa bus does have more advantages over the isa bus than just it's width"
+        }
+      ]
+    },
+    {
+      "query_id": 33,
+      "from_sentence_id": 6,
+      "token": "times",
+      "token_pos": 7,
+      "word_score_logit": -0.01328522153198719,
+      "word_attn_weight": 0.08365054428577423,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.1120891124010086,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.1022670567035675,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 8,
+          "attn_weight": 0.09950646758079529,
+          "sentence_text": "the eisa bus does have more advantages over the isa bus than just it's width"
+        }
+      ]
+    },
+    {
+      "query_id": 34,
+      "from_sentence_id": 6,
+      "token": "be",
+      "token_pos": 2,
+      "word_score_logit": -0.018616359680891037,
+      "word_attn_weight": 0.08320577442646027,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.11746276915073395,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.10444760322570801,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 8,
+          "attn_weight": 0.10151556134223938,
+          "sentence_text": "the eisa bus does have more advantages over the isa bus than just it's width"
+        }
+      ]
+    },
+    {
+      "query_id": 35,
+      "from_sentence_id": 7,
+      "token": "question",
+      "token_pos": 4,
+      "word_score_logit": -0.0022288840264081955,
+      "word_attn_weight": 0.20159770548343658,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 0,
+          "attn_weight": 0.1058674231171608,
+          "sentence_text": "from article <UNK> <UNK> world std com by <UNK> world std com christopher f <UNK> good question"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 6,
+          "attn_weight": 0.10042046755552292,
+          "sentence_text": "eisa should be about two maybe 3 times as fast as isa"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 10,
+          "attn_weight": 0.09857159852981567,
+          "sentence_text": "but these other factors do not impact a video card very much"
+        }
+      ]
+    },
+    {
+      "query_id": 36,
+      "from_sentence_id": 7,
+      "token": "good",
+      "token_pos": 3,
+      "word_score_logit": -0.004995536059141159,
+      "word_attn_weight": 0.20104071497917175,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.0983063355088234,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 8,
+          "attn_weight": 0.09105386584997177,
+          "sentence_text": "the eisa bus does have more advantages over the isa bus than just it's width"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 10,
+          "attn_weight": 0.09103262424468994,
+          "sentence_text": "but these other factors do not impact a video card very much"
+        }
+      ]
+    },
+    {
+      "query_id": 37,
+      "from_sentence_id": 7,
+      "token": "very",
+      "token_pos": 2,
+      "word_score_logit": -0.010300884023308754,
+      "word_attn_weight": 0.19997696578502655,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.10694918781518936,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 8,
+          "attn_weight": 0.09449739754199982,
+          "sentence_text": "the eisa bus does have more advantages over the isa bus than just it's width"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 10,
+          "attn_weight": 0.09149637818336487,
+          "sentence_text": "but these other factors do not impact a video card very much"
+        }
+      ]
+    },
+    {
+      "query_id": 38,
+      "from_sentence_id": 7,
+      "token": "a",
+      "token_pos": 1,
+      "word_score_logit": -0.016115780919790268,
+      "word_attn_weight": 0.19881749153137207,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.10892333090305328,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 8,
+          "attn_weight": 0.0951562374830246,
+          "sentence_text": "the eisa bus does have more advantages over the isa bus than just it's width"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 10,
+          "attn_weight": 0.09051463007926941,
+          "sentence_text": "but these other factors do not impact a video card very much"
+        }
+      ]
+    },
+    {
+      "query_id": 39,
+      "from_sentence_id": 7,
+      "token": "that's",
+      "token_pos": 0,
+      "word_score_logit": -0.017376067116856575,
+      "word_attn_weight": 0.19856707751750946,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.09936095029115677,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 10,
+          "attn_weight": 0.09168000519275665,
+          "sentence_text": "but these other factors do not impact a video card very much"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 8,
+          "attn_weight": 0.09113992005586624,
+          "sentence_text": "the eisa bus does have more advantages over the isa bus than just it's width"
+        }
+      ]
+    },
+    {
+      "query_id": 40,
+      "from_sentence_id": 8,
+      "token": "width",
+      "token_pos": 14,
+      "word_score_logit": 0.053514204919338226,
+      "word_attn_weight": 0.07116179168224335,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.16807430982589722,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.16629859805107117,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 8,
+          "attn_weight": 0.11128682643175125,
+          "sentence_text": "the eisa bus does have more advantages over the isa bus than just it's width"
+        }
+      ]
+    },
+    {
+      "query_id": 41,
+      "from_sentence_id": 8,
+      "token": "does",
+      "token_pos": 3,
+      "word_score_logit": 0.010294821113348007,
+      "word_attn_weight": 0.06815173476934433,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.20463037490844727,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.17563539743423462,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 8,
+          "attn_weight": 0.12026841938495636,
+          "sentence_text": "the eisa bus does have more advantages over the isa bus than just it's width"
+        }
+      ]
+    },
+    {
+      "query_id": 42,
+      "from_sentence_id": 8,
+      "token": "the",
+      "token_pos": 0,
+      "word_score_logit": 0.009800836443901062,
+      "word_attn_weight": 0.06811808049678802,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.15773499011993408,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.15164117515087128,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 8,
+          "attn_weight": 0.11278867721557617,
+          "sentence_text": "the eisa bus does have more advantages over the isa bus than just it's width"
+        }
+      ]
+    },
+    {
+      "query_id": 43,
+      "from_sentence_id": 8,
+      "token": "just",
+      "token_pos": 12,
+      "word_score_logit": 0.0007706647738814354,
+      "word_attn_weight": 0.06750573217868805,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.1700928807258606,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.15547916293144226,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 8,
+          "attn_weight": 0.11455252766609192,
+          "sentence_text": "the eisa bus does have more advantages over the isa bus than just it's width"
+        }
+      ]
+    },
+    {
+      "query_id": 44,
+      "from_sentence_id": 8,
+      "token": "bus",
+      "token_pos": 2,
+      "word_score_logit": -0.004824979230761528,
+      "word_attn_weight": 0.06712904572486877,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 11,
+          "attn_weight": 0.21356919407844543,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.21103766560554504,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 8,
+          "attn_weight": 0.11766701936721802,
+          "sentence_text": "the eisa bus does have more advantages over the isa bus than just it's width"
+        }
+      ]
+    },
+    {
+      "query_id": 45,
+      "from_sentence_id": 9,
+      "token": "example",
+      "token_pos": 1,
+      "word_score_logit": 0.026728080585598946,
+      "word_attn_weight": 0.12718714773654938,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.10837122797966003,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.0959305688738823,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 8,
+          "attn_weight": 0.09479005634784698,
+          "sentence_text": "the eisa bus does have more advantages over the isa bus than just it's width"
+        }
+      ]
+    },
+    {
+      "query_id": 46,
+      "from_sentence_id": 9,
+      "token": "bus",
+      "token_pos": 6,
+      "word_score_logit": 0.024061404168605804,
+      "word_attn_weight": 0.12684842944145203,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 11,
+          "attn_weight": 0.17098450660705566,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.1533178836107254,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 8,
+          "attn_weight": 0.10759639739990234,
+          "sentence_text": "the eisa bus does have more advantages over the isa bus than just it's width"
+        }
+      ]
+    },
+    {
+      "query_id": 47,
+      "from_sentence_id": 9,
+      "token": "better",
+      "token_pos": 3,
+      "word_score_logit": 0.012587529607117176,
+      "word_attn_weight": 0.1254013031721115,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 11,
+          "attn_weight": 0.10065178573131561,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.09875079244375229,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 8,
+          "attn_weight": 0.09154445677995682,
+          "sentence_text": "the eisa bus does have more advantages over the isa bus than just it's width"
+        }
+      ]
+    },
+    {
+      "query_id": 48,
+      "from_sentence_id": 9,
+      "token": "more",
+      "token_pos": 2,
+      "word_score_logit": 0.00974368117749691,
+      "word_attn_weight": 0.12504519522190094,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.10912047326564789,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.10209648311138153,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 8,
+          "attn_weight": 0.09514076262712479,
+          "sentence_text": "the eisa bus does have more advantages over the isa bus than just it's width"
+        }
+      ]
+    },
+    {
+      "query_id": 49,
+      "from_sentence_id": 9,
+      "token": "and",
+      "token_pos": 5,
+      "word_score_logit": 0.009703246876597404,
+      "word_attn_weight": 0.12504012882709503,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.12766259908676147,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.12757477164268494,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 8,
+          "attn_weight": 0.10156379640102386,
+          "sentence_text": "the eisa bus does have more advantages over the isa bus than just it's width"
+        }
+      ]
+    },
+    {
+      "query_id": 50,
+      "from_sentence_id": 10,
+      "token": "factors",
+      "token_pos": 3,
+      "word_score_logit": 0.045938730239868164,
+      "word_attn_weight": 0.08557222038507462,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.1101888045668602,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.09556429833173752,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 8,
+          "attn_weight": 0.09481745958328247,
+          "sentence_text": "the eisa bus does have more advantages over the isa bus than just it's width"
+        }
+      ]
+    },
+    {
+      "query_id": 51,
+      "from_sentence_id": 10,
+      "token": "card",
+      "token_pos": 9,
+      "word_score_logit": 0.03715024143457413,
+      "word_attn_weight": 0.08482346683740616,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 11,
+          "attn_weight": 0.17207053303718567,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 3,
+          "attn_weight": 0.1711832880973816,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 8,
+          "attn_weight": 0.11220689862966537,
+          "sentence_text": "the eisa bus does have more advantages over the isa bus than just it's width"
+        }
+      ]
+    },
+    {
+      "query_id": 52,
+      "from_sentence_id": 10,
+      "token": "other",
+      "token_pos": 2,
+      "word_score_logit": 0.03464441001415253,
+      "word_attn_weight": 0.08461117744445801,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.11412584781646729,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.09655827283859253,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 8,
+          "attn_weight": 0.0948997437953949,
+          "sentence_text": "the eisa bus does have more advantages over the isa bus than just it's width"
+        }
+      ]
+    },
+    {
+      "query_id": 53,
+      "from_sentence_id": 10,
+      "token": "these",
+      "token_pos": 1,
+      "word_score_logit": 0.023152897134423256,
+      "word_attn_weight": 0.08364443480968475,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.1239444836974144,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.10334987193346024,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 8,
+          "attn_weight": 0.09741705656051636,
+          "sentence_text": "the eisa bus does have more advantages over the isa bus than just it's width"
+        }
+      ]
+    },
+    {
+      "query_id": 54,
+      "from_sentence_id": 10,
+      "token": "but",
+      "token_pos": 0,
+      "word_score_logit": 0.021945694461464882,
+      "word_attn_weight": 0.08354351669549942,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.1251276731491089,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.10366988927125931,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 8,
+          "attn_weight": 0.09698976576328278,
+          "sentence_text": "the eisa bus does have more advantages over the isa bus than just it's width"
+        }
+      ]
+    },
+    {
+      "query_id": 55,
+      "from_sentence_id": 11,
+      "token": "multiple",
+      "token_pos": 8,
+      "word_score_logit": 0.08985692262649536,
+      "word_attn_weight": 0.05917314067482948,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.22318151593208313,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.21651791036128998,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 8,
+          "attn_weight": 0.10894022136926651,
+          "sentence_text": "the eisa bus does have more advantages over the isa bus than just it's width"
+        }
+      ]
+    },
+    {
+      "query_id": 56,
+      "from_sentence_id": 11,
+      "token": "with",
+      "token_pos": 7,
+      "word_score_logit": 0.07875482738018036,
+      "word_attn_weight": 0.05851982906460762,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.234841451048851,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.20491626858711243,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 8,
+          "attn_weight": 0.10887844115495682,
+          "sentence_text": "the eisa bus does have more advantages over the isa bus than just it's width"
+        }
+      ]
+    },
+    {
+      "query_id": 57,
+      "from_sentence_id": 11,
+      "token": "file",
+      "token_pos": 5,
+      "word_score_logit": 0.06078161671757698,
+      "word_attn_weight": 0.0574774332344532,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.15531045198440552,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.13483017683029175,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 8,
+          "attn_weight": 0.10058367252349854,
+          "sentence_text": "the eisa bus does have more advantages over the isa bus than just it's width"
+        }
+      ]
+    },
+    {
+      "query_id": 58,
+      "from_sentence_id": 11,
+      "token": "servers",
+      "token_pos": 6,
+      "word_score_logit": 0.05099384859204292,
+      "word_attn_weight": 0.05691760405898094,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.2611634433269501,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.1959841549396515,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 8,
+          "attn_weight": 0.10899194329977036,
+          "sentence_text": "the eisa bus does have more advantages over the isa bus than just it's width"
+        }
+      ]
+    },
+    {
+      "query_id": 59,
+      "from_sentence_id": 11,
+      "token": "they",
+      "token_pos": 0,
+      "word_score_logit": 0.04540197178721428,
+      "word_attn_weight": 0.056600216776132584,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 3,
+          "attn_weight": 0.1467752456665039,
+          "sentence_text": "the local bus designs also move 32 bits like the eisa but they move the data at the cpu speed up to 40 mhz"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 11,
+          "attn_weight": 0.12837615609169006,
+          "sentence_text": "they have more impact on file servers with multiple hard drives full throttle network cards cd roms etc"
+        },
+        {
+          "rank": 2,
+          "sentence_id": 8,
+          "attn_weight": 0.10193179547786713,
+          "sentence_text": "the eisa bus does have more advantages over the isa bus than just it's width"
+        }
+      ]
+    }
+  ],
+  "sentence_importance_from_cross_attn": {
+    "definition": "mean cross-attn over queries",
+    "values": [
+      {
+        "sentence_id": 0,
+        "importance": 0.042387574911117554
+      },
+      {
+        "sentence_id": 1,
+        "importance": 0.07451102137565613
+      },
+      {
+        "sentence_id": 2,
+        "importance": 0.05595933273434639
+      },
+      {
+        "sentence_id": 3,
+        "importance": 0.18238145112991333
+      },
+      {
+        "sentence_id": 4,
+        "importance": 0.09294161945581436
+      },
+      {
+        "sentence_id": 5,
+        "importance": 0.08962243795394897
+      },
+      {
+        "sentence_id": 6,
+        "importance": 0.052384525537490845
+      },
+      {
+        "sentence_id": 7,
+        "importance": 0.0345223993062973
+      },
+      {
+        "sentence_id": 8,
+        "importance": 0.10368926078081131
+      },
+      {
+        "sentence_id": 9,
+        "importance": 0.055942367762327194
+      },
+      {
+        "sentence_id": 10,
+        "importance": 0.06701987981796265
+      },
+      {
+        "sentence_id": 11,
+        "importance": 0.14863818883895874
+      }
+    ],
+    "ranked": [
+      {
+        "sentence_id": 3,
+        "importance": 0.18238145112991333
+      },
+      {
+        "sentence_id": 11,
+        "importance": 0.14863818883895874
+      },
+      {
+        "sentence_id": 8,
+        "importance": 0.10368926078081131
+      },
+      {
+        "sentence_id": 4,
+        "importance": 0.09294161945581436
+      },
+      {
+        "sentence_id": 5,
+        "importance": 0.08962243795394897
+      },
+      {
+        "sentence_id": 1,
+        "importance": 0.07451102137565613
+      },
+      {
+        "sentence_id": 10,
+        "importance": 0.06701987981796265
+      },
+      {
+        "sentence_id": 2,
+        "importance": 0.05595933273434639
+      },
+      {
+        "sentence_id": 9,
+        "importance": 0.055942367762327194
+      },
+      {
+        "sentence_id": 6,
+        "importance": 0.052384525537490845
+      },
+      {
+        "sentence_id": 0,
+        "importance": 0.042387574911117554
+      },
+      {
+        "sentence_id": 7,
+        "importance": 0.0345223993062973
+      }
+    ]
+  },
+  "example_id": "test-16"
+}

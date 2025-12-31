@@ -1,0 +1,120 @@
+{
+  "example_id": "test_2185",
+  "true_label_id": 14,
+  "pred_label_id": 6,
+  "true_label_name": "sci.space",
+  "pred_label_name": "misc.forsale",
+  "pred_confidence": 0.99497389793396,
+  "metrics": {
+    "num_sents": 2,
+    "K": 5,
+    "stop_ratio": 0.4,
+    "unk_ratio": 0.0,
+    "num_ratio": 0.0,
+    "content_ratio": 0.6,
+    "attn_top_not_selected_rate": 0.0,
+    "cross_entropy": 0.5548714995384216,
+    "sentence_importance_entropy": 0.6062276363372803,
+    "sentence_importance_max": 0.7053903341293335,
+    "top_sentence_id": 1,
+    "query_mismatch_rate": 0.4,
+    "selected_quality_counts": {
+      "stopword": 4,
+      "content_word": 6
+    }
+  },
+  "mode_scores": {
+    "A_context_poor_topk": 0.24,
+    "B_word_selection_mismatch": 0.0,
+    "C_cross_attention_collapse": 0.6725277066230774,
+    "D_local_global_conflict": 0.4,
+    "E_overconfident_error": 0.99497389793396
+  },
+  "payload_bits": {
+    "decoded_sentences": [
+      "why don't you activist guys cut misc invest out of this thread",
+      "they didn't offer any shares for sale yet"
+    ],
+    "selected_by_sentence": [
+      [
+        {
+          "token": "out",
+          "token_pos": 8,
+          "quality": "stopword",
+          "word_score_logit": 0.018292933702468872,
+          "word_attn_weight": 0.08611604571342468
+        },
+        {
+          "token": "of",
+          "token_pos": 9,
+          "quality": "stopword",
+          "word_score_logit": 0.009333173744380474,
+          "word_attn_weight": 0.08534791320562363
+        },
+        {
+          "token": "why",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.006895141676068306,
+          "word_attn_weight": 0.08514007925987244
+        },
+        {
+          "token": "thread",
+          "token_pos": 11,
+          "quality": "content_word",
+          "word_score_logit": 0.0020600827410817146,
+          "word_attn_weight": 0.08472941815853119
+        },
+        {
+          "token": "invest",
+          "token_pos": 7,
+          "quality": "content_word",
+          "word_score_logit": -0.0010520592331886292,
+          "word_attn_weight": 0.08446613699197769
+        }
+      ],
+      [
+        {
+          "token": "yet",
+          "token_pos": 7,
+          "quality": "content_word",
+          "word_score_logit": 0.06850598752498627,
+          "word_attn_weight": 0.1316949427127838
+        },
+        {
+          "token": "any",
+          "token_pos": 3,
+          "quality": "content_word",
+          "word_score_logit": 0.03121008351445198,
+          "word_attn_weight": 0.12687373161315918
+        },
+        {
+          "token": "they",
+          "token_pos": 0,
+          "quality": "stopword",
+          "word_score_logit": 0.030788013711571693,
+          "word_attn_weight": 0.12682019174098969
+        },
+        {
+          "token": "sale",
+          "token_pos": 6,
+          "quality": "content_word",
+          "word_score_logit": 0.013365893624722958,
+          "word_attn_weight": 0.12462984770536423
+        },
+        {
+          "token": "shares",
+          "token_pos": 4,
+          "quality": "content_word",
+          "word_score_logit": 0.00874350592494011,
+          "word_attn_weight": 0.12405510246753693
+        }
+      ]
+    ],
+    "top_sentence_id": 1,
+    "sentence_importance_distribution": [
+      0.2946096956729889,
+      0.7053903341293335
+    ]
+  }
+}

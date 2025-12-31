@@ -1,0 +1,423 @@
+{
+  "true_label_id": 18,
+  "pred_label_id": 16,
+  "true_label_name": "talk.politics.misc",
+  "pred_label_name": "talk.politics.guns",
+  "pred_confidence": 0.9901325702667236,
+  "num_sents": 8,
+  "top_sentences": [
+    {
+      "sentence_id": 4,
+      "importance": 0.3216266632080078,
+      "sentence_text": "all your going to get in terms of a story is what the fbi atf and the texas rangers decide to release",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "texas",
+          "token_pos": 17,
+          "word_score_logit": 0.16647964715957642,
+          "word_attn_weight": 0.048397939652204514
+        },
+        {
+          "rank": 1,
+          "token": "the",
+          "token_pos": 16,
+          "word_score_logit": 0.14831990003585815,
+          "word_attn_weight": 0.04752697795629501
+        },
+        {
+          "rank": 2,
+          "token": "the",
+          "token_pos": 12,
+          "word_score_logit": 0.1430661678314209,
+          "word_attn_weight": 0.047277938574552536
+        },
+        {
+          "rank": 3,
+          "token": "and",
+          "token_pos": 15,
+          "word_score_logit": 0.1429641842842102,
+          "word_attn_weight": 0.047273118048906326
+        },
+        {
+          "rank": 4,
+          "token": "of",
+          "token_pos": 7,
+          "word_score_logit": 0.13737687468528748,
+          "word_attn_weight": 0.04700972139835358
+        }
+      ]
+    },
+    {
+      "sentence_id": 1,
+      "importance": 0.15137986838817596,
+      "sentence_text": "in an investigation of this size with the feds state and civilians involved in the investigation it would be <UNK> impossible to cover up",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "investigation",
+          "token_pos": 2,
+          "word_score_logit": 0.020247751846909523,
+          "word_attn_weight": 0.04281475022435188
+        },
+        {
+          "rank": 1,
+          "token": "size",
+          "token_pos": 5,
+          "word_score_logit": 0.017422636970877647,
+          "word_attn_weight": 0.04269396886229515
+        },
+        {
+          "rank": 2,
+          "token": "an",
+          "token_pos": 1,
+          "word_score_logit": 0.017212167382240295,
+          "word_attn_weight": 0.04268497973680496
+        },
+        {
+          "rank": 3,
+          "token": "in",
+          "token_pos": 0,
+          "word_score_logit": 0.01510479673743248,
+          "word_attn_weight": 0.04259512200951576
+        },
+        {
+          "rank": 4,
+          "token": "up",
+          "token_pos": 23,
+          "word_score_logit": 0.01246238499879837,
+          "word_attn_weight": 0.04248271882534027
+        }
+      ]
+    },
+    {
+      "sentence_id": 3,
+      "importance": 0.11754434555768967,
+      "sentence_text": "the fbi and company have the whole area <UNK> off and have already arrested reporters for being at the site and taking pictures",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "the",
+          "token_pos": 0,
+          "word_score_logit": 0.07366441935300827,
+          "word_attn_weight": 0.04556872695684433
+        },
+        {
+          "rank": 1,
+          "token": "fbi",
+          "token_pos": 1,
+          "word_score_logit": 0.06864067912101746,
+          "word_attn_weight": 0.04534037411212921
+        },
+        {
+          "rank": 2,
+          "token": "have",
+          "token_pos": 4,
+          "word_score_logit": 0.06362631171941757,
+          "word_attn_weight": 0.04511359706521034
+        },
+        {
+          "rank": 3,
+          "token": "company",
+          "token_pos": 3,
+          "word_score_logit": 0.05221784859895706,
+          "word_attn_weight": 0.044601839035749435
+        },
+        {
+          "rank": 4,
+          "token": "the",
+          "token_pos": 5,
+          "word_score_logit": 0.05198005586862564,
+          "word_attn_weight": 0.044591233134269714
+        }
+      ]
+    },
+    {
+      "sentence_id": 0,
+      "importance": 0.11345525830984116,
+      "sentence_text": "can people please stop the 'i think know the batf fbi are completely responsible but they'll cover it up so that the investigation will show that <UNK> is <UNK> bs",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "fbi",
+          "token_pos": 10,
+          "word_score_logit": 0.06229052320122719,
+          "word_attn_weight": 0.034768324345350266
+        },
+        {
+          "rank": 1,
+          "token": "the",
+          "token_pos": 4,
+          "word_score_logit": 0.06092866510152817,
+          "word_attn_weight": 0.0347210057079792
+        },
+        {
+          "rank": 2,
+          "token": "can",
+          "token_pos": 0,
+          "word_score_logit": 0.05640125274658203,
+          "word_attn_weight": 0.03456416726112366
+        },
+        {
+          "rank": 3,
+          "token": "think",
+          "token_pos": 6,
+          "word_score_logit": 0.05512765794992447,
+          "word_attn_weight": 0.03452017158269882
+        },
+        {
+          "rank": 4,
+          "token": "know",
+          "token_pos": 7,
+          "word_score_logit": 0.05021568015217781,
+          "word_attn_weight": 0.03435102850198746
+        }
+      ]
+    },
+    {
+      "sentence_id": 5,
+      "importance": 0.08810421079397202,
+      "sentence_text": "and with republicans like <UNK> <UNK> calling for investigations this isn't going to be handled with kid gloves",
+      "top_words": [
+        {
+          "rank": 0,
+          "token": "investigations",
+          "token_pos": 8,
+          "word_score_logit": 0.08455339819192886,
+          "word_attn_weight": 0.057927291840314865
+        },
+        {
+          "rank": 1,
+          "token": "for",
+          "token_pos": 7,
+          "word_score_logit": 0.0571320541203022,
+          "word_attn_weight": 0.05636042729020119
+        },
+        {
+          "rank": 2,
+          "token": "be",
+          "token_pos": 13,
+          "word_score_logit": 0.049765728414058685,
+          "word_attn_weight": 0.05594678595662117
+        },
+        {
+          "rank": 3,
+          "token": "gloves",
+          "token_pos": 17,
+          "word_score_logit": 0.049095213413238525,
+          "word_attn_weight": 0.05590928718447685
+        },
+        {
+          "rank": 4,
+          "token": "this",
+          "token_pos": 9,
+          "word_score_logit": 0.047383248805999756,
+          "word_attn_weight": 0.05581365153193474
+        }
+      ]
+    }
+  ],
+  "sample_query_to_sentence_links": [
+    {
+      "query_id": 20,
+      "from_sentence_id": 4,
+      "token": "texas",
+      "token_pos": 17,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.5288324952125549,
+          "sentence_text": "all your going to get in terms of a story is what the fbi atf and the texas rangers decide to release"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.1096290647983551,
+          "sentence_text": "in an investigation of this size with the feds state and civilians involved in the investigation it would be <UNK> impossible to cover up"
+        }
+      ]
+    },
+    {
+      "query_id": 21,
+      "from_sentence_id": 4,
+      "token": "the",
+      "token_pos": 16,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.5530387163162231,
+          "sentence_text": "all your going to get in terms of a story is what the fbi atf and the texas rangers decide to release"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.10505545884370804,
+          "sentence_text": "in an investigation of this size with the feds state and civilians involved in the investigation it would be <UNK> impossible to cover up"
+        }
+      ]
+    },
+    {
+      "query_id": 22,
+      "from_sentence_id": 4,
+      "token": "the",
+      "token_pos": 12,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.5196391344070435,
+          "sentence_text": "all your going to get in terms of a story is what the fbi atf and the texas rangers decide to release"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.1084178239107132,
+          "sentence_text": "in an investigation of this size with the feds state and civilians involved in the investigation it would be <UNK> impossible to cover up"
+        }
+      ]
+    },
+    {
+      "query_id": 23,
+      "from_sentence_id": 4,
+      "token": "and",
+      "token_pos": 15,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.5321535468101501,
+          "sentence_text": "all your going to get in terms of a story is what the fbi atf and the texas rangers decide to release"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.11556069552898407,
+          "sentence_text": "in an investigation of this size with the feds state and civilians involved in the investigation it would be <UNK> impossible to cover up"
+        }
+      ]
+    },
+    {
+      "query_id": 24,
+      "from_sentence_id": 4,
+      "token": "of",
+      "token_pos": 7,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.4409826993942261,
+          "sentence_text": "all your going to get in terms of a story is what the fbi atf and the texas rangers decide to release"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.12849661707878113,
+          "sentence_text": "in an investigation of this size with the feds state and civilians involved in the investigation it would be <UNK> impossible to cover up"
+        }
+      ]
+    },
+    {
+      "query_id": 5,
+      "from_sentence_id": 1,
+      "token": "investigation",
+      "token_pos": 2,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.31688258051872253,
+          "sentence_text": "all your going to get in terms of a story is what the fbi atf and the texas rangers decide to release"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.1997278928756714,
+          "sentence_text": "in an investigation of this size with the feds state and civilians involved in the investigation it would be <UNK> impossible to cover up"
+        }
+      ]
+    },
+    {
+      "query_id": 6,
+      "from_sentence_id": 1,
+      "token": "size",
+      "token_pos": 5,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.26979854702949524,
+          "sentence_text": "all your going to get in terms of a story is what the fbi atf and the texas rangers decide to release"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.18085184693336487,
+          "sentence_text": "in an investigation of this size with the feds state and civilians involved in the investigation it would be <UNK> impossible to cover up"
+        }
+      ]
+    },
+    {
+      "query_id": 7,
+      "from_sentence_id": 1,
+      "token": "an",
+      "token_pos": 1,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.24913451075553894,
+          "sentence_text": "all your going to get in terms of a story is what the fbi atf and the texas rangers decide to release"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.1712893843650818,
+          "sentence_text": "in an investigation of this size with the feds state and civilians involved in the investigation it would be <UNK> impossible to cover up"
+        }
+      ]
+    },
+    {
+      "query_id": 8,
+      "from_sentence_id": 1,
+      "token": "in",
+      "token_pos": 0,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.2434758096933365,
+          "sentence_text": "all your going to get in terms of a story is what the fbi atf and the texas rangers decide to release"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.1740189641714096,
+          "sentence_text": "in an investigation of this size with the feds state and civilians involved in the investigation it would be <UNK> impossible to cover up"
+        }
+      ]
+    },
+    {
+      "query_id": 9,
+      "from_sentence_id": 1,
+      "token": "up",
+      "token_pos": 23,
+      "top_attended_sentences": [
+        {
+          "rank": 0,
+          "sentence_id": 4,
+          "attn_weight": 0.2235974222421646,
+          "sentence_text": "all your going to get in terms of a story is what the fbi atf and the texas rangers decide to release"
+        },
+        {
+          "rank": 1,
+          "sentence_id": 1,
+          "attn_weight": 0.17565713822841644,
+          "sentence_text": "in an investigation of this size with the feds state and civilians involved in the investigation it would be <UNK> impossible to cover up"
+        }
+      ]
+    }
+  ],
+  "example_id": "test_2408"
+}
