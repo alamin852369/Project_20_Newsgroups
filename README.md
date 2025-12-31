@@ -5,73 +5,11 @@ This project focuses on text classification using the **20 Newsgroups dataset**.
 
 ---
 
-## Repository Structure
-
-### Main Training & Evaluation (Proposed Model)
-
-**train.py**  
-  Trains the classification model and automatically saves the best checkpoint
-  based on validation loss.
-
-- **`test.py`**  
-  Evaluates the trained model and produces performance metrics along with
-  visualizations such as confusion matrices and plots.
-
-- **`model.py`**  
-  Contains the core model architecture:
-  - BiLSTM encoder  
-  - Word-level attention  
-  - Top-K attention selection  
-  - Cross-attention mechanism  
-  - Final classification layer  
-
-- **`data_pipeline.py`**  
-  Handles all data-related processing, including dataset loading, sentence
-  splitting, tokenization, vocabulary construction, and loading **GloVe**
-  embeddings.
-
-- **`config.py`**  
-  Central place for defining hyperparameters, file paths, and experiment settings.
-
-- **`best_model_by_val_loss.pt`**  
-  Saved model checkpoint corresponding to the lowest validation loss.
-
----
 
 ### Baseline Models
 
 The **`Base/`** directory contains baseline implementations used for comparison
-with the proposed attention-based model. These baselines provide reference
-performance and help quantify the improvements achieved by more advanced
-architectural choices.
-
-Typical baseline components include:
-- Simpler neural architectures
-- Models without attention mechanisms
-- Standard training and evaluation pipelines
-
----
-
-### Analysis
-
-All analysis scripts generate their outputs inside the **`attention_reports/`**
-directory.
-
-- **`analysis-1.py`**  
-  Visualizes attention behavior, including Top-K word attention, cross-attention
-  heatmaps, and sentence-level importance.
-
-- **`analysis-2.py`**  
-  Performs error analysis such as per-class performance metrics, confusion
-  matrices, and inspection of misclassified examples.
-
-- **`analysis-3.py`**  
-  Studies attention dynamics, including Top-K sensitivity and entropy-based
-  statistical analysis.
-
-- **`analysis-4.py`**  
-  Investigates failure modes, focusing on model biases and compounding error
-  patterns.
+with the proposed attention-based model.
 
 ---
 
@@ -140,5 +78,15 @@ Run analysis scripts from the `Proposed` directory after model evaluation.
    python analysis-4.py
    ```
 
-All analysis outputs are saved in the `attention_reports/` directory.
+### Outputs
+
+- **`attention_reports/`**  
+  Contains all generated artifacts:
+  - JSON summaries  
+  - CSV files  
+  - Visualization plots  
+
+- **Evaluation files**
+  - `test_metrics.csv`
+  - `confusion_matrix_test.csv`
 
